@@ -1,0 +1,1236 @@
+{
+  "artifact_version": "dif-pilot-baselines-r1",
+  "review_date": "2026-09-29",
+  "status": "source_and_descriptor_baseline_complete_DFT_comparison_pending",
+  "source_doi": "10.1002/anie.202507835",
+  "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12258686/",
+  "source_sha256": {
+    "data/literature/week1/deepcocrystal.xml": "a7694890b651ee8e49865f46f63a26da52b5360cb21a95d5125b173f1f3f64b3",
+    "data/week3/literature/ANIE-64-e202507835-s001.pdf": "684edf33c16e0641481c50d6dcf4eda6af7942f45189f31989d7988c60a2dc0d",
+    "data/week3/literature/journal-si-extracted.txt": "44d518afeec56a39ccb661394de8083bfba78525c7f93f1c31b9d83f20f5d510",
+    "experiments/week3/literature-review.json": "607ab5cc4ae125e350869f6f426ef6a241158a498fee029a27fa35c0a5fd9b91",
+    "reports/week1-molecule-identities.json": "deb13b01ba66b148b8ed1e46e8848f9355e973729de9e9404cfc37a0b958d4ca",
+    "experiments/week2/chemistry-candidates.json": "a6bc5fa4ae8bad3488b038a96437aa66a019469f37c217ec4d95833a7b6686b0",
+    "data/literature/week1/pubchem/diflunisal.json": "f7f19723c38c384c86077d5af3a99a9c5b007fa07203fe00fb37d498550fb251",
+    "data/literature/week1/pubchem/adenine.json": "cfb37b674d5fdef51344d4d4ed58b3d9f618393ddca726e073f84cd4244f4ca1",
+    "data/literature/week1/pubchem/caffeine.json": "8f0757fcbdbbed7fbc25fff18aedcef10205f318b37dbc218d5e6125aff5e159",
+    "data/literature/week1/pubchem/theobromine.json": "8e94030c7f08b9ac2e5ef4d9588bd95d218f4e8ed763327edd1d0317bd5079e5",
+    "data/literature/week1/pubchem/xanthine.json": "d5d529a1baebadc7bc5e1815406718cf35c0e50d27229d41e412334137542e86"
+  },
+  "visual_review": {
+    "pdf_pages": [
+      3,
+      15
+    ],
+    "table": "S11",
+    "outcomes_and_conditions_checked": true
+  },
+  "script_sha256": "6effbb1260ada06ec1b69a52d3e4f5c92aa0fb6d81e9bab94ec3a47c073a9ca5",
+  "descriptor_method": {
+    "rdkit_version": "2026.03.6",
+    "functions": [
+      "rdkit.Chem.Lipinski.NumHDonors",
+      "rdkit.Chem.Lipinski.NumHAcceptors"
+    ],
+    "donor_definition_version": "1.0.0",
+    "acceptor_definition_version": "2.0.0",
+    "Lipinski_python_sha256": "6f7b5b8c86d05d29e48eaafdb8ebd85d4acf5c81c2df0d7aef8987467c9923fd",
+    "rdMolDescriptors_binary_sha256": "41b7532cebc4bfe0f99bfe59b0a57d520de0c0b99a0ff7fa9115879371f414f8",
+    "primary_representation": "validated neutral PubChem graph; not an optimized or proton-transferred complex",
+    "counts_are": "donor/acceptor sites in a 2D graph, not donor hydrogens or realized hydrogen bonds",
+    "not_included": [
+      "3D accessibility",
+      "intramolecular hydrogen bonding",
+      "bond strength",
+      "crystal packing",
+      "proton-transfer populations"
+    ],
+    "is_HBP_model": false,
+    "class_predictor_fitted": false
+  },
+  "uncertainty_policy_source_discrepancy": {
+    "main_text_prospective_sd_threshold": 0.1,
+    "table_3_caption_abstains_when_sd_greater_than": 0.3,
+    "reported_table_labels_are_authoritative_for_this_comparison": true,
+    "impact_on_four_pilot_labels": "none; both positive SDs <= 0.10 and both abstained SDs > 0.30",
+    "source_locations": [
+      "main text Uncertainty estimation final paragraph",
+      "Table 3 caption"
+    ],
+    "sd_scope": "variation across augmented SMILES model predictions, not experimental error or a confidence interval",
+    "majority_agreement_scope": "agreement with the majority class, not necessarily the positive class and not experimental yield",
+    "printed_zero_sd_is_rounded_not_proof_of_zero_variation": true
+  },
+  "published_predictions_origin": "paper tables, not local model execution",
+  "published_model_evaluation_design": {
+    "DeepCocrystal": "prospective in original study; retrospective reuse here",
+    "other_Table_3_models": "retrospective in original study"
+  },
+  "paper_table_3_all_six_tested_pairs": [
+    {
+      "coformer": "adenine",
+      "experimental": "positive",
+      "published_predictions": {
+        "DeepCocrystal": "positive",
+        "SMI-CNN(can)": "positive",
+        "CCGNet": "positive",
+        "CC-Descriptor-ML": "positive",
+        "Fingerprint-DNN": "positive",
+        "Descriptor-DNN": "positive",
+        "MC": "negative",
+        "HBP": "negative"
+      },
+      "raw_symbols": [
+        "✓",
+        "✓",
+        "✓",
+        "✓",
+        "✓",
+        "✓",
+        "✓",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "coformer": "caffeine",
+      "experimental": "positive",
+      "published_predictions": {
+        "DeepCocrystal": "positive",
+        "SMI-CNN(can)": "positive",
+        "CCGNet": "negative",
+        "CC-Descriptor-ML": "positive",
+        "Fingerprint-DNN": "positive",
+        "Descriptor-DNN": "positive",
+        "MC": "positive",
+        "HBP": "negative"
+      },
+      "raw_symbols": [
+        "✓",
+        "✓",
+        "✓",
+        "×",
+        "✓",
+        "✓",
+        "✓",
+        "✓",
+        "×"
+      ]
+    },
+    {
+      "coformer": "theobromine",
+      "experimental": "negative",
+      "published_predictions": {
+        "DeepCocrystal": "abstain",
+        "SMI-CNN(can)": "positive",
+        "CCGNet": "negative",
+        "CC-Descriptor-ML": "positive",
+        "Fingerprint-DNN": "positive",
+        "Descriptor-DNN": "positive",
+        "MC": "negative",
+        "HBP": "negative"
+      },
+      "raw_symbols": [
+        "×",
+        "?",
+        "✓",
+        "×",
+        "✓",
+        "✓",
+        "✓",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "coformer": "xanthine",
+      "experimental": "negative",
+      "published_predictions": {
+        "DeepCocrystal": "abstain",
+        "SMI-CNN(can)": "positive",
+        "CCGNet": "positive",
+        "CC-Descriptor-ML": "positive",
+        "Fingerprint-DNN": "negative",
+        "Descriptor-DNN": "positive",
+        "MC": "negative",
+        "HBP": "negative"
+      },
+      "raw_symbols": [
+        "×",
+        "?",
+        "✓",
+        "✓",
+        "✓",
+        "×",
+        "✓",
+        "×",
+        "×"
+      ]
+    },
+    {
+      "coformer": "rosmarinic acid",
+      "experimental": "negative",
+      "published_predictions": {
+        "DeepCocrystal": "negative",
+        "SMI-CNN(can)": "positive",
+        "CCGNet": "positive",
+        "CC-Descriptor-ML": "negative",
+        "Fingerprint-DNN": "positive",
+        "Descriptor-DNN": "negative",
+        "MC": "positive",
+        "HBP": "negative"
+      },
+      "raw_symbols": [
+        "×",
+        "×",
+        "✓",
+        "✓",
+        "×",
+        "✓",
+        "×",
+        "✓",
+        "×"
+      ]
+    },
+    {
+      "coformer": "riboflavin",
+      "experimental": "negative",
+      "published_predictions": {
+        "DeepCocrystal": "negative",
+        "SMI-CNN(can)": "negative",
+        "CCGNet": "negative",
+        "CC-Descriptor-ML": "negative",
+        "Fingerprint-DNN": "negative",
+        "Descriptor-DNN": "negative",
+        "MC": "positive",
+        "HBP": "negative"
+      },
+      "raw_symbols": [
+        "×",
+        "×",
+        "×",
+        "×",
+        "×",
+        "×",
+        "×",
+        "✓",
+        "×"
+      ]
+    }
+  ],
+  "paper_table_S11_all_twelve_candidates": [
+    {
+      "coformer": "caffeine",
+      "SMI_CNN_can_score": 0.99,
+      "DeepCocrystal_mean": 0.99,
+      "DeepCocrystal_sd": 0.01,
+      "majority_agreement_percent": 100,
+      "experimental": "positive",
+      "printed_score_and_sd": "0.99 ± 0.01",
+      "source_pdf_page": 15
+    },
+    {
+      "coformer": "adenine",
+      "SMI_CNN_can_score": 0.99,
+      "DeepCocrystal_mean": 0.99,
+      "DeepCocrystal_sd": 0.0,
+      "majority_agreement_percent": 100,
+      "experimental": "positive",
+      "printed_score_and_sd": "0.99 ± 0.00",
+      "source_pdf_page": 15
+    },
+    {
+      "coformer": "theobromine",
+      "SMI_CNN_can_score": 0.99,
+      "DeepCocrystal_mean": 0.66,
+      "DeepCocrystal_sd": 0.35,
+      "majority_agreement_percent": 60,
+      "experimental": "negative",
+      "printed_score_and_sd": "0.66 ± 0.35",
+      "source_pdf_page": 15
+    },
+    {
+      "coformer": "xanthine",
+      "SMI_CNN_can_score": 0.99,
+      "DeepCocrystal_mean": 0.63,
+      "DeepCocrystal_sd": 0.38,
+      "majority_agreement_percent": 60,
+      "experimental": "negative",
+      "printed_score_and_sd": "0.63 ± 0.38",
+      "source_pdf_page": 15
+    },
+    {
+      "coformer": "7-hydroxycoumarin",
+      "SMI_CNN_can_score": 0.99,
+      "DeepCocrystal_mean": 0.26,
+      "DeepCocrystal_sd": 0.29,
+      "majority_agreement_percent": 80,
+      "experimental": "not_tested",
+      "printed_score_and_sd": "0.26 ± 0.29",
+      "source_pdf_page": 15
+    },
+    {
+      "coformer": "ternatin",
+      "SMI_CNN_can_score": 0.99,
+      "DeepCocrystal_mean": 0.26,
+      "DeepCocrystal_sd": 0.27,
+      "majority_agreement_percent": 80,
+      "experimental": "not_tested",
+      "printed_score_and_sd": "0.26 ± 0.27",
+      "source_pdf_page": 15
+    },
+    {
+      "coformer": "resveratrol",
+      "SMI_CNN_can_score": 0.61,
+      "DeepCocrystal_mean": 0.21,
+      "DeepCocrystal_sd": 0.28,
+      "majority_agreement_percent": 90,
+      "experimental": "not_tested",
+      "printed_score_and_sd": "0.21 ± 0.28",
+      "source_pdf_page": 15
+    },
+    {
+      "coformer": "quercitin",
+      "SMI_CNN_can_score": 0.94,
+      "DeepCocrystal_mean": 0.06,
+      "DeepCocrystal_sd": 0.09,
+      "majority_agreement_percent": 100,
+      "experimental": "not_tested",
+      "printed_score_and_sd": "0.06 ± 0.09",
+      "source_pdf_page": 15
+    },
+    {
+      "coformer": "cinnamic acid",
+      "SMI_CNN_can_score": 0.21,
+      "DeepCocrystal_mean": 0.05,
+      "DeepCocrystal_sd": 0.07,
+      "majority_agreement_percent": 100,
+      "experimental": "not_tested",
+      "printed_score_and_sd": "0.05 ± 0.07",
+      "source_pdf_page": 15
+    },
+    {
+      "coformer": "curcumin",
+      "SMI_CNN_can_score": 0.09,
+      "DeepCocrystal_mean": 0.03,
+      "DeepCocrystal_sd": 0.05,
+      "majority_agreement_percent": 100,
+      "experimental": "not_tested",
+      "printed_score_and_sd": "0.03 ± 0.05",
+      "source_pdf_page": 15
+    },
+    {
+      "coformer": "rosmarinic acid",
+      "SMI_CNN_can_score": 0.94,
+      "DeepCocrystal_mean": 0.02,
+      "DeepCocrystal_sd": 0.02,
+      "majority_agreement_percent": 100,
+      "experimental": "negative",
+      "printed_score_and_sd": "0.02 ± 0.02",
+      "source_pdf_page": 15
+    },
+    {
+      "coformer": "riboflavin",
+      "SMI_CNN_can_score": 0.05,
+      "DeepCocrystal_mean": 0.0,
+      "DeepCocrystal_sd": 0.0,
+      "majority_agreement_percent": 100,
+      "experimental": "negative",
+      "printed_score_and_sd": "0.00 ± 0.00",
+      "source_pdf_page": 15
+    }
+  ],
+  "neutral_reference_molecule_features": [
+    {
+      "molecule": "diflunisal",
+      "PubChem_CID": 3059,
+      "input_smiles": "O=C(O)c1cc(-c2ccc(F)cc2F)ccc1O",
+      "canonical_smiles": "O=C(O)c1cc(-c2ccc(F)cc2F)ccc1O",
+      "formula": "C13H8F2O3",
+      "InChIKey": "HUPFGZXOMWLGNK-UHFFFAOYSA-N",
+      "formal_charge": 0,
+      "HBD_sites": 2,
+      "HBA_sites": 2,
+      "definition_audit": {
+        "legacy_python_HDonorSmarts_match_count_not_used": 2,
+        "legacy_python_HAcceptorSmarts_match_count_not_used": 2,
+        "atom_indices_not_assigned": "Python SMARTS helpers are not guaranteed equivalent to the compiled CalcNumHBD/HBA descriptors"
+      }
+    },
+    {
+      "molecule": "adenine",
+      "PubChem_CID": 190,
+      "input_smiles": "Nc1ncnc2nc[nH]c12",
+      "canonical_smiles": "Nc1ncnc2nc[nH]c12",
+      "formula": "C5H5N5",
+      "InChIKey": "GFFGJBXGBJISGV-UHFFFAOYSA-N",
+      "formal_charge": 0,
+      "HBD_sites": 2,
+      "HBA_sites": 4,
+      "definition_audit": {
+        "legacy_python_HDonorSmarts_match_count_not_used": 2,
+        "legacy_python_HAcceptorSmarts_match_count_not_used": 4,
+        "atom_indices_not_assigned": "Python SMARTS helpers are not guaranteed equivalent to the compiled CalcNumHBD/HBA descriptors"
+      }
+    },
+    {
+      "molecule": "caffeine",
+      "PubChem_CID": 2519,
+      "input_smiles": "Cn1c(=O)c2c(ncn2C)n(C)c1=O",
+      "canonical_smiles": "Cn1c(=O)c2c(ncn2C)n(C)c1=O",
+      "formula": "C8H10N4O2",
+      "InChIKey": "RYYVLZVUVIJVGH-UHFFFAOYSA-N",
+      "formal_charge": 0,
+      "HBD_sites": 0,
+      "HBA_sites": 3,
+      "definition_audit": {
+        "legacy_python_HDonorSmarts_match_count_not_used": 0,
+        "legacy_python_HAcceptorSmarts_match_count_not_used": 6,
+        "atom_indices_not_assigned": "Python SMARTS helpers are not guaranteed equivalent to the compiled CalcNumHBD/HBA descriptors"
+      }
+    },
+    {
+      "molecule": "theobromine",
+      "PubChem_CID": 5429,
+      "input_smiles": "Cn1cnc2c1c(=O)[nH]c(=O)n2C",
+      "canonical_smiles": "Cn1cnc2c1c(=O)[nH]c(=O)n2C",
+      "formula": "C7H8N4O2",
+      "InChIKey": "YAPQBXQYLJRXSA-UHFFFAOYSA-N",
+      "formal_charge": 0,
+      "HBD_sites": 1,
+      "HBA_sites": 3,
+      "definition_audit": {
+        "legacy_python_HDonorSmarts_match_count_not_used": 1,
+        "legacy_python_HAcceptorSmarts_match_count_not_used": 5,
+        "atom_indices_not_assigned": "Python SMARTS helpers are not guaranteed equivalent to the compiled CalcNumHBD/HBA descriptors"
+      }
+    },
+    {
+      "molecule": "xanthine",
+      "PubChem_CID": 1188,
+      "input_smiles": "O=c1[nH]c(=O)c2[nH]cnc2[nH]1",
+      "canonical_smiles": "O=c1[nH]c(=O)c2[nH]cnc2[nH]1",
+      "formula": "C5H4N4O2",
+      "InChIKey": "LRFVTYWOQMYALW-UHFFFAOYSA-N",
+      "formal_charge": 0,
+      "HBD_sites": 3,
+      "HBA_sites": 3,
+      "definition_audit": {
+        "legacy_python_HDonorSmarts_match_count_not_used": 3,
+        "legacy_python_HAcceptorSmarts_match_count_not_used": 3,
+        "atom_indices_not_assigned": "Python SMARTS helpers are not guaranteed equivalent to the compiled CalcNumHBD/HBA descriptors"
+      }
+    }
+  ],
+  "enumerated_tautomer_features": [
+    {
+      "molecule": "diflunisal",
+      "state_id": "diflunisal-t00",
+      "pubchem_representation": false,
+      "present_in_dimer_candidate_inventory": false,
+      "input_smiles": "O=C(O)C1=CC(c2ccc(F)cc2F)=CCC1=O",
+      "canonical_smiles": "O=C(O)C1=CC(c2ccc(F)cc2F)=CCC1=O",
+      "formula": "C13H8F2O3",
+      "InChIKey": "LJTCHIDVPBWIDZ-UHFFFAOYSA-N",
+      "formal_charge": 0,
+      "HBD_sites": 1,
+      "HBA_sites": 2,
+      "definition_audit": {
+        "legacy_python_HDonorSmarts_match_count_not_used": 1,
+        "legacy_python_HAcceptorSmarts_match_count_not_used": 2,
+        "atom_indices_not_assigned": "Python SMARTS helpers are not guaranteed equivalent to the compiled CalcNumHBD/HBA descriptors"
+      }
+    },
+    {
+      "molecule": "diflunisal",
+      "state_id": "diflunisal-t01",
+      "pubchem_representation": false,
+      "present_in_dimer_candidate_inventory": false,
+      "input_smiles": "O=C(O)C1C=C(c2ccc(F)cc2F)C=CC1=O",
+      "canonical_smiles": "O=C(O)C1C=C(c2ccc(F)cc2F)C=CC1=O",
+      "formula": "C13H8F2O3",
+      "InChIKey": "VVCXKDBSCDOPNL-UHFFFAOYSA-N",
+      "formal_charge": 0,
+      "HBD_sites": 1,
+      "HBA_sites": 2,
+      "definition_audit": {
+        "legacy_python_HDonorSmarts_match_count_not_used": 1,
+        "legacy_python_HAcceptorSmarts_match_count_not_used": 2,
+        "atom_indices_not_assigned": "Python SMARTS helpers are not guaranteed equivalent to the compiled CalcNumHBD/HBA descriptors"
+      }
+    },
+    {
+      "molecule": "diflunisal",
+      "state_id": "diflunisal-t02",
+      "pubchem_representation": true,
+      "present_in_dimer_candidate_inventory": true,
+      "input_smiles": "O=C(O)c1cc(-c2ccc(F)cc2F)ccc1O",
+      "canonical_smiles": "O=C(O)c1cc(-c2ccc(F)cc2F)ccc1O",
+      "formula": "C13H8F2O3",
+      "InChIKey": "HUPFGZXOMWLGNK-UHFFFAOYSA-N",
+      "formal_charge": 0,
+      "HBD_sites": 2,
+      "HBA_sites": 2,
+      "definition_audit": {
+        "legacy_python_HDonorSmarts_match_count_not_used": 2,
+        "legacy_python_HAcceptorSmarts_match_count_not_used": 2,
+        "atom_indices_not_assigned": "Python SMARTS helpers are not guaranteed equivalent to the compiled CalcNumHBD/HBA descriptors"
+      }
+    },
+    {
+      "molecule": "diflunisal",
+      "state_id": "diflunisal-t03",
+      "pubchem_representation": false,
+      "present_in_dimer_candidate_inventory": false,
+      "input_smiles": "O=C1C=CC(c2ccc(F)cc2F)=CC1=C(O)O",
+      "canonical_smiles": "O=C1C=CC(c2ccc(F)cc2F)=CC1=C(O)O",
+      "formula": "C13H8F2O3",
+      "InChIKey": "WLUKIQJBMHLUEQ-UHFFFAOYSA-N",
+      "formal_charge": 0,
+      "HBD_sites": 2,
+      "HBA_sites": 3,
+      "definition_audit": {
+        "legacy_python_HDonorSmarts_match_count_not_used": 2,
+        "legacy_python_HAcceptorSmarts_match_count_not_used": 3,
+        "atom_indices_not_assigned": "Python SMARTS helpers are not guaranteed equivalent to the compiled CalcNumHBD/HBA descriptors"
+      }
+    },
+    {
+      "molecule": "adenine",
+      "state_id": "adenine-t00",
+      "pubchem_representation": false,
+      "present_in_dimer_candidate_inventory": false,
+      "input_smiles": "N=c1[nH]cnc2[nH]cnc12",
+      "canonical_smiles": "N=c1[nH]cnc2[nH]cnc12",
+      "formula": "C5H5N5",
+      "InChIKey": "GFFGJBXGBJISGV-UHFFFAOYSA-N",
+      "formal_charge": 0,
+      "HBD_sites": 3,
+      "HBA_sites": 3,
+      "definition_audit": {
+        "legacy_python_HDonorSmarts_match_count_not_used": 3,
+        "legacy_python_HAcceptorSmarts_match_count_not_used": 3,
+        "atom_indices_not_assigned": "Python SMARTS helpers are not guaranteed equivalent to the compiled CalcNumHBD/HBA descriptors"
+      }
+    },
+    {
+      "molecule": "adenine",
+      "state_id": "adenine-t01",
+      "pubchem_representation": false,
+      "present_in_dimer_candidate_inventory": false,
+      "input_smiles": "N=c1[nH]cnc2nc[nH]c12",
+      "canonical_smiles": "N=c1[nH]cnc2nc[nH]c12",
+      "formula": "C5H5N5",
+      "InChIKey": "GFFGJBXGBJISGV-UHFFFAOYSA-N",
+      "formal_charge": 0,
+      "HBD_sites": 3,
+      "HBA_sites": 3,
+      "definition_audit": {
+        "legacy_python_HDonorSmarts_match_count_not_used": 3,
+        "legacy_python_HAcceptorSmarts_match_count_not_used": 3,
+        "atom_indices_not_assigned": "Python SMARTS helpers are not guaranteed equivalent to the compiled CalcNumHBD/HBA descriptors"
+      }
+    },
+    {
+      "molecule": "adenine",
+      "state_id": "adenine-t02",
+      "pubchem_representation": false,
+      "present_in_dimer_candidate_inventory": false,
+      "input_smiles": "N=c1nc[nH]c2[nH]cnc12",
+      "canonical_smiles": "N=c1nc[nH]c2[nH]cnc12",
+      "formula": "C5H5N5",
+      "InChIKey": "GFFGJBXGBJISGV-UHFFFAOYSA-N",
+      "formal_charge": 0,
+      "HBD_sites": 3,
+      "HBA_sites": 3,
+      "definition_audit": {
+        "legacy_python_HDonorSmarts_match_count_not_used": 3,
+        "legacy_python_HAcceptorSmarts_match_count_not_used": 3,
+        "atom_indices_not_assigned": "Python SMARTS helpers are not guaranteed equivalent to the compiled CalcNumHBD/HBA descriptors"
+      }
+    },
+    {
+      "molecule": "adenine",
+      "state_id": "adenine-t03",
+      "pubchem_representation": false,
+      "present_in_dimer_candidate_inventory": false,
+      "input_smiles": "N=c1nc[nH]c2nc[nH]c12",
+      "canonical_smiles": "N=c1nc[nH]c2nc[nH]c12",
+      "formula": "C5H5N5",
+      "InChIKey": "GFFGJBXGBJISGV-UHFFFAOYSA-N",
+      "formal_charge": 0,
+      "HBD_sites": 3,
+      "HBA_sites": 3,
+      "definition_audit": {
+        "legacy_python_HDonorSmarts_match_count_not_used": 3,
+        "legacy_python_HAcceptorSmarts_match_count_not_used": 3,
+        "atom_indices_not_assigned": "Python SMARTS helpers are not guaranteed equivalent to the compiled CalcNumHBD/HBA descriptors"
+      }
+    },
+    {
+      "molecule": "adenine",
+      "state_id": "adenine-t04",
+      "pubchem_representation": false,
+      "present_in_dimer_candidate_inventory": false,
+      "input_smiles": "Nc1[nH]cnc2ncnc1-2",
+      "canonical_smiles": "Nc1[nH]cnc2ncnc1-2",
+      "formula": "C5H5N5",
+      "InChIKey": "GFFGJBXGBJISGV-UHFFFAOYSA-N",
+      "formal_charge": 0,
+      "HBD_sites": 2,
+      "HBA_sites": 4,
+      "definition_audit": {
+        "legacy_python_HDonorSmarts_match_count_not_used": 2,
+        "legacy_python_HAcceptorSmarts_match_count_not_used": 4,
+        "atom_indices_not_assigned": "Python SMARTS helpers are not guaranteed equivalent to the compiled CalcNumHBD/HBA descriptors"
+      }
+    },
+    {
+      "molecule": "adenine",
+      "state_id": "adenine-t05",
+      "pubchem_representation": false,
+      "present_in_dimer_candidate_inventory": false,
+      "input_smiles": "Nc1nc[nH]c2ncnc1-2",
+      "canonical_smiles": "Nc1nc[nH]c2ncnc1-2",
+      "formula": "C5H5N5",
+      "InChIKey": "GFFGJBXGBJISGV-UHFFFAOYSA-N",
+      "formal_charge": 0,
+      "HBD_sites": 2,
+      "HBA_sites": 4,
+      "definition_audit": {
+        "legacy_python_HDonorSmarts_match_count_not_used": 2,
+        "legacy_python_HAcceptorSmarts_match_count_not_used": 4,
+        "atom_indices_not_assigned": "Python SMARTS helpers are not guaranteed equivalent to the compiled CalcNumHBD/HBA descriptors"
+      }
+    },
+    {
+      "molecule": "adenine",
+      "state_id": "adenine-t06",
+      "pubchem_representation": false,
+      "present_in_dimer_candidate_inventory": true,
+      "input_smiles": "Nc1ncnc2[nH]cnc12",
+      "canonical_smiles": "Nc1ncnc2[nH]cnc12",
+      "formula": "C5H5N5",
+      "InChIKey": "GFFGJBXGBJISGV-UHFFFAOYSA-N",
+      "formal_charge": 0,
+      "HBD_sites": 2,
+      "HBA_sites": 4,
+      "definition_audit": {
+        "legacy_python_HDonorSmarts_match_count_not_used": 2,
+        "legacy_python_HAcceptorSmarts_match_count_not_used": 4,
+        "atom_indices_not_assigned": "Python SMARTS helpers are not guaranteed equivalent to the compiled CalcNumHBD/HBA descriptors"
+      }
+    },
+    {
+      "molecule": "adenine",
+      "state_id": "adenine-t07",
+      "pubchem_representation": true,
+      "present_in_dimer_candidate_inventory": true,
+      "input_smiles": "Nc1ncnc2nc[nH]c12",
+      "canonical_smiles": "Nc1ncnc2nc[nH]c12",
+      "formula": "C5H5N5",
+      "InChIKey": "GFFGJBXGBJISGV-UHFFFAOYSA-N",
+      "formal_charge": 0,
+      "HBD_sites": 2,
+      "HBA_sites": 4,
+      "definition_audit": {
+        "legacy_python_HDonorSmarts_match_count_not_used": 2,
+        "legacy_python_HAcceptorSmarts_match_count_not_used": 4,
+        "atom_indices_not_assigned": "Python SMARTS helpers are not guaranteed equivalent to the compiled CalcNumHBD/HBA descriptors"
+      }
+    },
+    {
+      "molecule": "caffeine",
+      "state_id": "caffeine-t00",
+      "pubchem_representation": true,
+      "present_in_dimer_candidate_inventory": true,
+      "input_smiles": "Cn1c(=O)c2c(ncn2C)n(C)c1=O",
+      "canonical_smiles": "Cn1c(=O)c2c(ncn2C)n(C)c1=O",
+      "formula": "C8H10N4O2",
+      "InChIKey": "RYYVLZVUVIJVGH-UHFFFAOYSA-N",
+      "formal_charge": 0,
+      "HBD_sites": 0,
+      "HBA_sites": 3,
+      "definition_audit": {
+        "legacy_python_HDonorSmarts_match_count_not_used": 0,
+        "legacy_python_HAcceptorSmarts_match_count_not_used": 6,
+        "atom_indices_not_assigned": "Python SMARTS helpers are not guaranteed equivalent to the compiled CalcNumHBD/HBA descriptors"
+      }
+    },
+    {
+      "molecule": "theobromine",
+      "state_id": "theobromine-t00",
+      "pubchem_representation": true,
+      "present_in_dimer_candidate_inventory": true,
+      "input_smiles": "Cn1cnc2c1c(=O)[nH]c(=O)n2C",
+      "canonical_smiles": "Cn1cnc2c1c(=O)[nH]c(=O)n2C",
+      "formula": "C7H8N4O2",
+      "InChIKey": "YAPQBXQYLJRXSA-UHFFFAOYSA-N",
+      "formal_charge": 0,
+      "HBD_sites": 1,
+      "HBA_sites": 3,
+      "definition_audit": {
+        "legacy_python_HDonorSmarts_match_count_not_used": 1,
+        "legacy_python_HAcceptorSmarts_match_count_not_used": 5,
+        "atom_indices_not_assigned": "Python SMARTS helpers are not guaranteed equivalent to the compiled CalcNumHBD/HBA descriptors"
+      }
+    },
+    {
+      "molecule": "theobromine",
+      "state_id": "theobromine-t01",
+      "pubchem_representation": false,
+      "present_in_dimer_candidate_inventory": false,
+      "input_smiles": "Cn1cnc2c1c(=O)nc(O)n2C",
+      "canonical_smiles": "Cn1cnc2c1c(=O)nc(O)n2C",
+      "formula": "C7H8N4O2",
+      "InChIKey": "YAPQBXQYLJRXSA-UHFFFAOYSA-N",
+      "formal_charge": 0,
+      "HBD_sites": 1,
+      "HBA_sites": 4,
+      "definition_audit": {
+        "legacy_python_HDonorSmarts_match_count_not_used": 1,
+        "legacy_python_HAcceptorSmarts_match_count_not_used": 6,
+        "atom_indices_not_assigned": "Python SMARTS helpers are not guaranteed equivalent to the compiled CalcNumHBD/HBA descriptors"
+      }
+    },
+    {
+      "molecule": "theobromine",
+      "state_id": "theobromine-t02",
+      "pubchem_representation": false,
+      "present_in_dimer_candidate_inventory": false,
+      "input_smiles": "Cn1cnc2c1c(O)nc(=O)n2C",
+      "canonical_smiles": "Cn1cnc2c1c(O)nc(=O)n2C",
+      "formula": "C7H8N4O2",
+      "InChIKey": "YAPQBXQYLJRXSA-UHFFFAOYSA-N",
+      "formal_charge": 0,
+      "HBD_sites": 1,
+      "HBA_sites": 4,
+      "definition_audit": {
+        "legacy_python_HDonorSmarts_match_count_not_used": 1,
+        "legacy_python_HAcceptorSmarts_match_count_not_used": 6,
+        "atom_indices_not_assigned": "Python SMARTS helpers are not guaranteed equivalent to the compiled CalcNumHBD/HBA descriptors"
+      }
+    },
+    {
+      "molecule": "xanthine",
+      "state_id": "xanthine-t00",
+      "pubchem_representation": true,
+      "present_in_dimer_candidate_inventory": true,
+      "input_smiles": "O=c1[nH]c(=O)c2[nH]cnc2[nH]1",
+      "canonical_smiles": "O=c1[nH]c(=O)c2[nH]cnc2[nH]1",
+      "formula": "C5H4N4O2",
+      "InChIKey": "LRFVTYWOQMYALW-UHFFFAOYSA-N",
+      "formal_charge": 0,
+      "HBD_sites": 3,
+      "HBA_sites": 3,
+      "definition_audit": {
+        "legacy_python_HDonorSmarts_match_count_not_used": 3,
+        "legacy_python_HAcceptorSmarts_match_count_not_used": 3,
+        "atom_indices_not_assigned": "Python SMARTS helpers are not guaranteed equivalent to the compiled CalcNumHBD/HBA descriptors"
+      }
+    },
+    {
+      "molecule": "xanthine",
+      "state_id": "xanthine-t01",
+      "pubchem_representation": false,
+      "present_in_dimer_candidate_inventory": true,
+      "input_smiles": "O=c1[nH]c(=O)c2nc[nH]c2[nH]1",
+      "canonical_smiles": "O=c1[nH]c(=O)c2nc[nH]c2[nH]1",
+      "formula": "C5H4N4O2",
+      "InChIKey": "LRFVTYWOQMYALW-UHFFFAOYSA-N",
+      "formal_charge": 0,
+      "HBD_sites": 3,
+      "HBA_sites": 3,
+      "definition_audit": {
+        "legacy_python_HDonorSmarts_match_count_not_used": 3,
+        "legacy_python_HAcceptorSmarts_match_count_not_used": 3,
+        "atom_indices_not_assigned": "Python SMARTS helpers are not guaranteed equivalent to the compiled CalcNumHBD/HBA descriptors"
+      }
+    },
+    {
+      "molecule": "xanthine",
+      "state_id": "xanthine-t02",
+      "pubchem_representation": false,
+      "present_in_dimer_candidate_inventory": false,
+      "input_smiles": "O=c1[nH]c(O)nc2[nH]cnc12",
+      "canonical_smiles": "O=c1[nH]c(O)nc2[nH]cnc12",
+      "formula": "C5H4N4O2",
+      "InChIKey": "LRFVTYWOQMYALW-UHFFFAOYSA-N",
+      "formal_charge": 0,
+      "HBD_sites": 3,
+      "HBA_sites": 4,
+      "definition_audit": {
+        "legacy_python_HDonorSmarts_match_count_not_used": 3,
+        "legacy_python_HAcceptorSmarts_match_count_not_used": 4,
+        "atom_indices_not_assigned": "Python SMARTS helpers are not guaranteed equivalent to the compiled CalcNumHBD/HBA descriptors"
+      }
+    },
+    {
+      "molecule": "xanthine",
+      "state_id": "xanthine-t03",
+      "pubchem_representation": false,
+      "present_in_dimer_candidate_inventory": false,
+      "input_smiles": "O=c1[nH]c(O)nc2nc[nH]c12",
+      "canonical_smiles": "O=c1[nH]c(O)nc2nc[nH]c12",
+      "formula": "C5H4N4O2",
+      "InChIKey": "LRFVTYWOQMYALW-UHFFFAOYSA-N",
+      "formal_charge": 0,
+      "HBD_sites": 3,
+      "HBA_sites": 4,
+      "definition_audit": {
+        "legacy_python_HDonorSmarts_match_count_not_used": 3,
+        "legacy_python_HAcceptorSmarts_match_count_not_used": 4,
+        "atom_indices_not_assigned": "Python SMARTS helpers are not guaranteed equivalent to the compiled CalcNumHBD/HBA descriptors"
+      }
+    },
+    {
+      "molecule": "xanthine",
+      "state_id": "xanthine-t04",
+      "pubchem_representation": false,
+      "present_in_dimer_candidate_inventory": false,
+      "input_smiles": "O=c1[nH]c2ncnc-2c(O)[nH]1",
+      "canonical_smiles": "O=c1[nH]c2ncnc-2c(O)[nH]1",
+      "formula": "C5H4N4O2",
+      "InChIKey": "LRFVTYWOQMYALW-UHFFFAOYSA-N",
+      "formal_charge": 0,
+      "HBD_sites": 3,
+      "HBA_sites": 4,
+      "definition_audit": {
+        "legacy_python_HDonorSmarts_match_count_not_used": 3,
+        "legacy_python_HAcceptorSmarts_match_count_not_used": 4,
+        "atom_indices_not_assigned": "Python SMARTS helpers are not guaranteed equivalent to the compiled CalcNumHBD/HBA descriptors"
+      }
+    },
+    {
+      "molecule": "xanthine",
+      "state_id": "xanthine-t05",
+      "pubchem_representation": false,
+      "present_in_dimer_candidate_inventory": false,
+      "input_smiles": "O=c1nc(O)[nH]c2[nH]cnc12",
+      "canonical_smiles": "O=c1nc(O)[nH]c2[nH]cnc12",
+      "formula": "C5H4N4O2",
+      "InChIKey": "LRFVTYWOQMYALW-UHFFFAOYSA-N",
+      "formal_charge": 0,
+      "HBD_sites": 3,
+      "HBA_sites": 4,
+      "definition_audit": {
+        "legacy_python_HDonorSmarts_match_count_not_used": 3,
+        "legacy_python_HAcceptorSmarts_match_count_not_used": 4,
+        "atom_indices_not_assigned": "Python SMARTS helpers are not guaranteed equivalent to the compiled CalcNumHBD/HBA descriptors"
+      }
+    },
+    {
+      "molecule": "xanthine",
+      "state_id": "xanthine-t06",
+      "pubchem_representation": false,
+      "present_in_dimer_candidate_inventory": false,
+      "input_smiles": "O=c1nc(O)[nH]c2nc[nH]c12",
+      "canonical_smiles": "O=c1nc(O)[nH]c2nc[nH]c12",
+      "formula": "C5H4N4O2",
+      "InChIKey": "LRFVTYWOQMYALW-UHFFFAOYSA-N",
+      "formal_charge": 0,
+      "HBD_sites": 3,
+      "HBA_sites": 4,
+      "definition_audit": {
+        "legacy_python_HDonorSmarts_match_count_not_used": 3,
+        "legacy_python_HAcceptorSmarts_match_count_not_used": 4,
+        "atom_indices_not_assigned": "Python SMARTS helpers are not guaranteed equivalent to the compiled CalcNumHBD/HBA descriptors"
+      }
+    },
+    {
+      "molecule": "xanthine",
+      "state_id": "xanthine-t07",
+      "pubchem_representation": false,
+      "present_in_dimer_candidate_inventory": false,
+      "input_smiles": "O=c1nc(O)c2[nH]cnc2[nH]1",
+      "canonical_smiles": "O=c1nc(O)c2[nH]cnc2[nH]1",
+      "formula": "C5H4N4O2",
+      "InChIKey": "LRFVTYWOQMYALW-UHFFFAOYSA-N",
+      "formal_charge": 0,
+      "HBD_sites": 3,
+      "HBA_sites": 4,
+      "definition_audit": {
+        "legacy_python_HDonorSmarts_match_count_not_used": 3,
+        "legacy_python_HAcceptorSmarts_match_count_not_used": 4,
+        "atom_indices_not_assigned": "Python SMARTS helpers are not guaranteed equivalent to the compiled CalcNumHBD/HBA descriptors"
+      }
+    },
+    {
+      "molecule": "xanthine",
+      "state_id": "xanthine-t08",
+      "pubchem_representation": false,
+      "present_in_dimer_candidate_inventory": false,
+      "input_smiles": "O=c1nc(O)c2nc[nH]c2[nH]1",
+      "canonical_smiles": "O=c1nc(O)c2nc[nH]c2[nH]1",
+      "formula": "C5H4N4O2",
+      "InChIKey": "LRFVTYWOQMYALW-UHFFFAOYSA-N",
+      "formal_charge": 0,
+      "HBD_sites": 3,
+      "HBA_sites": 4,
+      "definition_audit": {
+        "legacy_python_HDonorSmarts_match_count_not_used": 3,
+        "legacy_python_HAcceptorSmarts_match_count_not_used": 4,
+        "atom_indices_not_assigned": "Python SMARTS helpers are not guaranteed equivalent to the compiled CalcNumHBD/HBA descriptors"
+      }
+    },
+    {
+      "molecule": "xanthine",
+      "state_id": "xanthine-t09",
+      "pubchem_representation": false,
+      "present_in_dimer_candidate_inventory": false,
+      "input_smiles": "O=c1nc2[nH]cnc2c(O)[nH]1",
+      "canonical_smiles": "O=c1nc2[nH]cnc2c(O)[nH]1",
+      "formula": "C5H4N4O2",
+      "InChIKey": "LRFVTYWOQMYALW-UHFFFAOYSA-N",
+      "formal_charge": 0,
+      "HBD_sites": 3,
+      "HBA_sites": 4,
+      "definition_audit": {
+        "legacy_python_HDonorSmarts_match_count_not_used": 3,
+        "legacy_python_HAcceptorSmarts_match_count_not_used": 4,
+        "atom_indices_not_assigned": "Python SMARTS helpers are not guaranteed equivalent to the compiled CalcNumHBD/HBA descriptors"
+      }
+    },
+    {
+      "molecule": "xanthine",
+      "state_id": "xanthine-t10",
+      "pubchem_representation": false,
+      "present_in_dimer_candidate_inventory": false,
+      "input_smiles": "O=c1nc2nc[nH]c2c(O)[nH]1",
+      "canonical_smiles": "O=c1nc2nc[nH]c2c(O)[nH]1",
+      "formula": "C5H4N4O2",
+      "InChIKey": "LRFVTYWOQMYALW-UHFFFAOYSA-N",
+      "formal_charge": 0,
+      "HBD_sites": 3,
+      "HBA_sites": 4,
+      "definition_audit": {
+        "legacy_python_HDonorSmarts_match_count_not_used": 3,
+        "legacy_python_HAcceptorSmarts_match_count_not_used": 4,
+        "atom_indices_not_assigned": "Python SMARTS helpers are not guaranteed equivalent to the compiled CalcNumHBD/HBA descriptors"
+      }
+    },
+    {
+      "molecule": "xanthine",
+      "state_id": "xanthine-t11",
+      "pubchem_representation": false,
+      "present_in_dimer_candidate_inventory": false,
+      "input_smiles": "Oc1nc(O)c2[nH]cnc2n1",
+      "canonical_smiles": "Oc1nc(O)c2[nH]cnc2n1",
+      "formula": "C5H4N4O2",
+      "InChIKey": "LRFVTYWOQMYALW-UHFFFAOYSA-N",
+      "formal_charge": 0,
+      "HBD_sites": 3,
+      "HBA_sites": 5,
+      "definition_audit": {
+        "legacy_python_HDonorSmarts_match_count_not_used": 3,
+        "legacy_python_HAcceptorSmarts_match_count_not_used": 5,
+        "atom_indices_not_assigned": "Python SMARTS helpers are not guaranteed equivalent to the compiled CalcNumHBD/HBA descriptors"
+      }
+    },
+    {
+      "molecule": "xanthine",
+      "state_id": "xanthine-t12",
+      "pubchem_representation": false,
+      "present_in_dimer_candidate_inventory": false,
+      "input_smiles": "Oc1nc(O)c2nc[nH]c2n1",
+      "canonical_smiles": "Oc1nc(O)c2nc[nH]c2n1",
+      "formula": "C5H4N4O2",
+      "InChIKey": "LRFVTYWOQMYALW-UHFFFAOYSA-N",
+      "formal_charge": 0,
+      "HBD_sites": 3,
+      "HBA_sites": 5,
+      "definition_audit": {
+        "legacy_python_HDonorSmarts_match_count_not_used": 3,
+        "legacy_python_HAcceptorSmarts_match_count_not_used": 5,
+        "atom_indices_not_assigned": "Python SMARTS helpers are not guaranteed equivalent to the compiled CalcNumHBD/HBA descriptors"
+      }
+    },
+    {
+      "molecule": "xanthine",
+      "state_id": "xanthine-t13",
+      "pubchem_representation": false,
+      "present_in_dimer_candidate_inventory": false,
+      "input_smiles": "Oc1nc(O)c2ncnc-2[nH]1",
+      "canonical_smiles": "Oc1nc(O)c2ncnc-2[nH]1",
+      "formula": "C5H4N4O2",
+      "InChIKey": "LRFVTYWOQMYALW-UHFFFAOYSA-N",
+      "formal_charge": 0,
+      "HBD_sites": 3,
+      "HBA_sites": 5,
+      "definition_audit": {
+        "legacy_python_HDonorSmarts_match_count_not_used": 3,
+        "legacy_python_HAcceptorSmarts_match_count_not_used": 5,
+        "atom_indices_not_assigned": "Python SMARTS helpers are not guaranteed equivalent to the compiled CalcNumHBD/HBA descriptors"
+      }
+    },
+    {
+      "molecule": "xanthine",
+      "state_id": "xanthine-t14",
+      "pubchem_representation": false,
+      "present_in_dimer_candidate_inventory": false,
+      "input_smiles": "Oc1nc2ncnc-2c(O)[nH]1",
+      "canonical_smiles": "Oc1nc2ncnc-2c(O)[nH]1",
+      "formula": "C5H4N4O2",
+      "InChIKey": "LRFVTYWOQMYALW-UHFFFAOYSA-N",
+      "formal_charge": 0,
+      "HBD_sites": 3,
+      "HBA_sites": 5,
+      "definition_audit": {
+        "legacy_python_HDonorSmarts_match_count_not_used": 3,
+        "legacy_python_HAcceptorSmarts_match_count_not_used": 5,
+        "atom_indices_not_assigned": "Python SMARTS helpers are not guaranteed equivalent to the compiled CalcNumHBD/HBA descriptors"
+      }
+    }
+  ],
+  "tautomer_inventory_scope": "enumerated graphs, not measured populations, stable states, or polymorphs",
+  "pilot_cases": [
+    {
+      "case_id": "D01",
+      "coformer": "adenine",
+      "literature": {
+        "case_id": "D01",
+        "coformer": "adenine",
+        "outcome": "formed",
+        "source": "SI p3 and p15 Table S11",
+        "preparation": {
+          "diflunisal_mg": 100,
+          "adenine_mg": 54,
+          "nominal_input_molar_ratio": [
+            1,
+            1
+          ],
+          "ethanol_ml": 1,
+          "method": "slurry",
+          "duration_hours": 48,
+          "temperature": "room temperature; numeric value not reported",
+          "is_solved_crystal_stoichiometry": false
+        },
+        "spectroscopic_interpretation": "COO-...+HN1 with possible N10-assisted R2_2(8) motif; inferred, not solved atomic positions",
+        "cif_verified": false,
+        "polymorph_count": null,
+        "per_attempt_replicates": null
+      },
+      "table_S11_scores": {
+        "coformer": "adenine",
+        "SMI_CNN_can_score": 0.99,
+        "DeepCocrystal_mean": 0.99,
+        "DeepCocrystal_sd": 0.0,
+        "majority_agreement_percent": 100,
+        "experimental": "positive",
+        "printed_score_and_sd": "0.99 ± 0.00",
+        "source_pdf_page": 15
+      },
+      "table_3_published_predictions": {
+        "DeepCocrystal": "positive",
+        "SMI-CNN(can)": "positive",
+        "CCGNet": "positive",
+        "CC-Descriptor-ML": "positive",
+        "Fingerprint-DNN": "positive",
+        "Descriptor-DNN": "positive",
+        "MC": "negative",
+        "HBP": "negative"
+      },
+      "neutral_reference_features": {
+        "A_HBD": 2,
+        "A_HBA": 2,
+        "B_HBD": 2,
+        "B_HBA": 4,
+        "at_least_one_cross_donor_acceptor_direction": true
+      },
+      "calculation_condition_comparison": {
+        "baseline_environment": "isolated vacuum molecule/pair",
+        "planned_sensitivity_environment": "SMD ethanol",
+        "ethanol_documented_for_this_pair_preparation": true,
+        "full_experimental_condition_match": false,
+        "negative_attempt_conditions": null,
+        "local_pair_composition": "1 molecule A + 1 molecule B",
+        "crystallographic_product_stoichiometry_verified": false
+      },
+      "DFT_B_kcal_mol": null,
+      "DFT_X_kcal_mol": null,
+      "DFT_score_status": "not_assembled; common numerical protocol and full control panel pending"
+    },
+    {
+      "case_id": "D02",
+      "coformer": "caffeine",
+      "literature": {
+        "case_id": "D02",
+        "coformer": "caffeine",
+        "outcome": "formed",
+        "source": "SI p3 and p15 Table S11",
+        "preparation": {
+          "diflunisal_mg": 100,
+          "caffeine_mg": 78,
+          "nominal_input_molar_ratio": [
+            1,
+            1
+          ],
+          "method": "20 min grinding then 20 min ethanol-assisted grinding; additional drops every 5 min",
+          "ethanol_volume": null,
+          "temperature": null,
+          "is_solved_crystal_stoichiometry": false
+        },
+        "spectroscopic_interpretation": "COOH...N9; carboxyl 13C 175.2 to 172.9 ppm, CAF N9 230.0 to 221.1 ppm",
+        "cif_verified": false,
+        "polymorph_count": null,
+        "per_attempt_replicates": null
+      },
+      "table_S11_scores": {
+        "coformer": "caffeine",
+        "SMI_CNN_can_score": 0.99,
+        "DeepCocrystal_mean": 0.99,
+        "DeepCocrystal_sd": 0.01,
+        "majority_agreement_percent": 100,
+        "experimental": "positive",
+        "printed_score_and_sd": "0.99 ± 0.01",
+        "source_pdf_page": 15
+      },
+      "table_3_published_predictions": {
+        "DeepCocrystal": "positive",
+        "SMI-CNN(can)": "positive",
+        "CCGNet": "negative",
+        "CC-Descriptor-ML": "positive",
+        "Fingerprint-DNN": "positive",
+        "Descriptor-DNN": "positive",
+        "MC": "positive",
+        "HBP": "negative"
+      },
+      "neutral_reference_features": {
+        "A_HBD": 2,
+        "A_HBA": 2,
+        "B_HBD": 0,
+        "B_HBA": 3,
+        "at_least_one_cross_donor_acceptor_direction": true
+      },
+      "calculation_condition_comparison": {
+        "baseline_environment": "isolated vacuum molecule/pair",
+        "planned_sensitivity_environment": "SMD ethanol",
+        "ethanol_documented_for_this_pair_preparation": true,
+        "full_experimental_condition_match": false,
+        "negative_attempt_conditions": null,
+        "local_pair_composition": "1 molecule A + 1 molecule B",
+        "crystallographic_product_stoichiometry_verified": false
+      },
+      "DFT_B_kcal_mol": null,
+      "DFT_X_kcal_mol": null,
+      "DFT_score_status": "not_assembled; common numerical protocol and full control panel pending"
+    },
+    {
+      "case_id": "D03",
+      "coformer": "theobromine",
+      "literature": {
+        "case_id": "D03",
+        "coformer": "theobromine",
+        "outcome": "not_formed_under_reported_conditions",
+        "source": "SI Table S11",
+        "attempt_conditions": null,
+        "per_attempt_replicates": null
+      },
+      "table_S11_scores": {
+        "coformer": "theobromine",
+        "SMI_CNN_can_score": 0.99,
+        "DeepCocrystal_mean": 0.66,
+        "DeepCocrystal_sd": 0.35,
+        "majority_agreement_percent": 60,
+        "experimental": "negative",
+        "printed_score_and_sd": "0.66 ± 0.35",
+        "source_pdf_page": 15
+      },
+      "table_3_published_predictions": {
+        "DeepCocrystal": "abstain",
+        "SMI-CNN(can)": "positive",
+        "CCGNet": "negative",
+        "CC-Descriptor-ML": "positive",
+        "Fingerprint-DNN": "positive",
+        "Descriptor-DNN": "positive",
+        "MC": "negative",
+        "HBP": "negative"
+      },
+      "neutral_reference_features": {
+        "A_HBD": 2,
+        "A_HBA": 2,
+        "B_HBD": 1,
+        "B_HBA": 3,
+        "at_least_one_cross_donor_acceptor_direction": true
+      },
+      "calculation_condition_comparison": {
+        "baseline_environment": "isolated vacuum molecule/pair",
+        "planned_sensitivity_environment": "SMD ethanol",
+        "ethanol_documented_for_this_pair_preparation": null,
+        "full_experimental_condition_match": false,
+        "negative_attempt_conditions": null,
+        "local_pair_composition": "1 molecule A + 1 molecule B",
+        "crystallographic_product_stoichiometry_verified": false
+      },
+      "DFT_B_kcal_mol": null,
+      "DFT_X_kcal_mol": null,
+      "DFT_score_status": "not_assembled; common numerical protocol and full control panel pending"
+    },
+    {
+      "case_id": "D04",
+      "coformer": "xanthine",
+      "literature": {
+        "case_id": "D04",
+        "coformer": "xanthine",
+        "outcome": "not_formed_under_reported_conditions",
+        "source": "SI Table S11",
+        "attempt_conditions": null,
+        "per_attempt_replicates": null
+      },
+      "table_S11_scores": {
+        "coformer": "xanthine",
+        "SMI_CNN_can_score": 0.99,
+        "DeepCocrystal_mean": 0.63,
+        "DeepCocrystal_sd": 0.38,
+        "majority_agreement_percent": 60,
+        "experimental": "negative",
+        "printed_score_and_sd": "0.63 ± 0.38",
+        "source_pdf_page": 15
+      },
+      "table_3_published_predictions": {
+        "DeepCocrystal": "abstain",
+        "SMI-CNN(can)": "positive",
+        "CCGNet": "positive",
+        "CC-Descriptor-ML": "positive",
+        "Fingerprint-DNN": "negative",
+        "Descriptor-DNN": "positive",
+        "MC": "negative",
+        "HBP": "negative"
+      },
+      "neutral_reference_features": {
+        "A_HBD": 2,
+        "A_HBA": 2,
+        "B_HBD": 3,
+        "B_HBA": 3,
+        "at_least_one_cross_donor_acceptor_direction": true
+      },
+      "calculation_condition_comparison": {
+        "baseline_environment": "isolated vacuum molecule/pair",
+        "planned_sensitivity_environment": "SMD ethanol",
+        "ethanol_documented_for_this_pair_preparation": null,
+        "full_experimental_condition_match": false,
+        "negative_attempt_conditions": null,
+        "local_pair_composition": "1 molecule A + 1 molecule B",
+        "crystallographic_product_stoichiometry_verified": false
+      },
+      "DFT_B_kcal_mol": null,
+      "DFT_X_kcal_mol": null,
+      "DFT_score_status": "not_assembled; common numerical protocol and full control panel pending"
+    }
+  ],
+  "pilot_denominators": {
+    "molecular_pairs": 4,
+    "observed_formed": 2,
+    "observed_not_formed": 2,
+    "published_DeepCocrystal_decisions": 2,
+    "published_DeepCocrystal_abstentions": 2,
+    "independent_experimental_replicates": null
+  },
+  "limitations": [
+    "Known-outcome selected pilot; not an independent model performance test.",
+    "Missing negative attempt conditions remain unknown, not assumed vacuum, ethanol, room temperature, or 1:1.",
+    "Published spectral proton-transfer interpretation is not a solved crystal structure or polymorph inventory.",
+    "The existence of a cross donor/acceptor direction is shared by all four pairs; no fitted threshold or new accuracy claim.",
+    "DFT and local ML results are absent; no zero-value substitution for missing scores."
+  ]
+}

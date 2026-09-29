@@ -1,0 +1,36 @@
+test_gradient_coordinate_corruption_cannot_pass (test_completion_orca.CompletionParser.test_gradient_coordinate_corruption_cannot_pass) ... ok
+test_real_refined_minimum_hessian_and_gradient (test_completion_orca.CompletionParser.test_real_refined_minimum_hessian_and_gradient) ... ok
+test_unexpected_input_is_rejected_even_if_engine_result_passed (test_completion_orca.CompletionParser.test_unexpected_input_is_rejected_even_if_engine_result_passed) ... ok
+test_complete_minimum (test_research_parser.ParserGates.test_complete_minimum) ... ok
+test_duplicate_mode_indices_rejected (test_research_parser.ParserGates.test_duplicate_mode_indices_rejected) ... ok
+test_incomplete_engine_exit_rejected (test_research_parser.ParserGates.test_incomplete_engine_exit_rejected) ... ok
+test_normal_exit_does_not_imply_opt_convergence (test_research_parser.ParserGates.test_normal_exit_does_not_imply_opt_convergence) ... ok
+test_qe_scf_is_not_relaxation (test_research_parser.ParserGates.test_qe_scf_is_not_relaxation) ... ok
+test_scf_failure_rejected (test_research_parser.ParserGates.test_scf_failure_rejected) ... ok
+test_small_imaginary_mode_is_not_waived (test_research_parser.ParserGates.test_small_imaginary_mode_is_not_waived) ... ok
+test_timeout_or_exit_code_rejected (test_research_parser.ParserGates.test_timeout_or_exit_code_rejected) ... ok
+test_truncated_modes_rejected (test_research_parser.ParserGates.test_truncated_modes_rejected) ... ok
+test_changed_atom_identity_rejected (test_week2_frequency_resume.HessianResumeTests.test_changed_atom_identity_rejected) ... ok
+test_changed_bond_geometry_rejected (test_week2_frequency_resume.HessianResumeTests.test_changed_bond_geometry_rejected) ... ok
+test_incomplete_frequency_log_rejected (test_week2_frequency_resume.HessianResumeTests.test_incomplete_frequency_log_rejected) ... ok
+test_real_hessian_matches_translated_geometry (test_week2_frequency_resume.HessianResumeTests.test_real_hessian_matches_translated_geometry) ... ok
+test_composition_change_detected (test_week2_geometry.GeometryAudit.test_composition_change_detected) ... ok
+test_intended_proton_transfer_is_reported (test_week2_geometry.GeometryAudit.test_intended_proton_transfer_is_reported) ... ok
+test_neutral_state_and_linear_hbond (test_week2_geometry.GeometryAudit.test_neutral_state_and_linear_hbond) ... ok
+test_separated_pair_not_treated_as_bound (test_week2_geometry.GeometryAudit.test_separated_pair_not_treated_as_bound) ... ok
+test_mismatched_lattices_rejected (test_week3_bilayer.BilayerDefinitionTests.test_mismatched_lattices_rejected) ... ok
+test_registry_uses_primitive_vectors_and_vacuum_uses_outer_atoms (test_week3_bilayer.BilayerDefinitionTests.test_registry_uses_primitive_vectors_and_vacuum_uses_outer_atoms) ... ok
+test_archived_mode_is_cartesian_internal_fragment_motion (test_week3_recovery.ArchivedModeAndGradient.test_archived_mode_is_cartesian_internal_fragment_motion) ... ok
+test_real_engrad_matches_geometry_up_to_proper_rotation (test_week3_recovery.ArchivedModeAndGradient.test_real_engrad_matches_geometry_up_to_proper_rotation) ... ok
+test_numerical_gate_withholds_inconsistent_or_failed_result (test_week3_recovery.FrozenPlan.test_numerical_gate_withholds_inconsistent_or_failed_result) ... ok
+test_real_parent_is_retained_and_changed_parent_is_rejected (test_week3_recovery.FrozenPlan.test_real_parent_is_retained_and_changed_parent_is_rejected) ... ok
+test_changed_candidate_metadata_rejected (test_week3_verification.DrugVerification.test_changed_candidate_metadata_rejected) ... ok
+test_mismatched_hessian_geometry_rejected (test_week3_verification.DrugVerification.test_mismatched_hessian_geometry_rejected) ... ok
+test_real_water_monomer_has_no_fragment_separation_field (test_week3_verification.DrugVerification.test_real_water_monomer_has_no_fragment_separation_field) ... ok
+test_real_qe_xml_energy_force_and_pseudo_electrons (test_week3_verification.QEVerification.test_real_qe_xml_energy_force_and_pseudo_electrons) ... ok
+test_wrong_charge_metadata_rejected (test_week3_verification.QEVerification.test_wrong_charge_metadata_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 31 tests in 0.121s
+
+OK

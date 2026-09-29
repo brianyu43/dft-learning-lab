@@ -1,0 +1,14 @@
+{
+  "PropertyTable": {
+    "Properties": [
+      {
+        "CID": 1983,
+        "MolecularFormula": "C8H9NO2",
+        "SMILES": "CC(=O)NC1=CC=C(C=C1)O",
+        "ConnectivitySMILES": "CC(=O)NC1=CC=C(C=C1)O",
+        "InChIKey": "RZVAJINKPMORJF-UHFFFAOYSA-N",
+        "IUPACName": "N-(4-hydroxyphenyl)acetamide"
+      }
+    ]
+  }
+}

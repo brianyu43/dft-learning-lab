@@ -1,0 +1,112 @@
+[19:10:33] Can't kekulize mol.  Unkekulized atoms: 1 5
+[19:10:33] Can't kekulize mol.  Unkekulized atoms: 3 4 5 6 13
+[19:10:33] Can't kekulize mol.  Unkekulized atoms: 3 4 5 6 13
+[19:10:33] Can't kekulize mol.  Unkekulized atoms: 3 4 5 6 13
+[19:10:33] Can't kekulize mol.  Unkekulized atoms: 3 4 5 6 13
+[19:10:33] Can't kekulize mol.  Unkekulized atoms: 3 4 5 6 13
+[19:10:33] Can't kekulize mol.  Unkekulized atoms: 3 4 5 6 13
+[19:10:33] Can't kekulize mol.  Unkekulized atoms: 3 4 5 6 13
+[19:10:33] Can't kekulize mol.  Unkekulized atoms: 3 4 5 6 13
+[19:10:33] Can't kekulize mol.  Unkekulized atoms: 3 4 5 6 13
+[19:10:33] Can't kekulize mol.  Unkekulized atoms: 3 4 5 6 13
+[19:10:33] Can't kekulize mol.  Unkekulized atoms: 3 4 5 6 13
+[19:10:33] Can't kekulize mol.  Unkekulized atoms: 3 4 5 6 13
+[19:10:34] Tautomer enumeration stopped at 429 tautomers: max transforms reached
+[19:10:34] Can't kekulize mol.  Unkekulized atoms: 2 6
+[19:10:34] Tautomer enumeration stopped at 363 tautomers: max transforms reached
+[19:10:34] Can't kekulize mol.  Unkekulized atoms: 4 9
+[19:10:35] Tautomer enumeration stopped at 162 tautomers: max transforms reached
+[19:10:35] Tautomer enumeration stopped at 394 tautomers: max transforms reached
+[19:10:35] Can't kekulize mol.  Unkekulized atoms: 2 11
+[19:10:35] Can't kekulize mol.  Unkekulized atoms: 2 11
+[19:10:35] Can't kekulize mol.  Unkekulized atoms: 2 11
+[19:10:35] Can't kekulize mol.  Unkekulized atoms: 4 9
+[19:10:35] Can't kekulize mol.  Unkekulized atoms: 3 7
+[19:10:36] Can't kekulize mol.  Unkekulized atoms: 14
+[19:10:36] Can't kekulize mol.  Unkekulized atoms: 14 17 18
+[19:10:36] Can't kekulize mol.  Unkekulized atoms: 14 15 17
+[19:10:37] Can't kekulize mol.  Unkekulized atoms: 4 8
+[19:10:37] Tautomer enumeration stopped at 868 tautomers: max transforms reached
+[19:10:38] Tautomer enumeration stopped at 187 tautomers: max transforms reached
+[19:10:38] Can't kekulize mol.  Unkekulized atoms: 3 4 5 6 7 11
+[19:10:38] Can't kekulize mol.  Unkekulized atoms: 2 6
+[19:10:38] Tautomer enumeration stopped at 318 tautomers: max transforms reached
+[19:10:38] Tautomer enumeration stopped at 284 tautomers: max transforms reached
+[19:10:39] Can't kekulize mol.  Unkekulized atoms: 2 6
+[19:10:39] Tautomer enumeration stopped at 163 tautomers: max transforms reached
+[19:10:40] Can't kekulize mol.  Unkekulized atoms: 3 16
+[19:10:40] Can't kekulize mol.  Unkekulized atoms: 3 7
+[19:10:40] Can't kekulize mol.  Unkekulized atoms: 4 9
+[19:10:41] Tautomer enumeration stopped at 302 tautomers: max transforms reached
+[19:10:41] Can't kekulize mol.  Unkekulized atoms: 5 9
+[19:10:41] Can't kekulize mol.  Unkekulized atoms: 2 6
+[19:10:41] Can't kekulize mol.  Unkekulized atoms: 2 4 5 6 7 10
+[19:10:41] Can't kekulize mol.  Unkekulized atoms: 2 6 7
+[19:10:42] Tautomer enumeration stopped at 439 tautomers: max transforms reached
+[19:10:42] Tautomer enumeration stopped at 519 tautomers: max transforms reached
+[19:10:44] Can't kekulize mol.  Unkekulized atoms: 2 6
+[19:10:44] Can't kekulize mol.  Unkekulized atoms: 2 14
+[19:10:45] Tautomer enumeration stopped at 387 tautomers: max transforms reached
+{
+  "split_summary": {
+    "train": {
+      "raw_rows": 35785,
+      "unique_pairs": {
+        "exact": 5934,
+        "neutral_no_stereo": 5934,
+        "tautomer_family": 5915
+      },
+      "label_conflict_pairs": {
+        "exact": 0,
+        "neutral_no_stereo": 0,
+        "tautomer_family": 1
+      },
+      "source_sha256": "348cb1df420847e367515fe2abe990b90a56b7a0e0fb3491e9874fd856e34bb8"
+    },
+    "val": {
+      "raw_rows": 3961,
+      "unique_pairs": {
+        "exact": 659,
+        "neutral_no_stereo": 659,
+        "tautomer_family": 659
+      },
+      "label_conflict_pairs": {
+        "exact": 0,
+        "neutral_no_stereo": 0,
+        "tautomer_family": 0
+      },
+      "source_sha256": "f4fe8477ecb1cfa64baeed09ee4cc29a307e341e736e0658e05a78d4e6719ef6"
+    },
+    "test_canonical": {
+      "raw_rows": 364,
+      "unique_pairs": {
+        "exact": 363,
+        "neutral_no_stereo": 363,
+        "tautomer_family": 362
+      },
+      "label_conflict_pairs": {
+        "exact": 0,
+        "neutral_no_stereo": 0,
+        "tautomer_family": 0
+      },
+      "source_sha256": "e925cd986227d1e30aa5fdbfa39a7063e35842c3af74bc9842e30727faa1ed82"
+    },
+    "test_augmented": {
+      "raw_rows": 3640,
+      "unique_pairs": {
+        "exact": 363,
+        "neutral_no_stereo": 363,
+        "tautomer_family": 362
+      },
+      "label_conflict_pairs": {
+        "exact": 0,
+        "neutral_no_stereo": 0,
+        "tautomer_family": 0
+      },
+      "source_sha256": "43e43069236272c64918c224b696a462225ef93239189d6400f0dc6522739e2c"
+    }
+  },
+  "matched_train_or_val_pair_count": 6,
+  "no_match_in_downloaded_train_val_count": 24,
+  "invalid_rows": []
+}

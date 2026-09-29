@@ -1,0 +1,87 @@
+{
+  "protocol_id": "dft-pilot-20260909-v1",
+  "week": 1,
+  "engine": "qe",
+  "executable": ".tools/qe-7.6/bin/pw.x",
+  "assets": {
+    "data/pseudopotentials/pseudo-dojo-nc-sr-04-pbe-standard/Mo.upf": "pseudo/Mo.upf",
+    "data/pseudopotentials/pseudo-dojo-nc-sr-04-pbe-standard/S.upf": "pseudo/S.upf"
+  },
+  "method": "vdW-DF-C09 with PseudoDojo 0.4 standard PBE-generated scalar NC pseudopotentials",
+  "n_atoms": 3,
+  "charge": 0,
+  "SOC": false,
+  "omp_threads": 4,
+  "rss_limit_gib": 40,
+  "job_id": "week1-mos2-force-check",
+  "task_id": "SR01-force-validation",
+  "input": "inputs/qe/week1_mos2_force_check.in",
+  "timeout_seconds": 1800,
+  "parent_run_id": "20260910T093915054937Z-week1-mos2-relax",
+  "purpose": "Targeted force/energy sensitivity check at unchanged final relaxed geometry after SCF-correction warning",
+  "requested": {
+    "optimization": false,
+    "frequencies": false
+  },
+  "accuracy_scope": "Only conv_thr 1e-8 to 1e-10 Ry at one fixed geometry; cutoff/k/vacuum/lattice/phonon convergence remain unverified",
+  "parent_geometry_source": "runs/20260910T093915054937Z-week1-mos2-relax/scratch/week1_mos2.save/data-file-schema.xml",
+  "ecutwfc_Ry": 80,
+  "ecutrho_Ry": 320,
+  "k_grid": [
+    6,
+    6,
+    1
+  ],
+  "conv_thr_Ry": 1e-10,
+  "started_at": "2026-09-10T09:43:33.644532+00:00",
+  "status": "passed",
+  "run_dir": "/Users/xavier/Documents/dev/generaldrugs/dft/runs/20260910T094333642648Z-week1-mos2-force-check",
+  "config_sha256": "c499530078665f786d9d80b1903b66bcf3c427abad21e35ecac4a5d0c130c249",
+  "source_sha256": {
+    "inputs/qe/week1_mos2_force_check.in": "a458e645145b0b3183627ff28e719e9606d5b4b85ba82488a731ae096fda55da",
+    "data/pseudopotentials/pseudo-dojo-nc-sr-04-pbe-standard/Mo.upf": "7a392dee2cc7088d02184ddefa73b709f11e266fdde348a08eeaf8ea2870e448",
+    "data/pseudopotentials/pseudo-dojo-nc-sr-04-pbe-standard/S.upf": "7dcddbca51ad05414445cc784264d39f139300f47897ae96740f49d6ba96daa7"
+  },
+  "executable_sha256": "d9c0a96099241bc96b8fc5783ae61363f9d667458fc2fee19ab13b71cd354ed5",
+  "command": [
+    "/Users/xavier/Documents/dev/generaldrugs/dft/.tools/qe-7.6/bin/pw.x",
+    "-in",
+    "week1_mos2_force_check.in"
+  ],
+  "runner_sha256": "e276ab1aa4ddc435d0a3aceec06b27445f6a6c1263f101009d5de14e6cc70cf6",
+  "stop_reason": null,
+  "thread_environment": {
+    "OMP_NUM_THREADS": "4",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "VECLIB_MAXIMUM_THREADS": "1"
+  },
+  "pid": 43979,
+  "engine_launched": true,
+  "ended_at": "2026-09-10T09:44:49.591946+00:00",
+  "elapsed_seconds": 75.942,
+  "exit_code": 0,
+  "peak_sampled_process_tree_rss_bytes": 471564288,
+  "memory_samples": 147,
+  "memory_access_denied": 0,
+  "max_single_child_rss_bytes": 472039424,
+  "system_swap_increase_peak_bytes": 0,
+  "memory_measurement": "0.5s sampled summed process-tree RSS; may double-count shared pages and miss peaks. OS ru_maxrss is maximum single-child RSS in macOS bytes. Swap is system-wide, not attributable solely to this job.",
+  "output_sha256": "75dab82a4ae29e6b8c5bc7371352445a4c43950ee1b564a66593bc00be46f3b6",
+  "result": {
+    "engine_version": "7.6",
+    "normal_termination": true,
+    "scf_converged": true,
+    "geometry_optimization_converged": null,
+    "energy": -184.82971713,
+    "energy_unit": "Ry",
+    "energy_history": [
+      -184.82971713
+    ],
+    "minimum_verified": null,
+    "frequency_analysis_complete": false,
+    "total_force_Ry_Bohr": 1e-06,
+    "accuracy_scope": "Only conv_thr 1e-8 to 1e-10 Ry at one fixed geometry; cutoff/k/vacuum/lattice/phonon convergence remain unverified",
+    "status": "passed"
+  }
+}

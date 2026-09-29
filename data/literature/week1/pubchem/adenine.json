@@ -1,0 +1,14 @@
+{
+  "PropertyTable": {
+    "Properties": [
+      {
+        "CID": 190,
+        "MolecularFormula": "C5H5N5",
+        "SMILES": "C1=NC2=NC=NC(=C2N1)N",
+        "ConnectivitySMILES": "C1=NC2=NC=NC(=C2N1)N",
+        "InChIKey": "GFFGJBXGBJISGV-UHFFFAOYSA-N",
+        "IUPACName": "7H-purin-6-amine"
+      }
+    ]
+  }
+}

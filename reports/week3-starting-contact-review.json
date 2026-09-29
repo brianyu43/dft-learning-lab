@@ -1,0 +1,27 @@
+[
+  {
+    "candidate_id": "diflunisal--caffeine-p36",
+    "geometry_source": "runs/week2-xtb-dimers/diflunisal--caffeine-p36/xtbopt.xyz",
+    "scope": "xTB optimized DFT starting geometry; not an experimental crystal structure"
+  },
+  {
+    "candidate_id": "diflunisal--caffeine-p14",
+    "geometry_source": "runs/week2-xtb-dimers/diflunisal--caffeine-p14/xtbopt.xyz",
+    "scope": "xTB optimized DFT starting geometry; not an experimental crystal structure",
+    "donor_atom": 17,
+    "hydrogen_atom": 25,
+    "acceptor_atom": 29,
+    "H_acceptor_A": 1.7143196080631833,
+    "D_H_A_angle_degrees": 165.2586608002278
+  },
+  {
+    "candidate_id": "diflunisal--caffeine-p06",
+    "geometry_source": "runs/week2-xtb-dimers/diflunisal--caffeine-p06/xtbopt.xyz",
+    "scope": "xTB optimized DFT starting geometry; not an experimental crystal structure",
+    "donor_atom": 2,
+    "hydrogen_atom": 18,
+    "acceptor_atom": 32,
+    "H_acceptor_A": 1.7123811291033717,
+    "D_H_A_angle_degrees": 175.40878188416798
+  }
+]

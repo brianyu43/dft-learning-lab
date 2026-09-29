@@ -1,0 +1,5077 @@
+{
+  "source_doi": "10.1021/acs.cgd.2c00433",
+  "supplement_doi": "10.1021/acs.cgd.2c00433.s001",
+  "source": "data/completion/literature/cg2c00433_si_001.pdf",
+  "source_sha256": "9b6358abe407a5a17517dc2f7d0096d2dfffe7dcee41fabed283aa162d2e6eaa",
+  "review": "SI pages 5,6,12,17,23 extracted and rendered; column labels and table footnotes visually checked.",
+  "source_method_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9337750/#sec2",
+  "method_conditions": {
+    "slurry": {
+      "input_ratio": "1:1",
+      "mixture_mass_mg": 200,
+      "solvent_volume_uL": [
+        300,
+        600
+      ],
+      "temperature_C": [
+        10,
+        30
+      ],
+      "duration": "up to 4 weeks",
+      "readout": "PXRD",
+      "per_pair_exact_duration_reported": false
+    },
+    "LAG": {
+      "input_ratio": "1:1",
+      "mixture_mass_mg": 100,
+      "solvent_amount": "1-2 drops",
+      "frequency_Hz": 30,
+      "duration_minutes": 15,
+      "readout": [
+        "PXRD",
+        "IR"
+      ],
+      "per_pair_temperature_reported": false
+    },
+    "cosublimation": {
+      "input_ratio": "1:1",
+      "pressure_mbar": 200,
+      "temperature": "elevated, pair-specific values not extracted"
+    },
+    "contact_preparation": {
+      "input_ratio": null,
+      "temperature": "sequential melting, pair-specific thermal history not fully tabulated"
+    }
+  },
+  "records": [
+    {
+      "record_id": "cg2c00433-PARA-BITZ-c1",
+      "api": "PARA",
+      "coformer": "BITZ",
+      "method": "contact_preparation",
+      "solvent": null,
+      "outcome": "physical_mixture",
+      "raw_code": "x",
+      "input_molar_ratio": null,
+      "product_stoichiometry": null,
+      "independent_trial_count": null,
+      "source_table": "S1",
+      "source_pdf_pages": [
+        5,
+        6
+      ],
+      "endpoint": "cocrystal_screen",
+      "scope": "Reported table cell; repeat counts and precise per-cell conditions are not supplied by this table"
+    },
+    {
+      "record_id": "cg2c00433-PARA-BITZ-c2",
+      "api": "PARA",
+      "coformer": "BITZ",
+      "method": "slurry",
+      "solvent": "n-heptane",
+      "outcome": "physical_mixture",
+      "raw_code": "x",
+      "input_molar_ratio": "1:1",
+      "product_stoichiometry": null,
+      "independent_trial_count": null,
+      "source_table": "S1",
+      "source_pdf_pages": [
+        5,
+        6
+      ],
+      "endpoint": "cocrystal_screen",
+      "scope": "Reported table cell; repeat counts and precise per-cell conditions are not supplied by this table"
+    },
+    {
+      "record_id": "cg2c00433-PARA-BITZ-c3",
+      "api": "PARA",
+      "coformer": "BITZ",
+      "method": "slurry",
+      "solvent": "pyridine",
+      "outcome": "not_attempted",
+      "raw_code": "n. a.",
+      "input_molar_ratio": "1:1",
+      "product_stoichiometry": null,
+      "independent_trial_count": null,
+      "source_table": "S1",
+      "source_pdf_pages": [
+        5,
+        6
+      ],
+      "endpoint": "cocrystal_screen",
+      "scope": "Reported table cell; repeat counts and precise per-cell conditions are not supplied by this table"
+    },
+    {
+      "record_id": "cg2c00433-PARA-BITZ-c4",
+      "api": "PARA",
+      "coformer": "BITZ",
+      "method": "slurry",
+      "solvent": "diethyl ether",
+      "outcome": "physical_mixture",
+      "raw_code": "x",
+      "input_molar_ratio": "1:1",
+      "product_stoichiometry": null,
+      "independent_trial_count": null,
+      "source_table": "S1",
+      "source_pdf_pages": [
+        5,
+        6
+      ],
+      "endpoint": "cocrystal_screen",
+      "scope": "Reported table cell; repeat counts and precise per-cell conditions are not supplied by this table"
+    },
+    {
+      "record_id": "cg2c00433-PARA-BITZ-c5",
+      "api": "PARA",
+      "coformer": "BITZ",
+      "method": "LAG",
+      "solvent": "n-heptane",
+      "outcome": "physical_mixture",
+      "raw_code": "x",
+      "input_molar_ratio": "1:1",
+      "product_stoichiometry": null,
+      "independent_trial_count": null,
+      "source_table": "S1",
+      "source_pdf_pages": [
+        5,
+        6
+      ],
+      "endpoint": "cocrystal_screen",
+      "scope": "Reported table cell; repeat counts and precise per-cell conditions are not supplied by this table"
+    },
+    {
+      "record_id": "cg2c00433-PARA-BITZ-c6",
+      "api": "PARA",
+      "coformer": "BITZ",
+      "method": "LAG",
+      "solvent": "diethyl ether",
+      "outcome": "physical_mixture",
+      "raw_code": "x",
+      "input_molar_ratio": "1:1",
+      "product_stoichiometry": null,
+      "independent_trial_count": null,
+      "source_table": "S1",
+      "source_pdf_pages": [
+        5,
+        6
+      ],
+      "endpoint": "cocrystal_screen",
+      "scope": "Reported table cell; repeat counts and precise per-cell conditions are not supplied by this table"
+    },
+    {
+      "record_id": "cg2c00433-PARA-BITZ-c7",
+      "api": "PARA",
+      "coformer": "BITZ",
+      "method": "cosublimation",
+      "solvent": null,
+      "outcome": "physical_mixture",
+      "raw_code": "x",
+      "input_molar_ratio": "1:1",
+      "product_stoichiometry": null,
+      "independent_trial_count": null,
+      "source_table": "S1",
+      "source_pdf_pages": [
+        5,
+        6
+      ],
+      "endpoint": "cocrystal_screen",
+      "scope": "Reported table cell; repeat counts and precise per-cell conditions are not supplied by this table"
+    },
+    {
+      "record_id": "cg2c00433-PARA-CEBG-c1",
+      "api": "PARA",
+      "coformer": "CEBG",
+      "method": "contact_preparation",
+      "solvent": null,
+      "outcome": "physical_mixture",
+      "raw_code": "x",
+      "input_molar_ratio": null,
+      "product_stoichiometry": null,
+      "independent_trial_count": null,
+      "source_table": "S1",
+      "source_pdf_pages": [
+        5,
+        6
+      ],
+      "endpoint": "cocrystal_screen",
+      "scope": "Reported table cell; repeat counts and precise per-cell conditions are not supplied by this table"
+    },
+    {
+      "record_id": "cg2c00433-PARA-CEBG-c2",
+      "api": "PARA",
+      "coformer": "CEBG",
+      "method": "slurry",
+      "solvent": "n-heptane",
+      "outcome": "physical_mixture",
+      "raw_code": "x",
+      "input_molar_ratio": "1:1",
+      "product_stoichiometry": null,
+      "independent_trial_count": null,
+      "source_table": "S1",
+      "source_pdf_pages": [
+        5,
+        6
+      ],
+      "endpoint": "cocrystal_screen",
+      "scope": "Reported table cell; repeat counts and precise per-cell conditions are not supplied by this table"
+    },
+    {
+      "record_id": "cg2c00433-PARA-CEBG-c3",
+      "api": "PARA",
+      "coformer": "CEBG",
+      "method": "slurry",
+      "solvent": "pyridine",
+      "outcome": "not_attempted",
+      "raw_code": "n. a.",
+      "input_molar_ratio": "1:1",
+      "product_stoichiometry": null,
+      "independent_trial_count": null,
+      "source_table": "S1",
+      "source_pdf_pages": [
+        5,
+        6
+      ],
+      "endpoint": "cocrystal_screen",
+      "scope": "Reported table cell; repeat counts and precise per-cell conditions are not supplied by this table"
+    },
+    {
+      "record_id": "cg2c00433-PARA-CEBG-c4",
+      "api": "PARA",
+      "coformer": "CEBG",
+      "method": "slurry",
+      "solvent": "diethyl ether",
+      "outcome": "physical_mixture",
+      "raw_code": "x",
+      "input_molar_ratio": "1:1",
+      "product_stoichiometry": null,
+      "independent_trial_count": null,
+      "source_table": "S1",
+      "source_pdf_pages": [
+        5,
+        6
+      ],
+      "endpoint": "cocrystal_screen",
+      "scope": "Reported table cell; repeat counts and precise per-cell conditions are not supplied by this table"
+    },
+    {
+      "record_id": "cg2c00433-PARA-CEBG-c5",
+      "api": "PARA",
+      "coformer": "CEBG",
+      "method": "LAG",
+      "solvent": "n-heptane",
+      "outcome": "physical_mixture",
+      "raw_code": "x",
+      "input_molar_ratio": "1:1",
+      "product_stoichiometry": null,
+      "independent_trial_count": null,
+      "source_table": "S1",
+      "source_pdf_pages": [
+        5,
+        6
+      ],
+      "endpoint": "cocrystal_screen",
+      "scope": "Reported table cell; repeat counts and precise per-cell conditions are not supplied by this table"
+    },
+    {
+      "record_id": "cg2c00433-PARA-CEBG-c6",
+      "api": "PARA",
+      "coformer": "CEBG",
+      "method": "LAG",
+      "solvent": "diethyl ether",
+      "outcome": "physical_mixture",
+      "raw_code": "x",
+      "input_molar_ratio": "1:1",
+      "product_stoichiometry": null,
+      "independent_trial_count": null,
+      "source_table": "S1",
+      "source_pdf_pages": [
+        5,
+        6
+      ],
+      "endpoint": "cocrystal_screen",
+      "scope": "Reported table cell; repeat counts and precise per-cell conditions are not supplied by this table"
+    },
+    {
+      "record_id": "cg2c00433-PARA-CEBG-c7",
+      "api": "PARA",
+      "coformer": "CEBG",
+      "method": "cosublimation",
+      "solvent": null,
+      "outcome": "physical_mixture",
+      "raw_code": "x",
+      "input_molar_ratio": "1:1",
+      "product_stoichiometry": null,
+      "independent_trial_count": null,
+      "source_table": "S1",
+      "source_pdf_pages": [
+        5,
+        6
+      ],
+      "endpoint": "cocrystal_screen",
+      "scope": "Reported table cell; repeat counts and precise per-cell conditions are not supplied by this table"
+    },
+    {
+      "record_id": "cg2c00433-PARA-DUPK-c1",
+      "api": "PARA",
+      "coformer": "DUPK",
+      "method": "contact_preparation",
+      "solvent": null,
+      "outcome": "physical_mixture",
+      "raw_code": "x",
+      "input_molar_ratio": null,
+      "product_stoichiometry": null,
+      "independent_trial_count": null,
+      "source_table": "S1",
+      "source_pdf_pages": [
+        5,
+        6
+      ],
+      "endpoint": "cocrystal_screen",
+      "scope": "Reported table cell; repeat counts and precise per-cell conditions are not supplied by this table"
+    },
+    {
+      "record_id": "cg2c00433-PARA-DUPK-c2",
+      "api": "PARA",
+      "coformer": "DUPK",
+      "method": "slurry",
+      "solvent": "n-heptane",
+      "outcome": "physical_mixture",
+      "raw_code": "x",
+      "input_molar_ratio": "1:1",
+      "product_stoichiometry": null,
+      "independent_trial_count": null,
+      "source_table": "S1",
+      "source_pdf_pages": [
+        5,
+        6
+      ],
+      "endpoint": "cocrystal_screen",
+      "scope": "Reported table cell; repeat counts and precise per-cell conditions are not supplied by this table"
+    },
+    {
+      "record_id": "cg2c00433-PARA-DUPK-c3",
+      "api": "PARA",
+      "coformer": "DUPK",
+      "method": "slurry",
+      "solvent": "pyridine",
+      "outcome": "not_attempted",
+      "raw_code": "n. a.",
+      "input_molar_ratio": "1:1",
+      "product_stoichiometry": null,
+      "independent_trial_count": null,
+      "source_table": "S1",
+      "source_pdf_pages": [
+        5,
+        6
+      ],
+      "endpoint": "cocrystal_screen",
+      "scope": "Reported table cell; repeat counts and precise per-cell conditions are not supplied by this table"
+    },
+    {
+      "record_id": "cg2c00433-PARA-DUPK-c4",
+      "api": "PARA",
+      "coformer": "DUPK",
+      "method": "slurry",
+      "solvent": "diethyl ether",
+      "outcome": "physical_mixture",
+      "raw_code": "x",
+      "input_molar_ratio": "1:1",
+      "product_stoichiometry": null,
+      "independent_trial_count": null,
+      "source_table": "S1",
+      "source_pdf_pages": [
+        5,
+        6
+      ],
+      "endpoint": "cocrystal_screen",
+      "scope": "Reported table cell; repeat counts and precise per-cell conditions are not supplied by this table"
+    },
+    {
+      "record_id": "cg2c00433-PARA-DUPK-c5",
+      "api": "PARA",
+      "coformer": "DUPK",
+      "method": "LAG",
+      "solvent": "n-heptane",
+      "outcome": "physical_mixture",
+      "raw_code": "x",
+      "input_molar_ratio": "1:1",
+      "product_stoichiometry": null,
+      "independent_trial_count": null,
+      "source_table": "S1",
+      "source_pdf_pages": [
+        5,
+        6
+      ],
+      "endpoint": "cocrystal_screen",
+      "scope": "Reported table cell; repeat counts and precise per-cell conditions are not supplied by this table"
+    },
+    {
+      "record_id": "cg2c00433-PARA-DUPK-c6",
+      "api": "PARA",
+      "coformer": "DUPK",
+      "method": "LAG",
+      "solvent": "diethyl ether",
+      "outcome": "physical_mixture",
+      "raw_code": "x",
+      "input_molar_ratio": "1:1",
+      "product_stoichiometry": null,
+      "independent_trial_count": null,
+      "source_table": "S1",
+      "source_pdf_pages": [
+        5,
+        6
+      ],
+      "endpoint": "cocrystal_screen",
+      "scope": "Reported table cell; repeat counts and precise per-cell conditions are not supplied by this table"
+    },
+    {
+      "record_id": "cg2c00433-PARA-DUPK-c7",
+      "api": "PARA",
+      "coformer": "DUPK",
+      "method": "cosublimation",
+      "solvent": null,
+      "outcome": "physical_mixture",
+      "raw_code": "x",
+      "input_molar_ratio": "1:1",
+      "product_stoichiometry": null,
+      "independent_trial_count": null,
+      "source_table": "S1",
+      "source_pdf_pages": [
+        5,
+        6
+      ],
+      "endpoint": "cocrystal_screen",
+      "scope": "Reported table cell; repeat counts and precise per-cell conditions are not supplied by this table"
+    },
+    {
+      "record_id": "cg2c00433-PARA-ESAL-c1",
+      "api": "PARA",
+      "coformer": "ESAL",
+      "method": "contact_preparation",
+      "solvent": null,
+      "outcome": "physical_mixture",
+      "raw_code": "x",
+      "input_molar_ratio": null,
+      "product_stoichiometry": null,
+      "independent_trial_count": null,
+      "source_table": "S1",
+      "source_pdf_pages": [
+        5,
+        6
+      ],
+      "endpoint": "cocrystal_screen",
+      "scope": "Reported table cell; repeat counts and precise per-cell conditions are not supplied by this table"
+    },
+    {
+      "record_id": "cg2c00433-PARA-ESAL-c2",
+      "api": "PARA",
+      "coformer": "ESAL",
+      "method": "slurry",
+      "solvent": "n-heptane",
+      "outcome": "physical_mixture",
+      "raw_code": "x",
+      "input_molar_ratio": "1:1",
+      "product_stoichiometry": null,
+      "independent_trial_count": null,
+      "source_table": "S1",
+      "source_pdf_pages": [
+        5,
+        6
+      ],
+      "endpoint": "cocrystal_screen",
+      "scope": "Reported table cell; repeat counts and precise per-cell conditions are not supplied by this table"
+    },
+    {
+      "record_id": "cg2c00433-PARA-ESAL-c3",
+      "api": "PARA",
+      "coformer": "ESAL",
+      "method": "slurry",
+      "solvent": "pyridine",
+      "outcome": "not_attempted",
+      "raw_code": "n. a.",
+      "input_molar_ratio": "1:1",
+      "product_stoichiometry": null,
+      "independent_trial_count": null,
+      "source_table": "S1",
+      "source_pdf_pages": [
+        5,
+        6
+      ],
+      "endpoint": "cocrystal_screen",
+      "scope": "Reported table cell; repeat counts and precise per-cell conditions are not supplied by this table"
+    },
+    {
+      "record_id": "cg2c00433-PARA-ESAL-c4",
+      "api": "PARA",
+      "coformer": "ESAL",
+      "method": "slurry",
+      "solvent": "diethyl ether",
+      "outcome": "physical_mixture",
+      "raw_code": "x",
+      "input_molar_ratio": "1:1",
+      "product_stoichiometry": null,
+      "independent_trial_count": null,
+      "source_table": "S1",
+      "source_pdf_pages": [
+        5,
+        6
+      ],
+      "endpoint": "cocrystal_screen",
+      "scope": "Reported table cell; repeat counts and precise per-cell conditions are not supplied by this table"
+    },
+    {
+      "record_id": "cg2c00433-PARA-ESAL-c5",
+      "api": "PARA",
+      "coformer": "ESAL",
+      "method": "LAG",
+      "solvent": "n-heptane",
+      "outcome": "physical_mixture",
+      "raw_code": "x",
+      "input_molar_ratio": "1:1",
+      "product_stoichiometry": null,
+      "independent_trial_count": null,
+      "source_table": "S1",
+      "source_pdf_pages": [
+        5,
+        6
+      ],
+      "endpoint": "cocrystal_screen",
+      "scope": "Reported table cell; repeat counts and precise per-cell conditions are not supplied by this table"
+    },
+    {
+      "record_id": "cg2c00433-PARA-ESAL-c6",
+      "api": "PARA",
+      "coformer": "ESAL",
+      "method": "LAG",
+      "solvent": "diethyl ether",
+      "outcome": "physical_mixture",
+      "raw_code": "x",
+      "input_molar_ratio": "1:1",
+      "product_stoichiometry": null,
+      "independent_trial_count": null,
+      "source_table": "S1",
+      "source_pdf_pages": [
+        5,
+        6
+      ],
+      "endpoint": "cocrystal_screen",
+      "scope": "Reported table cell; repeat counts and precise per-cell conditions are not supplied by this table"
+    },
+    {
+      "record_id": "cg2c00433-PARA-ESAL-c7",
+      "api": "PARA",
+      "coformer": "ESAL",
+      "method": "cosublimation",
+      "solvent": null,
+      "outcome": "physical_mixture",
+      "raw_code": "x",
+      "input_molar_ratio": "1:1",
+      "product_stoichiometry": null,
+      "independent_trial_count": null,
+      "source_table": "S1",
+      "source_pdf_pages": [
+        5,
+        6
+      ],
+      "endpoint": "cocrystal_screen",
+      "scope": "Reported table cell; repeat counts and precise per-cell conditions are not supplied by this table"
+    },
+    {
+      "record_id": "cg2c00433-PARA-NICC-c1",
+      "api": "PARA",
+      "coformer": "NICC",
+      "method": "contact_preparation",
+      "solvent": null,
+      "outcome": "not_attempted",
+      "raw_code": "n. a.",
+      "input_molar_ratio": null,
+      "product_stoichiometry": null,
+      "independent_trial_count": null,
+      "source_table": "S1",
+      "source_pdf_pages": [
+        5,
+        6
+      ],
+      "endpoint": "cocrystal_screen",
+      "scope": "Reported table cell; repeat counts and precise per-cell conditions are not supplied by this table"
+    },
+    {
+      "record_id": "cg2c00433-PARA-NICC-c2",
+      "api": "PARA",
+      "coformer": "NICC",
+      "method": "slurry",
+      "solvent": "n-heptane",
+      "outcome": "physical_mixture",
+      "raw_code": "x",
+      "input_molar_ratio": "1:1",
+      "product_stoichiometry": null,
+      "independent_trial_count": null,
+      "source_table": "S1",
+      "source_pdf_pages": [
+        5,
+        6
+      ],
+      "endpoint": "cocrystal_screen",
+      "scope": "Reported table cell; repeat counts and precise per-cell conditions are not supplied by this table"
+    },
+    {
+      "record_id": "cg2c00433-PARA-NICC-c3",
+      "api": "PARA",
+      "coformer": "NICC",
+      "method": "slurry",
+      "solvent": "pyridine",
+      "outcome": "not_attempted",
+      "raw_code": "n. a.",
+      "input_molar_ratio": "1:1",
+      "product_stoichiometry": null,
+      "independent_trial_count": null,
+      "source_table": "S1",
+      "source_pdf_pages": [
+        5,
+        6
+      ],
+      "endpoint": "cocrystal_screen",
+      "scope": "Reported table cell; repeat counts and precise per-cell conditions are not supplied by this table"
+    },
+    {
+      "record_id": "cg2c00433-PARA-NICC-c4",
+      "api": "PARA",
+      "coformer": "NICC",
+      "method": "slurry",
+      "solvent": "diethyl ether",
+      "outcome": "physical_mixture",
+      "raw_code": "x",
+      "input_molar_ratio": "1:1",
+      "product_stoichiometry": null,
+      "independent_trial_count": null,
+      "source_table": "S1",
+      "source_pdf_pages": [
+        5,
+        6
+      ],
+      "endpoint": "cocrystal_screen",
+      "scope": "Reported table cell; repeat counts and precise per-cell conditions are not supplied by this table"
+    },
+    {
+      "record_id": "cg2c00433-PARA-NICC-c5",
+      "api": "PARA",
+      "coformer": "NICC",
+      "method": "LAG",
+      "solvent": "n-heptane",
+      "outcome": "physical_mixture",
+      "raw_code": "x",
+      "input_molar_ratio": "1:1",
+      "product_stoichiometry": null,
+      "independent_trial_count": null,
+      "source_table": "S1",
+      "source_pdf_pages": [
+        5,
+        6
+      ],
+      "endpoint": "cocrystal_screen",
+      "scope": "Reported table cell; repeat counts and precise per-cell conditions are not supplied by this table"
+    },
+    {
+      "record_id": "cg2c00433-PARA-NICC-c6",
+      "api": "PARA",
+      "coformer": "NICC",
+      "method": "LAG",
+      "solvent": "diethyl ether",
+      "outcome": "physical_mixture",
+      "raw_code": "x",
+      "input_molar_ratio": "1:1",
+      "product_stoichiometry": null,
+      "independent_trial_count": null,
+      "source_table": "S1",
+      "source_pdf_pages": [
+        5,
+        6
+      ],
+      "endpoint": "cocrystal_screen",
+      "scope": "Reported table cell; repeat counts and precise per-cell conditions are not supplied by this table"
+    },
+    {
+      "record_id": "cg2c00433-PARA-NICC-c7",
+      "api": "PARA",
+      "coformer": "NICC",
+      "method": "cosublimation",
+      "solvent": null,
+      "outcome": "physical_mixture",
+      "raw_code": "x",
+      "input_molar_ratio": "1:1",
+      "product_stoichiometry": null,
+      "independent_trial_count": null,
+      "source_table": "S1",
+      "source_pdf_pages": [
+        5,
+        6
+      ],
+      "endpoint": "cocrystal_screen",
+      "scope": "Reported table cell; repeat counts and precise per-cell conditions are not supplied by this table"
+    },
+    {
+      "record_id": "cg2c00433-PARA-NICM-c1",
+      "api": "PARA",
+      "coformer": "NICM",
+      "method": "contact_preparation",
+      "solvent": null,
+      "outcome": "physical_mixture",
+      "raw_code": "x",
+      "input_molar_ratio": null,
+      "product_stoichiometry": null,
+      "independent_trial_count": null,
+      "source_table": "S1",
+      "source_pdf_pages": [
+        5,
+        6
+      ],
+      "endpoint": "cocrystal_screen",
+      "scope": "Reported table cell; repeat counts and precise per-cell conditions are not supplied by this table"
+    },
+    {
+      "record_id": "cg2c00433-PARA-NICM-c2",
+      "api": "PARA",
+      "coformer": "NICM",
+      "method": "slurry",
+      "solvent": "n-heptane",
+      "outcome": "physical_mixture",
+      "raw_code": "x",
+      "input_molar_ratio": "1:1",
+      "product_stoichiometry": null,
+      "independent_trial_count": null,
+      "source_table": "S1",
+      "source_pdf_pages": [
+        5,
+        6
+      ],
+      "endpoint": "cocrystal_screen",
+      "scope": "Reported table cell; repeat counts and precise per-cell conditions are not supplied by this table"
+    },
+    {
+      "record_id": "cg2c00433-PARA-NICM-c3",
+      "api": "PARA",
+      "coformer": "NICM",
+      "method": "slurry",
+      "solvent": "pyridine",
+      "outcome": "not_attempted",
+      "raw_code": "n. a.",
+      "input_molar_ratio": "1:1",
+      "product_stoichiometry": null,
+      "independent_trial_count": null,
+      "source_table": "S1",
+      "source_pdf_pages": [
+        5,
+        6
+      ],
+      "endpoint": "cocrystal_screen",
+      "scope": "Reported table cell; repeat counts and precise per-cell conditions are not supplied by this table"
+    },
+    {
+      "record_id": "cg2c00433-PARA-NICM-c4",
+      "api": "PARA",
+      "coformer": "NICM",
+      "method": "slurry",
+      "solvent": "diethyl ether",
+      "outcome": "physical_mixture",
+      "raw_code": "x",
+      "input_molar_ratio": "1:1",
+      "product_stoichiometry": null,
+      "independent_trial_count": null,
+      "source_table": "S1",
+      "source_pdf_pages": [
+        5,
+        6
+      ],
+      "endpoint": "cocrystal_screen",
+      "scope": "Reported table cell; repeat counts and precise per-cell conditions are not supplied by this table"
+    },
+    {
+      "record_id": "cg2c00433-PARA-NICM-c5",
+      "api": "PARA",
+      "coformer": "NICM",
+      "method": "LAG",
+      "solvent": "n-heptane",
+      "outcome": "physical_mixture",
+      "raw_code": "x",
+      "input_molar_ratio": "1:1",
+      "product_stoichiometry": null,
+      "independent_trial_count": null,
+      "source_table": "S1",
+      "source_pdf_pages": [
+        5,
+        6
+      ],
+      "endpoint": "cocrystal_screen",
+      "scope": "Reported table cell; repeat counts and precise per-cell conditions are not supplied by this table"
+    },
+    {
+      "record_id": "cg2c00433-PARA-NICM-c6",
+      "api": "PARA",
+      "coformer": "NICM",
+      "method": "LAG",
+      "solvent": "diethyl ether",
+      "outcome": "physical_mixture",
+      "raw_code": "x",
+      "input_molar_ratio": "1:1",
+      "product_stoichiometry": null,
+      "independent_trial_count": null,
+      "source_table": "S1",
+      "source_pdf_pages": [
+        5,
+        6
+      ],
+      "endpoint": "cocrystal_screen",
+      "scope": "Reported table cell; repeat counts and precise per-cell conditions are not supplied by this table"
+    },
+    {
+      "record_id": "cg2c00433-PARA-NICM-c7",
+      "api": "PARA",
+      "coformer": "NICM",
+      "method": "cosublimation",
+      "solvent": null,
+      "outcome": "physical_mixture",
+      "raw_code": "x",
+      "input_molar_ratio": "1:1",
+      "product_stoichiometry": null,
+      "independent_trial_count": null,
+      "source_table": "S1",
+      "source_pdf_pages": [
+        5,
+        6
+      ],
+      "endpoint": "cocrystal_screen",
+      "scope": "Reported table cell; repeat counts and precise per-cell conditions are not supplied by this table"
+    },
+    {
+      "record_id": "cg2c00433-PARA-OXAL-c1",
+      "api": "PARA",
+      "coformer": "OXAL",
+      "method": "contact_preparation",
+      "solvent": null,
+      "outcome": "not_attempted",
+      "raw_code": "n. a.",
+      "input_molar_ratio": null,
+      "product_stoichiometry": null,
+      "independent_trial_count": null,
+      "source_table": "S1",
+      "source_pdf_pages": [
+        5,
+        6
+      ],
+      "endpoint": "cocrystal_screen",
+      "scope": "Reported table cell; repeat counts and precise per-cell conditions are not supplied by this table"
+    },
+    {
+      "record_id": "cg2c00433-PARA-OXAL-c2",
+      "api": "PARA",
+      "coformer": "OXAL",
+      "method": "slurry",
+      "solvent": "n-heptane",
+      "outcome": "multicomponent_form_observed",
+      "raw_code": "yes",
+      "input_molar_ratio": "1:1",
+      "product_stoichiometry": null,
+      "independent_trial_count": null,
+      "source_table": "S1",
+      "source_pdf_pages": [
+        5,
+        6
+      ],
+      "endpoint": "cocrystal_screen",
+      "scope": "Reported table cell; repeat counts and precise per-cell conditions are not supplied by this table"
+    },
+    {
+      "record_id": "cg2c00433-PARA-OXAL-c3",
+      "api": "PARA",
+      "coformer": "OXAL",
+      "method": "slurry",
+      "solvent": "pyridine",
+      "outcome": "not_attempted",
+      "raw_code": "n. a.",
+      "input_molar_ratio": "1:1",
+      "product_stoichiometry": null,
+      "independent_trial_count": null,
+      "source_table": "S1",
+      "source_pdf_pages": [
+        5,
+        6
+      ],
+      "endpoint": "cocrystal_screen",
+      "scope": "Reported table cell; repeat counts and precise per-cell conditions are not supplied by this table"
+    },
+    {
+      "record_id": "cg2c00433-PARA-OXAL-c4",
+      "api": "PARA",
+      "coformer": "OXAL",
+      "method": "slurry",
+      "solvent": "diethyl ether",
+      "outcome": "multicomponent_form_observed",
+      "raw_code": "yes",
+      "input_molar_ratio": "1:1",
+      "product_stoichiometry": null,
+      "independent_trial_count": null,
+      "source_table": "S1",
+      "source_pdf_pages": [
+        5,
+        6
+      ],
+      "endpoint": "cocrystal_screen",
+      "scope": "Reported table cell; repeat counts and precise per-cell conditions are not supplied by this table"
+    },
+    {
+      "record_id": "cg2c00433-PARA-OXAL-c5",
+      "api": "PARA",
+      "coformer": "OXAL",
+      "method": "LAG",
+      "solvent": "n-heptane",
+      "outcome": "multicomponent_form_observed",
+      "raw_code": "yes",
+      "input_molar_ratio": "1:1",
+      "product_stoichiometry": null,
+      "independent_trial_count": null,
+      "source_table": "S1",
+      "source_pdf_pages": [
+        5,
+        6
+      ],
+      "endpoint": "cocrystal_screen",
+      "scope": "Reported table cell; repeat counts and precise per-cell conditions are not supplied by this table"
+    },
+    {
+      "record_id": "cg2c00433-PARA-OXAL-c6",
+      "api": "PARA",
+      "coformer": "OXAL",
+      "method": "LAG",
+      "solvent": "diethyl ether",
+      "outcome": "multicomponent_form_observed",
+      "raw_code": "yes",
+      "input_molar_ratio": "1:1",
+      "product_stoichiometry": null,
+      "independent_trial_count": null,
+      "source_table": "S1",
+      "source_pdf_pages": [
+        5,
+        6
+      ],
+      "endpoint": "cocrystal_screen",
+      "scope": "Reported table cell; repeat counts and precise per-cell conditions are not supplied by this table"
+    },
+    {
+      "record_id": "cg2c00433-PARA-OXAL-c7",
+      "api": "PARA",
+      "coformer": "OXAL",
+      "method": "cosublimation",
+      "solvent": null,
+      "outcome": "multicomponent_form_observed",
+      "raw_code": "yes",
+      "input_molar_ratio": "1:1",
+      "product_stoichiometry": null,
+      "independent_trial_count": null,
+      "source_table": "S1",
+      "source_pdf_pages": [
+        5,
+        6
+      ],
+      "endpoint": "cocrystal_screen",
+      "scope": "Reported table cell; repeat counts and precise per-cell conditions are not supplied by this table"
+    },
+    {
+      "record_id": "cg2c00433-PARA-SUCA-c1",
+      "api": "PARA",
+      "coformer": "SUCA",
+      "method": "contact_preparation",
+      "solvent": null,
+      "outcome": "physical_mixture",
+      "raw_code": "x",
+      "input_molar_ratio": null,
+      "product_stoichiometry": null,
+      "independent_trial_count": null,
+      "source_table": "S1",
+      "source_pdf_pages": [
+        5,
+        6
+      ],
+      "endpoint": "cocrystal_screen",
+      "scope": "Reported table cell; repeat counts and precise per-cell conditions are not supplied by this table"
+    },
+    {
+      "record_id": "cg2c00433-PARA-SUCA-c2",
+      "api": "PARA",
+      "coformer": "SUCA",
+      "method": "slurry",
+      "solvent": "n-heptane",
+      "outcome": "physical_mixture",
+      "raw_code": "x",
+      "input_molar_ratio": "1:1",
+      "product_stoichiometry": null,
+      "independent_trial_count": null,
+      "source_table": "S1",
+      "source_pdf_pages": [
+        5,
+        6
+      ],
+      "endpoint": "cocrystal_screen",
+      "scope": "Reported table cell; repeat counts and precise per-cell conditions are not supplied by this table"
+    },
+    {
+      "record_id": "cg2c00433-PARA-SUCA-c3",
+      "api": "PARA",
+      "coformer": "SUCA",
+      "method": "slurry",
+      "solvent": "pyridine",
+      "outcome": "not_attempted",
+      "raw_code": "n. a.",
+      "input_molar_ratio": "1:1",
+      "product_stoichiometry": null,
+      "independent_trial_count": null,
+      "source_table": "S1",
+      "source_pdf_pages": [
+        5,
+        6
+      ],
+      "endpoint": "cocrystal_screen",
+      "scope": "Reported table cell; repeat counts and precise per-cell conditions are not supplied by this table"
+    },
+    {
+      "record_id": "cg2c00433-PARA-SUCA-c4",
+      "api": "PARA",
+      "coformer": "SUCA",
+      "method": "slurry",
+      "solvent": "diethyl ether",
+      "outcome": "physical_mixture",
+      "raw_code": "x",
+      "input_molar_ratio": "1:1",
+      "product_stoichiometry": null,
+      "independent_trial_count": null,
+      "source_table": "S1",
+      "source_pdf_pages": [
+        5,
+        6
+      ],
+      "endpoint": "cocrystal_screen",
+      "scope": "Reported table cell; repeat counts and precise per-cell conditions are not supplied by this table"
+    },
+    {
+      "record_id": "cg2c00433-PARA-SUCA-c5",
+      "api": "PARA",
+      "coformer": "SUCA",
+      "method": "LAG",
+      "solvent": "n-heptane",
+      "outcome": "physical_mixture",
+      "raw_code": "x",
+      "input_molar_ratio": "1:1",
+      "product_stoichiometry": null,
+      "independent_trial_count": null,
+      "source_table": "S1",
+      "source_pdf_pages": [
+        5,
+        6
+      ],
+      "endpoint": "cocrystal_screen",
+      "scope": "Reported table cell; repeat counts and precise per-cell conditions are not supplied by this table"
+    },
+    {
+      "record_id": "cg2c00433-PARA-SUCA-c6",
+      "api": "PARA",
+      "coformer": "SUCA",
+      "method": "LAG",
+      "solvent": "diethyl ether",
+      "outcome": "physical_mixture",
+      "raw_code": "x",
+      "input_molar_ratio": "1:1",
+      "product_stoichiometry": null,
+      "independent_trial_count": null,
+      "source_table": "S1",
+      "source_pdf_pages": [
+        5,
+        6
+      ],
+      "endpoint": "cocrystal_screen",
+      "scope": "Reported table cell; repeat counts and precise per-cell conditions are not supplied by this table"
+    },
+    {
+      "record_id": "cg2c00433-PARA-SUCA-c7",
+      "api": "PARA",
+      "coformer": "SUCA",
+      "method": "cosublimation",
+      "solvent": null,
+      "outcome": "physical_mixture",
+      "raw_code": "x",
+      "input_molar_ratio": "1:1",
+      "product_stoichiometry": null,
+      "independent_trial_count": null,
+      "source_table": "S1",
+      "source_pdf_pages": [
+        5,
+        6
+      ],
+      "endpoint": "cocrystal_screen",
+      "scope": "Reported table cell; repeat counts and precise per-cell conditions are not supplied by this table"
+    },
+    {
+      "record_id": "cg2c00433-PARA-TELZ-c1",
+      "api": "PARA",
+      "coformer": "TELZ",
+      "method": "contact_preparation",
+      "solvent": null,
+      "outcome": "not_attempted",
+      "raw_code": "n. a.",
+      "input_molar_ratio": null,
+      "product_stoichiometry": null,
+      "independent_trial_count": null,
+      "source_table": "S1",
+      "source_pdf_pages": [
+        5,
+        6
+      ],
+      "endpoint": "cocrystal_screen",
+      "scope": "Reported table cell; repeat counts and precise per-cell conditions are not supplied by this table"
+    },
+    {
+      "record_id": "cg2c00433-PARA-TELZ-c2",
+      "api": "PARA",
+      "coformer": "TELZ",
+      "method": "slurry",
+      "solvent": "n-heptane",
+      "outcome": "physical_mixture",
+      "raw_code": "x",
+      "input_molar_ratio": "1:1",
+      "product_stoichiometry": null,
+      "independent_trial_count": null,
+      "source_table": "S1",
+      "source_pdf_pages": [
+        5,
+        6
+      ],
+      "endpoint": "cocrystal_screen",
+      "scope": "Reported table cell; repeat counts and precise per-cell conditions are not supplied by this table"
+    },
+    {
+      "record_id": "cg2c00433-PARA-TELZ-c3",
+      "api": "PARA",
+      "coformer": "TELZ",
+      "method": "slurry",
+      "solvent": "pyridine",
+      "outcome": "not_attempted",
+      "raw_code": "n. a.",
+      "input_molar_ratio": "1:1",
+      "product_stoichiometry": null,
+      "independent_trial_count": null,
+      "source_table": "S1",
+      "source_pdf_pages": [
+        5,
+        6
+      ],
+      "endpoint": "cocrystal_screen",
+      "scope": "Reported table cell; repeat counts and precise per-cell conditions are not supplied by this table"
+    },
+    {
+      "record_id": "cg2c00433-PARA-TELZ-c4",
+      "api": "PARA",
+      "coformer": "TELZ",
+      "method": "slurry",
+      "solvent": "diethyl ether",
+      "outcome": "physical_mixture",
+      "raw_code": "x",
+      "input_molar_ratio": "1:1",
+      "product_stoichiometry": null,
+      "independent_trial_count": null,
+      "source_table": "S1",
+      "source_pdf_pages": [
+        5,
+        6
+      ],
+      "endpoint": "cocrystal_screen",
+      "scope": "Reported table cell; repeat counts and precise per-cell conditions are not supplied by this table"
+    },
+    {
+      "record_id": "cg2c00433-PARA-TELZ-c5",
+      "api": "PARA",
+      "coformer": "TELZ",
+      "method": "LAG",
+      "solvent": "n-heptane",
+      "outcome": "physical_mixture",
+      "raw_code": "x",
+      "input_molar_ratio": "1:1",
+      "product_stoichiometry": null,
+      "independent_trial_count": null,
+      "source_table": "S1",
+      "source_pdf_pages": [
+        5,
+        6
+      ],
+      "endpoint": "cocrystal_screen",
+      "scope": "Reported table cell; repeat counts and precise per-cell conditions are not supplied by this table"
+    },
+    {
+      "record_id": "cg2c00433-PARA-TELZ-c6",
+      "api": "PARA",
+      "coformer": "TELZ",
+      "method": "LAG",
+      "solvent": "diethyl ether",
+      "outcome": "physical_mixture",
+      "raw_code": "x",
+      "input_molar_ratio": "1:1",
+      "product_stoichiometry": null,
+      "independent_trial_count": null,
+      "source_table": "S1",
+      "source_pdf_pages": [
+        5,
+        6
+      ],
+      "endpoint": "cocrystal_screen",
+      "scope": "Reported table cell; repeat counts and precise per-cell conditions are not supplied by this table"
+    },
+    {
+      "record_id": "cg2c00433-PARA-TELZ-c7",
+      "api": "PARA",
+      "coformer": "TELZ",
+      "method": "cosublimation",
+      "solvent": null,
+      "outcome": "physical_mixture",
+      "raw_code": "x",
+      "input_molar_ratio": "1:1",
+      "product_stoichiometry": null,
+      "independent_trial_count": null,
+      "source_table": "S1",
+      "source_pdf_pages": [
+        5,
+        6
+      ],
+      "endpoint": "cocrystal_screen",
+      "scope": "Reported table cell; repeat counts and precise per-cell conditions are not supplied by this table"
+    },
+    {
+      "record_id": "cg2c00433-PARA-PYRD-c1",
+      "api": "PARA",
+      "coformer": "PYRD",
+      "method": "contact_preparation",
+      "solvent": null,
+      "outcome": "not_attempted",
+      "raw_code": "n. a.",
+      "input_molar_ratio": null,
+      "product_stoichiometry": null,
+      "independent_trial_count": null,
+      "source_table": "S1",
+      "source_pdf_pages": [
+        5,
+        6
+      ],
+      "endpoint": "solvate",
+      "scope": "Reported table cell; repeat counts and precise per-cell conditions are not supplied by this table"
+    },
+    {
+      "record_id": "cg2c00433-PARA-PYRD-c2",
+      "api": "PARA",
+      "coformer": "PYRD",
+      "method": "slurry",
+      "solvent": "n-heptane",
+      "outcome": "not_attempted",
+      "raw_code": "n. a.",
+      "input_molar_ratio": "1:1",
+      "product_stoichiometry": null,
+      "independent_trial_count": null,
+      "source_table": "S1",
+      "source_pdf_pages": [
+        5,
+        6
+      ],
+      "endpoint": "solvate",
+      "scope": "Reported table cell; repeat counts and precise per-cell conditions are not supplied by this table"
+    },
+    {
+      "record_id": "cg2c00433-PARA-PYRD-c3",
+      "api": "PARA",
+      "coformer": "PYRD",
+      "method": "slurry",
+      "solvent": "pyridine",
+      "outcome": "multicomponent_form_observed",
+      "raw_code": "yes",
+      "input_molar_ratio": "1:1",
+      "product_stoichiometry": null,
+      "independent_trial_count": null,
+      "source_table": "S1",
+      "source_pdf_pages": [
+        5,
+        6
+      ],
+      "endpoint": "solvate",
+      "scope": "Reported table cell; repeat counts and precise per-cell conditions are not supplied by this table"
+    },
+    {
+      "record_id": "cg2c00433-PARA-PYRD-c4",
+      "api": "PARA",
+      "coformer": "PYRD",
+      "method": "slurry",
+      "solvent": "diethyl ether",
+      "outcome": "not_attempted",
+      "raw_code": "n. a.",
+      "input_molar_ratio": "1:1",
+      "product_stoichiometry": null,
+      "independent_trial_count": null,
+      "source_table": "S1",
+      "source_pdf_pages": [
+        5,
+        6
+      ],
+      "endpoint": "solvate",
+      "scope": "Reported table cell; repeat counts and precise per-cell conditions are not supplied by this table"
+    },
+    {
+      "record_id": "cg2c00433-PARA-PYRD-c5",
+      "api": "PARA",
+      "coformer": "PYRD",
+      "method": "LAG",
+      "solvent": "n-heptane",
+      "outcome": "not_attempted",
+      "raw_code": "n. a.",
+      "input_molar_ratio": "1:1",
+      "product_stoichiometry": null,
+      "independent_trial_count": null,
+      "source_table": "S1",
+      "source_pdf_pages": [
+        5,
+        6
+      ],
+      "endpoint": "solvate",
+      "scope": "Reported table cell; repeat counts and precise per-cell conditions are not supplied by this table"
+    },
+    {
+      "record_id": "cg2c00433-PARA-PYRD-c6",
+      "api": "PARA",
+      "coformer": "PYRD",
+      "method": "LAG",
+      "solvent": "diethyl ether",
+      "outcome": "not_attempted",
+      "raw_code": "n. a.",
+      "input_molar_ratio": "1:1",
+      "product_stoichiometry": null,
+      "independent_trial_count": null,
+      "source_table": "S1",
+      "source_pdf_pages": [
+        5,
+        6
+      ],
+      "endpoint": "solvate",
+      "scope": "Reported table cell; repeat counts and precise per-cell conditions are not supplied by this table"
+    },
+    {
+      "record_id": "cg2c00433-PARA-PYRD-c7",
+      "api": "PARA",
+      "coformer": "PYRD",
+      "method": "cosublimation",
+      "solvent": null,
+      "outcome": "not_attempted",
+      "raw_code": "n. a.",
+      "input_molar_ratio": "1:1",
+      "product_stoichiometry": null,
+      "independent_trial_count": null,
+      "source_table": "S1",
+      "source_pdf_pages": [
+        5,
+        6
+      ],
+      "endpoint": "solvate",
+      "scope": "Reported table cell; repeat counts and precise per-cell conditions are not supplied by this table"
+    },
+    {
+      "record_id": "cg2c00433-ASPI-BITZ-c1",
+      "api": "ASPI",
+      "coformer": "BITZ",
+      "method": "contact_preparation",
+      "solvent": null,
+      "outcome": "physical_mixture",
+      "raw_code": "x",
+      "input_molar_ratio": null,
+      "product_stoichiometry": null,
+      "independent_trial_count": null,
+      "source_table": "S2",
+      "source_pdf_pages": [
+        12
+      ],
+      "endpoint": "cocrystal_screen",
+      "scope": "Reported table cell; repeat counts and precise per-cell conditions are not supplied by this table"
+    },
+    {
+      "record_id": "cg2c00433-ASPI-BITZ-c2",
+      "api": "ASPI",
+      "coformer": "BITZ",
+      "method": "slurry",
+      "solvent": "n-heptane",
+      "outcome": "physical_mixture",
+      "raw_code": "x",
+      "input_molar_ratio": "1:1",
+      "product_stoichiometry": null,
+      "independent_trial_count": null,
+      "source_table": "S2",
+      "source_pdf_pages": [
+        12
+      ],
+      "endpoint": "cocrystal_screen",
+      "scope": "Reported table cell; repeat counts and precise per-cell conditions are not supplied by this table"
+    },
+    {
+      "record_id": "cg2c00433-ASPI-BITZ-c3",
+      "api": "ASPI",
+      "coformer": "BITZ",
+      "method": "slurry",
+      "solvent": "pyridine",
+      "outcome": "not_attempted",
+      "raw_code": "n. a.",
+      "input_molar_ratio": "1:1",
+      "product_stoichiometry": null,
+      "independent_trial_count": null,
+      "source_table": "S2",
+      "source_pdf_pages": [
+        12
+      ],
+      "endpoint": "cocrystal_screen",
+      "scope": "Reported table cell; repeat counts and precise per-cell conditions are not supplied by this table"
+    },
+    {
+      "record_id": "cg2c00433-ASPI-BITZ-c4",
+      "api": "ASPI",
+      "coformer": "BITZ",
+      "method": "slurry",
+      "solvent": "diethyl ether",
+      "outcome": "physical_mixture",
+      "raw_code": "x",
+      "input_molar_ratio": "1:1",
+      "product_stoichiometry": null,
+      "independent_trial_count": null,
+      "source_table": "S2",
+      "source_pdf_pages": [
+        12
+      ],
+      "endpoint": "cocrystal_screen",
+      "scope": "Reported table cell; repeat counts and precise per-cell conditions are not supplied by this table"
+    },
+    {
+      "record_id": "cg2c00433-ASPI-BITZ-c5",
+      "api": "ASPI",
+      "coformer": "BITZ",
+      "method": "LAG",
+      "solvent": "n-heptane",
+      "outcome": "physical_mixture",
+      "raw_code": "x",
+      "input_molar_ratio": "1:1",
+      "product_stoichiometry": null,
+      "independent_trial_count": null,
+      "source_table": "S2",
+      "source_pdf_pages": [
+        12
+      ],
+      "endpoint": "cocrystal_screen",
+      "scope": "Reported table cell; repeat counts and precise per-cell conditions are not supplied by this table"
+    },
+    {
+      "record_id": "cg2c00433-ASPI-BITZ-c6",
+      "api": "ASPI",
+      "coformer": "BITZ",
+      "method": "LAG",
+      "solvent": "diethyl ether",
+      "outcome": "physical_mixture",
+      "raw_code": "x",
+      "input_molar_ratio": "1:1",
+      "product_stoichiometry": null,
+      "independent_trial_count": null,
+      "source_table": "S2",
+      "source_pdf_pages": [
+        12
+      ],
+      "endpoint": "cocrystal_screen",
+      "scope": "Reported table cell; repeat counts and precise per-cell conditions are not supplied by this table"
+    },
+    {
+      "record_id": "cg2c00433-ASPI-BITZ-c7",
+      "api": "ASPI",
+      "coformer": "BITZ",
+      "method": "cosublimation",
+      "solvent": null,
+      "outcome": "physical_mixture",
+      "raw_code": "x",
+      "input_molar_ratio": "1:1",
+      "product_stoichiometry": null,
+      "independent_trial_count": null,
+      "source_table": "S2",
+      "source_pdf_pages": [
+        12
+      ],
+      "endpoint": "cocrystal_screen",
+      "scope": "Reported table cell; repeat counts and precise per-cell conditions are not supplied by this table"
+    },
+    {
+      "record_id": "cg2c00433-ASPI-CEBG-c1",
+      "api": "ASPI",
+      "coformer": "CEBG",
+      "method": "contact_preparation",
+      "solvent": null,
+      "outcome": "physical_mixture",
+      "raw_code": "x",
+      "input_molar_ratio": null,
+      "product_stoichiometry": null,
+      "independent_trial_count": null,
+      "source_table": "S2",
+      "source_pdf_pages": [
+        12
+      ],
+      "endpoint": "cocrystal_screen",
+      "scope": "Reported table cell; repeat counts and precise per-cell conditions are not supplied by this table"
+    },
+    {
+      "record_id": "cg2c00433-ASPI-CEBG-c2",
+      "api": "ASPI",
+      "coformer": "CEBG",
+      "method": "slurry",
+      "solvent": "n-heptane",
+      "outcome": "physical_mixture",
+      "raw_code": "x",
+      "input_molar_ratio": "1:1",
+      "product_stoichiometry": null,
+      "independent_trial_count": null,
+      "source_table": "S2",
+      "source_pdf_pages": [
+        12
+      ],
+      "endpoint": "cocrystal_screen",
+      "scope": "Reported table cell; repeat counts and precise per-cell conditions are not supplied by this table"
+    },
+    {
+      "record_id": "cg2c00433-ASPI-CEBG-c3",
+      "api": "ASPI",
+      "coformer": "CEBG",
+      "method": "slurry",
+      "solvent": "pyridine",
+      "outcome": "not_attempted",
+      "raw_code": "n. a.",
+      "input_molar_ratio": "1:1",
+      "product_stoichiometry": null,
+      "independent_trial_count": null,
+      "source_table": "S2",
+      "source_pdf_pages": [
+        12
+      ],
+      "endpoint": "cocrystal_screen",
+      "scope": "Reported table cell; repeat counts and precise per-cell conditions are not supplied by this table"
+    },
+    {
+      "record_id": "cg2c00433-ASPI-CEBG-c4",
+      "api": "ASPI",
+      "coformer": "CEBG",
+      "method": "slurry",
+      "solvent": "diethyl ether",
+      "outcome": "physical_mixture",
+      "raw_code": "x",
+      "input_molar_ratio": "1:1",
+      "product_stoichiometry": null,
+      "independent_trial_count": null,
+      "source_table": "S2",
+      "source_pdf_pages": [
+        12
+      ],
+      "endpoint": "cocrystal_screen",
+      "scope": "Reported table cell; repeat counts and precise per-cell conditions are not supplied by this table"
+    },
+    {
+      "record_id": "cg2c00433-ASPI-CEBG-c5",
+      "api": "ASPI",
+      "coformer": "CEBG",
+      "method": "LAG",
+      "solvent": "n-heptane",
+      "outcome": "physical_mixture",
+      "raw_code": "x",
+      "input_molar_ratio": "1:1",
+      "product_stoichiometry": null,
+      "independent_trial_count": null,
+      "source_table": "S2",
+      "source_pdf_pages": [
+        12
+      ],
+      "endpoint": "cocrystal_screen",
+      "scope": "Reported table cell; repeat counts and precise per-cell conditions are not supplied by this table"
+    },
+    {
+      "record_id": "cg2c00433-ASPI-CEBG-c6",
+      "api": "ASPI",
+      "coformer": "CEBG",
+      "method": "LAG",
+      "solvent": "diethyl ether",
+      "outcome": "physical_mixture",
+      "raw_code": "x",
+      "input_molar_ratio": "1:1",
+      "product_stoichiometry": null,
+      "independent_trial_count": null,
+      "source_table": "S2",
+      "source_pdf_pages": [
+        12
+      ],
+      "endpoint": "cocrystal_screen",
+      "scope": "Reported table cell; repeat counts and precise per-cell conditions are not supplied by this table"
+    },
+    {
+      "record_id": "cg2c00433-ASPI-CEBG-c7",
+      "api": "ASPI",
+      "coformer": "CEBG",
+      "method": "cosublimation",
+      "solvent": null,
+      "outcome": "physical_mixture",
+      "raw_code": "x",
+      "input_molar_ratio": "1:1",
+      "product_stoichiometry": null,
+      "independent_trial_count": null,
+      "source_table": "S2",
+      "source_pdf_pages": [
+        12
+      ],
+      "endpoint": "cocrystal_screen",
+      "scope": "Reported table cell; repeat counts and precise per-cell conditions are not supplied by this table"
+    },
+    {
+      "record_id": "cg2c00433-ASPI-DUPK-c1",
+      "api": "ASPI",
+      "coformer": "DUPK",
+      "method": "contact_preparation",
+      "solvent": null,
+      "outcome": "physical_mixture",
+      "raw_code": "x",
+      "input_molar_ratio": null,
+      "product_stoichiometry": null,
+      "independent_trial_count": null,
+      "source_table": "S2",
+      "source_pdf_pages": [
+        12
+      ],
+      "endpoint": "cocrystal_screen",
+      "scope": "Reported table cell; repeat counts and precise per-cell conditions are not supplied by this table"
+    },
+    {
+      "record_id": "cg2c00433-ASPI-DUPK-c2",
+      "api": "ASPI",
+      "coformer": "DUPK",
+      "method": "slurry",
+      "solvent": "n-heptane",
+      "outcome": "physical_mixture",
+      "raw_code": "x",
+      "input_molar_ratio": "1:1",
+      "product_stoichiometry": null,
+      "independent_trial_count": null,
+      "source_table": "S2",
+      "source_pdf_pages": [
+        12
+      ],
+      "endpoint": "cocrystal_screen",
+      "scope": "Reported table cell; repeat counts and precise per-cell conditions are not supplied by this table"
+    },
+    {
+      "record_id": "cg2c00433-ASPI-DUPK-c3",
+      "api": "ASPI",
+      "coformer": "DUPK",
+      "method": "slurry",
+      "solvent": "pyridine",
+      "outcome": "not_attempted",
+      "raw_code": "n. a.",
+      "input_molar_ratio": "1:1",
+      "product_stoichiometry": null,
+      "independent_trial_count": null,
+      "source_table": "S2",
+      "source_pdf_pages": [
+        12
+      ],
+      "endpoint": "cocrystal_screen",
+      "scope": "Reported table cell; repeat counts and precise per-cell conditions are not supplied by this table"
+    },
+    {
+      "record_id": "cg2c00433-ASPI-DUPK-c4",
+      "api": "ASPI",
+      "coformer": "DUPK",
+      "method": "slurry",
+      "solvent": "diethyl ether",
+      "outcome": "physical_mixture",
+      "raw_code": "x",
+      "input_molar_ratio": "1:1",
+      "product_stoichiometry": null,
+      "independent_trial_count": null,
+      "source_table": "S2",
+      "source_pdf_pages": [
+        12
+      ],
+      "endpoint": "cocrystal_screen",
+      "scope": "Reported table cell; repeat counts and precise per-cell conditions are not supplied by this table"
+    },
+    {
+      "record_id": "cg2c00433-ASPI-DUPK-c5",
+      "api": "ASPI",
+      "coformer": "DUPK",
+      "method": "LAG",
+      "solvent": "n-heptane",
+      "outcome": "physical_mixture",
+      "raw_code": "x",
+      "input_molar_ratio": "1:1",
+      "product_stoichiometry": null,
+      "independent_trial_count": null,
+      "source_table": "S2",
+      "source_pdf_pages": [
+        12
+      ],
+      "endpoint": "cocrystal_screen",
+      "scope": "Reported table cell; repeat counts and precise per-cell conditions are not supplied by this table"
+    },
+    {
+      "record_id": "cg2c00433-ASPI-DUPK-c6",
+      "api": "ASPI",
+      "coformer": "DUPK",
+      "method": "LAG",
+      "solvent": "diethyl ether",
+      "outcome": "physical_mixture",
+      "raw_code": "x",
+      "input_molar_ratio": "1:1",
+      "product_stoichiometry": null,
+      "independent_trial_count": null,
+      "source_table": "S2",
+      "source_pdf_pages": [
+        12
+      ],
+      "endpoint": "cocrystal_screen",
+      "scope": "Reported table cell; repeat counts and precise per-cell conditions are not supplied by this table"
+    },
+    {
+      "record_id": "cg2c00433-ASPI-DUPK-c7",
+      "api": "ASPI",
+      "coformer": "DUPK",
+      "method": "cosublimation",
+      "solvent": null,
+      "outcome": "physical_mixture",
+      "raw_code": "x",
+      "input_molar_ratio": "1:1",
+      "product_stoichiometry": null,
+      "independent_trial_count": null,
+      "source_table": "S2",
+      "source_pdf_pages": [
+        12
+      ],
+      "endpoint": "cocrystal_screen",
+      "scope": "Reported table cell; repeat counts and precise per-cell conditions are not supplied by this table"
+    },
+    {
+      "record_id": "cg2c00433-ASPI-ESAL-c1",
+      "api": "ASPI",
+      "coformer": "ESAL",
+      "method": "contact_preparation",
+      "solvent": null,
+      "outcome": "not_attempted",
+      "raw_code": "n. a.",
+      "input_molar_ratio": null,
+      "product_stoichiometry": null,
+      "independent_trial_count": null,
+      "source_table": "S2",
+      "source_pdf_pages": [
+        12
+      ],
+      "endpoint": "cocrystal_screen",
+      "scope": "Reported table cell; repeat counts and precise per-cell conditions are not supplied by this table"
+    },
+    {
+      "record_id": "cg2c00433-ASPI-ESAL-c2",
+      "api": "ASPI",
+      "coformer": "ESAL",
+      "method": "slurry",
+      "solvent": "n-heptane",
+      "outcome": "physical_mixture",
+      "raw_code": "x",
+      "input_molar_ratio": "1:1",
+      "product_stoichiometry": null,
+      "independent_trial_count": null,
+      "source_table": "S2",
+      "source_pdf_pages": [
+        12
+      ],
+      "endpoint": "cocrystal_screen",
+      "scope": "Reported table cell; repeat counts and precise per-cell conditions are not supplied by this table"
+    },
+    {
+      "record_id": "cg2c00433-ASPI-ESAL-c3",
+      "api": "ASPI",
+      "coformer": "ESAL",
+      "method": "slurry",
+      "solvent": "pyridine",
+      "outcome": "not_attempted",
+      "raw_code": "n. a.",
+      "input_molar_ratio": "1:1",
+      "product_stoichiometry": null,
+      "independent_trial_count": null,
+      "source_table": "S2",
+      "source_pdf_pages": [
+        12
+      ],
+      "endpoint": "cocrystal_screen",
+      "scope": "Reported table cell; repeat counts and precise per-cell conditions are not supplied by this table"
+    },
+    {
+      "record_id": "cg2c00433-ASPI-ESAL-c4",
+      "api": "ASPI",
+      "coformer": "ESAL",
+      "method": "slurry",
+      "solvent": "diethyl ether",
+      "outcome": "physical_mixture",
+      "raw_code": "x",
+      "input_molar_ratio": "1:1",
+      "product_stoichiometry": null,
+      "independent_trial_count": null,
+      "source_table": "S2",
+      "source_pdf_pages": [
+        12
+      ],
+      "endpoint": "cocrystal_screen",
+      "scope": "Reported table cell; repeat counts and precise per-cell conditions are not supplied by this table"
+    },
+    {
+      "record_id": "cg2c00433-ASPI-ESAL-c5",
+      "api": "ASPI",
+      "coformer": "ESAL",
+      "method": "LAG",
+      "solvent": "n-heptane",
+      "outcome": "physical_mixture",
+      "raw_code": "x",
+      "input_molar_ratio": "1:1",
+      "product_stoichiometry": null,
+      "independent_trial_count": null,
+      "source_table": "S2",
+      "source_pdf_pages": [
+        12
+      ],
+      "endpoint": "cocrystal_screen",
+      "scope": "Reported table cell; repeat counts and precise per-cell conditions are not supplied by this table"
+    },
+    {
+      "record_id": "cg2c00433-ASPI-ESAL-c6",
+      "api": "ASPI",
+      "coformer": "ESAL",
+      "method": "LAG",
+      "solvent": "diethyl ether",
+      "outcome": "physical_mixture",
+      "raw_code": "x",
+      "input_molar_ratio": "1:1",
+      "product_stoichiometry": null,
+      "independent_trial_count": null,
+      "source_table": "S2",
+      "source_pdf_pages": [
+        12
+      ],
+      "endpoint": "cocrystal_screen",
+      "scope": "Reported table cell; repeat counts and precise per-cell conditions are not supplied by this table"
+    },
+    {
+      "record_id": "cg2c00433-ASPI-ESAL-c7",
+      "api": "ASPI",
+      "coformer": "ESAL",
+      "method": "cosublimation",
+      "solvent": null,
+      "outcome": "physical_mixture",
+      "raw_code": "x",
+      "input_molar_ratio": "1:1",
+      "product_stoichiometry": null,
+      "independent_trial_count": null,
+      "source_table": "S2",
+      "source_pdf_pages": [
+        12
+      ],
+      "endpoint": "cocrystal_screen",
+      "scope": "Reported table cell; repeat counts and precise per-cell conditions are not supplied by this table"
+    },
+    {
+      "record_id": "cg2c00433-ASPI-NICC-c1",
+      "api": "ASPI",
+      "coformer": "NICC",
+      "method": "contact_preparation",
+      "solvent": null,
+      "outcome": "not_attempted",
+      "raw_code": "n. a.",
+      "input_molar_ratio": null,
+      "product_stoichiometry": null,
+      "independent_trial_count": null,
+      "source_table": "S2",
+      "source_pdf_pages": [
+        12
+      ],
+      "endpoint": "cocrystal_screen",
+      "scope": "Reported table cell; repeat counts and precise per-cell conditions are not supplied by this table"
+    },
+    {
+      "record_id": "cg2c00433-ASPI-NICC-c2",
+      "api": "ASPI",
+      "coformer": "NICC",
+      "method": "slurry",
+      "solvent": "n-heptane",
+      "outcome": "physical_mixture",
+      "raw_code": "x",
+      "input_molar_ratio": "1:1",
+      "product_stoichiometry": null,
+      "independent_trial_count": null,
+      "source_table": "S2",
+      "source_pdf_pages": [
+        12
+      ],
+      "endpoint": "cocrystal_screen",
+      "scope": "Reported table cell; repeat counts and precise per-cell conditions are not supplied by this table"
+    },
+    {
+      "record_id": "cg2c00433-ASPI-NICC-c3",
+      "api": "ASPI",
+      "coformer": "NICC",
+      "method": "slurry",
+      "solvent": "pyridine",
+      "outcome": "not_attempted",
+      "raw_code": "n. a.",
+      "input_molar_ratio": "1:1",
+      "product_stoichiometry": null,
+      "independent_trial_count": null,
+      "source_table": "S2",
+      "source_pdf_pages": [
+        12
+      ],
+      "endpoint": "cocrystal_screen",
+      "scope": "Reported table cell; repeat counts and precise per-cell conditions are not supplied by this table"
+    },
+    {
+      "record_id": "cg2c00433-ASPI-NICC-c4",
+      "api": "ASPI",
+      "coformer": "NICC",
+      "method": "slurry",
+      "solvent": "diethyl ether",
+      "outcome": "physical_mixture",
+      "raw_code": "x",
+      "input_molar_ratio": "1:1",
+      "product_stoichiometry": null,
+      "independent_trial_count": null,
+      "source_table": "S2",
+      "source_pdf_pages": [
+        12
+      ],
+      "endpoint": "cocrystal_screen",
+      "scope": "Reported table cell; repeat counts and precise per-cell conditions are not supplied by this table"
+    },
+    {
+      "record_id": "cg2c00433-ASPI-NICC-c5",
+      "api": "ASPI",
+      "coformer": "NICC",
+      "method": "LAG",
+      "solvent": "n-heptane",
+      "outcome": "physical_mixture",
+      "raw_code": "x",
+      "input_molar_ratio": "1:1",
+      "product_stoichiometry": null,
+      "independent_trial_count": null,
+      "source_table": "S2",
+      "source_pdf_pages": [
+        12
+      ],
+      "endpoint": "cocrystal_screen",
+      "scope": "Reported table cell; repeat counts and precise per-cell conditions are not supplied by this table"
+    },
+    {
+      "record_id": "cg2c00433-ASPI-NICC-c6",
+      "api": "ASPI",
+      "coformer": "NICC",
+      "method": "LAG",
+      "solvent": "diethyl ether",
+      "outcome": "physical_mixture",
+      "raw_code": "x",
+      "input_molar_ratio": "1:1",
+      "product_stoichiometry": null,
+      "independent_trial_count": null,
+      "source_table": "S2",
+      "source_pdf_pages": [
+        12
+      ],
+      "endpoint": "cocrystal_screen",
+      "scope": "Reported table cell; repeat counts and precise per-cell conditions are not supplied by this table"
+    },
+    {
+      "record_id": "cg2c00433-ASPI-NICC-c7",
+      "api": "ASPI",
+      "coformer": "NICC",
+      "method": "cosublimation",
+      "solvent": null,
+      "outcome": "physical_mixture",
+      "raw_code": "x",
+      "input_molar_ratio": "1:1",
+      "product_stoichiometry": null,
+      "independent_trial_count": null,
+      "source_table": "S2",
+      "source_pdf_pages": [
+        12
+      ],
+      "endpoint": "cocrystal_screen",
+      "scope": "Reported table cell; repeat counts and precise per-cell conditions are not supplied by this table"
+    },
+    {
+      "record_id": "cg2c00433-ASPI-NICM-c1",
+      "api": "ASPI",
+      "coformer": "NICM",
+      "method": "contact_preparation",
+      "solvent": null,
+      "outcome": "physical_mixture",
+      "raw_code": "x",
+      "input_molar_ratio": null,
+      "product_stoichiometry": null,
+      "independent_trial_count": null,
+      "source_table": "S2",
+      "source_pdf_pages": [
+        12
+      ],
+      "endpoint": "cocrystal_screen",
+      "scope": "Reported table cell; repeat counts and precise per-cell conditions are not supplied by this table"
+    },
+    {
+      "record_id": "cg2c00433-ASPI-NICM-c2",
+      "api": "ASPI",
+      "coformer": "NICM",
+      "method": "slurry",
+      "solvent": "n-heptane",
+      "outcome": "physical_mixture",
+      "raw_code": "x",
+      "input_molar_ratio": "1:1",
+      "product_stoichiometry": null,
+      "independent_trial_count": null,
+      "source_table": "S2",
+      "source_pdf_pages": [
+        12
+      ],
+      "endpoint": "cocrystal_screen",
+      "scope": "Reported table cell; repeat counts and precise per-cell conditions are not supplied by this table"
+    },
+    {
+      "record_id": "cg2c00433-ASPI-NICM-c3",
+      "api": "ASPI",
+      "coformer": "NICM",
+      "method": "slurry",
+      "solvent": "pyridine",
+      "outcome": "not_attempted",
+      "raw_code": "n. a.",
+      "input_molar_ratio": "1:1",
+      "product_stoichiometry": null,
+      "independent_trial_count": null,
+      "source_table": "S2",
+      "source_pdf_pages": [
+        12
+      ],
+      "endpoint": "cocrystal_screen",
+      "scope": "Reported table cell; repeat counts and precise per-cell conditions are not supplied by this table"
+    },
+    {
+      "record_id": "cg2c00433-ASPI-NICM-c4",
+      "api": "ASPI",
+      "coformer": "NICM",
+      "method": "slurry",
+      "solvent": "diethyl ether",
+      "outcome": "physical_mixture",
+      "raw_code": "x",
+      "input_molar_ratio": "1:1",
+      "product_stoichiometry": null,
+      "independent_trial_count": null,
+      "source_table": "S2",
+      "source_pdf_pages": [
+        12
+      ],
+      "endpoint": "cocrystal_screen",
+      "scope": "Reported table cell; repeat counts and precise per-cell conditions are not supplied by this table"
+    },
+    {
+      "record_id": "cg2c00433-ASPI-NICM-c5",
+      "api": "ASPI",
+      "coformer": "NICM",
+      "method": "LAG",
+      "solvent": "n-heptane",
+      "outcome": "physical_mixture",
+      "raw_code": "x",
+      "input_molar_ratio": "1:1",
+      "product_stoichiometry": null,
+      "independent_trial_count": null,
+      "source_table": "S2",
+      "source_pdf_pages": [
+        12
+      ],
+      "endpoint": "cocrystal_screen",
+      "scope": "Reported table cell; repeat counts and precise per-cell conditions are not supplied by this table"
+    },
+    {
+      "record_id": "cg2c00433-ASPI-NICM-c6",
+      "api": "ASPI",
+      "coformer": "NICM",
+      "method": "LAG",
+      "solvent": "diethyl ether",
+      "outcome": "physical_mixture",
+      "raw_code": "x",
+      "input_molar_ratio": "1:1",
+      "product_stoichiometry": null,
+      "independent_trial_count": null,
+      "source_table": "S2",
+      "source_pdf_pages": [
+        12
+      ],
+      "endpoint": "cocrystal_screen",
+      "scope": "Reported table cell; repeat counts and precise per-cell conditions are not supplied by this table"
+    },
+    {
+      "record_id": "cg2c00433-ASPI-NICM-c7",
+      "api": "ASPI",
+      "coformer": "NICM",
+      "method": "cosublimation",
+      "solvent": null,
+      "outcome": "physical_mixture",
+      "raw_code": "x",
+      "input_molar_ratio": "1:1",
+      "product_stoichiometry": null,
+      "independent_trial_count": null,
+      "source_table": "S2",
+      "source_pdf_pages": [
+        12
+      ],
+      "endpoint": "cocrystal_screen",
+      "scope": "Reported table cell; repeat counts and precise per-cell conditions are not supplied by this table"
+    },
+    {
+      "record_id": "cg2c00433-ASPI-OXAL-c1",
+      "api": "ASPI",
+      "coformer": "OXAL",
+      "method": "contact_preparation",
+      "solvent": null,
+      "outcome": "not_attempted",
+      "raw_code": "n. a.",
+      "input_molar_ratio": null,
+      "product_stoichiometry": null,
+      "independent_trial_count": null,
+      "source_table": "S2",
+      "source_pdf_pages": [
+        12
+      ],
+      "endpoint": "cocrystal_screen",
+      "scope": "Reported table cell; repeat counts and precise per-cell conditions are not supplied by this table"
+    },
+    {
+      "record_id": "cg2c00433-ASPI-OXAL-c2",
+      "api": "ASPI",
+      "coformer": "OXAL",
+      "method": "slurry",
+      "solvent": "n-heptane",
+      "outcome": "physical_mixture",
+      "raw_code": "x",
+      "input_molar_ratio": "1:1",
+      "product_stoichiometry": null,
+      "independent_trial_count": null,
+      "source_table": "S2",
+      "source_pdf_pages": [
+        12
+      ],
+      "endpoint": "cocrystal_screen",
+      "scope": "Reported table cell; repeat counts and precise per-cell conditions are not supplied by this table"
+    },
+    {
+      "record_id": "cg2c00433-ASPI-OXAL-c3",
+      "api": "ASPI",
+      "coformer": "OXAL",
+      "method": "slurry",
+      "solvent": "pyridine",
+      "outcome": "not_attempted",
+      "raw_code": "n. a.",
+      "input_molar_ratio": "1:1",
+      "product_stoichiometry": null,
+      "independent_trial_count": null,
+      "source_table": "S2",
+      "source_pdf_pages": [
+        12
+      ],
+      "endpoint": "cocrystal_screen",
+      "scope": "Reported table cell; repeat counts and precise per-cell conditions are not supplied by this table"
+    },
+    {
+      "record_id": "cg2c00433-ASPI-OXAL-c4",
+      "api": "ASPI",
+      "coformer": "OXAL",
+      "method": "slurry",
+      "solvent": "diethyl ether",
+      "outcome": "physical_mixture",
+      "raw_code": "x",
+      "input_molar_ratio": "1:1",
+      "product_stoichiometry": null,
+      "independent_trial_count": null,
+      "source_table": "S2",
+      "source_pdf_pages": [
+        12
+      ],
+      "endpoint": "cocrystal_screen",
+      "scope": "Reported table cell; repeat counts and precise per-cell conditions are not supplied by this table"
+    },
+    {
+      "record_id": "cg2c00433-ASPI-OXAL-c5",
+      "api": "ASPI",
+      "coformer": "OXAL",
+      "method": "LAG",
+      "solvent": "n-heptane",
+      "outcome": "physical_mixture",
+      "raw_code": "x",
+      "input_molar_ratio": "1:1",
+      "product_stoichiometry": null,
+      "independent_trial_count": null,
+      "source_table": "S2",
+      "source_pdf_pages": [
+        12
+      ],
+      "endpoint": "cocrystal_screen",
+      "scope": "Reported table cell; repeat counts and precise per-cell conditions are not supplied by this table"
+    },
+    {
+      "record_id": "cg2c00433-ASPI-OXAL-c6",
+      "api": "ASPI",
+      "coformer": "OXAL",
+      "method": "LAG",
+      "solvent": "diethyl ether",
+      "outcome": "physical_mixture",
+      "raw_code": "x",
+      "input_molar_ratio": "1:1",
+      "product_stoichiometry": null,
+      "independent_trial_count": null,
+      "source_table": "S2",
+      "source_pdf_pages": [
+        12
+      ],
+      "endpoint": "cocrystal_screen",
+      "scope": "Reported table cell; repeat counts and precise per-cell conditions are not supplied by this table"
+    },
+    {
+      "record_id": "cg2c00433-ASPI-OXAL-c7",
+      "api": "ASPI",
+      "coformer": "OXAL",
+      "method": "cosublimation",
+      "solvent": null,
+      "outcome": "physical_mixture",
+      "raw_code": "x",
+      "input_molar_ratio": "1:1",
+      "product_stoichiometry": null,
+      "independent_trial_count": null,
+      "source_table": "S2",
+      "source_pdf_pages": [
+        12
+      ],
+      "endpoint": "cocrystal_screen",
+      "scope": "Reported table cell; repeat counts and precise per-cell conditions are not supplied by this table"
+    },
+    {
+      "record_id": "cg2c00433-ASPI-SUCA-c1",
+      "api": "ASPI",
+      "coformer": "SUCA",
+      "method": "contact_preparation",
+      "solvent": null,
+      "outcome": "not_attempted",
+      "raw_code": "n. a.",
+      "input_molar_ratio": null,
+      "product_stoichiometry": null,
+      "independent_trial_count": null,
+      "source_table": "S2",
+      "source_pdf_pages": [
+        12
+      ],
+      "endpoint": "cocrystal_screen",
+      "scope": "Reported table cell; repeat counts and precise per-cell conditions are not supplied by this table"
+    },
+    {
+      "record_id": "cg2c00433-ASPI-SUCA-c2",
+      "api": "ASPI",
+      "coformer": "SUCA",
+      "method": "slurry",
+      "solvent": "n-heptane",
+      "outcome": "physical_mixture",
+      "raw_code": "x",
+      "input_molar_ratio": "1:1",
+      "product_stoichiometry": null,
+      "independent_trial_count": null,
+      "source_table": "S2",
+      "source_pdf_pages": [
+        12
+      ],
+      "endpoint": "cocrystal_screen",
+      "scope": "Reported table cell; repeat counts and precise per-cell conditions are not supplied by this table"
+    },
+    {
+      "record_id": "cg2c00433-ASPI-SUCA-c3",
+      "api": "ASPI",
+      "coformer": "SUCA",
+      "method": "slurry",
+      "solvent": "pyridine",
+      "outcome": "not_attempted",
+      "raw_code": "n. a.",
+      "input_molar_ratio": "1:1",
+      "product_stoichiometry": null,
+      "independent_trial_count": null,
+      "source_table": "S2",
+      "source_pdf_pages": [
+        12
+      ],
+      "endpoint": "cocrystal_screen",
+      "scope": "Reported table cell; repeat counts and precise per-cell conditions are not supplied by this table"
+    },
+    {
+      "record_id": "cg2c00433-ASPI-SUCA-c4",
+      "api": "ASPI",
+      "coformer": "SUCA",
+      "method": "slurry",
+      "solvent": "diethyl ether",
+      "outcome": "physical_mixture",
+      "raw_code": "x",
+      "input_molar_ratio": "1:1",
+      "product_stoichiometry": null,
+      "independent_trial_count": null,
+      "source_table": "S2",
+      "source_pdf_pages": [
+        12
+      ],
+      "endpoint": "cocrystal_screen",
+      "scope": "Reported table cell; repeat counts and precise per-cell conditions are not supplied by this table"
+    },
+    {
+      "record_id": "cg2c00433-ASPI-SUCA-c5",
+      "api": "ASPI",
+      "coformer": "SUCA",
+      "method": "LAG",
+      "solvent": "n-heptane",
+      "outcome": "physical_mixture",
+      "raw_code": "x",
+      "input_molar_ratio": "1:1",
+      "product_stoichiometry": null,
+      "independent_trial_count": null,
+      "source_table": "S2",
+      "source_pdf_pages": [
+        12
+      ],
+      "endpoint": "cocrystal_screen",
+      "scope": "Reported table cell; repeat counts and precise per-cell conditions are not supplied by this table"
+    },
+    {
+      "record_id": "cg2c00433-ASPI-SUCA-c6",
+      "api": "ASPI",
+      "coformer": "SUCA",
+      "method": "LAG",
+      "solvent": "diethyl ether",
+      "outcome": "physical_mixture",
+      "raw_code": "x",
+      "input_molar_ratio": "1:1",
+      "product_stoichiometry": null,
+      "independent_trial_count": null,
+      "source_table": "S2",
+      "source_pdf_pages": [
+        12
+      ],
+      "endpoint": "cocrystal_screen",
+      "scope": "Reported table cell; repeat counts and precise per-cell conditions are not supplied by this table"
+    },
+    {
+      "record_id": "cg2c00433-ASPI-SUCA-c7",
+      "api": "ASPI",
+      "coformer": "SUCA",
+      "method": "cosublimation",
+      "solvent": null,
+      "outcome": "physical_mixture",
+      "raw_code": "x",
+      "input_molar_ratio": "1:1",
+      "product_stoichiometry": null,
+      "independent_trial_count": null,
+      "source_table": "S2",
+      "source_pdf_pages": [
+        12
+      ],
+      "endpoint": "cocrystal_screen",
+      "scope": "Reported table cell; repeat counts and precise per-cell conditions are not supplied by this table"
+    },
+    {
+      "record_id": "cg2c00433-ASPI-TELZ-c1",
+      "api": "ASPI",
+      "coformer": "TELZ",
+      "method": "contact_preparation",
+      "solvent": null,
+      "outcome": "physical_mixture",
+      "raw_code": "x",
+      "input_molar_ratio": null,
+      "product_stoichiometry": null,
+      "independent_trial_count": null,
+      "source_table": "S2",
+      "source_pdf_pages": [
+        12
+      ],
+      "endpoint": "cocrystal_screen",
+      "scope": "Reported table cell; repeat counts and precise per-cell conditions are not supplied by this table"
+    },
+    {
+      "record_id": "cg2c00433-ASPI-TELZ-c2",
+      "api": "ASPI",
+      "coformer": "TELZ",
+      "method": "slurry",
+      "solvent": "n-heptane",
+      "outcome": "physical_mixture",
+      "raw_code": "x",
+      "input_molar_ratio": "1:1",
+      "product_stoichiometry": null,
+      "independent_trial_count": null,
+      "source_table": "S2",
+      "source_pdf_pages": [
+        12
+      ],
+      "endpoint": "cocrystal_screen",
+      "scope": "Reported table cell; repeat counts and precise per-cell conditions are not supplied by this table"
+    },
+    {
+      "record_id": "cg2c00433-ASPI-TELZ-c3",
+      "api": "ASPI",
+      "coformer": "TELZ",
+      "method": "slurry",
+      "solvent": "pyridine",
+      "outcome": "not_attempted",
+      "raw_code": "n. a.",
+      "input_molar_ratio": "1:1",
+      "product_stoichiometry": null,
+      "independent_trial_count": null,
+      "source_table": "S2",
+      "source_pdf_pages": [
+        12
+      ],
+      "endpoint": "cocrystal_screen",
+      "scope": "Reported table cell; repeat counts and precise per-cell conditions are not supplied by this table"
+    },
+    {
+      "record_id": "cg2c00433-ASPI-TELZ-c4",
+      "api": "ASPI",
+      "coformer": "TELZ",
+      "method": "slurry",
+      "solvent": "diethyl ether",
+      "outcome": "physical_mixture",
+      "raw_code": "x",
+      "input_molar_ratio": "1:1",
+      "product_stoichiometry": null,
+      "independent_trial_count": null,
+      "source_table": "S2",
+      "source_pdf_pages": [
+        12
+      ],
+      "endpoint": "cocrystal_screen",
+      "scope": "Reported table cell; repeat counts and precise per-cell conditions are not supplied by this table"
+    },
+    {
+      "record_id": "cg2c00433-ASPI-TELZ-c5",
+      "api": "ASPI",
+      "coformer": "TELZ",
+      "method": "LAG",
+      "solvent": "n-heptane",
+      "outcome": "physical_mixture",
+      "raw_code": "x",
+      "input_molar_ratio": "1:1",
+      "product_stoichiometry": null,
+      "independent_trial_count": null,
+      "source_table": "S2",
+      "source_pdf_pages": [
+        12
+      ],
+      "endpoint": "cocrystal_screen",
+      "scope": "Reported table cell; repeat counts and precise per-cell conditions are not supplied by this table"
+    },
+    {
+      "record_id": "cg2c00433-ASPI-TELZ-c6",
+      "api": "ASPI",
+      "coformer": "TELZ",
+      "method": "LAG",
+      "solvent": "diethyl ether",
+      "outcome": "physical_mixture",
+      "raw_code": "x",
+      "input_molar_ratio": "1:1",
+      "product_stoichiometry": null,
+      "independent_trial_count": null,
+      "source_table": "S2",
+      "source_pdf_pages": [
+        12
+      ],
+      "endpoint": "cocrystal_screen",
+      "scope": "Reported table cell; repeat counts and precise per-cell conditions are not supplied by this table"
+    },
+    {
+      "record_id": "cg2c00433-ASPI-TELZ-c7",
+      "api": "ASPI",
+      "coformer": "TELZ",
+      "method": "cosublimation",
+      "solvent": null,
+      "outcome": "physical_mixture",
+      "raw_code": "x",
+      "input_molar_ratio": "1:1",
+      "product_stoichiometry": null,
+      "independent_trial_count": null,
+      "source_table": "S2",
+      "source_pdf_pages": [
+        12
+      ],
+      "endpoint": "cocrystal_screen",
+      "scope": "Reported table cell; repeat counts and precise per-cell conditions are not supplied by this table"
+    },
+    {
+      "record_id": "cg2c00433-ASPI-PYRD-c1",
+      "api": "ASPI",
+      "coformer": "PYRD",
+      "method": "contact_preparation",
+      "solvent": null,
+      "outcome": "not_attempted",
+      "raw_code": "n. a.",
+      "input_molar_ratio": null,
+      "product_stoichiometry": null,
+      "independent_trial_count": null,
+      "source_table": "S2",
+      "source_pdf_pages": [
+        12
+      ],
+      "endpoint": "solvate",
+      "scope": "Reported table cell; repeat counts and precise per-cell conditions are not supplied by this table"
+    },
+    {
+      "record_id": "cg2c00433-ASPI-PYRD-c2",
+      "api": "ASPI",
+      "coformer": "PYRD",
+      "method": "slurry",
+      "solvent": "n-heptane",
+      "outcome": "not_attempted",
+      "raw_code": "n. a.",
+      "input_molar_ratio": "1:1",
+      "product_stoichiometry": null,
+      "independent_trial_count": null,
+      "source_table": "S2",
+      "source_pdf_pages": [
+        12
+      ],
+      "endpoint": "solvate",
+      "scope": "Reported table cell; repeat counts and precise per-cell conditions are not supplied by this table"
+    },
+    {
+      "record_id": "cg2c00433-ASPI-PYRD-c3",
+      "api": "ASPI",
+      "coformer": "PYRD",
+      "method": "slurry",
+      "solvent": "pyridine",
+      "outcome": "physical_mixture",
+      "raw_code": "x",
+      "input_molar_ratio": "1:1",
+      "product_stoichiometry": null,
+      "independent_trial_count": null,
+      "source_table": "S2",
+      "source_pdf_pages": [
+        12
+      ],
+      "endpoint": "solvate",
+      "scope": "Reported table cell; repeat counts and precise per-cell conditions are not supplied by this table"
+    },
+    {
+      "record_id": "cg2c00433-ASPI-PYRD-c4",
+      "api": "ASPI",
+      "coformer": "PYRD",
+      "method": "slurry",
+      "solvent": "diethyl ether",
+      "outcome": "not_attempted",
+      "raw_code": "n. a.",
+      "input_molar_ratio": "1:1",
+      "product_stoichiometry": null,
+      "independent_trial_count": null,
+      "source_table": "S2",
+      "source_pdf_pages": [
+        12
+      ],
+      "endpoint": "solvate",
+      "scope": "Reported table cell; repeat counts and precise per-cell conditions are not supplied by this table"
+    },
+    {
+      "record_id": "cg2c00433-ASPI-PYRD-c5",
+      "api": "ASPI",
+      "coformer": "PYRD",
+      "method": "LAG",
+      "solvent": "n-heptane",
+      "outcome": "not_attempted",
+      "raw_code": "n. a.",
+      "input_molar_ratio": "1:1",
+      "product_stoichiometry": null,
+      "independent_trial_count": null,
+      "source_table": "S2",
+      "source_pdf_pages": [
+        12
+      ],
+      "endpoint": "solvate",
+      "scope": "Reported table cell; repeat counts and precise per-cell conditions are not supplied by this table"
+    },
+    {
+      "record_id": "cg2c00433-ASPI-PYRD-c6",
+      "api": "ASPI",
+      "coformer": "PYRD",
+      "method": "LAG",
+      "solvent": "diethyl ether",
+      "outcome": "not_attempted",
+      "raw_code": "n. a.",
+      "input_molar_ratio": "1:1",
+      "product_stoichiometry": null,
+      "independent_trial_count": null,
+      "source_table": "S2",
+      "source_pdf_pages": [
+        12
+      ],
+      "endpoint": "solvate",
+      "scope": "Reported table cell; repeat counts and precise per-cell conditions are not supplied by this table"
+    },
+    {
+      "record_id": "cg2c00433-ASPI-PYRD-c7",
+      "api": "ASPI",
+      "coformer": "PYRD",
+      "method": "cosublimation",
+      "solvent": null,
+      "outcome": "not_attempted",
+      "raw_code": "n. a.",
+      "input_molar_ratio": "1:1",
+      "product_stoichiometry": null,
+      "independent_trial_count": null,
+      "source_table": "S2",
+      "source_pdf_pages": [
+        12
+      ],
+      "endpoint": "solvate",
+      "scope": "Reported table cell; repeat counts and precise per-cell conditions are not supplied by this table"
+    },
+    {
+      "record_id": "cg2c00433-CARB-BITZ-c1",
+      "api": "CARB",
+      "coformer": "BITZ",
+      "method": "contact_preparation",
+      "solvent": null,
+      "outcome": "physical_mixture",
+      "raw_code": "x",
+      "input_molar_ratio": null,
+      "product_stoichiometry": null,
+      "independent_trial_count": null,
+      "source_table": "S3",
+      "source_pdf_pages": [
+        17
+      ],
+      "endpoint": "cocrystal_screen",
+      "scope": "Reported table cell; repeat counts and precise per-cell conditions are not supplied by this table"
+    },
+    {
+      "record_id": "cg2c00433-CARB-BITZ-c2",
+      "api": "CARB",
+      "coformer": "BITZ",
+      "method": "slurry",
+      "solvent": "n-heptane",
+      "outcome": "physical_mixture",
+      "raw_code": "x",
+      "input_molar_ratio": "1:1",
+      "product_stoichiometry": null,
+      "independent_trial_count": null,
+      "source_table": "S3",
+      "source_pdf_pages": [
+        17
+      ],
+      "endpoint": "cocrystal_screen",
+      "scope": "Reported table cell; repeat counts and precise per-cell conditions are not supplied by this table"
+    },
+    {
+      "record_id": "cg2c00433-CARB-BITZ-c3",
+      "api": "CARB",
+      "coformer": "BITZ",
+      "method": "slurry",
+      "solvent": "pyridine",
+      "outcome": "not_attempted",
+      "raw_code": "n. a.",
+      "input_molar_ratio": "1:1",
+      "product_stoichiometry": null,
+      "independent_trial_count": null,
+      "source_table": "S3",
+      "source_pdf_pages": [
+        17
+      ],
+      "endpoint": "cocrystal_screen",
+      "scope": "Reported table cell; repeat counts and precise per-cell conditions are not supplied by this table"
+    },
+    {
+      "record_id": "cg2c00433-CARB-BITZ-c4",
+      "api": "CARB",
+      "coformer": "BITZ",
+      "method": "slurry",
+      "solvent": "diethyl ether",
+      "outcome": "physical_mixture",
+      "raw_code": "x",
+      "input_molar_ratio": "1:1",
+      "product_stoichiometry": null,
+      "independent_trial_count": null,
+      "source_table": "S3",
+      "source_pdf_pages": [
+        17
+      ],
+      "endpoint": "cocrystal_screen",
+      "scope": "Reported table cell; repeat counts and precise per-cell conditions are not supplied by this table"
+    },
+    {
+      "record_id": "cg2c00433-CARB-BITZ-c5",
+      "api": "CARB",
+      "coformer": "BITZ",
+      "method": "LAG",
+      "solvent": "n-heptane",
+      "outcome": "physical_mixture",
+      "raw_code": "x",
+      "input_molar_ratio": "1:1",
+      "product_stoichiometry": null,
+      "independent_trial_count": null,
+      "source_table": "S3",
+      "source_pdf_pages": [
+        17
+      ],
+      "endpoint": "cocrystal_screen",
+      "scope": "Reported table cell; repeat counts and precise per-cell conditions are not supplied by this table"
+    },
+    {
+      "record_id": "cg2c00433-CARB-BITZ-c6",
+      "api": "CARB",
+      "coformer": "BITZ",
+      "method": "LAG",
+      "solvent": "diethyl ether",
+      "outcome": "physical_mixture",
+      "raw_code": "x",
+      "input_molar_ratio": "1:1",
+      "product_stoichiometry": null,
+      "independent_trial_count": null,
+      "source_table": "S3",
+      "source_pdf_pages": [
+        17
+      ],
+      "endpoint": "cocrystal_screen",
+      "scope": "Reported table cell; repeat counts and precise per-cell conditions are not supplied by this table"
+    },
+    {
+      "record_id": "cg2c00433-CARB-BITZ-c7",
+      "api": "CARB",
+      "coformer": "BITZ",
+      "method": "cosublimation",
+      "solvent": null,
+      "outcome": "physical_mixture",
+      "raw_code": "x",
+      "input_molar_ratio": "1:1",
+      "product_stoichiometry": null,
+      "independent_trial_count": null,
+      "source_table": "S3",
+      "source_pdf_pages": [
+        17
+      ],
+      "endpoint": "cocrystal_screen",
+      "scope": "Reported table cell; repeat counts and precise per-cell conditions are not supplied by this table"
+    },
+    {
+      "record_id": "cg2c00433-CARB-CEBG-c1",
+      "api": "CARB",
+      "coformer": "CEBG",
+      "method": "contact_preparation",
+      "solvent": null,
+      "outcome": "multicomponent_form_observed",
+      "raw_code": "yes",
+      "input_molar_ratio": null,
+      "product_stoichiometry": null,
+      "independent_trial_count": null,
+      "source_table": "S3",
+      "source_pdf_pages": [
+        17
+      ],
+      "endpoint": "cocrystal_screen",
+      "scope": "Reported table cell; repeat counts and precise per-cell conditions are not supplied by this table"
+    },
+    {
+      "record_id": "cg2c00433-CARB-CEBG-c2",
+      "api": "CARB",
+      "coformer": "CEBG",
+      "method": "slurry",
+      "solvent": "n-heptane",
+      "outcome": "multicomponent_form_observed",
+      "raw_code": "yes",
+      "input_molar_ratio": "1:1",
+      "product_stoichiometry": null,
+      "independent_trial_count": null,
+      "source_table": "S3",
+      "source_pdf_pages": [
+        17
+      ],
+      "endpoint": "cocrystal_screen",
+      "scope": "Reported table cell; repeat counts and precise per-cell conditions are not supplied by this table"
+    },
+    {
+      "record_id": "cg2c00433-CARB-CEBG-c3",
+      "api": "CARB",
+      "coformer": "CEBG",
+      "method": "slurry",
+      "solvent": "pyridine",
+      "outcome": "not_attempted",
+      "raw_code": "n. a.",
+      "input_molar_ratio": "1:1",
+      "product_stoichiometry": null,
+      "independent_trial_count": null,
+      "source_table": "S3",
+      "source_pdf_pages": [
+        17
+      ],
+      "endpoint": "cocrystal_screen",
+      "scope": "Reported table cell; repeat counts and precise per-cell conditions are not supplied by this table"
+    },
+    {
+      "record_id": "cg2c00433-CARB-CEBG-c4",
+      "api": "CARB",
+      "coformer": "CEBG",
+      "method": "slurry",
+      "solvent": "diethyl ether",
+      "outcome": "multicomponent_form_observed",
+      "raw_code": "yes",
+      "input_molar_ratio": "1:1",
+      "product_stoichiometry": null,
+      "independent_trial_count": null,
+      "source_table": "S3",
+      "source_pdf_pages": [
+        17
+      ],
+      "endpoint": "cocrystal_screen",
+      "scope": "Reported table cell; repeat counts and precise per-cell conditions are not supplied by this table"
+    },
+    {
+      "record_id": "cg2c00433-CARB-CEBG-c5",
+      "api": "CARB",
+      "coformer": "CEBG",
+      "method": "LAG",
+      "solvent": "n-heptane",
+      "outcome": "multicomponent_form_observed",
+      "raw_code": "yes",
+      "input_molar_ratio": "1:1",
+      "product_stoichiometry": null,
+      "independent_trial_count": null,
+      "source_table": "S3",
+      "source_pdf_pages": [
+        17
+      ],
+      "endpoint": "cocrystal_screen",
+      "scope": "Reported table cell; repeat counts and precise per-cell conditions are not supplied by this table"
+    },
+    {
+      "record_id": "cg2c00433-CARB-CEBG-c6",
+      "api": "CARB",
+      "coformer": "CEBG",
+      "method": "LAG",
+      "solvent": "diethyl ether",
+      "outcome": "multicomponent_form_observed",
+      "raw_code": "yes",
+      "input_molar_ratio": "1:1",
+      "product_stoichiometry": null,
+      "independent_trial_count": null,
+      "source_table": "S3",
+      "source_pdf_pages": [
+        17
+      ],
+      "endpoint": "cocrystal_screen",
+      "scope": "Reported table cell; repeat counts and precise per-cell conditions are not supplied by this table"
+    },
+    {
+      "record_id": "cg2c00433-CARB-CEBG-c7",
+      "api": "CARB",
+      "coformer": "CEBG",
+      "method": "cosublimation",
+      "solvent": null,
+      "outcome": "physical_mixture",
+      "raw_code": "x",
+      "input_molar_ratio": "1:1",
+      "product_stoichiometry": null,
+      "independent_trial_count": null,
+      "source_table": "S3",
+      "source_pdf_pages": [
+        17
+      ],
+      "endpoint": "cocrystal_screen",
+      "scope": "Reported table cell; repeat counts and precise per-cell conditions are not supplied by this table"
+    },
+    {
+      "record_id": "cg2c00433-CARB-DUPK-c1",
+      "api": "CARB",
+      "coformer": "DUPK",
+      "method": "contact_preparation",
+      "solvent": null,
+      "outcome": "physical_mixture",
+      "raw_code": "x",
+      "input_molar_ratio": null,
+      "product_stoichiometry": null,
+      "independent_trial_count": null,
+      "source_table": "S3",
+      "source_pdf_pages": [
+        17
+      ],
+      "endpoint": "cocrystal_screen",
+      "scope": "Reported table cell; repeat counts and precise per-cell conditions are not supplied by this table"
+    },
+    {
+      "record_id": "cg2c00433-CARB-DUPK-c2",
+      "api": "CARB",
+      "coformer": "DUPK",
+      "method": "slurry",
+      "solvent": "n-heptane",
+      "outcome": "inconclusive",
+      "raw_code": "Inconclusive",
+      "input_molar_ratio": "1:1",
+      "product_stoichiometry": null,
+      "independent_trial_count": null,
+      "source_table": "S3",
+      "source_pdf_pages": [
+        17
+      ],
+      "endpoint": "cocrystal_screen",
+      "scope": "Reported table cell; repeat counts and precise per-cell conditions are not supplied by this table"
+    },
+    {
+      "record_id": "cg2c00433-CARB-DUPK-c3",
+      "api": "CARB",
+      "coformer": "DUPK",
+      "method": "slurry",
+      "solvent": "pyridine",
+      "outcome": "not_attempted",
+      "raw_code": "n. a.",
+      "input_molar_ratio": "1:1",
+      "product_stoichiometry": null,
+      "independent_trial_count": null,
+      "source_table": "S3",
+      "source_pdf_pages": [
+        17
+      ],
+      "endpoint": "cocrystal_screen",
+      "scope": "Reported table cell; repeat counts and precise per-cell conditions are not supplied by this table"
+    },
+    {
+      "record_id": "cg2c00433-CARB-DUPK-c4",
+      "api": "CARB",
+      "coformer": "DUPK",
+      "method": "slurry",
+      "solvent": "diethyl ether",
+      "outcome": "physical_mixture",
+      "raw_code": "x",
+      "input_molar_ratio": "1:1",
+      "product_stoichiometry": null,
+      "independent_trial_count": null,
+      "source_table": "S3",
+      "source_pdf_pages": [
+        17
+      ],
+      "endpoint": "cocrystal_screen",
+      "scope": "Reported table cell; repeat counts and precise per-cell conditions are not supplied by this table"
+    },
+    {
+      "record_id": "cg2c00433-CARB-DUPK-c5",
+      "api": "CARB",
+      "coformer": "DUPK",
+      "method": "LAG",
+      "solvent": "n-heptane",
+      "outcome": "physical_mixture",
+      "raw_code": "x",
+      "input_molar_ratio": "1:1",
+      "product_stoichiometry": null,
+      "independent_trial_count": null,
+      "source_table": "S3",
+      "source_pdf_pages": [
+        17
+      ],
+      "endpoint": "cocrystal_screen",
+      "scope": "Reported table cell; repeat counts and precise per-cell conditions are not supplied by this table"
+    },
+    {
+      "record_id": "cg2c00433-CARB-DUPK-c6",
+      "api": "CARB",
+      "coformer": "DUPK",
+      "method": "LAG",
+      "solvent": "diethyl ether",
+      "outcome": "physical_mixture",
+      "raw_code": "x",
+      "input_molar_ratio": "1:1",
+      "product_stoichiometry": null,
+      "independent_trial_count": null,
+      "source_table": "S3",
+      "source_pdf_pages": [
+        17
+      ],
+      "endpoint": "cocrystal_screen",
+      "scope": "Reported table cell; repeat counts and precise per-cell conditions are not supplied by this table"
+    },
+    {
+      "record_id": "cg2c00433-CARB-DUPK-c7",
+      "api": "CARB",
+      "coformer": "DUPK",
+      "method": "cosublimation",
+      "solvent": null,
+      "outcome": "physical_mixture",
+      "raw_code": "x",
+      "input_molar_ratio": "1:1",
+      "product_stoichiometry": null,
+      "independent_trial_count": null,
+      "source_table": "S3",
+      "source_pdf_pages": [
+        17
+      ],
+      "endpoint": "cocrystal_screen",
+      "scope": "Reported table cell; repeat counts and precise per-cell conditions are not supplied by this table"
+    },
+    {
+      "record_id": "cg2c00433-CARB-ESAL-c1",
+      "api": "CARB",
+      "coformer": "ESAL",
+      "method": "contact_preparation",
+      "solvent": null,
+      "outcome": "not_attempted",
+      "raw_code": "n. a.",
+      "input_molar_ratio": null,
+      "product_stoichiometry": null,
+      "independent_trial_count": null,
+      "source_table": "S3",
+      "source_pdf_pages": [
+        17
+      ],
+      "endpoint": "cocrystal_screen",
+      "scope": "Reported table cell; repeat counts and precise per-cell conditions are not supplied by this table"
+    },
+    {
+      "record_id": "cg2c00433-CARB-ESAL-c2",
+      "api": "CARB",
+      "coformer": "ESAL",
+      "method": "slurry",
+      "solvent": "n-heptane",
+      "outcome": "multicomponent_form_observed",
+      "raw_code": "yes",
+      "input_molar_ratio": "1:1",
+      "product_stoichiometry": null,
+      "independent_trial_count": null,
+      "source_table": "S3",
+      "source_pdf_pages": [
+        17
+      ],
+      "endpoint": "cocrystal_screen",
+      "scope": "Reported table cell; repeat counts and precise per-cell conditions are not supplied by this table"
+    },
+    {
+      "record_id": "cg2c00433-CARB-ESAL-c3",
+      "api": "CARB",
+      "coformer": "ESAL",
+      "method": "slurry",
+      "solvent": "pyridine",
+      "outcome": "not_attempted",
+      "raw_code": "n. a.",
+      "input_molar_ratio": "1:1",
+      "product_stoichiometry": null,
+      "independent_trial_count": null,
+      "source_table": "S3",
+      "source_pdf_pages": [
+        17
+      ],
+      "endpoint": "cocrystal_screen",
+      "scope": "Reported table cell; repeat counts and precise per-cell conditions are not supplied by this table"
+    },
+    {
+      "record_id": "cg2c00433-CARB-ESAL-c4",
+      "api": "CARB",
+      "coformer": "ESAL",
+      "method": "slurry",
+      "solvent": "diethyl ether",
+      "outcome": "multicomponent_form_observed",
+      "raw_code": "yes",
+      "input_molar_ratio": "1:1",
+      "product_stoichiometry": null,
+      "independent_trial_count": null,
+      "source_table": "S3",
+      "source_pdf_pages": [
+        17
+      ],
+      "endpoint": "cocrystal_screen",
+      "scope": "Reported table cell; repeat counts and precise per-cell conditions are not supplied by this table"
+    },
+    {
+      "record_id": "cg2c00433-CARB-ESAL-c5",
+      "api": "CARB",
+      "coformer": "ESAL",
+      "method": "LAG",
+      "solvent": "n-heptane",
+      "outcome": "multicomponent_form_observed",
+      "raw_code": "yes",
+      "input_molar_ratio": "1:1",
+      "product_stoichiometry": null,
+      "independent_trial_count": null,
+      "source_table": "S3",
+      "source_pdf_pages": [
+        17
+      ],
+      "endpoint": "cocrystal_screen",
+      "scope": "Reported table cell; repeat counts and precise per-cell conditions are not supplied by this table"
+    },
+    {
+      "record_id": "cg2c00433-CARB-ESAL-c6",
+      "api": "CARB",
+      "coformer": "ESAL",
+      "method": "LAG",
+      "solvent": "diethyl ether",
+      "outcome": "multicomponent_form_observed",
+      "raw_code": "yes",
+      "input_molar_ratio": "1:1",
+      "product_stoichiometry": null,
+      "independent_trial_count": null,
+      "source_table": "S3",
+      "source_pdf_pages": [
+        17
+      ],
+      "endpoint": "cocrystal_screen",
+      "scope": "Reported table cell; repeat counts and precise per-cell conditions are not supplied by this table"
+    },
+    {
+      "record_id": "cg2c00433-CARB-ESAL-c7",
+      "api": "CARB",
+      "coformer": "ESAL",
+      "method": "cosublimation",
+      "solvent": null,
+      "outcome": "physical_mixture",
+      "raw_code": "x",
+      "input_molar_ratio": "1:1",
+      "product_stoichiometry": null,
+      "independent_trial_count": null,
+      "source_table": "S3",
+      "source_pdf_pages": [
+        17
+      ],
+      "endpoint": "cocrystal_screen",
+      "scope": "Reported table cell; repeat counts and precise per-cell conditions are not supplied by this table"
+    },
+    {
+      "record_id": "cg2c00433-CARB-NICC-c1",
+      "api": "CARB",
+      "coformer": "NICC",
+      "method": "contact_preparation",
+      "solvent": null,
+      "outcome": "not_attempted",
+      "raw_code": "n. a.",
+      "input_molar_ratio": null,
+      "product_stoichiometry": null,
+      "independent_trial_count": null,
+      "source_table": "S3",
+      "source_pdf_pages": [
+        17
+      ],
+      "endpoint": "cocrystal_screen",
+      "scope": "Reported table cell; repeat counts and precise per-cell conditions are not supplied by this table"
+    },
+    {
+      "record_id": "cg2c00433-CARB-NICC-c2",
+      "api": "CARB",
+      "coformer": "NICC",
+      "method": "slurry",
+      "solvent": "n-heptane",
+      "outcome": "physical_mixture",
+      "raw_code": "x",
+      "input_molar_ratio": "1:1",
+      "product_stoichiometry": null,
+      "independent_trial_count": null,
+      "source_table": "S3",
+      "source_pdf_pages": [
+        17
+      ],
+      "endpoint": "cocrystal_screen",
+      "scope": "Reported table cell; repeat counts and precise per-cell conditions are not supplied by this table"
+    },
+    {
+      "record_id": "cg2c00433-CARB-NICC-c3",
+      "api": "CARB",
+      "coformer": "NICC",
+      "method": "slurry",
+      "solvent": "pyridine",
+      "outcome": "not_attempted",
+      "raw_code": "n. a.",
+      "input_molar_ratio": "1:1",
+      "product_stoichiometry": null,
+      "independent_trial_count": null,
+      "source_table": "S3",
+      "source_pdf_pages": [
+        17
+      ],
+      "endpoint": "cocrystal_screen",
+      "scope": "Reported table cell; repeat counts and precise per-cell conditions are not supplied by this table"
+    },
+    {
+      "record_id": "cg2c00433-CARB-NICC-c4",
+      "api": "CARB",
+      "coformer": "NICC",
+      "method": "slurry",
+      "solvent": "diethyl ether",
+      "outcome": "physical_mixture",
+      "raw_code": "x",
+      "input_molar_ratio": "1:1",
+      "product_stoichiometry": null,
+      "independent_trial_count": null,
+      "source_table": "S3",
+      "source_pdf_pages": [
+        17
+      ],
+      "endpoint": "cocrystal_screen",
+      "scope": "Reported table cell; repeat counts and precise per-cell conditions are not supplied by this table"
+    },
+    {
+      "record_id": "cg2c00433-CARB-NICC-c5",
+      "api": "CARB",
+      "coformer": "NICC",
+      "method": "LAG",
+      "solvent": "n-heptane",
+      "outcome": "physical_mixture",
+      "raw_code": "x",
+      "input_molar_ratio": "1:1",
+      "product_stoichiometry": null,
+      "independent_trial_count": null,
+      "source_table": "S3",
+      "source_pdf_pages": [
+        17
+      ],
+      "endpoint": "cocrystal_screen",
+      "scope": "Reported table cell; repeat counts and precise per-cell conditions are not supplied by this table"
+    },
+    {
+      "record_id": "cg2c00433-CARB-NICC-c6",
+      "api": "CARB",
+      "coformer": "NICC",
+      "method": "LAG",
+      "solvent": "diethyl ether",
+      "outcome": "physical_mixture",
+      "raw_code": "x",
+      "input_molar_ratio": "1:1",
+      "product_stoichiometry": null,
+      "independent_trial_count": null,
+      "source_table": "S3",
+      "source_pdf_pages": [
+        17
+      ],
+      "endpoint": "cocrystal_screen",
+      "scope": "Reported table cell; repeat counts and precise per-cell conditions are not supplied by this table"
+    },
+    {
+      "record_id": "cg2c00433-CARB-NICC-c7",
+      "api": "CARB",
+      "coformer": "NICC",
+      "method": "cosublimation",
+      "solvent": null,
+      "outcome": "physical_mixture",
+      "raw_code": "x",
+      "input_molar_ratio": "1:1",
+      "product_stoichiometry": null,
+      "independent_trial_count": null,
+      "source_table": "S3",
+      "source_pdf_pages": [
+        17
+      ],
+      "endpoint": "cocrystal_screen",
+      "scope": "Reported table cell; repeat counts and precise per-cell conditions are not supplied by this table"
+    },
+    {
+      "record_id": "cg2c00433-CARB-NICM-c1",
+      "api": "CARB",
+      "coformer": "NICM",
+      "method": "contact_preparation",
+      "solvent": null,
+      "outcome": "multicomponent_form_observed",
+      "raw_code": "yes",
+      "input_molar_ratio": null,
+      "product_stoichiometry": null,
+      "independent_trial_count": null,
+      "source_table": "S3",
+      "source_pdf_pages": [
+        17
+      ],
+      "endpoint": "cocrystal_screen",
+      "scope": "Reported table cell; repeat counts and precise per-cell conditions are not supplied by this table"
+    },
+    {
+      "record_id": "cg2c00433-CARB-NICM-c2",
+      "api": "CARB",
+      "coformer": "NICM",
+      "method": "slurry",
+      "solvent": "n-heptane",
+      "outcome": "multicomponent_form_observed",
+      "raw_code": "yes",
+      "input_molar_ratio": "1:1",
+      "product_stoichiometry": null,
+      "independent_trial_count": null,
+      "source_table": "S3",
+      "source_pdf_pages": [
+        17
+      ],
+      "endpoint": "cocrystal_screen",
+      "scope": "Reported table cell; repeat counts and precise per-cell conditions are not supplied by this table"
+    },
+    {
+      "record_id": "cg2c00433-CARB-NICM-c3",
+      "api": "CARB",
+      "coformer": "NICM",
+      "method": "slurry",
+      "solvent": "pyridine",
+      "outcome": "not_attempted",
+      "raw_code": "n. a.",
+      "input_molar_ratio": "1:1",
+      "product_stoichiometry": null,
+      "independent_trial_count": null,
+      "source_table": "S3",
+      "source_pdf_pages": [
+        17
+      ],
+      "endpoint": "cocrystal_screen",
+      "scope": "Reported table cell; repeat counts and precise per-cell conditions are not supplied by this table"
+    },
+    {
+      "record_id": "cg2c00433-CARB-NICM-c4",
+      "api": "CARB",
+      "coformer": "NICM",
+      "method": "slurry",
+      "solvent": "diethyl ether",
+      "outcome": "multicomponent_form_observed",
+      "raw_code": "yes",
+      "input_molar_ratio": "1:1",
+      "product_stoichiometry": null,
+      "independent_trial_count": null,
+      "source_table": "S3",
+      "source_pdf_pages": [
+        17
+      ],
+      "endpoint": "cocrystal_screen",
+      "scope": "Reported table cell; repeat counts and precise per-cell conditions are not supplied by this table"
+    },
+    {
+      "record_id": "cg2c00433-CARB-NICM-c5",
+      "api": "CARB",
+      "coformer": "NICM",
+      "method": "LAG",
+      "solvent": "n-heptane",
+      "outcome": "multicomponent_form_observed",
+      "raw_code": "yes",
+      "input_molar_ratio": "1:1",
+      "product_stoichiometry": null,
+      "independent_trial_count": null,
+      "source_table": "S3",
+      "source_pdf_pages": [
+        17
+      ],
+      "endpoint": "cocrystal_screen",
+      "scope": "Reported table cell; repeat counts and precise per-cell conditions are not supplied by this table"
+    },
+    {
+      "record_id": "cg2c00433-CARB-NICM-c6",
+      "api": "CARB",
+      "coformer": "NICM",
+      "method": "LAG",
+      "solvent": "diethyl ether",
+      "outcome": "multicomponent_form_observed",
+      "raw_code": "yes",
+      "input_molar_ratio": "1:1",
+      "product_stoichiometry": null,
+      "independent_trial_count": null,
+      "source_table": "S3",
+      "source_pdf_pages": [
+        17
+      ],
+      "endpoint": "cocrystal_screen",
+      "scope": "Reported table cell; repeat counts and precise per-cell conditions are not supplied by this table"
+    },
+    {
+      "record_id": "cg2c00433-CARB-NICM-c7",
+      "api": "CARB",
+      "coformer": "NICM",
+      "method": "cosublimation",
+      "solvent": null,
+      "outcome": "physical_mixture",
+      "raw_code": "x",
+      "input_molar_ratio": "1:1",
+      "product_stoichiometry": null,
+      "independent_trial_count": null,
+      "source_table": "S3",
+      "source_pdf_pages": [
+        17
+      ],
+      "endpoint": "cocrystal_screen",
+      "scope": "Reported table cell; repeat counts and precise per-cell conditions are not supplied by this table"
+    },
+    {
+      "record_id": "cg2c00433-CARB-OXAL-c1",
+      "api": "CARB",
+      "coformer": "OXAL",
+      "method": "contact_preparation",
+      "solvent": null,
+      "outcome": "not_attempted",
+      "raw_code": "n. a.",
+      "input_molar_ratio": null,
+      "product_stoichiometry": null,
+      "independent_trial_count": null,
+      "source_table": "S3",
+      "source_pdf_pages": [
+        17
+      ],
+      "endpoint": "cocrystal_screen",
+      "scope": "Reported table cell; repeat counts and precise per-cell conditions are not supplied by this table"
+    },
+    {
+      "record_id": "cg2c00433-CARB-OXAL-c2",
+      "api": "CARB",
+      "coformer": "OXAL",
+      "method": "slurry",
+      "solvent": "n-heptane",
+      "outcome": "multicomponent_form_observed",
+      "raw_code": "yes",
+      "input_molar_ratio": "1:1",
+      "product_stoichiometry": null,
+      "independent_trial_count": null,
+      "source_table": "S3",
+      "source_pdf_pages": [
+        17
+      ],
+      "endpoint": "cocrystal_screen",
+      "scope": "Reported table cell; repeat counts and precise per-cell conditions are not supplied by this table"
+    },
+    {
+      "record_id": "cg2c00433-CARB-OXAL-c3",
+      "api": "CARB",
+      "coformer": "OXAL",
+      "method": "slurry",
+      "solvent": "pyridine",
+      "outcome": "not_attempted",
+      "raw_code": "n. a.",
+      "input_molar_ratio": "1:1",
+      "product_stoichiometry": null,
+      "independent_trial_count": null,
+      "source_table": "S3",
+      "source_pdf_pages": [
+        17
+      ],
+      "endpoint": "cocrystal_screen",
+      "scope": "Reported table cell; repeat counts and precise per-cell conditions are not supplied by this table"
+    },
+    {
+      "record_id": "cg2c00433-CARB-OXAL-c4",
+      "api": "CARB",
+      "coformer": "OXAL",
+      "method": "slurry",
+      "solvent": "diethyl ether",
+      "outcome": "multicomponent_form_observed",
+      "raw_code": "yes",
+      "input_molar_ratio": "1:1",
+      "product_stoichiometry": null,
+      "independent_trial_count": null,
+      "source_table": "S3",
+      "source_pdf_pages": [
+        17
+      ],
+      "endpoint": "cocrystal_screen",
+      "scope": "Reported table cell; repeat counts and precise per-cell conditions are not supplied by this table"
+    },
+    {
+      "record_id": "cg2c00433-CARB-OXAL-c5",
+      "api": "CARB",
+      "coformer": "OXAL",
+      "method": "LAG",
+      "solvent": "n-heptane",
+      "outcome": "multicomponent_form_observed",
+      "raw_code": "yes",
+      "input_molar_ratio": "1:1",
+      "product_stoichiometry": null,
+      "independent_trial_count": null,
+      "source_table": "S3",
+      "source_pdf_pages": [
+        17
+      ],
+      "endpoint": "cocrystal_screen",
+      "scope": "Reported table cell; repeat counts and precise per-cell conditions are not supplied by this table"
+    },
+    {
+      "record_id": "cg2c00433-CARB-OXAL-c6",
+      "api": "CARB",
+      "coformer": "OXAL",
+      "method": "LAG",
+      "solvent": "diethyl ether",
+      "outcome": "multicomponent_form_observed",
+      "raw_code": "yes",
+      "input_molar_ratio": "1:1",
+      "product_stoichiometry": null,
+      "independent_trial_count": null,
+      "source_table": "S3",
+      "source_pdf_pages": [
+        17
+      ],
+      "endpoint": "cocrystal_screen",
+      "scope": "Reported table cell; repeat counts and precise per-cell conditions are not supplied by this table"
+    },
+    {
+      "record_id": "cg2c00433-CARB-OXAL-c7",
+      "api": "CARB",
+      "coformer": "OXAL",
+      "method": "cosublimation",
+      "solvent": null,
+      "outcome": "physical_mixture",
+      "raw_code": "x",
+      "input_molar_ratio": "1:1",
+      "product_stoichiometry": null,
+      "independent_trial_count": null,
+      "source_table": "S3",
+      "source_pdf_pages": [
+        17
+      ],
+      "endpoint": "cocrystal_screen",
+      "scope": "Reported table cell; repeat counts and precise per-cell conditions are not supplied by this table"
+    },
+    {
+      "record_id": "cg2c00433-CARB-SUCA-c1",
+      "api": "CARB",
+      "coformer": "SUCA",
+      "method": "contact_preparation",
+      "solvent": null,
+      "outcome": "not_attempted",
+      "raw_code": "n. a.",
+      "input_molar_ratio": null,
+      "product_stoichiometry": null,
+      "independent_trial_count": null,
+      "source_table": "S3",
+      "source_pdf_pages": [
+        17
+      ],
+      "endpoint": "cocrystal_screen",
+      "scope": "Reported table cell; repeat counts and precise per-cell conditions are not supplied by this table"
+    },
+    {
+      "record_id": "cg2c00433-CARB-SUCA-c2",
+      "api": "CARB",
+      "coformer": "SUCA",
+      "method": "slurry",
+      "solvent": "n-heptane",
+      "outcome": "multicomponent_form_observed",
+      "raw_code": "yes",
+      "input_molar_ratio": "1:1",
+      "product_stoichiometry": null,
+      "independent_trial_count": null,
+      "source_table": "S3",
+      "source_pdf_pages": [
+        17
+      ],
+      "endpoint": "cocrystal_screen",
+      "scope": "Reported table cell; repeat counts and precise per-cell conditions are not supplied by this table"
+    },
+    {
+      "record_id": "cg2c00433-CARB-SUCA-c3",
+      "api": "CARB",
+      "coformer": "SUCA",
+      "method": "slurry",
+      "solvent": "pyridine",
+      "outcome": "not_attempted",
+      "raw_code": "n. a.",
+      "input_molar_ratio": "1:1",
+      "product_stoichiometry": null,
+      "independent_trial_count": null,
+      "source_table": "S3",
+      "source_pdf_pages": [
+        17
+      ],
+      "endpoint": "cocrystal_screen",
+      "scope": "Reported table cell; repeat counts and precise per-cell conditions are not supplied by this table"
+    },
+    {
+      "record_id": "cg2c00433-CARB-SUCA-c4",
+      "api": "CARB",
+      "coformer": "SUCA",
+      "method": "slurry",
+      "solvent": "diethyl ether",
+      "outcome": "multicomponent_form_observed",
+      "raw_code": "yes",
+      "input_molar_ratio": "1:1",
+      "product_stoichiometry": null,
+      "independent_trial_count": null,
+      "source_table": "S3",
+      "source_pdf_pages": [
+        17
+      ],
+      "endpoint": "cocrystal_screen",
+      "scope": "Reported table cell; repeat counts and precise per-cell conditions are not supplied by this table"
+    },
+    {
+      "record_id": "cg2c00433-CARB-SUCA-c5",
+      "api": "CARB",
+      "coformer": "SUCA",
+      "method": "LAG",
+      "solvent": "n-heptane",
+      "outcome": "multicomponent_form_observed",
+      "raw_code": "yes",
+      "input_molar_ratio": "1:1",
+      "product_stoichiometry": null,
+      "independent_trial_count": null,
+      "source_table": "S3",
+      "source_pdf_pages": [
+        17
+      ],
+      "endpoint": "cocrystal_screen",
+      "scope": "Reported table cell; repeat counts and precise per-cell conditions are not supplied by this table"
+    },
+    {
+      "record_id": "cg2c00433-CARB-SUCA-c6",
+      "api": "CARB",
+      "coformer": "SUCA",
+      "method": "LAG",
+      "solvent": "diethyl ether",
+      "outcome": "multicomponent_form_observed",
+      "raw_code": "yes",
+      "input_molar_ratio": "1:1",
+      "product_stoichiometry": null,
+      "independent_trial_count": null,
+      "source_table": "S3",
+      "source_pdf_pages": [
+        17
+      ],
+      "endpoint": "cocrystal_screen",
+      "scope": "Reported table cell; repeat counts and precise per-cell conditions are not supplied by this table"
+    },
+    {
+      "record_id": "cg2c00433-CARB-SUCA-c7",
+      "api": "CARB",
+      "coformer": "SUCA",
+      "method": "cosublimation",
+      "solvent": null,
+      "outcome": "physical_mixture",
+      "raw_code": "x",
+      "input_molar_ratio": "1:1",
+      "product_stoichiometry": null,
+      "independent_trial_count": null,
+      "source_table": "S3",
+      "source_pdf_pages": [
+        17
+      ],
+      "endpoint": "cocrystal_screen",
+      "scope": "Reported table cell; repeat counts and precise per-cell conditions are not supplied by this table"
+    },
+    {
+      "record_id": "cg2c00433-CARB-TELZ-c1",
+      "api": "CARB",
+      "coformer": "TELZ",
+      "method": "contact_preparation",
+      "solvent": null,
+      "outcome": "physical_mixture",
+      "raw_code": "x",
+      "input_molar_ratio": null,
+      "product_stoichiometry": null,
+      "independent_trial_count": null,
+      "source_table": "S3",
+      "source_pdf_pages": [
+        17
+      ],
+      "endpoint": "cocrystal_screen",
+      "scope": "Reported table cell; repeat counts and precise per-cell conditions are not supplied by this table"
+    },
+    {
+      "record_id": "cg2c00433-CARB-TELZ-c2",
+      "api": "CARB",
+      "coformer": "TELZ",
+      "method": "slurry",
+      "solvent": "n-heptane",
+      "outcome": "multicomponent_form_observed",
+      "raw_code": "yes",
+      "input_molar_ratio": "1:1",
+      "product_stoichiometry": null,
+      "independent_trial_count": null,
+      "source_table": "S3",
+      "source_pdf_pages": [
+        17
+      ],
+      "endpoint": "cocrystal_screen",
+      "scope": "Reported table cell; repeat counts and precise per-cell conditions are not supplied by this table"
+    },
+    {
+      "record_id": "cg2c00433-CARB-TELZ-c3",
+      "api": "CARB",
+      "coformer": "TELZ",
+      "method": "slurry",
+      "solvent": "pyridine",
+      "outcome": "not_attempted",
+      "raw_code": "n. a.",
+      "input_molar_ratio": "1:1",
+      "product_stoichiometry": null,
+      "independent_trial_count": null,
+      "source_table": "S3",
+      "source_pdf_pages": [
+        17
+      ],
+      "endpoint": "cocrystal_screen",
+      "scope": "Reported table cell; repeat counts and precise per-cell conditions are not supplied by this table"
+    },
+    {
+      "record_id": "cg2c00433-CARB-TELZ-c4",
+      "api": "CARB",
+      "coformer": "TELZ",
+      "method": "slurry",
+      "solvent": "diethyl ether",
+      "outcome": "multicomponent_form_observed",
+      "raw_code": "yes",
+      "input_molar_ratio": "1:1",
+      "product_stoichiometry": null,
+      "independent_trial_count": null,
+      "source_table": "S3",
+      "source_pdf_pages": [
+        17
+      ],
+      "endpoint": "cocrystal_screen",
+      "scope": "Reported table cell; repeat counts and precise per-cell conditions are not supplied by this table"
+    },
+    {
+      "record_id": "cg2c00433-CARB-TELZ-c5",
+      "api": "CARB",
+      "coformer": "TELZ",
+      "method": "LAG",
+      "solvent": "n-heptane",
+      "outcome": "multicomponent_form_observed",
+      "raw_code": "yes",
+      "input_molar_ratio": "1:1",
+      "product_stoichiometry": null,
+      "independent_trial_count": null,
+      "source_table": "S3",
+      "source_pdf_pages": [
+        17
+      ],
+      "endpoint": "cocrystal_screen",
+      "scope": "Reported table cell; repeat counts and precise per-cell conditions are not supplied by this table"
+    },
+    {
+      "record_id": "cg2c00433-CARB-TELZ-c6",
+      "api": "CARB",
+      "coformer": "TELZ",
+      "method": "LAG",
+      "solvent": "diethyl ether",
+      "outcome": "multicomponent_form_observed",
+      "raw_code": "yes",
+      "input_molar_ratio": "1:1",
+      "product_stoichiometry": null,
+      "independent_trial_count": null,
+      "source_table": "S3",
+      "source_pdf_pages": [
+        17
+      ],
+      "endpoint": "cocrystal_screen",
+      "scope": "Reported table cell; repeat counts and precise per-cell conditions are not supplied by this table"
+    },
+    {
+      "record_id": "cg2c00433-CARB-TELZ-c7",
+      "api": "CARB",
+      "coformer": "TELZ",
+      "method": "cosublimation",
+      "solvent": null,
+      "outcome": "physical_mixture",
+      "raw_code": "x",
+      "input_molar_ratio": "1:1",
+      "product_stoichiometry": null,
+      "independent_trial_count": null,
+      "source_table": "S3",
+      "source_pdf_pages": [
+        17
+      ],
+      "endpoint": "cocrystal_screen",
+      "scope": "Reported table cell; repeat counts and precise per-cell conditions are not supplied by this table"
+    },
+    {
+      "record_id": "cg2c00433-CARB-PYRD-c1",
+      "api": "CARB",
+      "coformer": "PYRD",
+      "method": "contact_preparation",
+      "solvent": null,
+      "outcome": "not_attempted",
+      "raw_code": "n. a.",
+      "input_molar_ratio": null,
+      "product_stoichiometry": null,
+      "independent_trial_count": null,
+      "source_table": "S3",
+      "source_pdf_pages": [
+        17
+      ],
+      "endpoint": "solvate",
+      "scope": "Reported table cell; repeat counts and precise per-cell conditions are not supplied by this table"
+    },
+    {
+      "record_id": "cg2c00433-CARB-PYRD-c2",
+      "api": "CARB",
+      "coformer": "PYRD",
+      "method": "slurry",
+      "solvent": "n-heptane",
+      "outcome": "not_attempted",
+      "raw_code": "n. a.",
+      "input_molar_ratio": "1:1",
+      "product_stoichiometry": null,
+      "independent_trial_count": null,
+      "source_table": "S3",
+      "source_pdf_pages": [
+        17
+      ],
+      "endpoint": "solvate",
+      "scope": "Reported table cell; repeat counts and precise per-cell conditions are not supplied by this table"
+    },
+    {
+      "record_id": "cg2c00433-CARB-PYRD-c3",
+      "api": "CARB",
+      "coformer": "PYRD",
+      "method": "slurry",
+      "solvent": "pyridine",
+      "outcome": "physical_mixture",
+      "raw_code": "x",
+      "input_molar_ratio": "1:1",
+      "product_stoichiometry": null,
+      "independent_trial_count": null,
+      "source_table": "S3",
+      "source_pdf_pages": [
+        17
+      ],
+      "endpoint": "solvate",
+      "scope": "Reported table cell; repeat counts and precise per-cell conditions are not supplied by this table"
+    },
+    {
+      "record_id": "cg2c00433-CARB-PYRD-c4",
+      "api": "CARB",
+      "coformer": "PYRD",
+      "method": "slurry",
+      "solvent": "diethyl ether",
+      "outcome": "not_attempted",
+      "raw_code": "n. a.",
+      "input_molar_ratio": "1:1",
+      "product_stoichiometry": null,
+      "independent_trial_count": null,
+      "source_table": "S3",
+      "source_pdf_pages": [
+        17
+      ],
+      "endpoint": "solvate",
+      "scope": "Reported table cell; repeat counts and precise per-cell conditions are not supplied by this table"
+    },
+    {
+      "record_id": "cg2c00433-CARB-PYRD-c5",
+      "api": "CARB",
+      "coformer": "PYRD",
+      "method": "LAG",
+      "solvent": "n-heptane",
+      "outcome": "not_attempted",
+      "raw_code": "n. a.",
+      "input_molar_ratio": "1:1",
+      "product_stoichiometry": null,
+      "independent_trial_count": null,
+      "source_table": "S3",
+      "source_pdf_pages": [
+        17
+      ],
+      "endpoint": "solvate",
+      "scope": "Reported table cell; repeat counts and precise per-cell conditions are not supplied by this table"
+    },
+    {
+      "record_id": "cg2c00433-CARB-PYRD-c6",
+      "api": "CARB",
+      "coformer": "PYRD",
+      "method": "LAG",
+      "solvent": "diethyl ether",
+      "outcome": "not_attempted",
+      "raw_code": "n. a.",
+      "input_molar_ratio": "1:1",
+      "product_stoichiometry": null,
+      "independent_trial_count": null,
+      "source_table": "S3",
+      "source_pdf_pages": [
+        17
+      ],
+      "endpoint": "solvate",
+      "scope": "Reported table cell; repeat counts and precise per-cell conditions are not supplied by this table"
+    },
+    {
+      "record_id": "cg2c00433-CARB-PYRD-c7",
+      "api": "CARB",
+      "coformer": "PYRD",
+      "method": "cosublimation",
+      "solvent": null,
+      "outcome": "not_attempted",
+      "raw_code": "n. a.",
+      "input_molar_ratio": "1:1",
+      "product_stoichiometry": null,
+      "independent_trial_count": null,
+      "source_table": "S3",
+      "source_pdf_pages": [
+        17
+      ],
+      "endpoint": "solvate",
+      "scope": "Reported table cell; repeat counts and precise per-cell conditions are not supplied by this table"
+    }
+  ],
+  "additional_ambiguous_pair_records": [
+    {
+      "api": "CARB",
+      "coformer": "DUPK",
+      "method": "grinding",
+      "solvent": null,
+      "input_molar_ratio": "1:1",
+      "outcome": "physical_mixture",
+      "raw_code": "x",
+      "qualifier": null,
+      "source_table": "S4",
+      "source_pdf_pages": [
+        23
+      ],
+      "independent_trial_count": null
+    },
+    {
+      "api": "CARB",
+      "coformer": "DUPK",
+      "method": "grinding",
+      "solvent": null,
+      "input_molar_ratio": "2:1",
+      "outcome": "physical_mixture",
+      "raw_code": "x",
+      "qualifier": null,
+      "source_table": "S4",
+      "source_pdf_pages": [
+        23
+      ],
+      "independent_trial_count": null
+    },
+    {
+      "api": "CARB",
+      "coformer": "DUPK",
+      "method": "grinding",
+      "solvent": null,
+      "input_molar_ratio": "1:2",
+      "outcome": "physical_mixture",
+      "raw_code": "x",
+      "qualifier": null,
+      "source_table": "S4",
+      "source_pdf_pages": [
+        23
+      ],
+      "independent_trial_count": null
+    },
+    {
+      "api": "CARB",
+      "coformer": "DUPK",
+      "method": "grinding",
+      "solvent": "dichloromethane",
+      "input_molar_ratio": "1:1",
+      "outcome": "physical_mixture",
+      "raw_code": "x, x^a",
+      "qualifier": "Two additional peaks, otherwise physical mixture",
+      "source_table": "S4",
+      "source_pdf_pages": [
+        23
+      ],
+      "independent_trial_count": null
+    },
+    {
+      "api": "CARB",
+      "coformer": "DUPK",
+      "method": "grinding",
+      "solvent": "dichloromethane",
+      "input_molar_ratio": "2:1",
+      "outcome": "physical_mixture",
+      "raw_code": "x",
+      "qualifier": null,
+      "source_table": "S4",
+      "source_pdf_pages": [
+        23
+      ],
+      "independent_trial_count": null
+    },
+    {
+      "api": "CARB",
+      "coformer": "DUPK",
+      "method": "grinding",
+      "solvent": "dichloromethane",
+      "input_molar_ratio": "1:2",
+      "outcome": "physical_mixture",
+      "raw_code": "x",
+      "qualifier": null,
+      "source_table": "S4",
+      "source_pdf_pages": [
+        23
+      ],
+      "independent_trial_count": null
+    },
+    {
+      "api": "CARB",
+      "coformer": "DUPK",
+      "method": "grinding",
+      "solvent": "dichloroethane",
+      "input_molar_ratio": "1:1",
+      "outcome": "physical_mixture",
+      "raw_code": "x",
+      "qualifier": null,
+      "source_table": "S4",
+      "source_pdf_pages": [
+        23
+      ],
+      "independent_trial_count": null
+    },
+    {
+      "api": "CARB",
+      "coformer": "DUPK",
+      "method": "grinding",
+      "solvent": "dichloroethane",
+      "input_molar_ratio": "2:1",
+      "outcome": "physical_mixture",
+      "raw_code": "x",
+      "qualifier": null,
+      "source_table": "S4",
+      "source_pdf_pages": [
+        23
+      ],
+      "independent_trial_count": null
+    },
+    {
+      "api": "CARB",
+      "coformer": "DUPK",
+      "method": "grinding",
+      "solvent": "dichloroethane",
+      "input_molar_ratio": "1:2",
+      "outcome": "physical_mixture",
+      "raw_code": "x",
+      "qualifier": null,
+      "source_table": "S4",
+      "source_pdf_pages": [
+        23
+      ],
+      "independent_trial_count": null
+    },
+    {
+      "api": "CARB",
+      "coformer": "DUPK",
+      "method": "grinding",
+      "solvent": "diethyl ether",
+      "input_molar_ratio": "1:1",
+      "outcome": "physical_mixture",
+      "raw_code": "x",
+      "qualifier": null,
+      "source_table": "S4",
+      "source_pdf_pages": [
+        23
+      ],
+      "independent_trial_count": null
+    },
+    {
+      "api": "CARB",
+      "coformer": "DUPK",
+      "method": "grinding",
+      "solvent": "diethyl ether",
+      "input_molar_ratio": "2:1",
+      "outcome": "physical_mixture",
+      "raw_code": "x",
+      "qualifier": null,
+      "source_table": "S4",
+      "source_pdf_pages": [
+        23
+      ],
+      "independent_trial_count": null
+    },
+    {
+      "api": "CARB",
+      "coformer": "DUPK",
+      "method": "grinding",
+      "solvent": "diethyl ether",
+      "input_molar_ratio": "1:2",
+      "outcome": "physical_mixture",
+      "raw_code": "x",
+      "qualifier": null,
+      "source_table": "S4",
+      "source_pdf_pages": [
+        23
+      ],
+      "independent_trial_count": null
+    },
+    {
+      "api": "CARB",
+      "coformer": "DUPK",
+      "method": "grinding",
+      "solvent": "diisopropyl ether",
+      "input_molar_ratio": "1:1",
+      "outcome": "physical_mixture",
+      "raw_code": "x",
+      "qualifier": null,
+      "source_table": "S4",
+      "source_pdf_pages": [
+        23
+      ],
+      "independent_trial_count": null
+    },
+    {
+      "api": "CARB",
+      "coformer": "DUPK",
+      "method": "grinding",
+      "solvent": "diisopropyl ether",
+      "input_molar_ratio": "2:1",
+      "outcome": "physical_mixture",
+      "raw_code": "x",
+      "qualifier": null,
+      "source_table": "S4",
+      "source_pdf_pages": [
+        23
+      ],
+      "independent_trial_count": null
+    },
+    {
+      "api": "CARB",
+      "coformer": "DUPK",
+      "method": "grinding",
+      "solvent": "diisopropyl ether",
+      "input_molar_ratio": "1:2",
+      "outcome": "physical_mixture",
+      "raw_code": "x",
+      "qualifier": null,
+      "source_table": "S4",
+      "source_pdf_pages": [
+        23
+      ],
+      "independent_trial_count": null
+    },
+    {
+      "api": "CARB",
+      "coformer": "DUPK",
+      "method": "grinding",
+      "solvent": "acetone",
+      "input_molar_ratio": "1:1",
+      "outcome": "physical_mixture",
+      "raw_code": "x",
+      "qualifier": null,
+      "source_table": "S4",
+      "source_pdf_pages": [
+        23
+      ],
+      "independent_trial_count": null
+    },
+    {
+      "api": "CARB",
+      "coformer": "DUPK",
+      "method": "grinding",
+      "solvent": "acetone",
+      "input_molar_ratio": "2:1",
+      "outcome": "physical_mixture",
+      "raw_code": "x",
+      "qualifier": null,
+      "source_table": "S4",
+      "source_pdf_pages": [
+        23
+      ],
+      "independent_trial_count": null
+    },
+    {
+      "api": "CARB",
+      "coformer": "DUPK",
+      "method": "grinding",
+      "solvent": "acetone",
+      "input_molar_ratio": "1:2",
+      "outcome": "physical_mixture",
+      "raw_code": "x",
+      "qualifier": null,
+      "source_table": "S4",
+      "source_pdf_pages": [
+        23
+      ],
+      "independent_trial_count": null
+    },
+    {
+      "api": "CARB",
+      "coformer": "DUPK",
+      "method": "grinding",
+      "solvent": "methanol",
+      "input_molar_ratio": "1:1",
+      "outcome": "physical_mixture",
+      "raw_code": "x",
+      "qualifier": null,
+      "source_table": "S4",
+      "source_pdf_pages": [
+        23
+      ],
+      "independent_trial_count": null
+    },
+    {
+      "api": "CARB",
+      "coformer": "DUPK",
+      "method": "grinding",
+      "solvent": "methanol",
+      "input_molar_ratio": "2:1",
+      "outcome": "physical_mixture",
+      "raw_code": "x",
+      "qualifier": null,
+      "source_table": "S4",
+      "source_pdf_pages": [
+        23
+      ],
+      "independent_trial_count": null
+    },
+    {
+      "api": "CARB",
+      "coformer": "DUPK",
+      "method": "grinding",
+      "solvent": "methanol",
+      "input_molar_ratio": "1:2",
+      "outcome": "physical_mixture",
+      "raw_code": "x",
+      "qualifier": null,
+      "source_table": "S4",
+      "source_pdf_pages": [
+        23
+      ],
+      "independent_trial_count": null
+    },
+    {
+      "api": "CARB",
+      "coformer": "DUPK",
+      "method": "grinding",
+      "solvent": "n-butanol",
+      "input_molar_ratio": "1:1",
+      "outcome": "physical_mixture",
+      "raw_code": "x",
+      "qualifier": null,
+      "source_table": "S4",
+      "source_pdf_pages": [
+        23
+      ],
+      "independent_trial_count": null
+    },
+    {
+      "api": "CARB",
+      "coformer": "DUPK",
+      "method": "grinding",
+      "solvent": "n-butanol",
+      "input_molar_ratio": "2:1",
+      "outcome": "physical_mixture",
+      "raw_code": "x",
+      "qualifier": null,
+      "source_table": "S4",
+      "source_pdf_pages": [
+        23
+      ],
+      "independent_trial_count": null
+    },
+    {
+      "api": "CARB",
+      "coformer": "DUPK",
+      "method": "grinding",
+      "solvent": "n-butanol",
+      "input_molar_ratio": "1:2",
+      "outcome": "physical_mixture",
+      "raw_code": "x",
+      "qualifier": null,
+      "source_table": "S4",
+      "source_pdf_pages": [
+        23
+      ],
+      "independent_trial_count": null
+    },
+    {
+      "api": "CARB",
+      "coformer": "DUPK",
+      "method": "grinding",
+      "solvent": "ethyl acetate",
+      "input_molar_ratio": "1:1",
+      "outcome": "physical_mixture",
+      "raw_code": "x",
+      "qualifier": null,
+      "source_table": "S4",
+      "source_pdf_pages": [
+        23
+      ],
+      "independent_trial_count": null
+    },
+    {
+      "api": "CARB",
+      "coformer": "DUPK",
+      "method": "grinding",
+      "solvent": "ethyl acetate",
+      "input_molar_ratio": "2:1",
+      "outcome": "physical_mixture",
+      "raw_code": "x",
+      "qualifier": null,
+      "source_table": "S4",
+      "source_pdf_pages": [
+        23
+      ],
+      "independent_trial_count": null
+    },
+    {
+      "api": "CARB",
+      "coformer": "DUPK",
+      "method": "grinding",
+      "solvent": "ethyl acetate",
+      "input_molar_ratio": "1:2",
+      "outcome": "physical_mixture",
+      "raw_code": "x",
+      "qualifier": null,
+      "source_table": "S4",
+      "source_pdf_pages": [
+        23
+      ],
+      "independent_trial_count": null
+    },
+    {
+      "api": "CARB",
+      "coformer": "DUPK",
+      "method": "grinding",
+      "solvent": "n-heptane",
+      "input_molar_ratio": "1:1",
+      "outcome": "physical_mixture",
+      "raw_code": "x",
+      "qualifier": null,
+      "source_table": "S4",
+      "source_pdf_pages": [
+        23
+      ],
+      "independent_trial_count": null
+    },
+    {
+      "api": "CARB",
+      "coformer": "DUPK",
+      "method": "grinding",
+      "solvent": "n-heptane",
+      "input_molar_ratio": "2:1",
+      "outcome": "physical_mixture",
+      "raw_code": "x",
+      "qualifier": null,
+      "source_table": "S4",
+      "source_pdf_pages": [
+        23
+      ],
+      "independent_trial_count": null
+    },
+    {
+      "api": "CARB",
+      "coformer": "DUPK",
+      "method": "grinding",
+      "solvent": "n-heptane",
+      "input_molar_ratio": "1:2",
+      "outcome": "physical_mixture",
+      "raw_code": "x",
+      "qualifier": null,
+      "source_table": "S4",
+      "source_pdf_pages": [
+        23
+      ],
+      "independent_trial_count": null
+    },
+    {
+      "api": "CARB",
+      "coformer": "DUPK",
+      "method": "slurry",
+      "solvent": "diethyl ether",
+      "input_molar_ratio": "1:1",
+      "outcome": "physical_mixture",
+      "raw_code": "x",
+      "qualifier": null,
+      "source_table": "S4",
+      "source_pdf_pages": [
+        23
+      ],
+      "independent_trial_count": null
+    },
+    {
+      "api": "CARB",
+      "coformer": "DUPK",
+      "method": "slurry",
+      "solvent": "diethyl ether",
+      "input_molar_ratio": "2:1",
+      "outcome": "not_attempted",
+      "raw_code": "n. a.",
+      "qualifier": null,
+      "source_table": "S4",
+      "source_pdf_pages": [
+        23
+      ],
+      "independent_trial_count": null
+    },
+    {
+      "api": "CARB",
+      "coformer": "DUPK",
+      "method": "slurry",
+      "solvent": "diethyl ether",
+      "input_molar_ratio": "1:2",
+      "outcome": "not_attempted",
+      "raw_code": "n. a.",
+      "qualifier": null,
+      "source_table": "S4",
+      "source_pdf_pages": [
+        23
+      ],
+      "independent_trial_count": null
+    },
+    {
+      "api": "CARB",
+      "coformer": "DUPK",
+      "method": "slurry",
+      "solvent": "diisopropyl ether",
+      "input_molar_ratio": "1:1",
+      "outcome": "physical_mixture",
+      "raw_code": "x",
+      "qualifier": null,
+      "source_table": "S4",
+      "source_pdf_pages": [
+        23
+      ],
+      "independent_trial_count": null
+    },
+    {
+      "api": "CARB",
+      "coformer": "DUPK",
+      "method": "slurry",
+      "solvent": "diisopropyl ether",
+      "input_molar_ratio": "2:1",
+      "outcome": "not_attempted",
+      "raw_code": "n. a.",
+      "qualifier": null,
+      "source_table": "S4",
+      "source_pdf_pages": [
+        23
+      ],
+      "independent_trial_count": null
+    },
+    {
+      "api": "CARB",
+      "coformer": "DUPK",
+      "method": "slurry",
+      "solvent": "diisopropyl ether",
+      "input_molar_ratio": "1:2",
+      "outcome": "not_attempted",
+      "raw_code": "n. a.",
+      "qualifier": null,
+      "source_table": "S4",
+      "source_pdf_pages": [
+        23
+      ],
+      "independent_trial_count": null
+    },
+    {
+      "api": "CARB",
+      "coformer": "DUPK",
+      "method": "slurry",
+      "solvent": "n-butanol",
+      "input_molar_ratio": "1:1",
+      "outcome": "physical_mixture",
+      "raw_code": "x",
+      "qualifier": null,
+      "source_table": "S4",
+      "source_pdf_pages": [
+        23
+      ],
+      "independent_trial_count": null
+    },
+    {
+      "api": "CARB",
+      "coformer": "DUPK",
+      "method": "slurry",
+      "solvent": "n-butanol",
+      "input_molar_ratio": "2:1",
+      "outcome": "not_attempted",
+      "raw_code": "n. a.",
+      "qualifier": null,
+      "source_table": "S4",
+      "source_pdf_pages": [
+        23
+      ],
+      "independent_trial_count": null
+    },
+    {
+      "api": "CARB",
+      "coformer": "DUPK",
+      "method": "slurry",
+      "solvent": "n-butanol",
+      "input_molar_ratio": "1:2",
+      "outcome": "not_attempted",
+      "raw_code": "n. a.",
+      "qualifier": null,
+      "source_table": "S4",
+      "source_pdf_pages": [
+        23
+      ],
+      "independent_trial_count": null
+    },
+    {
+      "api": "CARB",
+      "coformer": "DUPK",
+      "method": "slurry",
+      "solvent": "n-heptane",
+      "input_molar_ratio": "1:1",
+      "outcome": "physical_mixture",
+      "raw_code": "x, x^a",
+      "qualifier": "Two additional peaks, otherwise physical mixture",
+      "source_table": "S4",
+      "source_pdf_pages": [
+        23
+      ],
+      "independent_trial_count": null
+    },
+    {
+      "api": "CARB",
+      "coformer": "DUPK",
+      "method": "slurry",
+      "solvent": "n-heptane",
+      "input_molar_ratio": "2:1",
+      "outcome": "not_attempted",
+      "raw_code": "n. a.",
+      "qualifier": null,
+      "source_table": "S4",
+      "source_pdf_pages": [
+        23
+      ],
+      "independent_trial_count": null
+    },
+    {
+      "api": "CARB",
+      "coformer": "DUPK",
+      "method": "slurry",
+      "solvent": "n-heptane",
+      "input_molar_ratio": "1:2",
+      "outcome": "not_attempted",
+      "raw_code": "n. a.",
+      "qualifier": null,
+      "source_table": "S4",
+      "source_pdf_pages": [
+        23
+      ],
+      "independent_trial_count": null
+    },
+    {
+      "api": "CARB",
+      "coformer": "DUPK",
+      "method": "solvent_evaporation",
+      "solvent": "acetone",
+      "input_molar_ratio": "1:1",
+      "outcome": "physical_mixture",
+      "raw_code": "x",
+      "qualifier": null,
+      "source_table": "S4",
+      "source_pdf_pages": [
+        23
+      ],
+      "independent_trial_count": null
+    },
+    {
+      "api": "CARB",
+      "coformer": "DUPK",
+      "method": "solvent_evaporation",
+      "solvent": "acetone",
+      "input_molar_ratio": "2:1",
+      "outcome": "not_attempted",
+      "raw_code": "n. a.",
+      "qualifier": null,
+      "source_table": "S4",
+      "source_pdf_pages": [
+        23
+      ],
+      "independent_trial_count": null
+    },
+    {
+      "api": "CARB",
+      "coformer": "DUPK",
+      "method": "solvent_evaporation",
+      "solvent": "acetone",
+      "input_molar_ratio": "1:2",
+      "outcome": "not_attempted",
+      "raw_code": "n. a.",
+      "qualifier": null,
+      "source_table": "S4",
+      "source_pdf_pages": [
+        23
+      ],
+      "independent_trial_count": null
+    },
+    {
+      "api": "CARB",
+      "coformer": "DUPK",
+      "method": "solvent_evaporation",
+      "solvent": "methanol",
+      "input_molar_ratio": "1:1",
+      "outcome": "physical_mixture",
+      "raw_code": "x",
+      "qualifier": null,
+      "source_table": "S4",
+      "source_pdf_pages": [
+        23
+      ],
+      "independent_trial_count": null
+    },
+    {
+      "api": "CARB",
+      "coformer": "DUPK",
+      "method": "solvent_evaporation",
+      "solvent": "methanol",
+      "input_molar_ratio": "2:1",
+      "outcome": "not_attempted",
+      "raw_code": "n. a.",
+      "qualifier": null,
+      "source_table": "S4",
+      "source_pdf_pages": [
+        23
+      ],
+      "independent_trial_count": null
+    },
+    {
+      "api": "CARB",
+      "coformer": "DUPK",
+      "method": "solvent_evaporation",
+      "solvent": "methanol",
+      "input_molar_ratio": "1:2",
+      "outcome": "not_attempted",
+      "raw_code": "n. a.",
+      "qualifier": null,
+      "source_table": "S4",
+      "source_pdf_pages": [
+        23
+      ],
+      "independent_trial_count": null
+    },
+    {
+      "api": "CARB",
+      "coformer": "DUPK",
+      "method": "solvent_evaporation",
+      "solvent": "ethanol",
+      "input_molar_ratio": "1:1",
+      "outcome": "physical_mixture",
+      "raw_code": "x",
+      "qualifier": null,
+      "source_table": "S4",
+      "source_pdf_pages": [
+        23
+      ],
+      "independent_trial_count": null
+    },
+    {
+      "api": "CARB",
+      "coformer": "DUPK",
+      "method": "solvent_evaporation",
+      "solvent": "ethanol",
+      "input_molar_ratio": "2:1",
+      "outcome": "not_attempted",
+      "raw_code": "n. a.",
+      "qualifier": null,
+      "source_table": "S4",
+      "source_pdf_pages": [
+        23
+      ],
+      "independent_trial_count": null
+    },
+    {
+      "api": "CARB",
+      "coformer": "DUPK",
+      "method": "solvent_evaporation",
+      "solvent": "ethanol",
+      "input_molar_ratio": "1:2",
+      "outcome": "not_attempted",
+      "raw_code": "n. a.",
+      "qualifier": null,
+      "source_table": "S4",
+      "source_pdf_pages": [
+        23
+      ],
+      "independent_trial_count": null
+    },
+    {
+      "api": "CARB",
+      "coformer": "DUPK",
+      "method": "solvent_evaporation",
+      "solvent": "n-butanol",
+      "input_molar_ratio": "1:1",
+      "outcome": "physical_mixture",
+      "raw_code": "x",
+      "qualifier": null,
+      "source_table": "S4",
+      "source_pdf_pages": [
+        23
+      ],
+      "independent_trial_count": null
+    },
+    {
+      "api": "CARB",
+      "coformer": "DUPK",
+      "method": "solvent_evaporation",
+      "solvent": "n-butanol",
+      "input_molar_ratio": "2:1",
+      "outcome": "not_attempted",
+      "raw_code": "n. a.",
+      "qualifier": null,
+      "source_table": "S4",
+      "source_pdf_pages": [
+        23
+      ],
+      "independent_trial_count": null
+    },
+    {
+      "api": "CARB",
+      "coformer": "DUPK",
+      "method": "solvent_evaporation",
+      "solvent": "n-butanol",
+      "input_molar_ratio": "1:2",
+      "outcome": "not_attempted",
+      "raw_code": "n. a.",
+      "qualifier": null,
+      "source_table": "S4",
+      "source_pdf_pages": [
+        23
+      ],
+      "independent_trial_count": null
+    },
+    {
+      "api": "CARB",
+      "coformer": "DUPK",
+      "method": "solvent_evaporation",
+      "solvent": "ethyl acetate",
+      "input_molar_ratio": "1:1",
+      "outcome": "physical_mixture",
+      "raw_code": "x",
+      "qualifier": null,
+      "source_table": "S4",
+      "source_pdf_pages": [
+        23
+      ],
+      "independent_trial_count": null
+    },
+    {
+      "api": "CARB",
+      "coformer": "DUPK",
+      "method": "solvent_evaporation",
+      "solvent": "ethyl acetate",
+      "input_molar_ratio": "2:1",
+      "outcome": "not_attempted",
+      "raw_code": "n. a.",
+      "qualifier": null,
+      "source_table": "S4",
+      "source_pdf_pages": [
+        23
+      ],
+      "independent_trial_count": null
+    },
+    {
+      "api": "CARB",
+      "coformer": "DUPK",
+      "method": "solvent_evaporation",
+      "solvent": "ethyl acetate",
+      "input_molar_ratio": "1:2",
+      "outcome": "not_attempted",
+      "raw_code": "n. a.",
+      "qualifier": null,
+      "source_table": "S4",
+      "source_pdf_pages": [
+        23
+      ],
+      "independent_trial_count": null
+    },
+    {
+      "api": "CARB",
+      "coformer": "DUPK",
+      "method": "solvent_evaporation",
+      "solvent": "acetonitrile",
+      "input_molar_ratio": "1:1",
+      "outcome": "physical_mixture",
+      "raw_code": "x",
+      "qualifier": null,
+      "source_table": "S4",
+      "source_pdf_pages": [
+        23
+      ],
+      "independent_trial_count": null
+    },
+    {
+      "api": "CARB",
+      "coformer": "DUPK",
+      "method": "solvent_evaporation",
+      "solvent": "acetonitrile",
+      "input_molar_ratio": "2:1",
+      "outcome": "not_attempted",
+      "raw_code": "n. a.",
+      "qualifier": null,
+      "source_table": "S4",
+      "source_pdf_pages": [
+        23
+      ],
+      "independent_trial_count": null
+    },
+    {
+      "api": "CARB",
+      "coformer": "DUPK",
+      "method": "solvent_evaporation",
+      "solvent": "acetonitrile",
+      "input_molar_ratio": "1:2",
+      "outcome": "not_attempted",
+      "raw_code": "n. a.",
+      "qualifier": null,
+      "source_table": "S4",
+      "source_pdf_pages": [
+        23
+      ],
+      "independent_trial_count": null
+    },
+    {
+      "api": "CARB",
+      "coformer": "DUPK",
+      "method": "cooling_crystallization",
+      "solvent": "acetone",
+      "input_molar_ratio": "1:1",
+      "outcome": "physical_mixture",
+      "raw_code": "x",
+      "qualifier": null,
+      "source_table": "S4",
+      "source_pdf_pages": [
+        23
+      ],
+      "independent_trial_count": null
+    },
+    {
+      "api": "CARB",
+      "coformer": "DUPK",
+      "method": "cooling_crystallization",
+      "solvent": "acetone",
+      "input_molar_ratio": "2:1",
+      "outcome": "not_attempted",
+      "raw_code": "n. a.",
+      "qualifier": null,
+      "source_table": "S4",
+      "source_pdf_pages": [
+        23
+      ],
+      "independent_trial_count": null
+    },
+    {
+      "api": "CARB",
+      "coformer": "DUPK",
+      "method": "cooling_crystallization",
+      "solvent": "acetone",
+      "input_molar_ratio": "1:2",
+      "outcome": "not_attempted",
+      "raw_code": "n. a.",
+      "qualifier": null,
+      "source_table": "S4",
+      "source_pdf_pages": [
+        23
+      ],
+      "independent_trial_count": null
+    },
+    {
+      "api": "CARB",
+      "coformer": "DUPK",
+      "method": "cooling_crystallization",
+      "solvent": "methanol",
+      "input_molar_ratio": "1:1",
+      "outcome": "physical_mixture",
+      "raw_code": "x",
+      "qualifier": null,
+      "source_table": "S4",
+      "source_pdf_pages": [
+        23
+      ],
+      "independent_trial_count": null
+    },
+    {
+      "api": "CARB",
+      "coformer": "DUPK",
+      "method": "cooling_crystallization",
+      "solvent": "methanol",
+      "input_molar_ratio": "2:1",
+      "outcome": "not_attempted",
+      "raw_code": "n. a.",
+      "qualifier": null,
+      "source_table": "S4",
+      "source_pdf_pages": [
+        23
+      ],
+      "independent_trial_count": null
+    },
+    {
+      "api": "CARB",
+      "coformer": "DUPK",
+      "method": "cooling_crystallization",
+      "solvent": "methanol",
+      "input_molar_ratio": "1:2",
+      "outcome": "not_attempted",
+      "raw_code": "n. a.",
+      "qualifier": null,
+      "source_table": "S4",
+      "source_pdf_pages": [
+        23
+      ],
+      "independent_trial_count": null
+    },
+    {
+      "api": "CARB",
+      "coformer": "DUPK",
+      "method": "cooling_crystallization",
+      "solvent": "ethanol",
+      "input_molar_ratio": "1:1",
+      "outcome": "physical_mixture",
+      "raw_code": "x",
+      "qualifier": null,
+      "source_table": "S4",
+      "source_pdf_pages": [
+        23
+      ],
+      "independent_trial_count": null
+    },
+    {
+      "api": "CARB",
+      "coformer": "DUPK",
+      "method": "cooling_crystallization",
+      "solvent": "ethanol",
+      "input_molar_ratio": "2:1",
+      "outcome": "not_attempted",
+      "raw_code": "n. a.",
+      "qualifier": null,
+      "source_table": "S4",
+      "source_pdf_pages": [
+        23
+      ],
+      "independent_trial_count": null
+    },
+    {
+      "api": "CARB",
+      "coformer": "DUPK",
+      "method": "cooling_crystallization",
+      "solvent": "ethanol",
+      "input_molar_ratio": "1:2",
+      "outcome": "not_attempted",
+      "raw_code": "n. a.",
+      "qualifier": null,
+      "source_table": "S4",
+      "source_pdf_pages": [
+        23
+      ],
+      "independent_trial_count": null
+    },
+    {
+      "api": "CARB",
+      "coformer": "DUPK",
+      "method": "cooling_crystallization",
+      "solvent": "n-butanol",
+      "input_molar_ratio": "1:1",
+      "outcome": "physical_mixture",
+      "raw_code": "x",
+      "qualifier": null,
+      "source_table": "S4",
+      "source_pdf_pages": [
+        23
+      ],
+      "independent_trial_count": null
+    },
+    {
+      "api": "CARB",
+      "coformer": "DUPK",
+      "method": "cooling_crystallization",
+      "solvent": "n-butanol",
+      "input_molar_ratio": "2:1",
+      "outcome": "not_attempted",
+      "raw_code": "n. a.",
+      "qualifier": null,
+      "source_table": "S4",
+      "source_pdf_pages": [
+        23
+      ],
+      "independent_trial_count": null
+    },
+    {
+      "api": "CARB",
+      "coformer": "DUPK",
+      "method": "cooling_crystallization",
+      "solvent": "n-butanol",
+      "input_molar_ratio": "1:2",
+      "outcome": "not_attempted",
+      "raw_code": "n. a.",
+      "qualifier": null,
+      "source_table": "S4",
+      "source_pdf_pages": [
+        23
+      ],
+      "independent_trial_count": null
+    },
+    {
+      "api": "CARB",
+      "coformer": "DUPK",
+      "method": "cooling_crystallization",
+      "solvent": "ethyl acetate",
+      "input_molar_ratio": "1:1",
+      "outcome": "physical_mixture",
+      "raw_code": "x",
+      "qualifier": null,
+      "source_table": "S4",
+      "source_pdf_pages": [
+        23
+      ],
+      "independent_trial_count": null
+    },
+    {
+      "api": "CARB",
+      "coformer": "DUPK",
+      "method": "cooling_crystallization",
+      "solvent": "ethyl acetate",
+      "input_molar_ratio": "2:1",
+      "outcome": "not_attempted",
+      "raw_code": "n. a.",
+      "qualifier": null,
+      "source_table": "S4",
+      "source_pdf_pages": [
+        23
+      ],
+      "independent_trial_count": null
+    },
+    {
+      "api": "CARB",
+      "coformer": "DUPK",
+      "method": "cooling_crystallization",
+      "solvent": "ethyl acetate",
+      "input_molar_ratio": "1:2",
+      "outcome": "not_attempted",
+      "raw_code": "n. a.",
+      "qualifier": null,
+      "source_table": "S4",
+      "source_pdf_pages": [
+        23
+      ],
+      "independent_trial_count": null
+    },
+    {
+      "api": "CARB",
+      "coformer": "DUPK",
+      "method": "cooling_crystallization",
+      "solvent": "acetonitrile",
+      "input_molar_ratio": "1:1",
+      "outcome": "physical_mixture",
+      "raw_code": "x",
+      "qualifier": null,
+      "source_table": "S4",
+      "source_pdf_pages": [
+        23
+      ],
+      "independent_trial_count": null
+    },
+    {
+      "api": "CARB",
+      "coformer": "DUPK",
+      "method": "cooling_crystallization",
+      "solvent": "acetonitrile",
+      "input_molar_ratio": "2:1",
+      "outcome": "not_attempted",
+      "raw_code": "n. a.",
+      "qualifier": null,
+      "source_table": "S4",
+      "source_pdf_pages": [
+        23
+      ],
+      "independent_trial_count": null
+    },
+    {
+      "api": "CARB",
+      "coformer": "DUPK",
+      "method": "cooling_crystallization",
+      "solvent": "acetonitrile",
+      "input_molar_ratio": "1:2",
+      "outcome": "not_attempted",
+      "raw_code": "n. a.",
+      "qualifier": null,
+      "source_table": "S4",
+      "source_pdf_pages": [
+        23
+      ],
+      "independent_trial_count": null
+    }
+  ],
+  "pair_count": 30,
+  "table_cell_count": 210,
+  "additional_table_cell_count": 78,
+  "tables_are_not_independent_replicate_counts": true,
+  "negative_label_scope": "Physical mixture under the reported attempt, not impossibility under every condition",
+  "status": "source_pool_curated_not_selected_for_independent_calculation",
+  "outcomes_known_before_future_score_calculation": true
+}

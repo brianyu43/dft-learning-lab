@@ -1,0 +1,17 @@
+[
+  {
+    "path": "data/completion/materials-models/split_inter_large_NN.yaml",
+    "url": "https://raw.githubusercontent.com/jornada-group/mlips_split_data/bee66692c0781424a43653504c5f350d913698e1/allegro_config_files/models_fig2/split_inter_large_NN.yaml",
+    "sha256": "d844d1e767e0d547c7e7845146a9233b18e56d0d1da052fa0549bc3179db844b"
+  },
+  {
+    "path": "data/completion/materials-models/split_intra_rcut_6.yaml",
+    "url": "https://raw.githubusercontent.com/jornada-group/mlips_split_data/bee66692c0781424a43653504c5f350d913698e1/allegro_config_files/models_fig2/split_intra_rcut_6.yaml",
+    "sha256": "edfa94164c1c535a08b3164391d707abddef87d8133a6327e0ede39f96069353"
+  },
+  {
+    "path": "data/completion/materials-models/unified_rcut_10.yaml",
+    "url": "https://raw.githubusercontent.com/jornada-group/mlips_split_data/bee66692c0781424a43653504c5f350d913698e1/allegro_config_files/models_fig2/unified_rcut_10.yaml",
+    "sha256": "a984772e9d34902885e4481359a79d6574769f72f3ea4848fa06cf63456077e7"
+  }
+]

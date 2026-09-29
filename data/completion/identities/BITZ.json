@@ -1,0 +1,14 @@
+{
+  "PropertyTable": {
+    "Properties": [
+      {
+        "CID": 1054,
+        "MolecularFormula": "C8H11NO3",
+        "SMILES": "CC1=NC=C(C(=C1O)CO)CO",
+        "ConnectivitySMILES": "CC1=NC=C(C(=C1O)CO)CO",
+        "InChIKey": "LXNHXLLTXMVWPM-UHFFFAOYSA-N",
+        "IUPACName": "4,5-bis(hydroxymethyl)-2-methylpyridin-3-ol"
+      }
+    ]
+  }
+}

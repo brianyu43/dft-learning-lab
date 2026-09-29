@@ -1,0 +1,22 @@
+{
+  "batch_id": "week2-bilayer-control",
+  "budget_seconds": 14400,
+  "jobs": [
+    "experiments/week2/w2-bilayer-selected-r0-d6p0-pair.json",
+    "experiments/week2/w2-bilayer-selected-r0-d6p0-bottom.json",
+    "experiments/week2/w2-bilayer-selected-r0-d6p0-top.json",
+    "experiments/week2/w2-bilayer-selected-r0-d6p3-pair.json",
+    "experiments/week2/w2-bilayer-selected-r0-d6p3-bottom.json",
+    "experiments/week2/w2-bilayer-selected-r0-d6p3-top.json",
+    "experiments/week2/w2-bilayer-selected-r0-d6p6-pair.json",
+    "experiments/week2/w2-bilayer-selected-r0-d6p6-bottom.json",
+    "experiments/week2/w2-bilayer-selected-r0-d6p6-top.json",
+    "experiments/week2/w2-bilayer-selected-r1-d6p3-pair.json",
+    "experiments/week2/w2-bilayer-selected-r1-d6p3-top.json",
+    "experiments/week2/w2-bilayer-selected-r2-d6p3-pair.json",
+    "experiments/week2/w2-bilayer-selected-r2-d6p3-top.json",
+    "experiments/week2/w2-bilayer-strict-r0-d6p3-pair.json",
+    "experiments/week2/w2-bilayer-strict-r0-d6p3-bottom.json",
+    "experiments/week2/w2-bilayer-strict-r0-d6p3-top.json"
+  ]
+}

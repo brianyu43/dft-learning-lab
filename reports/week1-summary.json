@@ -1,0 +1,544 @@
+{
+  "updated_at": "2026-09-10T09:48:45.680263+00:00",
+  "protocol_id": "dft-pilot-20260909-v1",
+  "status": "week1_core_calculations_complete_with_open_research_preconditions",
+  "successful_engine_invocations": 4,
+  "successful_systems": [
+    "water",
+    "acetaminophen",
+    "MoS2"
+  ],
+  "failed_before_engine_launch": [
+    "runs/20260910T092726021436Z-week1-water-opt-freq"
+  ],
+  "engine_failures_after_launch": 0,
+  "automatic_restarts": 0,
+  "computing_wall_seconds": {
+    "drug": 631.788,
+    "semiconductor": 238.26999999999998,
+    "total": 870.058
+  },
+  "budget_fraction_used": {
+    "drug_80h": 0.0021937083333333335,
+    "semiconductor_40h": 0.0016546527777777777,
+    "total_120h": 0.002014023148148148
+  },
+  "timing_definition": "Sum of engine-runner wall durations; excludes setup, downloads, analysis, and unlaunched failed wrapper",
+  "tasks": {
+    "P00": "partial: final pair labels verified; positive methods from author preprint; final SI and negative attempt conditions unresolved",
+    "P01": "complete for local serial ORCA/OpenMP QE; documented RSS visibility limits",
+    "P02": "complete: SCF/Opt/Freq and Hessian cross-check passed",
+    "P03": "complete: one conformer SCF/Opt/Freq and Hessian cross-check passed",
+    "DR00": "partial: five identities, 31 unreviewed tautomer candidates, 15 MMFF initial geometries; DFT state/pose selection pending week2",
+    "SR00": "week1 files/method frozen with explicit PBE-pseudo/C09 approximation; exact reference revision unverified",
+    "SR01": "week1 fixed-cell monolayer relaxation and targeted stricter SCF passed; full convergence/bilayer reference pending week2"
+  },
+  "jobs": [
+    {
+      "job_id": "week1-water-opt-freq",
+      "run_dir": "/Users/xavier/Documents/dev/generaldrugs/dft/runs/20260910T092739076636Z-week1-water-opt-freq",
+      "status": "passed",
+      "elapsed_seconds": 6.056,
+      "output_sha256": "0c970ad7c5d001f2c615feb884d8d7c91f91f94b96539e96ee03c572fe993229",
+      "result": {
+        "engine_version": "6.1.1",
+        "normal_termination": true,
+        "scf_converged": true,
+        "geometry_optimization_converged": true,
+        "energy": -76.418938720851,
+        "energy_unit": "Hartree",
+        "energy_history": [
+          -76.418909796625,
+          -76.418937118447,
+          -76.418938340728,
+          -76.418938719209,
+          -76.418938720851
+        ],
+        "frequencies_cm1": [
+          1653.27,
+          3813.6,
+          3932.73
+        ],
+        "all_reported_modes_cm1": [
+          [
+            0,
+            0.0
+          ],
+          [
+            1,
+            0.0
+          ],
+          [
+            2,
+            0.0
+          ],
+          [
+            3,
+            0.0
+          ],
+          [
+            4,
+            0.0
+          ],
+          [
+            5,
+            0.0
+          ],
+          [
+            6,
+            1653.27
+          ],
+          [
+            7,
+            3813.6
+          ],
+          [
+            8,
+            3932.73
+          ]
+        ],
+        "frequency_count_expected": 3,
+        "frequency_count_observed": 3,
+        "projected_external_modes_verified": true,
+        "imaginary_frequencies_cm1": [],
+        "lowest_vibrational_frequency_cm1": 1653.27,
+        "minimum_verified": true,
+        "frequency_analysis_complete": true,
+        "optimization_cycles": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "status": "passed"
+      }
+    },
+    {
+      "job_id": "week1-acetaminophen-opt-freq",
+      "run_dir": "/Users/xavier/Documents/dev/generaldrugs/dft/runs/20260910T092837869616Z-week1-acetaminophen-opt-freq",
+      "status": "passed",
+      "elapsed_seconds": 625.732,
+      "output_sha256": "8b5ef78d485a8708ff18a7cf492eecf35b5c09e45dac62ffa24182532a429b46",
+      "result": {
+        "engine_version": "6.1.1",
+        "normal_termination": true,
+        "scf_converged": true,
+        "geometry_optimization_converged": true,
+        "energy": -515.391019494583,
+        "energy_unit": "Hartree",
+        "energy_history": [
+          -515.388663277456,
+          -515.390394654678,
+          -515.390716015368,
+          -515.390757073902,
+          -515.390788914798,
+          -515.390802682879,
+          -515.390831884079,
+          -515.390875347255,
+          -515.39092109065,
+          -515.390975948809,
+          -515.391005186034,
+          -515.391014502976,
+          -515.391018087437,
+          -515.391019214111,
+          -515.391019427491,
+          -515.391019485323,
+          -515.391019494583
+        ],
+        "frequencies_cm1": [
+          34.01,
+          65.33,
+          90.96,
+          159.27,
+          183.35,
+          316.17,
+          332.72,
+          337.78,
+          375.97,
+          415.74,
+          434.46,
+          513.2,
+          514.05,
+          525.91,
+          623.79,
+          632.01,
+          663.68,
+          710.62,
+          806.97,
+          808.42,
+          831.55,
+          869.43,
+          924.64,
+          954.79,
+          964.36,
+          1012.59,
+          1034.19,
+          1040.19,
+          1137.86,
+          1195.22,
+          1199.83,
+          1236.64,
+          1261.05,
+          1288.55,
+          1341.91,
+          1381.23,
+          1388.74,
+          1455.32,
+          1463.03,
+          1485.1,
+          1540.47,
+          1560.3,
+          1642.59,
+          1657.59,
+          1741.33,
+          3026.73,
+          3118.55,
+          3120.58,
+          3148.65,
+          3150.61,
+          3193.04,
+          3239.06,
+          3628.48,
+          3822.72
+        ],
+        "all_reported_modes_cm1": [
+          [
+            0,
+            0.0
+          ],
+          [
+            1,
+            0.0
+          ],
+          [
+            2,
+            0.0
+          ],
+          [
+            3,
+            0.0
+          ],
+          [
+            4,
+            0.0
+          ],
+          [
+            5,
+            0.0
+          ],
+          [
+            6,
+            34.01
+          ],
+          [
+            7,
+            65.33
+          ],
+          [
+            8,
+            90.96
+          ],
+          [
+            9,
+            159.27
+          ],
+          [
+            10,
+            183.35
+          ],
+          [
+            11,
+            316.17
+          ],
+          [
+            12,
+            332.72
+          ],
+          [
+            13,
+            337.78
+          ],
+          [
+            14,
+            375.97
+          ],
+          [
+            15,
+            415.74
+          ],
+          [
+            16,
+            434.46
+          ],
+          [
+            17,
+            513.2
+          ],
+          [
+            18,
+            514.05
+          ],
+          [
+            19,
+            525.91
+          ],
+          [
+            20,
+            623.79
+          ],
+          [
+            21,
+            632.01
+          ],
+          [
+            22,
+            663.68
+          ],
+          [
+            23,
+            710.62
+          ],
+          [
+            24,
+            806.97
+          ],
+          [
+            25,
+            808.42
+          ],
+          [
+            26,
+            831.55
+          ],
+          [
+            27,
+            869.43
+          ],
+          [
+            28,
+            924.64
+          ],
+          [
+            29,
+            954.79
+          ],
+          [
+            30,
+            964.36
+          ],
+          [
+            31,
+            1012.59
+          ],
+          [
+            32,
+            1034.19
+          ],
+          [
+            33,
+            1040.19
+          ],
+          [
+            34,
+            1137.86
+          ],
+          [
+            35,
+            1195.22
+          ],
+          [
+            36,
+            1199.83
+          ],
+          [
+            37,
+            1236.64
+          ],
+          [
+            38,
+            1261.05
+          ],
+          [
+            39,
+            1288.55
+          ],
+          [
+            40,
+            1341.91
+          ],
+          [
+            41,
+            1381.23
+          ],
+          [
+            42,
+            1388.74
+          ],
+          [
+            43,
+            1455.32
+          ],
+          [
+            44,
+            1463.03
+          ],
+          [
+            45,
+            1485.1
+          ],
+          [
+            46,
+            1540.47
+          ],
+          [
+            47,
+            1560.3
+          ],
+          [
+            48,
+            1642.59
+          ],
+          [
+            49,
+            1657.59
+          ],
+          [
+            50,
+            1741.33
+          ],
+          [
+            51,
+            3026.73
+          ],
+          [
+            52,
+            3118.55
+          ],
+          [
+            53,
+            3120.58
+          ],
+          [
+            54,
+            3148.65
+          ],
+          [
+            55,
+            3150.61
+          ],
+          [
+            56,
+            3193.04
+          ],
+          [
+            57,
+            3239.06
+          ],
+          [
+            58,
+            3628.48
+          ],
+          [
+            59,
+            3822.72
+          ]
+        ],
+        "frequency_count_expected": 54,
+        "frequency_count_observed": 54,
+        "projected_external_modes_verified": true,
+        "imaginary_frequencies_cm1": [],
+        "lowest_vibrational_frequency_cm1": 34.01,
+        "minimum_verified": true,
+        "frequency_analysis_complete": true,
+        "optimization_cycles": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        ],
+        "status": "passed"
+      }
+    },
+    {
+      "job_id": "week1-mos2-relax",
+      "run_dir": "/Users/xavier/Documents/dev/generaldrugs/dft/runs/20260910T093915054937Z-week1-mos2-relax",
+      "status": "passed",
+      "elapsed_seconds": 162.328,
+      "output_sha256": "e5acd7bfd424033bc8ce83d5b2e62fa84813464f1cf32ff1187e781fe14c9aed",
+      "result": {
+        "engine_version": "7.6",
+        "normal_termination": true,
+        "scf_converged": true,
+        "geometry_optimization_converged": true,
+        "energy": -184.82971713,
+        "energy_unit": "Ry",
+        "energy_history": [
+          -184.8276983,
+          -184.82891212,
+          -184.82961893,
+          -184.82971703,
+          -184.82971713
+        ],
+        "minimum_verified": null,
+        "frequency_analysis_complete": false,
+        "total_force_Ry_Bohr": 1e-06,
+        "accuracy_scope": "Numerical baseline only. Cutoff, k-grid, vacuum, lattice and phonon convergence not established. PBE-generated pseudos with C09 valence XC are an explicit approximation; exact literature pseudo revision is unverified.",
+        "status": "passed"
+      }
+    },
+    {
+      "job_id": "week1-mos2-force-check",
+      "run_dir": "/Users/xavier/Documents/dev/generaldrugs/dft/runs/20260910T094333642648Z-week1-mos2-force-check",
+      "status": "passed",
+      "elapsed_seconds": 75.942,
+      "output_sha256": "75dab82a4ae29e6b8c5bc7371352445a4c43950ee1b564a66593bc00be46f3b6",
+      "result": {
+        "engine_version": "7.6",
+        "normal_termination": true,
+        "scf_converged": true,
+        "geometry_optimization_converged": null,
+        "energy": -184.82971713,
+        "energy_unit": "Ry",
+        "energy_history": [
+          -184.82971713
+        ],
+        "minimum_verified": null,
+        "frequency_analysis_complete": false,
+        "total_force_Ry_Bohr": 1e-06,
+        "accuracy_scope": "Only conv_thr 1e-8 to 1e-10 Ry at one fixed geometry; cutoff/k/vacuum/lattice/phonon convergence remain unverified",
+        "status": "passed"
+      }
+    }
+  ],
+  "molecule_count": 5,
+  "tautomer_inventory_count": 31,
+  "MMFF_initial_geometry_count": 15,
+  "synthetic_parser_gate_tests": {
+    "count": 9,
+    "status": "passed",
+    "log": "reports/week1-parser-tests.log",
+    "is_engine_validation": false
+  },
+  "independent_format_checks": "reports/week1-verification.json",
+  "experimental_evidence": "experiments/week1/literature-cases.json",
+  "week2_started": false,
+  "future_work_autoscheduled": false,
+  "open_gates": [
+    "final journal supplementary methods and negative attempt conditions",
+    "chemically reviewed tautomer/proton-transfer and dimer pose selection",
+    "cutoff/k/vacuum/lattice convergence and bilayer reference",
+    "exact reference pseudopotential revision for matched model benchmarking"
+  ]
+}

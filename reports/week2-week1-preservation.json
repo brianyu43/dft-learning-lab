@@ -1,0 +1,9 @@
+{
+  "week1_hashed_files": 115,
+  "unchanged_files": 113,
+  "changed_live_metadata_with_exact_archive": {
+    "README.md": "docs/archive/README-before-week2.md",
+    "experiments/protocol-v1.json": "experiments/archive/protocol-v1-before-week2.json"
+  },
+  "week1_raw_calculation_evidence_unchanged": true
+}

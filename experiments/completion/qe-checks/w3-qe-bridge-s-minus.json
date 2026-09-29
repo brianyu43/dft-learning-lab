@@ -1,0 +1,62 @@
+{
+  "protocol_id": "dft-pilot-20260909-v1-completion-qe-checks-r1",
+  "week": 3,
+  "task_id": "SR-force-and-method-compatibility",
+  "job_id": "w3-qe-bridge-s-minus",
+  "engine": "qe",
+  "executable": ".tools/qe-7.6/bin/pw.x",
+  "input": "inputs/qe/completion/w3-qe-bridge-s-minus.in",
+  "assets": {
+    "data/pseudopotentials/pseudo-dojo-nc-sr-04-pbe-standard/Mo.upf": "pseudo/Mo.upf",
+    "data/pseudopotentials/pseudo-dojo-nc-sr-04-pbe-standard/S.upf": "pseudo/S.upf",
+    "structures/completion/qe-checks/w3-qe-bridge-s-minus.extxyz": "initial.extxyz",
+    "scripts/completion_qe_bridge.py": "qe_bridge_snapshot.py"
+  },
+  "method": "vdW-DF-C09; PseudoDojo nc-sr-04 standard PBE scalar NC",
+  "expected_bridge_method": "C09",
+  "requested": {
+    "optimization": false,
+    "frequencies": false
+  },
+  "calculation": "scf",
+  "n_atoms": 6,
+  "charge": 0,
+  "SOC": false,
+  "ecutwfc_Ry": 80,
+  "ecutrho_Ry": 320,
+  "k_grid": [
+    6,
+    6,
+    1
+  ],
+  "conv_thr_Ry": 1e-12,
+  "initial_cell_angstrom": [
+    [
+      3.18,
+      0.0,
+      0.0
+    ],
+    [
+      -1.59,
+      2.75396078403451,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      29.412769949751194
+    ]
+  ],
+  "initial_vacuum_gap_angstrom": 19.999999999951193,
+  "geometry_source": "structures/completion/qe-checks/w3-qe-bridge-s-minus.extxyz",
+  "parent_report": "reports/w2-bilayer-selected-r0-d6p3-pair.json",
+  "parent_report_sha256": "b4dbdf769d3539ea9f7c4d8583865961726cd394c5e2736ef13b59522d75b423",
+  "purpose": "Central energy derivative for an unconstrained chalcogen direction",
+  "timeout_seconds": 1800,
+  "rss_limit_gib": 40,
+  "omp_threads": 4,
+  "accuracy_scope": "Force transfer and method compatibility only; not CI/CO method sensitivity",
+  "displaced_atom_index": 1,
+  "displaced_cartesian_axis": 2,
+  "displacement_angstrom": -0.002
+}

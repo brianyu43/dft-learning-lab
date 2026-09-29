@@ -1,0 +1,70 @@
+{
+  "status": "paused_by_user",
+  "reason": "User requested to continue tomorrow",
+  "stopped_at": "2026-09-10T14:19:38.227225+00:00",
+  "all_owned_engine_and_controller_PIDs_verified_exited": [
+    48437,
+    49346,
+    49491,
+    49493,
+    52830
+  ],
+  "source_run_dir": "runs/20260910T114317596838Z-w2-diflunisal--caffeine-opt-freq",
+  "optimization_converged": true,
+  "optimization_cycles": 87,
+  "frequency_complete": false,
+  "minimum_verified": false,
+  "binding_energy_reportable": false,
+  "optimized_geometry": "structures/checkpoints/week2/user-pause-20260910/diflunisal--caffeine-optimized.xyz",
+  "geometry_sha256": "820d5ba77bdd0c689b9823a41e230fc2f15832ee020399934498dca7dd1a56ee",
+  "geometry_audit": {
+    "status": "geometry_checked",
+    "heavy_connectivity_preserved": true,
+    "lost_heavy_bonds": [],
+    "new_heavy_bonds": [],
+    "hydrogen_owner_changes": [],
+    "unassigned_hydrogens": [],
+    "chemical_state_preserved_by_geometry": true,
+    "closest_interfragment_distance_angstrom": 2.380170297906127,
+    "separated_geometry": false,
+    "cross_fragment_proton_transfer": []
+  },
+  "stopped_run_wall_seconds": 9380.616,
+  "stage_at_pause": "analytical frequency property integrals",
+  "source_files_sha256": {
+    "runs/20260910T114317596838Z-w2-diflunisal--caffeine-opt-freq/output.log": "8dd054bd92af5ad2f7ce1f935b08cad43d75c13f04ad9d134446aa21840ecabc",
+    "runs/20260910T114317596838Z-w2-diflunisal--caffeine-opt-freq/stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "runs/20260910T114317596838Z-w2-diflunisal--caffeine-opt-freq/w2-diflunisal--caffeine-opt-freq.xyz": "820d5ba77bdd0c689b9823a41e230fc2f15832ee020399934498dca7dd1a56ee",
+    "structures/checkpoints/week2/user-pause-20260910/manifest-at-user-stop.json": "2d123ee677b2dc305f1c2bab17227da58db9c2d182695403dc5eb881aa3cf23a",
+    "runs/20260910T114317596838Z-w2-diflunisal--caffeine-opt-freq/w2-diflunisal--caffeine-opt-freq.gbw": "1229e70e722cfafa2c40ee513cc5a21ab5fef6bfee1965d429f05d662a313b33"
+  },
+  "completed": {
+    "xTB_attempts": 505,
+    "xTB_converged": 491,
+    "xTB_geometry_failures_excluded": 14,
+    "ORCA_monomer_OptFreq_passed": 2,
+    "QE_monolayer_SCF_passed": 8
+  },
+  "not_started": {
+    "QE_bilayer_SCF": 16,
+    "ORCA_parallel_chemistry_validation": true,
+    "week3_engines": true
+  },
+  "MPI": {
+    "version": "4.1.1",
+    "isolated_prefix": ".tools/orca-mpi",
+    "launcher_test_passed": true,
+    "ORCA_energy_gradient_frequency_test_passed": false,
+    "provisional_nprocs": 12
+  },
+  "automatic_restart": false,
+  "tomorrow_scheduled": false,
+  "resume_steps": [
+    "Do not rerun the original drug batch from the xTB geometry. Its attempt is intentionally stopped and preserved.",
+    "Adapt the prepared parallel benchmark to accept this hash-verified optimized checkpoint without requiring completed core frequencies; require no active engines.",
+    "Run the water MPI Opt/Freq check and the fixed-geometry 1/8/12/16 EnGrad comparison with recorded core counts. These are not yet executed.",
+    "Run a separate Freq-only job at the saved optimized geometry with the validated MPI backend. Do not repeat the 87-cycle optimization. Validate this job using separate optimization provenance; the current generic parser assumes Opt and Freq are in the same log and needs an explicit supported resume path.",
+    "Combine preserved optimization evidence and the new complete Hessian before reporting a minimum or binding energy. Partial Hessian work is not claimed resumable.",
+    "Run the already-prepared 16-job bilayer batch and close all analyses, plots and integrity checks. Replace the stopped finite controller with a reviewed resume sequence; do not relaunch it unchanged."
+  ]
+}

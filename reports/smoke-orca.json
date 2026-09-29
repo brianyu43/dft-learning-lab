@@ -1,0 +1,43 @@
+{
+  "purpose": "installation smoke test, not a scientific benchmark",
+  "engine": "orca",
+  "charge": 0,
+  "spin_polarized": false,
+  "geometry_optimization": "not_run",
+  "minimum_verification": "not_run",
+  "thread_environment": {
+    "OMP_NUM_THREADS": "4",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "VECLIB_MAXIMUM_THREADS": "1"
+  },
+  "method": "PBE/def2-SVP",
+  "system": "H2O",
+  "multiplicity": 1,
+  "solvent": "vacuum",
+  "execution": "serial",
+  "input_sha256": {
+    "water_sp.inp": "115ae986807198b81cd4a059576b2c5315d631495f576c046af9e626490ede04"
+  },
+  "executable": "/Users/xavier/Documents/dev/generaldrugs/dft/.tools/orca-6.1.1/orca",
+  "executable_sha256": "ae760c7b81d474cdf4d9f249b50f7c9cde40b402b1d85ef4213a817bdee1400a",
+  "command": [
+    "/Users/xavier/Documents/dev/generaldrugs/dft/.tools/orca-6.1.1/orca",
+    "water_sp.inp"
+  ],
+  "cwd": "/Users/xavier/Documents/dev/generaldrugs/dft/runs/20260909T041124215225Z-orca",
+  "timeout_seconds": 600,
+  "started_at": "2026-09-09T04:11:24.217589+00:00",
+  "version": "6.1.1",
+  "status": "passed",
+  "ended_at": "2026-09-09T04:11:28.505000+00:00",
+  "elapsed_seconds": 4.287,
+  "exit_code": 0,
+  "timed_out": false,
+  "scf_converged": true,
+  "energy": -76.272118859779,
+  "energy_unit": "Hartree",
+  "max_rss_bytes": 128106496,
+  "memory_measurement": "getrusage(RUSAGE_CHILDREN).ru_maxrss; bytes on macOS; maximum child RSS, not summed process-tree or system unified-memory peak",
+  "output_sha256": "36c2ec828b9f59304262e9140cfdf01bee57efddd73802bd7c832a9fad0b11ed"
+}

@@ -1,0 +1,494 @@
+{
+  "protocol_id": "dft-pilot-20260909-v1-week2",
+  "week": 2,
+  "job_id": "w2-diflunisal-opt-freq",
+  "task_id": "DR01",
+  "engine": "orca",
+  "executable": ".tools/orca-6.1.1/orca",
+  "input": "inputs/orca/week2/w2-diflunisal-opt-freq.inp",
+  "method": "r2SCAN-3c",
+  "purpose": "First cost and minimum verification; one selected starting geometry, not four-case ranking",
+  "charge": 0,
+  "multiplicity": 1,
+  "n_atoms": 26,
+  "linear": false,
+  "solvent": "vacuum",
+  "requested": {
+    "optimization": true,
+    "frequencies": true
+  },
+  "timeout_seconds": 43200,
+  "rss_limit_gib": 40,
+  "omp_threads": 1,
+  "selected_candidate_id": "diflunisal-t02-s43",
+  "parent_run_id": "runs/week2-xtb-monomers/diflunisal-t02-s43",
+  "selection_rule": "lowest valid GFN2-xTB geometry; fixed chemical state for monomers; retained composition/connectivity and no separation for dimer",
+  "selection_uses_outcome_labels": false,
+  "selection_label_scope": "geometry ranking within preselected chemical species only",
+  "first_cost_pair_is_known_positive_by_design": true,
+  "initial_structure_sha256": "b77a229d0fa1286e5bd2f2c849003c1e913d985d14a35f78c283f59406a8c3e0",
+  "initial_geometry_audit": {
+    "status": "geometry_checked",
+    "heavy_connectivity_preserved": true,
+    "lost_heavy_bonds": [],
+    "new_heavy_bonds": [],
+    "hydrogen_owner_changes": [],
+    "unassigned_hydrogens": [],
+    "chemical_state_preserved_by_geometry": true
+  },
+  "started_at": "2026-09-10T11:04:32.669964+00:00",
+  "status": "passed",
+  "run_dir": "/Users/xavier/Documents/dev/generaldrugs/dft/runs/20260910T110432668715Z-w2-diflunisal-opt-freq",
+  "config_sha256": "f859734630d0b0d25d904b149755a94541ce3efe2caa2134544c754fd0d51221",
+  "source_sha256": {
+    "inputs/orca/week2/w2-diflunisal-opt-freq.inp": "239240c48ea6d29a2e4bfe3f2cfbd5b7290d5fdc0364c658b01a428532070903"
+  },
+  "executable_sha256": "ae760c7b81d474cdf4d9f249b50f7c9cde40b402b1d85ef4213a817bdee1400a",
+  "command": [
+    "/Users/xavier/Documents/dev/generaldrugs/dft/.tools/orca-6.1.1/orca",
+    "w2-diflunisal-opt-freq.inp"
+  ],
+  "runner_sha256": "e276ab1aa4ddc435d0a3aceec06b27445f6a6c1263f101009d5de14e6cc70cf6",
+  "stop_reason": null,
+  "thread_environment": {
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "VECLIB_MAXIMUM_THREADS": "1"
+  },
+  "pid": 48439,
+  "engine_launched": true,
+  "ended_at": "2026-09-10T11:25:11.770761+00:00",
+  "elapsed_seconds": 1239.097,
+  "exit_code": 0,
+  "peak_sampled_process_tree_rss_bytes": 1424211968,
+  "memory_samples": 2398,
+  "memory_access_denied": 0,
+  "max_single_child_rss_bytes": 1273348096,
+  "system_swap_increase_peak_bytes": 0,
+  "memory_measurement": "0.5s sampled summed process-tree RSS; may double-count shared pages and miss peaks. OS ru_maxrss is maximum single-child RSS in macOS bytes. Swap is system-wide, not attributable solely to this job.",
+  "output_sha256": "ff0c7c6ec6f1ac966a73124378508062c4484393360a30ebb076d08618eaa249",
+  "result": {
+    "engine_version": "6.1.1",
+    "normal_termination": true,
+    "scf_converged": true,
+    "geometry_optimization_converged": true,
+    "energy": -925.47679828124,
+    "energy_unit": "Hartree",
+    "energy_history": [
+      -925.475301275398,
+      -925.476551680838,
+      -925.476756350473,
+      -925.476786112383,
+      -925.476785779654,
+      -925.476797899405,
+      -925.476798134829,
+      -925.47679828124
+    ],
+    "frequencies_cm1": [
+      42.27,
+      46.53,
+      65.36,
+      97.24,
+      146.79,
+      157.57,
+      194.74,
+      230.0,
+      249.06,
+      265.4,
+      335.25,
+      349.67,
+      382.44,
+      411.07,
+      427.81,
+      446.76,
+      475.58,
+      514.43,
+      537.16,
+      546.06,
+      556.2,
+      583.67,
+      611.31,
+      620.38,
+      667.4,
+      698.24,
+      716.8,
+      733.39,
+      752.64,
+      780.44,
+      787.31,
+      810.88,
+      822.39,
+      852.69,
+      856.29,
+      898.16,
+      919.08,
+      952.57,
+      978.78,
+      990.9,
+      1060.66,
+      1093.23,
+      1121.74,
+      1163.62,
+      1170.99,
+      1195.23,
+      1240.27,
+      1260.07,
+      1294.89,
+      1311.22,
+      1321.32,
+      1332.3,
+      1356.65,
+      1404.91,
+      1431.82,
+      1440.92,
+      1468.3,
+      1513.78,
+      1537.76,
+      1620.48,
+      1625.74,
+      1650.6,
+      1653.11,
+      1724.39,
+      3178.51,
+      3184.07,
+      3195.14,
+      3198.6,
+      3206.91,
+      3214.85,
+      3360.2,
+      3750.84
+    ],
+    "all_reported_modes_cm1": [
+      [
+        0,
+        0.0
+      ],
+      [
+        1,
+        0.0
+      ],
+      [
+        2,
+        0.0
+      ],
+      [
+        3,
+        0.0
+      ],
+      [
+        4,
+        0.0
+      ],
+      [
+        5,
+        0.0
+      ],
+      [
+        6,
+        42.27
+      ],
+      [
+        7,
+        46.53
+      ],
+      [
+        8,
+        65.36
+      ],
+      [
+        9,
+        97.24
+      ],
+      [
+        10,
+        146.79
+      ],
+      [
+        11,
+        157.57
+      ],
+      [
+        12,
+        194.74
+      ],
+      [
+        13,
+        230.0
+      ],
+      [
+        14,
+        249.06
+      ],
+      [
+        15,
+        265.4
+      ],
+      [
+        16,
+        335.25
+      ],
+      [
+        17,
+        349.67
+      ],
+      [
+        18,
+        382.44
+      ],
+      [
+        19,
+        411.07
+      ],
+      [
+        20,
+        427.81
+      ],
+      [
+        21,
+        446.76
+      ],
+      [
+        22,
+        475.58
+      ],
+      [
+        23,
+        514.43
+      ],
+      [
+        24,
+        537.16
+      ],
+      [
+        25,
+        546.06
+      ],
+      [
+        26,
+        556.2
+      ],
+      [
+        27,
+        583.67
+      ],
+      [
+        28,
+        611.31
+      ],
+      [
+        29,
+        620.38
+      ],
+      [
+        30,
+        667.4
+      ],
+      [
+        31,
+        698.24
+      ],
+      [
+        32,
+        716.8
+      ],
+      [
+        33,
+        733.39
+      ],
+      [
+        34,
+        752.64
+      ],
+      [
+        35,
+        780.44
+      ],
+      [
+        36,
+        787.31
+      ],
+      [
+        37,
+        810.88
+      ],
+      [
+        38,
+        822.39
+      ],
+      [
+        39,
+        852.69
+      ],
+      [
+        40,
+        856.29
+      ],
+      [
+        41,
+        898.16
+      ],
+      [
+        42,
+        919.08
+      ],
+      [
+        43,
+        952.57
+      ],
+      [
+        44,
+        978.78
+      ],
+      [
+        45,
+        990.9
+      ],
+      [
+        46,
+        1060.66
+      ],
+      [
+        47,
+        1093.23
+      ],
+      [
+        48,
+        1121.74
+      ],
+      [
+        49,
+        1163.62
+      ],
+      [
+        50,
+        1170.99
+      ],
+      [
+        51,
+        1195.23
+      ],
+      [
+        52,
+        1240.27
+      ],
+      [
+        53,
+        1260.07
+      ],
+      [
+        54,
+        1294.89
+      ],
+      [
+        55,
+        1311.22
+      ],
+      [
+        56,
+        1321.32
+      ],
+      [
+        57,
+        1332.3
+      ],
+      [
+        58,
+        1356.65
+      ],
+      [
+        59,
+        1404.91
+      ],
+      [
+        60,
+        1431.82
+      ],
+      [
+        61,
+        1440.92
+      ],
+      [
+        62,
+        1468.3
+      ],
+      [
+        63,
+        1513.78
+      ],
+      [
+        64,
+        1537.76
+      ],
+      [
+        65,
+        1620.48
+      ],
+      [
+        66,
+        1625.74
+      ],
+      [
+        67,
+        1650.6
+      ],
+      [
+        68,
+        1653.11
+      ],
+      [
+        69,
+        1724.39
+      ],
+      [
+        70,
+        3178.51
+      ],
+      [
+        71,
+        3184.07
+      ],
+      [
+        72,
+        3195.14
+      ],
+      [
+        73,
+        3198.6
+      ],
+      [
+        74,
+        3206.91
+      ],
+      [
+        75,
+        3214.85
+      ],
+      [
+        76,
+        3360.2
+      ],
+      [
+        77,
+        3750.84
+      ]
+    ],
+    "frequency_count_expected": 72,
+    "frequency_count_observed": 72,
+    "projected_external_modes_verified": true,
+    "imaginary_frequencies_cm1": [],
+    "lowest_vibrational_frequency_cm1": 42.27,
+    "minimum_verified": true,
+    "frequency_analysis_complete": true,
+    "optimization_cycles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "status": "passed"
+  }
+}

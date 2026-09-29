@@ -1,0 +1,17 @@
+test_ci_co_inequivalence_all_nine_geometries_and_three_tolerances (test_completion_alloy_geometry.AlloyGeometryTests.test_ci_co_inequivalence_all_nine_geometries_and_three_tolerances) ... ok
+test_different_parent_rejected (test_completion_alloy_geometry.AlloyGeometryTests.test_different_parent_rejected) ... ok
+test_equivalence_positive_control_permutation_wrapping_and_origin_shift (test_completion_alloy_geometry.AlloyGeometryTests.test_equivalence_positive_control_permutation_wrapping_and_origin_shift) ... ok
+test_full_matrix_composition_registry_and_inner_outer_faces (test_completion_alloy_geometry.AlloyGeometryTests.test_full_matrix_composition_registry_and_inner_outer_faces) ... ok
+test_nontrivial_rotation_positive_control (test_completion_alloy_geometry.AlloyGeometryTests.test_nontrivial_rotation_positive_control) ... ok
+test_primitive_registry_and_parent_sources_preserved (test_completion_alloy_geometry.AlloyGeometryTests.test_primitive_registry_and_parent_sources_preserved) ... ok
+test_structure_round_trip_remains_verifiable_and_json_serializable (test_completion_alloy_geometry.AlloyGeometryTests.test_structure_round_trip_remains_verifiable_and_json_serializable) ... ok
+test_wrong_lattice_overlapping_layers_and_corrupt_annotations_rejected (test_completion_alloy_geometry.AlloyGeometryTests.test_wrong_lattice_overlapping_layers_and_corrupt_annotations_rejected) ... ok
+test_actual_optimizer_matches_constrained_analytic_minimum (test_completion_alloy_geometry.LayerConstraintTests.test_actual_optimizer_matches_constrained_analytic_minimum) ... ok
+test_multiple_steps_do_not_move_other_groups_or_freeze_internal_motion (test_completion_alloy_geometry.LayerConstraintTests.test_multiple_steps_do_not_move_other_groups_or_freeze_internal_motion) ... ok
+test_projected_force_matches_tangent_energy_derivative (test_completion_alloy_geometry.LayerConstraintTests.test_projected_force_matches_tangent_energy_derivative) ... ok
+test_serialization_permutation_and_slice_safety (test_completion_alloy_geometry.LayerConstraintTests.test_serialization_permutation_and_slice_safety) ... ok
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.154s
+
+OK

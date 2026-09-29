@@ -1,0 +1,14 @@
+{
+  "PropertyTable": {
+    "Properties": [
+      {
+        "CID": 5429,
+        "MolecularFormula": "C7H8N4O2",
+        "SMILES": "CN1C=NC2=C1C(=O)NC(=O)N2C",
+        "ConnectivitySMILES": "CN1C=NC2=C1C(=O)NC(=O)N2C",
+        "InChIKey": "YAPQBXQYLJRXSA-UHFFFAOYSA-N",
+        "IUPACName": "3,7-dimethylpurine-2,6-dione"
+      }
+    ]
+  }
+}

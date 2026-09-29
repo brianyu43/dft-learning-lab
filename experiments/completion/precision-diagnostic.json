@@ -1,0 +1,50 @@
+{
+  "protocol_id": "dft-completion-20260929-precision-v2",
+  "jobs": [
+    "experiments/completion/w3-precision-v2-dif-g2.json",
+    "experiments/completion/w3-precision-v2-dif2-g2.json",
+    "experiments/completion/w3-precision-v2-dif-g3.json",
+    "experiments/completion/w3-precision-v2-dif2-g3.json",
+    "experiments/completion/w3-precision-v2-dif-dense.json",
+    "experiments/completion/w3-precision-v2-dif2-dense.json"
+  ],
+  "grid_definitions": {
+    "g2": {
+      "simple_keyword": "DefGrid2",
+      "extra_method_block": ""
+    },
+    "g3": {
+      "simple_keyword": "DefGrid3",
+      "extra_method_block": ""
+    },
+    "dense": {
+      "simple_keyword": "DefGrid3",
+      "extra_method_block": "%method\n  AngularGrid 7\n  IntAcc 6.0\nend\n"
+    }
+  },
+  "original_failed_gate": "reports/week3-recovery-r1/numerical-check.json",
+  "original_failed_gate_sha256": "9cc00d196ab948e852c7a0b4deb0018b103e7930ef636d25fd034a317e006b61",
+  "fixed_sources": {
+    "dif": {
+      "path": "structures/optimized/week2/diflunisal.xyz",
+      "sha256": "f47052b4161975c278fcdc832a36d1bec8c9698eedb7f0ccd1ba43391ad96d27"
+    },
+    "dif2": {
+      "path": "runs/20260911T110542024076Z-w3-diflunisal--diflunisal-p05-refine-r1-opt-freq/w3-diflunisal--diflunisal-p05-refine-r1-opt-freq.xyz",
+      "sha256": "61b7ac6b0221df9b7ad68c5dbdd0daa3f050ae594efd89604f59c93e815b3193"
+    }
+  },
+  "contrast": "E(DIF-DIF at saved refined geometry) - 2 E(DIF at saved optimized geometry)",
+  "scf": "VeryTightSCF in all six jobs",
+  "target_contrast_change_kcal_mol": 0.1,
+  "decision": "Measure first. No automatic change of prior failed gate or launch of the pending panel.",
+  "reuse_scope": "Two fixed geometries; numerical convergence of other candidates must be checked separately",
+  "input_hashes": {
+    "experiments/completion/w3-precision-v2-dif-g2.json": "7d03afb84f071b6925171369328d958b943c0512d227d770555e923f01f777f1",
+    "experiments/completion/w3-precision-v2-dif2-g2.json": "2b855685263187903eacc151e38f46e4751da344200c6d9f02db675a18320c2d",
+    "experiments/completion/w3-precision-v2-dif-g3.json": "b4c9a2c776530364a30219570a03d92bfb8f6d11738035419f5a8d24a4a752e6",
+    "experiments/completion/w3-precision-v2-dif2-g3.json": "9bf38e594358e43a587ee0e17d0a2b542f5e18ad43eab6004d803e72dbc2bf70",
+    "experiments/completion/w3-precision-v2-dif-dense.json": "7588e4164bdf653e13f1915854edf3331ad0fc540a14f44adbb87c0b185f53bb",
+    "experiments/completion/w3-precision-v2-dif2-dense.json": "08b304556fcf5f0a750191d72505dc6ce1664e1213cdf717cb17c9d702104e46"
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "prepared_at": "2026-09-29T11:33:29.866839+00:00",
+  "status": "raw_reader_and_score_sensitivity_checks_passed_not_full_panel",
+  "test_count": 8,
+  "test_exit_code": 0,
+  "source_sha256": {
+    "scripts/completion_drug_panel.py": "c0a7057b1b5f7456cbd8884404437de1af8c0403bc44fea03fd47abdd80f0a95",
+    "scripts/completion_drug_contrasts.py": "2027d34365a15c0c5046d03c417c9d795853a85e7aeffec2747502323af09323",
+    "scripts/prepare_completion_drug.py": "42bf940d6e819de68e51d62dd8468fff03957d79c2898d4cfe3d0301e9e6878c",
+    "tests/test_completion_drug_panel.py": "e5a754fc3a797991e14787d08bfa827ec7c8a0b31660833ec3f7535d04f096e3",
+    "reports/completion/drug-panel-tests.log": "6d3ad3e8cc246993ead6e3a856541defb994ae4a638415b4e323e96a1ebe2d11",
+    "experiments/completion/drug-start-lineage-r1.json": "f1588cbe89a8876d6e04b5f90a5aef1577d67c4bba4d998e3ed775be17734549"
+  },
+  "candidate_graphs_matching_frozen_lineage": 17,
+  "legacy_audit": {
+    "report": "reports/w3-diflunisal--diflunisal-p05-refine-r1-opt-freq.json",
+    "report_sha256": "77272dc19eab6f0e221af4debe5bb456199ff2320e832ab15a9d2016781c6c11",
+    "energy_Hartree": -1850.964363429242,
+    "minimum_frequency_cm1": 9.18442963170601,
+    "internal_mode_count": 150,
+    "chemical_state": {
+      "status": "geometry_checked",
+      "heavy_connectivity_preserved": true,
+      "lost_heavy_bonds": [],
+      "new_heavy_bonds": [],
+      "hydrogen_owner_changes": [],
+      "unassigned_hydrogens": [],
+      "chemical_state_preserved_by_geometry": true,
+      "closest_interfragment_distance_angstrom": 1.584003979491307,
+      "separated_geometry": false,
+      "cross_fragment_proton_transfer": []
+    },
+    "evidence_sha256": {
+      "runs/20260911T110542024076Z-w3-diflunisal--diflunisal-p05-refine-r1-opt-freq/job_config.json": "7baf511272eb4870ca93ad7c09d481f45be2dbc3fadb213ca2092a7ca2bdbe71",
+      "runs/20260911T110542024076Z-w3-diflunisal--diflunisal-p05-refine-r1-opt-freq/runner_snapshot.py": "e276ab1aa4ddc435d0a3aceec06b27445f6a6c1263f101009d5de14e6cc70cf6",
+      "runs/20260911T110542024076Z-w3-diflunisal--diflunisal-p05-refine-r1-opt-freq/output.log": "4437f76b4e1571c41b8079bc47ca3c2b91883c373cd169b785686ea03e3bbd08",
+      "runs/20260911T110542024076Z-w3-diflunisal--diflunisal-p05-refine-r1-opt-freq/w3-diflunisal--diflunisal-p05-refine-r1-opt-freq.inp": "26b6db7e82729fec6e1ffabdfba946aaf4e2e9b8ebec4c37b9ed371a762250d6",
+      "runs/20260911T110542024076Z-w3-diflunisal--diflunisal-p05-refine-r1-opt-freq/libmpi.40.dylib": "3f433facb4325248a8527298f556d2eb16f2300d6329e916216c1a5625cb0c8d",
+      "runs/20260911T110542024076Z-w3-diflunisal--diflunisal-p05-refine-r1-opt-freq/libopen-rte.40.dylib": "dba76cb5bee8fe70e117c9199780eeb4cff76aedaa68e44c174e6c0d4c421975",
+      "runs/20260911T110542024076Z-w3-diflunisal--diflunisal-p05-refine-r1-opt-freq/libopen-pal.40.dylib": "b9bb52d11408495dddbacd0fec0ef98c07bce80d7f56115428b03033dff77fec",
+      "runs/20260911T110542024076Z-w3-diflunisal--diflunisal-p05-refine-r1-opt-freq/libopen-orted-mpir.dylib": "fb02d3d8287ffc0c63d6cdcf0e94e32333aee0ea401c0c785e74a9ecc276b3f5",
+      "runs/20260911T110542024076Z-w3-diflunisal--diflunisal-p05-refine-r1-opt-freq/libz.1.dylib": "be8b83df360c94cfe6c13f320c7f85960eee26a52d793a10fa90ea97595f1a09",
+      "runs/20260911T110542024076Z-w3-diflunisal--diflunisal-p05-refine-r1-opt-freq/candidate.json": "24d37c3a68937d1d4afaba512d68d27e3e282b84b2730a7a48e2b79d99412fc3",
+      "runs/20260911T110542024076Z-w3-diflunisal--diflunisal-p05-refine-r1-opt-freq/week3_parser_snapshot.py": "229eeeab19a186969047afeda344cbbed79f7c5db12412d2a5ee201bb545e2ed",
+      "runs/20260911T110542024076Z-w3-diflunisal--diflunisal-p05-refine-r1-opt-freq/provenance/geometry_audit_snapshot.py": "a2a8be8a3fc863d200a289ba95e5b8c16baadc7919619579fd3342b7f79c8eb4",
+      "runs/20260911T110542024076Z-w3-diflunisal--diflunisal-p05-refine-r1-opt-freq/provenance/hessian_check_snapshot.py": "6728f147ded27522f8029b97d340b75b3a530ba2d8c2b522685123bfded78719",
+      "runs/20260911T110542024076Z-w3-diflunisal--diflunisal-p05-refine-r1-opt-freq/provenance/parallel_launcher_snapshot.sh": "3dccb38bdd68fe054b55e1456b2168b8df6811a92f612afb707c5fa70458dda8",
+      "runs/20260911T110542024076Z-w3-diflunisal--diflunisal-p05-refine-r1-opt-freq/provenance/orca-mpi-explicit.txt": "fb1bbeb3dbc7fe7d832832dee42715f8d02c6a4e539c1d7733c3060e67749c19",
+      "runs/20260911T110542024076Z-w3-diflunisal--diflunisal-p05-refine-r1-opt-freq/initial.xyz": "507a53af0a170871a14dbf676397cbbb42343dc46a12692cbc59b059e5eb75ef",
+      "runs/20260911T110542024076Z-w3-diflunisal--diflunisal-p05-refine-r1-opt-freq/provenance/failed-parent-report.json": "9d16a94190afb032b8abd0f5bc03f10946d125ace45dfce5f90a76d23eea9f86",
+      "runs/20260911T110542024076Z-w3-diflunisal--diflunisal-p05-refine-r1-opt-freq/provenance/mode-inspection.json": "6646fbb1fd4ca39b9579058beba459e6a5ca0fc031c35322f929c950ee349e7a",
+      "runs/20260911T110542024076Z-w3-diflunisal--diflunisal-p05-refine-r1-opt-freq/provenance/failed-parent-output.log": "648e4ab938aa00b1762912560b5a51f5de9ceea11b45d52c0ade356c1f3825e9",
+      "runs/20260911T110542024076Z-w3-diflunisal--diflunisal-p05-refine-r1-opt-freq/provenance/failed-parent.hess": "3100d5ec7c2c48f17d1dc940561b711e44bf4250e3297376cc701ccadc5b75cc",
+      "runs/20260911T110542024076Z-w3-diflunisal--diflunisal-p05-refine-r1-opt-freq/w3-diflunisal--diflunisal-p05-refine-r1-opt-freq.xyz": "61b7ac6b0221df9b7ad68c5dbdd0daa3f050ae594efd89604f59c93e815b3193",
+      "runs/20260911T110542024076Z-w3-diflunisal--diflunisal-p05-refine-r1-opt-freq/w3-diflunisal--diflunisal-p05-refine-r1-opt-freq.engrad": "df71f43a5ac9d9a5538b68dd6302a5dbb45d6dd4a75e2deeb9055f3f923a44ce",
+      "runs/20260911T110542024076Z-w3-diflunisal--diflunisal-p05-refine-r1-opt-freq/w3-diflunisal--diflunisal-p05-refine-r1-opt-freq.hess": "b35bf6868a65cd4e64bbd3f49202261dbca1980327d971b9ea1336352de36d1b"
+    },
+    "accepted_as_uniform_dense_result": false
+  },
+  "production_uniform_plan_exists": false,
+  "production_strict_plan_exists": false,
+  "actual_four_case_BX_scores_generated": false,
+  "original_files_overwritten": false,
+  "acceptance": {
+    "max_score_change_kcal_mol": 0.1,
+    "max_gradient_component_change_Hartree_Bohr": 0.0001
+  },
+  "actual_full_panel_integration_verified": false,
+  "scope": "Read-only raw verification and synthetic numerical-sensitivity tests; actual common panel is incomplete"
+}

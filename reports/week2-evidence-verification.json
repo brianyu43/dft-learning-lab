@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "week2_hashed_files_checked": 5691,
+  "visually_checked_PNGs_matching_final_files": 3,
+  "parallel_validation_files_checked": 106,
+  "paused_files_preserved_in_archives": 28,
+  "copied_DFT_assets_checked": 115,
+  "week1_original_files_unchanged": 113,
+  "week1_live_metadata_preserved_in_exact_archives": {
+    "README.md": "docs/archive/README-before-week2.md",
+    "experiments/protocol-v1.json": "experiments/archive/protocol-v1-before-week2.json"
+  },
+  "mismatches": [],
+  "scope": "byte-level integrity, separate from scientific interpretation and numerical validation"
+}

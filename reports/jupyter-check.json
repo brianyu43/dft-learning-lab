@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "host": "127.0.0.1",
+  "persistent_server": false,
+  "api_status": "HTTP 200",
+  "lab_page": "HTTP 200",
+  "kernels": 0,
+  "server_stopped": true
+}

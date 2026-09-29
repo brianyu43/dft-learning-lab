@@ -1,0 +1,9 @@
+{
+  "batch_id": "week2-drug-first-dft",
+  "budget_seconds": 21600,
+  "jobs": [
+    "experiments/week2/w2-diflunisal-opt-freq.json",
+    "experiments/week2/w2-caffeine-opt-freq.json",
+    "experiments/week2/w2-diflunisal--caffeine-opt-freq.json"
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "configurations": [
+    {
+      "configuration": "selected-r0-d6p0",
+      "setting": "selected",
+      "registry_id": 0,
+      "registry_fraction": [
+        0,
+        0
+      ],
+      "Mo_plane_distance_angstrom": 6.0,
+      "jobs": {
+        "pair": "w2-bilayer-selected-r0-d6p0-pair",
+        "bottom": "w2-bilayer-selected-r0-d6p0-bottom",
+        "top": "w2-bilayer-selected-r0-d6p0-top"
+      },
+      "area_angstrom2": 8.757595293229743
+    },
+    {
+      "configuration": "selected-r0-d6p3",
+      "setting": "selected",
+      "registry_id": 0,
+      "registry_fraction": [
+        0,
+        0
+      ],
+      "Mo_plane_distance_angstrom": 6.3,
+      "jobs": {
+        "pair": "w2-bilayer-selected-r0-d6p3-pair",
+        "bottom": "w2-bilayer-selected-r0-d6p3-bottom",
+        "top": "w2-bilayer-selected-r0-d6p3-top"
+      },
+      "area_angstrom2": 8.757595293229743
+    },
+    {
+      "configuration": "selected-r0-d6p6",
+      "setting": "selected",
+      "registry_id": 0,
+      "registry_fraction": [
+        0,
+        0
+      ],
+      "Mo_plane_distance_angstrom": 6.6,
+      "jobs": {
+        "pair": "w2-bilayer-selected-r0-d6p6-pair",
+        "bottom": "w2-bilayer-selected-r0-d6p6-bottom",
+        "top": "w2-bilayer-selected-r0-d6p6-top"
+      },
+      "area_angstrom2": 8.757595293229743
+    },
+    {
+      "configuration": "selected-r1-d6p3",
+      "setting": "selected",
+      "registry_id": 1,
+      "registry_fraction": [
+        0.3333333333333333,
+        0.6666666666666666
+      ],
+      "Mo_plane_distance_angstrom": 6.3,
+      "jobs": {
+        "pair": "w2-bilayer-selected-r1-d6p3-pair",
+        "bottom": "w2-bilayer-selected-r0-d6p3-bottom",
+        "top": "w2-bilayer-selected-r1-d6p3-top"
+      },
+      "area_angstrom2": 8.757595293229743
+    },
+    {
+      "configuration": "selected-r2-d6p3",
+      "setting": "selected",
+      "registry_id": 2,
+      "registry_fraction": [
+        0.6666666666666666,
+        0.3333333333333333
+      ],
+      "Mo_plane_distance_angstrom": 6.3,
+      "jobs": {
+        "pair": "w2-bilayer-selected-r2-d6p3-pair",
+        "bottom": "w2-bilayer-selected-r0-d6p3-bottom",
+        "top": "w2-bilayer-selected-r2-d6p3-top"
+      },
+      "area_angstrom2": 8.757595293229743
+    },
+    {
+      "configuration": "strict-r0-d6p3",
+      "setting": "strict",
+      "registry_id": 0,
+      "registry_fraction": [
+        0,
+        0
+      ],
+      "Mo_plane_distance_angstrom": 6.3,
+      "jobs": {
+        "pair": "w2-bilayer-strict-r0-d6p3-pair",
+        "bottom": "w2-bilayer-strict-r0-d6p3-bottom",
+        "top": "w2-bilayer-strict-r0-d6p3-top"
+      },
+      "area_angstrom2": 8.757595293229743
+    }
+  ],
+  "deduplication": "Reference exactly the existing immutable job input when scientific identity matches",
+  "equilibrium_in_plane_lattice_verified": false,
+  "reference_pseudo_revision_matched": false
+}

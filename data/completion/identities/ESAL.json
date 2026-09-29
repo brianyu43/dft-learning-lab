@@ -1,0 +1,14 @@
+{
+  "PropertyTable": {
+    "Properties": [
+      {
+        "CID": 8456,
+        "MolecularFormula": "C11H16O2",
+        "SMILES": "CC(C)(C)C1=C(C=CC(=C1)OC)O",
+        "ConnectivitySMILES": "CC(C)(C)C1=C(C=CC(=C1)OC)O",
+        "InChIKey": "MRBKEAMVRSLQPH-UHFFFAOYSA-N",
+        "IUPACName": "2-tert-butyl-4-methoxyphenol"
+      }
+    ]
+  }
+}

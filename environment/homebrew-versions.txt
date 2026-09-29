@@ -1,0 +1,5 @@
+cmake 4.4.3
+fftw 3.3.11
+gcc 16.2.0
+libomp 23.1.0
+openblas 0.3.34

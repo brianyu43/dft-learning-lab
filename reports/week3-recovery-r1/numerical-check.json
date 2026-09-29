@@ -1,0 +1,32 @@
+{
+  "checked_at": "2026-09-11T11:42:52.863599+00:00",
+  "status": "needs_review",
+  "refinement_job_id": "w3-diflunisal--diflunisal-p05-refine-r1-opt-freq",
+  "refinement_config_sha256": "7baf511272eb4870ca93ad7c09d481f45be2dbc3fadb213ca2092a7ca2bdbe71",
+  "refinement_report": "reports/w3-diflunisal--diflunisal-p05-refine-r1-opt-freq.json",
+  "refinement_report_sha256": "77272dc19eab6f0e221af4debe5bb456199ff2320e832ab15a9d2016781c6c11",
+  "common_grid_job_id": "w3-diflunisal--diflunisal-p05-refine-r1-common-grid",
+  "common_grid_config": "experiments/week3/drug/w3-diflunisal--diflunisal-p05-refine-r1-common-grid.json",
+  "common_grid_config_sha256": "0586607fde8fc401f2eca0e5bc2488644175f8c3f85f5060230ffdd5896a3c86",
+  "common_grid_report": "reports/w3-diflunisal--diflunisal-p05-refine-r1-common-grid.json",
+  "common_grid_report_sha256": "bb250915820c2528d32dd7ffa9dead162e1f043c12a0ef9a4dfb986c05769cab",
+  "recovery_plan_sha256": "0b225218409f38e8652fca3178842e55f16a12386054813c8da966eb1bdcadcb",
+  "same_geometry_verified": true,
+  "refined_minimum_verified": true,
+  "geometry_sha256": "61b7ac6b0221df9b7ad68c5dbdd0daa3f050ae594efd89604f59c93e815b3193",
+  "refined_energy_Hartree": -1850.964363429242,
+  "common_grid_energy_Hartree": -1850.963328925228,
+  "delta_energy_kcal_mol": 0.6491610696052906,
+  "max_gradient_component_delta_Hartree_Bohr": 0.00014506480096800704,
+  "refined_engrad": "/Users/xavier/Documents/dev/generaldrugs/dft/runs/20260911T110542024076Z-w3-diflunisal--diflunisal-p05-refine-r1-opt-freq/w3-diflunisal--diflunisal-p05-refine-r1-opt-freq.engrad",
+  "refined_engrad_sha256": "df71f43a5ac9d9a5538b68dd6302a5dbb45d6dd4a75e2deeb9055f3f923a44ce",
+  "common_grid_engrad": "/Users/xavier/Documents/dev/generaldrugs/dft/runs/20260911T114221169376Z-w3-diflunisal--diflunisal-p05-refine-r1-common-grid/w3-diflunisal--diflunisal-p05-refine-r1-common-grid.engrad",
+  "common_grid_engrad_sha256": "b741cc26d7c58eb6a58bc3400b64f940860e6a27c851179074c9e4c05fd69800",
+  "energy_used_for_comparison": "common_grid_energy_Hartree",
+  "policy": {
+    "max_absolute_energy_delta_kcal_mol": 0.1,
+    "max_gradient_component_delta_Hartree_Bohr": 0.0001,
+    "ranking_energy": "Same-geometry original TightSCF/default-grid single point after refined minimum validation",
+    "sensitivity_scope": "Local numerical sensitivity only, not a bound for all candidates or model error"
+  }
+}

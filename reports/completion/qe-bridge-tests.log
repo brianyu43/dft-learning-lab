@@ -1,0 +1,14 @@
+test_c09_cannot_be_reported_as_pbe_d3bj (test_completion_qe_bridge.VerifiedQEBridgeTests.test_c09_cannot_be_reported_as_pbe_d3bj) ... ok
+test_calculator_never_reuses_results_at_changed_coordinates (test_completion_qe_bridge.VerifiedQEBridgeTests.test_calculator_never_reuses_results_at_changed_coordinates) ... ok
+test_expected_geometry_mismatch_rejected (test_completion_qe_bridge.VerifiedQEBridgeTests.test_expected_geometry_mismatch_rejected) ... ok
+test_force_sign_and_units_cannot_silently_change (test_completion_qe_bridge.VerifiedQEBridgeTests.test_force_sign_and_units_cannot_silently_change) ... ok
+test_real_scf_coordinates_energy_forces_and_actual_method (test_completion_qe_bridge.VerifiedQEBridgeTests.test_real_scf_coordinates_energy_forces_and_actual_method) ... ok
+test_unfinished_xml_rejected (test_completion_qe_bridge.VerifiedQEBridgeTests.test_unfinished_xml_rejected) ... ok
+test_wrong_k_grid_or_openmp_metadata_rejected (test_completion_qe_bridge.VerifiedQEBridgeTests.test_wrong_k_grid_or_openmp_metadata_rejected) ... ok
+test_xml_changes_are_rejected (test_completion_qe_bridge.VerifiedQEBridgeTests.test_xml_changes_are_rejected) ... ok
+test_xml_geometry_cannot_differ_from_scf_input (test_completion_qe_bridge.VerifiedQEBridgeTests.test_xml_geometry_cannot_differ_from_scf_input) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.080s
+
+OK

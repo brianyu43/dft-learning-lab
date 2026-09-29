@@ -1,0 +1,40 @@
+{
+  "protocol_id": "dft-completion-20260929-precision-v2",
+  "week": 3,
+  "task_id": "C02",
+  "job_id": "w3-precision-v2-dif-g2",
+  "engine": "orca",
+  "executable": "scripts/orca_parallel.sh",
+  "input": "inputs/orca/completion/w3-precision-v2-dif-g2.inp",
+  "method": "r2SCAN-3c",
+  "charge": 0,
+  "multiplicity": 1,
+  "solvent": "vacuum",
+  "n_atoms": 26,
+  "linear": false,
+  "requested": {
+    "optimization": false,
+    "frequencies": false,
+    "gradient": true
+  },
+  "timeout_seconds": 1200,
+  "rss_limit_gib": 40,
+  "mpi_processes": 12,
+  "omp_threads": 1,
+  "assets": {
+    ".tools/orca-mpi/lib/libmpi.40.dylib": "libmpi.40.dylib",
+    ".tools/orca-mpi/lib/libopen-rte.40.dylib": "libopen-rte.40.dylib",
+    ".tools/orca-mpi/lib/libopen-pal.40.dylib": "libopen-pal.40.dylib",
+    ".tools/orca-mpi/lib/libopen-orted-mpir.dylib": "libopen-orted-mpir.dylib",
+    ".tools/orca-mpi/lib/libz.1.dylib": "libz.1.dylib",
+    "structures/completion/w3-precision-v2-dif-g2.xyz": "initial.xyz",
+    "scripts/completion_precision_diagnostic.py": "provenance/diagnostic_snapshot.py",
+    "scripts/orca_parallel.sh": "provenance/launcher_snapshot.sh"
+  },
+  "species": "dif",
+  "grid_setting": "g2",
+  "source_geometry": "structures/optimized/week2/diflunisal.xyz",
+  "source_geometry_sha256": "f47052b4161975c278fcdc832a36d1bec8c9698eedb7f0ccd1ba43391ad96d27",
+  "initial_structure_sha256": "f47052b4161975c278fcdc832a36d1bec8c9698eedb7f0ccd1ba43391ad96d27",
+  "purpose": "Same-geometry grid sensitivity in DIF self-association, not a new minimum or pose"
+}

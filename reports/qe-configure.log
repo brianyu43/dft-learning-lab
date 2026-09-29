@@ -1,0 +1,62 @@
+-- The Fortran compiler identification is GNU 16.2.0
+-- The C compiler identification is GNU 16.2.0
+-- Checking whether Fortran compiler has -isysroot
+-- Checking whether Fortran compiler has -isysroot - no
+-- Checking whether Fortran compiler supports OSX deployment target flag
+-- Checking whether Fortran compiler supports OSX deployment target flag - no
+-- Detecting Fortran compiler ABI info
+-- Detecting Fortran compiler ABI info - done
+-- Check for working Fortran compiler: /opt/homebrew/bin/gfortran - skipped
+-- Checking whether C compiler has -isysroot
+-- Checking whether C compiler has -isysroot - no
+-- Checking whether C compiler supports OSX deployment target flag
+-- Checking whether C compiler supports OSX deployment target flag - no
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /opt/homebrew/bin/gcc-16 - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Enable sanitizer QE_ENABLE_SANITIZER=none
+-- C preprocessor used by qe_preprocess_source in qeHelpers.cmake: /usr/bin/cpp
+-- Performing Test Fortran_ISYSTEM_SUPPORTED
+-- Performing Test Fortran_ISYSTEM_SUPPORTED - Success
+-- Found OpenMP_Fortran: -fopenmp (found version "5.2")
+-- Found OpenMP: TRUE (found version "5.2") found components: Fortran
+-- Append OpenMP runtime library path /opt/homebrew/Cellar/gcc/16.2.0/lib/gcc/current
+-- Found Git: /usr/bin/git (found suitable version "2.50.1 (Apple Git-155)", minimum required is "2.13")
+-- Source files are cloned from a git repository.
+   sed supports -E
+   Git branch: HEAD
+   Git commit hash: 9f93ddec427d2b9a45bb72d828c6d324f62fcabd-dirty
+-- Looking for Fortran sgemm
+-- Looking for Fortran sgemm - found
+-- Found BLAS: /opt/homebrew/opt/openblas/lib/libopenblas.dylib
+-- Looking for Fortran cheev
+-- Looking for Fortran cheev - found
+-- Found LAPACK: /opt/homebrew/opt/openblas/lib/libopenblas.dylib;/opt/homebrew/opt/openblas/lib/libopenblas.dylib
+-- Looking for Fortran zhpev
+-- Looking for Fortran zhpev - found
+Project C_FLAGS:  -O3 -DNDEBUG
+Project Fortran_FLAGS:  -fallow-argument-mismatch -O3
+Project INCLUDE_DIRECTORIES: /Users/xavier/Documents/dev/generaldrugs/dft/.tools/src/qe-7.6/include
+Project EXE_LINKER_FLAGS:  
+Project SHARED_LINKER_FLAGS:  
+-- Installing Wannier90 via submodule
+-- Installing MBD via submodule
+-- Found Git: /usr/bin/git (found version "2.50.1 (Apple Git-155)")
+-- Setting version tag to 89a3cc1 from Git
+-- Installing DeviceXlib via submodule
+-- Found PkgConfig: /opt/homebrew/bin/pkg-config (found version "3.0.5")
+-- Found FFTW3: /opt/homebrew/opt/fftw/lib/libfftw3.dylib;/opt/homebrew/opt/fftw/lib/libfftw3_omp.dylib
+-- Found FFTW3 library
+-- Looking for mallinfo
+-- Looking for mallinfo - not found
+-- Enabling tests in test-suite
+
+Only pw and cp results from ctest are reliable, we are working on making the rest tests work reliably with ctest. To run non-pw/cp tests, make a softlink of the bin directory to the root of QE source tree and run tests in the test-suite directory under that root.
+
+-- generating tests in pw category
+-- generating tests in cp category
+-- Configuring done (8.0s)
+-- Generating done (0.7s)
+-- Build files have been written to: /Users/xavier/Documents/dev/generaldrugs/dft/.tools/build/qe-7.6

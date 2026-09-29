@@ -1,0 +1,35 @@
+{
+  "observed_at": "2026-09-10T14:15:05.854721+00:00",
+  "status": "passed",
+  "scope": "MPI launcher only; no ORCA energy/gradient validation",
+  "openmpi_version": "4.1.1",
+  "loopback": false,
+  "checks": [
+    {
+      "command": [
+        "/Users/xavier/Documents/dev/generaldrugs/dft/.tools/orca-mpi/bin/mpirun",
+        "--version"
+      ],
+      "exit_code": 0,
+      "timeout": false,
+      "elapsed_seconds": 0.02704279194585979,
+      "stdout": "mpirun (Open MPI) 4.1.1\n\nReport bugs to http://www.open-mpi.org/community/help/\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "/Users/xavier/Documents/dev/generaldrugs/dft/.tools/orca-mpi/bin/mpirun",
+        "--bind-to",
+        "none",
+        "-np",
+        "2",
+        "/usr/bin/true"
+      ],
+      "exit_code": 0,
+      "timeout": false,
+      "elapsed_seconds": 0.2876208331435919,
+      "stdout": "",
+      "stderr": ""
+    }
+  ]
+}

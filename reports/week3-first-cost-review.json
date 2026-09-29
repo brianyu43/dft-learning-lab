@@ -1,0 +1,14 @@
+{
+  "reviewed_at": "2026-09-11T09:48:58.926054+00:00",
+  "first_job": "w3-diflunisal--caffeine-p14-opt-freq",
+  "first_elapsed_seconds": 1764.455,
+  "first_peak_sampled_process_tree_rss_bytes": 38226444288,
+  "first_complete_opt_freq_verified": true,
+  "remaining_starts": 13,
+  "planning_scenario_seconds": 47640.284999999996,
+  "scenario": "First measured full job for pilot plus twice that cost per remaining start; molecular cost can differ",
+  "remaining_after_week2_seconds": 273181.22729999997,
+  "passes": true,
+  "first_report_sha256": "764249b3f99be0f09d10010666e516d488329fafe0fef52161686d4c7043f60c",
+  "panel_plan_sha256": "879dd59f1d977407abd2e6bf16b1bf40d4003d3a09112e4ba5727a7d58c9fa16"
+}

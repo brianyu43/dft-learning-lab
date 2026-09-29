@@ -1,0 +1,66 @@
+{
+  "updated_at": "2026-09-11T11:42:52.872382+00:00",
+  "status": "in_progress_or_requires_review",
+  "drug": "partial",
+  "drug_complete_new_jobs": 5,
+  "drug_expected_new_jobs": 14,
+  "materials": "not_started",
+  "controller": {
+    "status": "stopped_requires_review",
+    "started_at": "2026-09-11T11:09:31.708359+00:00",
+    "pid": 86378,
+    "controller_dir": "runs/week3-pipeline-2026-09-11T110931704147_0000",
+    "plan_sha256": "879dd59f1d977407abd2e6bf16b1bf40d4003d3a09112e4ba5727a7d58c9fa16",
+    "code_sha256": {
+      "scripts/run_week3_pipeline.py": "8f733269c5bdd9c530865cdee91e5de2f0f5453f0b004440d343570d86520dae",
+      "scripts/week3_materials_pipeline.py": "c3445df613ff35be71723d40b80edd913ec080e4e0b973331c7d612e53a08c69",
+      "scripts/week3_qe.py": "558e60bab6800940d2088e5ec2f4dd810a5a4057af5e849ec6ba23e2ac3b060c",
+      "scripts/summarize_week3.py": "57cfa14e82610bfca47a5965c9972fc84a10dc294b4fd20f3f4e76e95610f1e6",
+      "scripts/run_week3_drug.py": "316a6adfa6033a13017b0fad1f2be7f9ada3ff6976cf275c9f54d55aa3afd8eb",
+      "scripts/run_week3_drug_v2.py": "229eeeab19a186969047afeda344cbbed79f7c5db12412d2a5ee201bb545e2ed",
+      "scripts/prepare_week3_drug.py": "3f4030a8f30c814c60721d6f9e6d94f5c5285d4052d2c536180d3d0b6a2bec26",
+      "scripts/research_run.py": "e276ab1aa4ddc435d0a3aceec06b27445f6a6c1263f101009d5de14e6cc70cf6",
+      "scripts/run_week2_xtb_screen.py": "a2a8be8a3fc863d200a289ba95e5b8c16baadc7919619579fd3342b7f79c8eb4",
+      "scripts/run_week2_frequency_resume.py": "6728f147ded27522f8029b97d340b75b3a530ba2d8c2b522685123bfded78719",
+      "scripts/week2_qe_results.py": "b04911859d0afd61dba623610d0ceb5a57d8b2496f68fdcf209d35c4c6e6d924",
+      "scripts/orca_parallel.sh": "3dccb38bdd68fe054b55e1456b2168b8df6811a92f612afb707c5fa70458dda8",
+      "scripts/plot_week3.py": "b5fe296ec64100575659a61d34dd83e37797d55fcef01c20ad54c920642c3a98",
+      "scripts/week3_recovery.py": "34f19d7278e413c70687a069499d9c1de86a2faf5a6a43cc5513f8ba706282fa",
+      "scripts/prepare_week3_recovery.py": "072774539181bb10626292d9ce8cfdc353c7fa3e0f3c6bd7e05b8f88fcdbd7d6",
+      "scripts/inspect_week3_mode.py": "48b32b9283c5af848c6dae609645b587c3e23f89f333a09de8f49f3976881310"
+    },
+    "steps": [
+      {
+        "job_id": "w3-diflunisal--diflunisal-p05-refine-r1-common-grid",
+        "config": "experiments/week3/drug/w3-diflunisal--diflunisal-p05-refine-r1-common-grid.json",
+        "exit_code": 0,
+        "ended_at": "2026-09-11T11:42:52.851293+00:00"
+      }
+    ],
+    "automatic_retries": 0,
+    "concurrent_engines": 1,
+    "remaining_after_week2_seconds": {
+      "orca": 273181.22729999997,
+      "qe": 138410.98
+    },
+    "scope": "Week-three bounded 14 new ORCA starts and adaptive MoS2/MoSe2 reference; no week-four jobs",
+    "reviewed_recovery_plan_sha256": "0b225218409f38e8652fca3178842e55f16a12386054813c8da966eb1bdcadcb",
+    "reviewed_refinement_attempts": 1,
+    "new_independent_recovery_starts": 0,
+    "stage": "stopped_requires_review",
+    "updated_at": "2026-09-11T11:42:52.864259+00:00",
+    "spent_week3_seconds": {
+      "orca": 7124.066999999999,
+      "qe": 0.0
+    },
+    "current_job": "w3-diflunisal--diflunisal-p05-refine-r1-common-grid",
+    "current_config": "experiments/week3/drug/w3-diflunisal--diflunisal-p05-refine-r1-common-grid.json",
+    "current_config_sha256": "0586607fde8fc401f2eca0e5bc2488644175f8c3f85f5060230ffdd5896a3c86",
+    "attached_to_existing_run": "/Users/xavier/Documents/dev/generaldrugs/dft/runs/20260911T110542024076Z-w3-diflunisal--diflunisal-p05-refine-r1-opt-freq",
+    "ended_at": "2026-09-11T11:42:52.864242+00:00",
+    "reason": "AssertionError: Grid/SCF numerical sensitivity exceeds the declared limit"
+  },
+  "week3_complete": false,
+  "cocrystal_polymorphs_determined": false,
+  "week4_started": false
+}

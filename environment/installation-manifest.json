@@ -1,0 +1,283 @@
+{
+  "recorded_at": "2026-09-09T04:05:51.335002+00:00",
+  "hardware": {
+    "chip": "Apple M5 Pro",
+    "architecture": "arm64",
+    "logical_cpu_count": 18,
+    "memory_bytes": 68719476736,
+    "macOS": "26.6.2"
+  },
+  "python": "3.11.15 (main, Jul 23 2026, 14:34:23) [Clang 22.1.3 ]",
+  "packages": {
+    "ase": {
+      "version": "3.29.0",
+      "import": "ok"
+    },
+    "rdkit": {
+      "version": "2026.3.6",
+      "import": "ok"
+    },
+    "pymatgen": {
+      "version": "2026.5.4",
+      "import": "ok"
+    },
+    "spglib": {
+      "version": "2.7.0",
+      "import": "ok"
+    },
+    "pyscf": {
+      "version": "2.14.0",
+      "import": "ok"
+    },
+    "geometric": {
+      "version": "1.1.1",
+      "import": "ok"
+    },
+    "numpy": {
+      "version": "2.4.6",
+      "import": "ok"
+    },
+    "scipy": {
+      "version": "1.17.1",
+      "import": "ok"
+    },
+    "pandas": {
+      "version": "3.0.5",
+      "import": "ok"
+    },
+    "matplotlib": {
+      "version": "3.11.1",
+      "import": "ok"
+    },
+    "jupyterlab": {
+      "version": "4.6.3",
+      "import": "ok"
+    },
+    "ipykernel": {
+      "version": "7.3.0",
+      "import": "ok"
+    },
+    "cclib": {
+      "version": "1.8.1",
+      "import": "ok"
+    },
+    "py3dmol": {
+      "version": "2.5.5",
+      "import": "ok"
+    }
+  },
+  "qe_commit": "9f93ddec427d2b9a45bb72d828c6d324f62fcabd",
+  "orca_status": "installed; serial water PBE/def2-SVP smoke test passed; MPI parallel execution not configured or tested",
+  "files_sha256": {
+    "uv.lock": "20371b8767f5dc70e625a5f7b84973d7bae5287468ee38db4bb8ac0340614b39",
+    "environment/xtb-explicit.txt": "4fb002dc5d7d799e1353ad7bbe7ec75e8d8d69171c186bfb7999f7581dd30f2b",
+    "environment/Brewfile": "7eddbf2cc7e717c5cf32a173ab2a3d71b2a3c1c9f14d385bb9f07f8d8341723e",
+    "docs/source/original-conversation.ko.txt": "b07293e6c9a5e39df2a52b145a697d76c684fdd1f4fe15ec6367fe3104cad699",
+    ".cache/micromamba.tar.bz2": "500f5074feb8d02c4296ef9921c3650ed2874171805a9fbb8fbb53896433646b"
+  },
+  "smoke_results": {
+    "qe": {
+      "purpose": "installation smoke test, not a scientific benchmark",
+      "engine": "qe",
+      "charge": 0,
+      "spin_polarized": false,
+      "geometry_optimization": "not_run",
+      "minimum_verification": "not_run",
+      "thread_environment": {
+        "OMP_NUM_THREADS": "4",
+        "OPENBLAS_NUM_THREADS": "1",
+        "MKL_NUM_THREADS": "1",
+        "VECLIB_MAXIMUM_THREADS": "1"
+      },
+      "version": "7.6",
+      "method": "PBE/ONCV",
+      "system": "Si2 diamond",
+      "ecutwfc_Ry": 30,
+      "ecutrho_Ry": 120,
+      "k_grid": [
+        2,
+        2,
+        2
+      ],
+      "k_offset": [
+        0,
+        0,
+        0
+      ],
+      "lattice_parameter_angstrom": 5.43,
+      "SOC": false,
+      "pseudo_sha256": "d66fa1bb73367f9a2fc34286ecd0876fa1c8c79b25f3b12b30b5b8dc2164148c",
+      "accuracy": "unconverged demonstration settings",
+      "input_sha256": {
+        "silicon_scf.in": "4a7b096156d357f853facb05bb2af4fd531a429a6d1e022f3340bf6be169dd15"
+      },
+      "executable": "/Users/xavier/Documents/dev/generaldrugs/dft/.tools/qe-7.6/bin/pw.x",
+      "executable_sha256": "d9c0a96099241bc96b8fc5783ae61363f9d667458fc2fee19ab13b71cd354ed5",
+      "command": [
+        "/Users/xavier/Documents/dev/generaldrugs/dft/.tools/bin/pw.x",
+        "-in",
+        "silicon_scf.in"
+      ],
+      "cwd": "/Users/xavier/Documents/dev/generaldrugs/dft/runs/20260909T040158691304Z-qe",
+      "timeout_seconds": 600,
+      "started_at": "2026-09-09T04:01:58.695905+00:00",
+      "status": "passed",
+      "ended_at": "2026-09-09T04:01:59.045096+00:00",
+      "elapsed_seconds": 0.349,
+      "exit_code": 0,
+      "timed_out": false,
+      "scf_converged": true,
+      "energy": -15.57645486,
+      "energy_unit": "Ry",
+      "max_rss_bytes": 26017792,
+      "memory_measurement": "getrusage(RUSAGE_CHILDREN).ru_maxrss; bytes on macOS; maximum child RSS, not summed process-tree or system unified-memory peak",
+      "output_sha256": "ebc0942a9d06c2eac2ec3161b2b70e9b9778a91000462cd148cd632bd0f574d4"
+    },
+    "pyscf": {
+      "purpose": "installation smoke test, not a scientific benchmark",
+      "engine": "pyscf",
+      "charge": 0,
+      "spin_polarized": false,
+      "geometry_optimization": "not_run",
+      "minimum_verification": "not_run",
+      "thread_environment": {
+        "OMP_NUM_THREADS": "4",
+        "OPENBLAS_NUM_THREADS": "1",
+        "MKL_NUM_THREADS": "1",
+        "VECLIB_MAXIMUM_THREADS": "1"
+      },
+      "version": "2.14.0",
+      "method": "PBE/def2-SVP",
+      "system": "H2O",
+      "solvent": "vacuum",
+      "multiplicity": 1,
+      "input_sha256": {
+        "pyscf_water.py": "cc5cf7b6570f03edee0218eea1904e92f51bac594063edf73e28c3e9fe6534d7"
+      },
+      "executable": "/Users/xavier/.local/share/uv/python/cpython-3.11.15-macos-aarch64-none/bin/python3.11",
+      "executable_sha256": "aaf189bf1730d36e2f683102a31c51395d6df2f45c587ebb874f417c97cccadc",
+      "command": [
+        "/Users/xavier/Documents/dev/generaldrugs/dft/.venv/bin/python",
+        "pyscf_water.py"
+      ],
+      "cwd": "/Users/xavier/Documents/dev/generaldrugs/dft/runs/20260909T040204961311Z-pyscf",
+      "timeout_seconds": 600,
+      "started_at": "2026-09-09T04:02:04.969935+00:00",
+      "status": "passed",
+      "ended_at": "2026-09-09T04:02:05.421152+00:00",
+      "elapsed_seconds": 0.451,
+      "exit_code": 0,
+      "timed_out": false,
+      "scf_converged": true,
+      "energy": -76.27201447266717,
+      "energy_unit": "Hartree",
+      "max_rss_bytes": 139329536,
+      "memory_measurement": "getrusage(RUSAGE_CHILDREN).ru_maxrss; bytes on macOS; maximum child RSS, not summed process-tree or system unified-memory peak",
+      "output_sha256": "8fa260dee8e123953b616a90dd59f7c3d0afd01b9e97da0edee1769bc3feeea1"
+    },
+    "xtb": {
+      "purpose": "installation smoke test, not a scientific benchmark",
+      "engine": "xtb",
+      "charge": 0,
+      "spin_polarized": false,
+      "geometry_optimization": "not_run",
+      "minimum_verification": "not_run",
+      "thread_environment": {
+        "OMP_NUM_THREADS": "4",
+        "OPENBLAS_NUM_THREADS": "1",
+        "MKL_NUM_THREADS": "1",
+        "VECLIB_MAXIMUM_THREADS": "1"
+      },
+      "version": "6.7.1",
+      "method": "GFN2-xTB (semiempirical, not DFT)",
+      "system": "H2O",
+      "multiplicity": 1,
+      "solvent": "vacuum",
+      "input_sha256": {
+        "water.xyz": "b7cb4087fda30bfe3ce5fab2c8fcf3e6c1074fbca8997c14df20b1e0d5c9ead1"
+      },
+      "executable": "/Users/xavier/Documents/dev/generaldrugs/dft/.tools/xtb/bin/xtb",
+      "executable_sha256": "d3174941efad80a6862d6d985c70907c23221962067713cb8f8bfbb0f4b471ff",
+      "command": [
+        "/Users/xavier/Documents/dev/generaldrugs/dft/.tools/xtb/bin/xtb",
+        "water.xyz",
+        "--gfn",
+        "2",
+        "--chrg",
+        "0",
+        "--uhf",
+        "0"
+      ],
+      "cwd": "/Users/xavier/Documents/dev/generaldrugs/dft/runs/20260909T040314412522Z-xtb",
+      "timeout_seconds": 600,
+      "started_at": "2026-09-09T04:03:14.413162+00:00",
+      "status": "passed",
+      "ended_at": "2026-09-09T04:03:14.434637+00:00",
+      "elapsed_seconds": 0.021,
+      "exit_code": 0,
+      "timed_out": false,
+      "scf_converged": true,
+      "energy": -5.070364532464,
+      "energy_unit": "Hartree",
+      "max_rss_bytes": 13942784,
+      "memory_measurement": "getrusage(RUSAGE_CHILDREN).ru_maxrss; bytes on macOS; maximum child RSS, not summed process-tree or system unified-memory peak",
+      "output_sha256": "c2618add7a6309b9546ec8973591f4abbc196ea4682cefbd5e64bbf0fe92eccb"
+    },
+    "orca": {
+      "purpose": "installation smoke test, not a scientific benchmark",
+      "engine": "orca",
+      "charge": 0,
+      "spin_polarized": false,
+      "geometry_optimization": "not_run",
+      "minimum_verification": "not_run",
+      "thread_environment": {
+        "OMP_NUM_THREADS": "4",
+        "OPENBLAS_NUM_THREADS": "1",
+        "MKL_NUM_THREADS": "1",
+        "VECLIB_MAXIMUM_THREADS": "1"
+      },
+      "method": "PBE/def2-SVP",
+      "system": "H2O",
+      "multiplicity": 1,
+      "solvent": "vacuum",
+      "execution": "serial",
+      "input_sha256": {
+        "water_sp.inp": "115ae986807198b81cd4a059576b2c5315d631495f576c046af9e626490ede04"
+      },
+      "executable": "/Users/xavier/Documents/dev/generaldrugs/dft/.tools/orca-6.1.1/orca",
+      "executable_sha256": "ae760c7b81d474cdf4d9f249b50f7c9cde40b402b1d85ef4213a817bdee1400a",
+      "command": [
+        "/Users/xavier/Documents/dev/generaldrugs/dft/.tools/orca-6.1.1/orca",
+        "water_sp.inp"
+      ],
+      "cwd": "/Users/xavier/Documents/dev/generaldrugs/dft/runs/20260909T041124215225Z-orca",
+      "timeout_seconds": 600,
+      "started_at": "2026-09-09T04:11:24.217589+00:00",
+      "version": "6.1.1",
+      "status": "passed",
+      "ended_at": "2026-09-09T04:11:28.505000+00:00",
+      "elapsed_seconds": 4.287,
+      "exit_code": 0,
+      "timed_out": false,
+      "scf_converged": true,
+      "energy": -76.272118859779,
+      "energy_unit": "Hartree",
+      "max_rss_bytes": 128106496,
+      "memory_measurement": "getrusage(RUSAGE_CHILDREN).ru_maxrss; bytes on macOS; maximum child RSS, not summed process-tree or system unified-memory peak",
+      "output_sha256": "36c2ec828b9f59304262e9140cfdf01bee57efddd73802bd7c832a9fad0b11ed"
+    }
+  },
+  "updated_at": "2026-09-09T04:12:17.861746+00:00",
+  "orca_installation": {
+    "version": "6.1.1",
+    "architecture": "arm64",
+    "package": "orca_6_1_1_macosx_arm64_openmpi411.run",
+    "installer_path": "/Users/xavier/Downloads/orca_6_1_1_macosx_arm64_openmpi411.run",
+    "installer_sha256": "0fb7b4d1994af5418286373e2c92da41e3a5d64b35438d8f5c6fb2e0242714ac",
+    "archive_integrity": "embedded MD5 passed; no embedded SHA-256 or signature",
+    "install_directory": "/Users/xavier/Documents/dev/generaldrugs/dft/.tools/orca-6.1.1",
+    "method": "Makeself --noexec --target followed by project-local PATH configuration",
+    "mpi_package_label": "Open MPI 4.1.1",
+    "parallel_verified": false
+  }
+}

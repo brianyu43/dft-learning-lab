@@ -1,0 +1,46 @@
+{
+  "protocol_id": "dft-pilot-20260909-v1-week2",
+  "week": 2,
+  "job_id": "w2-bilayer-selected-r1-d6p3-top",
+  "task_id": "SR01",
+  "engine": "qe",
+  "executable": ".tools/qe-7.6/bin/pw.x",
+  "input": "inputs/qe/week2/w2-bilayer-selected-r1-d6p3-top.in",
+  "assets": {
+    "data/pseudopotentials/pseudo-dojo-nc-sr-04-pbe-standard/Mo.upf": "pseudo/Mo.upf",
+    "data/pseudopotentials/pseudo-dojo-nc-sr-04-pbe-standard/S.upf": "pseudo/S.upf"
+  },
+  "method": "vdW-DF-C09; PseudoDojo nc-sr-04 standard PBE scalar NC",
+  "purpose": "week2 numerical sensitivity at fixed geometry",
+  "requested": {
+    "optimization": false,
+    "frequencies": false
+  },
+  "n_atoms": 3,
+  "charge": 0,
+  "SOC": false,
+  "ecutwfc_Ry": 80,
+  "ecutrho_Ry": 320,
+  "k_grid": [
+    6,
+    6,
+    1
+  ],
+  "vacuum_gap_angstrom": 26.3,
+  "conv_thr_Ry": 1e-10,
+  "lattice_a_angstrom": 3.18,
+  "timeout_seconds": 43200,
+  "rss_limit_gib": 40,
+  "omp_threads": 4,
+  "accuracy_scope": "Numerical sensitivity only at this composition/geometry; exact literature pseudo revision unverified",
+  "configuration_id": "selected-r1-d6p3-top",
+  "reference_bilayer_vacuum_gap_angstrom": 20,
+  "calculation_role": "top",
+  "registry_fraction": [
+    0.3333333333333333,
+    0.6666666666666666
+  ],
+  "Mo_plane_distance_angstrom": 6.3,
+  "orientation": "R-type: identical in-plane orientation, no twist",
+  "comparison_setting": "selected"
+}

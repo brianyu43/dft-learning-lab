@@ -1,0 +1,213 @@
+{
+  "retrieved_at": "2026-09-29T10:08:40.726330+00:00",
+  "rows": [
+    {
+      "key": "PARA",
+      "name": "paracetamol",
+      "status": "downloaded",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/paracetamol/property/MolecularFormula,CanonicalSMILES,IsomericSMILES,IUPACName,InChIKey/JSON",
+      "path": "data/completion/identities/PARA.json",
+      "sha256": "bcef68c7dd10645895257f0e0e9d070cb386fb306d8adb87b24c3742867c4848",
+      "properties": {
+        "CID": 1983,
+        "MolecularFormula": "C8H9NO2",
+        "SMILES": "CC(=O)NC1=CC=C(C=C1)O",
+        "ConnectivitySMILES": "CC(=O)NC1=CC=C(C=C1)O",
+        "InChIKey": "RZVAJINKPMORJF-UHFFFAOYSA-N",
+        "IUPACName": "N-(4-hydroxyphenyl)acetamide"
+      }
+    },
+    {
+      "key": "ASPI",
+      "name": "aspirin",
+      "status": "downloaded",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/aspirin/property/MolecularFormula,CanonicalSMILES,IsomericSMILES,IUPACName,InChIKey/JSON",
+      "path": "data/completion/identities/ASPI.json",
+      "sha256": "16210da2d08fa77942de94575415806eda8bd1e4f9c7f72a7bdb76cda8a00152",
+      "properties": {
+        "CID": 2244,
+        "MolecularFormula": "C9H8O4",
+        "SMILES": "CC(=O)OC1=CC=CC=C1C(=O)O",
+        "ConnectivitySMILES": "CC(=O)OC1=CC=CC=C1C(=O)O",
+        "InChIKey": "BSYNRYMUTXBXSQ-UHFFFAOYSA-N",
+        "IUPACName": "2-acetyloxybenzoic acid"
+      }
+    },
+    {
+      "key": "CARB",
+      "name": "carbamazepine",
+      "status": "downloaded",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/carbamazepine/property/MolecularFormula,CanonicalSMILES,IsomericSMILES,IUPACName,InChIKey/JSON",
+      "path": "data/completion/identities/CARB.json",
+      "sha256": "c90662afa6d79363a64504b7f1f1451289d1710c85c53e1922c235375b75659f",
+      "properties": {
+        "CID": 2554,
+        "MolecularFormula": "C15H12N2O",
+        "SMILES": "C1=CC=C2C(=C1)C=CC3=CC=CC=C3N2C(=O)N",
+        "ConnectivitySMILES": "C1=CC=C2C(=C1)C=CC3=CC=CC=C3N2C(=O)N",
+        "InChIKey": "FFGPTBGBLSHEPO-UHFFFAOYSA-N",
+        "IUPACName": "benzo[b][1]benzazepine-11-carboxamide"
+      }
+    },
+    {
+      "key": "BITZ",
+      "name": "pyridoxine",
+      "status": "downloaded",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/pyridoxine/property/MolecularFormula,CanonicalSMILES,IsomericSMILES,IUPACName,InChIKey/JSON",
+      "path": "data/completion/identities/BITZ.json",
+      "sha256": "47b7c7fa217e0626b3ce1c0b24d62a763218cc678c4df4af8048d6dd2b59e480",
+      "properties": {
+        "CID": 1054,
+        "MolecularFormula": "C8H11NO3",
+        "SMILES": "CC1=NC=C(C(=C1O)CO)CO",
+        "ConnectivitySMILES": "CC1=NC=C(C(=C1O)CO)CO",
+        "InChIKey": "LXNHXLLTXMVWPM-UHFFFAOYSA-N",
+        "IUPACName": "4,5-bis(hydroxymethyl)-2-methylpyridin-3-ol"
+      }
+    },
+    {
+      "key": "CEBG",
+      "name": "methyl paraben",
+      "status": "downloaded",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/methyl%20paraben/property/MolecularFormula,CanonicalSMILES,IsomericSMILES,IUPACName,InChIKey/JSON",
+      "path": "data/completion/identities/CEBG.json",
+      "sha256": "3bced90eb381823a3cd98e2ed18b4310435f0ab063da090d97fcffe747be5901",
+      "properties": {
+        "CID": 7456,
+        "MolecularFormula": "C8H8O3",
+        "SMILES": "COC(=O)C1=CC=C(C=C1)O",
+        "ConnectivitySMILES": "COC(=O)C1=CC=C(C=C1)O",
+        "InChIKey": "LXCFILQKKLGQFO-UHFFFAOYSA-N",
+        "IUPACName": "methyl 4-hydroxybenzoate"
+      }
+    },
+    {
+      "key": "ESAL",
+      "name": "3-tert-butyl-4-hydroxyanisole",
+      "status": "downloaded",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/3-tert-butyl-4-hydroxyanisole/property/MolecularFormula,CanonicalSMILES,IsomericSMILES,IUPACName,InChIKey/JSON",
+      "path": "data/completion/identities/ESAL.json",
+      "sha256": "5e10920643ccb09b8fc8314f9a750e8447e6fa41806fe2a9cb850da4daef43b3",
+      "properties": {
+        "CID": 8456,
+        "MolecularFormula": "C11H16O2",
+        "SMILES": "CC(C)(C)C1=C(C=CC(=C1)OC)O",
+        "ConnectivitySMILES": "CC(C)(C)C1=C(C=CC(=C1)OC)O",
+        "InChIKey": "MRBKEAMVRSLQPH-UHFFFAOYSA-N",
+        "IUPACName": "2-tert-butyl-4-methoxyphenol"
+      }
+    },
+    {
+      "key": "DUPK",
+      "name": "propyl paraben",
+      "status": "downloaded",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/propyl%20paraben/property/MolecularFormula,CanonicalSMILES,IsomericSMILES,IUPACName,InChIKey/JSON",
+      "path": "data/completion/identities/DUPK.json",
+      "sha256": "9672471b2f1dec5004638f8caf044823d5ada53606513deb968cfb66eb3ec5ef",
+      "properties": {
+        "CID": 7175,
+        "MolecularFormula": "C10H12O3",
+        "SMILES": "CCCOC(=O)C1=CC=C(C=C1)O",
+        "ConnectivitySMILES": "CCCOC(=O)C1=CC=C(C=C1)O",
+        "InChIKey": "QELSKZZBTMNZEB-UHFFFAOYSA-N",
+        "IUPACName": "propyl 4-hydroxybenzoate"
+      }
+    },
+    {
+      "key": "NICC",
+      "name": "nicotinic acid",
+      "status": "downloaded",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/nicotinic%20acid/property/MolecularFormula,CanonicalSMILES,IsomericSMILES,IUPACName,InChIKey/JSON",
+      "path": "data/completion/identities/NICC.json",
+      "sha256": "f49be47ca44c899c287e49a2cfbe91b261cb4aebafca949cd35273ed7c16c27d",
+      "properties": {
+        "CID": 938,
+        "MolecularFormula": "C6H5NO2",
+        "SMILES": "C1=CC(=CN=C1)C(=O)O",
+        "ConnectivitySMILES": "C1=CC(=CN=C1)C(=O)O",
+        "InChIKey": "PVNIIMVLHYAWGP-UHFFFAOYSA-N",
+        "IUPACName": "pyridine-3-carboxylic acid"
+      }
+    },
+    {
+      "key": "NICM",
+      "name": "nicotinamide",
+      "status": "downloaded",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/nicotinamide/property/MolecularFormula,CanonicalSMILES,IsomericSMILES,IUPACName,InChIKey/JSON",
+      "path": "data/completion/identities/NICM.json",
+      "sha256": "0abb24a9ef0672cd05fdb4c073c17b93aeb9e790782ea5235aea9fc60ebcd6f6",
+      "properties": {
+        "CID": 936,
+        "MolecularFormula": "C6H6N2O",
+        "SMILES": "C1=CC(=CN=C1)C(=O)N",
+        "ConnectivitySMILES": "C1=CC(=CN=C1)C(=O)N",
+        "InChIKey": "DFPAKSUCGFBDDF-UHFFFAOYSA-N",
+        "IUPACName": "pyridine-3-carboxamide"
+      }
+    },
+    {
+      "key": "OXAL",
+      "name": "oxalic acid",
+      "status": "downloaded",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/oxalic%20acid/property/MolecularFormula,CanonicalSMILES,IsomericSMILES,IUPACName,InChIKey/JSON",
+      "path": "data/completion/identities/OXAL.json",
+      "sha256": "9a49091f3a6db24b2803417c5ffc1370d0612e5c0632d90bdec3af9f614018c5",
+      "properties": {
+        "CID": 971,
+        "MolecularFormula": "C2H2O4",
+        "SMILES": "C(=O)(C(=O)O)O",
+        "ConnectivitySMILES": "C(=O)(C(=O)O)O",
+        "InChIKey": "MUBZPKHOEPUJKR-UHFFFAOYSA-N",
+        "IUPACName": "oxalic acid"
+      }
+    },
+    {
+      "key": "PYRD",
+      "name": "pyridine",
+      "status": "downloaded",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/pyridine/property/MolecularFormula,CanonicalSMILES,IsomericSMILES,IUPACName,InChIKey/JSON",
+      "path": "data/completion/identities/PYRD.json",
+      "sha256": "6ea496e037820f50e97788ee88fd27513f8da701f1e12274de65c54965f368fd",
+      "properties": {
+        "CID": 1049,
+        "MolecularFormula": "C5H5N",
+        "SMILES": "C1=CC=NC=C1",
+        "ConnectivitySMILES": "C1=CC=NC=C1",
+        "InChIKey": "JUJWROOIHBZHMG-UHFFFAOYSA-N",
+        "IUPACName": "pyridine"
+      }
+    },
+    {
+      "key": "SUCA",
+      "name": "succinic acid",
+      "status": "downloaded",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/succinic%20acid/property/MolecularFormula,CanonicalSMILES,IsomericSMILES,IUPACName,InChIKey/JSON",
+      "path": "data/completion/identities/SUCA.json",
+      "sha256": "6abe9791469e3d9e3ad443d5b420150a4614d359e396c253f8a2aef60fee28eb",
+      "properties": {
+        "CID": 1110,
+        "MolecularFormula": "C4H6O4",
+        "SMILES": "C(CC(=O)O)C(=O)O",
+        "ConnectivitySMILES": "C(CC(=O)O)C(=O)O",
+        "InChIKey": "KDYFGRWQOYBRFD-UHFFFAOYSA-N",
+        "IUPACName": "butanedioic acid"
+      }
+    },
+    {
+      "key": "TELZ",
+      "name": "cis-aconitic acid",
+      "status": "downloaded",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/cis-aconitic%20acid/property/MolecularFormula,CanonicalSMILES,IsomericSMILES,IUPACName,InChIKey/JSON",
+      "path": "data/completion/identities/TELZ.json",
+      "sha256": "03a85f207a7979d6971040721ff69d86e2917dc852279341813b46c4e0c997fd",
+      "properties": {
+        "CID": 643757,
+        "MolecularFormula": "C6H6O6",
+        "SMILES": "C(/C(=C/C(=O)O)/C(=O)O)C(=O)O",
+        "ConnectivitySMILES": "C(C(=CC(=O)O)C(=O)O)C(=O)O",
+        "InChIKey": "GTZCVFVGUGFEME-IWQZZHSRSA-N",
+        "IUPACName": "(Z)-prop-1-ene-1,2,3-tricarboxylic acid"
+      }
+    }
+  ]
+}

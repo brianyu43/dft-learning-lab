@@ -1,0 +1,50 @@
+{
+  "candidate_sha256": "d27f8b8d3b27ffa3dbf5b73e6a7ac0ee5c1d60fb730c07b2e4187bc93db94b25",
+  "executable_sha256": "d3174941efad80a6862d6d985c70907c23221962067713cb8f8bfbb0f4b471ff",
+  "command": [
+    "/Users/xavier/Documents/dev/generaldrugs/dft/.tools/xtb/bin/xtb",
+    "input.xyz",
+    "--gfn",
+    "2",
+    "--opt",
+    "tight",
+    "--chrg",
+    "0",
+    "--uhf",
+    "0"
+  ],
+  "stop_reason": null,
+  "started_at": "2026-09-10T10:46:19.141653+00:00",
+  "thread_environment": {
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1"
+  },
+  "timeout_seconds": 120,
+  "rss_limit_gib": 40,
+  "exit_code": 0,
+  "elapsed_seconds": 0.2476,
+  "peak_sampled_process_tree_rss_bytes": 29229056,
+  "memory_samples": 2,
+  "memory_access_denied": 0,
+  "output_sha256": "8296143f9eeef8cbaba0e3639a6c2b11489683023fed68b092378e5cd21b3142",
+  "optimized_xyz_sha256": "b77a229d0fa1286e5bd2f2c849003c1e913d985d14a35f78c283f59406a8c3e0",
+  "result": {
+    "normal_termination": true,
+    "geometry_optimization_converged": true,
+    "scf_converged": true,
+    "energy_Hartree": -53.59997766884,
+    "minimum_verified": false,
+    "method": "GFN2-xTB, semiempirical, not DFT",
+    "geometry_audit": {
+      "status": "geometry_checked",
+      "heavy_connectivity_preserved": true,
+      "lost_heavy_bonds": [],
+      "new_heavy_bonds": [],
+      "hydrogen_owner_changes": [],
+      "unassigned_hydrogens": [],
+      "chemical_state_preserved_by_geometry": true
+    },
+    "engine_version": "6.7.1",
+    "status": "passed"
+  }
+}

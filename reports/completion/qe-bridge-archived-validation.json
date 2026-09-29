@@ -1,0 +1,91 @@
+{
+  "status": "archived_scf_transfer_verified",
+  "checked_at": "2026-09-29T10:45:15.284889+00:00",
+  "tests_run": 9,
+  "records": [
+    {
+      "job_id": "w2-bilayer-selected-r0-d6p3-pair",
+      "method": "C09",
+      "fixed_geometry_verified": true,
+      "energy_eV": -5029.585760094643,
+      "max_force_eV_angstrom": 0.22387846850395146,
+      "energy_conversion_eV_per_Hartree": 27.211386245988034,
+      "length_conversion_angstrom_per_Bohr": 0.529177210903,
+      "xml_text_force_max_difference_eV_angstrom": 1.268582048366551e-07,
+      "ecutwfc_Ry": 80,
+      "ecutrho_Ry": 320,
+      "k_grid": [
+        6,
+        6,
+        1
+      ],
+      "k_offset": [
+        0,
+        0,
+        0
+      ],
+      "conv_thr_Ry": 1e-10,
+      "valence_electrons": {
+        "Mo": 14.0,
+        "S": 6.0
+      },
+      "openmp_threads_in_log": 4,
+      "xml_nthreads": 1,
+      "xml_thread_field_is_not_used_as_runtime_proof": true,
+      "report_sha256": "b4dbdf769d3539ea9f7c4d8583865961726cd394c5e2736ef13b59522d75b423",
+      "xml_sha256": "7399b24388b31927e63c26dcd51879267c767899f344b7b4b7ecc169b2733a19",
+      "output_sha256": "fd6a801f5afb35a74a32c0574fbb9765daf3ba04049085554dea906ea9a46690",
+      "input_sha256": "ab34f18eae8728a2f920dc990d6e0e0aadf180c66dec8ce586bdd1469566cb97",
+      "bridge_sha256": "fb300aa4a799cdcc57761f95601c14662e5150965fecc9e5f47409e7c0366582",
+      "scope": "Verified existing SCF and ASE transfer; no optimization, finite-displacement or D3 engine validation implied"
+    },
+    {
+      "job_id": "w2-mono-combined-c80-k6-v20",
+      "method": "C09",
+      "fixed_geometry_verified": true,
+      "energy_eV": -2514.7364203208276,
+      "max_force_eV_angstrom": 2.4618738017690896e-05,
+      "energy_conversion_eV_per_Hartree": 27.211386245988034,
+      "length_conversion_angstrom_per_Bohr": 0.529177210903,
+      "xml_text_force_max_difference_eV_angstrom": 6.385437094556554e-08,
+      "ecutwfc_Ry": 80,
+      "ecutrho_Ry": 320,
+      "k_grid": [
+        6,
+        6,
+        1
+      ],
+      "k_offset": [
+        0,
+        0,
+        0
+      ],
+      "conv_thr_Ry": 1e-10,
+      "valence_electrons": {
+        "Mo": 14.0,
+        "S": 6.0
+      },
+      "openmp_threads_in_log": 4,
+      "xml_nthreads": 1,
+      "xml_thread_field_is_not_used_as_runtime_proof": true,
+      "report_sha256": "119d5849bf973db3d91ca174eb9e83e4718f9eb24fe6bb7aee28c270b332f591",
+      "xml_sha256": "780e49d434bbf69f2bee8c63207ad90d68a51bd305c66711ad80f68ea691422c",
+      "output_sha256": "336766968fc04ad52667d353b78865bd16d56521611d28a1a4934d624a902816",
+      "input_sha256": "7f735f54101c11cad84944c9607adf370af9309160b8ceeeff1c4c574903bf47",
+      "bridge_sha256": "fb300aa4a799cdcc57761f95601c14662e5150965fecc9e5f47409e7c0366582",
+      "scope": "Verified existing SCF and ASE transfer; no optimization, finite-displacement or D3 engine validation implied"
+    }
+  ],
+  "source_sha256": {
+    "scripts/completion_qe_bridge.py": "fb300aa4a799cdcc57761f95601c14662e5150965fecc9e5f47409e7c0366582",
+    "tests/test_completion_qe_bridge.py": "f4d431e5d8d3239bbcdfc3f29c950d9e7aec918e0ed85aa55d0630dbd6e1ede1",
+    ".tools/src/qe-7.6/Modules/constants.f90": "56c39e90c6f0592aff13972cd090292024a3d4e9e86d0ce4fdfdb5643f1ac1c0",
+    ".tools/src/qe-7.6/PW/Doc/INPUT_PW.def": "2c8416bc529df0110e6dd134ca9f0ee1c1ced93dadab76fd2cbf6fda492859b9",
+    ".tools/src/qe-7.6/Modules/qexsd.f90": "8a138c63275e294c99583dca2c437871949be076ffc6a6ef68ac36cdc4f9a650",
+    "environment/qe-commit.txt": "47aca73533a297ad672793c1f3a5b628013d4598a040271fde1e633c5c0642de"
+  },
+  "new_calibrations_executed": false,
+  "actual_constrained_QE_relaxation_verified": false,
+  "qe_XML_units": "Energy and cutoff Hartree; coordinates Bohr; forces Hartree/Bohr; input and text output Ry",
+  "parallelism_evidence": "QE output header requests 4 cores; live pw.x environment OMP_NUM_THREADS=4; qexsd nthreads field is not runtime proof"
+}

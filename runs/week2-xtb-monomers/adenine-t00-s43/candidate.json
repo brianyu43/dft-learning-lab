@@ -1,0 +1,123 @@
+{
+  "candidate_id": "adenine-t00-s43",
+  "path": "structures/week2/drug_initial/adenine-t00-s43.xyz",
+  "sha256": "e2f9b05b607f2c2fa9ac63f60750c34d1c178fb5b47b853fbcf05efb7c89bcb6",
+  "charge": 0,
+  "multiplicity": 1,
+  "n_atoms": 15,
+  "graph": {
+    "atomic_numbers": [
+      7,
+      6,
+      7,
+      6,
+      7,
+      6,
+      7,
+      6,
+      7,
+      6,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "bonds": [
+      [
+        0,
+        1,
+        2.0
+      ],
+      [
+        1,
+        2,
+        1.0
+      ],
+      [
+        2,
+        3,
+        1.0
+      ],
+      [
+        3,
+        4,
+        2.0
+      ],
+      [
+        4,
+        5,
+        1.0
+      ],
+      [
+        5,
+        6,
+        1.5
+      ],
+      [
+        6,
+        7,
+        1.5
+      ],
+      [
+        7,
+        8,
+        1.5
+      ],
+      [
+        8,
+        9,
+        1.5
+      ],
+      [
+        9,
+        1,
+        1.0
+      ],
+      [
+        9,
+        5,
+        1.5
+      ],
+      [
+        0,
+        10,
+        1.0
+      ],
+      [
+        2,
+        11,
+        1.0
+      ],
+      [
+        3,
+        12,
+        1.0
+      ],
+      [
+        6,
+        13,
+        1.0
+      ],
+      [
+        7,
+        14,
+        1.0
+      ]
+    ],
+    "hydrogen_owners": {
+      "10": 0,
+      "11": 2,
+      "12": 3,
+      "13": 6,
+      "14": 7
+    },
+    "formula": "C5H5N5"
+  },
+  "kind": "monomer",
+  "species": "adenine",
+  "state_id": "adenine-t00",
+  "state_smiles": "N=c1[nH]cnc2[nH]cnc12",
+  "seed": 43,
+  "state_role": "alternative_tautomer"
+}

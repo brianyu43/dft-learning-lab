@@ -1,0 +1,20 @@
+{
+  "engine_version": "7.6",
+  "normal_termination": true,
+  "scf_converged": true,
+  "geometry_optimization_converged": true,
+  "energy": -184.82971713,
+  "energy_unit": "Ry",
+  "energy_history": [
+    -184.8276983,
+    -184.82891212,
+    -184.82961893,
+    -184.82971703,
+    -184.82971713
+  ],
+  "minimum_verified": null,
+  "frequency_analysis_complete": false,
+  "total_force_Ry_Bohr": 1e-06,
+  "accuracy_scope": "Numerical baseline only. Cutoff, k-grid, vacuum, lattice and phonon convergence not established. PBE-generated pseudos with C09 valence XC are an explicit approximation; exact literature pseudo revision is unverified.",
+  "status": "passed"
+}

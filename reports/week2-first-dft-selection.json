@@ -1,0 +1,828 @@
+{
+  "selected": [
+    {
+      "candidate_id": "diflunisal-t02-s43",
+      "species": "diflunisal",
+      "run_dir": "runs/week2-xtb-monomers/diflunisal-t02-s43",
+      "elapsed_seconds": 0.2476,
+      "candidate": {
+        "candidate_id": "diflunisal-t02-s43",
+        "path": "structures/week2/drug_initial/diflunisal-t02-s43.xyz",
+        "sha256": "d27f8b8d3b27ffa3dbf5b73e6a7ac0ee5c1d60fb730c07b2e4187bc93db94b25",
+        "charge": 0,
+        "multiplicity": 1,
+        "n_atoms": 26,
+        "graph": {
+          "atomic_numbers": [
+            8,
+            6,
+            8,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            9,
+            6,
+            6,
+            9,
+            6,
+            6,
+            6,
+            8,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "bonds": [
+            [
+              0,
+              1,
+              2.0
+            ],
+            [
+              1,
+              2,
+              1.0
+            ],
+            [
+              1,
+              3,
+              1.0
+            ],
+            [
+              3,
+              4,
+              1.5
+            ],
+            [
+              4,
+              5,
+              1.5
+            ],
+            [
+              5,
+              6,
+              1.0
+            ],
+            [
+              6,
+              7,
+              1.5
+            ],
+            [
+              7,
+              8,
+              1.5
+            ],
+            [
+              8,
+              9,
+              1.5
+            ],
+            [
+              9,
+              10,
+              1.0
+            ],
+            [
+              9,
+              11,
+              1.5
+            ],
+            [
+              11,
+              12,
+              1.5
+            ],
+            [
+              12,
+              13,
+              1.0
+            ],
+            [
+              5,
+              14,
+              1.5
+            ],
+            [
+              14,
+              15,
+              1.5
+            ],
+            [
+              15,
+              16,
+              1.5
+            ],
+            [
+              16,
+              17,
+              1.0
+            ],
+            [
+              16,
+              3,
+              1.5
+            ],
+            [
+              12,
+              6,
+              1.5
+            ],
+            [
+              2,
+              18,
+              1.0
+            ],
+            [
+              4,
+              19,
+              1.0
+            ],
+            [
+              7,
+              20,
+              1.0
+            ],
+            [
+              8,
+              21,
+              1.0
+            ],
+            [
+              11,
+              22,
+              1.0
+            ],
+            [
+              14,
+              23,
+              1.0
+            ],
+            [
+              15,
+              24,
+              1.0
+            ],
+            [
+              17,
+              25,
+              1.0
+            ]
+          ],
+          "hydrogen_owners": {
+            "18": 2,
+            "19": 4,
+            "20": 7,
+            "21": 8,
+            "22": 11,
+            "23": 14,
+            "24": 15,
+            "25": 17
+          },
+          "formula": "C13H8F2O3"
+        },
+        "kind": "monomer",
+        "species": "diflunisal",
+        "state_id": "diflunisal-t02",
+        "state_smiles": "O=C(O)c1cc(-c2ccc(F)cc2F)ccc1O",
+        "seed": 43,
+        "state_role": "pubchem_representation"
+      },
+      "result": {
+        "normal_termination": true,
+        "geometry_optimization_converged": true,
+        "scf_converged": true,
+        "energy_Hartree": -53.59997766884,
+        "minimum_verified": false,
+        "method": "GFN2-xTB, semiempirical, not DFT",
+        "geometry_audit": {
+          "status": "geometry_checked",
+          "heavy_connectivity_preserved": true,
+          "lost_heavy_bonds": [],
+          "new_heavy_bonds": [],
+          "hydrogen_owner_changes": [],
+          "unassigned_hydrogens": [],
+          "chemical_state_preserved_by_geometry": true
+        },
+        "engine_version": "6.7.1",
+        "status": "passed"
+      }
+    },
+    {
+      "candidate_id": "caffeine-t00-s17",
+      "species": "caffeine",
+      "run_dir": "runs/week2-xtb-monomers/caffeine-t00-s17",
+      "elapsed_seconds": 0.121,
+      "candidate": {
+        "candidate_id": "caffeine-t00-s17",
+        "path": "structures/week2/drug_initial/caffeine-t00-s17.xyz",
+        "sha256": "33ab4e6053fa1b3b110b06da62d6ee9d2eed7d4d2f9c9a888c70a8debf271e98",
+        "charge": 0,
+        "multiplicity": 1,
+        "n_atoms": 24,
+        "graph": {
+          "atomic_numbers": [
+            6,
+            7,
+            6,
+            8,
+            6,
+            6,
+            7,
+            6,
+            7,
+            6,
+            7,
+            6,
+            6,
+            8,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "bonds": [
+            [
+              0,
+              1,
+              1.0
+            ],
+            [
+              1,
+              2,
+              1.0
+            ],
+            [
+              2,
+              3,
+              2.0
+            ],
+            [
+              2,
+              4,
+              1.0
+            ],
+            [
+              4,
+              5,
+              1.5
+            ],
+            [
+              5,
+              6,
+              1.5
+            ],
+            [
+              6,
+              7,
+              1.5
+            ],
+            [
+              7,
+              8,
+              1.5
+            ],
+            [
+              8,
+              9,
+              1.0
+            ],
+            [
+              5,
+              10,
+              1.0
+            ],
+            [
+              10,
+              11,
+              1.0
+            ],
+            [
+              10,
+              12,
+              1.0
+            ],
+            [
+              12,
+              13,
+              2.0
+            ],
+            [
+              12,
+              1,
+              1.0
+            ],
+            [
+              8,
+              4,
+              1.5
+            ],
+            [
+              0,
+              14,
+              1.0
+            ],
+            [
+              0,
+              15,
+              1.0
+            ],
+            [
+              0,
+              16,
+              1.0
+            ],
+            [
+              7,
+              17,
+              1.0
+            ],
+            [
+              9,
+              18,
+              1.0
+            ],
+            [
+              9,
+              19,
+              1.0
+            ],
+            [
+              9,
+              20,
+              1.0
+            ],
+            [
+              11,
+              21,
+              1.0
+            ],
+            [
+              11,
+              22,
+              1.0
+            ],
+            [
+              11,
+              23,
+              1.0
+            ]
+          ],
+          "hydrogen_owners": {
+            "14": 0,
+            "15": 0,
+            "16": 0,
+            "17": 7,
+            "18": 9,
+            "19": 9,
+            "20": 9,
+            "21": 11,
+            "22": 11,
+            "23": 11
+          },
+          "formula": "C8H10N4O2"
+        },
+        "kind": "monomer",
+        "species": "caffeine",
+        "state_id": "caffeine-t00",
+        "state_smiles": "Cn1c(=O)c2c(ncn2C)n(C)c1=O",
+        "seed": 17,
+        "state_role": "pubchem_representation"
+      },
+      "result": {
+        "normal_termination": true,
+        "geometry_optimization_converged": true,
+        "scf_converged": true,
+        "energy_Hartree": -42.15393721842,
+        "minimum_verified": false,
+        "method": "GFN2-xTB, semiempirical, not DFT",
+        "geometry_audit": {
+          "status": "geometry_checked",
+          "heavy_connectivity_preserved": true,
+          "lost_heavy_bonds": [],
+          "new_heavy_bonds": [],
+          "hydrogen_owner_changes": [],
+          "unassigned_hydrogens": [],
+          "chemical_state_preserved_by_geometry": true
+        },
+        "engine_version": "6.7.1",
+        "status": "passed"
+      }
+    },
+    {
+      "candidate_id": "diflunisal--caffeine-p36",
+      "species": "diflunisal--caffeine",
+      "run_dir": "runs/week2-xtb-dimers/diflunisal--caffeine-p36",
+      "elapsed_seconds": 5.4958,
+      "candidate": {
+        "candidate_id": "diflunisal--caffeine-p36",
+        "path": "structures/week2/drug_initial/diflunisal--caffeine-p36.xyz",
+        "sha256": "b4464d581a596aba2d19b5538283ba03c59e3c96d7cfe0f125e774395a1d2a73",
+        "charge": 0,
+        "multiplicity": 1,
+        "n_atoms": 50,
+        "graph": {
+          "atomic_numbers": [
+            8,
+            6,
+            8,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            9,
+            6,
+            6,
+            9,
+            6,
+            6,
+            6,
+            8,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            6,
+            7,
+            6,
+            8,
+            6,
+            6,
+            7,
+            6,
+            7,
+            6,
+            7,
+            6,
+            6,
+            8,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "bonds": [
+            [
+              0,
+              1,
+              2.0
+            ],
+            [
+              1,
+              2,
+              1.0
+            ],
+            [
+              1,
+              3,
+              1.0
+            ],
+            [
+              3,
+              4,
+              1.5
+            ],
+            [
+              4,
+              5,
+              1.5
+            ],
+            [
+              5,
+              6,
+              1.0
+            ],
+            [
+              6,
+              7,
+              1.5
+            ],
+            [
+              7,
+              8,
+              1.5
+            ],
+            [
+              8,
+              9,
+              1.5
+            ],
+            [
+              9,
+              10,
+              1.0
+            ],
+            [
+              9,
+              11,
+              1.5
+            ],
+            [
+              11,
+              12,
+              1.5
+            ],
+            [
+              12,
+              13,
+              1.0
+            ],
+            [
+              5,
+              14,
+              1.5
+            ],
+            [
+              14,
+              15,
+              1.5
+            ],
+            [
+              15,
+              16,
+              1.5
+            ],
+            [
+              16,
+              17,
+              1.0
+            ],
+            [
+              16,
+              3,
+              1.5
+            ],
+            [
+              12,
+              6,
+              1.5
+            ],
+            [
+              2,
+              18,
+              1.0
+            ],
+            [
+              4,
+              19,
+              1.0
+            ],
+            [
+              7,
+              20,
+              1.0
+            ],
+            [
+              8,
+              21,
+              1.0
+            ],
+            [
+              11,
+              22,
+              1.0
+            ],
+            [
+              14,
+              23,
+              1.0
+            ],
+            [
+              15,
+              24,
+              1.0
+            ],
+            [
+              17,
+              25,
+              1.0
+            ],
+            [
+              26,
+              27,
+              1.0
+            ],
+            [
+              27,
+              28,
+              1.0
+            ],
+            [
+              28,
+              29,
+              2.0
+            ],
+            [
+              28,
+              30,
+              1.0
+            ],
+            [
+              30,
+              31,
+              1.5
+            ],
+            [
+              31,
+              32,
+              1.5
+            ],
+            [
+              32,
+              33,
+              1.5
+            ],
+            [
+              33,
+              34,
+              1.5
+            ],
+            [
+              34,
+              35,
+              1.0
+            ],
+            [
+              31,
+              36,
+              1.0
+            ],
+            [
+              36,
+              37,
+              1.0
+            ],
+            [
+              36,
+              38,
+              1.0
+            ],
+            [
+              38,
+              39,
+              2.0
+            ],
+            [
+              38,
+              27,
+              1.0
+            ],
+            [
+              34,
+              30,
+              1.5
+            ],
+            [
+              26,
+              40,
+              1.0
+            ],
+            [
+              26,
+              41,
+              1.0
+            ],
+            [
+              26,
+              42,
+              1.0
+            ],
+            [
+              33,
+              43,
+              1.0
+            ],
+            [
+              35,
+              44,
+              1.0
+            ],
+            [
+              35,
+              45,
+              1.0
+            ],
+            [
+              35,
+              46,
+              1.0
+            ],
+            [
+              37,
+              47,
+              1.0
+            ],
+            [
+              37,
+              48,
+              1.0
+            ],
+            [
+              37,
+              49,
+              1.0
+            ]
+          ],
+          "hydrogen_owners": {
+            "18": 2,
+            "19": 4,
+            "20": 7,
+            "21": 8,
+            "22": 11,
+            "23": 14,
+            "24": 15,
+            "25": 17,
+            "40": 26,
+            "41": 26,
+            "42": 26,
+            "43": 33,
+            "44": 35,
+            "45": 35,
+            "46": 35,
+            "47": 37,
+            "48": 37,
+            "49": 37
+          },
+          "formula": "C21H18F2N4O5"
+        },
+        "kind": "dimer",
+        "species": "diflunisal--caffeine",
+        "state_ids": [
+          "diflunisal-t02",
+          "caffeine-t00"
+        ],
+        "fragment_atom_counts": [
+          26,
+          24
+        ],
+        "motif": "stacked_contact",
+        "motif_detail": {
+          "rotation_degrees": 60,
+          "lateral_offset_angstrom": [
+            0,
+            1
+          ],
+          "initial_plane_separation_angstrom": 3.7
+        },
+        "seeds": [
+          17,
+          43
+        ],
+        "state_role": "neutral starting pair"
+      },
+      "result": {
+        "normal_termination": true,
+        "geometry_optimization_converged": true,
+        "scf_converged": true,
+        "energy_Hartree": -95.767253263048,
+        "minimum_verified": false,
+        "method": "GFN2-xTB, semiempirical, not DFT",
+        "geometry_audit": {
+          "status": "geometry_checked",
+          "heavy_connectivity_preserved": true,
+          "lost_heavy_bonds": [],
+          "new_heavy_bonds": [],
+          "hydrogen_owner_changes": [],
+          "unassigned_hydrogens": [],
+          "chemical_state_preserved_by_geometry": true,
+          "closest_interfragment_distance_angstrom": 2.2737122232468865,
+          "separated_geometry": false,
+          "cross_fragment_proton_transfer": []
+        },
+        "engine_version": "6.7.1",
+        "status": "passed"
+      }
+    }
+  ],
+  "uses_outcome_labels_for_pose_ranking": false,
+  "first_cost_pair_is_known_positive_by_design": true,
+  "all_diflunisal_caffeine_starts_attempted": 48
+}

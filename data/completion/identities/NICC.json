@@ -1,0 +1,14 @@
+{
+  "PropertyTable": {
+    "Properties": [
+      {
+        "CID": 938,
+        "MolecularFormula": "C6H5NO2",
+        "SMILES": "C1=CC(=CN=C1)C(=O)O",
+        "ConnectivitySMILES": "C1=CC(=CN=C1)C(=O)O",
+        "InChIKey": "PVNIIMVLHYAWGP-UHFFFAOYSA-N",
+        "IUPACName": "pyridine-3-carboxylic acid"
+      }
+    ]
+  }
+}

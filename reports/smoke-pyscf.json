@@ -1,0 +1,42 @@
+{
+  "purpose": "installation smoke test, not a scientific benchmark",
+  "engine": "pyscf",
+  "charge": 0,
+  "spin_polarized": false,
+  "geometry_optimization": "not_run",
+  "minimum_verification": "not_run",
+  "thread_environment": {
+    "OMP_NUM_THREADS": "4",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "VECLIB_MAXIMUM_THREADS": "1"
+  },
+  "version": "2.14.0",
+  "method": "PBE/def2-SVP",
+  "system": "H2O",
+  "solvent": "vacuum",
+  "multiplicity": 1,
+  "input_sha256": {
+    "pyscf_water.py": "cc5cf7b6570f03edee0218eea1904e92f51bac594063edf73e28c3e9fe6534d7"
+  },
+  "executable": "/Users/xavier/.local/share/uv/python/cpython-3.11.15-macos-aarch64-none/bin/python3.11",
+  "executable_sha256": "aaf189bf1730d36e2f683102a31c51395d6df2f45c587ebb874f417c97cccadc",
+  "command": [
+    "/Users/xavier/Documents/dev/generaldrugs/dft/.venv/bin/python",
+    "pyscf_water.py"
+  ],
+  "cwd": "/Users/xavier/Documents/dev/generaldrugs/dft/runs/20260909T040204961311Z-pyscf",
+  "timeout_seconds": 600,
+  "started_at": "2026-09-09T04:02:04.969935+00:00",
+  "status": "passed",
+  "ended_at": "2026-09-09T04:02:05.421152+00:00",
+  "elapsed_seconds": 0.451,
+  "exit_code": 0,
+  "timed_out": false,
+  "scf_converged": true,
+  "energy": -76.27201447266717,
+  "energy_unit": "Hartree",
+  "max_rss_bytes": 139329536,
+  "memory_measurement": "getrusage(RUSAGE_CHILDREN).ru_maxrss; bytes on macOS; maximum child RSS, not summed process-tree or system unified-memory peak",
+  "output_sha256": "8fa260dee8e123953b616a90dd59f7c3d0afd01b9e97da0edee1769bc3feeea1"
+}

@@ -1,0 +1,64 @@
+{
+  "verified_at": "2026-09-29T11:31:35.461413+00:00",
+  "status": "mos2_equilibrium_verified",
+  "job_id": "w3-mos2-lattice-vc",
+  "summary": {
+    "job_id": "w3-mos2-lattice-vc",
+    "energy_eV": -2514.7508530386112,
+    "max_force_eV_angstrom": 2.9007575560276934e-05,
+    "lattice_a_angstrom": 3.144370987108395,
+    "vacuum_gap_angstrom": 29.976324044999977,
+    "number_of_electrons": 26.0,
+    "xml_sha256": "0454864352941ec1e66aa6f2ca7d51d4ef914e47466dd09ca5ccfb1422071167"
+  },
+  "cell_angstrom": [
+    [
+      3.144370987108395,
+      4.628452791032768e-18,
+      0.0
+    ],
+    [
+      -1.5721854935541972,
+      2.7231051537586115,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      33.1127699497512
+    ]
+  ],
+  "cell_angles_degrees": [
+    90.0,
+    90.0,
+    120.0000000000001
+  ],
+  "max_in_plane_stress_kbar": 0.001619899700259072,
+  "final_scf_error_Ry": 1.3130831112138692e-14,
+  "ionic_converged": "true",
+  "elapsed_seconds": 5570.827,
+  "memory": {
+    "rss_limit_gib": 40,
+    "peak_sampled_process_tree_rss_bytes": 1716699136,
+    "memory_samples": 10741,
+    "memory_access_denied": 0,
+    "max_single_child_rss_bytes": 1716699136,
+    "system_swap_increase_peak_bytes": 0,
+    "memory_measurement": "0.5s sampled summed process-tree RSS; may double-count shared pages and miss peaks. OS ru_maxrss is maximum single-child RSS in macOS bytes. Swap is system-wide, not attributable solely to this job."
+  },
+  "runtime_omp_threads": 4,
+  "source_sha256": {
+    "reports/w3-mos2-lattice-vc.json": "5ec048d6f2a19343c798e6626a73e8ed8f5d0c47ee6d513c21e1a1c6d4cce7c3",
+    "runs/20260929T095732304432Z-w3-mos2-lattice-vc/scratch/w3_mos2_lattice_vc.save/data-file-schema.xml": "0454864352941ec1e66aa6f2ca7d51d4ef914e47466dd09ca5ccfb1422071167",
+    "scripts/week3_qe.py": "558e60bab6800940d2088e5ec2f4dd810a5a4057af5e849ec6ba23e2ac3b060c",
+    "scripts/prepare_completion_alloy_probe.py": "3708c310735fddd5f882964c008ec9a2a282e08733e0fcd618d55443c01c166f"
+  },
+  "remaining": [
+    "MoSe2 equilibrium",
+    "local lattice brackets",
+    "composition-specific numerical sensitivity",
+    "common-lattice relaxation",
+    "heterobilayer reference"
+  ],
+  "full_materials_baseline_complete": false
+}

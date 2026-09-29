@@ -1,0 +1,14 @@
+{
+  "PropertyTable": {
+    "Properties": [
+      {
+        "CID": 1188,
+        "MolecularFormula": "C5H4N4O2",
+        "SMILES": "C1=NC2=C(N1)C(=O)NC(=O)N2",
+        "ConnectivitySMILES": "C1=NC2=C(N1)C(=O)NC(=O)N2",
+        "InChIKey": "LRFVTYWOQMYALW-UHFFFAOYSA-N",
+        "IUPACName": "3,7-dihydropurine-2,6-dione"
+      }
+    ]
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "protocol_id": "week2-parallel-performance-extension",
+  "week": 2,
+  "job_id": "p2-dimer-n8-r2",
+  "task_id": "PERF2",
+  "engine": "orca",
+  "executable": "scripts/orca_parallel.sh",
+  "input": "inputs/orca/week2/p2-dimer-n8-r2.inp",
+  "method": "r2SCAN-3c",
+  "charge": 0,
+  "multiplicity": 1,
+  "solvent": "vacuum",
+  "n_atoms": 50,
+  "linear": false,
+  "requested": {
+    "optimization": false,
+    "frequencies": false,
+    "gradient": true
+  },
+  "timeout_seconds": 900,
+  "rss_limit_gib": 40,
+  "omp_threads": 1,
+  "mpi_processes": 8,
+  "benchmark_repeat": 2,
+  "geometry_source": "structures/checkpoints/week2/user-pause-20260910/diflunisal--caffeine-optimized.xyz",
+  "geometry_source_sha256": "820d5ba77bdd0c689b9823a41e230fc2f15832ee020399934498dca7dd1a56ee",
+  "purpose": "Fixed-geometry energy and gradient throughput; not Opt/Freq speed or a new minimum",
+  "assets": {
+    "environment/orca-mpi-explicit.txt": "provenance/orca-mpi-explicit.txt"
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "kind": "geometry-precision-v3",
+  "jobs": [
+    "experiments/completion/w3-precision-v3-dif-dense-opt-freq.json",
+    "experiments/completion/w3-precision-v3-dif2-dense-opt-freq.json"
+  ],
+  "input_hashes": {
+    "experiments/completion/w3-precision-v3-dif-dense-opt-freq.json": "0c4bfe16a03ca0826c4aa6787c111b365b5bde83737328e8fbf6f073bfefb122",
+    "inputs/orca/completion/w3-precision-v3-dif-dense-opt-freq.inp": "96be7cad18a75e5ac09dfc7c31f205de7e18d0dd43f740828480cc8fbf39ae37",
+    ".tools/orca-mpi/lib/libmpi.40.dylib": "3f433facb4325248a8527298f556d2eb16f2300d6329e916216c1a5625cb0c8d",
+    ".tools/orca-mpi/lib/libopen-rte.40.dylib": "dba76cb5bee8fe70e117c9199780eeb4cff76aedaa68e44c174e6c0d4c421975",
+    ".tools/orca-mpi/lib/libopen-pal.40.dylib": "b9bb52d11408495dddbacd0fec0ef98c07bce80d7f56115428b03033dff77fec",
+    ".tools/orca-mpi/lib/libopen-orted-mpir.dylib": "fb02d3d8287ffc0c63d6cdcf0e94e32333aee0ea401c0c785e74a9ecc276b3f5",
+    ".tools/orca-mpi/lib/libz.1.dylib": "be8b83df360c94cfe6c13f320c7f85960eee26a52d793a10fa90ea97595f1a09",
+    "structures/completion/w3-precision-v3-dif-dense-opt-freq.xyz": "f47052b4161975c278fcdc832a36d1bec8c9698eedb7f0ccd1ba43391ad96d27",
+    "experiments/completion/candidates/diflunisal-t02-s43.json": "d3591fef11496649fd9d24695194900f42d1701d72fbd71105e928b162d3e3db",
+    "scripts/completion_orca.py": "14758c3b9b546b2203b7467dc9be235f8233cf25c66046095067832de3746ad5",
+    "scripts/week3_recovery.py": "34f19d7278e413c70687a069499d9c1de86a2faf5a6a43cc5513f8ba706282fa",
+    "scripts/run_week2_frequency_resume.py": "6728f147ded27522f8029b97d340b75b3a530ba2d8c2b522685123bfded78719",
+    "scripts/run_week2_xtb_screen.py": "a2a8be8a3fc863d200a289ba95e5b8c16baadc7919619579fd3342b7f79c8eb4",
+    "scripts/prepare_completion_drug.py": "42bf940d6e819de68e51d62dd8468fff03957d79c2898d4cfe3d0301e9e6878c",
+    "scripts/orca_parallel.sh": "3dccb38bdd68fe054b55e1456b2168b8df6811a92f612afb707c5fa70458dda8",
+    "environment/orca-mpi-explicit.txt": "fb1bbeb3dbc7fe7d832832dee42715f8d02c6a4e539c1d7733c3060e67749c19",
+    "reports/completion/precision-diagnostic.json": "4924d36718eb808fcb86c9585fd18bccd846c8582914431fcfa435de6609fcec",
+    "docs/NUMERICAL_REVIEW_V2.ko.md": "30ec86aae60d566a6d63bb211898451f773da4a8ea1ca4d0fc50ee2c4a4e0698",
+    "experiments/completion/w3-precision-v3-dif2-dense-opt-freq.json": "0c3ee168295aafe4f403d67194bafd45d7ea5860a9d069a591ec87977fbaba00",
+    "inputs/orca/completion/w3-precision-v3-dif2-dense-opt-freq.inp": "96be7cad18a75e5ac09dfc7c31f205de7e18d0dd43f740828480cc8fbf39ae37",
+    "structures/completion/w3-precision-v3-dif2-dense-opt-freq.xyz": "61b7ac6b0221df9b7ad68c5dbdd0daa3f050ae594efd89604f59c93e815b3193",
+    "experiments/completion/candidates/diflunisal--diflunisal-p05.json": "24d37c3a68937d1d4afaba512d68d27e3e282b84b2730a7a48e2b79d99412fc3"
+  },
+  "automatic_retries": 0,
+  "sources": {
+    "dif": {
+      "path": "structures/optimized/week2/diflunisal.xyz",
+      "sha256": "f47052b4161975c278fcdc832a36d1bec8c9698eedb7f0ccd1ba43391ad96d27"
+    },
+    "dif2": {
+      "path": "runs/20260911T110542024076Z-w3-diflunisal--diflunisal-p05-refine-r1-opt-freq/w3-diflunisal--diflunisal-p05-refine-r1-opt-freq.xyz",
+      "sha256": "61b7ac6b0221df9b7ad68c5dbdd0daa3f050ae594efd89604f59c93e815b3193"
+    }
+  },
+  "new_independent_start_count": 0,
+  "parent_diagnostic_sha256": "4924d36718eb808fcb86c9585fd18bccd846c8582914431fcfa435de6609fcec",
+  "follow_up": "After verified dense minima, EnGrad at identical final coordinates with AngularGrid7/IntAcc7/unpruned/no H reduction; compare with dense gradients and self-binding energy.",
+  "acceptance": {
+    "max_self_binding_change_kcal_mol": 0.1,
+    "max_gradient_component_change_Hartree_Bohr": 0.0001,
+    "all_internal_frequencies_positive": true,
+    "geometry_and_chemistry_verified": true
+  },
+  "scope": "Representative geometry/grid decision before a uniform full panel; not proof for other species",
+  "panel_execution_enabled": false
+}

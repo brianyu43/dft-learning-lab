@@ -1,0 +1,16 @@
+{
+  "engine_version": "7.6",
+  "normal_termination": true,
+  "scf_converged": true,
+  "geometry_optimization_converged": null,
+  "energy": -184.82971713,
+  "energy_unit": "Ry",
+  "energy_history": [
+    -184.82971713
+  ],
+  "minimum_verified": null,
+  "frequency_analysis_complete": false,
+  "total_force_Ry_Bohr": 1e-06,
+  "accuracy_scope": "Only conv_thr 1e-8 to 1e-10 Ry at one fixed geometry; cutoff/k/vacuum/lattice/phonon convergence remain unverified",
+  "status": "passed"
+}

@@ -1,0 +1,14 @@
+{
+  "PropertyTable": {
+    "Properties": [
+      {
+        "CID": 3059,
+        "MolecularFormula": "C13H8F2O3",
+        "SMILES": "C1=CC(=C(C=C1C2=C(C=C(C=C2)F)F)C(=O)O)O",
+        "ConnectivitySMILES": "C1=CC(=C(C=C1C2=C(C=C(C=C2)F)F)C(=O)O)O",
+        "InChIKey": "HUPFGZXOMWLGNK-UHFFFAOYSA-N",
+        "IUPACName": "5-(2,4-difluorophenyl)-2-hydroxybenzoic acid"
+      }
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+test_complete_minimum (test_research_parser.ParserGates.test_complete_minimum) ... ok
+test_duplicate_mode_indices_rejected (test_research_parser.ParserGates.test_duplicate_mode_indices_rejected) ... ok
+test_incomplete_engine_exit_rejected (test_research_parser.ParserGates.test_incomplete_engine_exit_rejected) ... ok
+test_normal_exit_does_not_imply_opt_convergence (test_research_parser.ParserGates.test_normal_exit_does_not_imply_opt_convergence) ... ok
+test_qe_scf_is_not_relaxation (test_research_parser.ParserGates.test_qe_scf_is_not_relaxation) ... ok
+test_scf_failure_rejected (test_research_parser.ParserGates.test_scf_failure_rejected) ... ok
+test_small_imaginary_mode_is_not_waived (test_research_parser.ParserGates.test_small_imaginary_mode_is_not_waived) ... ok
+test_timeout_or_exit_code_rejected (test_research_parser.ParserGates.test_timeout_or_exit_code_rejected) ... ok
+test_truncated_modes_rejected (test_research_parser.ParserGates.test_truncated_modes_rejected) ... ok
+test_composition_change_detected (test_week2_geometry.GeometryAudit.test_composition_change_detected) ... ok
+test_intended_proton_transfer_is_reported (test_week2_geometry.GeometryAudit.test_intended_proton_transfer_is_reported) ... ok
+test_neutral_state_and_linear_hbond (test_week2_geometry.GeometryAudit.test_neutral_state_and_linear_hbond) ... ok
+test_separated_pair_not_treated_as_bound (test_week2_geometry.GeometryAudit.test_separated_pair_not_treated_as_bound) ... ok
+
+----------------------------------------------------------------------
+Ran 13 tests in 0.018s
+
+OK

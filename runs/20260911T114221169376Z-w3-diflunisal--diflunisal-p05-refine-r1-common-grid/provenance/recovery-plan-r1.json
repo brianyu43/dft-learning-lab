@@ -1,0 +1,27 @@
+{
+  "schema": 1,
+  "parent_panel_plan_sha256": "879dd59f1d977407abd2e6bf16b1bf40d4003d3a09112e4ba5727a7d58c9fa16",
+  "automatic_retries": 0,
+  "reviewed_refinement_attempts": 1,
+  "new_independent_start_count": 0,
+  "inspection": "reports/week3-recovery-r1/mode-inspection.json",
+  "inspection_sha256": "6646fbb1fd4ca39b9579058beba459e6a5ca0fc031c35322f929c950ee349e7a",
+  "common_grid_policy": {
+    "max_absolute_energy_delta_kcal_mol": 0.1,
+    "max_gradient_component_delta_Hartree_Bohr": 0.0001,
+    "ranking_energy": "Same-geometry original TightSCF/default-grid single point after refined minimum validation",
+    "sensitivity_scope": "Local numerical sensitivity only, not a bound for all candidates or model error"
+  },
+  "replacements": [
+    {
+      "parent_config": "experiments/week3/drug/w3-diflunisal--diflunisal-p05-opt-freq.json",
+      "parent_config_sha256": "533ae233ba1c11a900264ed2759186d4932650b9c56c5cbc7092b97f02ae0301",
+      "parent_report": "reports/w3-diflunisal--diflunisal-p05-opt-freq.json",
+      "parent_report_sha256": "9d16a94190afb032b8abd0f5bc03f10946d125ace45dfce5f90a76d23eea9f86",
+      "replacement_config": "experiments/week3/drug/w3-diflunisal--diflunisal-p05-refine-r1-opt-freq.json",
+      "replacement_config_sha256": "7baf511272eb4870ca93ad7c09d481f45be2dbc3fadb213ca2092a7ca2bdbe71",
+      "common_grid_job_id": "w3-diflunisal--diflunisal-p05-refine-r1-common-grid",
+      "common_grid_check_report": "reports/week3-recovery-r1/numerical-check.json"
+    }
+  ]
+}

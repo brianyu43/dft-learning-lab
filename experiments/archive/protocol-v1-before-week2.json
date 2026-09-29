@@ -1,0 +1,287 @@
+{
+  "protocol_id": "dft-pilot-20260909-v1",
+  "created_on": "2026-09-09",
+  "status": "week1_core_calculations_complete_with_open_research_preconditions",
+  "execution_enabled": false,
+  "is_executable_scheduler": false,
+  "protocol_document": "docs/EXPERIMENT_PROTOCOL_V1.ko.md",
+  "phase_weeks": {
+    "pilot": 4,
+    "conditional_extension": 6
+  },
+  "budget": {
+    "definition": "proposed maximum sequential computer occupancy; not measured runtime or CPU-core-hours",
+    "pilot_total_wall_hours": 120,
+    "drug_wall_hours": 80,
+    "semiconductor_wall_hours": 40,
+    "includes_retries_and_validation": true,
+    "concurrent_jobs": 1,
+    "qe_omp_threads": 4,
+    "blas_threads": 1,
+    "orca_execution": "serial",
+    "research_job_initial_timeout_seconds": 43200,
+    "water_initial_timeout_seconds": 1800,
+    "process_tree_rss_review_limit_gib": 40,
+    "limit_automatically_enforced": false,
+    "budget_review_fraction": 0.2
+  },
+  "drug": {
+    "source_doi": "10.1002/anie.202507835",
+    "source_location": "Table 3; supplementary methods still to be extracted",
+    "evaluation_type": "retrospective_known_label_pilot",
+    "cases": [
+      {
+        "id": "D01",
+        "api": "diflunisal",
+        "coformer": "adenine",
+        "reported_outcome": "formed"
+      },
+      {
+        "id": "D02",
+        "api": "diflunisal",
+        "coformer": "caffeine",
+        "reported_outcome": "formed"
+      },
+      {
+        "id": "D03",
+        "api": "diflunisal",
+        "coformer": "theobromine",
+        "reported_outcome": "not_formed_under_reported_conditions"
+      },
+      {
+        "id": "D04",
+        "api": "diflunisal",
+        "coformer": "xanthine",
+        "reported_outcome": "not_formed_under_reported_conditions"
+      }
+    ],
+    "experimental_conditions_verified": false,
+    "experimental_solvent": null,
+    "experimental_stoichiometry": null,
+    "structure_identities_frozen": false,
+    "default_complex_molecule_counts": {
+      "A": 1,
+      "B": 1
+    },
+    "primary_method": "r2SCAN-3c",
+    "method_sensitivity": "wB97X-3c single points on primary-method geometries",
+    "initial_environment": "vacuum",
+    "solvent_model": null,
+    "seeds": [
+      17,
+      43,
+      89
+    ],
+    "initial_candidate_cap_per_monomer_state_or_dimer_type": 48,
+    "initial_dft_candidates_per_species_cap": 3,
+    "monomer_species": 5,
+    "heterodimer_species": 4,
+    "homodimer_species": 5,
+    "vacuum_optimization_start_cap": 42,
+    "vacuum_unique_minimum_frequency_cap": 42,
+    "method_sensitivity_single_point_cap": 42,
+    "solvent_single_point_cap_per_solvent": 42,
+    "solvent_initial_optimization_cap": 14,
+    "score_definitions": {
+      "B": "E(AB)-E(A)-E(B)",
+      "X": "E(AB)-0.5*E(AA)-0.5*E(BB)",
+      "primary_energy_type": "electronic energy; not crystal formation free energy"
+    },
+    "success_failure_cross_comparisons": 4,
+    "independent_comparisons": false,
+    "numerical_score_change_initial_target_kcal_mol": 0.1,
+    "tie_sensitivity_kcal_mol": [
+      0,
+      0.5,
+      1,
+      2
+    ],
+    "new_model_training_in_pilot": false,
+    "experimental_conditions_status": "pair_labels_verified_positive_protocols_from_preprint_negative_attempt_details_unresolved",
+    "experimental_conditions_detail": "experiments/week1/literature-cases.json",
+    "molecular_identity_status": "verified: five PubChem structures; DFT chemical states not yet frozen",
+    "molecular_identity_detail": "reports/week1-molecule-identities.json"
+  },
+  "semiconductor": {
+    "literature_reference": "10.1038/s41467-026-74482-2",
+    "method_candidate": "vdW-DF-C09; verify final reference inputs and QE compatibility before freezing",
+    "method_frozen": false,
+    "pseudopotentials_frozen": false,
+    "orientation": "R-type, zero twist; verify by atom alignment",
+    "registry_basis": "primitive in-plane a1,a2, NOT 2x2 supercell vectors",
+    "registry_fractions": [
+      [
+        0,
+        0
+      ],
+      [
+        0.3333333333333333,
+        0.6666666666666666
+      ],
+      [
+        0.6666666666666666,
+        0.3333333333333333
+      ]
+    ],
+    "common_lattice_rule": "arithmetic mean of same-method equilibrium primitive MoS2 and MoSe2 in-plane lattice constants",
+    "common_lattice_angstrom": null,
+    "distance_definition": "mean Mo-plane separation along z in angstrom",
+    "D0_rule": "reference vertical-distance minimum for C0 at r0 at the common in-plane lattice",
+    "D0_angstrom": null,
+    "distance_offsets_angstrom": [
+      -0.25,
+      0,
+      0.25
+    ],
+    "configurations": [
+      {
+        "id": "S-C0",
+        "atoms": 24,
+        "formula": "Mo8S8Se8",
+        "change": "none; Mo4S8 / Mo4Se8"
+      },
+      {
+        "id": "S-CI",
+        "atoms": 24,
+        "formula": "Mo8S8Se8",
+        "change": "exchange one facing inner S and Se; Mo4S7Se / Mo4SSe7"
+      },
+      {
+        "id": "S-CO",
+        "atoms": 24,
+        "formula": "Mo8S8Se8",
+        "change": "exchange one outer S and Se at corresponding in-plane sites; Mo4S7Se / Mo4SSe7"
+      }
+    ],
+    "swap_atom_indices": null,
+    "symmetry_distinctness_verified": false,
+    "heterobilayer_reference_grid_structures": 9,
+    "alloy_bilayer_grid_structures": 27,
+    "alloy_isolated_layer_single_point_upper_bound": 54,
+    "grid_excludes_convergence_and_distance_search": true,
+    "primary_geometry_policy": "fixed common coordinate template; not relaxed equilibrium structures",
+    "conditional_constrained_relaxation_structures": 9,
+    "relaxation_constraints_implemented": false,
+    "primary_observable": "I(r,D)=[gamma_CI(r,D)-gamma_CI(r0,D)]-[gamma_CO(r,D)-gamma_CO(r0,D)]",
+    "gamma_definition": "(E_bilayer-E_top_only-E_bottom_only)/area with same frozen layer geometries and cell",
+    "energy_density_unit": "meV/angstrom^2",
+    "resolved_difference_rule": "abs(I)>3*u_num; convergence sensitivity criterion, not statistical significance",
+    "model_names": [],
+    "model_comparison_cap": 2,
+    "model_comparison_gate": "element/layer scope, reference XC/dispersion, training overlap, version and input compatibility verified",
+    "week1_method_config": "experiments/week1/mos2-relax.json",
+    "week1_pseudopotentials_frozen": true,
+    "matched_reference_pseudopotential_revision_verified": false
+  },
+  "tasks": [
+    {
+      "id": "P00",
+      "title": "Freeze experimental evidence and chemical forms",
+      "depends_on": [],
+      "status": "partial: final pair labels verified; positive methods from author preprint; final SI and negative attempt conditions unresolved"
+    },
+    {
+      "id": "P01",
+      "title": "Prepare research runner and independent SCF/Opt/Freq records",
+      "depends_on": [],
+      "status": "complete for local serial ORCA/OpenMP QE; documented RSS visibility limits"
+    },
+    {
+      "id": "P02",
+      "title": "Water optimization and frequencies",
+      "depends_on": [
+        "P01"
+      ],
+      "existing_input": "inputs/orca/water_opt_freq.inp",
+      "status": "complete: SCF/Opt/Freq and Hessian cross-check passed"
+    },
+    {
+      "id": "P03",
+      "title": "Acetaminophen learning optimization and frequencies",
+      "depends_on": [
+        "P02"
+      ],
+      "existing_opt_input": "inputs/orca/acetaminophen_vacuum_opt.inp",
+      "status": "complete: one conformer SCF/Opt/Freq and Hessian cross-check passed"
+    },
+    {
+      "id": "DR00",
+      "title": "Identify five research molecules and generate states/poses",
+      "depends_on": [
+        "P00"
+      ],
+      "status": "partial: five identities, 31 unreviewed tautomer candidates, 15 MMFF initial geometries; DFT state/pose selection pending week2"
+    },
+    {
+      "id": "DR01",
+      "title": "Time diflunisal monomer and one diflunisal-caffeine pose",
+      "depends_on": [
+        "DR00",
+        "P03"
+      ],
+      "status": "not_started"
+    },
+    {
+      "id": "SR00",
+      "title": "Freeze Mo/S/Se pseudopotentials and dispersion method",
+      "depends_on": [],
+      "status": "week1 files/method frozen with explicit PBE-pseudo/C09 approximation; exact reference revision unverified"
+    },
+    {
+      "id": "SR01",
+      "title": "MoS2 convergence and pure-bilayer reference",
+      "depends_on": [
+        "SR00",
+        "P01"
+      ],
+      "status": "week1 fixed-cell monolayer relaxation and targeted stricter SCF passed; full convergence/bilayer reference pending week2"
+    },
+    {
+      "id": "DR02",
+      "title": "Complete monomer/dimer controls and minimum verification",
+      "depends_on": [
+        "DR01"
+      ],
+      "status": "not_started"
+    },
+    {
+      "id": "SR02",
+      "title": "Nine-point heterobilayer reference grid",
+      "depends_on": [
+        "SR01"
+      ],
+      "status": "not_started"
+    },
+    {
+      "id": "DR03",
+      "title": "Method/solvent sensitivity and four-case comparison",
+      "depends_on": [
+        "DR02",
+        "P00"
+      ],
+      "status": "not_started"
+    },
+    {
+      "id": "SR03",
+      "title": "Conditional 27-point alloy-interface grid",
+      "depends_on": [
+        "SR02"
+      ],
+      "status": "conditional_on_precision_and_budget"
+    },
+    {
+      "id": "R00",
+      "title": "Report week-four evidence, incompleteness and go/pivot decision",
+      "depends_on": [],
+      "review_targets": [
+        "DR03",
+        "SR03"
+      ],
+      "status": "scheduled_in_plan_only_not_automation"
+    }
+  ],
+  "execution_enabled_meaning": "No automatic scheduling; week1 was run through explicit reviewed job configs",
+  "manual_execution_authorized_scope": "week1 only",
+  "current_status_file": "experiments/week1/status.json",
+  "pre_execution_snapshot": "experiments/archive/protocol-v1-before-week1.json"
+}

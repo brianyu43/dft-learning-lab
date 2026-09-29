@@ -1,0 +1,42 @@
+{
+  "protocol_id": "dft-pilot-20260909-v1-week2",
+  "week": 2,
+  "job_id": "w2-diflunisal--caffeine-opt-freq",
+  "task_id": "DR01",
+  "engine": "orca",
+  "executable": ".tools/orca-6.1.1/orca",
+  "input": "inputs/orca/week2/w2-diflunisal--caffeine-opt-freq.inp",
+  "method": "r2SCAN-3c",
+  "purpose": "First cost and minimum verification; one selected starting geometry, not four-case ranking",
+  "charge": 0,
+  "multiplicity": 1,
+  "n_atoms": 50,
+  "linear": false,
+  "solvent": "vacuum",
+  "requested": {
+    "optimization": true,
+    "frequencies": true
+  },
+  "timeout_seconds": 43200,
+  "rss_limit_gib": 40,
+  "omp_threads": 1,
+  "selected_candidate_id": "diflunisal--caffeine-p36",
+  "parent_run_id": "runs/week2-xtb-dimers/diflunisal--caffeine-p36",
+  "selection_rule": "lowest valid GFN2-xTB geometry; fixed chemical state for monomers; retained composition/connectivity and no separation for dimer",
+  "selection_uses_outcome_labels": false,
+  "selection_label_scope": "geometry ranking within preselected chemical species only",
+  "first_cost_pair_is_known_positive_by_design": true,
+  "initial_structure_sha256": "125d491d557b9eeccedaf92ef5f9788ec7aaa686f9ca67b417b2e9f48acdfa3e",
+  "initial_geometry_audit": {
+    "status": "geometry_checked",
+    "heavy_connectivity_preserved": true,
+    "lost_heavy_bonds": [],
+    "new_heavy_bonds": [],
+    "hydrogen_owner_changes": [],
+    "unassigned_hydrogens": [],
+    "chemical_state_preserved_by_geometry": true,
+    "closest_interfragment_distance_angstrom": 2.2737122232468865,
+    "separated_geometry": false,
+    "cross_fragment_proton_transfer": []
+  }
+}

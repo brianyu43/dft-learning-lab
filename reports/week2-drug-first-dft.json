@@ -1,0 +1,27 @@
+{
+  "batch_id": "week2-drug-first-dft",
+  "started_at": "2026-09-10T11:04:32.640260+00:00",
+  "batch_sha256": "195c3df051ab84b88e271e31df77ff2f7c459aee748cf1fd0403eeaa87982052",
+  "status": "job_failed_requires_review",
+  "jobs": [
+    {
+      "job_id": "w2-diflunisal-opt-freq",
+      "exit_code": 0,
+      "report": "reports/w2-diflunisal-opt-freq.json"
+    },
+    {
+      "job_id": "w2-caffeine-opt-freq",
+      "exit_code": 0,
+      "report": "reports/w2-caffeine-opt-freq.json"
+    },
+    {
+      "job_id": "w2-diflunisal--caffeine-opt-freq",
+      "exit_code": -2,
+      "report": "reports/w2-diflunisal--caffeine-opt-freq.json"
+    }
+  ],
+  "automatic_retries": 0,
+  "blocked_job": "w2-diflunisal--caffeine-opt-freq",
+  "ended_at": "2026-09-10T14:19:38.234580+00:00",
+  "batch_elapsed_seconds": 11705.534
+}

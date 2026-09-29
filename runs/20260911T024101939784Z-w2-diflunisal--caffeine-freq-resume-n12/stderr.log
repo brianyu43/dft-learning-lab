@@ -1,0 +1,11 @@
+--------------------------------------------------------------------------
+A system call failed during shared memory initialization that should
+not have.  It is likely that your MPI job will now either abort or
+experience performance degradation.
+
+  Local host:  Xavierui-MacBookPro.local
+  System call: unlink(2) /var/folders/4b/fxy1bxrj2m7dxl_3358k4dn00000gn/T//ompi.Xavierui-MacBookPro.501/pid.62609/1/vader_segment.Xavierui-MacBookPro.501.81260001.8
+  Error:       No such file or directory (errno 2)
+--------------------------------------------------------------------------
+[Xavierui-MacBookPro.local:62609] 4 more processes have sent help message help-opal-shmem-mmap.txt / sys call fail
+[Xavierui-MacBookPro.local:62609] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages

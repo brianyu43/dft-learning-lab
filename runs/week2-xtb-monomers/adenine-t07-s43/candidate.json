@@ -1,0 +1,123 @@
+{
+  "candidate_id": "adenine-t07-s43",
+  "path": "structures/week2/drug_initial/adenine-t07-s43.xyz",
+  "sha256": "0983b4bd5371fae6d5472778b1b8b76894f5087e08671d8bba62c96696cac99a",
+  "charge": 0,
+  "multiplicity": 1,
+  "n_atoms": 15,
+  "graph": {
+    "atomic_numbers": [
+      7,
+      6,
+      7,
+      6,
+      7,
+      6,
+      7,
+      6,
+      7,
+      6,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "bonds": [
+      [
+        0,
+        1,
+        1.0
+      ],
+      [
+        1,
+        2,
+        1.5
+      ],
+      [
+        2,
+        3,
+        1.5
+      ],
+      [
+        3,
+        4,
+        1.5
+      ],
+      [
+        4,
+        5,
+        1.5
+      ],
+      [
+        5,
+        6,
+        1.5
+      ],
+      [
+        6,
+        7,
+        1.5
+      ],
+      [
+        7,
+        8,
+        1.5
+      ],
+      [
+        8,
+        9,
+        1.5
+      ],
+      [
+        9,
+        1,
+        1.5
+      ],
+      [
+        9,
+        5,
+        1.5
+      ],
+      [
+        0,
+        10,
+        1.0
+      ],
+      [
+        0,
+        11,
+        1.0
+      ],
+      [
+        3,
+        12,
+        1.0
+      ],
+      [
+        7,
+        13,
+        1.0
+      ],
+      [
+        8,
+        14,
+        1.0
+      ]
+    ],
+    "hydrogen_owners": {
+      "10": 0,
+      "11": 0,
+      "12": 3,
+      "13": 7,
+      "14": 8
+    },
+    "formula": "C5H5N5"
+  },
+  "kind": "monomer",
+  "species": "adenine",
+  "state_id": "adenine-t07",
+  "state_smiles": "Nc1ncnc2nc[nH]c12",
+  "seed": 43,
+  "state_role": "pubchem_representation"
+}

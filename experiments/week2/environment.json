@@ -1,0 +1,31 @@
+{
+  "python": "3.11.15",
+  "macOS": "26.6.2",
+  "architecture": "arm64",
+  "packages": {
+    "numpy": "2.4.6",
+    "scipy": "1.17.1",
+    "ase": "3.29.0",
+    "rdkit": "2026.3.6",
+    "psutil": "7.2.2",
+    "matplotlib": "3.11.1",
+    "cclib": "1.8.1"
+  },
+  "executables": {
+    "ORCA": {
+      "path": ".tools/orca-6.1.1/orca",
+      "sha256": "ae760c7b81d474cdf4d9f249b50f7c9cde40b402b1d85ef4213a817bdee1400a"
+    },
+    "QE": {
+      "path": ".tools/qe-7.6/bin/pw.x",
+      "sha256": "d9c0a96099241bc96b8fc5783ae61363f9d667458fc2fee19ab13b71cd354ed5"
+    },
+    "xTB": {
+      "path": ".tools/xtb/bin/xtb",
+      "sha256": "d3174941efad80a6862d6d985c70907c23221962067713cb8f8bfbb0f4b471ff"
+    }
+  },
+  "machdep.cpu.brand_string": "Apple M5 Pro",
+  "hw.memsize": "68719476736",
+  "hw.ncpu": "18"
+}

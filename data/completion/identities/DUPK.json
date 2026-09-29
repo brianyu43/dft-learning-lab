@@ -1,0 +1,14 @@
+{
+  "PropertyTable": {
+    "Properties": [
+      {
+        "CID": 7175,
+        "MolecularFormula": "C10H12O3",
+        "SMILES": "CCCOC(=O)C1=CC=C(C=C1)O",
+        "ConnectivitySMILES": "CCCOC(=O)C1=CC=C(C=C1)O",
+        "InChIKey": "QELSKZZBTMNZEB-UHFFFAOYSA-N",
+        "IUPACName": "propyl 4-hydroxybenzoate"
+      }
+    ]
+  }
+}

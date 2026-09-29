@@ -1,0 +1,4 @@
+brew "gcc"
+brew "cmake"
+brew "fftw"
+brew "openblas"

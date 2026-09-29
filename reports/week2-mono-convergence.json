@@ -1,0 +1,46 @@
+{
+  "batch_id": "week2-mono-convergence",
+  "started_at": "2026-09-10T10:10:46.761966+00:00",
+  "batch_sha256": "0b6b11713e946e2bb8a1fb4c62f2e606619d72579d9de8e0a9b3afe5830094e0",
+  "status": "completed",
+  "jobs": [
+    {
+      "job_id": "w2-mono-c80-k12-v30",
+      "exit_code": 0,
+      "report": "reports/w2-mono-c80-k12-v30.json"
+    },
+    {
+      "job_id": "w2-mono-c100-k12-v30",
+      "exit_code": 0,
+      "report": "reports/w2-mono-c100-k12-v30.json"
+    },
+    {
+      "job_id": "w2-mono-c120-k12-v30",
+      "exit_code": 0,
+      "report": "reports/w2-mono-c120-k12-v30.json"
+    },
+    {
+      "job_id": "w2-mono-c120-k6-v30",
+      "exit_code": 0,
+      "report": "reports/w2-mono-c120-k6-v30.json"
+    },
+    {
+      "job_id": "w2-mono-c120-k9-v30",
+      "exit_code": 0,
+      "report": "reports/w2-mono-c120-k9-v30.json"
+    },
+    {
+      "job_id": "w2-mono-c120-k12-v20",
+      "exit_code": 0,
+      "report": "reports/w2-mono-c120-k12-v20.json"
+    },
+    {
+      "job_id": "w2-mono-c120-k12-v25",
+      "exit_code": 0,
+      "report": "reports/w2-mono-c120-k12-v25.json"
+    }
+  ],
+  "automatic_retries": 0,
+  "ended_at": "2026-09-10T10:46:04.004034+00:00",
+  "batch_elapsed_seconds": 2117.235
+}

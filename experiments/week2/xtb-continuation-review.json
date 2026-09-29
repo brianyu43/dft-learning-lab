@@ -1,0 +1,46 @@
+{
+  "reviewed_at": "2026-09-10T10:52:05.291040+00:00",
+  "reviewed_by": "Codex active experiment turn",
+  "phase": "dimers",
+  "action": "continue_unattempted_candidates_without_retry",
+  "reviewed_failure_class": "normal_scf_converged_geometry_iteration_limit",
+  "reason": "Six starts reached geometry iteration limits with normal exit and converged SCC. Treat this observed failure class as excluded pose candidates; retain original status and output. Three consecutive unexpected engine/SCC failures still stop the batch. No convergence threshold changes or failed-input reruns.",
+  "evidence": [
+    {
+      "candidate_id": "diflunisal--adenine-p11",
+      "run_dir": "runs/week2-xtb-dimers/diflunisal--adenine-p11",
+      "output_sha256": "7f79c7a1c35136e53f76af6cb59a6dd2e11062c1693c4e8a9b0bfae700ee02bf",
+      "iteration_limit": 219
+    },
+    {
+      "candidate_id": "diflunisal--adenine-p12",
+      "run_dir": "runs/week2-xtb-dimers/diflunisal--adenine-p12",
+      "output_sha256": "a1fea6462cbb1f688caad85bc54361aaf7470f6a828f02512e2ca086e3699a0f",
+      "iteration_limit": 219
+    },
+    {
+      "candidate_id": "diflunisal--adenine-p43",
+      "run_dir": "runs/week2-xtb-dimers/diflunisal--adenine-p43",
+      "output_sha256": "68cde2bda6fb948a866ad624310a3e17ffc4211021ebe33dd8e086cb090bb449",
+      "iteration_limit": 219
+    },
+    {
+      "candidate_id": "diflunisal--caffeine-p40",
+      "run_dir": "runs/week2-xtb-dimers/diflunisal--caffeine-p40",
+      "output_sha256": "2524fd446061e2b133ec2f872a48e8d4cfc24db389957c5f077a3e1b1a1d05cc",
+      "iteration_limit": 258
+    },
+    {
+      "candidate_id": "diflunisal--caffeine-p41",
+      "run_dir": "runs/week2-xtb-dimers/diflunisal--caffeine-p41",
+      "output_sha256": "4b475a0fbfe4b56376a5228dacde2bdd6d75392630b5db48fae3ee368f94cdc0",
+      "iteration_limit": 258
+    },
+    {
+      "candidate_id": "diflunisal--caffeine-p42",
+      "run_dir": "runs/week2-xtb-dimers/diflunisal--caffeine-p42",
+      "output_sha256": "e3ae53ee8cf1e99c56c32c7488303e99623aeb5f2657cc6e769347a43b296782",
+      "iteration_limit": 258
+    }
+  ]
+}

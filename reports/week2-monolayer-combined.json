@@ -1,0 +1,18 @@
+{
+  "job_id": "w2-mono-combined-c80-k6-v20",
+  "selected_setting": {
+    "cutoff": 80,
+    "k_grid": 6,
+    "vacuum": 20
+  },
+  "reference_setting": {
+    "cutoff": 120,
+    "k_grid": 12,
+    "vacuum": 30
+  },
+  "energy_delta_meV_atom": 0.8972911293009626,
+  "max_force_delta_eV_angstrom": 0.004633855022159285,
+  "status": "passed",
+  "reference_is_exact": false,
+  "scope": "fixed-geometry MoS2 monolayer only; interaction convergence tested separately"
+}

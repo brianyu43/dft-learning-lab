@@ -1,0 +1,8 @@
+! PBE def2-SVP TightSCF SP
+%maxcore 2000
+
+* xyz 0 1
+O 0 0 0
+H 0 -0.757 0.587
+H 0 0.757 0.587
+*

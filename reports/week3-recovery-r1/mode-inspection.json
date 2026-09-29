@@ -1,0 +1,64 @@
+{
+  "checked_at": "2026-09-11T11:04:46.164280+00:00",
+  "parent_job_id": "w3-diflunisal--diflunisal-p05-opt-freq",
+  "parent_report_sha256": "9d16a94190afb032b8abd0f5bc03f10946d125ace45dfce5f90a76d23eea9f86",
+  "hessian_sha256": "3100d5ec7c2c48f17d1dc940561b711e44bf4250e3297376cc701ccadc5b75cc",
+  "geometry_sha256": "507a53af0a170871a14dbf676397cbbb42343dc46a12692cbc59b059e5eb75ef",
+  "hessian_geometry_verified": true,
+  "mode_index_zero_based": 6,
+  "frequency_cm1": -2.2295005202804785,
+  "internal_mode_count": 150,
+  "negative_mode_count": 1,
+  "whole_system_translation_residual": [
+    1.2484797917711177e-11,
+    1.015976192064727e-10,
+    5.0195111955808613e-11
+  ],
+  "whole_system_rotation_residual": [
+    2.077854555082581e-10,
+    5.726974727782164e-10,
+    1.9927938327279904e-09
+  ],
+  "per_fragment_rigid_motion": [
+    {
+      "fraction_explained": 0.9600107067382077,
+      "total_mass_weighted_amplitude": 4.971358773568515,
+      "residual_mass_weighted_amplitude": 0.19880112390581595
+    },
+    {
+      "fraction_explained": 0.9984356803151695,
+      "total_mass_weighted_amplitude": 4.581766248908551,
+      "residual_mass_weighted_amplitude": 0.007167347134459472
+    }
+  ],
+  "combined_rigid_motion_fraction": 0.9784396759640785,
+  "biphenyl_dihedrals_at_visualization_amplitude": [
+    {
+      "indices_zero_based": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "center_degrees": 224.0561155933249,
+      "plus_delta_degrees": 0.18301843843548227,
+      "minus_delta_degrees": -0.173213658072342
+    },
+    {
+      "indices_zero_based": [
+        30,
+        31,
+        32,
+        33
+      ],
+      "center_degrees": 317.4578264161275,
+      "plus_delta_degrees": 0.07003027715575172,
+      "minus_delta_degrees": -0.07985658696924247
+    }
+  ],
+  "visualization_max_atom_displacement_angstrom": 0.1,
+  "visualization_scope": "Arbitrary amplified displacement, not thermal amplitude or calculated alternative minimum",
+  "interpretation": "Predominantly relative fragment motion",
+  "cause": "Unresolved: tighter optimization and numerical integration required; this mode inspection alone does not prove numerical noise",
+  "retry_starts_from": "Undisplaced final optimized XYZ; no extra independent starting pose"
+}

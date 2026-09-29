@@ -1,0 +1,1 @@
+PASS: six molecule atom counts and SHA-256; SDF parsing; Si2; MoS2/MoSe2 3 and 12 atom cells; 20 A inter-slab vacuum. DFT optimization not performed.

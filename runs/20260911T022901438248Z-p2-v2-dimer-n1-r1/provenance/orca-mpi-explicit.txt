@@ -1,0 +1,12 @@
+List of packages in environment: "/Users/xavier/Documents/dev/generaldrugs/dft/.tools/orca-mpi"
+
+https://conda.anaconda.org/conda-forge/osx-arm64/_openmp_mutex-4.5-8_kmp_llvm.conda
+https://conda.anaconda.org/conda-forge/osx-arm64/libcxx-23.1.1-h55c6f16_0.conda
+https://conda.anaconda.org/conda-forge/osx-arm64/libgcc-16.2.0-h3cf6597_4.conda
+https://conda.anaconda.org/conda-forge/osx-arm64/libgfortran-16.2.0-h07b0088_4.conda
+https://conda.anaconda.org/conda-forge/osx-arm64/libgfortran5-16.2.0-hdb7a957_4.conda
+https://conda.anaconda.org/conda-forge/osx-arm64/libzlib-1.2.13-hfb2fe0b_6.conda
+https://conda.anaconda.org/conda-forge/osx-arm64/llvm-openmp-23.1.1-hdb3d66b_0.conda
+https://conda.anaconda.org/conda-forge/osx-arm64/mpi-1.0-openmpi.tar.bz2
+https://conda.anaconda.org/conda-forge/osx-arm64/openmpi-4.1.1-h3abb732_0.tar.bz2
+https://conda.anaconda.org/conda-forge/osx-arm64/zlib-1.2.13-hfb2fe0b_6.conda

@@ -1,0 +1,13 @@
+{
+  "reviewed_at": "2026-09-11T09:38:31.676954+00:00",
+  "status": "visually_checked",
+  "file": "reports/figures/week3/starting-contact-review.png",
+  "sha256": "23398e3021629e04af22cd99326298416429b771c3eee8820690c4c046a978bf",
+  "views": 2,
+  "candidate_ids": [
+    "p36",
+    "p14",
+    "p06"
+  ],
+  "scope": "Legible projections of xTB starting geometries; not final DFT geometries or crystal packing"
+}

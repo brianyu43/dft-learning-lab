@@ -1,0 +1,36 @@
+{
+  "protocol_id": "dft-pilot-20260909-v1",
+  "week": 1,
+  "engine": "qe",
+  "executable": ".tools/qe-7.6/bin/pw.x",
+  "assets": {
+    "data/pseudopotentials/pseudo-dojo-nc-sr-04-pbe-standard/Mo.upf": "pseudo/Mo.upf",
+    "data/pseudopotentials/pseudo-dojo-nc-sr-04-pbe-standard/S.upf": "pseudo/S.upf"
+  },
+  "method": "vdW-DF-C09 with PseudoDojo 0.4 standard PBE-generated scalar NC pseudopotentials",
+  "n_atoms": 3,
+  "charge": 0,
+  "SOC": false,
+  "omp_threads": 4,
+  "rss_limit_gib": 40,
+  "job_id": "week1-mos2-force-check",
+  "task_id": "SR01-force-validation",
+  "input": "inputs/qe/week1_mos2_force_check.in",
+  "timeout_seconds": 1800,
+  "parent_run_id": "20260910T093915054937Z-week1-mos2-relax",
+  "purpose": "Targeted force/energy sensitivity check at unchanged final relaxed geometry after SCF-correction warning",
+  "requested": {
+    "optimization": false,
+    "frequencies": false
+  },
+  "accuracy_scope": "Only conv_thr 1e-8 to 1e-10 Ry at one fixed geometry; cutoff/k/vacuum/lattice/phonon convergence remain unverified",
+  "parent_geometry_source": "runs/20260910T093915054937Z-week1-mos2-relax/scratch/week1_mos2.save/data-file-schema.xml",
+  "ecutwfc_Ry": 80,
+  "ecutrho_Ry": 320,
+  "k_grid": [
+    6,
+    6,
+    1
+  ],
+  "conv_thr_Ry": 1e-10
+}

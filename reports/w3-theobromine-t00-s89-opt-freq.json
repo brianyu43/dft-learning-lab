@@ -1,0 +1,546 @@
+{
+  "protocol_id": "dft-pilot-20260909-v1-week3",
+  "week": 3,
+  "task_id": "DR03",
+  "job_id": "w3-theobromine-t00-s89-opt-freq",
+  "engine": "orca",
+  "executable": "scripts/orca_parallel.sh",
+  "input": "inputs/orca/week3/w3-theobromine-t00-s89-opt-freq.inp",
+  "method": "r2SCAN-3c",
+  "charge": 0,
+  "multiplicity": 1,
+  "solvent": "vacuum",
+  "n_atoms": 21,
+  "linear": false,
+  "requested": {
+    "optimization": true,
+    "frequencies": true
+  },
+  "mpi_processes": 12,
+  "omp_threads": 1,
+  "timeout_seconds": 14400,
+  "rss_limit_gib": 40,
+  "assets": {
+    ".tools/orca-mpi/lib/libmpi.40.dylib": "libmpi.40.dylib",
+    ".tools/orca-mpi/lib/libopen-rte.40.dylib": "libopen-rte.40.dylib",
+    ".tools/orca-mpi/lib/libopen-pal.40.dylib": "libopen-pal.40.dylib",
+    ".tools/orca-mpi/lib/libopen-orted-mpir.dylib": "libopen-orted-mpir.dylib",
+    ".tools/orca-mpi/lib/libz.1.dylib": "libz.1.dylib",
+    "structures/week3/drug_initial/theobromine-t00-s89.xyz": "initial.xyz",
+    "experiments/week3/drug/candidates/theobromine-t00-s89.json": "candidate.json",
+    "scripts/run_week3_drug_v2.py": "week3_parser_snapshot.py",
+    "scripts/run_week2_xtb_screen.py": "provenance/geometry_audit_snapshot.py",
+    "scripts/run_week2_frequency_resume.py": "provenance/hessian_check_snapshot.py",
+    "scripts/orca_parallel.sh": "provenance/parallel_launcher_snapshot.sh",
+    "environment/orca-mpi-explicit.txt": "provenance/orca-mpi-explicit.txt"
+  },
+  "candidate_id": "theobromine-t00-s89",
+  "species": "theobromine",
+  "role": "primary",
+  "source_geometry": "runs/week2-xtb-monomers/theobromine-t00-s89/xtbopt.xyz",
+  "source_geometry_sha256": "484d4039a5b381747ede1e5ee26a0ae8a9e7c9f2d8aa8eaa48920533c74a421c",
+  "initial_structure_sha256": "484d4039a5b381747ede1e5ee26a0ae8a9e7c9f2d8aa8eaa48920533c74a421c",
+  "candidate_sha256": "cc8b156975542922a90641ad4b136aec33baf08efb986ef2b86740b8accd68f2",
+  "week3_parser_sha256": "229eeeab19a186969047afeda344cbbed79f7c5db12412d2a5ee201bb545e2ed",
+  "state_scope": "Starting chemical graph and actual hydrogen ownership recorded; isolated 1:1 dimer or monomer, not crystal stoichiometry",
+  "source_stage": "GFN2-xTB optimized candidate",
+  "selection_uses_formation_labels": false,
+  "initial_geometry_audit": {
+    "status": "geometry_checked",
+    "heavy_connectivity_preserved": true,
+    "lost_heavy_bonds": [],
+    "new_heavy_bonds": [],
+    "hydrogen_owner_changes": [],
+    "unassigned_hydrogens": [],
+    "chemical_state_preserved_by_geometry": true
+  },
+  "purpose": "Week-three vacuum contact/control comparison; no crystal formation or polymorph claim",
+  "started_at": "2026-09-11T10:18:54.710355+00:00",
+  "status": "passed",
+  "run_dir": "/Users/xavier/Documents/dev/generaldrugs/dft/runs/20260911T101854702420Z-w3-theobromine-t00-s89-opt-freq",
+  "config_sha256": "fa7a714e97d866b93780966badfb57c7d93dda34cf563a27a2214d00722ea4a1",
+  "source_sha256": {
+    "inputs/orca/week3/w3-theobromine-t00-s89-opt-freq.inp": "8891fcca5f759b26f874f27d42fef6a9721053a0b58aeaf95ae6b98d31e6f177",
+    ".tools/orca-mpi/lib/libmpi.40.dylib": "3f433facb4325248a8527298f556d2eb16f2300d6329e916216c1a5625cb0c8d",
+    ".tools/orca-mpi/lib/libopen-rte.40.dylib": "dba76cb5bee8fe70e117c9199780eeb4cff76aedaa68e44c174e6c0d4c421975",
+    ".tools/orca-mpi/lib/libopen-pal.40.dylib": "b9bb52d11408495dddbacd0fec0ef98c07bce80d7f56115428b03033dff77fec",
+    ".tools/orca-mpi/lib/libopen-orted-mpir.dylib": "fb02d3d8287ffc0c63d6cdcf0e94e32333aee0ea401c0c785e74a9ecc276b3f5",
+    ".tools/orca-mpi/lib/libz.1.dylib": "be8b83df360c94cfe6c13f320c7f85960eee26a52d793a10fa90ea97595f1a09",
+    "structures/week3/drug_initial/theobromine-t00-s89.xyz": "484d4039a5b381747ede1e5ee26a0ae8a9e7c9f2d8aa8eaa48920533c74a421c",
+    "experiments/week3/drug/candidates/theobromine-t00-s89.json": "cc8b156975542922a90641ad4b136aec33baf08efb986ef2b86740b8accd68f2",
+    "scripts/run_week3_drug_v2.py": "229eeeab19a186969047afeda344cbbed79f7c5db12412d2a5ee201bb545e2ed",
+    "scripts/run_week2_xtb_screen.py": "a2a8be8a3fc863d200a289ba95e5b8c16baadc7919619579fd3342b7f79c8eb4",
+    "scripts/run_week2_frequency_resume.py": "6728f147ded27522f8029b97d340b75b3a530ba2d8c2b522685123bfded78719",
+    "scripts/orca_parallel.sh": "3dccb38bdd68fe054b55e1456b2168b8df6811a92f612afb707c5fa70458dda8",
+    "environment/orca-mpi-explicit.txt": "fb1bbeb3dbc7fe7d832832dee42715f8d02c6a4e539c1d7733c3060e67749c19"
+  },
+  "executable_sha256": "3dccb38bdd68fe054b55e1456b2168b8df6811a92f612afb707c5fa70458dda8",
+  "command": [
+    "/Users/xavier/Documents/dev/generaldrugs/dft/scripts/orca_parallel.sh",
+    "w3-theobromine-t00-s89-opt-freq.inp"
+  ],
+  "runner_sha256": "e276ab1aa4ddc435d0a3aceec06b27445f6a6c1263f101009d5de14e6cc70cf6",
+  "stop_reason": null,
+  "thread_environment": {
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "VECLIB_MAXIMUM_THREADS": "1"
+  },
+  "pid": 81010,
+  "engine_launched": true,
+  "ended_at": "2026-09-11T10:23:26.308437+00:00",
+  "elapsed_seconds": 271.596,
+  "exit_code": 0,
+  "peak_sampled_process_tree_rss_bytes": 18121457664,
+  "memory_samples": 523,
+  "memory_access_denied": 0,
+  "max_single_child_rss_bytes": 1558593536,
+  "system_swap_increase_peak_bytes": 0,
+  "memory_measurement": "0.5s sampled summed process-tree RSS; may double-count shared pages and miss peaks. OS ru_maxrss is maximum single-child RSS in macOS bytes. Swap is system-wide, not attributable solely to this job.",
+  "output_sha256": "bb1845bb8b4007fb9dc8668a178d09525dbdc3fea0d3b827771d80d5cd5ce1ef",
+  "result": {
+    "engine_version": "6.1.1",
+    "normal_termination": true,
+    "scf_converged": true,
+    "geometry_optimization_converged": true,
+    "energy": -640.951828493969,
+    "energy_unit": "Hartree",
+    "energy_history": [
+      -640.949412916974,
+      -640.951618486696,
+      -640.951796421534,
+      -640.951821989957,
+      -640.951826563589,
+      -640.951827325636,
+      -640.951827562162,
+      -640.95182768058,
+      -640.951827781161,
+      -640.951827886891,
+      -640.951828060251,
+      -640.951828267654,
+      -640.951828384454,
+      -640.951828471961,
+      -640.951828493969
+    ],
+    "frequencies_cm1": [
+      78.51,
+      90.5,
+      106.51,
+      115.05,
+      149.76,
+      190.22,
+      211.51,
+      221.03,
+      310.34,
+      359.6,
+      371.36,
+      412.51,
+      448.11,
+      511.53,
+      606.18,
+      610.69,
+      628.32,
+      684.3,
+      704.84,
+      732.75,
+      733.73,
+      765.25,
+      785.48,
+      812.26,
+      940.09,
+      1040.38,
+      1078.01,
+      1121.92,
+      1144.75,
+      1151.59,
+      1185.28,
+      1214.5,
+      1248.54,
+      1300.74,
+      1333.23,
+      1372.46,
+      1396.81,
+      1404.16,
+      1440.04,
+      1442.44,
+      1467.58,
+      1481.15,
+      1485.58,
+      1501.75,
+      1516.87,
+      1570.74,
+      1612.17,
+      1752.82,
+      1761.32,
+      3030.43,
+      3033.94,
+      3105.82,
+      3120.55,
+      3136.63,
+      3162.19,
+      3229.02,
+      3604.32
+    ],
+    "all_reported_modes_cm1": [
+      [
+        0,
+        0.0
+      ],
+      [
+        1,
+        0.0
+      ],
+      [
+        2,
+        0.0
+      ],
+      [
+        3,
+        0.0
+      ],
+      [
+        4,
+        0.0
+      ],
+      [
+        5,
+        0.0
+      ],
+      [
+        6,
+        78.51
+      ],
+      [
+        7,
+        90.5
+      ],
+      [
+        8,
+        106.51
+      ],
+      [
+        9,
+        115.05
+      ],
+      [
+        10,
+        149.76
+      ],
+      [
+        11,
+        190.22
+      ],
+      [
+        12,
+        211.51
+      ],
+      [
+        13,
+        221.03
+      ],
+      [
+        14,
+        310.34
+      ],
+      [
+        15,
+        359.6
+      ],
+      [
+        16,
+        371.36
+      ],
+      [
+        17,
+        412.51
+      ],
+      [
+        18,
+        448.11
+      ],
+      [
+        19,
+        511.53
+      ],
+      [
+        20,
+        606.18
+      ],
+      [
+        21,
+        610.69
+      ],
+      [
+        22,
+        628.32
+      ],
+      [
+        23,
+        684.3
+      ],
+      [
+        24,
+        704.84
+      ],
+      [
+        25,
+        732.75
+      ],
+      [
+        26,
+        733.73
+      ],
+      [
+        27,
+        765.25
+      ],
+      [
+        28,
+        785.48
+      ],
+      [
+        29,
+        812.26
+      ],
+      [
+        30,
+        940.09
+      ],
+      [
+        31,
+        1040.38
+      ],
+      [
+        32,
+        1078.01
+      ],
+      [
+        33,
+        1121.92
+      ],
+      [
+        34,
+        1144.75
+      ],
+      [
+        35,
+        1151.59
+      ],
+      [
+        36,
+        1185.28
+      ],
+      [
+        37,
+        1214.5
+      ],
+      [
+        38,
+        1248.54
+      ],
+      [
+        39,
+        1300.74
+      ],
+      [
+        40,
+        1333.23
+      ],
+      [
+        41,
+        1372.46
+      ],
+      [
+        42,
+        1396.81
+      ],
+      [
+        43,
+        1404.16
+      ],
+      [
+        44,
+        1440.04
+      ],
+      [
+        45,
+        1442.44
+      ],
+      [
+        46,
+        1467.58
+      ],
+      [
+        47,
+        1481.15
+      ],
+      [
+        48,
+        1485.58
+      ],
+      [
+        49,
+        1501.75
+      ],
+      [
+        50,
+        1516.87
+      ],
+      [
+        51,
+        1570.74
+      ],
+      [
+        52,
+        1612.17
+      ],
+      [
+        53,
+        1752.82
+      ],
+      [
+        54,
+        1761.32
+      ],
+      [
+        55,
+        3030.43
+      ],
+      [
+        56,
+        3033.94
+      ],
+      [
+        57,
+        3105.82
+      ],
+      [
+        58,
+        3120.55
+      ],
+      [
+        59,
+        3136.63
+      ],
+      [
+        60,
+        3162.19
+      ],
+      [
+        61,
+        3229.02
+      ],
+      [
+        62,
+        3604.32
+      ]
+    ],
+    "frequency_count_expected": 57,
+    "frequency_count_observed": 57,
+    "projected_external_modes_verified": true,
+    "imaginary_frequencies_cm1": [],
+    "lowest_vibrational_frequency_cm1": 78.51,
+    "minimum_verified": true,
+    "frequency_analysis_complete": true,
+    "optimization_cycles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "status": "passed",
+    "week3_verification_passed": true,
+    "geometry_audit": {
+      "status": "geometry_checked",
+      "heavy_connectivity_preserved": true,
+      "lost_heavy_bonds": [],
+      "new_heavy_bonds": [],
+      "hydrogen_owner_changes": [],
+      "unassigned_hydrogens": [],
+      "chemical_state_preserved_by_geometry": true
+    },
+    "initial_geometry_audit": {
+      "status": "geometry_checked",
+      "heavy_connectivity_preserved": true,
+      "lost_heavy_bonds": [],
+      "new_heavy_bonds": [],
+      "hydrogen_owner_changes": [],
+      "unassigned_hydrogens": [],
+      "chemical_state_preserved_by_geometry": true
+    },
+    "optimized_xyz_sha256": "fe338582eddce8ea45b3a62a8834f0b6c481e0385951ff998801dc61a65c6328",
+    "hessian_sha256": "49e459c758c155d4e2c0ce9200ba6e21d191ff1dd7b38d91043a601d27a7a091",
+    "hessian_geometry_matches": true,
+    "full_precision_frequencies_cm1": [
+      78.51118324644744,
+      90.49600112387404,
+      106.51026389963552,
+      115.05297557849858,
+      149.76468720989348,
+      190.21624466164886,
+      211.506162091846,
+      221.0348727091213,
+      310.3388620024742,
+      359.6012235041496,
+      371.3561022610529,
+      412.50573901490213,
+      448.11145362160556,
+      511.532654880571,
+      606.1808715159651,
+      610.6892518881352,
+      628.3188763737857,
+      684.3049116750296,
+      704.8427427135783,
+      732.7491630689879,
+      733.7261482645733,
+      765.2549889189448,
+      785.4802949171261,
+      812.2649460143015,
+      940.087870218317,
+      1040.3753899377896,
+      1078.011762447099,
+      1121.923890890258,
+      1144.7489855094484,
+      1151.5941201751932,
+      1185.2792963382053,
+      1214.4993501126116,
+      1248.539897893529,
+      1300.7409036499955,
+      1333.2257358828956,
+      1372.455167225062,
+      1396.8142404692246,
+      1404.1558105211159,
+      1440.0363493984557,
+      1442.444749641297,
+      1467.5798340704873,
+      1481.1543537081557,
+      1485.575670656929,
+      1501.752026400793,
+      1516.866792674973,
+      1570.7369467926803,
+      1612.1657606962085,
+      1752.8185435266964,
+      1761.3204898280615,
+      3030.430738013139,
+      3033.940502543107,
+      3105.8223482704543,
+      3120.5542617022156,
+      3136.627231303288,
+      3162.1869209392257,
+      3229.018768072869,
+      3604.3183072489883
+    ],
+    "week3_parser_sha256": "229eeeab19a186969047afeda344cbbed79f7c5db12412d2a5ee201bb545e2ed"
+  }
+}

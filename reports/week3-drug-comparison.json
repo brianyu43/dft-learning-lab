@@ -1,0 +1,638 @@
+{
+  "updated_at": "2026-09-11T11:42:52.867531+00:00",
+  "status": "partial",
+  "rows": [
+    {
+      "species": "diflunisal",
+      "candidate_id": "diflunisal-t02-s43",
+      "role": "primary",
+      "source_week": 2,
+      "status": "passed",
+      "minimum_verified": true,
+      "energy_Hartree": -925.47679828124,
+      "job_id": "w2-diflunisal-opt-freq",
+      "optimized_xyz": "structures/optimized/week2/diflunisal.xyz",
+      "geometry_audit": {
+        "status": "geometry_checked",
+        "heavy_connectivity_preserved": true,
+        "lost_heavy_bonds": [],
+        "new_heavy_bonds": [],
+        "hydrogen_owner_changes": [],
+        "unassigned_hydrogens": [],
+        "chemical_state_preserved_by_geometry": true
+      },
+      "elapsed_seconds": 1239.097
+    },
+    {
+      "species": "caffeine",
+      "candidate_id": "caffeine-t00-s17",
+      "role": "primary",
+      "source_week": 2,
+      "status": "passed",
+      "minimum_verified": true,
+      "energy_Hartree": -680.243848297613,
+      "job_id": "w2-caffeine-opt-freq",
+      "optimized_xyz": "structures/optimized/week2/caffeine.xyz",
+      "geometry_audit": {
+        "status": "geometry_checked",
+        "heavy_connectivity_preserved": true,
+        "lost_heavy_bonds": [],
+        "new_heavy_bonds": [],
+        "hydrogen_owner_changes": [],
+        "unassigned_hydrogens": [],
+        "chemical_state_preserved_by_geometry": true
+      },
+      "elapsed_seconds": 1085.696
+    },
+    {
+      "species": "diflunisal--caffeine",
+      "candidate_id": "diflunisal--caffeine-p36",
+      "role": "primary",
+      "source_week": 2,
+      "status": "passed",
+      "minimum_verified": true,
+      "energy_Hartree": -1605.729283319487,
+      "job_id": "w2-diflunisal--caffeine-freq-resume-n12",
+      "optimized_xyz": "structures/optimized/week2/diflunisal--caffeine.xyz",
+      "geometry_audit": {
+        "status": "geometry_checked",
+        "heavy_connectivity_preserved": true,
+        "lost_heavy_bonds": [],
+        "new_heavy_bonds": [],
+        "hydrogen_owner_changes": [],
+        "unassigned_hydrogens": [],
+        "chemical_state_preserved_by_geometry": true,
+        "closest_interfragment_distance_angstrom": 2.380170297906127,
+        "separated_geometry": false,
+        "cross_fragment_proton_transfer": []
+      },
+      "elapsed_seconds": 10385.868
+    },
+    {
+      "species": "diflunisal--caffeine",
+      "candidate_id": "diflunisal--caffeine-p14",
+      "role": "first_alternative_pose_and_full_job_cost",
+      "source_week": 3,
+      "job_id": "w3-diflunisal--caffeine-p14-opt-freq",
+      "status": "passed",
+      "minimum_verified": true,
+      "config": "experiments/week3/drug/w3-diflunisal--caffeine-p14-opt-freq.json",
+      "energy_Hartree": -1605.723661207066,
+      "elapsed_seconds": 1764.455,
+      "geometry_audit": {
+        "status": "geometry_checked",
+        "heavy_connectivity_preserved": true,
+        "lost_heavy_bonds": [],
+        "new_heavy_bonds": [],
+        "hydrogen_owner_changes": [],
+        "unassigned_hydrogens": [],
+        "chemical_state_preserved_by_geometry": true,
+        "closest_interfragment_distance_angstrom": 1.730898044779695,
+        "separated_geometry": false,
+        "cross_fragment_proton_transfer": []
+      },
+      "run_dir": "/Users/xavier/Documents/dev/generaldrugs/dft/runs/20260911T091928147429Z-w3-diflunisal--caffeine-p14-opt-freq",
+      "optimized_xyz": "/Users/xavier/Documents/dev/generaldrugs/dft/runs/20260911T091928147429Z-w3-diflunisal--caffeine-p14-opt-freq/w3-diflunisal--caffeine-p14-opt-freq.xyz",
+      "lowest_frequency_cm1": 8.37,
+      "error": null
+    },
+    {
+      "species": "diflunisal--caffeine",
+      "candidate_id": "diflunisal--caffeine-p06",
+      "role": "literature_contact_COOH_to_N9",
+      "source_week": 3,
+      "job_id": "w3-diflunisal--caffeine-p06-opt-freq",
+      "status": "passed",
+      "minimum_verified": true,
+      "config": "experiments/week3/drug/w3-diflunisal--caffeine-p06-opt-freq.json",
+      "energy_Hartree": -1605.722552189459,
+      "elapsed_seconds": 1518.591,
+      "geometry_audit": {
+        "status": "geometry_checked",
+        "heavy_connectivity_preserved": true,
+        "lost_heavy_bonds": [],
+        "new_heavy_bonds": [],
+        "hydrogen_owner_changes": [],
+        "unassigned_hydrogens": [],
+        "chemical_state_preserved_by_geometry": true,
+        "closest_interfragment_distance_angstrom": 1.7321987321152303,
+        "separated_geometry": false,
+        "cross_fragment_proton_transfer": []
+      },
+      "run_dir": "/Users/xavier/Documents/dev/generaldrugs/dft/runs/20260911T094859365003Z-w3-diflunisal--caffeine-p06-opt-freq",
+      "optimized_xyz": "/Users/xavier/Documents/dev/generaldrugs/dft/runs/20260911T094859365003Z-w3-diflunisal--caffeine-p06-opt-freq/w3-diflunisal--caffeine-p06-opt-freq.xyz",
+      "lowest_frequency_cm1": 9.54,
+      "error": null
+    },
+    {
+      "species": "adenine",
+      "candidate_id": "adenine-t06-s89",
+      "role": "primary",
+      "source_week": 3,
+      "job_id": "w3-adenine-t06-s89-opt-freq",
+      "status": "passed",
+      "minimum_verified": true,
+      "config": "experiments/week3/drug/w3-adenine-t06-s89-opt-freq.json",
+      "energy_Hartree": -467.231477322116,
+      "elapsed_seconds": 275.873,
+      "geometry_audit": {
+        "status": "geometry_checked",
+        "heavy_connectivity_preserved": true,
+        "lost_heavy_bonds": [],
+        "new_heavy_bonds": [],
+        "hydrogen_owner_changes": [],
+        "unassigned_hydrogens": [],
+        "chemical_state_preserved_by_geometry": true
+      },
+      "run_dir": "/Users/xavier/Documents/dev/generaldrugs/dft/runs/20260911T101418475738Z-w3-adenine-t06-s89-opt-freq",
+      "optimized_xyz": "/Users/xavier/Documents/dev/generaldrugs/dft/runs/20260911T101418475738Z-w3-adenine-t06-s89-opt-freq/w3-adenine-t06-s89-opt-freq.xyz",
+      "lowest_frequency_cm1": 160.71,
+      "error": null
+    },
+    {
+      "species": "theobromine",
+      "candidate_id": "theobromine-t00-s89",
+      "role": "primary",
+      "source_week": 3,
+      "job_id": "w3-theobromine-t00-s89-opt-freq",
+      "status": "passed",
+      "minimum_verified": true,
+      "config": "experiments/week3/drug/w3-theobromine-t00-s89-opt-freq.json",
+      "energy_Hartree": -640.951828493969,
+      "elapsed_seconds": 271.596,
+      "geometry_audit": {
+        "status": "geometry_checked",
+        "heavy_connectivity_preserved": true,
+        "lost_heavy_bonds": [],
+        "new_heavy_bonds": [],
+        "hydrogen_owner_changes": [],
+        "unassigned_hydrogens": [],
+        "chemical_state_preserved_by_geometry": true
+      },
+      "run_dir": "/Users/xavier/Documents/dev/generaldrugs/dft/runs/20260911T101854702420Z-w3-theobromine-t00-s89-opt-freq",
+      "optimized_xyz": "/Users/xavier/Documents/dev/generaldrugs/dft/runs/20260911T101854702420Z-w3-theobromine-t00-s89-opt-freq/w3-theobromine-t00-s89-opt-freq.xyz",
+      "lowest_frequency_cm1": 78.51,
+      "error": null
+    },
+    {
+      "species": "xanthine",
+      "candidate_id": "xanthine-t00-s17",
+      "role": "primary",
+      "source_week": 3,
+      "job_id": "w3-xanthine-t00-s17-opt-freq",
+      "status": "passed",
+      "minimum_verified": true,
+      "config": "experiments/week3/drug/w3-xanthine-t00-s17-opt-freq.json",
+      "energy_Hartree": -562.362838394915,
+      "elapsed_seconds": 139.23,
+      "geometry_audit": {
+        "status": "geometry_checked",
+        "heavy_connectivity_preserved": true,
+        "lost_heavy_bonds": [],
+        "new_heavy_bonds": [],
+        "hydrogen_owner_changes": [],
+        "unassigned_hydrogens": [],
+        "chemical_state_preserved_by_geometry": true
+      },
+      "run_dir": "/Users/xavier/Documents/dev/generaldrugs/dft/runs/20260911T102326653100Z-w3-xanthine-t00-s17-opt-freq",
+      "optimized_xyz": "/Users/xavier/Documents/dev/generaldrugs/dft/runs/20260911T102326653100Z-w3-xanthine-t00-s17-opt-freq/w3-xanthine-t00-s17-opt-freq.xyz",
+      "lowest_frequency_cm1": 107.25,
+      "error": null
+    },
+    {
+      "species": "diflunisal--diflunisal",
+      "candidate_id": "diflunisal--diflunisal-p05",
+      "role": "primary",
+      "source_week": 3,
+      "job_id": "w3-diflunisal--diflunisal-p05-refine-r1-opt-freq",
+      "status": "needs_review",
+      "minimum_verified": true,
+      "config": "experiments/week3/drug/w3-diflunisal--diflunisal-p05-refine-r1-opt-freq.json",
+      "energy_Hartree": -1850.963328925228,
+      "elapsed_seconds": 2197.915,
+      "geometry_audit": {
+        "status": "geometry_checked",
+        "heavy_connectivity_preserved": true,
+        "lost_heavy_bonds": [],
+        "new_heavy_bonds": [],
+        "hydrogen_owner_changes": [],
+        "unassigned_hydrogens": [],
+        "chemical_state_preserved_by_geometry": true,
+        "closest_interfragment_distance_angstrom": 1.584003979491307,
+        "separated_geometry": false,
+        "cross_fragment_proton_transfer": []
+      },
+      "run_dir": "/Users/xavier/Documents/dev/generaldrugs/dft/runs/20260911T110542024076Z-w3-diflunisal--diflunisal-p05-refine-r1-opt-freq",
+      "optimized_xyz": "/Users/xavier/Documents/dev/generaldrugs/dft/runs/20260911T110542024076Z-w3-diflunisal--diflunisal-p05-refine-r1-opt-freq/w3-diflunisal--diflunisal-p05-refine-r1-opt-freq.xyz",
+      "lowest_frequency_cm1": 9.18,
+      "error": null,
+      "original_config": "experiments/week3/drug/w3-diflunisal--diflunisal-p05-opt-freq.json",
+      "reviewed_refinement_attempt": 1,
+      "original_attempt": {
+        "job_id": "w3-diflunisal--diflunisal-p05-opt-freq",
+        "status": "needs_review",
+        "minimum_verified": false,
+        "lowest_frequency_cm1": -2.23,
+        "elapsed_seconds": 924.742,
+        "report": "reports/w3-diflunisal--diflunisal-p05-opt-freq.json",
+        "report_sha256": "9d16a94190afb032b8abd0f5bc03f10946d125ace45dfce5f90a76d23eea9f86"
+      },
+      "minimum_numerical_settings": "VeryTightSCF VeryTightOpt DefGrid3",
+      "refined_energy_Hartree": -1850.964363429242,
+      "numerical_check": {
+        "checked_at": "2026-09-11T11:42:52.863599+00:00",
+        "status": "needs_review",
+        "refinement_job_id": "w3-diflunisal--diflunisal-p05-refine-r1-opt-freq",
+        "refinement_config_sha256": "7baf511272eb4870ca93ad7c09d481f45be2dbc3fadb213ca2092a7ca2bdbe71",
+        "refinement_report": "reports/w3-diflunisal--diflunisal-p05-refine-r1-opt-freq.json",
+        "refinement_report_sha256": "77272dc19eab6f0e221af4debe5bb456199ff2320e832ab15a9d2016781c6c11",
+        "common_grid_job_id": "w3-diflunisal--diflunisal-p05-refine-r1-common-grid",
+        "common_grid_config": "experiments/week3/drug/w3-diflunisal--diflunisal-p05-refine-r1-common-grid.json",
+        "common_grid_config_sha256": "0586607fde8fc401f2eca0e5bc2488644175f8c3f85f5060230ffdd5896a3c86",
+        "common_grid_report": "reports/w3-diflunisal--diflunisal-p05-refine-r1-common-grid.json",
+        "common_grid_report_sha256": "bb250915820c2528d32dd7ffa9dead162e1f043c12a0ef9a4dfb986c05769cab",
+        "recovery_plan_sha256": "0b225218409f38e8652fca3178842e55f16a12386054813c8da966eb1bdcadcb",
+        "same_geometry_verified": true,
+        "refined_minimum_verified": true,
+        "geometry_sha256": "61b7ac6b0221df9b7ad68c5dbdd0daa3f050ae594efd89604f59c93e815b3193",
+        "refined_energy_Hartree": -1850.964363429242,
+        "common_grid_energy_Hartree": -1850.963328925228,
+        "delta_energy_kcal_mol": 0.6491610696052906,
+        "max_gradient_component_delta_Hartree_Bohr": 0.00014506480096800704,
+        "refined_engrad": "/Users/xavier/Documents/dev/generaldrugs/dft/runs/20260911T110542024076Z-w3-diflunisal--diflunisal-p05-refine-r1-opt-freq/w3-diflunisal--diflunisal-p05-refine-r1-opt-freq.engrad",
+        "refined_engrad_sha256": "df71f43a5ac9d9a5538b68dd6302a5dbb45d6dd4a75e2deeb9055f3f923a44ce",
+        "common_grid_engrad": "/Users/xavier/Documents/dev/generaldrugs/dft/runs/20260911T114221169376Z-w3-diflunisal--diflunisal-p05-refine-r1-common-grid/w3-diflunisal--diflunisal-p05-refine-r1-common-grid.engrad",
+        "common_grid_engrad_sha256": "b741cc26d7c58eb6a58bc3400b64f940860e6a27c851179074c9e4c05fd69800",
+        "energy_used_for_comparison": "common_grid_energy_Hartree",
+        "policy": {
+          "max_absolute_energy_delta_kcal_mol": 0.1,
+          "max_gradient_component_delta_Hartree_Bohr": 0.0001,
+          "ranking_energy": "Same-geometry original TightSCF/default-grid single point after refined minimum validation",
+          "sensitivity_scope": "Local numerical sensitivity only, not a bound for all candidates or model error"
+        }
+      },
+      "comparison_energy_source": "w3-diflunisal--diflunisal-p05-refine-r1-common-grid"
+    },
+    {
+      "species": "caffeine--caffeine",
+      "candidate_id": "caffeine--caffeine-p19",
+      "role": "primary",
+      "source_week": 3,
+      "job_id": "w3-caffeine--caffeine-p19-opt-freq",
+      "status": "not_started",
+      "minimum_verified": false,
+      "config": "experiments/week3/drug/w3-caffeine--caffeine-p19-opt-freq.json"
+    },
+    {
+      "species": "diflunisal--adenine",
+      "candidate_id": "diflunisal--adenine-p39",
+      "role": "primary",
+      "source_week": 3,
+      "job_id": "w3-diflunisal--adenine-p39-opt-freq",
+      "status": "not_started",
+      "minimum_verified": false,
+      "config": "experiments/week3/drug/w3-diflunisal--adenine-p39-opt-freq.json"
+    },
+    {
+      "species": "adenine--adenine",
+      "candidate_id": "adenine--adenine-p06",
+      "role": "primary",
+      "source_week": 3,
+      "job_id": "w3-adenine--adenine-p06-opt-freq",
+      "status": "not_started",
+      "minimum_verified": false,
+      "config": "experiments/week3/drug/w3-adenine--adenine-p06-opt-freq.json"
+    },
+    {
+      "species": "diflunisal--theobromine",
+      "candidate_id": "diflunisal--theobromine-p28",
+      "role": "primary",
+      "source_week": 3,
+      "job_id": "w3-diflunisal--theobromine-p28-opt-freq",
+      "status": "not_started",
+      "minimum_verified": false,
+      "config": "experiments/week3/drug/w3-diflunisal--theobromine-p28-opt-freq.json"
+    },
+    {
+      "species": "theobromine--theobromine",
+      "candidate_id": "theobromine--theobromine-p43",
+      "role": "primary",
+      "source_week": 3,
+      "job_id": "w3-theobromine--theobromine-p43-opt-freq",
+      "status": "not_started",
+      "minimum_verified": false,
+      "config": "experiments/week3/drug/w3-theobromine--theobromine-p43-opt-freq.json"
+    },
+    {
+      "species": "diflunisal--xanthine",
+      "candidate_id": "diflunisal--xanthine-p10",
+      "role": "primary",
+      "source_week": 3,
+      "job_id": "w3-diflunisal--xanthine-p10-opt-freq",
+      "status": "not_started",
+      "minimum_verified": false,
+      "config": "experiments/week3/drug/w3-diflunisal--xanthine-p10-opt-freq.json"
+    },
+    {
+      "species": "xanthine--xanthine",
+      "candidate_id": "xanthine--xanthine-p27",
+      "role": "primary",
+      "source_week": 3,
+      "job_id": "w3-xanthine--xanthine-p27-opt-freq",
+      "status": "not_started",
+      "minimum_verified": false,
+      "config": "experiments/week3/drug/w3-xanthine--xanthine-p27-opt-freq.json"
+    },
+    {
+      "species": "diflunisal--adenine",
+      "candidate_id": "diflunisal--adenine-p36",
+      "role": "literature_N1_proton_transfer_probe",
+      "source_week": 3,
+      "job_id": "w3-diflunisal--adenine-p36-direct-ion-opt-freq",
+      "status": "not_started",
+      "minimum_verified": false,
+      "config": "experiments/week3/drug/w3-diflunisal--adenine-p36-direct-ion-opt-freq.json"
+    }
+  ],
+  "scores": {
+    "primary_only": [
+      {
+        "coformer": "adenine",
+        "B_kcal_mol": null,
+        "X_kcal_mol": null,
+        "available_verified_structure_counts": {
+          "diflunisal": 1,
+          "adenine": 1,
+          "diflunisal--adenine": 0,
+          "diflunisal--diflunisal": 0,
+          "adenine--adenine": 0
+        },
+        "missing": [
+          "diflunisal--adenine",
+          "diflunisal--diflunisal",
+          "adenine--adenine"
+        ],
+        "selected_job_ids": {
+          "diflunisal": "w2-diflunisal-opt-freq",
+          "adenine": "w3-adenine-t06-s89-opt-freq"
+        }
+      },
+      {
+        "coformer": "caffeine",
+        "B_kcal_mol": -5.419636572290962,
+        "X_kcal_mol": null,
+        "available_verified_structure_counts": {
+          "diflunisal": 1,
+          "caffeine": 1,
+          "diflunisal--caffeine": 1,
+          "diflunisal--diflunisal": 0,
+          "caffeine--caffeine": 0
+        },
+        "missing": [
+          "diflunisal--diflunisal",
+          "caffeine--caffeine"
+        ],
+        "selected_job_ids": {
+          "diflunisal": "w2-diflunisal-opt-freq",
+          "caffeine": "w2-caffeine-opt-freq",
+          "diflunisal--caffeine": "w2-diflunisal--caffeine-freq-resume-n12"
+        }
+      },
+      {
+        "coformer": "theobromine",
+        "B_kcal_mol": null,
+        "X_kcal_mol": null,
+        "available_verified_structure_counts": {
+          "diflunisal": 1,
+          "theobromine": 1,
+          "diflunisal--theobromine": 0,
+          "diflunisal--diflunisal": 0,
+          "theobromine--theobromine": 0
+        },
+        "missing": [
+          "diflunisal--theobromine",
+          "diflunisal--diflunisal",
+          "theobromine--theobromine"
+        ],
+        "selected_job_ids": {
+          "diflunisal": "w2-diflunisal-opt-freq",
+          "theobromine": "w3-theobromine-t00-s89-opt-freq"
+        }
+      },
+      {
+        "coformer": "xanthine",
+        "B_kcal_mol": null,
+        "X_kcal_mol": null,
+        "available_verified_structure_counts": {
+          "diflunisal": 1,
+          "xanthine": 1,
+          "diflunisal--xanthine": 0,
+          "diflunisal--diflunisal": 0,
+          "xanthine--xanthine": 0
+        },
+        "missing": [
+          "diflunisal--xanthine",
+          "diflunisal--diflunisal",
+          "xanthine--xanthine"
+        ],
+        "selected_job_ids": {
+          "diflunisal": "w2-diflunisal-opt-freq",
+          "xanthine": "w3-xanthine-t00-s17-opt-freq"
+        }
+      }
+    ],
+    "all_available_poses": [
+      {
+        "coformer": "adenine",
+        "B_kcal_mol": null,
+        "X_kcal_mol": null,
+        "available_verified_structure_counts": {
+          "diflunisal": 1,
+          "adenine": 1,
+          "diflunisal--adenine": 0,
+          "diflunisal--diflunisal": 0,
+          "adenine--adenine": 0
+        },
+        "missing": [
+          "diflunisal--adenine",
+          "diflunisal--diflunisal",
+          "adenine--adenine"
+        ],
+        "selected_job_ids": {
+          "diflunisal": "w2-diflunisal-opt-freq",
+          "adenine": "w3-adenine-t06-s89-opt-freq"
+        }
+      },
+      {
+        "coformer": "caffeine",
+        "B_kcal_mol": -5.419636572290962,
+        "X_kcal_mol": null,
+        "available_verified_structure_counts": {
+          "diflunisal": 1,
+          "caffeine": 1,
+          "diflunisal--caffeine": 3,
+          "diflunisal--diflunisal": 0,
+          "caffeine--caffeine": 0
+        },
+        "missing": [
+          "diflunisal--diflunisal",
+          "caffeine--caffeine"
+        ],
+        "selected_job_ids": {
+          "diflunisal": "w2-diflunisal-opt-freq",
+          "caffeine": "w2-caffeine-opt-freq",
+          "diflunisal--caffeine": "w2-diflunisal--caffeine-freq-resume-n12"
+        }
+      },
+      {
+        "coformer": "theobromine",
+        "B_kcal_mol": null,
+        "X_kcal_mol": null,
+        "available_verified_structure_counts": {
+          "diflunisal": 1,
+          "theobromine": 1,
+          "diflunisal--theobromine": 0,
+          "diflunisal--diflunisal": 0,
+          "theobromine--theobromine": 0
+        },
+        "missing": [
+          "diflunisal--theobromine",
+          "diflunisal--diflunisal",
+          "theobromine--theobromine"
+        ],
+        "selected_job_ids": {
+          "diflunisal": "w2-diflunisal-opt-freq",
+          "theobromine": "w3-theobromine-t00-s89-opt-freq"
+        }
+      },
+      {
+        "coformer": "xanthine",
+        "B_kcal_mol": null,
+        "X_kcal_mol": null,
+        "available_verified_structure_counts": {
+          "diflunisal": 1,
+          "xanthine": 1,
+          "diflunisal--xanthine": 0,
+          "diflunisal--diflunisal": 0,
+          "xanthine--xanthine": 0
+        },
+        "missing": [
+          "diflunisal--xanthine",
+          "diflunisal--diflunisal",
+          "xanthine--xanthine"
+        ],
+        "selected_job_ids": {
+          "diflunisal": "w2-diflunisal-opt-freq",
+          "xanthine": "w3-xanthine-t00-s17-opt-freq"
+        }
+      }
+    ]
+  },
+  "complete_new_jobs": 5,
+  "expected_new_jobs": 14,
+  "reviewed_refinement_attempts": 1,
+  "failed_original_attempts": [
+    {
+      "job_id": "w3-diflunisal--diflunisal-p05-opt-freq",
+      "status": "needs_review",
+      "minimum_verified": false,
+      "lowest_frequency_cm1": -2.23,
+      "elapsed_seconds": 924.742,
+      "report": "reports/w3-diflunisal--diflunisal-p05-opt-freq.json",
+      "report_sha256": "9d16a94190afb032b8abd0f5bc03f10946d125ace45dfce5f90a76d23eea9f86"
+    }
+  ],
+  "scope": "Isolated vacuum electronic energies; counts are verified structures, not polymorphs or independent observations",
+  "comparison_warning": "All-available-pose coverage is unequal. Report it separately from the primary-only panel; no exhaustive ranking or cocrystal free-energy claim.",
+  "conservative_geometry_groups": [
+    {
+      "species": "diflunisal--caffeine",
+      "representative_job_id": "w2-diflunisal--caffeine-freq-resume-n12",
+      "members": [
+        {
+          "job_id": "w2-diflunisal--caffeine-freq-resume-n12",
+          "all_atom_RMSD_angstrom": 0.0,
+          "delta_energy_kcal_mol": 0.0
+        }
+      ]
+    },
+    {
+      "species": "diflunisal--caffeine",
+      "representative_job_id": "w3-diflunisal--caffeine-p14-opt-freq",
+      "members": [
+        {
+          "job_id": "w3-diflunisal--caffeine-p14-opt-freq",
+          "all_atom_RMSD_angstrom": 0.0,
+          "delta_energy_kcal_mol": 0.0
+        }
+      ]
+    },
+    {
+      "species": "diflunisal--caffeine",
+      "representative_job_id": "w3-diflunisal--caffeine-p06-opt-freq",
+      "members": [
+        {
+          "job_id": "w3-diflunisal--caffeine-p06-opt-freq",
+          "all_atom_RMSD_angstrom": 0.0,
+          "delta_energy_kcal_mol": 0.0
+        }
+      ]
+    },
+    {
+      "species": "diflunisal",
+      "representative_job_id": "w2-diflunisal-opt-freq",
+      "members": [
+        {
+          "job_id": "w2-diflunisal-opt-freq",
+          "all_atom_RMSD_angstrom": 0.0,
+          "delta_energy_kcal_mol": 0.0
+        }
+      ]
+    },
+    {
+      "species": "caffeine",
+      "representative_job_id": "w2-caffeine-opt-freq",
+      "members": [
+        {
+          "job_id": "w2-caffeine-opt-freq",
+          "all_atom_RMSD_angstrom": 0.0,
+          "delta_energy_kcal_mol": 0.0
+        }
+      ]
+    },
+    {
+      "species": "theobromine",
+      "representative_job_id": "w3-theobromine-t00-s89-opt-freq",
+      "members": [
+        {
+          "job_id": "w3-theobromine-t00-s89-opt-freq",
+          "all_atom_RMSD_angstrom": 0.0,
+          "delta_energy_kcal_mol": 0.0
+        }
+      ]
+    },
+    {
+      "species": "xanthine",
+      "representative_job_id": "w3-xanthine-t00-s17-opt-freq",
+      "members": [
+        {
+          "job_id": "w3-xanthine-t00-s17-opt-freq",
+          "all_atom_RMSD_angstrom": 0.0,
+          "delta_energy_kcal_mol": 0.0
+        }
+      ]
+    },
+    {
+      "species": "adenine",
+      "representative_job_id": "w3-adenine-t06-s89-opt-freq",
+      "members": [
+        {
+          "job_id": "w3-adenine-t06-s89-opt-freq",
+          "all_atom_RMSD_angstrom": 0.0,
+          "delta_energy_kcal_mol": 0.0
+        }
+      ]
+    }
+  ],
+  "grouping_scope": "Same species and fixed all-atom mapping, proper rotation, RMSD <=0.05 Angstrom and energy gap <=0.01 kcal/mol. No symmetry permutation; may split equivalent minima. Not a polymorph count."
+}

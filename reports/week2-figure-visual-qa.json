@@ -1,0 +1,16 @@
+{
+  "observed_at": "2026-09-11T03:46:37.755088+00:00",
+  "scope": "Visual inspection of all three PNG figures; not an independent PDF rendering check",
+  "checks": [
+    "Axes, units and data labels legible",
+    "No clipped or overlapping text observed",
+    "Tolerance bands described as operational, not statistical",
+    "Negative interaction energy distinguished from force direction and equilibrium"
+  ],
+  "png_sha256": {
+    "reports/figures/week2/monolayer-convergence.png": "2c65f6696015ba0590d34d1c171e2e720a2c3a3a2d9378f4b9d37cb8c6d987b1",
+    "reports/figures/week2/bilayer-controls.png": "e109696843038375c93b40436907beedb53d5c5f5c61893f6d59c4b3ad62f0b7",
+    "reports/figures/week2/xtb-screening-counts.png": "1b0b7ee184138038b38896a4cc018fa416bb0cc209e1fc9857d9f4b79e90b247"
+  },
+  "plotted_bilayer_data_scope": "Five selected-setting comparisons; the strict-setting comparison is reported numerically, not plotted"
+}

@@ -1,0 +1,16 @@
+{
+  "batch_id": "week2-mono-combined",
+  "started_at": "2026-09-10T11:02:53.104017+00:00",
+  "batch_sha256": "5a5b8f68fcc9f07876b7e29fae1e061c86b8b98679870406a148c738ecafd907",
+  "status": "completed",
+  "jobs": [
+    {
+      "job_id": "w2-mono-combined-c80-k6-v20",
+      "exit_code": 0,
+      "report": "reports/w2-mono-combined-c80-k6-v20.json"
+    }
+  ],
+  "automatic_retries": 0,
+  "ended_at": "2026-09-10T11:04:09.613027+00:00",
+  "batch_elapsed_seconds": 76.509
+}

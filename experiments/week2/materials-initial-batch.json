@@ -1,0 +1,13 @@
+{
+  "batch_id": "week2-mono-convergence",
+  "budget_seconds": 14400,
+  "jobs": [
+    "experiments/week2/w2-mono-c80-k12-v30.json",
+    "experiments/week2/w2-mono-c100-k12-v30.json",
+    "experiments/week2/w2-mono-c120-k12-v30.json",
+    "experiments/week2/w2-mono-c120-k6-v30.json",
+    "experiments/week2/w2-mono-c120-k9-v30.json",
+    "experiments/week2/w2-mono-c120-k12-v20.json",
+    "experiments/week2/w2-mono-c120-k12-v25.json"
+  ]
+}

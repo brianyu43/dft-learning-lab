@@ -1,0 +1,85 @@
+Fetch Shard Index for conda-forge/noarch                                                        ⧖ Starting
+Fetch Shard Index for conda-forge/noarch                                                  ✔ Done (0.1 sec)
+Fetch Shard Index for conda-forge/osx-arm64                                                     ⧖ Starting
+Fetch Shard Index for conda-forge/osx-arm64                                               ✔ Done (0.1 sec)
+Fetching and Parsing Packages' Shards                                                           ⧖ Starting
+Fetching and Parsing Packages' Shards                                                     ✔ Done (1.7 sec)
+
+Resolving Environment                                                                           ⧖ Starting
+Resolving Environment                                                                     ✔ Done (0.1 sec)
+
+Transaction
+
+  Prefix: /Users/xavier/Documents/dev/generaldrugs/dft/.tools/xtb
+
+  Updating specs:
+
+   - xtb=6.7.1
+
+
+  Package          Version  Build                 Channel          Size
+─────────────────────────────────────────────────────────────────────────
+  Install:
+─────────────────────────────────────────────────────────────────────────
+
+  + _openmp_mutex      4.5  8_kmp_llvm            conda-forge       8kB
+  + cpcm-x           1.1.0  gfortran_h69f682d_1   conda-forge       3MB
+  + dftd4            4.2.0  gfortran_hc17bbfb_1   conda-forge     840kB
+  + jonquil          0.3.2  gfortran_h04795c8_0   conda-forge     115kB
+  + libblas         3.11.0  10_h51639a9_openblas  conda-forge      18kB
+  + libgcc          16.2.0  h3cf6597_4            conda-forge     366kB
+  + libgfortran     16.2.0  h07b0088_4            conda-forge     100kB
+  + libgfortran5    16.2.0  hdb7a957_4            conda-forge     555kB
+  + liblapack       3.11.0  10_hd9741b5_openblas  conda-forge      18kB
+  + libopenblas     0.3.34  openmp_h4f80526_1     conda-forge       4MB
+  + llvm-openmp     23.1.0  hdb3d66b_0            conda-forge     288kB
+  + mctc-lib         0.5.2  gfortran_h0230218_0   conda-forge     695kB
+  + multicharge      0.5.0  gfortran_hc17bbfb_2   conda-forge     515kB
+  + numsa            0.2.0  gfortran_h04795c8_2   conda-forge     184kB
+  + simple-dftd3     1.4.0  gfortran_h0230218_1   conda-forge       1MB
+  + tblite           0.6.0  gfortran_hc17bbfb_0   conda-forge       6MB
+  + toml-f           0.5.2  gfortran_h04795c8_0   conda-forge     451kB
+  + xtb              6.7.1  gfortran_hc17bbfb_5   conda-forge       2MB
+
+  Summary:
+
+  Install: 18 packages
+
+  Total download: 21MB
+
+─────────────────────────────────────────────────────────────────────────
+
+
+warning  libmamba Security Warning: This transaction includes executing package scripts (pre/post-link/unlink) if present. These scripts can contain arbitrary code. Please ensure you trust the package sources.
+
+Transaction starting
+Linking llvm-openmp-23.1.0-hdb3d66b_0
+Linking _openmp_mutex-4.5-8_kmp_llvm
+Linking libgcc-16.2.0-h3cf6597_4
+Linking libgfortran5-16.2.0-hdb7a957_4
+Linking libgfortran-16.2.0-h07b0088_4
+Linking libopenblas-0.3.34-openmp_h4f80526_1
+Linking toml-f-0.5.2-gfortran_h04795c8_0
+Linking libblas-3.11.0-10_h51639a9_openblas
+Linking jonquil-0.3.2-gfortran_h04795c8_0
+Linking liblapack-3.11.0-10_hd9741b5_openblas
+Linking mctc-lib-0.5.2-gfortran_h0230218_0
+Linking multicharge-0.5.0-gfortran_hc17bbfb_2
+Linking simple-dftd3-1.4.0-gfortran_h0230218_1
+Linking numsa-0.2.0-gfortran_h04795c8_2
+Linking dftd4-4.2.0-gfortran_hc17bbfb_1
+Linking cpcm-x-1.1.0-gfortran_h69f682d_1
+Linking tblite-0.6.0-gfortran_hc17bbfb_0
+Linking xtb-6.7.1-gfortran_hc17bbfb_5
+
+Transaction finished
+
+
+To activate this environment, use:
+
+    micromamba activate /Users/xavier/Documents/dev/generaldrugs/dft/.tools/xtb
+
+Or to execute a single command in this environment, use:
+
+    micromamba run -p /Users/xavier/Documents/dev/generaldrugs/dft/.tools/xtb mycommand
+

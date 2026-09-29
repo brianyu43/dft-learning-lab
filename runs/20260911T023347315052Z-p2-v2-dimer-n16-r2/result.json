@@ -1,0 +1,22 @@
+{
+  "engine_version": "6.1.1",
+  "normal_termination": true,
+  "scf_converged": true,
+  "geometry_optimization_converged": null,
+  "energy": -1605.729283320977,
+  "energy_unit": "Hartree",
+  "energy_history": [
+    -1605.729283320977
+  ],
+  "frequencies_cm1": [],
+  "all_reported_modes_cm1": [],
+  "frequency_count_expected": 144,
+  "frequency_count_observed": 0,
+  "projected_external_modes_verified": false,
+  "imaginary_frequencies_cm1": [],
+  "lowest_vibrational_frequency_cm1": null,
+  "minimum_verified": null,
+  "frequency_analysis_complete": false,
+  "optimization_cycles": [],
+  "status": "passed"
+}

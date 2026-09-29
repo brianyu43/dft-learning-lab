@@ -1,0 +1,112 @@
+{
+  "updated_at": "2026-09-11T03:50:29.271695+00:00",
+  "status": "week2_core_checks_complete_with_open_research_preconditions",
+  "week": 2,
+  "engines": {
+    "ORCA": "6.1.1",
+    "QE": "7.6",
+    "xTB": "6.7.1"
+  },
+  "job_counts": {
+    "DFT_attempts": 38,
+    "core_DFT_attempts": 28,
+    "parallel_validation_attempts": 10,
+    "xTB_attempts": 505
+  },
+  "DFT_failed_or_review_job_ids": [],
+  "xTB_failed_or_review_candidate_ids": [
+    "diflunisal--adenine-p11",
+    "diflunisal--adenine-p12",
+    "diflunisal--adenine-p43",
+    "diflunisal--caffeine-p40",
+    "diflunisal--caffeine-p41",
+    "diflunisal--caffeine-p42",
+    "diflunisal--theobromine-p36",
+    "diflunisal--theobromine-p37",
+    "diflunisal--xanthine-p17",
+    "diflunisal--xanthine-p19",
+    "adenine--adenine-p10",
+    "theobromine--theobromine-p08",
+    "theobromine--theobromine-p16",
+    "xanthine--xanthine-p17"
+  ],
+  "user_interrupted_original_attempts": [
+    "w2-diflunisal--caffeine-opt-freq"
+  ],
+  "computing_wall_seconds": {
+    "orca": 12710.661,
+    "qe": 5350.75,
+    "xtb": 865.0027000000002,
+    "parallel_validation": 611.3209999999999,
+    "total": 19537.7347
+  },
+  "timing_definition": "Sum of individually measured engine-wrapper wall durations, excluding preparation, analysis and downloads",
+  "cumulative_week1_week2_hours": {
+    "drug": 4.116325750000001,
+    "semiconductor": 1.5525055555555556
+  },
+  "monolayer_combined": {
+    "job_id": "w2-mono-combined-c80-k6-v20",
+    "selected_setting": {
+      "cutoff": 80,
+      "k_grid": 6,
+      "vacuum": 20
+    },
+    "reference_setting": {
+      "cutoff": 120,
+      "k_grid": 12,
+      "vacuum": 30
+    },
+    "energy_delta_meV_atom": 0.8972911293009626,
+    "max_force_delta_eV_angstrom": 0.004633855022159285,
+    "status": "passed",
+    "reference_is_exact": false,
+    "scope": "fixed-geometry MoS2 monolayer only; interaction convergence tested separately"
+  },
+  "bilayer_checks": {
+    "status": "completed_checks_passed",
+    "completed_comparisons": 6,
+    "expected_comparisons": 6,
+    "equilibrium_in_plane_lattice_verified": false,
+    "phonon_stability_verified": false,
+    "reference_is_exact": false,
+    "heterobilayer_or_Se_accuracy_verified": false,
+    "representative_setting_difference_meV_angstrom2": 0.09030396772983629,
+    "interaction_precision_passed": true,
+    "equivalent_registry_difference_meV_angstrom2": 2.3475768173852885e-07,
+    "registry_symmetry_passed": true,
+    "lowest_sampled_r0_distance_angstrom": 6.6,
+    "r0_minimum_bracketed_by_samples": false,
+    "equilibrium_layer_distance_verified": false,
+    "precision_scope": "one r0, D=6.3 A geometry; not a global bound for all registries or compositions",
+    "distance_scope": "three rigid-layer samples, no interpolation or relaxation; boundary minimum requires extension"
+  },
+  "first_dimer_binding_energy_kcal_mol": -5.419636572290962,
+  "drug_minima_verified": 3,
+  "week3_engine_jobs_started": false,
+  "future_work_autoscheduled": false,
+  "automatic_retries": 0,
+  "parallel_validation_status": "passed",
+  "parallel_failed_or_review_job_ids": [
+    "p2-water-n2-r0"
+  ],
+  "open_gates": [
+    "final journal supplementary methods and negative-attempt conditions",
+    "final DFT state/pose coverage for the full control panel",
+    "self-association controls, method and solvent sensitivity",
+    "equilibrium interlayer distance beyond the initial rigid-layer samples",
+    "equilibrium in-plane lattice and heterobilayer/Se numerical convergence",
+    "exact reference pseudopotential revision for matched model benchmarking"
+  ],
+  "remaining_budget_hours": {
+    "drug": 75.88367425,
+    "semiconductor": 38.447494444444445
+  },
+  "next_panel_cost_scenarios_hours": {
+    "remaining_one_start_per_species": 24.1122875,
+    "remaining_core_plus_one_direct_ion_probe": 26.997250833333332,
+    "remaining_up_to_three_starts_per_species": 79.48356361111112,
+    "two_times_slowdown_remaining_three_starts": 158.96712722222225,
+    "basis": "Observed monomer wall time and cumulative dimer effort including interrupted serial work and resumed parallel Freq; historical-cost planning scenario, not an uninterrupted same-core runtime prediction; SP/solvent/retries extra"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "protocol_id": "week2-parallel-performance-extension",
+  "week": 2,
+  "job_id": "p2-v2-water-n2-r0",
+  "task_id": "PERF2",
+  "engine": "orca",
+  "executable": "scripts/orca_parallel.sh",
+  "input": "inputs/orca/week2/p2-v2-water-n2-r0.inp",
+  "method": "r2SCAN-3c",
+  "charge": 0,
+  "multiplicity": 1,
+  "solvent": "vacuum",
+  "n_atoms": 3,
+  "linear": false,
+  "requested": {
+    "optimization": true,
+    "frequencies": true,
+    "gradient": true
+  },
+  "timeout_seconds": 900,
+  "rss_limit_gib": 40,
+  "omp_threads": 1,
+  "mpi_processes": 2,
+  "benchmark_repeat": 0,
+  "geometry_source": "structures/optimized/week1/water.xyz",
+  "geometry_source_sha256": "1973f7491286efaa83d078ec648d745c56ed9e9d37be1216043d9be4da1865c4",
+  "purpose": "Water MPI Opt/Freq backend smoke",
+  "assets": {
+    "environment/orca-mpi-explicit.txt": "provenance/orca-mpi-explicit.txt",
+    ".tools/orca-mpi/lib/libmpi.40.dylib": "libmpi.40.dylib",
+    ".tools/orca-mpi/lib/libopen-rte.40.dylib": "libopen-rte.40.dylib",
+    ".tools/orca-mpi/lib/libopen-pal.40.dylib": "libopen-pal.40.dylib",
+    ".tools/orca-mpi/lib/libopen-orted-mpir.dylib": "libopen-orted-mpir.dylib",
+    ".tools/orca-mpi/lib/libz.1.dylib": "libz.1.dylib"
+  }
+}

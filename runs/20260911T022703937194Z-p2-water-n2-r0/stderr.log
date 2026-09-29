@@ -1,0 +1,16 @@
+dyld[61335]: Library not loaded: libmpi.40.dylib
+  Referenced from: <DCE2C13E-08AB-3D2B-A879-A2D1160D2583> /Users/xavier/Documents/dev/generaldrugs/dft/.tools/orca-6.1.1/orca_startup_mpi
+  Reason: tried: 'libmpi.40.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OSlibmpi.40.dylib' (no such file), 'libmpi.40.dylib' (no such file), '/usr/local/lib/libmpi.40.dylib' (no such file), '/usr/lib/libmpi.40.dylib' (no such file, not in dyld cache), '/Users/xavier/Documents/dev/generaldrugs/dft/runs/20260911T022703937194Z-p2-water-n2-r0/libmpi.40.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OS/Users/xavier/Documents/dev/generaldrugs/dft/runs/20260911T022703937194Z-p2-water-n2-r0/libmpi.40.dylib' (no such file), '/Users/xavier/Documents/dev/generaldrugs/dft/runs/20260911T022703937194Z-p2-water-n2-r0/libmpi.40.dylib' (no such file), '/usr/local/lib/libmpi.40.dylib' (no such file), '/usr/lib/libmpi.40.dylib' (no such file, not in dyld cache)
+dyld[61338]: Library not loaded: libmpi.40.dylib
+  Referenced from: <DCE2C13E-08AB-3D2B-A879-A2D1160D2583> /Users/xavier/Documents/dev/generaldrugs/dft/.tools/orca-6.1.1/orca_startup_mpi
+  Reason: tried: 'libmpi.40.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OSlibmpi.40.dylib' (no such file), 'libmpi.40.dylib' (no such file), '/usr/local/lib/libmpi.40.dylib' (no such file), '/usr/lib/libmpi.40.dylib' (no such file, not in dyld cache), '/Users/xavier/Documents/dev/generaldrugs/dft/runs/20260911T022703937194Z-p2-water-n2-r0/libmpi.40.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OS/Users/xavier/Documents/dev/generaldrugs/dft/runs/20260911T022703937194Z-p2-water-n2-r0/libmpi.40.dylib' (no such file), '/Users/xavier/Documents/dev/generaldrugs/dft/runs/20260911T022703937194Z-p2-water-n2-r0/libmpi.40.dylib' (no such file), '/usr/local/lib/libmpi.40.dylib' (no such file), '/usr/lib/libmpi.40.dylib' (no such file, not in dyld cache)
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun noticed that process rank 1 with PID 0 on node Xavierui-MacBookPro exited on signal 6 (Abort trap: 6).
+--------------------------------------------------------------------------
+[file orca_tools/qcmsg.cpp, line 394]: 
+  .... aborting the run
+

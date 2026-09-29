@@ -1,0 +1,407 @@
+{
+  "protocol_id": "dft-pilot-20260909-v1",
+  "week": 1,
+  "job_id": "week1-acetaminophen-opt-freq",
+  "task_id": "P03",
+  "engine": "orca",
+  "executable": ".tools/orca-6.1.1/orca",
+  "input": "inputs/orca/week1_acetaminophen_opt_freq.inp",
+  "method": "r2SCAN-3c",
+  "purpose": "one initial acetaminophen conformer: optimization and local-minimum verification, not conformer ranking",
+  "charge": 0,
+  "multiplicity": 1,
+  "n_atoms": 20,
+  "linear": false,
+  "solvent": "vacuum",
+  "requested": {
+    "optimization": true,
+    "frequencies": true
+  },
+  "timeout_seconds": 43200,
+  "rss_limit_gib": 40,
+  "omp_threads": 1,
+  "started_at": "2026-09-10T09:28:37.870228+00:00",
+  "status": "passed",
+  "run_dir": "/Users/xavier/Documents/dev/generaldrugs/dft/runs/20260910T092837869616Z-week1-acetaminophen-opt-freq",
+  "config_sha256": "daf8ad5fd4c86aeafab875a9a2d5534c504a4ab9c83600da03f5691087b45cb5",
+  "source_sha256": {
+    "inputs/orca/week1_acetaminophen_opt_freq.inp": "be707cd6130d135cb562dcb9bc4759ff6b29f71fb464c7cb561b0ba2be0ff2f2"
+  },
+  "executable_sha256": "ae760c7b81d474cdf4d9f249b50f7c9cde40b402b1d85ef4213a817bdee1400a",
+  "command": [
+    "/Users/xavier/Documents/dev/generaldrugs/dft/.tools/orca-6.1.1/orca",
+    "week1_acetaminophen_opt_freq.inp"
+  ],
+  "runner_sha256": "69c907bc028af1c57c2b2475449bd13024f770a716886d73dd835e1374daaf1a",
+  "stop_reason": null,
+  "thread_environment": {
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "VECLIB_MAXIMUM_THREADS": "1"
+  },
+  "pid": 43196,
+  "ended_at": "2026-09-10T09:39:03.612702+00:00",
+  "elapsed_seconds": 625.732,
+  "exit_code": 0,
+  "peak_sampled_process_tree_rss_bytes": null,
+  "memory_samples": 0,
+  "memory_access_denied": 1241,
+  "max_single_child_rss_bytes": 799473664,
+  "system_swap_increase_peak_bytes": null,
+  "memory_measurement": "0.5s sampled summed process-tree RSS; may double-count shared pages and miss peaks. OS ru_maxrss is maximum single-child RSS in macOS bytes. Swap is system-wide, not attributable solely to this job.",
+  "output_sha256": "8b5ef78d485a8708ff18a7cf492eecf35b5c09e45dac62ffa24182532a429b46",
+  "result": {
+    "engine_version": "6.1.1",
+    "normal_termination": true,
+    "scf_converged": true,
+    "geometry_optimization_converged": true,
+    "energy": -515.391019494583,
+    "energy_unit": "Hartree",
+    "energy_history": [
+      -515.388663277456,
+      -515.390394654678,
+      -515.390716015368,
+      -515.390757073902,
+      -515.390788914798,
+      -515.390802682879,
+      -515.390831884079,
+      -515.390875347255,
+      -515.39092109065,
+      -515.390975948809,
+      -515.391005186034,
+      -515.391014502976,
+      -515.391018087437,
+      -515.391019214111,
+      -515.391019427491,
+      -515.391019485323,
+      -515.391019494583
+    ],
+    "frequencies_cm1": [
+      34.01,
+      65.33,
+      90.96,
+      159.27,
+      183.35,
+      316.17,
+      332.72,
+      337.78,
+      375.97,
+      415.74,
+      434.46,
+      513.2,
+      514.05,
+      525.91,
+      623.79,
+      632.01,
+      663.68,
+      710.62,
+      806.97,
+      808.42,
+      831.55,
+      869.43,
+      924.64,
+      954.79,
+      964.36,
+      1012.59,
+      1034.19,
+      1040.19,
+      1137.86,
+      1195.22,
+      1199.83,
+      1236.64,
+      1261.05,
+      1288.55,
+      1341.91,
+      1381.23,
+      1388.74,
+      1455.32,
+      1463.03,
+      1485.1,
+      1540.47,
+      1560.3,
+      1642.59,
+      1657.59,
+      1741.33,
+      3026.73,
+      3118.55,
+      3120.58,
+      3148.65,
+      3150.61,
+      3193.04,
+      3239.06,
+      3628.48,
+      3822.72
+    ],
+    "all_reported_modes_cm1": [
+      [
+        0,
+        0.0
+      ],
+      [
+        1,
+        0.0
+      ],
+      [
+        2,
+        0.0
+      ],
+      [
+        3,
+        0.0
+      ],
+      [
+        4,
+        0.0
+      ],
+      [
+        5,
+        0.0
+      ],
+      [
+        6,
+        34.01
+      ],
+      [
+        7,
+        65.33
+      ],
+      [
+        8,
+        90.96
+      ],
+      [
+        9,
+        159.27
+      ],
+      [
+        10,
+        183.35
+      ],
+      [
+        11,
+        316.17
+      ],
+      [
+        12,
+        332.72
+      ],
+      [
+        13,
+        337.78
+      ],
+      [
+        14,
+        375.97
+      ],
+      [
+        15,
+        415.74
+      ],
+      [
+        16,
+        434.46
+      ],
+      [
+        17,
+        513.2
+      ],
+      [
+        18,
+        514.05
+      ],
+      [
+        19,
+        525.91
+      ],
+      [
+        20,
+        623.79
+      ],
+      [
+        21,
+        632.01
+      ],
+      [
+        22,
+        663.68
+      ],
+      [
+        23,
+        710.62
+      ],
+      [
+        24,
+        806.97
+      ],
+      [
+        25,
+        808.42
+      ],
+      [
+        26,
+        831.55
+      ],
+      [
+        27,
+        869.43
+      ],
+      [
+        28,
+        924.64
+      ],
+      [
+        29,
+        954.79
+      ],
+      [
+        30,
+        964.36
+      ],
+      [
+        31,
+        1012.59
+      ],
+      [
+        32,
+        1034.19
+      ],
+      [
+        33,
+        1040.19
+      ],
+      [
+        34,
+        1137.86
+      ],
+      [
+        35,
+        1195.22
+      ],
+      [
+        36,
+        1199.83
+      ],
+      [
+        37,
+        1236.64
+      ],
+      [
+        38,
+        1261.05
+      ],
+      [
+        39,
+        1288.55
+      ],
+      [
+        40,
+        1341.91
+      ],
+      [
+        41,
+        1381.23
+      ],
+      [
+        42,
+        1388.74
+      ],
+      [
+        43,
+        1455.32
+      ],
+      [
+        44,
+        1463.03
+      ],
+      [
+        45,
+        1485.1
+      ],
+      [
+        46,
+        1540.47
+      ],
+      [
+        47,
+        1560.3
+      ],
+      [
+        48,
+        1642.59
+      ],
+      [
+        49,
+        1657.59
+      ],
+      [
+        50,
+        1741.33
+      ],
+      [
+        51,
+        3026.73
+      ],
+      [
+        52,
+        3118.55
+      ],
+      [
+        53,
+        3120.58
+      ],
+      [
+        54,
+        3148.65
+      ],
+      [
+        55,
+        3150.61
+      ],
+      [
+        56,
+        3193.04
+      ],
+      [
+        57,
+        3239.06
+      ],
+      [
+        58,
+        3628.48
+      ],
+      [
+        59,
+        3822.72
+      ]
+    ],
+    "frequency_count_expected": 54,
+    "frequency_count_observed": 54,
+    "projected_external_modes_verified": true,
+    "imaginary_frequencies_cm1": [],
+    "lowest_vibrational_frequency_cm1": 34.01,
+    "minimum_verified": true,
+    "frequency_analysis_complete": true,
+    "optimization_cycles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "status": "passed"
+  },
+  "reparsed_at": "2026-09-10T09:42:09.318014+00:00",
+  "parser_sha256": "e276ab1aa4ddc435d0a3aceec06b27445f6a6c1263f101009d5de14e6cc70cf6"
+}

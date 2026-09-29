@@ -1,0 +1,6 @@
+{
+  "name": "dft-python-runtime-boundary",
+  "private": true,
+  "type": "commonjs",
+  "description": "Keep JupyterLab bundled Node scripts independent of the parent project's ESM package scope."
+}

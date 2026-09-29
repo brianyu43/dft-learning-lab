@@ -1,0 +1,17 @@
+{
+  "method": "PBE",
+  "basis": "def2-SVP",
+  "solvent": "vacuum",
+  "charge": 0,
+  "multiplicity": 1,
+  "atom_count": 3,
+  "scf_converged": true,
+  "energy_hartree": -76.27201447266717,
+  "dipole_debye": [
+    -4.607067743867152e-16,
+    -9.030097259259063e-15,
+    1.9370024330203657
+  ],
+  "geometry_optimization": "not_run",
+  "minimum_verification": "not_run"
+}

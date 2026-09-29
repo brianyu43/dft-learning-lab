@@ -1,0 +1,14 @@
+{
+  "PropertyTable": {
+    "Properties": [
+      {
+        "CID": 2554,
+        "MolecularFormula": "C15H12N2O",
+        "SMILES": "C1=CC=C2C(=C1)C=CC3=CC=CC=C3N2C(=O)N",
+        "ConnectivitySMILES": "C1=CC=C2C(=C1)C=CC3=CC=CC=C3N2C(=O)N",
+        "InChIKey": "FFGPTBGBLSHEPO-UHFFFAOYSA-N",
+        "IUPACName": "benzo[b][1]benzazepine-11-carboxamide"
+      }
+    ]
+  }
+}

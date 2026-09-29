@@ -1,0 +1,58 @@
+test_complete_minimum (test_research_parser.ParserGates.test_complete_minimum) ... ok
+test_duplicate_mode_indices_rejected (test_research_parser.ParserGates.test_duplicate_mode_indices_rejected) ... ok
+test_incomplete_engine_exit_rejected (test_research_parser.ParserGates.test_incomplete_engine_exit_rejected) ... ok
+test_normal_exit_does_not_imply_opt_convergence (test_research_parser.ParserGates.test_normal_exit_does_not_imply_opt_convergence) ... ok
+test_qe_scf_is_not_relaxation (test_research_parser.ParserGates.test_qe_scf_is_not_relaxation) ... ok
+test_scf_failure_rejected (test_research_parser.ParserGates.test_scf_failure_rejected) ... ok
+test_small_imaginary_mode_is_not_waived (test_research_parser.ParserGates.test_small_imaginary_mode_is_not_waived) ... ok
+test_timeout_or_exit_code_rejected (test_research_parser.ParserGates.test_timeout_or_exit_code_rejected) ... ok
+test_truncated_modes_rejected (test_research_parser.ParserGates.test_truncated_modes_rejected) ... ok
+test_changed_atom_identity_rejected (test_week2_frequency_resume.HessianResumeTests.test_changed_atom_identity_rejected) ... ok
+test_changed_bond_geometry_rejected (test_week2_frequency_resume.HessianResumeTests.test_changed_bond_geometry_rejected) ... ok
+test_incomplete_frequency_log_rejected (test_week2_frequency_resume.HessianResumeTests.test_incomplete_frequency_log_rejected) ... ok
+test_real_hessian_matches_translated_geometry (test_week2_frequency_resume.HessianResumeTests.test_real_hessian_matches_translated_geometry) ... ok
+test_composition_change_detected (test_week2_geometry.GeometryAudit.test_composition_change_detected) ... ok
+test_intended_proton_transfer_is_reported (test_week2_geometry.GeometryAudit.test_intended_proton_transfer_is_reported) ... ok
+test_neutral_state_and_linear_hbond (test_week2_geometry.GeometryAudit.test_neutral_state_and_linear_hbond) ... ok
+test_separated_pair_not_treated_as_bound (test_week2_geometry.GeometryAudit.test_separated_pair_not_treated_as_bound) ... ok
+test_mismatched_lattices_rejected (test_week3_bilayer.BilayerDefinitionTests.test_mismatched_lattices_rejected) ... ok
+test_registry_uses_primitive_vectors_and_vacuum_uses_outer_atoms (test_week3_bilayer.BilayerDefinitionTests.test_registry_uses_primitive_vectors_and_vacuum_uses_outer_atoms) ... FAIL
+test_changed_candidate_metadata_rejected (test_week3_verification.DrugVerification.test_changed_candidate_metadata_rejected) ... ok
+test_mismatched_hessian_geometry_rejected (test_week3_verification.DrugVerification.test_mismatched_hessian_geometry_rejected) ... ok
+test_real_water_monomer_has_no_fragment_separation_field (test_week3_verification.DrugVerification.test_real_water_monomer_has_no_fragment_separation_field) ... ok
+test_real_qe_xml_energy_force_and_pseudo_electrons (test_week3_verification.QEVerification.test_real_qe_xml_energy_force_and_pseudo_electrons) ... ok
+test_wrong_charge_metadata_rejected (test_week3_verification.QEVerification.test_wrong_charge_metadata_rejected) ... ok
+
+======================================================================
+FAIL: test_registry_uses_primitive_vectors_and_vacuum_uses_outer_atoms (test_week3_bilayer.BilayerDefinitionTests.test_registry_uses_primitive_vectors_and_vacuum_uses_outer_atoms)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/xavier/Documents/dev/generaldrugs/dft/tests/test_week3_bilayer.py", line 23, in test_registry_uses_primitive_vectors_and_vacuum_uses_outer_atoms
+    np.testing.assert_allclose(shift.positions[3:]-zero.positions[3:],expected,rtol=0,atol=1e-12)
+  File "/Users/xavier/Documents/dev/generaldrugs/dft/.venv/lib/python3.11/site-packages/numpy/testing/_private/utils.py", line 1768, in assert_allclose
+    assert_array_compare(compare, actual, desired, err_msg=str(err_msg),
+  File "/Users/xavier/Documents/dev/generaldrugs/dft/.venv/lib/python3.11/site-packages/numpy/testing/_private/utils.py", line 983, in assert_array_compare
+    raise AssertionError(msg)
+AssertionError: 
+Not equal to tolerance rtol=0, atol=1e-12
+
+Mismatched elements: 6 / 9 (66.7%)
+First 5 mismatches are at indices:
+ [0, 0]: 4.440892098500626e-16 (ACTUAL), 0.5400000000000001 (DESIRED)
+ [0, 1]: 1.870614872174384 (ACTUAL), 0.935307436087192 (DESIRED)
+ [1, 0]: 4.440892098500626e-16 (ACTUAL), 0.5400000000000001 (DESIRED)
+ [1, 1]: 1.870614872174384 (ACTUAL), 0.935307436087192 (DESIRED)
+ [2, 0]: 4.440892098500626e-16 (ACTUAL), 0.5400000000000001 (DESIRED)
+Max absolute difference among violations: 0.93530744
+Max relative difference among violations: 1.
+ ACTUAL: array([[4.440892e-16, 1.870615e+00, 0.000000e+00],
+       [4.440892e-16, 1.870615e+00, 0.000000e+00],
+       [4.440892e-16, 1.870615e+00, 0.000000e+00]])
+ DESIRED: array([[0.54    , 0.935307, 0.      ],
+       [0.54    , 0.935307, 0.      ],
+       [0.54    , 0.935307, 0.      ]])
+
+----------------------------------------------------------------------
+Ran 24 tests in 0.035s
+
+FAILED (failures=1)

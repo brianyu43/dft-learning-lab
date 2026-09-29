@@ -1,0 +1,38 @@
+{
+  "protocol_id": "dft-pilot-20260909-v1-week3",
+  "week": 3,
+  "task_id": "DR03",
+  "job_id": "w3-diflunisal--diflunisal-p05-refine-r1-common-grid",
+  "engine": "orca",
+  "executable": "scripts/orca_parallel.sh",
+  "input": "inputs/orca/week3/w3-diflunisal--diflunisal-p05-refine-r1-common-grid.inp",
+  "method": "r2SCAN-3c",
+  "charge": 0,
+  "multiplicity": 1,
+  "solvent": "vacuum",
+  "n_atoms": 52,
+  "linear": false,
+  "requested": {
+    "optimization": false,
+    "frequencies": false,
+    "gradient": true
+  },
+  "mpi_processes": 12,
+  "omp_threads": 1,
+  "timeout_seconds": 900,
+  "rss_limit_gib": 40,
+  "assets": {
+    ".tools/orca-mpi/lib/libmpi.40.dylib": "libmpi.40.dylib",
+    ".tools/orca-mpi/lib/libopen-rte.40.dylib": "libopen-rte.40.dylib",
+    ".tools/orca-mpi/lib/libopen-pal.40.dylib": "libopen-pal.40.dylib",
+    ".tools/orca-mpi/lib/libopen-orted-mpir.dylib": "libopen-orted-mpir.dylib",
+    ".tools/orca-mpi/lib/libz.1.dylib": "libz.1.dylib",
+    "structures/week3/drug_initial/w3-diflunisal--diflunisal-p05-refine-r1-common-grid.xyz": "initial.xyz",
+    "reports/w3-diflunisal--diflunisal-p05-refine-r1-opt-freq.json": "provenance/refinement-report.json",
+    "scripts/week3_recovery.py": "provenance/numerical-check-snapshot.py",
+    "experiments/week3/drug/recovery-plan-r1.json": "provenance/recovery-plan-r1.json"
+  },
+  "initial_structure_sha256": "61b7ac6b0221df9b7ad68c5dbdd0daa3f050ae594efd89604f59c93e815b3193",
+  "refinement_job_id": "w3-diflunisal--diflunisal-p05-refine-r1-opt-freq",
+  "purpose": "Original numerical settings on the verified refined geometry; no new pose or independent minimum"
+}

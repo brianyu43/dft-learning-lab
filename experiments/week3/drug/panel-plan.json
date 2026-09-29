@@ -1,0 +1,128 @@
+{
+  "status": "prepared_pending_first_cost_review",
+  "execution_enabled": false,
+  "protocol_id": "dft-pilot-20260909-v1-week3",
+  "first_job": "experiments/week3/drug/w3-diflunisal--caffeine-p14-opt-freq.json",
+  "remaining_jobs": [
+    "experiments/week3/drug/w3-diflunisal--caffeine-p06-opt-freq.json",
+    "experiments/week3/drug/w3-adenine-t06-s89-opt-freq.json",
+    "experiments/week3/drug/w3-theobromine-t00-s89-opt-freq.json",
+    "experiments/week3/drug/w3-xanthine-t00-s17-opt-freq.json",
+    "experiments/week3/drug/w3-diflunisal--diflunisal-p05-opt-freq.json",
+    "experiments/week3/drug/w3-caffeine--caffeine-p19-opt-freq.json",
+    "experiments/week3/drug/w3-diflunisal--adenine-p39-opt-freq.json",
+    "experiments/week3/drug/w3-adenine--adenine-p06-opt-freq.json",
+    "experiments/week3/drug/w3-diflunisal--theobromine-p28-opt-freq.json",
+    "experiments/week3/drug/w3-theobromine--theobromine-p43-opt-freq.json",
+    "experiments/week3/drug/w3-diflunisal--xanthine-p10-opt-freq.json",
+    "experiments/week3/drug/w3-xanthine--xanthine-p27-opt-freq.json",
+    "experiments/week3/drug/w3-diflunisal--adenine-p36-direct-ion-opt-freq.json"
+  ],
+  "new_start_count_including_first": 14,
+  "selections": [
+    {
+      "candidate_id": "adenine-t06-s89",
+      "role": "primary",
+      "species": "adenine"
+    },
+    {
+      "candidate_id": "theobromine-t00-s89",
+      "role": "primary",
+      "species": "theobromine"
+    },
+    {
+      "candidate_id": "xanthine-t00-s17",
+      "role": "primary",
+      "species": "xanthine"
+    },
+    {
+      "candidate_id": "diflunisal--diflunisal-p05",
+      "role": "primary",
+      "species": "diflunisal--diflunisal"
+    },
+    {
+      "candidate_id": "caffeine--caffeine-p19",
+      "role": "primary",
+      "species": "caffeine--caffeine"
+    },
+    {
+      "candidate_id": "diflunisal--adenine-p39",
+      "role": "primary",
+      "species": "diflunisal--adenine"
+    },
+    {
+      "candidate_id": "adenine--adenine-p06",
+      "role": "primary",
+      "species": "adenine--adenine"
+    },
+    {
+      "candidate_id": "diflunisal--theobromine-p28",
+      "role": "primary",
+      "species": "diflunisal--theobromine"
+    },
+    {
+      "candidate_id": "theobromine--theobromine-p43",
+      "role": "primary",
+      "species": "theobromine--theobromine"
+    },
+    {
+      "candidate_id": "diflunisal--xanthine-p10",
+      "role": "primary",
+      "species": "diflunisal--xanthine"
+    },
+    {
+      "candidate_id": "xanthine--xanthine-p27",
+      "role": "primary",
+      "species": "xanthine--xanthine"
+    },
+    {
+      "candidate_id": "diflunisal--caffeine-p06",
+      "role": "literature_contact_COOH_to_N9",
+      "species": "diflunisal--caffeine"
+    },
+    {
+      "candidate_id": "diflunisal--adenine-p36",
+      "direct_initial": true,
+      "role": "literature_N1_proton_transfer_probe",
+      "species": "diflunisal--adenine"
+    }
+  ],
+  "total_drug_budget_hours": 80,
+  "remaining_after_week2_hours": 75.88367425,
+  "first_cost_review": "Use the first uninterrupted 12-process Opt/Freq actual cost before starting the remaining finite panel",
+  "parallelism": {
+    "ORCA_MPI": 12,
+    "ORCA_OpenMP": 1,
+    "QE_OpenMP": 4,
+    "concurrent_engines": 1
+  },
+  "selection_uses_DFT_outcomes": false,
+  "first_cases_known_by_design": true,
+  "characterization_informed_candidates": [
+    "diflunisal--caffeine-p06",
+    "diflunisal--adenine-p36-direct-ion"
+  ],
+  "characterization_scope": "SI spectroscopic hypotheses, not measured atomic crystal coordinates; source-informed retrospective comparison",
+  "candidate_cap": "At most three DFT starts per species including week-two starts. Additional alternatives require budget/state review.",
+  "duplicate_policy": "This bounded panel uses combined Opt/Freq for auditable full-job timing. Record any duplicate Hessian cost; do not count converged equivalent structures as independent minima.",
+  "comparison_policy": "Report primary-only B/X and all-available-pose B/X separately with start counts; uneven pose coverage is not a fair exhaustive ranking.",
+  "missing_states": "Primary panel alone does not cover every ADE/XAN tautomer or every binding motif; follow-up remains conditional.",
+  "frequency_check": "Every reported new minimum requires complete positive internal modes and matching XYZ/Hessian geometry",
+  "input_hashes": {
+    "experiments/week3/drug/w3-diflunisal--caffeine-p14-opt-freq.json": "176f3e4c6de9c5a9bb349bb80af6d2057fb2dc0daf71ec5733be198ebb8551e5",
+    "experiments/week3/drug/w3-diflunisal--caffeine-p06-opt-freq.json": "95002633287ac6ed4379085776e3a24f561a74d62f8a0a803a943e562993882e",
+    "experiments/week3/drug/w3-adenine-t06-s89-opt-freq.json": "b455fcc1d85b8114970bc4b78ef1d3a29fae7920212f2672e735ed0267d34523",
+    "experiments/week3/drug/w3-theobromine-t00-s89-opt-freq.json": "fa7a714e97d866b93780966badfb57c7d93dda34cf563a27a2214d00722ea4a1",
+    "experiments/week3/drug/w3-xanthine-t00-s17-opt-freq.json": "fec5d2a1d5274c346f96b37363bfb38948a3c9b65bb3b41d4a807fad5cbcba61",
+    "experiments/week3/drug/w3-diflunisal--diflunisal-p05-opt-freq.json": "533ae233ba1c11a900264ed2759186d4932650b9c56c5cbc7092b97f02ae0301",
+    "experiments/week3/drug/w3-caffeine--caffeine-p19-opt-freq.json": "e79e635db13650034d29417ea791c9e66e23ea8878bedb09957561c9ed9be1d7",
+    "experiments/week3/drug/w3-diflunisal--adenine-p39-opt-freq.json": "c04626abe4ab7d0f16cfe6e7e52c60071dae6756d5b7fde591fa300d65190f8c",
+    "experiments/week3/drug/w3-adenine--adenine-p06-opt-freq.json": "15527f04243f6161a2474c06b93c8ca797c89ceff92a0d9dca6d37e0470d8889",
+    "experiments/week3/drug/w3-diflunisal--theobromine-p28-opt-freq.json": "1aa8961d0483b553fd500456133a602a00ae4131434036202487ce5c83b2e244",
+    "experiments/week3/drug/w3-theobromine--theobromine-p43-opt-freq.json": "bf96a9e78f99144f14a8eaad80945cf3f9b569b2ae0144d6158e83872e0bc7ed",
+    "experiments/week3/drug/w3-diflunisal--xanthine-p10-opt-freq.json": "4a15e2f2a05cfb9830eb779b1fedfcc33aa58bf28ffb79c051b00a03e4957dbc",
+    "experiments/week3/drug/w3-xanthine--xanthine-p27-opt-freq.json": "0f48a079d7a943d64ef2c5be962bd4601ce5b5827e000c42444b5684375a2bba",
+    "experiments/week3/drug/w3-diflunisal--adenine-p36-direct-ion-opt-freq.json": "e29da60103642cb21f8d42ca4abdb17b2300e753a1beceab373d0da209fba438"
+  },
+  "journal_si_sha256": "684edf33c16e0641481c50d6dcf4eda6af7942f45189f31989d7988c60a2dc0d"
+}

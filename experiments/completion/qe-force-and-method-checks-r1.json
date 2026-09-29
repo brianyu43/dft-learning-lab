@@ -1,0 +1,57 @@
+{
+  "plan_id": "completion-qe-force-and-method-checks-r1",
+  "kind": "qe_force_and_method_compatibility",
+  "execution_enabled": false,
+  "automatic_execution": false,
+  "execution_precondition": "Only after the active controller releases its engine lock and budget is checked",
+  "jobs": [
+    "experiments/completion/qe-checks/w3-qe-bridge-s-minus.json",
+    "experiments/completion/qe-checks/w3-qe-bridge-s-plus.json",
+    "experiments/completion/qe-checks/w3-qe-pbe-d3bj-compatibility.json"
+  ],
+  "input_hashes": {
+    ".tools/src/qe-7.6/Modules/constants.f90": "56c39e90c6f0592aff13972cd090292024a3d4e9e86d0ce4fdfdb5643f1ac1c0",
+    ".tools/src/qe-7.6/PW/Doc/INPUT_PW.def": "2c8416bc529df0110e6dd134ca9f0ee1c1ced93dadab76fd2cbf6fda492859b9",
+    "data/pseudopotentials/pseudo-dojo-nc-sr-04-pbe-standard/Mo.upf": "7a392dee2cc7088d02184ddefa73b709f11e266fdde348a08eeaf8ea2870e448",
+    "data/pseudopotentials/pseudo-dojo-nc-sr-04-pbe-standard/S.upf": "7dcddbca51ad05414445cc784264d39f139300f47897ae96740f49d6ba96daa7",
+    "environment/qe-commit.txt": "47aca73533a297ad672793c1f3a5b628013d4598a040271fde1e633c5c0642de",
+    "experiments/completion/qe-checks/w3-qe-bridge-s-minus.json": "7e92d02407ff86136fb96787389eefe87ed994c3f9e11b24de0c8b09697bed8d",
+    "experiments/completion/qe-checks/w3-qe-bridge-s-plus.json": "3da6abd40dcd235aa0555dde1fb93ba35de1468b4c6874e45c285ee913063fe1",
+    "experiments/completion/qe-checks/w3-qe-pbe-d3bj-compatibility.json": "ce7d2f3f9fb8edd09e5c5eb28abda8237e05c9558443d6363d3e76d7d821eaf6",
+    "inputs/qe/completion/w3-qe-bridge-s-minus.in": "f7c4b955191d997c75af83c729775cb725b161a7f7a75a54ee684948a224ba9d",
+    "inputs/qe/completion/w3-qe-bridge-s-plus.in": "f4ad076b611b23e07baaf51cd8d22afb3a0bf073aa21a307e4da2191d49c47ba",
+    "inputs/qe/completion/w3-qe-pbe-d3bj-compatibility.in": "ab589a8a4175fcab2dcdedf66f9454e9563b2218e22c1ea1b70e885b1580c0f1",
+    "reports/w2-bilayer-selected-r0-d6p3-pair.json": "b4dbdf769d3539ea9f7c4d8583865961726cd394c5e2736ef13b59522d75b423",
+    "reports/w2-mono-combined-c80-k6-v20.json": "119d5849bf973db3d91ca174eb9e83e4718f9eb24fe6bb7aee28c270b332f591",
+    "runs/20260910T110253128266Z-w2-mono-combined-c80-k6-v20/scratch/w2_mono_combined_c80_k6_v20.save/data-file-schema.xml": "780e49d434bbf69f2bee8c63207ad90d68a51bd305c66711ad80f68ea691422c",
+    "runs/20260911T030343672294Z-w2-bilayer-selected-r0-d6p3-pair/scratch/w2_bilayer_selected_r0_d6p3_pair.save/data-file-schema.xml": "7399b24388b31927e63c26dcd51879267c767899f344b7b4b7ecc169b2733a19",
+    "scripts/completion_qe_bridge.py": "fb300aa4a799cdcc57761f95601c14662e5150965fecc9e5f47409e7c0366582",
+    "scripts/prepare_completion_qe_checks.py": "33c63f5711f3b72dce73a67ffbe6bb6ccc729a7104e9428a201c2253ba6aeaa6",
+    "structures/completion/qe-checks/w3-qe-bridge-s-minus.extxyz": "f3d8466602b739d8ea89f841969fcc142a1618a94150232411e272bf8d0aaf83",
+    "structures/completion/qe-checks/w3-qe-bridge-s-plus.extxyz": "43e65348ab2030a890f00b42cf42d8949718fef8698a758e8edac4bc92670143",
+    "structures/completion/qe-checks/w3-qe-pbe-d3bj-compatibility.extxyz": "e12995909282db4a88e8d5bfc778215b490f3fab6873ffd83c35122ddae968cc"
+  },
+  "maximum_total_seconds": 5400,
+  "measured_parent_seconds": {
+    "pair": 133.097,
+    "monolayer": 76.467
+  },
+  "force_check": {
+    "parent_report": "reports/w2-bilayer-selected-r0-d6p3-pair.json",
+    "atom_index": 1,
+    "cartesian_axis": 2,
+    "step_angstrom": 0.002,
+    "center_force_eV_angstrom": -0.22387846850395146,
+    "absolute_force_difference_limit_eV_angstrom": 0.0001,
+    "compare": "- [E(+h)-E(-h)]/(2h) to original XML force",
+    "on_failure": "Review SCF, step-size and force transfer; do not loosen the criterion automatically"
+  },
+  "method_check": {
+    "method": "PBE-D3BJ",
+    "dftd3_version": 4,
+    "dftd3_threebody": true,
+    "expected_xml_and_force_verification": true,
+    "scope": "Runtime option compatibility, not method accuracy or interlayer transfer"
+  },
+  "scientific_completion": false
+}

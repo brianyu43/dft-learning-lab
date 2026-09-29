@@ -1,0 +1,464 @@
+{
+  "protocol_id": "dft-pilot-20260909-v1-week2",
+  "week": 2,
+  "job_id": "w2-caffeine-opt-freq",
+  "task_id": "DR01",
+  "engine": "orca",
+  "executable": ".tools/orca-6.1.1/orca",
+  "input": "inputs/orca/week2/w2-caffeine-opt-freq.inp",
+  "method": "r2SCAN-3c",
+  "purpose": "First cost and minimum verification; one selected starting geometry, not four-case ranking",
+  "charge": 0,
+  "multiplicity": 1,
+  "n_atoms": 24,
+  "linear": false,
+  "solvent": "vacuum",
+  "requested": {
+    "optimization": true,
+    "frequencies": true
+  },
+  "timeout_seconds": 43200,
+  "rss_limit_gib": 40,
+  "omp_threads": 1,
+  "selected_candidate_id": "caffeine-t00-s17",
+  "parent_run_id": "runs/week2-xtb-monomers/caffeine-t00-s17",
+  "selection_rule": "lowest valid GFN2-xTB geometry; fixed chemical state for monomers; retained composition/connectivity and no separation for dimer",
+  "selection_uses_outcome_labels": false,
+  "selection_label_scope": "geometry ranking within preselected chemical species only",
+  "first_cost_pair_is_known_positive_by_design": true,
+  "initial_structure_sha256": "7f8f52050ae182626e8f83c0ad61da8b2c07af19aed005c7b2a148702e343736",
+  "initial_geometry_audit": {
+    "status": "geometry_checked",
+    "heavy_connectivity_preserved": true,
+    "lost_heavy_bonds": [],
+    "new_heavy_bonds": [],
+    "hydrogen_owner_changes": [],
+    "unassigned_hydrogens": [],
+    "chemical_state_preserved_by_geometry": true
+  },
+  "started_at": "2026-09-10T11:25:11.816687+00:00",
+  "status": "passed",
+  "run_dir": "/Users/xavier/Documents/dev/generaldrugs/dft/runs/20260910T112511815628Z-w2-caffeine-opt-freq",
+  "config_sha256": "12f299f4560112e0297bb4527923c348a6dff86159c5523fb799a7a62e2bf010",
+  "source_sha256": {
+    "inputs/orca/week2/w2-caffeine-opt-freq.inp": "c2bbbc8e8e72b4c27bd29e6d85b478d609a14f12e004f91f55c46736b621f237"
+  },
+  "executable_sha256": "ae760c7b81d474cdf4d9f249b50f7c9cde40b402b1d85ef4213a817bdee1400a",
+  "command": [
+    "/Users/xavier/Documents/dev/generaldrugs/dft/.tools/orca-6.1.1/orca",
+    "w2-caffeine-opt-freq.inp"
+  ],
+  "runner_sha256": "e276ab1aa4ddc435d0a3aceec06b27445f6a6c1263f101009d5de14e6cc70cf6",
+  "stop_reason": null,
+  "thread_environment": {
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "VECLIB_MAXIMUM_THREADS": "1"
+  },
+  "pid": 49096,
+  "engine_launched": true,
+  "ended_at": "2026-09-10T11:43:17.561452+00:00",
+  "elapsed_seconds": 1085.696,
+  "exit_code": 0,
+  "peak_sampled_process_tree_rss_bytes": 1335099392,
+  "memory_samples": 2102,
+  "memory_access_denied": 0,
+  "max_single_child_rss_bytes": 1186496512,
+  "system_swap_increase_peak_bytes": 0,
+  "memory_measurement": "0.5s sampled summed process-tree RSS; may double-count shared pages and miss peaks. OS ru_maxrss is maximum single-child RSS in macOS bytes. Swap is system-wide, not attributable solely to this job.",
+  "output_sha256": "c9260ca1dce463dbe26623bd00b7e0f99987b6efb4a38eefbc28e9e7a35c6c96",
+  "result": {
+    "engine_version": "6.1.1",
+    "normal_termination": true,
+    "scf_converged": true,
+    "geometry_optimization_converged": true,
+    "energy": -680.243848297613,
+    "energy_unit": "Hartree",
+    "energy_history": [
+      -680.241057200802,
+      -680.243625982262,
+      -680.243814031338,
+      -680.243842768573,
+      -680.243847328003,
+      -680.243848097518,
+      -680.243848212917,
+      -680.243848297613
+    ],
+    "frequencies_cm1": [
+      56.18,
+      87.07,
+      95.25,
+      109.37,
+      123.01,
+      138.89,
+      165.08,
+      210.86,
+      213.23,
+      261.72,
+      305.51,
+      358.94,
+      363.86,
+      394.67,
+      425.97,
+      446.51,
+      485.53,
+      554.63,
+      613.22,
+      648.47,
+      697.68,
+      735.68,
+      750.99,
+      764.61,
+      809.05,
+      812.1,
+      938.62,
+      986.81,
+      1029.8,
+      1069.13,
+      1083.01,
+      1145.04,
+      1149.55,
+      1151.27,
+      1210.47,
+      1225.22,
+      1254.61,
+      1262.74,
+      1301.78,
+      1344.85,
+      1374.34,
+      1400.37,
+      1428.36,
+      1441.62,
+      1449.78,
+      1466.84,
+      1483.27,
+      1483.65,
+      1486.24,
+      1497.74,
+      1501.23,
+      1517.48,
+      1571.64,
+      1622.8,
+      1714.31,
+      1753.16,
+      3029.23,
+      3034.02,
+      3037.67,
+      3103.32,
+      3114.1,
+      3121.96,
+      3135.16,
+      3162.3,
+      3163.86,
+      3228.14
+    ],
+    "all_reported_modes_cm1": [
+      [
+        0,
+        0.0
+      ],
+      [
+        1,
+        0.0
+      ],
+      [
+        2,
+        0.0
+      ],
+      [
+        3,
+        0.0
+      ],
+      [
+        4,
+        0.0
+      ],
+      [
+        5,
+        0.0
+      ],
+      [
+        6,
+        56.18
+      ],
+      [
+        7,
+        87.07
+      ],
+      [
+        8,
+        95.25
+      ],
+      [
+        9,
+        109.37
+      ],
+      [
+        10,
+        123.01
+      ],
+      [
+        11,
+        138.89
+      ],
+      [
+        12,
+        165.08
+      ],
+      [
+        13,
+        210.86
+      ],
+      [
+        14,
+        213.23
+      ],
+      [
+        15,
+        261.72
+      ],
+      [
+        16,
+        305.51
+      ],
+      [
+        17,
+        358.94
+      ],
+      [
+        18,
+        363.86
+      ],
+      [
+        19,
+        394.67
+      ],
+      [
+        20,
+        425.97
+      ],
+      [
+        21,
+        446.51
+      ],
+      [
+        22,
+        485.53
+      ],
+      [
+        23,
+        554.63
+      ],
+      [
+        24,
+        613.22
+      ],
+      [
+        25,
+        648.47
+      ],
+      [
+        26,
+        697.68
+      ],
+      [
+        27,
+        735.68
+      ],
+      [
+        28,
+        750.99
+      ],
+      [
+        29,
+        764.61
+      ],
+      [
+        30,
+        809.05
+      ],
+      [
+        31,
+        812.1
+      ],
+      [
+        32,
+        938.62
+      ],
+      [
+        33,
+        986.81
+      ],
+      [
+        34,
+        1029.8
+      ],
+      [
+        35,
+        1069.13
+      ],
+      [
+        36,
+        1083.01
+      ],
+      [
+        37,
+        1145.04
+      ],
+      [
+        38,
+        1149.55
+      ],
+      [
+        39,
+        1151.27
+      ],
+      [
+        40,
+        1210.47
+      ],
+      [
+        41,
+        1225.22
+      ],
+      [
+        42,
+        1254.61
+      ],
+      [
+        43,
+        1262.74
+      ],
+      [
+        44,
+        1301.78
+      ],
+      [
+        45,
+        1344.85
+      ],
+      [
+        46,
+        1374.34
+      ],
+      [
+        47,
+        1400.37
+      ],
+      [
+        48,
+        1428.36
+      ],
+      [
+        49,
+        1441.62
+      ],
+      [
+        50,
+        1449.78
+      ],
+      [
+        51,
+        1466.84
+      ],
+      [
+        52,
+        1483.27
+      ],
+      [
+        53,
+        1483.65
+      ],
+      [
+        54,
+        1486.24
+      ],
+      [
+        55,
+        1497.74
+      ],
+      [
+        56,
+        1501.23
+      ],
+      [
+        57,
+        1517.48
+      ],
+      [
+        58,
+        1571.64
+      ],
+      [
+        59,
+        1622.8
+      ],
+      [
+        60,
+        1714.31
+      ],
+      [
+        61,
+        1753.16
+      ],
+      [
+        62,
+        3029.23
+      ],
+      [
+        63,
+        3034.02
+      ],
+      [
+        64,
+        3037.67
+      ],
+      [
+        65,
+        3103.32
+      ],
+      [
+        66,
+        3114.1
+      ],
+      [
+        67,
+        3121.96
+      ],
+      [
+        68,
+        3135.16
+      ],
+      [
+        69,
+        3162.3
+      ],
+      [
+        70,
+        3163.86
+      ],
+      [
+        71,
+        3228.14
+      ]
+    ],
+    "frequency_count_expected": 66,
+    "frequency_count_observed": 66,
+    "projected_external_modes_verified": true,
+    "imaginary_frequencies_cm1": [],
+    "lowest_vibrational_frequency_cm1": 56.18,
+    "minimum_verified": true,
+    "frequency_analysis_complete": true,
+    "optimization_cycles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "status": "passed"
+  }
+}

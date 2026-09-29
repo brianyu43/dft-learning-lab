@@ -1,0 +1,13 @@
+{
+  "candidate_id": "diflunisal--caffeine-p36",
+  "contacts": [
+    {
+      "donor": 17,
+      "H": 25,
+      "possible_acceptor": 39,
+      "H_Y_angstrom": 2.580985228671425,
+      "X_H_Y_angle_degrees": 112.6599623365926
+    }
+  ],
+  "scope": "Geometry distances only; chemical acceptor identity and DFT stability not assumed"
+}

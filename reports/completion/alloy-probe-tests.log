@@ -1,0 +1,13 @@
+/Users/xavier/Documents/dev/generaldrugs/dft/.venv/lib/python3.11/site-packages/spglib/spg.py:354: DeprecationWarning: Set OLD_ERROR_HANDLING to false and catch the errors directly.
+  _set_no_error()
+test_all_components_preserve_actual_pair_indices_and_cell (test_completion_alloy_probe.AlloyProbeTests.test_all_components_preserve_actual_pair_indices_and_cell) ... ok
+test_passed_flag_alone_is_not_accepted_as_evidence (test_completion_alloy_probe.AlloyProbeTests.test_passed_flag_alone_is_not_accepted_as_evidence) ... ok
+test_reuse_exactly_matches_identity_without_centering_or_tolerance (test_completion_alloy_probe.AlloyProbeTests.test_reuse_exactly_matches_identity_without_centering_or_tolerance) ... ok
+test_serialized_qe_pair_and_layers_keep_identical_conditions (test_completion_alloy_probe.AlloyProbeTests.test_serialized_qe_pair_and_layers_keep_identical_conditions) ... ok
+test_unfinished_reference_cannot_write_production_inputs (test_completion_alloy_probe.AlloyProbeTests.test_unfinished_reference_cannot_write_production_inputs) ... ok
+test_unweakened_supercell_k_spacing_and_unreviewed_setting_rejection (test_completion_alloy_probe.AlloyProbeTests.test_unweakened_supercell_k_spacing_and_unreviewed_setting_rejection) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.062s
+
+OK

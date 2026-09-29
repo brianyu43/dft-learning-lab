@@ -1,0 +1,5 @@
+case_id,coformer,experimental,DeepCocrystal_mean,DeepCocrystal_sd,DeepCocrystal,SMI-CNN(can),CCGNet,CC-Descriptor-ML,Fingerprint-DNN,Descriptor-DNN,MC,HBP,A_HBD,A_HBA,B_HBD,B_HBA,at_least_one_cross_donor_acceptor_direction,DFT_B_kcal_mol,DFT_X_kcal_mol,DFT_score_status
+D01,adenine,positive,0.99,0.0,positive,positive,positive,positive,positive,positive,negative,negative,2,2,2,4,True,,,not_assembled; common numerical protocol and full control panel pending
+D02,caffeine,positive,0.99,0.01,positive,positive,negative,positive,positive,positive,positive,negative,2,2,0,3,True,,,not_assembled; common numerical protocol and full control panel pending
+D03,theobromine,negative,0.66,0.35,abstain,positive,negative,positive,positive,positive,negative,negative,2,2,1,3,True,,,not_assembled; common numerical protocol and full control panel pending
+D04,xanthine,negative,0.63,0.38,abstain,positive,positive,positive,negative,positive,negative,negative,2,2,3,3,True,,,not_assembled; common numerical protocol and full control panel pending

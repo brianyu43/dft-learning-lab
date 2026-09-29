@@ -1,0 +1,86 @@
+{
+  "protocol_id": "week2-parallel-performance-extension",
+  "week": 2,
+  "job_id": "p2-water-n2-r0",
+  "task_id": "PERF2",
+  "engine": "orca",
+  "executable": "scripts/orca_parallel.sh",
+  "input": "inputs/orca/week2/p2-water-n2-r0.inp",
+  "method": "r2SCAN-3c",
+  "charge": 0,
+  "multiplicity": 1,
+  "solvent": "vacuum",
+  "n_atoms": 3,
+  "linear": false,
+  "requested": {
+    "optimization": true,
+    "frequencies": true,
+    "gradient": true
+  },
+  "timeout_seconds": 900,
+  "rss_limit_gib": 40,
+  "omp_threads": 1,
+  "mpi_processes": 2,
+  "benchmark_repeat": 0,
+  "geometry_source": "structures/optimized/week1/water.xyz",
+  "geometry_source_sha256": "1973f7491286efaa83d078ec648d745c56ed9e9d37be1216043d9be4da1865c4",
+  "purpose": "Water MPI Opt/Freq backend smoke",
+  "assets": {
+    "environment/orca-mpi-explicit.txt": "provenance/orca-mpi-explicit.txt"
+  },
+  "started_at": "2026-09-11T02:27:03.938357+00:00",
+  "status": "needs_review",
+  "run_dir": "/Users/xavier/Documents/dev/generaldrugs/dft/runs/20260911T022703937194Z-p2-water-n2-r0",
+  "config_sha256": "212c6350629949c6420bcdb63e91473f70e9de4041ef5b8bd220040781dec5d2",
+  "source_sha256": {
+    "inputs/orca/week2/p2-water-n2-r0.inp": "fd734baa2f29fbb20174aef8606d863eecc67aa1a94b6db3a2d481e5fca703ef",
+    "environment/orca-mpi-explicit.txt": "fb1bbeb3dbc7fe7d832832dee42715f8d02c6a4e539c1d7733c3060e67749c19"
+  },
+  "executable_sha256": "3dccb38bdd68fe054b55e1456b2168b8df6811a92f612afb707c5fa70458dda8",
+  "command": [
+    "/Users/xavier/Documents/dev/generaldrugs/dft/scripts/orca_parallel.sh",
+    "p2-water-n2-r0.inp"
+  ],
+  "runner_sha256": "e276ab1aa4ddc435d0a3aceec06b27445f6a6c1263f101009d5de14e6cc70cf6",
+  "stop_reason": null,
+  "thread_environment": {
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "VECLIB_MAXIMUM_THREADS": "1"
+  },
+  "pid": 61327,
+  "engine_launched": true,
+  "ended_at": "2026-09-11T02:27:11.235863+00:00",
+  "elapsed_seconds": 7.297,
+  "exit_code": 0,
+  "peak_sampled_process_tree_rss_bytes": 155287552,
+  "memory_samples": 14,
+  "memory_access_denied": 0,
+  "max_single_child_rss_bytes": 143130624,
+  "system_swap_increase_peak_bytes": 0,
+  "memory_measurement": "0.5s sampled summed process-tree RSS; may double-count shared pages and miss peaks. OS ru_maxrss is maximum single-child RSS in macOS bytes. Swap is system-wide, not attributable solely to this job.",
+  "output_sha256": "f22f84f68530752779fcda2fcd34e5b408087a7f6d67dc722f2e1bae40de81ed",
+  "result": {
+    "engine_version": "6.1.1",
+    "normal_termination": false,
+    "scf_converged": false,
+    "geometry_optimization_converged": false,
+    "energy": null,
+    "energy_unit": "Hartree",
+    "energy_history": [],
+    "frequencies_cm1": [],
+    "all_reported_modes_cm1": [],
+    "frequency_count_expected": 3,
+    "frequency_count_observed": 0,
+    "projected_external_modes_verified": false,
+    "imaginary_frequencies_cm1": [],
+    "lowest_vibrational_frequency_cm1": null,
+    "minimum_verified": false,
+    "frequency_analysis_complete": false,
+    "optimization_cycles": [
+      1
+    ],
+    "status": "needs_review"
+  }
+}

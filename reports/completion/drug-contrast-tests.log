@@ -1,0 +1,14 @@
+test_analytic_binding_and_self_competition (test_completion_drug_contrasts.DrugContrasts.test_analytic_binding_and_self_competition) ... ok
+test_context_mixing_is_rejected (test_completion_drug_contrasts.DrugContrasts.test_context_mixing_is_rejected) ... ok
+test_independent_species_reference_shifts_cancel (test_completion_drug_contrasts.DrugContrasts.test_independent_species_reference_shifts_cancel) ... ok
+test_missing_self_control_is_unknown_not_zero_or_negative_prediction (test_completion_drug_contrasts.DrugContrasts.test_missing_self_control_is_unknown_not_zero_or_negative_prediction) ... ok
+test_nonfinite_and_boolean_energies_rejected (test_completion_drug_contrasts.DrugContrasts.test_nonfinite_and_boolean_energies_rejected) ... ok
+test_primary_scope_does_not_absorb_added_pose (test_completion_drug_contrasts.DrugContrasts.test_primary_scope_does_not_absorb_added_pose) ... ok
+test_real_archived_fixed_geometry_diagnostic_binding (test_completion_drug_contrasts.DrugContrasts.test_real_archived_fixed_geometry_diagnostic_binding) ... ok
+test_shared_dif_self_reference_shifts_all_X_equally (test_completion_drug_contrasts.DrugContrasts.test_shared_dif_self_reference_shifts_all_X_equally) ... ok
+test_tie_boundaries_and_missing_differences (test_completion_drug_contrasts.DrugContrasts.test_tie_boundaries_and_missing_differences) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.001s
+
+OK

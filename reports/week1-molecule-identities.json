@@ -1,0 +1,409 @@
+{
+  "rdkit_version": "2026.03.6",
+  "protocol_id": "dft-pilot-20260909-v1",
+  "seeds": [
+    17,
+    43,
+    89
+  ],
+  "molecules": [
+    {
+      "name": "diflunisal",
+      "pubchem_cid": 3059,
+      "pubchem_url": "https://pubchem.ncbi.nlm.nih.gov/compound/3059",
+      "source_path": "data/literature/week1/pubchem/diflunisal.json",
+      "source_sha256": "f7f19723c38c384c86077d5af3a99a9c5b007fa07203fe00fb37d498550fb251",
+      "formula": "C13H8F2O3",
+      "InChIKey": "HUPFGZXOMWLGNK-UHFFFAOYSA-N",
+      "pubchem_state_smiles": "O=C(O)c1cc(-c2ccc(F)cc2F)ccc1O",
+      "n_atoms_including_hydrogen": 26,
+      "charge": 0,
+      "multiplicity": 1,
+      "identity_checks": "passed",
+      "tautomer_count": 4,
+      "tautomer_inventory": [
+        {
+          "state_id": "diflunisal-t00",
+          "smiles": "O=C(O)C1=CC(c2ccc(F)cc2F)=CCC1=O",
+          "is_pubchem_representation": false,
+          "status": "unreviewed_candidate_not_DFT_selected"
+        },
+        {
+          "state_id": "diflunisal-t01",
+          "smiles": "O=C(O)C1C=C(c2ccc(F)cc2F)C=CC1=O",
+          "is_pubchem_representation": false,
+          "status": "unreviewed_candidate_not_DFT_selected"
+        },
+        {
+          "state_id": "diflunisal-t02",
+          "smiles": "O=C(O)c1cc(-c2ccc(F)cc2F)ccc1O",
+          "is_pubchem_representation": true,
+          "status": "unreviewed_candidate_not_DFT_selected"
+        },
+        {
+          "state_id": "diflunisal-t03",
+          "smiles": "O=C1C=CC(c2ccc(F)cc2F)=CC1=C(O)O",
+          "is_pubchem_representation": false,
+          "status": "unreviewed_candidate_not_DFT_selected"
+        }
+      ],
+      "initial_geometries": [
+        {
+          "seed": 17,
+          "path": "structures/week1/diflunisal-pubchem-seed17.xyz",
+          "sha256": "8f97b2f3f910afaca01ad5bd73f5276c7701e8eacb253390daf6ad2799a77616",
+          "MMFF_energy_kcal_mol": 21.087565250642715,
+          "MMFF_status": 0
+        },
+        {
+          "seed": 43,
+          "path": "structures/week1/diflunisal-pubchem-seed43.xyz",
+          "sha256": "57cbae896f9de5ba56fab483b8cc8de9993199b3dddc45f886ef9e6ee2d293bc",
+          "MMFF_energy_kcal_mol": 21.72924180983881,
+          "MMFF_status": 0
+        },
+        {
+          "seed": 89,
+          "path": "structures/week1/diflunisal-pubchem-seed89.xyz",
+          "sha256": "adc6e2abb010ad1216f79a13cffb794ccbe62dea81ef39e2329f7c287da289cd",
+          "MMFF_energy_kcal_mol": 30.253965290711246,
+          "MMFF_status": 0
+        }
+      ],
+      "DFT_state_selection": "pending_chemical_review",
+      "claim_scope": "identity and starting geometry only; no DFT energy, conformer population, crystal phase, or tautomer population measured"
+    },
+    {
+      "name": "adenine",
+      "pubchem_cid": 190,
+      "pubchem_url": "https://pubchem.ncbi.nlm.nih.gov/compound/190",
+      "source_path": "data/literature/week1/pubchem/adenine.json",
+      "source_sha256": "cfb37b674d5fdef51344d4d4ed58b3d9f618393ddca726e073f84cd4244f4ca1",
+      "formula": "C5H5N5",
+      "InChIKey": "GFFGJBXGBJISGV-UHFFFAOYSA-N",
+      "pubchem_state_smiles": "Nc1ncnc2nc[nH]c12",
+      "n_atoms_including_hydrogen": 15,
+      "charge": 0,
+      "multiplicity": 1,
+      "identity_checks": "passed",
+      "tautomer_count": 8,
+      "tautomer_inventory": [
+        {
+          "state_id": "adenine-t00",
+          "smiles": "N=c1[nH]cnc2[nH]cnc12",
+          "is_pubchem_representation": false,
+          "status": "unreviewed_candidate_not_DFT_selected"
+        },
+        {
+          "state_id": "adenine-t01",
+          "smiles": "N=c1[nH]cnc2nc[nH]c12",
+          "is_pubchem_representation": false,
+          "status": "unreviewed_candidate_not_DFT_selected"
+        },
+        {
+          "state_id": "adenine-t02",
+          "smiles": "N=c1nc[nH]c2[nH]cnc12",
+          "is_pubchem_representation": false,
+          "status": "unreviewed_candidate_not_DFT_selected"
+        },
+        {
+          "state_id": "adenine-t03",
+          "smiles": "N=c1nc[nH]c2nc[nH]c12",
+          "is_pubchem_representation": false,
+          "status": "unreviewed_candidate_not_DFT_selected"
+        },
+        {
+          "state_id": "adenine-t04",
+          "smiles": "Nc1[nH]cnc2ncnc1-2",
+          "is_pubchem_representation": false,
+          "status": "unreviewed_candidate_not_DFT_selected"
+        },
+        {
+          "state_id": "adenine-t05",
+          "smiles": "Nc1nc[nH]c2ncnc1-2",
+          "is_pubchem_representation": false,
+          "status": "unreviewed_candidate_not_DFT_selected"
+        },
+        {
+          "state_id": "adenine-t06",
+          "smiles": "Nc1ncnc2[nH]cnc12",
+          "is_pubchem_representation": false,
+          "status": "unreviewed_candidate_not_DFT_selected"
+        },
+        {
+          "state_id": "adenine-t07",
+          "smiles": "Nc1ncnc2nc[nH]c12",
+          "is_pubchem_representation": true,
+          "status": "unreviewed_candidate_not_DFT_selected"
+        }
+      ],
+      "initial_geometries": [
+        {
+          "seed": 17,
+          "path": "structures/week1/adenine-pubchem-seed17.xyz",
+          "sha256": "048ed0e9bea07c195e7314bc5de32c5b3b7c52e02f74472d8883a553f2cd8517",
+          "MMFF_energy_kcal_mol": -84.233639995083,
+          "MMFF_status": 0
+        },
+        {
+          "seed": 43,
+          "path": "structures/week1/adenine-pubchem-seed43.xyz",
+          "sha256": "9fecd5f7f8f7ade93a416b24dbf3d8082571a7760ec638d3f6ec4601e5ff8c3c",
+          "MMFF_energy_kcal_mol": -84.23363997033435,
+          "MMFF_status": 0
+        },
+        {
+          "seed": 89,
+          "path": "structures/week1/adenine-pubchem-seed89.xyz",
+          "sha256": "e5ae82283a2c862e9efbbce4109d8ae0fe3a2be3e8df21b69dd56c831dd3de70",
+          "MMFF_energy_kcal_mol": -84.23363991446821,
+          "MMFF_status": 0
+        }
+      ],
+      "DFT_state_selection": "pending_chemical_review",
+      "claim_scope": "identity and starting geometry only; no DFT energy, conformer population, crystal phase, or tautomer population measured"
+    },
+    {
+      "name": "caffeine",
+      "pubchem_cid": 2519,
+      "pubchem_url": "https://pubchem.ncbi.nlm.nih.gov/compound/2519",
+      "source_path": "data/literature/week1/pubchem/caffeine.json",
+      "source_sha256": "8f0757fcbdbbed7fbc25fff18aedcef10205f318b37dbc218d5e6125aff5e159",
+      "formula": "C8H10N4O2",
+      "InChIKey": "RYYVLZVUVIJVGH-UHFFFAOYSA-N",
+      "pubchem_state_smiles": "Cn1c(=O)c2c(ncn2C)n(C)c1=O",
+      "n_atoms_including_hydrogen": 24,
+      "charge": 0,
+      "multiplicity": 1,
+      "identity_checks": "passed",
+      "tautomer_count": 1,
+      "tautomer_inventory": [
+        {
+          "state_id": "caffeine-t00",
+          "smiles": "Cn1c(=O)c2c(ncn2C)n(C)c1=O",
+          "is_pubchem_representation": true,
+          "status": "unreviewed_candidate_not_DFT_selected"
+        }
+      ],
+      "initial_geometries": [
+        {
+          "seed": 17,
+          "path": "structures/week1/caffeine-pubchem-seed17.xyz",
+          "sha256": "7ff8aad8726da457bfac6cc7a2fd2fcb07593263c1b937e404eee1a0d6a8c664",
+          "MMFF_energy_kcal_mol": -122.52840951995944,
+          "MMFF_status": 0
+        },
+        {
+          "seed": 43,
+          "path": "structures/week1/caffeine-pubchem-seed43.xyz",
+          "sha256": "92502fa722cf8c94aad0ea71324a2d9b8183a61186355d05c7ab6c171e45455f",
+          "MMFF_energy_kcal_mol": -122.52841024558329,
+          "MMFF_status": 0
+        },
+        {
+          "seed": 89,
+          "path": "structures/week1/caffeine-pubchem-seed89.xyz",
+          "sha256": "bd16ab5b2c930c57f4d5e96038524b97a70b10c3c9e12ae34f76db3016e0489f",
+          "MMFF_energy_kcal_mol": -122.5283978606255,
+          "MMFF_status": 0
+        }
+      ],
+      "DFT_state_selection": "pending_chemical_review",
+      "claim_scope": "identity and starting geometry only; no DFT energy, conformer population, crystal phase, or tautomer population measured"
+    },
+    {
+      "name": "theobromine",
+      "pubchem_cid": 5429,
+      "pubchem_url": "https://pubchem.ncbi.nlm.nih.gov/compound/5429",
+      "source_path": "data/literature/week1/pubchem/theobromine.json",
+      "source_sha256": "8e94030c7f08b9ac2e5ef4d9588bd95d218f4e8ed763327edd1d0317bd5079e5",
+      "formula": "C7H8N4O2",
+      "InChIKey": "YAPQBXQYLJRXSA-UHFFFAOYSA-N",
+      "pubchem_state_smiles": "Cn1cnc2c1c(=O)[nH]c(=O)n2C",
+      "n_atoms_including_hydrogen": 21,
+      "charge": 0,
+      "multiplicity": 1,
+      "identity_checks": "passed",
+      "tautomer_count": 3,
+      "tautomer_inventory": [
+        {
+          "state_id": "theobromine-t00",
+          "smiles": "Cn1cnc2c1c(=O)[nH]c(=O)n2C",
+          "is_pubchem_representation": true,
+          "status": "unreviewed_candidate_not_DFT_selected"
+        },
+        {
+          "state_id": "theobromine-t01",
+          "smiles": "Cn1cnc2c1c(=O)nc(O)n2C",
+          "is_pubchem_representation": false,
+          "status": "unreviewed_candidate_not_DFT_selected"
+        },
+        {
+          "state_id": "theobromine-t02",
+          "smiles": "Cn1cnc2c1c(O)nc(=O)n2C",
+          "is_pubchem_representation": false,
+          "status": "unreviewed_candidate_not_DFT_selected"
+        }
+      ],
+      "initial_geometries": [
+        {
+          "seed": 17,
+          "path": "structures/week1/theobromine-pubchem-seed17.xyz",
+          "sha256": "6afaf8bf9fe48f449100ca766f7d8eef7f52ed4a0e5e6675dd3ab3dca76fafc3",
+          "MMFF_energy_kcal_mol": -138.6021404712345,
+          "MMFF_status": 0
+        },
+        {
+          "seed": 43,
+          "path": "structures/week1/theobromine-pubchem-seed43.xyz",
+          "sha256": "b2a96bcf57aa9cbf17acbd2f3d6334ef7e0ac6fc9d7bf205f549324fadbe50b1",
+          "MMFF_energy_kcal_mol": -138.60214027236665,
+          "MMFF_status": 0
+        },
+        {
+          "seed": 89,
+          "path": "structures/week1/theobromine-pubchem-seed89.xyz",
+          "sha256": "fd5f750df102b21c7d7881993caf6f0b2ee55de289afac5116c226da9fb0b792",
+          "MMFF_energy_kcal_mol": -138.60214045121643,
+          "MMFF_status": 0
+        }
+      ],
+      "DFT_state_selection": "pending_chemical_review",
+      "claim_scope": "identity and starting geometry only; no DFT energy, conformer population, crystal phase, or tautomer population measured"
+    },
+    {
+      "name": "xanthine",
+      "pubchem_cid": 1188,
+      "pubchem_url": "https://pubchem.ncbi.nlm.nih.gov/compound/1188",
+      "source_path": "data/literature/week1/pubchem/xanthine.json",
+      "source_sha256": "d5d529a1baebadc7bc5e1815406718cf35c0e50d27229d41e412334137542e86",
+      "formula": "C5H4N4O2",
+      "InChIKey": "LRFVTYWOQMYALW-UHFFFAOYSA-N",
+      "pubchem_state_smiles": "O=c1[nH]c(=O)c2[nH]cnc2[nH]1",
+      "n_atoms_including_hydrogen": 15,
+      "charge": 0,
+      "multiplicity": 1,
+      "identity_checks": "passed",
+      "tautomer_count": 15,
+      "tautomer_inventory": [
+        {
+          "state_id": "xanthine-t00",
+          "smiles": "O=c1[nH]c(=O)c2[nH]cnc2[nH]1",
+          "is_pubchem_representation": true,
+          "status": "unreviewed_candidate_not_DFT_selected"
+        },
+        {
+          "state_id": "xanthine-t01",
+          "smiles": "O=c1[nH]c(=O)c2nc[nH]c2[nH]1",
+          "is_pubchem_representation": false,
+          "status": "unreviewed_candidate_not_DFT_selected"
+        },
+        {
+          "state_id": "xanthine-t02",
+          "smiles": "O=c1[nH]c(O)nc2[nH]cnc12",
+          "is_pubchem_representation": false,
+          "status": "unreviewed_candidate_not_DFT_selected"
+        },
+        {
+          "state_id": "xanthine-t03",
+          "smiles": "O=c1[nH]c(O)nc2nc[nH]c12",
+          "is_pubchem_representation": false,
+          "status": "unreviewed_candidate_not_DFT_selected"
+        },
+        {
+          "state_id": "xanthine-t04",
+          "smiles": "O=c1[nH]c2ncnc-2c(O)[nH]1",
+          "is_pubchem_representation": false,
+          "status": "unreviewed_candidate_not_DFT_selected"
+        },
+        {
+          "state_id": "xanthine-t05",
+          "smiles": "O=c1nc(O)[nH]c2[nH]cnc12",
+          "is_pubchem_representation": false,
+          "status": "unreviewed_candidate_not_DFT_selected"
+        },
+        {
+          "state_id": "xanthine-t06",
+          "smiles": "O=c1nc(O)[nH]c2nc[nH]c12",
+          "is_pubchem_representation": false,
+          "status": "unreviewed_candidate_not_DFT_selected"
+        },
+        {
+          "state_id": "xanthine-t07",
+          "smiles": "O=c1nc(O)c2[nH]cnc2[nH]1",
+          "is_pubchem_representation": false,
+          "status": "unreviewed_candidate_not_DFT_selected"
+        },
+        {
+          "state_id": "xanthine-t08",
+          "smiles": "O=c1nc(O)c2nc[nH]c2[nH]1",
+          "is_pubchem_representation": false,
+          "status": "unreviewed_candidate_not_DFT_selected"
+        },
+        {
+          "state_id": "xanthine-t09",
+          "smiles": "O=c1nc2[nH]cnc2c(O)[nH]1",
+          "is_pubchem_representation": false,
+          "status": "unreviewed_candidate_not_DFT_selected"
+        },
+        {
+          "state_id": "xanthine-t10",
+          "smiles": "O=c1nc2nc[nH]c2c(O)[nH]1",
+          "is_pubchem_representation": false,
+          "status": "unreviewed_candidate_not_DFT_selected"
+        },
+        {
+          "state_id": "xanthine-t11",
+          "smiles": "Oc1nc(O)c2[nH]cnc2n1",
+          "is_pubchem_representation": false,
+          "status": "unreviewed_candidate_not_DFT_selected"
+        },
+        {
+          "state_id": "xanthine-t12",
+          "smiles": "Oc1nc(O)c2nc[nH]c2n1",
+          "is_pubchem_representation": false,
+          "status": "unreviewed_candidate_not_DFT_selected"
+        },
+        {
+          "state_id": "xanthine-t13",
+          "smiles": "Oc1nc(O)c2ncnc-2[nH]1",
+          "is_pubchem_representation": false,
+          "status": "unreviewed_candidate_not_DFT_selected"
+        },
+        {
+          "state_id": "xanthine-t14",
+          "smiles": "Oc1nc2ncnc-2c(O)[nH]1",
+          "is_pubchem_representation": false,
+          "status": "unreviewed_candidate_not_DFT_selected"
+        }
+      ],
+      "initial_geometries": [
+        {
+          "seed": 17,
+          "path": "structures/week1/xanthine-pubchem-seed17.xyz",
+          "sha256": "3c21fe9b26fb6ada390090ec64cc121151d002d1ed6ccec7f6409fb6746ef9da",
+          "MMFF_energy_kcal_mol": -156.23385228744164,
+          "MMFF_status": 0
+        },
+        {
+          "seed": 43,
+          "path": "structures/week1/xanthine-pubchem-seed43.xyz",
+          "sha256": "e41e9473d9ddeb72bc65455d152734f2870261b62d223acae9e2154a89faefae",
+          "MMFF_energy_kcal_mol": -156.233850140578,
+          "MMFF_status": 0
+        },
+        {
+          "seed": 89,
+          "path": "structures/week1/xanthine-pubchem-seed89.xyz",
+          "sha256": "304451bf03aba3c9c5c9fb60e40fa4fe3509ddb484d732fadac9adcdf88bbdbc",
+          "MMFF_energy_kcal_mol": -156.2338519330808,
+          "MMFF_status": 0
+        }
+      ],
+      "DFT_state_selection": "pending_chemical_review",
+      "claim_scope": "identity and starting geometry only; no DFT energy, conformer population, crystal phase, or tautomer population measured"
+    }
+  ],
+  "dimer_generation": "week2_not_started",
+  "state_warning": "For adenine, include neutral tautomers and plausible proton-transfer complexes in the pre-DFT review. Candidate enumeration is not chemical validation."
+}

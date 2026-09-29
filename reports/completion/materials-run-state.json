@@ -1,0 +1,39 @@
+{
+  "status": "running",
+  "started_at": "2026-09-29T09:57:31.905206+00:00",
+  "pid": 8197,
+  "controller_dir": "runs/completion-materials-2026-09-29T095731903472_0000",
+  "kind": "materials",
+  "stage": "semiconductor_lattice_equilibria",
+  "code_sha256": {
+    "scripts/completion_batch.py": "a2b054d1ae961fdd41e5ced928999980a6f0a62f4d40b001906aaedab2aafe68",
+    "scripts/research_run.py": "e276ab1aa4ddc435d0a3aceec06b27445f6a6c1263f101009d5de14e6cc70cf6",
+    "scripts/week3_materials_pipeline.py": "c3445df613ff35be71723d40b80edd913ec080e4e0b973331c7d612e53a08c69",
+    "scripts/week3_qe.py": "558e60bab6800940d2088e5ec2f4dd810a5a4057af5e849ec6ba23e2ac3b060c",
+    "scripts/week2_qe_results.py": "b04911859d0afd61dba623610d0ceb5a57d8b2496f68fdcf209d35c4c6e6d924",
+    "scripts/prepare_week3_drug.py": "3f4030a8f30c814c60721d6f9e6d94f5c5285d4052d2c536180d3d0b6a2bec26"
+  },
+  "plan_sha256": null,
+  "steps": [
+    {
+      "job_id": "w3-mos2-lattice-vc",
+      "config": "experiments/week3/materials/w3-mos2-lattice-vc.json",
+      "exit_code": 0,
+      "ended_at": "2026-09-29T11:30:24.119858+00:00"
+    }
+  ],
+  "automatic_retries": 0,
+  "remaining_after_week2_seconds": {
+    "orca": 273181.22729999997,
+    "qe": 138410.98
+  },
+  "updated_at": "2026-09-29T11:38:25.171431+00:00",
+  "spent_after_week2_seconds": {
+    "orca": 7424.714999999999,
+    "qe": 5570.827
+  },
+  "current_job": "w3-mose2-lattice-vc",
+  "current_config": "experiments/week3/materials/w3-mose2-lattice-vc.json",
+  "current_config_sha256": "3105009054c927261c2996a6a0dc9a1d676eaec681117e9860ecc990d66ed364",
+  "child_pid": 47442
+}

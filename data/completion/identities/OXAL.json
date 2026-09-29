@@ -1,0 +1,14 @@
+{
+  "PropertyTable": {
+    "Properties": [
+      {
+        "CID": 971,
+        "MolecularFormula": "C2H2O4",
+        "SMILES": "C(=O)(C(=O)O)O",
+        "ConnectivitySMILES": "C(=O)(C(=O)O)O",
+        "InChIKey": "MUBZPKHOEPUJKR-UHFFFAOYSA-N",
+        "IUPACName": "oxalic acid"
+      }
+    ]
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "figures": [
+    "reports/figures/week2/monolayer-convergence.png",
+    "reports/figures/week2/bilayer-controls.png",
+    "reports/figures/week2/xtb-screening-counts.png"
+  ],
+  "data_source": "saved week2 JSON reports; no simulated results"
+}

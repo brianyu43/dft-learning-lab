@@ -1,0 +1,450 @@
+{
+  "protocol_id": "dft-pilot-20260909-v1-week3",
+  "week": 3,
+  "task_id": "DR03",
+  "job_id": "w3-adenine-t06-s89-opt-freq",
+  "engine": "orca",
+  "executable": "scripts/orca_parallel.sh",
+  "input": "inputs/orca/week3/w3-adenine-t06-s89-opt-freq.inp",
+  "method": "r2SCAN-3c",
+  "charge": 0,
+  "multiplicity": 1,
+  "solvent": "vacuum",
+  "n_atoms": 15,
+  "linear": false,
+  "requested": {
+    "optimization": true,
+    "frequencies": true
+  },
+  "mpi_processes": 12,
+  "omp_threads": 1,
+  "timeout_seconds": 14400,
+  "rss_limit_gib": 40,
+  "assets": {
+    ".tools/orca-mpi/lib/libmpi.40.dylib": "libmpi.40.dylib",
+    ".tools/orca-mpi/lib/libopen-rte.40.dylib": "libopen-rte.40.dylib",
+    ".tools/orca-mpi/lib/libopen-pal.40.dylib": "libopen-pal.40.dylib",
+    ".tools/orca-mpi/lib/libopen-orted-mpir.dylib": "libopen-orted-mpir.dylib",
+    ".tools/orca-mpi/lib/libz.1.dylib": "libz.1.dylib",
+    "structures/week3/drug_initial/adenine-t06-s89.xyz": "initial.xyz",
+    "experiments/week3/drug/candidates/adenine-t06-s89.json": "candidate.json",
+    "scripts/run_week3_drug_v2.py": "week3_parser_snapshot.py",
+    "scripts/run_week2_xtb_screen.py": "provenance/geometry_audit_snapshot.py",
+    "scripts/run_week2_frequency_resume.py": "provenance/hessian_check_snapshot.py",
+    "scripts/orca_parallel.sh": "provenance/parallel_launcher_snapshot.sh",
+    "environment/orca-mpi-explicit.txt": "provenance/orca-mpi-explicit.txt"
+  },
+  "candidate_id": "adenine-t06-s89",
+  "species": "adenine",
+  "role": "primary",
+  "source_geometry": "runs/week2-xtb-monomers/adenine-t06-s89/xtbopt.xyz",
+  "source_geometry_sha256": "987d0a4e805713b9286bf66ec48d0531f4af2b6f569381c687d30224103ff91a",
+  "initial_structure_sha256": "987d0a4e805713b9286bf66ec48d0531f4af2b6f569381c687d30224103ff91a",
+  "candidate_sha256": "c94af69a7d7025026bbaee5b45b856b02eff6c62f2e6c0b058d50ca31834671b",
+  "week3_parser_sha256": "229eeeab19a186969047afeda344cbbed79f7c5db12412d2a5ee201bb545e2ed",
+  "state_scope": "Starting chemical graph and actual hydrogen ownership recorded; isolated 1:1 dimer or monomer, not crystal stoichiometry",
+  "source_stage": "GFN2-xTB optimized candidate",
+  "selection_uses_formation_labels": false,
+  "initial_geometry_audit": {
+    "status": "geometry_checked",
+    "heavy_connectivity_preserved": true,
+    "lost_heavy_bonds": [],
+    "new_heavy_bonds": [],
+    "hydrogen_owner_changes": [],
+    "unassigned_hydrogens": [],
+    "chemical_state_preserved_by_geometry": true
+  },
+  "purpose": "Week-three vacuum contact/control comparison; no crystal formation or polymorph claim",
+  "started_at": "2026-09-11T10:14:18.482158+00:00",
+  "status": "passed",
+  "run_dir": "/Users/xavier/Documents/dev/generaldrugs/dft/runs/20260911T101418475738Z-w3-adenine-t06-s89-opt-freq",
+  "config_sha256": "b455fcc1d85b8114970bc4b78ef1d3a29fae7920212f2672e735ed0267d34523",
+  "source_sha256": {
+    "inputs/orca/week3/w3-adenine-t06-s89-opt-freq.inp": "8891fcca5f759b26f874f27d42fef6a9721053a0b58aeaf95ae6b98d31e6f177",
+    ".tools/orca-mpi/lib/libmpi.40.dylib": "3f433facb4325248a8527298f556d2eb16f2300d6329e916216c1a5625cb0c8d",
+    ".tools/orca-mpi/lib/libopen-rte.40.dylib": "dba76cb5bee8fe70e117c9199780eeb4cff76aedaa68e44c174e6c0d4c421975",
+    ".tools/orca-mpi/lib/libopen-pal.40.dylib": "b9bb52d11408495dddbacd0fec0ef98c07bce80d7f56115428b03033dff77fec",
+    ".tools/orca-mpi/lib/libopen-orted-mpir.dylib": "fb02d3d8287ffc0c63d6cdcf0e94e32333aee0ea401c0c785e74a9ecc276b3f5",
+    ".tools/orca-mpi/lib/libz.1.dylib": "be8b83df360c94cfe6c13f320c7f85960eee26a52d793a10fa90ea97595f1a09",
+    "structures/week3/drug_initial/adenine-t06-s89.xyz": "987d0a4e805713b9286bf66ec48d0531f4af2b6f569381c687d30224103ff91a",
+    "experiments/week3/drug/candidates/adenine-t06-s89.json": "c94af69a7d7025026bbaee5b45b856b02eff6c62f2e6c0b058d50ca31834671b",
+    "scripts/run_week3_drug_v2.py": "229eeeab19a186969047afeda344cbbed79f7c5db12412d2a5ee201bb545e2ed",
+    "scripts/run_week2_xtb_screen.py": "a2a8be8a3fc863d200a289ba95e5b8c16baadc7919619579fd3342b7f79c8eb4",
+    "scripts/run_week2_frequency_resume.py": "6728f147ded27522f8029b97d340b75b3a530ba2d8c2b522685123bfded78719",
+    "scripts/orca_parallel.sh": "3dccb38bdd68fe054b55e1456b2168b8df6811a92f612afb707c5fa70458dda8",
+    "environment/orca-mpi-explicit.txt": "fb1bbeb3dbc7fe7d832832dee42715f8d02c6a4e539c1d7733c3060e67749c19"
+  },
+  "executable_sha256": "3dccb38bdd68fe054b55e1456b2168b8df6811a92f612afb707c5fa70458dda8",
+  "command": [
+    "/Users/xavier/Documents/dev/generaldrugs/dft/scripts/orca_parallel.sh",
+    "w3-adenine-t06-s89-opt-freq.inp"
+  ],
+  "runner_sha256": "e276ab1aa4ddc435d0a3aceec06b27445f6a6c1263f101009d5de14e6cc70cf6",
+  "stop_reason": null,
+  "thread_environment": {
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "VECLIB_MAXIMUM_THREADS": "1"
+  },
+  "pid": 79181,
+  "engine_launched": true,
+  "ended_at": "2026-09-11T10:18:54.357994+00:00",
+  "elapsed_seconds": 275.873,
+  "exit_code": 0,
+  "peak_sampled_process_tree_rss_bytes": 11220795392,
+  "memory_samples": 532,
+  "memory_access_denied": 0,
+  "max_single_child_rss_bytes": 994787328,
+  "system_swap_increase_peak_bytes": 0,
+  "memory_measurement": "0.5s sampled summed process-tree RSS; may double-count shared pages and miss peaks. OS ru_maxrss is maximum single-child RSS in macOS bytes. Swap is system-wide, not attributable solely to this job.",
+  "output_sha256": "095089f34b4d92d9ee9edae773a48d6d4c753e4094ba9490b0832da4db31de2e",
+  "result": {
+    "engine_version": "6.1.1",
+    "normal_termination": true,
+    "scf_converged": true,
+    "geometry_optimization_converged": true,
+    "energy": -467.231477322116,
+    "energy_unit": "Hartree",
+    "energy_history": [
+      -467.229345165554,
+      -467.231121708101,
+      -467.231354772611,
+      -467.231374140453,
+      -467.231377978146,
+      -467.231379706998,
+      -467.231382712898,
+      -467.231392188749,
+      -467.231389038958,
+      -467.231413763952,
+      -467.231431833417,
+      -467.231462235681,
+      -467.231473376844,
+      -467.23147677862,
+      -467.23147720828,
+      -467.231477289695,
+      -467.231477300436,
+      -467.231477314172,
+      -467.231477018322,
+      -467.231477320038,
+      -467.231477322116
+    ],
+    "frequencies_cm1": [
+      160.71,
+      208.4,
+      280.85,
+      294.78,
+      321.77,
+      497.49,
+      514.08,
+      532.11,
+      537.19,
+      573.89,
+      623.13,
+      666.53,
+      679.53,
+      727.13,
+      802.08,
+      832.74,
+      902.84,
+      947.96,
+      960.1,
+      1020.35,
+      1074.78,
+      1141.8,
+      1245.0,
+      1263.41,
+      1320.39,
+      1348.9,
+      1365.18,
+      1407.94,
+      1428.31,
+      1492.64,
+      1504.15,
+      1604.62,
+      1624.87,
+      1656.61,
+      3143.97,
+      3226.5,
+      3594.19,
+      3652.95,
+      3728.55
+    ],
+    "all_reported_modes_cm1": [
+      [
+        0,
+        0.0
+      ],
+      [
+        1,
+        0.0
+      ],
+      [
+        2,
+        0.0
+      ],
+      [
+        3,
+        0.0
+      ],
+      [
+        4,
+        0.0
+      ],
+      [
+        5,
+        0.0
+      ],
+      [
+        6,
+        160.71
+      ],
+      [
+        7,
+        208.4
+      ],
+      [
+        8,
+        280.85
+      ],
+      [
+        9,
+        294.78
+      ],
+      [
+        10,
+        321.77
+      ],
+      [
+        11,
+        497.49
+      ],
+      [
+        12,
+        514.08
+      ],
+      [
+        13,
+        532.11
+      ],
+      [
+        14,
+        537.19
+      ],
+      [
+        15,
+        573.89
+      ],
+      [
+        16,
+        623.13
+      ],
+      [
+        17,
+        666.53
+      ],
+      [
+        18,
+        679.53
+      ],
+      [
+        19,
+        727.13
+      ],
+      [
+        20,
+        802.08
+      ],
+      [
+        21,
+        832.74
+      ],
+      [
+        22,
+        902.84
+      ],
+      [
+        23,
+        947.96
+      ],
+      [
+        24,
+        960.1
+      ],
+      [
+        25,
+        1020.35
+      ],
+      [
+        26,
+        1074.78
+      ],
+      [
+        27,
+        1141.8
+      ],
+      [
+        28,
+        1245.0
+      ],
+      [
+        29,
+        1263.41
+      ],
+      [
+        30,
+        1320.39
+      ],
+      [
+        31,
+        1348.9
+      ],
+      [
+        32,
+        1365.18
+      ],
+      [
+        33,
+        1407.94
+      ],
+      [
+        34,
+        1428.31
+      ],
+      [
+        35,
+        1492.64
+      ],
+      [
+        36,
+        1504.15
+      ],
+      [
+        37,
+        1604.62
+      ],
+      [
+        38,
+        1624.87
+      ],
+      [
+        39,
+        1656.61
+      ],
+      [
+        40,
+        3143.97
+      ],
+      [
+        41,
+        3226.5
+      ],
+      [
+        42,
+        3594.19
+      ],
+      [
+        43,
+        3652.95
+      ],
+      [
+        44,
+        3728.55
+      ]
+    ],
+    "frequency_count_expected": 39,
+    "frequency_count_observed": 39,
+    "projected_external_modes_verified": true,
+    "imaginary_frequencies_cm1": [],
+    "lowest_vibrational_frequency_cm1": 160.71,
+    "minimum_verified": true,
+    "frequency_analysis_complete": true,
+    "optimization_cycles": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "status": "passed",
+    "week3_verification_passed": true,
+    "geometry_audit": {
+      "status": "geometry_checked",
+      "heavy_connectivity_preserved": true,
+      "lost_heavy_bonds": [],
+      "new_heavy_bonds": [],
+      "hydrogen_owner_changes": [],
+      "unassigned_hydrogens": [],
+      "chemical_state_preserved_by_geometry": true
+    },
+    "initial_geometry_audit": {
+      "status": "geometry_checked",
+      "heavy_connectivity_preserved": true,
+      "lost_heavy_bonds": [],
+      "new_heavy_bonds": [],
+      "hydrogen_owner_changes": [],
+      "unassigned_hydrogens": [],
+      "chemical_state_preserved_by_geometry": true
+    },
+    "optimized_xyz_sha256": "99ff16ac9c2389a9db1084b140a4107ebe560ce871f97e8bae33a13334c78618",
+    "hessian_sha256": "3e2b40493bef91b76b3f8716810c1021c0d1f269083e7eb594d10e7309996e2d",
+    "hessian_geometry_matches": true,
+    "full_precision_frequencies_cm1": [
+      160.7100977495136,
+      208.40191363142696,
+      280.8532246054703,
+      294.7785712494012,
+      321.76968915334487,
+      497.4869040508976,
+      514.0848677606814,
+      532.1140697382897,
+      537.1862524665912,
+      573.8864241220209,
+      623.1326499201793,
+      666.5310673695913,
+      679.5338577265766,
+      727.1274678152455,
+      802.0787437017326,
+      832.7363873906828,
+      902.8355226112802,
+      947.9559089473272,
+      960.103814350449,
+      1020.3539913669964,
+      1074.7822520655704,
+      1141.8007209562597,
+      1245.0025821284778,
+      1263.4142079236594,
+      1320.3902215578187,
+      1348.9025840225272,
+      1365.175311107779,
+      1407.938422242471,
+      1428.310298110001,
+      1492.6412962072482,
+      1504.1526073045657,
+      1604.6240445666479,
+      1624.8656630165399,
+      1656.606562955458,
+      3143.969524926654,
+      3226.4953333627964,
+      3594.191643626321,
+      3652.9503261443133,
+      3728.5536477899755
+    ],
+    "week3_parser_sha256": "229eeeab19a186969047afeda344cbbed79f7c5db12412d2a5ee201bb545e2ed"
+  }
+}

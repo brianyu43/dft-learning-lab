@@ -1,0 +1,37 @@
+{
+  "repo": "molML/deep-cocrystal",
+  "commit": "2805197eff579844b6a45f71a67e2638ede7a14e",
+  "retrieved_at": "2026-09-29T10:05:20.226567+00:00",
+  "files": [
+    {
+      "path": "data/completion/deep-cocrystal/LICENSE",
+      "url": "https://raw.githubusercontent.com/molML/deep-cocrystal/2805197eff579844b6a45f71a67e2638ede7a14e/LICENSE",
+      "sha256": "b6db6eab2b9075e5d5525e0c3e80cb28d71d9a1396df8231810645cdd2ae07d0",
+      "bytes": 16365
+    },
+    {
+      "path": "data/completion/deep-cocrystal/data/test_augmented.csv",
+      "url": "https://raw.githubusercontent.com/molML/deep-cocrystal/2805197eff579844b6a45f71a67e2638ede7a14e/data/test_augmented.csv",
+      "sha256": "43e43069236272c64918c224b696a462225ef93239189d6400f0dc6522739e2c",
+      "bytes": 194308
+    },
+    {
+      "path": "data/completion/deep-cocrystal/data/test_canonical.csv",
+      "url": "https://raw.githubusercontent.com/molML/deep-cocrystal/2805197eff579844b6a45f71a67e2638ede7a14e/data/test_canonical.csv",
+      "sha256": "e925cd986227d1e30aa5fdbfa39a7063e35842c3af74bc9842e30727faa1ed82",
+      "bytes": 18191
+    },
+    {
+      "path": "data/completion/deep-cocrystal/data/train.csv",
+      "url": "https://raw.githubusercontent.com/molML/deep-cocrystal/2805197eff579844b6a45f71a67e2638ede7a14e/data/train.csv",
+      "sha256": "348cb1df420847e367515fe2abe990b90a56b7a0e0fb3491e9874fd856e34bb8",
+      "bytes": 1816650
+    },
+    {
+      "path": "data/completion/deep-cocrystal/data/val.csv",
+      "url": "https://raw.githubusercontent.com/molML/deep-cocrystal/2805197eff579844b6a45f71a67e2638ede7a14e/data/val.csv",
+      "sha256": "f4fe8477ecb1cfa64baeed09ee4cc29a307e341e736e0658e05a78d4e6719ef6",
+      "bytes": 203827
+    }
+  ]
+}

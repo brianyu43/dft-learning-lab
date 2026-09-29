@@ -1,0 +1,193 @@
+{
+  "status": "initial_axes_passed_combined_setting_pending",
+  "completed": 7,
+  "expected": 7,
+  "axes": {
+    "cutoff": {
+      "tested_values": [
+        80,
+        100,
+        120
+      ],
+      "last_interval_energy_meV_atom": 0.13016182507878207,
+      "last_interval_force_eV_angstrom": 1.1513253182118821e-05,
+      "last_interval_passed": true,
+      "smallest_tested_value_within_reference_tolerance": 80
+    },
+    "k_grid": {
+      "tested_values": [
+        6,
+        9,
+        12
+      ],
+      "last_interval_energy_meV_atom": 0.022912937007883254,
+      "last_interval_force_eV_angstrom": 0.0002012713072545979,
+      "last_interval_passed": true,
+      "smallest_tested_value_within_reference_tolerance": 6
+    },
+    "vacuum": {
+      "tested_values": [
+        20,
+        25,
+        30
+      ],
+      "last_interval_energy_meV_atom": 0.07154154582167394,
+      "last_interval_force_eV_angstrom": 2.6927798295518605e-05,
+      "last_interval_passed": true,
+      "smallest_tested_value_within_reference_tolerance": 20
+    }
+  },
+  "thresholds": {
+    "energy_meV_atom": 1.0,
+    "force_eV_angstrom": 0.005
+  },
+  "reference_is_exact": false,
+  "monolayer_geometry": "week1 internally relaxed at fixed a=3.18 A",
+  "candidate_combined_setting": {
+    "cutoff": 80,
+    "k_grid": 6,
+    "vacuum": 20
+  },
+  "rows": [
+    {
+      "job_id": "w2-mono-c80-k12-v30",
+      "symbols": [
+        "Mo",
+        "S",
+        "S"
+      ],
+      "energy_eV": -2514.737987410745,
+      "max_force_eV_angstrom": 0.004497030616929328,
+      "area_angstrom2": 8.757595293229743,
+      "actual_vacuum_gap_angstrom": 29.999999999951186,
+      "number_of_electrons": 26.0,
+      "xml_sha256": "12baa7be23ffa36e76f8c299b3ec9a34e46dbb4632922b7a036e718b12cec707",
+      "cutoff_Ry": 80,
+      "k": 12,
+      "vacuum_angstrom": 30,
+      "energy_delta_reference_meV_atom": 0.37492782348635956,
+      "max_force_delta_reference_eV_angstrom": 0.00011220566721226611,
+      "within_reference_thresholds": true
+    },
+    {
+      "job_id": "w2-mono-c100-k12-v30",
+      "symbols": [
+        "Mo",
+        "S",
+        "S"
+      ],
+      "energy_eV": -2514.7387217087403,
+      "max_force_eV_angstrom": 0.004620749537323713,
+      "area_angstrom2": 8.757595293229743,
+      "actual_vacuum_gap_angstrom": 29.999999999951186,
+      "number_of_electrons": 26.0,
+      "xml_sha256": "d835a00a9982f790762856b9b183d90952eb1c59ea5fa64c8e42c565ea301a1b",
+      "cutoff_Ry": 100,
+      "k": 12,
+      "vacuum_angstrom": 30,
+      "energy_delta_reference_meV_atom": 0.13016182507878207,
+      "max_force_delta_reference_eV_angstrom": 1.1513253182118821e-05,
+      "within_reference_thresholds": true
+    },
+    {
+      "job_id": "w2-mono-c120-k12-v30",
+      "symbols": [
+        "Mo",
+        "S",
+        "S"
+      ],
+      "energy_eV": -2514.7391121942155,
+      "max_force_eV_angstrom": 0.004609236284141594,
+      "area_angstrom2": 8.757595293229743,
+      "actual_vacuum_gap_angstrom": 29.999999999951186,
+      "number_of_electrons": 26.0,
+      "xml_sha256": "530724e5de92e73ae3013f77f4dd13a67a625b3695d8926b3589aff88baf467a",
+      "cutoff_Ry": 120,
+      "k": 12,
+      "vacuum_angstrom": 30,
+      "energy_delta_reference_meV_atom": 0.0,
+      "max_force_delta_reference_eV_angstrom": 0.0,
+      "within_reference_thresholds": true
+    },
+    {
+      "job_id": "w2-mono-c120-k6-v30",
+      "symbols": [
+        "Mo",
+        "S",
+        "S"
+      ],
+      "energy_eV": -2514.73773100664,
+      "max_force_eV_angstrom": 0.00022669941811019037,
+      "area_angstrom2": 8.757595293229743,
+      "actual_vacuum_gap_angstrom": 29.999999999951186,
+      "number_of_electrons": 26.0,
+      "xml_sha256": "802e6391c76cb25ffd002217e178ddbd51e157ec661dbd6a156492ca32d60b3d",
+      "cutoff_Ry": 120,
+      "k": 6,
+      "vacuum_angstrom": 30,
+      "energy_delta_reference_meV_atom": 0.4603958585297126,
+      "max_force_delta_reference_eV_angstrom": 0.004382536866031404,
+      "within_reference_thresholds": true
+    },
+    {
+      "job_id": "w2-mono-c120-k9-v30",
+      "symbols": [
+        "Mo",
+        "S",
+        "S"
+      ],
+      "energy_eV": -2514.7390434554045,
+      "max_force_eV_angstrom": 0.004407964976886996,
+      "area_angstrom2": 8.757595293229743,
+      "actual_vacuum_gap_angstrom": 29.999999999951186,
+      "number_of_electrons": 26.0,
+      "xml_sha256": "5085c2c41bc1c0a8c7119387f8c2a8f21dd75b56d5c1f7aacdea19a7833fb143",
+      "cutoff_Ry": 120,
+      "k": 9,
+      "vacuum_angstrom": 30,
+      "energy_delta_reference_meV_atom": 0.022912937007883254,
+      "max_force_delta_reference_eV_angstrom": 0.0002012713072545979,
+      "within_reference_thresholds": true
+    },
+    {
+      "job_id": "w2-mono-c120-k12-v20",
+      "symbols": [
+        "Mo",
+        "S",
+        "S"
+      ],
+      "energy_eV": -2514.7389264149724,
+      "max_force_eV_angstrom": 0.004592621253263117,
+      "area_angstrom2": 8.757595293229743,
+      "actual_vacuum_gap_angstrom": 19.9999999999512,
+      "number_of_electrons": 26.0,
+      "xml_sha256": "d19160c22d6818a1c0474fbab42e72b4511bb7b28983eb48fef1440013b3a2df",
+      "cutoff_Ry": 120,
+      "k": 12,
+      "vacuum_angstrom": 20,
+      "energy_delta_reference_meV_atom": 0.061926414370342776,
+      "max_force_delta_reference_eV_angstrom": 1.6615030878477065e-05,
+      "within_reference_thresholds": true
+    },
+    {
+      "job_id": "w2-mono-c120-k12-v25",
+      "symbols": [
+        "Mo",
+        "S",
+        "S"
+      ],
+      "energy_eV": -2514.738897569578,
+      "max_force_eV_angstrom": 0.004636164082437113,
+      "area_angstrom2": 8.757595293229743,
+      "actual_vacuum_gap_angstrom": 24.999999999951203,
+      "number_of_electrons": 26.0,
+      "xml_sha256": "10f16ec576a5f4fca78e62b6dfb009cf8e55089691d6e35d67f84141884c8fb4",
+      "cutoff_Ry": 120,
+      "k": 12,
+      "vacuum_angstrom": 25,
+      "energy_delta_reference_meV_atom": 0.07154154582167394,
+      "max_force_delta_reference_eV_angstrom": 2.6927798295518605e-05,
+      "within_reference_thresholds": true
+    }
+  ]
+}

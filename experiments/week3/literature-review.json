@@ -1,0 +1,106 @@
+{
+  "reviewed_at": "2026-09-11T09:25:43.697331+00:00",
+  "status": "journal_SI_obtained_and_relevant_pages_visually_reviewed",
+  "doi": "10.1002/anie.202507835",
+  "pdf": "data/week3/literature/ANIE-64-e202507835-s001.pdf",
+  "pdf_sha256": "684edf33c16e0641481c50d6dcf4eda6af7942f45189f31989d7988c60a2dc0d",
+  "page_count": 19,
+  "visually_reviewed_pdf_pages": [
+    3,
+    15,
+    16,
+    17,
+    18,
+    19
+  ],
+  "cases": [
+    {
+      "case_id": "D01",
+      "coformer": "adenine",
+      "outcome": "formed",
+      "source": "SI p3 and p15 Table S11",
+      "preparation": {
+        "diflunisal_mg": 100,
+        "adenine_mg": 54,
+        "nominal_input_molar_ratio": [
+          1,
+          1
+        ],
+        "ethanol_ml": 1,
+        "method": "slurry",
+        "duration_hours": 48,
+        "temperature": "room temperature; numeric value not reported",
+        "is_solved_crystal_stoichiometry": false
+      },
+      "spectroscopic_interpretation": "COO-...+HN1 with possible N10-assisted R2_2(8) motif; inferred, not solved atomic positions",
+      "cif_verified": false,
+      "polymorph_count": null,
+      "per_attempt_replicates": null
+    },
+    {
+      "case_id": "D02",
+      "coformer": "caffeine",
+      "outcome": "formed",
+      "source": "SI p3 and p15 Table S11",
+      "preparation": {
+        "diflunisal_mg": 100,
+        "caffeine_mg": 78,
+        "nominal_input_molar_ratio": [
+          1,
+          1
+        ],
+        "method": "20 min grinding then 20 min ethanol-assisted grinding; additional drops every 5 min",
+        "ethanol_volume": null,
+        "temperature": null,
+        "is_solved_crystal_stoichiometry": false
+      },
+      "spectroscopic_interpretation": "COOH...N9; carboxyl 13C 175.2 to 172.9 ppm, CAF N9 230.0 to 221.1 ppm",
+      "cif_verified": false,
+      "polymorph_count": null,
+      "per_attempt_replicates": null
+    },
+    {
+      "case_id": "D03",
+      "coformer": "theobromine",
+      "outcome": "not_formed_under_reported_conditions",
+      "source": "SI Table S11",
+      "attempt_conditions": null,
+      "per_attempt_replicates": null
+    },
+    {
+      "case_id": "D04",
+      "coformer": "xanthine",
+      "outcome": "not_formed_under_reported_conditions",
+      "source": "SI Table S11",
+      "attempt_conditions": null,
+      "per_attempt_replicates": null
+    }
+  ],
+  "characterization": [
+    "FT-IR ATR",
+    "13C and 15N CPMAS solid-state NMR"
+  ],
+  "asymmetric_unit_statement": "Authors infer one molecule of each component from one NMR signal pattern; not a diffraction-resolved unit cell",
+  "not_found_in_this_SI": [
+    "DIF-CAF or DIF-ADE CIF",
+    "unit-cell parameters and space group",
+    "polymorph enumeration",
+    "attempt-resolved negative-case conditions"
+  ],
+  "figure_mapping": {
+    "S33": "DIF-CAF FTIR",
+    "S34": "DIF-ADE FTIR",
+    "S35": "salicylic acid analog structures XOBcat/UWAFEM; not DIF crystal coordinates",
+    "S36": "13C SSNMR",
+    "S37": "15N SSNMR"
+  },
+  "replicate_scope": "At least three replicates in external-dataset general methods not assigned to the four prospective DIF cases",
+  "rendered_page_hashes": {
+    "data/week3/literature/rendered/journal-si-page-3.png": "15b79dd47f072a9eaf938dd810232b0c0d26a649cbecf44448af4ebf86d4d226",
+    "data/week3/literature/rendered/journal-si-page-16.png": "a00554bba43f84f832a880d8d0e31e9f4f364d68ec181b7c20add909e4841fdb",
+    "data/week3/literature/rendered/journal-si-page-17.png": "382b88ff74a42845a6972983914df4f189a0230414e70b06b17e7869268187e9",
+    "data/week3/literature/rendered/journal-si-page-15.png": "979cc6d79e94e9d7af9cc0b1761408be00358cdfcbe6e947146c6f246635c34a",
+    "data/week3/literature/rendered/journal-si-page-19.png": "3f6e67eaf21262fb923ea51dc0bb1dfd4966378fd0a491f2394fe582a7cf6289",
+    "data/week3/literature/rendered/journal-si-page-18.png": "f107d7f262a3273ca55cac8cf7f069b0979a378c4d7baf232eab4803193dddc7"
+  }
+}

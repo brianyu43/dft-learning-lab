@@ -1,0 +1,39 @@
+{
+  "protocol_id": "dft-pilot-20260909-v1-week2",
+  "week": 2,
+  "job_id": "w2-diflunisal-opt-freq",
+  "task_id": "DR01",
+  "engine": "orca",
+  "executable": ".tools/orca-6.1.1/orca",
+  "input": "inputs/orca/week2/w2-diflunisal-opt-freq.inp",
+  "method": "r2SCAN-3c",
+  "purpose": "First cost and minimum verification; one selected starting geometry, not four-case ranking",
+  "charge": 0,
+  "multiplicity": 1,
+  "n_atoms": 26,
+  "linear": false,
+  "solvent": "vacuum",
+  "requested": {
+    "optimization": true,
+    "frequencies": true
+  },
+  "timeout_seconds": 43200,
+  "rss_limit_gib": 40,
+  "omp_threads": 1,
+  "selected_candidate_id": "diflunisal-t02-s43",
+  "parent_run_id": "runs/week2-xtb-monomers/diflunisal-t02-s43",
+  "selection_rule": "lowest valid GFN2-xTB geometry; fixed chemical state for monomers; retained composition/connectivity and no separation for dimer",
+  "selection_uses_outcome_labels": false,
+  "selection_label_scope": "geometry ranking within preselected chemical species only",
+  "first_cost_pair_is_known_positive_by_design": true,
+  "initial_structure_sha256": "b77a229d0fa1286e5bd2f2c849003c1e913d985d14a35f78c283f59406a8c3e0",
+  "initial_geometry_audit": {
+    "status": "geometry_checked",
+    "heavy_connectivity_preserved": true,
+    "lost_heavy_bonds": [],
+    "new_heavy_bonds": [],
+    "hydrogen_owner_changes": [],
+    "unassigned_hydrogens": [],
+    "chemical_state_preserved_by_geometry": true
+  }
+}

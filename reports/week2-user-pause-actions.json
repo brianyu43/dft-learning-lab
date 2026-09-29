@@ -1,0 +1,23 @@
+{
+  "reason": "User requested to continue tomorrow",
+  "actions": [
+    {
+      "pid": 49346,
+      "command": [
+        ".venv/bin/python",
+        "scripts/finish_week2.py"
+      ],
+      "signal": "SIGTERM"
+    },
+    {
+      "pid": 49491,
+      "command": [
+        "/Users/xavier/Documents/dev/generaldrugs/dft/.venv/bin/python",
+        "/Users/xavier/Documents/dev/generaldrugs/dft/scripts/research_run.py",
+        "--config",
+        "/Users/xavier/Documents/dev/generaldrugs/dft/experiments/week2/w2-diflunisal--caffeine-opt-freq.json"
+      ],
+      "signal": "SIGTERM"
+    }
+  ]
+}

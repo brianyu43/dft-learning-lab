@@ -1,0 +1,113 @@
+#INFO: **** input file is /Users/xavier/Documents/dev/generaldrugs/dft/runs/20260909T040204961311Z-pyscf/pyscf_water.py ****
+"""Real PBE/def2-SVP water SCF, for installation verification only."""
+import json
+import os
+from pathlib import Path
+from pyscf import dft, gto, lib
+
+lib.num_threads(int(os.environ.get("OMP_NUM_THREADS", "4")))
+mol = gto.M(atom="O 0 0 0; H 0 -0.757 0.587; H 0 0.757 0.587",
+            basis="def2-svp", unit="Angstrom", charge=0, spin=0,
+            max_memory=2000, verbose=4)
+mf = dft.RKS(mol)
+mf.xc = "PBE"
+mf.grids.level = 3
+mf.conv_tol = 1e-9
+mf.max_cycle = 100
+energy = mf.kernel()
+result = {"method": "PBE", "basis": "def2-SVP", "solvent": "vacuum",
+          "charge": 0, "multiplicity": 1, "atom_count": 3,
+          "scf_converged": bool(mf.converged), "energy_hartree": float(energy),
+          "dipole_debye": mf.dip_moment(unit="Debye").tolist(),
+          "geometry_optimization": "not_run", "minimum_verification": "not_run"}
+Path("result.json").write_text(json.dumps(result, indent=2) + "\n")
+print("DFT_LAB_RESULT " + json.dumps(result))
+if not mf.converged:
+    raise SystemExit(1)
+#INFO: ******************** input file end ********************
+
+
+System: uname_result(system='Darwin', node='Xavierui-MacBookPro.local', release='25.6.0', version='Darwin Kernel Version 25.6.0: Fri Jul 31 19:19:08 PDT 2026; root:xnu-12377.161.14~5/RELEASE_ARM64_T6050', machine='arm64')  Threads 1
+Python 3.11.15 (main, Jul 23 2026, 14:34:23) [Clang 22.1.3 ]
+numpy 2.4.6  scipy 1.17.1  h5py 3.16.0
+Date: Wed Sep  9 13:02:05 2026
+PySCF version 2.14.0
+PySCF path  /Users/xavier/Documents/dev/generaldrugs/dft/.venv/lib/python3.11/site-packages/pyscf
+
+[CONFIG] conf_file None
+[INPUT] verbose = 4
+[INPUT] num. atoms = 3
+[INPUT] num. electrons = 10
+[INPUT] charge = 0
+[INPUT] spin (= nelec alpha-beta = 2S) = 0
+[INPUT] symmetry False subgroup None
+[INPUT] Mole.unit = Angstrom
+[INPUT] Symbol           X                Y                Z      unit          X                Y                Z       unit  Magmom
+[INPUT]  1 O      0.000000000000   0.000000000000   0.000000000000 AA    0.000000000000   0.000000000000   0.000000000000 Bohr   0.0
+[INPUT]  2 H      0.000000000000  -0.757000000000   0.587000000000 AA    0.000000000000  -1.430522676296   1.109269235120 Bohr   0.0
+[INPUT]  3 H      0.000000000000   0.757000000000   0.587000000000 AA    0.000000000000   1.430522676296   1.109269235120 Bohr   0.0
+
+nuclear repulsion = 9.18825841774611
+number of shells = 12
+number of NR pGTOs = 38
+number of NR cGTOs = 24
+basis = def2-svp
+ecp = {}
+CPU time:         0.26
+
+
+******** <class 'pyscf.dft.rks.RKS'> ********
+method = RKS
+initial guess = minao
+damping factor = 0
+level_shift factor = 0
+DIIS = <class 'pyscf.scf.diis.CDIIS'>
+diis_start_cycle = 1
+diis_space = 8
+diis_damp = 0
+SCF conv_tol = 1e-09
+SCF conv_tol_grad = None
+SCF max_cycles = 100
+direct_scf = True
+direct_scf_tol = 1e-13
+chkfile to save SCF result = /var/folders/4b/fxy1bxrj2m7dxl_3358k4dn00000gn/T/tmpg0kzoswb
+max_memory 2000 MB (current use 91 MB)
+XC library pyscf.dft.libxc version 7.0.0
+    S. Lehtola, C. Steigemann, M. J.T. Oliveira, and M. A.L. Marques.,  SoftwareX 7, 1–5 (2018)
+XC functionals = PBE
+    J. P. Perdew, K. Burke, and M. Ernzerhof.,  Phys. Rev. Lett. 77, 3865 (1996)
+    J. P. Perdew, K. Burke, and M. Ernzerhof.,  Phys. Rev. Lett. 78, 1396 (1997)
+    J. P. Perdew, K. Burke, and M. Ernzerhof.,  Phys. Rev. Lett. 77, 3865 (1996)
+    J. P. Perdew, K. Burke, and M. Ernzerhof.,  Phys. Rev. Lett. 78, 1396 (1997)
+radial grids: 
+    Treutler-Ahlrichs [JCP 102, 346 (1995); DOI:10.1063/1.469408] (M4) radial grids
+    
+becke partition: Becke, JCP 88, 2547 (1988); DOI:10.1063/1.454033
+pruning grids: <function nwchem_prune at 0x10ca8e520>
+grids dens level: 3
+symmetrized grids: False
+atomic radii adjust function: <function treutler_atomic_radii_adjust at 0x10ca8e340>
+small_rho_cutoff = 0
+Set gradient conv threshold to 3.16228e-05
+Initial guess from minao.
+tot grids = 33704
+init E= -76.2307839819644
+  HOMO = -0.403519839284877  LUMO = -0.00527496358940693  gap/eV = 10.83680
+cycle= 1 E= -76.1629072571826  delta_E= 0.0679  |g|= 0.769  |ddm|= 1.42
+  HOMO = -0.0417882856070855  LUMO = 0.07521757317605  gap/eV = 3.18389
+cycle= 2 E= -75.9393096541734  delta_E= 0.224  |g|= 1.31  |ddm|= 1.46
+  HOMO = -0.237769620787098  LUMO = 0.0276395924487027  gap/eV = 7.22215
+cycle= 3 E= -76.2717575905309  delta_E= -0.332  |g|= 0.034  |ddm|= 1.03
+  HOMO = -0.227873520394549  LUMO = 0.0307271087414911  gap/eV = 7.03688
+cycle= 4 E= -76.2720077811514  delta_E= -0.00025  |g|= 0.00647  |ddm|= 0.0283
+  HOMO = -0.228304711035876  LUMO = 0.0298815241090074  gap/eV = 7.02561
+cycle= 5 E= -76.2720142873594  delta_E= -6.51e-06  |g|= 0.000965  |ddm|= 0.00329
+  HOMO = -0.228471677412976  LUMO = 0.0298266887270859  gap/eV = 7.02866
+cycle= 6 E= -76.2720144722271  delta_E= -1.85e-07  |g|= 3.67e-05  |ddm|= 0.000731
+  HOMO = -0.228478721743971  LUMO = 0.0298179238450302  gap/eV = 7.02861
+cycle= 7 E= -76.2720144726681  delta_E= -4.41e-10  |g|= 3.14e-06  |ddm|= 5.06e-05
+  HOMO = -0.228479285374921  LUMO = 0.0298184900964973  gap/eV = 7.02864
+Extra cycle  E= -76.2720144726672  delta_E= 9.81e-13  |g|= 4.03e-06  |ddm|= 5e-06
+converged SCF energy = -76.2720144726672
+Dipole moment(X, Y, Z, Debye): -0.00000, -0.00000,  1.93700
+DFT_LAB_RESULT {"method": "PBE", "basis": "def2-SVP", "solvent": "vacuum", "charge": 0, "multiplicity": 1, "atom_count": 3, "scf_converged": true, "energy_hartree": -76.27201447266717, "dipole_debye": [-4.607067743867152e-16, -9.030097259259063e-15, 1.9370024330203657], "geometry_optimization": "not_run", "minimum_verification": "not_run"}

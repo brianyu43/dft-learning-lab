@@ -1,0 +1,14 @@
+{
+  "PropertyTable": {
+    "Properties": [
+      {
+        "CID": 7456,
+        "MolecularFormula": "C8H8O3",
+        "SMILES": "COC(=O)C1=CC=C(C=C1)O",
+        "ConnectivitySMILES": "COC(=O)C1=CC=C(C=C1)O",
+        "InChIKey": "LXCFILQKKLGQFO-UHFFFAOYSA-N",
+        "IUPACName": "methyl 4-hydroxybenzoate"
+      }
+    ]
+  }
+}

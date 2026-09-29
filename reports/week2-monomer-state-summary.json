@@ -1,0 +1,263 @@
+{
+  "scope": "GFN2-xTB gas-phase electronic energies grouped by starting state; changed-state outputs are labeled, no solvent/ZPE/pKa inference",
+  "species": {
+    "adenine": [
+      {
+        "starting_state_id": "adenine-t00",
+        "starting_smiles": "N=c1[nH]cnc2[nH]cnc12",
+        "best_candidate": "adenine-t00-s17",
+        "min_energy_Hartree": -27.878216950658,
+        "relative_min_energy_kcal_mol": 13.626851597830356,
+        "same_template_H_owners_in_all_three": true
+      },
+      {
+        "starting_state_id": "adenine-t01",
+        "starting_smiles": "N=c1[nH]cnc2nc[nH]c12",
+        "best_candidate": "adenine-t01-s17",
+        "min_energy_Hartree": -27.881027804701,
+        "relative_min_energy_kcal_mol": 11.863014055817718,
+        "same_template_H_owners_in_all_three": true
+      },
+      {
+        "starting_state_id": "adenine-t02",
+        "starting_smiles": "N=c1nc[nH]c2[nH]cnc12",
+        "best_candidate": "adenine-t02-s89",
+        "min_energy_Hartree": -27.860547491939,
+        "relative_min_energy_kcal_mol": 24.714604344456045,
+        "same_template_H_owners_in_all_three": true
+      },
+      {
+        "starting_state_id": "adenine-t03",
+        "starting_smiles": "N=c1nc[nH]c2nc[nH]c12",
+        "best_candidate": "adenine-t03-s17",
+        "min_energy_Hartree": -27.879392898951,
+        "relative_min_energy_kcal_mol": 12.888932903038974,
+        "same_template_H_owners_in_all_three": true
+      },
+      {
+        "starting_state_id": "adenine-t04",
+        "starting_smiles": "Nc1[nH]cnc2ncnc1-2",
+        "best_candidate": "adenine-t04-s17",
+        "min_energy_Hartree": -27.86921214066,
+        "relative_min_energy_kcal_mol": 19.277455183145427,
+        "same_template_H_owners_in_all_three": true
+      },
+      {
+        "starting_state_id": "adenine-t05",
+        "starting_smiles": "Nc1nc[nH]c2ncnc1-2",
+        "best_candidate": "adenine-t05-s89",
+        "min_energy_Hartree": -27.884187661765,
+        "relative_min_energy_kcal_mol": 9.880173811670561,
+        "same_template_H_owners_in_all_three": true
+      },
+      {
+        "starting_state_id": "adenine-t06",
+        "starting_smiles": "Nc1ncnc2[nH]cnc12",
+        "best_candidate": "adenine-t06-s89",
+        "min_energy_Hartree": -27.899932720957,
+        "relative_min_energy_kcal_mol": 0.0,
+        "same_template_H_owners_in_all_three": true
+      },
+      {
+        "starting_state_id": "adenine-t07",
+        "starting_smiles": "Nc1ncnc2nc[nH]c12",
+        "best_candidate": "adenine-t07-s89",
+        "min_energy_Hartree": -27.88849224306,
+        "relative_min_energy_kcal_mol": 7.179008267455431,
+        "same_template_H_owners_in_all_three": true
+      }
+    ],
+    "caffeine": [
+      {
+        "starting_state_id": "caffeine-t00",
+        "starting_smiles": "Cn1c(=O)c2c(ncn2C)n(C)c1=O",
+        "best_candidate": "caffeine-t00-s17",
+        "min_energy_Hartree": -42.15393721842,
+        "relative_min_energy_kcal_mol": 0.0,
+        "same_template_H_owners_in_all_three": true
+      }
+    ],
+    "diflunisal": [
+      {
+        "starting_state_id": "diflunisal-t00",
+        "starting_smiles": "O=C(O)C1=CC(c2ccc(F)cc2F)=CCC1=O",
+        "best_candidate": "diflunisal-t00-s89",
+        "min_energy_Hartree": -53.553412872969,
+        "relative_min_energy_kcal_mol": 29.219850563928187,
+        "same_template_H_owners_in_all_three": true
+      },
+      {
+        "starting_state_id": "diflunisal-t01",
+        "starting_smiles": "O=C(O)C1C=C(c2ccc(F)cc2F)C=CC1=O",
+        "best_candidate": "diflunisal-t01-s89",
+        "min_energy_Hartree": -53.551276407659,
+        "relative_min_energy_kcal_mol": 30.56050278682247,
+        "same_template_H_owners_in_all_three": true
+      },
+      {
+        "starting_state_id": "diflunisal-t02",
+        "starting_smiles": "O=C(O)c1cc(-c2ccc(F)cc2F)ccc1O",
+        "best_candidate": "diflunisal-t02-s43",
+        "min_energy_Hartree": -53.59997766884,
+        "relative_min_energy_kcal_mol": 0.0,
+        "same_template_H_owners_in_all_three": true
+      },
+      {
+        "starting_state_id": "diflunisal-t03",
+        "starting_smiles": "O=C1C=CC(c2ccc(F)cc2F)=CC1=C(O)O",
+        "best_candidate": "diflunisal-t03-s89",
+        "min_energy_Hartree": -53.599976421,
+        "relative_min_energy_kcal_mol": 0.0007830314199436256,
+        "same_template_H_owners_in_all_three": false
+      }
+    ],
+    "theobromine": [
+      {
+        "starting_state_id": "theobromine-t00",
+        "starting_smiles": "Cn1cnc2c1c(=O)[nH]c(=O)n2C",
+        "best_candidate": "theobromine-t00-s89",
+        "min_energy_Hartree": -38.985910538625,
+        "relative_min_energy_kcal_mol": 0.0,
+        "same_template_H_owners_in_all_three": true
+      },
+      {
+        "starting_state_id": "theobromine-t01",
+        "starting_smiles": "Cn1cnc2c1c(=O)nc(O)n2C",
+        "best_candidate": "theobromine-t01-s17",
+        "min_energy_Hartree": -38.964086621676,
+        "relative_min_energy_kcal_mol": 13.694714645284298,
+        "same_template_H_owners_in_all_three": true
+      },
+      {
+        "starting_state_id": "theobromine-t02",
+        "starting_smiles": "Cn1cnc2c1c(O)nc(=O)n2C",
+        "best_candidate": "theobromine-t02-s17",
+        "min_energy_Hartree": -38.968447397535,
+        "relative_min_energy_kcal_mol": 10.958286479772237,
+        "same_template_H_owners_in_all_three": true
+      }
+    ],
+    "xanthine": [
+      {
+        "starting_state_id": "xanthine-t00",
+        "starting_smiles": "O=c1[nH]c(=O)c2[nH]cnc2[nH]1",
+        "best_candidate": "xanthine-t00-s17",
+        "min_energy_Hartree": -32.640145242464,
+        "relative_min_energy_kcal_mol": 0.0,
+        "same_template_H_owners_in_all_three": true
+      },
+      {
+        "starting_state_id": "xanthine-t01",
+        "starting_smiles": "O=c1[nH]c(=O)c2nc[nH]c2[nH]1",
+        "best_candidate": "xanthine-t01-s89",
+        "min_energy_Hartree": -32.628105655764,
+        "relative_min_energy_kcal_mol": 7.554954717293451,
+        "same_template_H_owners_in_all_three": true
+      },
+      {
+        "starting_state_id": "xanthine-t02",
+        "starting_smiles": "O=c1[nH]c(O)nc2[nH]cnc12",
+        "best_candidate": "xanthine-t02-s43",
+        "min_energy_Hartree": -32.623495032911,
+        "relative_min_energy_kcal_mol": 10.448164238592321,
+        "same_template_H_owners_in_all_three": true
+      },
+      {
+        "starting_state_id": "xanthine-t03",
+        "starting_smiles": "O=c1[nH]c(O)nc2nc[nH]c12",
+        "best_candidate": "xanthine-t03-s17",
+        "min_energy_Hartree": -32.625501671877,
+        "relative_min_energy_kcal_mol": 9.188979276533201,
+        "same_template_H_owners_in_all_three": true
+      },
+      {
+        "starting_state_id": "xanthine-t04",
+        "starting_smiles": "O=c1[nH]c2ncnc-2c(O)[nH]1",
+        "best_candidate": "xanthine-t04-s89",
+        "min_energy_Hartree": -32.611697864784,
+        "relative_min_energy_kcal_mol": 17.850999004657844,
+        "same_template_H_owners_in_all_three": true
+      },
+      {
+        "starting_state_id": "xanthine-t05",
+        "starting_smiles": "O=c1nc(O)[nH]c2[nH]cnc12",
+        "best_candidate": "xanthine-t05-s17",
+        "min_energy_Hartree": -32.600836282407,
+        "relative_min_energy_kcal_mol": 24.666744848854673,
+        "same_template_H_owners_in_all_three": true
+      },
+      {
+        "starting_state_id": "xanthine-t06",
+        "starting_smiles": "O=c1nc(O)[nH]c2nc[nH]c12",
+        "best_candidate": "xanthine-t06-s17",
+        "min_energy_Hartree": -32.617858388013,
+        "relative_min_energy_kcal_mol": 13.985212313663785,
+        "same_template_H_owners_in_all_three": true
+      },
+      {
+        "starting_state_id": "xanthine-t07",
+        "starting_smiles": "O=c1nc(O)c2[nH]cnc2[nH]1",
+        "best_candidate": "xanthine-t07-s17",
+        "min_energy_Hartree": -32.62292770608,
+        "relative_min_energy_kcal_mol": 10.804167199901324,
+        "same_template_H_owners_in_all_three": true
+      },
+      {
+        "starting_state_id": "xanthine-t08",
+        "starting_smiles": "O=c1nc(O)c2nc[nH]c2[nH]1",
+        "best_candidate": "xanthine-t08-s17",
+        "min_energy_Hartree": -32.616233603236,
+        "relative_min_energy_kcal_mol": 15.004780154442479,
+        "same_template_H_owners_in_all_three": true
+      },
+      {
+        "starting_state_id": "xanthine-t09",
+        "starting_smiles": "O=c1nc2[nH]cnc2c(O)[nH]1",
+        "best_candidate": "xanthine-t09-s89",
+        "min_energy_Hartree": -32.617219367385,
+        "relative_min_energy_kcal_mol": 14.386203811815374,
+        "same_template_H_owners_in_all_three": true
+      },
+      {
+        "starting_state_id": "xanthine-t10",
+        "starting_smiles": "O=c1nc2nc[nH]c2c(O)[nH]1",
+        "best_candidate": "xanthine-t10-s43",
+        "min_energy_Hartree": -32.599592269763,
+        "relative_min_energy_kcal_mol": 25.447374568741218,
+        "same_template_H_owners_in_all_three": true
+      },
+      {
+        "starting_state_id": "xanthine-t11",
+        "starting_smiles": "Oc1nc(O)c2[nH]cnc2n1",
+        "best_candidate": "xanthine-t11-s43",
+        "min_energy_Hartree": -32.618715480573,
+        "relative_min_energy_kcal_mol": 13.447378612166368,
+        "same_template_H_owners_in_all_three": true
+      },
+      {
+        "starting_state_id": "xanthine-t12",
+        "starting_smiles": "Oc1nc(O)c2nc[nH]c2n1",
+        "best_candidate": "xanthine-t12-s89",
+        "min_energy_Hartree": -32.617045415022,
+        "relative_min_energy_kcal_mol": 14.495360567622141,
+        "same_template_H_owners_in_all_three": true
+      },
+      {
+        "starting_state_id": "xanthine-t13",
+        "starting_smiles": "Oc1nc(O)c2ncnc-2[nH]1",
+        "best_candidate": "xanthine-t13-s89",
+        "min_energy_Hartree": -32.602476759276,
+        "relative_min_energy_kcal_mol": 23.63733007167964,
+        "same_template_H_owners_in_all_three": true
+      },
+      {
+        "starting_state_id": "xanthine-t14",
+        "starting_smiles": "Oc1nc2ncnc-2c(O)[nH]1",
+        "best_candidate": "xanthine-t14-s89",
+        "min_energy_Hartree": -32.594338964704,
+        "relative_min_energy_kcal_mol": 28.74387326307585,
+        "same_template_H_owners_in_all_three": true
+      }
+    ]
+  }
+}

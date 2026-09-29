@@ -1,0 +1,378 @@
+{
+    "actions": {
+        "FETCH": [
+            {
+                "build": "openmpi",
+                "build_number": 0,
+                "build_string": "openmpi",
+                "channel": "conda-forge",
+                "constrains": [],
+                "depends": [],
+                "fn": "mpi-1.0-openmpi.tar.bz2",
+                "license": "BSD 3-clause",
+                "md5": "cb269c879b1ac5e5ab62a3c17528c40f",
+                "name": "mpi",
+                "sha256": "7051ff40ca1208c06db24f8bf5cf72ee7ad03891e7fd365c3f7a4190938ae83a",
+                "size": 4294,
+                "subdir": "osx-arm64",
+                "timestamp": 1605464601,
+                "track_features": "",
+                "url": "https://conda.anaconda.org/conda-forge/osx-arm64/mpi-1.0-openmpi.tar.bz2",
+                "version": "1.0"
+            },
+            {
+                "build": "h55c6f16_0",
+                "build_number": 0,
+                "build_string": "h55c6f16_0",
+                "channel": "conda-forge",
+                "constrains": [],
+                "depends": [
+                    "__osx >=11.0"
+                ],
+                "fn": "libcxx-23.1.1-h55c6f16_0.conda",
+                "license": "Apache-2.0 WITH LLVM-exception",
+                "md5": "b61106a0b5ac7cfe874f8b2e4f067dfa",
+                "name": "libcxx",
+                "sha256": "3f902803f0fc2643a4f82ff15a06811d974ff5fb6fa8f957720a7ef84e13ad98",
+                "size": 578565,
+                "subdir": "osx-arm64",
+                "timestamp": 1788869180,
+                "track_features": "",
+                "url": "https://conda.anaconda.org/conda-forge/osx-arm64/libcxx-23.1.1-h55c6f16_0.conda",
+                "version": "23.1.1"
+            },
+            {
+                "build": "hfb2fe0b_6",
+                "build_number": 6,
+                "build_string": "hfb2fe0b_6",
+                "channel": "conda-forge",
+                "constrains": [
+                    "zlib 1.2.13 *_6"
+                ],
+                "depends": [
+                    "__osx >=11.0"
+                ],
+                "fn": "libzlib-1.2.13-hfb2fe0b_6.conda",
+                "license": "Zlib",
+                "md5": "9c4e121cd926cab631bd1c4a61d18b17",
+                "name": "libzlib",
+                "sha256": "8b29a2386d99b8f58178951dcf19117b532cd9c4aa07623bf1667eae99755d32",
+                "size": 46768,
+                "subdir": "osx-arm64",
+                "timestamp": 1716874151,
+                "track_features": "",
+                "url": "https://conda.anaconda.org/conda-forge/osx-arm64/libzlib-1.2.13-hfb2fe0b_6.conda",
+                "version": "1.2.13"
+            },
+            {
+                "build": "hdb3d66b_0",
+                "build_number": 0,
+                "build_string": "hdb3d66b_0",
+                "channel": "conda-forge",
+                "constrains": [
+                    "intel-openmp <0.0a0",
+                    "openmp 23.1.1|23.1.1.*"
+                ],
+                "depends": [
+                    "__osx >=11.0"
+                ],
+                "fn": "llvm-openmp-23.1.1-hdb3d66b_0.conda",
+                "license": "Apache-2.0 WITH LLVM-exception",
+                "md5": "22ecd4403fcaf2fbbafa2cd53a0e0f0c",
+                "name": "llvm-openmp",
+                "sha256": "012e606dc31de2e4e173636a2ec13bc9b075498015cb65605b29e4f0bb9e481b",
+                "size": 287782,
+                "subdir": "osx-arm64",
+                "timestamp": 1788967337,
+                "track_features": "",
+                "url": "https://conda.anaconda.org/conda-forge/osx-arm64/llvm-openmp-23.1.1-hdb3d66b_0.conda",
+                "version": "23.1.1"
+            },
+            {
+                "build": "hfb2fe0b_6",
+                "build_number": 6,
+                "build_string": "hfb2fe0b_6",
+                "channel": "conda-forge",
+                "constrains": [],
+                "depends": [
+                    "__osx >=11.0",
+                    "libzlib 1.2.13 hfb2fe0b_6"
+                ],
+                "fn": "zlib-1.2.13-hfb2fe0b_6.conda",
+                "license": "Zlib",
+                "md5": "88cf27df3eff5813734b538461f4c8cf",
+                "name": "zlib",
+                "sha256": "c09c9cb6de86d87b9267a6331c74cc8fb05bae5ee7749070a5e8883c3eff5424",
+                "size": 78193,
+                "subdir": "osx-arm64",
+                "timestamp": 1716874169,
+                "track_features": "",
+                "url": "https://conda.anaconda.org/conda-forge/osx-arm64/zlib-1.2.13-hfb2fe0b_6.conda",
+                "version": "1.2.13"
+            },
+            {
+                "build": "h3abb732_0",
+                "build_number": 0,
+                "build_string": "h3abb732_0",
+                "channel": "conda-forge",
+                "constrains": [
+                    "libpmix 0.0.0",
+                    "libprrte 0.0.0"
+                ],
+                "depends": [
+                    "libcxx >=11.1.0",
+                    "libgfortran >=5",
+                    "libgfortran5 >=11.0.1.dev0",
+                    "mpi 1.0 openmpi",
+                    "zlib >=1.2.11,<1.3.0a0"
+                ],
+                "fn": "openmpi-4.1.1-h3abb732_0.tar.bz2",
+                "license": "BSD-3-Clause",
+                "md5": "52a978046787f997b3ef9cad1c9c5ea6",
+                "name": "openmpi",
+                "sha256": "1cf9f8e8a25e174800bf993b3d68d0ee46e65facbceb504d2daa454e5c7de94e",
+                "size": 3275906,
+                "subdir": "osx-arm64",
+                "timestamp": 1619327629,
+                "track_features": "",
+                "url": "https://conda.anaconda.org/conda-forge/osx-arm64/openmpi-4.1.1-h3abb732_0.tar.bz2",
+                "version": "4.1.1"
+            }
+        ],
+        "LINK": [
+            {
+                "build": "openmpi",
+                "build_number": 0,
+                "build_string": "openmpi",
+                "channel": "conda-forge",
+                "constrains": [],
+                "depends": [],
+                "fn": "mpi-1.0-openmpi.tar.bz2",
+                "license": "BSD 3-clause",
+                "md5": "cb269c879b1ac5e5ab62a3c17528c40f",
+                "name": "mpi",
+                "sha256": "7051ff40ca1208c06db24f8bf5cf72ee7ad03891e7fd365c3f7a4190938ae83a",
+                "size": 4294,
+                "subdir": "osx-arm64",
+                "timestamp": 1605464601,
+                "track_features": "",
+                "url": "https://conda.anaconda.org/conda-forge/osx-arm64/mpi-1.0-openmpi.tar.bz2",
+                "version": "1.0"
+            },
+            {
+                "build": "h55c6f16_0",
+                "build_number": 0,
+                "build_string": "h55c6f16_0",
+                "channel": "conda-forge",
+                "constrains": [],
+                "depends": [
+                    "__osx >=11.0"
+                ],
+                "fn": "libcxx-23.1.1-h55c6f16_0.conda",
+                "license": "Apache-2.0 WITH LLVM-exception",
+                "md5": "b61106a0b5ac7cfe874f8b2e4f067dfa",
+                "name": "libcxx",
+                "sha256": "3f902803f0fc2643a4f82ff15a06811d974ff5fb6fa8f957720a7ef84e13ad98",
+                "size": 578565,
+                "subdir": "osx-arm64",
+                "timestamp": 1788869180,
+                "track_features": "",
+                "url": "https://conda.anaconda.org/conda-forge/osx-arm64/libcxx-23.1.1-h55c6f16_0.conda",
+                "version": "23.1.1"
+            },
+            {
+                "build": "hfb2fe0b_6",
+                "build_number": 6,
+                "build_string": "hfb2fe0b_6",
+                "channel": "conda-forge",
+                "constrains": [
+                    "zlib 1.2.13 *_6"
+                ],
+                "depends": [
+                    "__osx >=11.0"
+                ],
+                "fn": "libzlib-1.2.13-hfb2fe0b_6.conda",
+                "license": "Zlib",
+                "md5": "9c4e121cd926cab631bd1c4a61d18b17",
+                "name": "libzlib",
+                "sha256": "8b29a2386d99b8f58178951dcf19117b532cd9c4aa07623bf1667eae99755d32",
+                "size": 46768,
+                "subdir": "osx-arm64",
+                "timestamp": 1716874151,
+                "track_features": "",
+                "url": "https://conda.anaconda.org/conda-forge/osx-arm64/libzlib-1.2.13-hfb2fe0b_6.conda",
+                "version": "1.2.13"
+            },
+            {
+                "build": "hdb3d66b_0",
+                "build_number": 0,
+                "build_string": "hdb3d66b_0",
+                "channel": "conda-forge",
+                "constrains": [
+                    "intel-openmp <0.0a0",
+                    "openmp 23.1.1|23.1.1.*"
+                ],
+                "depends": [
+                    "__osx >=11.0"
+                ],
+                "fn": "llvm-openmp-23.1.1-hdb3d66b_0.conda",
+                "license": "Apache-2.0 WITH LLVM-exception",
+                "md5": "22ecd4403fcaf2fbbafa2cd53a0e0f0c",
+                "name": "llvm-openmp",
+                "sha256": "012e606dc31de2e4e173636a2ec13bc9b075498015cb65605b29e4f0bb9e481b",
+                "size": 287782,
+                "subdir": "osx-arm64",
+                "timestamp": 1788967337,
+                "track_features": "",
+                "url": "https://conda.anaconda.org/conda-forge/osx-arm64/llvm-openmp-23.1.1-hdb3d66b_0.conda",
+                "version": "23.1.1"
+            },
+            {
+                "build": "hfb2fe0b_6",
+                "build_number": 6,
+                "build_string": "hfb2fe0b_6",
+                "channel": "conda-forge",
+                "constrains": [],
+                "depends": [
+                    "__osx >=11.0",
+                    "libzlib 1.2.13 hfb2fe0b_6"
+                ],
+                "fn": "zlib-1.2.13-hfb2fe0b_6.conda",
+                "license": "Zlib",
+                "md5": "88cf27df3eff5813734b538461f4c8cf",
+                "name": "zlib",
+                "sha256": "c09c9cb6de86d87b9267a6331c74cc8fb05bae5ee7749070a5e8883c3eff5424",
+                "size": 78193,
+                "subdir": "osx-arm64",
+                "timestamp": 1716874169,
+                "track_features": "",
+                "url": "https://conda.anaconda.org/conda-forge/osx-arm64/zlib-1.2.13-hfb2fe0b_6.conda",
+                "version": "1.2.13"
+            },
+            {
+                "build": "8_kmp_llvm",
+                "build_number": 8,
+                "build_string": "8_kmp_llvm",
+                "channel": "conda-forge",
+                "constrains": [],
+                "depends": [
+                    "llvm-openmp >=9.0.1"
+                ],
+                "fn": "_openmp_mutex-4.5-8_kmp_llvm.conda",
+                "license": "BSD-3-Clause",
+                "md5": "a2d706b4a7d603524133037c34f7fb76",
+                "name": "_openmp_mutex",
+                "sha256": "c7c98ce74f6a7ff25aaa4706d06fa41d63a333add4d697b73aa4d8d2d7ad7651",
+                "size": 8016,
+                "subdir": "osx-arm64",
+                "timestamp": 1788046437,
+                "track_features": "",
+                "url": "https://conda.anaconda.org/conda-forge/osx-arm64/_openmp_mutex-4.5-8_kmp_llvm.conda",
+                "version": "4.5"
+            },
+            {
+                "build": "h3cf6597_4",
+                "build_number": 4,
+                "build_string": "h3cf6597_4",
+                "channel": "conda-forge",
+                "constrains": [
+                    "libgcc-ng ==16.2.0 *_4",
+                    "libgomp 16.2.0 4"
+                ],
+                "depends": [
+                    "_openmp_mutex"
+                ],
+                "fn": "libgcc-16.2.0-h3cf6597_4.conda",
+                "license": "GPL-3.0-only WITH GCC-exception-3.1",
+                "md5": "408af8d9d5226ff45ff04756ff1aa91e",
+                "name": "libgcc",
+                "sha256": "00b8d07ea98344c72c6e332a09b8060f4176849d5fd0eb78dd5b30176ad97ca4",
+                "size": 365758,
+                "subdir": "osx-arm64",
+                "timestamp": 1787617459,
+                "track_features": "",
+                "url": "https://conda.anaconda.org/conda-forge/osx-arm64/libgcc-16.2.0-h3cf6597_4.conda",
+                "version": "16.2.0"
+            },
+            {
+                "build": "hdb7a957_4",
+                "build_number": 4,
+                "build_string": "hdb7a957_4",
+                "channel": "conda-forge",
+                "constrains": [
+                    "libgfortran 16.2.0"
+                ],
+                "depends": [
+                    "libgcc >=16.2.0"
+                ],
+                "fn": "libgfortran5-16.2.0-hdb7a957_4.conda",
+                "license": "GPL-3.0-only WITH GCC-exception-3.1",
+                "md5": "d54390644d893d50e739b19145aae45f",
+                "name": "libgfortran5",
+                "sha256": "902719c38c7a390d305435a362dc83893754c3f933569a38347c434cd1c12540",
+                "size": 554806,
+                "subdir": "osx-arm64",
+                "timestamp": 1787617465,
+                "track_features": "",
+                "url": "https://conda.anaconda.org/conda-forge/osx-arm64/libgfortran5-16.2.0-hdb7a957_4.conda",
+                "version": "16.2.0"
+            },
+            {
+                "build": "h07b0088_4",
+                "build_number": 4,
+                "build_string": "h07b0088_4",
+                "channel": "conda-forge",
+                "constrains": [
+                    "libgfortran-ng ==16.2.0 *_4"
+                ],
+                "depends": [
+                    "libgfortran5 16.2.0 hdb7a957_4"
+                ],
+                "fn": "libgfortran-16.2.0-h07b0088_4.conda",
+                "license": "GPL-3.0-only WITH GCC-exception-3.1",
+                "md5": "aa6c627acd0f5709d9c79bf708a7b81b",
+                "name": "libgfortran",
+                "sha256": "7582efbbffc6964093afd80e01c2ac60d89aa4e404cac664544675b9d4d1c5e7",
+                "size": 99624,
+                "subdir": "osx-arm64",
+                "timestamp": 1787617544,
+                "track_features": "",
+                "url": "https://conda.anaconda.org/conda-forge/osx-arm64/libgfortran-16.2.0-h07b0088_4.conda",
+                "version": "16.2.0"
+            },
+            {
+                "build": "h3abb732_0",
+                "build_number": 0,
+                "build_string": "h3abb732_0",
+                "channel": "conda-forge",
+                "constrains": [
+                    "libpmix 0.0.0",
+                    "libprrte 0.0.0"
+                ],
+                "depends": [
+                    "libcxx >=11.1.0",
+                    "libgfortran >=5",
+                    "libgfortran5 >=11.0.1.dev0",
+                    "mpi 1.0 openmpi",
+                    "zlib >=1.2.11,<1.3.0a0"
+                ],
+                "fn": "openmpi-4.1.1-h3abb732_0.tar.bz2",
+                "license": "BSD-3-Clause",
+                "md5": "52a978046787f997b3ef9cad1c9c5ea6",
+                "name": "openmpi",
+                "sha256": "1cf9f8e8a25e174800bf993b3d68d0ee46e65facbceb504d2daa454e5c7de94e",
+                "size": 3275906,
+                "subdir": "osx-arm64",
+                "timestamp": 1619327629,
+                "track_features": "",
+                "url": "https://conda.anaconda.org/conda-forge/osx-arm64/openmpi-4.1.1-h3abb732_0.tar.bz2",
+                "version": "4.1.1"
+            }
+        ],
+        "PREFIX": "/Users/xavier/Documents/dev/generaldrugs/dft/.tools/orca-mpi"
+    },
+    "dry_run": true,
+    "log_history": [],
+    "prefix": "/Users/xavier/Documents/dev/generaldrugs/dft/.tools/orca-mpi",
+    "success": true
+}

@@ -1,0 +1,15 @@
+{
+  "week": 2,
+  "status": "week2_core_checks_complete_with_open_research_preconditions",
+  "scope": "week2 only; week3 not launched",
+  "summary": "reports/week2-summary.json",
+  "report": "reports/WEEK2_RESULTS.ko.md",
+  "open_gates": [
+    "final journal supplementary methods and negative-attempt conditions",
+    "final DFT state/pose coverage for the full control panel",
+    "self-association controls, method and solvent sensitivity",
+    "equilibrium interlayer distance beyond the initial rigid-layer samples",
+    "equilibrium in-plane lattice and heterobilayer/Se numerical convergence",
+    "exact reference pseudopotential revision for matched model benchmarking"
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "protocol_id": "dft-pilot-20260909-v1-week2",
+  "week": 2,
+  "job_id": "w2-mono-c80-k12-v30",
+  "task_id": "SR01",
+  "engine": "qe",
+  "executable": ".tools/qe-7.6/bin/pw.x",
+  "input": "inputs/qe/week2/w2-mono-c80-k12-v30.in",
+  "assets": {
+    "data/pseudopotentials/pseudo-dojo-nc-sr-04-pbe-standard/Mo.upf": "pseudo/Mo.upf",
+    "data/pseudopotentials/pseudo-dojo-nc-sr-04-pbe-standard/S.upf": "pseudo/S.upf"
+  },
+  "method": "vdW-DF-C09; PseudoDojo nc-sr-04 standard PBE scalar NC",
+  "purpose": "week2 numerical sensitivity at fixed geometry",
+  "requested": {
+    "optimization": false,
+    "frequencies": false
+  },
+  "n_atoms": 3,
+  "charge": 0,
+  "SOC": false,
+  "ecutwfc_Ry": 80,
+  "ecutrho_Ry": 320,
+  "k_grid": [
+    12,
+    12,
+    1
+  ],
+  "vacuum_gap_angstrom": 30,
+  "conv_thr_Ry": 1e-10,
+  "lattice_a_angstrom": 3.18,
+  "timeout_seconds": 43200,
+  "rss_limit_gib": 40,
+  "omp_threads": 4,
+  "accuracy_scope": "Numerical sensitivity only at this composition/geometry; exact literature pseudo revision unverified",
+  "scan_axis": "cutoff",
+  "configuration_id": "MoS2-monolayer",
+  "started_at": "2026-09-10T10:10:46.792257+00:00",
+  "status": "passed",
+  "run_dir": "/Users/xavier/Documents/dev/generaldrugs/dft/runs/20260910T101046790764Z-w2-mono-c80-k12-v30",
+  "config_sha256": "f5793332e226a17fdd139aab46a6caf514c7f9c37435d73f6b8300581e22ed22",
+  "source_sha256": {
+    "inputs/qe/week2/w2-mono-c80-k12-v30.in": "750593c75f44f06048052ecc316cec8c26d217c188afa6a64c732adb8089da77",
+    "data/pseudopotentials/pseudo-dojo-nc-sr-04-pbe-standard/Mo.upf": "7a392dee2cc7088d02184ddefa73b709f11e266fdde348a08eeaf8ea2870e448",
+    "data/pseudopotentials/pseudo-dojo-nc-sr-04-pbe-standard/S.upf": "7dcddbca51ad05414445cc784264d39f139300f47897ae96740f49d6ba96daa7"
+  },
+  "executable_sha256": "d9c0a96099241bc96b8fc5783ae61363f9d667458fc2fee19ab13b71cd354ed5",
+  "command": [
+    "/Users/xavier/Documents/dev/generaldrugs/dft/.tools/qe-7.6/bin/pw.x",
+    "-in",
+    "w2-mono-c80-k12-v30.in"
+  ],
+  "runner_sha256": "e276ab1aa4ddc435d0a3aceec06b27445f6a6c1263f101009d5de14e6cc70cf6",
+  "stop_reason": null,
+  "thread_environment": {
+    "OMP_NUM_THREADS": "4",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "VECLIB_MAXIMUM_THREADS": "1"
+  },
+  "pid": 44791,
+  "engine_launched": true,
+  "ended_at": "2026-09-10T10:16:19.843867+00:00",
+  "elapsed_seconds": 333.06,
+  "exit_code": 0,
+  "peak_sampled_process_tree_rss_bytes": 777732096,
+  "memory_samples": 644,
+  "memory_access_denied": 0,
+  "max_single_child_rss_bytes": 778403840,
+  "system_swap_increase_peak_bytes": 0,
+  "memory_measurement": "0.5s sampled summed process-tree RSS; may double-count shared pages and miss peaks. OS ru_maxrss is maximum single-child RSS in macOS bytes. Swap is system-wide, not attributable solely to this job.",
+  "output_sha256": "24ea1f8e1602cb066c07b0056af81fb01d85ab9e6e0b9811cb03a720f7730ad2",
+  "result": {
+    "engine_version": "7.6",
+    "normal_termination": true,
+    "scf_converged": true,
+    "geometry_optimization_converged": null,
+    "energy": -184.82983297,
+    "energy_unit": "Ry",
+    "energy_history": [
+      -184.82983297
+    ],
+    "minimum_verified": null,
+    "frequency_analysis_complete": false,
+    "total_force_Ry_Bohr": 0.000247,
+    "accuracy_scope": "Numerical sensitivity only at this composition/geometry; exact literature pseudo revision unverified",
+    "status": "passed"
+  }
+}

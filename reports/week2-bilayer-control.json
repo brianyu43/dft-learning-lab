@@ -1,0 +1,91 @@
+{
+  "batch_id": "week2-bilayer-control",
+  "started_at": "2026-09-11T02:57:47.873357+00:00",
+  "batch_sha256": "c4a41852df55cfc2bc35361ec14c2cdddd7b419fbd1aec0a370ebe9c49cc1705",
+  "status": "completed",
+  "jobs": [
+    {
+      "job_id": "w2-bilayer-selected-r0-d6p0-pair",
+      "exit_code": 0,
+      "report": "reports/w2-bilayer-selected-r0-d6p0-pair.json"
+    },
+    {
+      "job_id": "w2-bilayer-selected-r0-d6p0-bottom",
+      "exit_code": 0,
+      "report": "reports/w2-bilayer-selected-r0-d6p0-bottom.json"
+    },
+    {
+      "job_id": "w2-bilayer-selected-r0-d6p0-top",
+      "exit_code": 0,
+      "report": "reports/w2-bilayer-selected-r0-d6p0-top.json"
+    },
+    {
+      "job_id": "w2-bilayer-selected-r0-d6p3-pair",
+      "exit_code": 0,
+      "report": "reports/w2-bilayer-selected-r0-d6p3-pair.json"
+    },
+    {
+      "job_id": "w2-bilayer-selected-r0-d6p3-bottom",
+      "exit_code": 0,
+      "report": "reports/w2-bilayer-selected-r0-d6p3-bottom.json"
+    },
+    {
+      "job_id": "w2-bilayer-selected-r0-d6p3-top",
+      "exit_code": 0,
+      "report": "reports/w2-bilayer-selected-r0-d6p3-top.json"
+    },
+    {
+      "job_id": "w2-bilayer-selected-r0-d6p6-pair",
+      "exit_code": 0,
+      "report": "reports/w2-bilayer-selected-r0-d6p6-pair.json"
+    },
+    {
+      "job_id": "w2-bilayer-selected-r0-d6p6-bottom",
+      "exit_code": 0,
+      "report": "reports/w2-bilayer-selected-r0-d6p6-bottom.json"
+    },
+    {
+      "job_id": "w2-bilayer-selected-r0-d6p6-top",
+      "exit_code": 0,
+      "report": "reports/w2-bilayer-selected-r0-d6p6-top.json"
+    },
+    {
+      "job_id": "w2-bilayer-selected-r1-d6p3-pair",
+      "exit_code": 0,
+      "report": "reports/w2-bilayer-selected-r1-d6p3-pair.json"
+    },
+    {
+      "job_id": "w2-bilayer-selected-r1-d6p3-top",
+      "exit_code": 0,
+      "report": "reports/w2-bilayer-selected-r1-d6p3-top.json"
+    },
+    {
+      "job_id": "w2-bilayer-selected-r2-d6p3-pair",
+      "exit_code": 0,
+      "report": "reports/w2-bilayer-selected-r2-d6p3-pair.json"
+    },
+    {
+      "job_id": "w2-bilayer-selected-r2-d6p3-top",
+      "exit_code": 0,
+      "report": "reports/w2-bilayer-selected-r2-d6p3-top.json"
+    },
+    {
+      "job_id": "w2-bilayer-strict-r0-d6p3-pair",
+      "exit_code": 0,
+      "report": "reports/w2-bilayer-strict-r0-d6p3-pair.json"
+    },
+    {
+      "job_id": "w2-bilayer-strict-r0-d6p3-bottom",
+      "exit_code": 0,
+      "report": "reports/w2-bilayer-strict-r0-d6p3-bottom.json"
+    },
+    {
+      "job_id": "w2-bilayer-strict-r0-d6p3-top",
+      "exit_code": 0,
+      "report": "reports/w2-bilayer-strict-r0-d6p3-top.json"
+    }
+  ],
+  "automatic_retries": 0,
+  "ended_at": "2026-09-11T03:50:26.014950+00:00",
+  "batch_elapsed_seconds": 3158.028
+}

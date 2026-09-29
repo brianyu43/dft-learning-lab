@@ -1,0 +1,14 @@
+{
+  "PropertyTable": {
+    "Properties": [
+      {
+        "CID": 936,
+        "MolecularFormula": "C6H6N2O",
+        "SMILES": "C1=CC(=CN=C1)C(=O)N",
+        "ConnectivitySMILES": "C1=CC(=CN=C1)C(=O)N",
+        "InChIKey": "DFPAKSUCGFBDDF-UHFFFAOYSA-N",
+        "IUPACName": "pyridine-3-carboxamide"
+      }
+    ]
+  }
+}

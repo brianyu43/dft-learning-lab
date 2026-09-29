@@ -1,0 +1,51 @@
+{
+  "status": "initial_axes_passed_combined_setting_pending",
+  "completed": 7,
+  "expected": 7,
+  "axes": {
+    "cutoff": {
+      "tested_values": [
+        80,
+        100,
+        120
+      ],
+      "last_interval_energy_meV_atom": 0.13016182507878207,
+      "last_interval_force_eV_angstrom": 1.1513253182118821e-05,
+      "last_interval_passed": true,
+      "smallest_tested_value_within_reference_tolerance": 80
+    },
+    "k_grid": {
+      "tested_values": [
+        6,
+        9,
+        12
+      ],
+      "last_interval_energy_meV_atom": 0.022912937007883254,
+      "last_interval_force_eV_angstrom": 0.0002012713072545979,
+      "last_interval_passed": true,
+      "smallest_tested_value_within_reference_tolerance": 6
+    },
+    "vacuum": {
+      "tested_values": [
+        20,
+        25,
+        30
+      ],
+      "last_interval_energy_meV_atom": 0.07154154582167394,
+      "last_interval_force_eV_angstrom": 2.6927798295518605e-05,
+      "last_interval_passed": true,
+      "smallest_tested_value_within_reference_tolerance": 20
+    }
+  },
+  "thresholds": {
+    "energy_meV_atom": 1.0,
+    "force_eV_angstrom": 0.005
+  },
+  "reference_is_exact": false,
+  "monolayer_geometry": "week1 internally relaxed at fixed a=3.18 A",
+  "candidate_combined_setting": {
+    "cutoff": 80,
+    "k_grid": 6,
+    "vacuum": 20
+  }
+}

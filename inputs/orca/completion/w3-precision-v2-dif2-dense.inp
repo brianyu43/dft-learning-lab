@@ -1,0 +1,9 @@
+! r2SCAN-3c VeryTightSCF DefGrid3 EnGrad
+%maxcore 2000
+%pal nprocs 12 end
+%method
+  AngularGrid 7
+  IntAcc 6.0
+end
+
+* xyzfile 0 1 initial.xyz

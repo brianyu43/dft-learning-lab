@@ -1,0 +1,54 @@
+{
+  "prepared_at": "2026-09-29T11:24:28.089401+00:00",
+  "status": "preparation_checks_passed_not_DFT",
+  "test_count": 6,
+  "test_exit_code": 0,
+  "source_sha256": {
+    "scripts/prepare_completion_alloy_probe.py": "3708c310735fddd5f882964c008ec9a2a282e08733e0fcd618d55443c01c166f",
+    "scripts/completion_alloy_geometry.py": "ef612b38d75baee52b9909a84de4beb0a914e3da10c3c715c2314de05ecbc017",
+    "scripts/completion_qe_bridge.py": "fb300aa4a799cdcc57761f95601c14662e5150965fecc9e5f47409e7c0366582",
+    "tests/test_completion_alloy_probe.py": "785783c4d20446b00ba7e0aab62d3d03cfe58e8314ae73a5ce4d325fe368044c",
+    "reports/completion/alloy-probe-tests.log": "55084c87f1a52393c738d4783d05fb3aae16707c4ea6e75e015f6b9f1aac4f9d"
+  },
+  "fixture_only": true,
+  "fixture_geometry": {
+    "common_lattice_angstrom": 3.24,
+    "D0_angstrom": 6.7
+  },
+  "fixture_settings": {
+    "method": "C09",
+    "ecutwfc_Ry": 100,
+    "ecutrho_Ry": 400,
+    "k_grid": [
+      5,
+      5,
+      1
+    ],
+    "k_offset": [
+      0,
+      0,
+      0
+    ],
+    "conv_thr_Ry": 1e-10,
+    "primitive_reference_k": 9,
+    "primitive_equivalent_k": 10,
+    "k_rule": "ceil(primitive k / 2); no coarser spacing, not identical quadrature",
+    "vacuum_angstrom": 25,
+    "charge": 0,
+    "nspin": 1,
+    "SOC": false,
+    "occupations": "fixed"
+  },
+  "fixture_matrix_count": 27,
+  "fixture_unique_calculation_count": 63,
+  "fixture_pair_count": 27,
+  "fixture_reference_count": 36,
+  "actual_reference_status": "running",
+  "actual_missing_gate_message": "Reference baseline is not passed; no production input written",
+  "production_probe_plan_exists": false,
+  "production_input_count": 0,
+  "new_24_atom_QE_execution_count": 0,
+  "actual_completed_reference_integration_verified": false,
+  "automatic_execution": false,
+  "scope": "Input assembly and rejection gates verified; actual baseline and measured cost are still required"
+}

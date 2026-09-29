@@ -1,0 +1,140 @@
+{
+  "protocol_id": "week2-parallel-performance-extension",
+  "week": 2,
+  "job_id": "p2-v2-water-n2-r0",
+  "task_id": "PERF2",
+  "engine": "orca",
+  "executable": "scripts/orca_parallel.sh",
+  "input": "inputs/orca/week2/p2-v2-water-n2-r0.inp",
+  "method": "r2SCAN-3c",
+  "charge": 0,
+  "multiplicity": 1,
+  "solvent": "vacuum",
+  "n_atoms": 3,
+  "linear": false,
+  "requested": {
+    "optimization": true,
+    "frequencies": true,
+    "gradient": true
+  },
+  "timeout_seconds": 900,
+  "rss_limit_gib": 40,
+  "omp_threads": 1,
+  "mpi_processes": 2,
+  "benchmark_repeat": 0,
+  "geometry_source": "structures/optimized/week1/water.xyz",
+  "geometry_source_sha256": "1973f7491286efaa83d078ec648d745c56ed9e9d37be1216043d9be4da1865c4",
+  "purpose": "Water MPI Opt/Freq backend smoke",
+  "assets": {
+    "environment/orca-mpi-explicit.txt": "provenance/orca-mpi-explicit.txt",
+    ".tools/orca-mpi/lib/libmpi.40.dylib": "libmpi.40.dylib",
+    ".tools/orca-mpi/lib/libopen-rte.40.dylib": "libopen-rte.40.dylib",
+    ".tools/orca-mpi/lib/libopen-pal.40.dylib": "libopen-pal.40.dylib",
+    ".tools/orca-mpi/lib/libopen-orted-mpir.dylib": "libopen-orted-mpir.dylib",
+    ".tools/orca-mpi/lib/libz.1.dylib": "libz.1.dylib"
+  },
+  "started_at": "2026-09-11T02:28:31.671143+00:00",
+  "status": "passed",
+  "run_dir": "/Users/xavier/Documents/dev/generaldrugs/dft/runs/20260911T022831666424Z-p2-v2-water-n2-r0",
+  "config_sha256": "8b18d5b51f5e5156b641151eeea9b2de66d4701add82a11d59e765c2da05484d",
+  "source_sha256": {
+    "inputs/orca/week2/p2-v2-water-n2-r0.inp": "fd734baa2f29fbb20174aef8606d863eecc67aa1a94b6db3a2d481e5fca703ef",
+    "environment/orca-mpi-explicit.txt": "fb1bbeb3dbc7fe7d832832dee42715f8d02c6a4e539c1d7733c3060e67749c19",
+    ".tools/orca-mpi/lib/libmpi.40.dylib": "3f433facb4325248a8527298f556d2eb16f2300d6329e916216c1a5625cb0c8d",
+    ".tools/orca-mpi/lib/libopen-rte.40.dylib": "dba76cb5bee8fe70e117c9199780eeb4cff76aedaa68e44c174e6c0d4c421975",
+    ".tools/orca-mpi/lib/libopen-pal.40.dylib": "b9bb52d11408495dddbacd0fec0ef98c07bce80d7f56115428b03033dff77fec",
+    ".tools/orca-mpi/lib/libopen-orted-mpir.dylib": "fb02d3d8287ffc0c63d6cdcf0e94e32333aee0ea401c0c785e74a9ecc276b3f5",
+    ".tools/orca-mpi/lib/libz.1.dylib": "be8b83df360c94cfe6c13f320c7f85960eee26a52d793a10fa90ea97595f1a09"
+  },
+  "executable_sha256": "3dccb38bdd68fe054b55e1456b2168b8df6811a92f612afb707c5fa70458dda8",
+  "command": [
+    "/Users/xavier/Documents/dev/generaldrugs/dft/scripts/orca_parallel.sh",
+    "p2-v2-water-n2-r0.inp"
+  ],
+  "runner_sha256": "e276ab1aa4ddc435d0a3aceec06b27445f6a6c1263f101009d5de14e6cc70cf6",
+  "stop_reason": null,
+  "thread_environment": {
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "VECLIB_MAXIMUM_THREADS": "1"
+  },
+  "pid": 61452,
+  "engine_launched": true,
+  "ended_at": "2026-09-11T02:29:01.433907+00:00",
+  "elapsed_seconds": 29.762,
+  "exit_code": 0,
+  "peak_sampled_process_tree_rss_bytes": 312459264,
+  "memory_samples": 57,
+  "memory_access_denied": 0,
+  "max_single_child_rss_bytes": 174866432,
+  "system_swap_increase_peak_bytes": 0,
+  "memory_measurement": "0.5s sampled summed process-tree RSS; may double-count shared pages and miss peaks. OS ru_maxrss is maximum single-child RSS in macOS bytes. Swap is system-wide, not attributable solely to this job.",
+  "output_sha256": "5a2ecdac342de1d8c50feded66a362623be686f0010afe26a04c69a706baf6af",
+  "result": {
+    "engine_version": "6.1.1",
+    "normal_termination": true,
+    "scf_converged": true,
+    "geometry_optimization_converged": true,
+    "energy": -76.418938720776,
+    "energy_unit": "Hartree",
+    "energy_history": [
+      -76.41893872085,
+      -76.418938720776
+    ],
+    "frequencies_cm1": [
+      1653.26,
+      3813.59,
+      3932.73
+    ],
+    "all_reported_modes_cm1": [
+      [
+        0,
+        0.0
+      ],
+      [
+        1,
+        0.0
+      ],
+      [
+        2,
+        0.0
+      ],
+      [
+        3,
+        0.0
+      ],
+      [
+        4,
+        0.0
+      ],
+      [
+        5,
+        0.0
+      ],
+      [
+        6,
+        1653.26
+      ],
+      [
+        7,
+        3813.59
+      ],
+      [
+        8,
+        3932.73
+      ]
+    ],
+    "frequency_count_expected": 3,
+    "frequency_count_observed": 3,
+    "projected_external_modes_verified": true,
+    "imaginary_frequencies_cm1": [],
+    "lowest_vibrational_frequency_cm1": 1653.26,
+    "minimum_verified": true,
+    "frequency_analysis_complete": true,
+    "optimization_cycles": [
+      1
+    ],
+    "status": "passed"
+  }
+}

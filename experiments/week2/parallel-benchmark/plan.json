@@ -1,0 +1,42 @@
+{
+  "status": "prepared",
+  "purpose": "User-requested core-count review",
+  "optimization_provenance": {
+    "checkpoint": "experiments/week2/pause-checkpoint.json",
+    "checkpoint_sha256": "abc6fed24ee845b89b146b916f312ff11cd809d7b42961f1fb480f2dfa98778e",
+    "optimized_geometry": "structures/checkpoints/week2/user-pause-20260910/diflunisal--caffeine-optimized.xyz",
+    "geometry_sha256": "820d5ba77bdd0c689b9823a41e230fc2f15832ee020399934498dca7dd1a56ee",
+    "optimization_log": "runs/20260910T114317596838Z-w2-diflunisal--caffeine-opt-freq/output.log",
+    "optimization_log_sha256": "8dd054bd92af5ad2f7ce1f935b08cad43d75c13f04ad9d134446aa21840ecabc",
+    "source_run_dir": "runs/20260910T114317596838Z-w2-diflunisal--caffeine-opt-freq",
+    "optimization_converged": true,
+    "optimization_cycles": 87,
+    "optimization_energy_Hartree": -1605.729283404198,
+    "method": "r2SCAN-3c",
+    "charge": 0,
+    "multiplicity": 1,
+    "n_atoms": 50,
+    "frequency_or_minimum_verified": false
+  },
+  "geometry_source_sha256": "820d5ba77bdd0c689b9823a41e230fc2f15832ee020399934498dca7dd1a56ee",
+  "main_ORCA_sha256": "ae760c7b81d474cdf4d9f249b50f7c9cde40b402b1d85ef4213a817bdee1400a",
+  "mpirun_sha256": "d6fdc8372514198dd21f63808b16c396242d930bb11d4bda7db2ed801b149356",
+  "libmpi_sha256": "3f433facb4325248a8527298f556d2eb16f2300d6329e916216c1a5625cb0c8d",
+  "launcher_sha256": "3dccb38bdd68fe054b55e1456b2168b8df6811a92f612afb707c5fa70458dda8",
+  "jobs": [
+    "experiments/week2/parallel-benchmark/p2-water-n2-r0.json",
+    "experiments/week2/parallel-benchmark/p2-dimer-n1-r1.json",
+    "experiments/week2/parallel-benchmark/p2-dimer-n8-r1.json",
+    "experiments/week2/parallel-benchmark/p2-dimer-n12-r1.json",
+    "experiments/week2/parallel-benchmark/p2-dimer-n16-r1.json",
+    "experiments/week2/parallel-benchmark/p2-dimer-n16-r2.json",
+    "experiments/week2/parallel-benchmark/p2-dimer-n12-r2.json",
+    "experiments/week2/parallel-benchmark/p2-dimer-n8-r2.json",
+    "experiments/week2/parallel-benchmark/p2-dimer-n1-r2.json"
+  ],
+  "energy_tolerance_Hartree": 1e-06,
+  "maximum_gradient_difference_tolerance_Hartree_Bohr": 1e-05,
+  "budget_seconds": 2700,
+  "automatic_retries": 0,
+  "scope": "Water Opt/Freq backend check, followed by same dimer geometry, method, SCF tolerance and fresh initial guess. Two EnGrad repeats, reverse order; OS/thermal variance remains. Dimer analytical Hessian scaling is not measured."
+}

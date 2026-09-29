@@ -1,0 +1,21 @@
+{
+  "status": "passed",
+  "records": [
+    {
+      "phase": "monomers",
+      "unique_attempts": 93,
+      "hash_checks": "passed",
+      "geometries_with_optimizer_convergence": 93
+    },
+    {
+      "phase": "dimers",
+      "unique_attempts": 412,
+      "hash_checks": "passed",
+      "geometries_with_optimizer_convergence": 398
+    }
+  ],
+  "proton_transfer_starts": 12,
+  "proton_transfer_starts_converged": 11,
+  "converged_PT_starts_matching_neutral_template_H_owners": 11,
+  "assignment_scope": "nearest-heavy-atom geometry; not formal electronic charge"
+}

@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "unique_inputs": 16,
+  "matched_comparisons": 6,
+  "charge_and_spin": "0, nonspinpolarized",
+  "scope": "input validation; not an engine result",
+  "geometry_policy": "fixed same-orientation layers; matched frozen single-layer references",
+  "registry_and_horizontal_mirror_symmetry_verified": true,
+  "vacuum_metadata": "actual empty gap per system; isolated references retain the bilayer cell and have a larger empty gap"
+}

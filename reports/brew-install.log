@@ -1,0 +1,81 @@
+==> Downloading bottle manifests
+✔︎ Bottle Manifest fftw (3.3.11)
+✔︎ Bottle Manifest cmake (4.4.3)
+✔︎ Bottle Manifest gcc (16.2.0)
+✔︎ Bottle Manifest openblas (0.3.34)
+==> Would install 4 formulae:
+gcc cmake fftw openblas
+==> Would install 4 dependencies for gcc:
+gmp
+isl
+mpfr
+libmpc
+==> Would install 1 dependency for fftw:
+libomp
+==> Would install 6 dependencies for openblas:
+gmp
+isl
+mpfr
+libmpc
+gcc
+libomp
+==> Fetching downloads for: gcc, cmake, fftw and openblas
+✔︎ Bottle Manifest isl (0.28)
+✔︎ Bottle Manifest gmp (6.3.0)
+✔︎ Bottle Manifest libmpc (1.4.1)
+✔︎ Bottle Manifest mpfr (4.2.2)
+✔︎ Bottle isl (0.28)
+✔︎ Bottle Manifest libomp (23.1.0)
+✔︎ Bottle libmpc (1.4.1)
+✔︎ Bottle gmp (6.3.0)
+✔︎ Bottle libomp (23.1.0)
+✔︎ Bottle mpfr (4.2.2)
+✔︎ Bottle fftw (3.3.11)
+✔︎ Bottle openblas (0.3.34)
+✔︎ Bottle cmake (4.4.3)
+✔︎ Bottle gcc (16.2.0)
+==> Installing dependencies for gcc: gmp, isl, mpfr and libmpc
+==> Installing gcc dependency: gmp
+==> Pouring gmp--6.3.0.arm64_tahoe.bottle.1.tar.gz
+🍺  /opt/homebrew/Cellar/gmp/6.3.0: 22 files, 3.4MB
+==> Installing gcc dependency: isl
+==> Pouring isl--0.28.arm64_tahoe.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/isl/0.28: 80 files, 8.0MB
+==> Installing gcc dependency: mpfr
+==> Pouring mpfr--4.2.2.arm64_tahoe.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/mpfr/4.2.2: 31 files, 3.3MB
+==> Installing gcc dependency: libmpc
+==> Pouring libmpc--1.4.1.arm64_tahoe.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libmpc/1.4.1: 14 files, 523.5KB
+==> Installing gcc
+==> Pouring gcc--16.2.0.arm64_tahoe.bottle.1.tar.gz
+🍺  /opt/homebrew/Cellar/gcc/16.2.0: 1,705 files, 500.6MB
+==> Pouring cmake--4.4.3.arm64_tahoe.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/cmake/4.4.3: 4,159 files, 67.2MB
+==> Installing fftw dependency: libomp
+==> Pouring libomp--23.1.0.arm64_tahoe.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libomp/23.1.0: 11 files, 1.8MB
+==> Installing fftw
+==> Pouring fftw--3.3.11.arm64_tahoe.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/fftw/3.3.11: 74 files, 8.8MB
+==> Pouring openblas--0.3.34.arm64_tahoe.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/openblas/0.3.34: 30 files, 40.4MB
+==> Caveats
+Emacs Lisp files have been installed to:
+  /opt/homebrew/share/emacs/site-lisp/cmake
+==> cmake
+To install the CMake documentation, run:
+  brew install cmake-docs
+==> openblas
+openblas is keg-only, which means it was not symlinked into /opt/homebrew,
+because macOS provides BLAS in Accelerate.framework.
+
+For compilers to find openblas you may need to set:
+  export LDFLAGS="-L/opt/homebrew/opt/openblas/lib"
+  export CPPFLAGS="-I/opt/homebrew/opt/openblas/include"
+
+For pkgconf to find openblas you may need to set:
+  export PKG_CONFIG_PATH="/opt/homebrew/opt/openblas/lib/pkgconfig"
+
+For cmake to find openblas you may need to set:
+  export CMAKE_PREFIX_PATH="/opt/homebrew/opt/openblas"

@@ -1,0 +1,128 @@
+{
+  "protocol_id": "dft-pilot-20260909-v1",
+  "week": 1,
+  "job_id": "week1-water-opt-freq",
+  "task_id": "P02",
+  "engine": "orca",
+  "executable": ".tools/orca-6.1.1/orca",
+  "input": "inputs/orca/water_opt_freq.inp",
+  "method": "r2SCAN-3c",
+  "purpose": "learning baseline optimization and local-minimum verification",
+  "charge": 0,
+  "multiplicity": 1,
+  "n_atoms": 3,
+  "linear": false,
+  "solvent": "vacuum",
+  "requested": {
+    "optimization": true,
+    "frequencies": true
+  },
+  "timeout_seconds": 1800,
+  "rss_limit_gib": 40,
+  "omp_threads": 1,
+  "started_at": "2026-09-10T09:27:39.077398+00:00",
+  "status": "passed",
+  "run_dir": "/Users/xavier/Documents/dev/generaldrugs/dft/runs/20260910T092739076636Z-week1-water-opt-freq",
+  "config_sha256": "ba9f8b0bb14f76809b7735581b2010cc01b8d42c286d34ad7bf541bda8b9f971",
+  "source_sha256": {
+    "inputs/orca/water_opt_freq.inp": "54b3654cc90c90abaa98f248cdf561f6c13e48765d3cc60505b7ad89dd578935"
+  },
+  "executable_sha256": "ae760c7b81d474cdf4d9f249b50f7c9cde40b402b1d85ef4213a817bdee1400a",
+  "command": [
+    "/Users/xavier/Documents/dev/generaldrugs/dft/.tools/orca-6.1.1/orca",
+    "water_opt_freq.inp"
+  ],
+  "runner_sha256": "69c907bc028af1c57c2b2475449bd13024f770a716886d73dd835e1374daaf1a",
+  "stop_reason": null,
+  "thread_environment": {
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "VECLIB_MAXIMUM_THREADS": "1"
+  },
+  "pid": 43039,
+  "ended_at": "2026-09-10T09:27:45.135891+00:00",
+  "elapsed_seconds": 6.056,
+  "exit_code": 0,
+  "peak_sampled_process_tree_rss_bytes": null,
+  "memory_samples": 0,
+  "memory_access_denied": 12,
+  "max_single_child_rss_bytes": 168198144,
+  "system_swap_increase_peak_bytes": null,
+  "memory_measurement": "0.5s sampled summed process-tree RSS; may double-count shared pages and miss peaks. OS ru_maxrss is maximum single-child RSS in macOS bytes. Swap is system-wide, not attributable solely to this job.",
+  "output_sha256": "0c970ad7c5d001f2c615feb884d8d7c91f91f94b96539e96ee03c572fe993229",
+  "result": {
+    "engine_version": "6.1.1",
+    "normal_termination": true,
+    "scf_converged": true,
+    "geometry_optimization_converged": true,
+    "energy": -76.418938720851,
+    "energy_unit": "Hartree",
+    "energy_history": [
+      -76.418909796625,
+      -76.418937118447,
+      -76.418938340728,
+      -76.418938719209,
+      -76.418938720851
+    ],
+    "frequencies_cm1": [
+      1653.27,
+      3813.6,
+      3932.73
+    ],
+    "all_reported_modes_cm1": [
+      [
+        0,
+        0.0
+      ],
+      [
+        1,
+        0.0
+      ],
+      [
+        2,
+        0.0
+      ],
+      [
+        3,
+        0.0
+      ],
+      [
+        4,
+        0.0
+      ],
+      [
+        5,
+        0.0
+      ],
+      [
+        6,
+        1653.27
+      ],
+      [
+        7,
+        3813.6
+      ],
+      [
+        8,
+        3932.73
+      ]
+    ],
+    "frequency_count_expected": 3,
+    "frequency_count_observed": 3,
+    "projected_external_modes_verified": true,
+    "imaginary_frequencies_cm1": [],
+    "lowest_vibrational_frequency_cm1": 1653.27,
+    "minimum_verified": true,
+    "frequency_analysis_complete": true,
+    "optimization_cycles": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "status": "passed"
+  },
+  "reparsed_at": "2026-09-10T09:41:22.451073+00:00",
+  "parser_sha256": "e276ab1aa4ddc435d0a3aceec06b27445f6a6c1263f101009d5de14e6cc70cf6"
+}

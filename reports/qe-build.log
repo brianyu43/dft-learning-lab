@@ -1,0 +1,2174 @@
+[  0%] Building C object FFTXlib/src/CMakeFiles/qe_fftx_c.dir/fft_stick.c.o
+[  0%] Building C object UtilXlib/CMakeFiles/qe_utilx_c.dir/cptimer.c.o
+[  0%] Building Fortran object UtilXlib/CMakeFiles/qe_device_lapack.dir/device_helper.f90.o
+[  0%] Building Fortran object upflib/CMakeFiles/qe_xml.dir/dom.f90.o
+[  0%] Building Fortran object external/mbd/src/CMakeFiles/mbd.dir/mbd_constants.f90.o
+[  0%] Building Fortran object external/CMakeFiles/qe_devxlib.dir/devxlib/src/device_auxfunc_mod.f90.o
+[  0%] Building Fortran object external/mbd/src/CMakeFiles/mbd.dir/mbd_version.f90.o
+[  0%] Building Fortran object external/CMakeFiles/qe_devxlib.dir/devxlib/src/device_fbuff.f90.o
+[  0%] Building C object UtilXlib/CMakeFiles/qe_utilx_c.dir/copy.c.o
+[  0%] Linking Fortran static library ../lib/libqe_device_lapack.a
+[  0%] Building C object FFTXlib/src/CMakeFiles/qe_fftx_c.dir/fftw.c.o
+[  0%] Built target qe_device_lapack
+[  0%] Building Fortran object external/mbd/src/CMakeFiles/mbd.dir/mbd_defaults.f90.o
+[  0%] Building C object UtilXlib/CMakeFiles/qe_utilx_c.dir/c_mkdir.c.o
+[  0%] Building C object FFTXlib/src/CMakeFiles/qe_fftx_c.dir/fftw_sp.c.o
+[  0%] Building Fortran object external/mbd/src/CMakeFiles/mbd.dir/mbd_gradients.f90.o
+[  0%] Building C object UtilXlib/CMakeFiles/qe_utilx_c.dir/eval_infix.c.o
+[  0%] Building Fortran object upflib/CMakeFiles/qe_xml.dir/xmltools.f90.o
+[  0%] Built target gitrev
+[  0%] Building Fortran object external/CMakeFiles/qe_devxlib.dir/devxlib/src/device_memcpy_mod.f90.o
+[  0%] Building Fortran object external/mbd/src/CMakeFiles/mbd.dir/mbd_linalg.F90.o
+[  0%] Building Fortran object external/CMakeFiles/qe_devxlib.dir/devxlib/src/timer_mod.f90.o
+[  0%] Building C object UtilXlib/CMakeFiles/qe_utilx_c.dir/fletcher32.c.o
+[  0%] Building Fortran object external/CMakeFiles/qe_devxlib.dir/devxlib/src/device_memcpy.f90.o
+[  0%] Building Fortran object external/CMakeFiles/qe_devxlib.dir/devxlib/src/device_auxfunc.f90.o
+[  0%] Building C object UtilXlib/CMakeFiles/qe_utilx_c.dir/md5.c.o
+[  0%] Building Fortran object external/mbd/src/CMakeFiles/mbd.dir/mbd_utils.F90.o
+[  0%] Building C object UtilXlib/CMakeFiles/qe_utilx_c.dir/md5_from_file.c.o
+[  3%] Building C object UtilXlib/CMakeFiles/qe_utilx_c.dir/memstat.c.o
+[  3%] Building Fortran object upflib/CMakeFiles/qe_xml.dir/wxml.f90.o
+[  3%] Building Fortran object external/mbd/src/CMakeFiles/mbd.dir/mbd_damping.F90.o
+[  3%] Building C object UtilXlib/CMakeFiles/qe_utilx_c.dir/memusage.c.o
+[  3%] Building C object UtilXlib/CMakeFiles/qe_utilx_c.dir/ptrace.c.o
+[  3%] Building Fortran object external/mbd/src/CMakeFiles/mbd.dir/mbd_formulas.f90.o
+[  3%] Linking C static library ../lib/libqe_utilx_c.a
+[  3%] Linking Fortran static library ../lib/libqe_xml.a
+[  3%] Built target qe_utilx_c
+[  3%] Building C object Modules/CMakeFiles/qe_modules_c.dir/customize_signals.c.o
+[  3%] Built target qe_xml
+[  3%] Preprocessing /Users/xavier/Documents/dev/generaldrugs/dft/.tools/src/qe-7.6/LAXlib/laxlib.h
+[  3%] Building C object Modules/CMakeFiles/qe_modules_c.dir/qmmm_aux.c.o
+[  3%] Building C object Modules/CMakeFiles/qe_modules_c.dir/sockets.c.o
+[  3%] Building Fortran object external/mbd/src/CMakeFiles/mbd.dir/mbd_lapack.f90.o
+/Users/xavier/Documents/dev/generaldrugs/dft/.tools/src/qe-7.6/LAXlib/laxlib.h:4:52: warning: missing terminating ' character [-Winvalid-pp-token]
+    4 | ! GNU General Public License. See the file `License'
+      |                                                    ^
+1 warning generated.
+[  3%] Preprocessing /Users/xavier/Documents/dev/generaldrugs/dft/.tools/src/qe-7.6/LAXlib/laxlib_hi.h
+/Users/xavier/Documents/dev/generaldrugs/dft/.tools/src/qe-7.6/LAXlib/laxlib_hi.h:4:52: warning: missing terminating ' character [-Winvalid-pp-token]
+    4 | ! GNU General Public License. See the file `License'
+      |                                                    ^
+1 warning generated.
+[  3%] Preprocessing /Users/xavier/Documents/dev/generaldrugs/dft/.tools/src/qe-7.6/LAXlib/laxlib_kinds.h
+[  3%] Linking C static library ../lib/libqe_modules_c.a
+[  3%] Preprocessing /Users/xavier/Documents/dev/generaldrugs/dft/.tools/src/qe-7.6/LAXlib/laxlib_low.h
+[  3%] Built target qe_modules_c
+/Users/xavier/Documents/dev/generaldrugs/dft/.tools/src/qe-7.6/LAXlib/laxlib_low.h:4:52: warning: missing terminating ' character [-Winvalid-pp-token]
+    4 | ! GNU General Public License. See the file `License'
+      |                                                    ^
+/Users/xavier/Documents/dev/generaldrugs/dft/.tools/src/qe-7.6/LAXlib/laxlib_low.h:16:73: warning: missing terminating ' character [-Winvalid-pp-token]
+   16 |     LOGICAL, INTENT(IN) :: do_distr_diag_inside_bgrp_  ! comme son nom l'indique
+      |                                                                         ^
+2 warnings generated.
+[  3%] Preprocessing /Users/xavier/Documents/dev/generaldrugs/dft/.tools/src/qe-7.6/LAXlib/laxlib_mid.h
+[  3%] Building C object XClib/CMakeFiles/qe_libbeef.dir/pbecor.c.o
+/Users/xavier/Documents/dev/generaldrugs/dft/.tools/src/qe-7.6/LAXlib/laxlib_mid.h:4:52: warning: missing terminating ' character [-Winvalid-pp-token]
+    4 | ! GNU General Public License. See the file `License'
+      |                                                    ^
+1 warning generated.
+[  3%] Preprocessing /Users/xavier/Documents/dev/generaldrugs/dft/.tools/src/qe-7.6/LAXlib/laxlib_param.h
+/Users/xavier/Documents/dev/generaldrugs/dft/.tools/src/qe-7.6/LAXlib/laxlib_param.h:4:52: warning: missing terminating ' character [-Winvalid-pp-token]
+    4 | ! GNU General Public License. See the file `License'
+      |                                                    ^
+1 warning generated.
+[  3%] Built target qe_lax_headers
+[  3%] Building C object FFTXlib/src/CMakeFiles/qe_fftx_c.dir/fftw_dp.c.o
+[  3%] Building C object XClib/CMakeFiles/qe_libbeef.dir/beefun.c.o
+[  3%] Building C object external/CMakeFiles/qe_devxlib.dir/devxlib/src/timer.c.o
+[  3%] Building Fortran object external/mbd/src/CMakeFiles/mbd.dir/mbd_vdw_param.f90.o
+[  3%] Preprocessing /Users/xavier/Documents/dev/generaldrugs/dft/.tools/src/qe-7.6/KS_Solvers/ks_solver_interfaces.h
+[  3%] Building Fortran object external/CMakeFiles/qe_devxlib.dir/devxlib/src/device_fbuff_mod.f90.o
+/Users/xavier/Documents/dev/generaldrugs/dft/.tools/src/qe-7.6/KS_Solvers/ks_solver_interfaces.h:3:52: warning: missing terminating ' character [-Winvalid-pp-token]
+    3 | ! GNU General Public License. See the file `License'
+      |                                                    ^
+1 warning generated.
+[  3%] Built target qe_ks_headers
+[  3%] Building Fortran object UtilXlib/CMakeFiles/qe_utilx.dir/parallel_include.f90.o
+[  3%] Building Fortran object external/CMakeFiles/qe_devxlib.dir/devxlib/src/deviceXlib_mod.f90.o
+[  3%] Building Fortran object UtilXlib/CMakeFiles/qe_utilx.dir/nvtx_wrapper.f90.o
+[  3%] Linking Fortran static library ../lib/libqe_devxlib.a
+[  3%] Linking C static library ../lib/libqe_libbeef.a
+[  3%] Building Fortran object UtilXlib/CMakeFiles/qe_utilx.dir/find_free_unit.f90.o
+[  3%] Built target qe_devxlib
+[  6%] Building Fortran object UtilXlib/CMakeFiles/qe_utilx.dir/mem_counter.f90.o
+[  6%] Built target qe_libbeef
+[  6%] Building Fortran object XClib/CMakeFiles/qe_xclib.dir/qe_kind.f90.o
+[  6%] Building Fortran object XClib/CMakeFiles/qe_xclib.dir/xclib_utils_and_para.f90.o
+[  6%] Building Fortran object external/mbd/src/CMakeFiles/mbd.dir/mbd_geom.F90.o
+[  6%] Building Fortran object UtilXlib/CMakeFiles/qe_utilx.dir/util_param.f90.o
+[  9%] Building Fortran object external/mbd/src/CMakeFiles/mbd.dir/mbd_matrix.F90.o
+[  9%] Building Fortran object XClib/CMakeFiles/qe_xclib.dir/qe_constants.f90.o
+[  9%] Building Fortran object UtilXlib/CMakeFiles/qe_utilx.dir/clib_wrappers.f90.o
+[  9%] Building Fortran object XClib/CMakeFiles/qe_xclib.dir/xc_beef_interface.f90.o
+[  9%] Building Fortran object XClib/CMakeFiles/qe_xclib.dir/qe_funct_corr_lda_lsda.f90.o
+[  9%] Building Fortran object UtilXlib/CMakeFiles/qe_utilx.dir/clocks_handler.f90.o
+[  9%] Building Fortran object XClib/CMakeFiles/qe_xclib.dir/qe_funct_exch_gga.f90.o
+[  9%] Building Fortran object UtilXlib/CMakeFiles/qe_utilx.dir/data_buffer.f90.o
+[  9%] Building Fortran object external/mbd/src/CMakeFiles/mbd.dir/mbd_ts.F90.o
+[  9%] Building Fortran object UtilXlib/CMakeFiles/qe_utilx.dir/mp.f90.o
+[  9%] Building Fortran object XClib/CMakeFiles/qe_xclib.dir/xclib_error.f90.o
+[  9%] Building Fortran object XClib/CMakeFiles/qe_xclib.dir/dft_setting_params.f90.o
+[  9%] Building Fortran object external/mbd/src/CMakeFiles/mbd.dir/mbd_density.f90.o
+[  9%] Building Fortran object UtilXlib/CMakeFiles/qe_utilx.dir/fletcher32_mod.f90.o
+[  9%] Building Fortran object XClib/CMakeFiles/qe_xclib.dir/qe_funct_exch_lda_lsda.f90.o
+[  9%] Building Fortran object UtilXlib/CMakeFiles/qe_utilx.dir/thread_util.f90.o
+[  9%] Building Fortran object XClib/CMakeFiles/qe_xclib.dir/qe_funct_corr_gga.f90.o
+[  9%] Building Fortran object UtilXlib/CMakeFiles/qe_utilx.dir/mp_base.f90.o
+[  9%] Building Fortran object UtilXlib/CMakeFiles/qe_utilx.dir/print_mem.f90.o
+[  9%] Building Fortran object XClib/CMakeFiles/qe_xclib.dir/qe_dft_list.f90.o
+[  9%] Building Fortran object UtilXlib/CMakeFiles/qe_utilx.dir/mp_base_gpu.f90.o
+[  9%] Building Fortran object external/mbd/src/CMakeFiles/mbd.dir/mbd_dipole.F90.o
+[  9%] Building Fortran object XClib/CMakeFiles/qe_xclib.dir/qe_drivers_lda_lsda.f90.o
+[  9%] Building Fortran object UtilXlib/CMakeFiles/qe_utilx.dir/error_handler.f90.o
+[  9%] Building Fortran object XClib/CMakeFiles/qe_xclib.dir/qe_drivers_gga.f90.o
+[  9%] Building Fortran object XClib/CMakeFiles/qe_xclib.dir/qe_funct_mgga.f90.o
+[  9%] Building Fortran object UtilXlib/CMakeFiles/qe_utilx.dir/mp_bands_util.f90.o
+[  9%] Building Fortran object UtilXlib/CMakeFiles/qe_utilx.dir/divide.f90.o
+[  9%] Building Fortran object XClib/CMakeFiles/qe_xclib.dir/dft_setting_routines.f90.o
+[  9%] Building Fortran object UtilXlib/CMakeFiles/qe_utilx.dir/export_gstart_2_solvers.f90.o
+[  9%] Building Fortran object UtilXlib/CMakeFiles/qe_utilx.dir/set_mpi_comm_4_solvers.f90.o
+[  9%] Building Fortran object XClib/CMakeFiles/qe_xclib.dir/xc_wrapper_gga.f90.o
+[  9%] Building Fortran object XClib/CMakeFiles/qe_xclib.dir/xc_wrapper_lda_lsda.f90.o
+[  9%] Linking Fortran static library ../lib/libqe_utilx.a
+[  9%] Built target qe_utilx
+[  9%] Building Fortran object upflib/CMakeFiles/qe_upflib.dir/upf_kinds.f90.o
+[  9%] Building Fortran object XClib/CMakeFiles/qe_xclib.dir/qe_drivers_d_gga.f90.o
+[  9%] Building Fortran object LAXlib/CMakeFiles/qe_lax.dir/la_param.f90.o
+[  9%] Building Fortran object XClib/CMakeFiles/qe_xclib.dir/qe_drivers_d_lda_lsda.f90.o
+[  9%] Building Fortran object upflib/CMakeFiles/qe_upflib.dir/upf_io.f90.o
+[  9%] Building Fortran object LAXlib/CMakeFiles/qe_lax.dir/la_module.f90.o
+[  9%] Building Fortran object upflib/CMakeFiles/qe_upflib.dir/upf_params.f90.o
+[  9%] Building Fortran object LAXlib/CMakeFiles/qe_lax.dir/la_types.f90.o
+[  9%] Building Fortran object upflib/CMakeFiles/qe_upflib.dir/upf_utils.f90.o
+[  9%] Building Fortran object LAXlib/CMakeFiles/qe_lax.dir/distools.f90.o
+[  9%] Building Fortran object dft-d3/CMakeFiles/qe_dftd3.dir/common.f90.o
+[  9%] Building Fortran object upflib/CMakeFiles/qe_upflib.dir/upf_parallel_include.f90.o
+[  9%] Building Fortran object dft-d3/CMakeFiles/qe_dftd3.dir/sizes.f90.o
+[  9%] Building Fortran object XClib/CMakeFiles/qe_xclib.dir/qe_drivers_mgga.f90.o
+[  9%] Building Fortran object LAXlib/CMakeFiles/qe_lax.dir/transto.f90.o
+[  9%] Building Fortran object upflib/CMakeFiles/qe_upflib.dir/ylmr2_gpu.f90.o
+[  9%] Building Fortran object dft-d3/CMakeFiles/qe_dftd3.dir/pars.f90.o
+[  9%] Building Fortran object upflib/CMakeFiles/qe_upflib.dir/paw_variables.f90.o
+[  9%] Building Fortran object XClib/CMakeFiles/qe_xclib.dir/xc_lib.f90.o
+[  9%] Building Fortran object upflib/CMakeFiles/qe_upflib.dir/splinelib.f90.o
+[ 12%] Building Fortran object XClib/CMakeFiles/qe_xclib.dir/xc_wrapper_d_gga.f90.o
+[ 12%] Linking C static library ../../lib/libqe_fftx_c.a
+[ 12%] Building Fortran object LAXlib/CMakeFiles/qe_lax.dir/mp_diag.f90.o
+[ 12%] Built target qe_fftx_c
+[ 12%] Building Fortran object XClib/CMakeFiles/qe_xclib.dir/xc_wrapper_d_lda_lsda.f90.o
+[ 15%] Building Fortran object LAXlib/CMakeFiles/qe_lax.dir/zhpev_drv.f90.o
+[ 15%] Building Fortran object upflib/CMakeFiles/qe_upflib.dir/upf_invmat.f90.o
+[ 15%] Building Fortran object FFTXlib/src/CMakeFiles/qe_fftx.dir/fft_param.f90.o
+[ 15%] Building Fortran object XClib/CMakeFiles/qe_xclib.dir/xc_wrapper_mgga.f90.o
+[ 15%] Building Fortran object FFTXlib/src/CMakeFiles/qe_fftx.dir/fftw_interfaces.f90.o
+[ 15%] Building Fortran object upflib/CMakeFiles/qe_upflib.dir/atomic_number.f90.o
+[ 15%] Linking Fortran static library ../lib/libqe_xclib.a
+[ 15%] Building Fortran object FFTXlib/src/CMakeFiles/qe_fftx.dir/fft_error.f90.o
+[ 15%] Building Fortran object upflib/CMakeFiles/qe_upflib.dir/spinor.f90.o
+[ 15%] Built target qe_xclib
+[ 15%] Building Fortran object LAXlib/CMakeFiles/qe_lax.dir/la_error.f90.o
+[ 15%] Building Fortran object FFTXlib/src/CMakeFiles/qe_fftx.dir/fft_support.f90.o
+[ 15%] Building Fortran object upflib/CMakeFiles/qe_upflib.dir/sph_ind.f90.o
+[ 15%] Building Fortran object FFTXlib/src/CMakeFiles/qe_fftx.dir/stick_base.f90.o
+[ 15%] Building Fortran object FFTXlib/src/CMakeFiles/qe_fftx.dir/fft_scalar.FFTW3.f90.o
+[ 15%] Building Fortran object upflib/CMakeFiles/qe_upflib.dir/simpsn.f90.o
+[ 15%] Building Fortran object LAXlib/CMakeFiles/qe_lax.dir/dspev_drv.f90.o
+[ 15%] Building Fortran object upflib/CMakeFiles/qe_upflib.dir/upf_error.f90.o
+[ 15%] Building Fortran object upflib/CMakeFiles/qe_upflib.dir/dylmr2.f90.o
+[ 15%] Building Fortran object LAXlib/CMakeFiles/qe_lax.dir/ptoolkit.f90.o
+[ 15%] Building Fortran object upflib/CMakeFiles/qe_upflib.dir/upf_const.f90.o
+[ 15%] Building Fortran object upflib/CMakeFiles/qe_upflib.dir/pseudo_types.f90.o
+/Users/xavier/Documents/dev/generaldrugs/dft/.tools/src/qe-7.6/LAXlib/ptoolkit.f90:3197:43:
+
+ 2050 |      CALL zgemm(TRANSA, TRANSB, m, N, k, alpha, A, lda, B, ldb, beta, C, ldc)
+      |                                         2  
+......
+ 3197 |       CALL zgemm( TRANSA, TRANSB, n, n, n, alpha, a, lda, b, ldb, beta, c, ldc)
+      |                                           1
+Warning: Type mismatch between actual argument at (1) and actual argument at (2) (COMPLEX(8)/REAL(8)).
+/Users/xavier/Documents/dev/generaldrugs/dft/.tools/src/qe-7.6/LAXlib/ptoolkit.f90:3197:66:
+
+ 2050 |      CALL zgemm(TRANSA, TRANSB, m, N, k, alpha, A, lda, B, ldb, beta, C, ldc)
+      |                                                                2  
+......
+ 3197 |       CALL zgemm( TRANSA, TRANSB, n, n, n, alpha, a, lda, b, ldb, beta, c, ldc)
+      |                                                                  1
+Warning: Type mismatch between actual argument at (1) and actual argument at (2) (COMPLEX(8)/REAL(8)).
+[ 18%] Building Fortran object FFTXlib/src/CMakeFiles/qe_fftx.dir/fft_smallbox.f90.o
+[ 18%] Building Fortran object external/mbd/src/CMakeFiles/mbd.dir/mbd_hamiltonian.F90.o
+[ 18%] Building Fortran object LAXlib/CMakeFiles/qe_lax.dir/la_helper.f90.o
+[ 18%] Building Fortran object FFTXlib/src/CMakeFiles/qe_fftx.dir/fft_types.f90.o
+[ 18%] Building Fortran object upflib/CMakeFiles/qe_upflib.dir/read_cpmd.f90.o
+[ 18%] Building Fortran object LAXlib/CMakeFiles/qe_lax.dir/rdiaghg.f90.o
+[ 18%] Building Fortran object LAXlib/CMakeFiles/qe_lax.dir/cdiaghg.f90.o
+[ 18%] Building Fortran object LAXlib/CMakeFiles/qe_lax.dir/rdiagh.f90.o
+[ 18%] Building Fortran object LAXlib/CMakeFiles/qe_lax.dir/cdiagh.f90.o
+[ 18%] Building Fortran object external/mbd/src/CMakeFiles/mbd.dir/mbd_rpa.F90.o
+[ 18%] Linking Fortran static library ../lib/libqe_lax.a
+[ 18%] Building Fortran object FFTXlib/src/CMakeFiles/qe_fftx.dir/fft_scalar.f90.o
+[ 18%] Building Fortran object upflib/CMakeFiles/qe_upflib.dir/read_fhi.f90.o
+[ 18%] Built target qe_lax
+[ 18%] Building Fortran object external/mbd/src/CMakeFiles/mbd.dir/mbd_scs.f90.o
+[ 18%] Building Fortran object FFTXlib/src/CMakeFiles/qe_fftx.dir/fft_scatter.f90.o
+[ 18%] Building Fortran object FFTXlib/src/CMakeFiles/qe_fftx.dir/fft_scatter_2d.f90.o
+[ 18%] Building Fortran object external/mbd/src/CMakeFiles/mbd.dir/mbd_coulomb.f90.o
+[ 18%] Building Fortran object upflib/CMakeFiles/qe_upflib.dir/read_psml.f90.o
+[ 18%] Building Fortran object FFTXlib/src/CMakeFiles/qe_fftx.dir/scatter_mod.f90.o
+[ 18%] Building Fortran object FFTXlib/src/CMakeFiles/qe_fftx.dir/tg_gather.f90.o
+[ 18%] Building Fortran object upflib/CMakeFiles/qe_upflib.dir/read_upf_new.f90.o
+[ 18%] Building Fortran object FFTXlib/src/CMakeFiles/qe_fftx.dir/fft_ggen.f90.o
+[ 18%] Building Fortran object external/mbd/src/CMakeFiles/mbd.dir/mbd_methods.F90.o
+[ 18%] Building Fortran object upflib/CMakeFiles/qe_upflib.dir/read_upf_v1.f90.o
+[ 18%] Building Fortran object FFTXlib/src/CMakeFiles/qe_fftx.dir/fft_helper_subroutines.f90.o
+[ 18%] Building Fortran object dft-d3/CMakeFiles/qe_dftd3.dir/core.f90.o
+[ 18%] Building Fortran object FFTXlib/src/CMakeFiles/qe_fftx.dir/fft_smallbox_type.f90.o
+[ 18%] Building Fortran object upflib/CMakeFiles/qe_upflib.dir/read_uspp.f90.o
+[ 18%] Building Fortran object upflib/CMakeFiles/qe_upflib.dir/upf_auxtools.f90.o
+[ 21%] Building Fortran object upflib/CMakeFiles/qe_upflib.dir/write_upf_new.f90.o
+[ 21%] Building Fortran object FFTXlib/src/CMakeFiles/qe_fftx.dir/fft_parallel.f90.o
+[ 21%] Building Fortran object FFTXlib/src/CMakeFiles/qe_fftx.dir/fft_parallel_2d.f90.o
+[ 21%] Building Fortran object KS_Solvers/CMakeFiles/qe_kssolver_davidson.dir/Davidson_RCI/david_rci.f90.o
+[ 21%] Building Fortran object external/mbd/src/CMakeFiles/mbd.dir/mbd.F90.o
+[ 21%] Building Fortran object FFTXlib/src/CMakeFiles/qe_fftx.dir/fft_interfaces.f90.o
+[ 21%] Building Fortran object KS_Solvers/CMakeFiles/qe_kssolver_davidson.dir/Davidson/cegterg.f90.o
+[ 21%] Building Fortran object upflib/CMakeFiles/qe_upflib.dir/read_ncpp.f90.o
+[ 21%] Building Fortran object FFTXlib/src/CMakeFiles/qe_fftx.dir/fft_fwinv.f90.o
+/Users/xavier/Documents/dev/generaldrugs/dft/.tools/src/qe-7.6/FFTXlib/src/fft_fwinv.f90:262:12:
+
+  262 | !$omp master
+      |            1
+Warning: 'master' construct at (1) deprecated since OpenMP 5.1, use 'masked' [-Wdeprecated-openmp]
+/Users/xavier/Documents/dev/generaldrugs/dft/.tools/src/qe-7.6/FFTXlib/src/fft_fwinv.f90:300:12:
+
+  300 | !$omp master
+      |            1
+Warning: 'master' construct at (1) deprecated since OpenMP 5.1, use 'masked' [-Wdeprecated-openmp]
+[ 21%] Building Fortran object FFTXlib/src/CMakeFiles/qe_fftx.dir/fft_interpolate.f90.o
+[ 21%] Building Fortran object KS_Solvers/CMakeFiles/qe_kssolver_davidson.dir/Davidson/regterg.f90.o
+/Users/xavier/Documents/dev/generaldrugs/dft/.tools/src/qe-7.6/KS_Solvers/Davidson/regterg.f90:316:79:
+
+  202 |   CALL DGEMM( 'T','N', nbase, my_n, npw2, 2.D0 , psi, npwx2, hpsi(1,n_start), npwx2, 0.D0, hr(1,n_start), nvecx )
+      |                                                             2                  
+......
+  316 |         CALL DGEMM( 'N','N', npw2, notcnv, my_n, 1.D0, spsi(1,n_start), npwx2, vr(n_start,1), nvecx, 0.D0, psi(1,nb1), npwx2 )
+      |                                                                               1
+Warning: Type mismatch between actual argument at (1) and actual argument at (2) (REAL(8)/COMPLEX(8)).
+/Users/xavier/Documents/dev/generaldrugs/dft/.tools/src/qe-7.6/KS_Solvers/Davidson/regterg.f90:316:107:
+
+  202 |   CALL DGEMM( 'T','N', nbase, my_n, npw2, 2.D0 , psi, npwx2, hpsi(1,n_start), npwx2, 0.D0, hr(1,n_start), nvecx )
+      |                                                                                           2                
+......
+  316 |         CALL DGEMM( 'N','N', npw2, notcnv, my_n, 1.D0, spsi(1,n_start), npwx2, vr(n_start,1), nvecx, 0.D0, psi(1,nb1), npwx2 )
+      |                                                                                                           1
+Warning: Type mismatch between actual argument at (1) and actual argument at (2) (COMPLEX(8)/REAL(8)).
+[ 21%] Linking Fortran static library ../../lib/libqe_fftx.a
+[ 24%] Building Fortran object upflib/CMakeFiles/qe_upflib.dir/sph_bes.f90.o
+[ 24%] Built target qe_fftx
+[ 24%] Building Fortran object KS_Solvers/CMakeFiles/qe_kssolver_cg.dir/CG/ccgdiagg.f90.o
+[ 24%] Building Fortran object KS_Solvers/CMakeFiles/qe_kssolver_davidson.dir/Davidson/pregterg.f90.o
+/Users/xavier/Documents/dev/generaldrugs/dft/.tools/src/qe-7.6/KS_Solvers/Davidson/pregterg.f90:866:45:
+
+  866 |                           hpsi(1,ir), npwx2, vl, nx, beta, psi(1,nvec+ic), npwx2 )
+      |                                             1
+......
+  992 |                           npwx2, w(1,ii), npwx2, 0.D0, vtmp, nx )
+      |                                 2            
+Warning: Type mismatch between actual argument at (1) and actual argument at (2) (REAL(8)/COMPLEX(8)).
+/Users/xavier/Documents/dev/generaldrugs/dft/.tools/src/qe-7.6/KS_Solvers/Davidson/pregterg.f90:866:59:
+
+  866 |                           hpsi(1,ir), npwx2, vl, nx, beta, psi(1,nvec+ic), npwx2 )
+      |                                                           1
+......
+  992 |                           npwx2, w(1,ii), npwx2, 0.D0, vtmp, nx )
+      |                                                       2    
+Warning: Type mismatch between actual argument at (1) and actual argument at (2) (COMPLEX(8)/REAL(8)).
+[ 24%] Building Fortran object upflib/CMakeFiles/qe_upflib.dir/ylmr2.f90.o
+[ 24%] Linking Fortran static library ../../../lib/libmbd.a
+[ 24%] Built target mbd
+[ 24%] Building Fortran object upflib/CMakeFiles/qe_upflib.dir/radial_grids.f90.o
+[ 24%] Building Fortran object KS_Solvers/CMakeFiles/qe_kssolver_dense.dir/DENSE/rotate_HSpsi_gamma.f90.o
+[ 24%] Building Fortran object KS_Solvers/CMakeFiles/qe_kssolver_cg.dir/CG/rcgdiagg.f90.o
+[ 27%] Building Fortran object KS_Solvers/CMakeFiles/qe_kssolver_davidson.dir/Davidson/pcegterg.f90.o
+/Users/xavier/Documents/dev/generaldrugs/dft/.tools/src/qe-7.6/KS_Solvers/DENSE/rotate_HSpsi_gamma.f90:145:58:
+
+   88 |   CALL MYDGEMM( 'T','N', nstart,my_n,kdim, 2.D0, psi,kdmx, hpsi(1,n_start),kdmx, 0.D0, hh(1,n_start),nstart )
+      |                                                           2
+......
+  145 |   CALL MYDGEMM( 'N','N', kdim,my_n,nstart, 1.D0, psi,kdmx,vv(1,n_start),nstart, 0.D0, aux(1,n_start),kdmx )
+      |                                                          1
+Warning: Type mismatch between actual argument at (1) and actual argument at (2) (REAL(8)/COMPLEX(8)).
+/Users/xavier/Documents/dev/generaldrugs/dft/.tools/src/qe-7.6/KS_Solvers/DENSE/rotate_HSpsi_gamma.f90:145:86:
+
+   88 |   CALL MYDGEMM( 'T','N', nstart,my_n,kdim, 2.D0, psi,kdmx, hpsi(1,n_start),kdmx, 0.D0, hh(1,n_start),nstart )
+      |                                                                                       2
+......
+  145 |   CALL MYDGEMM( 'N','N', kdim,my_n,nstart, 1.D0, psi,kdmx,vv(1,n_start),nstart, 0.D0, aux(1,n_start),kdmx )
+      |                                                                                      1
+Warning: Type mismatch between actual argument at (1) and actual argument at (2) (COMPLEX(8)/REAL(8)).
+/Users/xavier/Documents/dev/generaldrugs/dft/.tools/src/qe-7.6/KS_Solvers/DENSE/rotate_HSpsi_gamma.f90:400:53:
+
+  400 |            CALL DGEMM( 'T','N', nr,nc,my_kdim, 2.D0, v(npw_s,ir),kdmx,w(npw_s,ic),kdmx, 0.D0, work, nx )
+      |                                                     1
+......
+  498 |      CALL DGEMM( 'N', 'N', kdim, my_nbnd, nstart, 1.D0, psi, kdmx, v, nstart, 0.D0, aux, kdmx )
+      |                                                        2
+Warning: Element of assumed-shape or pointer array as actual argument at (1) cannot correspond to actual argument at (2)
+/Users/xavier/Documents/dev/generaldrugs/dft/.tools/src/qe-7.6/KS_Solvers/DENSE/rotate_HSpsi_gamma.f90:400:70:
+
+  400 |            CALL DGEMM( 'T','N', nr,nc,my_kdim, 2.D0, v(npw_s,ir),kdmx,w(npw_s,ic),kdmx, 0.D0, work, nx )
+      |                                                                      1
+......
+  498 |      CALL DGEMM( 'N', 'N', kdim, my_nbnd, nstart, 1.D0, psi, kdmx, v, nstart, 0.D0, aux, kdmx )
+      |                                                                   2   
+Warning: Type mismatch between actual argument at (1) and actual argument at (2) (COMPLEX(8)/REAL(8)).
+/Users/xavier/Documents/dev/generaldrugs/dft/.tools/src/qe-7.6/KS_Solvers/DENSE/rotate_HSpsi_gamma.f90:400:94:
+
+  400 |            CALL DGEMM( 'T','N', nr,nc,my_kdim, 2.D0, v(npw_s,ir),kdmx,w(npw_s,ic),kdmx, 0.D0, work, nx )
+      |                                                                                              1
+......
+  498 |      CALL DGEMM( 'N', 'N', kdim, my_nbnd, nstart, 1.D0, psi, kdmx, v, nstart, 0.D0, aux, kdmx )
+      |                                                                                    2          
+Warning: Type mismatch between actual argument at (1) and actual argument at (2) (REAL(8)/COMPLEX(8)).
+/Users/xavier/Documents/dev/generaldrugs/dft/.tools/src/qe-7.6/KS_Solvers/Davidson/pcegterg.f90:888:40:
+
+  888 |                       hpsi(1,ir), kdmx, vl, nx, beta, psi(1,nvec+ic), kdmx )
+      |                                        1
+......
+ 1018 |                           kdmx, w(1,ii), kdmx, ZERO, vtmp, nx )
+      |                                2        
+Warning: Rank mismatch between actual argument at (1) and actual argument at (2) (scalar and rank-2)
+/Users/xavier/Documents/dev/generaldrugs/dft/.tools/src/qe-7.6/KS_Solvers/Davidson/pcegterg.f90:897:40:
+
+  897 |                       hpsi(1,ir), kdmx, vtmp, nx, beta, psi(1,nvec+ic), kdmx )
+      |                                        1
+......
+ 1018 |                           kdmx, w(1,ii), kdmx, ZERO, vtmp, nx )
+      |                                2        
+Warning: Rank mismatch between actual argument at (1) and actual argument at (2) (scalar and rank-2)
+/Users/xavier/Documents/dev/generaldrugs/dft/.tools/src/qe-7.6/KS_Solvers/Davidson/pcegterg.f90:824:44:
+
+  824 |                           spsi(1,ir), kdmx, vl, nx, beta, psi(1,nvec+ic), kdmx )
+      |                                            1
+......
+ 1018 |                           kdmx, w(1,ii), kdmx, ZERO, vtmp, nx )
+      |                                2            
+Warning: Rank mismatch between actual argument at (1) and actual argument at (2) (scalar and rank-2)
+/Users/xavier/Documents/dev/generaldrugs/dft/.tools/src/qe-7.6/KS_Solvers/Davidson/pcegterg.f90:833:44:
+
+  833 |                           spsi(1,ir), kdmx, vtmp, nx, beta, psi(1,nvec+ic), kdmx )
+      |                                            1
+......
+ 1018 |                           kdmx, w(1,ii), kdmx, ZERO, vtmp, nx )
+      |                                2            
+Warning: Rank mismatch between actual argument at (1) and actual argument at (2) (scalar and rank-2)
+/Users/xavier/Documents/dev/generaldrugs/dft/.tools/src/qe-7.6/KS_Solvers/Davidson/pcegterg.f90:762:43:
+
+  762 |                           psi(1,ir), kdmx, vl, nx, beta, evc(1,ic), kdmx )
+      |                                           1
+......
+ 1018 |                           kdmx, w(1,ii), kdmx, ZERO, vtmp, nx )
+      |                                2           
+Warning: Rank mismatch between actual argument at (1) and actual argument at (2) (scalar and rank-2)
+/Users/xavier/Documents/dev/generaldrugs/dft/.tools/src/qe-7.6/KS_Solvers/Davidson/pcegterg.f90:771:43:
+
+  771 |                           psi(1,ir), kdmx, vtmp, nx, beta, evc(1,ic), kdmx )
+      |                                           1
+......
+ 1018 |                           kdmx, w(1,ii), kdmx, ZERO, vtmp, nx )
+      |                                2           
+Warning: Rank mismatch between actual argument at (1) and actual argument at (2) (scalar and rank-2)
+/Users/xavier/Documents/dev/generaldrugs/dft/.tools/src/qe-7.6/KS_Solvers/Davidson/pcegterg.f90:677:39:
+
+  677 |                     spsi(1, ir), kdmx, vtmp, nx, beta, psi(1,nb1+ic-1), kdmx )
+      |                                       1
+......
+ 1018 |                           kdmx, w(1,ii), kdmx, ZERO, vtmp, nx )
+      |                                2       
+Warning: Rank mismatch between actual argument at (1) and actual argument at (2) (scalar and rank-2)
+/Users/xavier/Documents/dev/generaldrugs/dft/.tools/src/qe-7.6/KS_Solvers/Davidson/pcegterg.f90:684:38:
+
+  684 |                     psi(1, ir), kdmx, vtmp, nx, beta, psi(1,nb1+ic-1), kdmx )
+      |                                      1
+......
+ 1018 |                           kdmx, w(1,ii), kdmx, ZERO, vtmp, nx )
+      |                                2      
+Warning: Rank mismatch between actual argument at (1) and actual argument at (2) (scalar and rank-2)
+/Users/xavier/Documents/dev/generaldrugs/dft/.tools/src/qe-7.6/KS_Solvers/Davidson/pcegterg.f90:691:41:
+
+  691 |                       hpsi(1, ir), kdmx, vtmp, nx, beta, ptmp, kdmx )
+      |                                         1
+......
+ 1018 |                           kdmx, w(1,ii), kdmx, ZERO, vtmp, nx )
+      |                                2         
+Warning: Rank mismatch between actual argument at (1) and actual argument at (2) (scalar and rank-2)
+[ 27%] Building Fortran object upflib/CMakeFiles/qe_upflib.dir/uspp_param.f90.o
+[ 27%] Building Fortran object upflib/CMakeFiles/qe_upflib.dir/gth.f90.o
+[ 27%] Linking Fortran static library ../lib/libqe_kssolver_cg.a
+[ 27%] Built target qe_kssolver_cg
+[ 27%] Building Fortran object KS_Solvers/CMakeFiles/qe_kssolver_dense.dir/DENSE/rotate_HSpsi_k.f90.o
+[ 27%] Building Fortran object KS_Solvers/CMakeFiles/qe_kssolver_rmmdiis.dir/RMM/crmmdiagg.f90.o
+[ 27%] Building Fortran object KS_Solvers/CMakeFiles/qe_kssolver_rmmdiis.dir/RMM/rrmmdiagg.f90.o
+/Users/xavier/Documents/dev/generaldrugs/dft/.tools/src/qe-7.6/KS_Solvers/DENSE/rotate_HSpsi_k.f90:429:63:
+
+  429 |            CALL ZGEMM( 'C','N', nr,nc,my_kdim, ( 1.D0, 0.D0 ), v(npw_s,ir),kdmx, w(npw_s,ic),kdmx, ( 0.D0, 0.D0 ), work,nx )
+      |                                                               1
+......
+  524 |      CALL ZGEMM( 'N', 'N', kdim, my_nbnd, nstart, (1.D0,0.D0), psi, kdmx, v, nstart, (0.D0,0.D0), aux, kdmx )
+      |                                                               2
+Warning: Element of assumed-shape or pointer array as actual argument at (1) cannot correspond to actual argument at (2)
+/Users/xavier/Documents/dev/generaldrugs/dft/.tools/src/qe-7.6/KS_Solvers/DENSE/rotate_HSpsi_k.f90:429:81:
+
+  429 |            CALL ZGEMM( 'C','N', nr,nc,my_kdim, ( 1.D0, 0.D0 ), v(npw_s,ir),kdmx, w(npw_s,ic),kdmx, ( 0.D0, 0.D0 ), work,nx )
+      |                                                                                 1
+......
+  524 |      CALL ZGEMM( 'N', 'N', kdim, my_nbnd, nstart, (1.D0,0.D0), psi, kdmx, v, nstart, (0.D0,0.D0), aux, kdmx )
+      |                                                                          2       
+Warning: Element of assumed-shape or pointer array as actual argument at (1) cannot correspond to actual argument at (2)
+[ 27%] Building Fortran object dft-d3/CMakeFiles/qe_dftd3.dir/api.f90.o
+[ 27%] Building Fortran object upflib/CMakeFiles/qe_upflib.dir/read_ps.f90.o
+[ 27%] Linking Fortran static library ../lib/libqe_kssolver_davidson.a
+[ 27%] Built target qe_kssolver_davidson
+[ 27%] Building Fortran object upflib/CMakeFiles/qe_upflib.dir/upf_ions.f90.o
+[ 27%] Building Fortran object KS_Solvers/CMakeFiles/qe_kssolver_dense.dir/DENSE/rotate_wfc_gamma.f90.o
+[ 27%] Building Fortran object KS_Solvers/CMakeFiles/qe_kssolver_direct.dir/Direct/direct_diag_k.f90.o
+[ 27%] Building Fortran object upflib/CMakeFiles/qe_upflib.dir/upf_spinorb.f90.o
+/Users/xavier/Documents/dev/generaldrugs/dft/.tools/src/qe-7.6/KS_Solvers/DENSE/rotate_wfc_gamma.f90:151:72:
+
+   95 |   CALL MYDGEMM( 'T','N', nstart, my_n, npw2, 2.D0, psi, npwx2, aux(1,n_start), npwx2, 0.D0, hr(1,n_start), nstart )
+      |                                                               2         
+......
+  151 |   CALL MYDGEMM( 'N','N', npw2, nbnd, my_n, 1.D0, psi(1,n_start), npwx2, vr(n_start,1), nstart, 0.D0, aux, npwx2 )
+      |                                                                        1
+Warning: Type mismatch between actual argument at (1) and actual argument at (2) (REAL(8)/COMPLEX(8)).
+/Users/xavier/Documents/dev/generaldrugs/dft/.tools/src/qe-7.6/KS_Solvers/DENSE/rotate_wfc_gamma.f90:151:101:
+
+   95 |   CALL MYDGEMM( 'T','N', nstart, my_n, npw2, 2.D0, psi, npwx2, aux(1,n_start), npwx2, 0.D0, hr(1,n_start), nstart )
+      |                                                                                            2         
+......
+  151 |   CALL MYDGEMM( 'N','N', npw2, nbnd, my_n, 1.D0, psi(1,n_start), npwx2, vr(n_start,1), nstart, 0.D0, aux, npwx2 )
+      |                                                                                                     1
+Warning: Type mismatch between actual argument at (1) and actual argument at (2) (COMPLEX(8)/REAL(8)).
+/Users/xavier/Documents/dev/generaldrugs/dft/.tools/src/qe-7.6/KS_Solvers/DENSE/rotate_wfc_gamma.f90:369:55:
+
+   95 |   CALL MYDGEMM( 'T','N', nstart, my_n, npw2, 2.D0, psi, npwx2, aux(1,n_start), npwx2, 0.D0, hr(1,n_start), nstart )
+      |                                                   2    
+......
+  369 |            CALL MYDGEMM( 'T', 'N', nr, nc, npw2, 2.D0, v(1,ir), npwx2, w(1,ic), npwx2, 0.D0, work, nx )
+      |                                                       1
+Warning: Element of assumed-shape or pointer array as actual argument at (1) cannot correspond to actual argument at (2)
+/Users/xavier/Documents/dev/generaldrugs/dft/.tools/src/qe-7.6/KS_Solvers/DENSE/rotate_wfc_gamma.f90:372:42:
+
+   96 |   IF ( gstart == 2 ) call MYDGER( nstart, my_n, -1.D0, psi, npwx2, aux(1,n_start), npwx2, hr(1,n_start), nstart )
+      |                                                       2
+......
+  372 |               CALL MYDGER( nr, nc, -1.D0, v(1,ir), npwx2, w(1,ic), npwx2, work, nx )
+      |                                          1
+Warning: Element of assumed-shape or pointer array as actual argument at (1) cannot correspond to actual argument at (2)
+[ 27%] Linking Fortran static library ../lib/libqe_kssolver_direct.a
+[ 27%] Building Fortran object dft-d3/CMakeFiles/qe_dftd3.dir/dftd3_qe.f90.o
+[ 27%] Built target qe_kssolver_direct
+[ 27%] Building Fortran object KS_Solvers/CMakeFiles/qe_kssolver_dense.dir/DENSE/rotate_wfc_k.f90.o
+[ 27%] Building Fortran object upflib/CMakeFiles/qe_upflib.dir/upf_to_internal.f90.o
+/Users/xavier/Documents/dev/generaldrugs/dft/.tools/src/qe-7.6/KS_Solvers/DENSE/rotate_wfc_k.f90:360:66:
+
+   91 |   call MYZGEMM( 'C','N', nstart, my_n, kdim, (1.D0,0.D0), psi, kdmx, aux(1,n_start), kdmx, (0.D0,0.D0), hc(1,n_start), nstart )
+      |                                                          2        
+......
+  360 |            CALL MYZGEMM( 'C', 'N', nr, nc, kdim, ( 1.D0, 0.D0 ),  v(1,ir), kdmx, w(1,ic), kdmx, ( 0.D0, 0.D0 ), work, nx )
+      |                                                                  1
+Warning: Element of assumed-shape or pointer array as actual argument at (1) cannot correspond to actual argument at (2)
+[ 27%] Building Fortran object KS_Solvers/CMakeFiles/qe_kssolver_dense.dir/DENSE/rotate_xpsi_k.f90.o
+[ 27%] Building Fortran object KS_Solvers/CMakeFiles/qe_kssolver_dense.dir/DENSE/rotate_xpsi_gamma.f90.o
+/Users/xavier/Documents/dev/generaldrugs/dft/.tools/src/qe-7.6/KS_Solvers/DENSE/rotate_xpsi_k.f90:445:79:
+
+  445 |            CALL ZGEMM( 'C', 'N', nr, nc, kdim, ( 1.D0, 0.D0 ),  v(1,ir), kdmx, w(1,ic), kdmx, ( 0.D0, 0.D0 ), work, nx )
+      |                                                                               1
+......
+  497 |                              tpsi(1,ir), kdmx, vc, nx, beta, evc(1,ic),  kdmx )
+      |                                               2                                
+Warning: Element of assumed-shape or pointer array as actual argument at (1) cannot correspond to actual argument at (2)
+/Users/xavier/Documents/dev/generaldrugs/dft/.tools/src/qe-7.6/KS_Solvers/DENSE/rotate_xpsi_gamma.f90:196:42:
+
+  120 |               psi, npwx2, hpsi(1,n_start), npwx2, 0.D0, hr(1,n_start), nstart )
+      |                          2                
+......
+  196 |                  tpsi(1,n_start), npwx2,  vr(n_start,1), nstart, 0.D0, evc,  npwx2 )
+      |                                          1
+Warning: Type mismatch between actual argument at (1) and actual argument at (2) (REAL(8)/COMPLEX(8)).
+/Users/xavier/Documents/dev/generaldrugs/dft/.tools/src/qe-7.6/KS_Solvers/DENSE/rotate_xpsi_gamma.f90:196:71:
+
+  120 |               psi, npwx2, hpsi(1,n_start), npwx2, 0.D0, hr(1,n_start), nstart )
+      |                                                        2               
+......
+  196 |                  tpsi(1,n_start), npwx2,  vr(n_start,1), nstart, 0.D0, evc,  npwx2 )
+      |                                                                       1
+Warning: Type mismatch between actual argument at (1) and actual argument at (2) (COMPLEX(8)/REAL(8)).
+/Users/xavier/Documents/dev/generaldrugs/dft/.tools/src/qe-7.6/KS_Solvers/DENSE/rotate_xpsi_gamma.f90:452:69:
+
+  452 |            CALL DGEMM( 'T', 'N', nr, nc, npw2, 2.D0, v(1,ir), npwx2, w(1,ic), npwx2, 0.D0, work, nx )
+      |                                                                     1
+......
+  509 |                              tpsi(1,ir), npwx2, vr, nx, beta, evc(1,ic),  npwx2 )
+      |                                                2                     
+Warning: Type mismatch between actual argument at (1) and actual argument at (2) (COMPLEX(8)/REAL(8)).
+/Users/xavier/Documents/dev/generaldrugs/dft/.tools/src/qe-7.6/KS_Solvers/DENSE/rotate_xpsi_gamma.f90:452:91:
+
+  452 |            CALL DGEMM( 'T', 'N', nr, nc, npw2, 2.D0, v(1,ir), npwx2, w(1,ic), npwx2, 0.D0, work, nx )
+      |                                                                                           1
+......
+  509 |                              tpsi(1,ir), npwx2, vr, nx, beta, evc(1,ic),  npwx2 )
+      |                                                              2                             
+Warning: Type mismatch between actual argument at (1) and actual argument at (2) (REAL(8)/COMPLEX(8)).
+[ 27%] Building Fortran object upflib/CMakeFiles/qe_upflib.dir/atom.f90.o
+[ 27%] Building Fortran object KS_Solvers/CMakeFiles/qe_kssolver_dense.dir/DENSE/gram_schmidt_k.f90.o
+[ 27%] Building Fortran object upflib/CMakeFiles/qe_upflib.dir/uspp.f90.o
+[ 27%] Building Fortran object KS_Solvers/CMakeFiles/qe_kssolver_dense.dir/DENSE/gram_schmidt_gamma.f90.o
+[ 27%] Linking Fortran static library ../lib/libqe_kssolver_rmmdiis.a
+[ 27%] Building Fortran object KS_Solvers/CMakeFiles/qe_kssolver_dense.dir/DENSE/rotate_driver.f90.o
+[ 27%] Built target qe_kssolver_rmmdiis
+[ 27%] Building Fortran object upflib/CMakeFiles/qe_upflib.dir/vloc_mod.f90.o
+[ 27%] Building Fortran object upflib/CMakeFiles/qe_upflib.dir/init_us_b0.f90.o
+[ 27%] Building Fortran object upflib/CMakeFiles/qe_upflib.dir/init_us_0.f90.o
+[ 27%] Linking Fortran static library ../lib/libqe_kssolver_dense.a
+[ 27%] Building Fortran object upflib/CMakeFiles/qe_upflib.dir/atwfc_mod.f90.o
+[ 27%] Building Fortran object upflib/CMakeFiles/qe_upflib.dir/beta_mod.f90.o
+[ 27%] Built target qe_kssolver_dense
+[ 27%] Linking Fortran static library ../lib/libqe_dftd3.a
+[ 27%] Building Fortran object upflib/CMakeFiles/qe_upflib.dir/qrad_mod.f90.o
+[ 27%] Built target qe_dftd3
+[ 27%] Building Fortran object KS_Solvers/CMakeFiles/qe_kssolver_paro.dir/ParO/bpcg_gamma.f90.o
+/Users/xavier/Documents/dev/generaldrugs/dft/.tools/src/qe-7.6/KS_Solvers/ParO/bpcg_gamma.f90:159:66:
+
+  156 |         CALL MYDGEMM( 'T','N', nbnd,nnew,npw2, 2.D0, spsi0, npwx2, z(:,nactive+1), npwx2, 0.D0, spsi0vec, nbnd )
+      |                                                                   2
+......
+  159 |         CALL MYDGEMM( 'N','N', npw2,nnew,nbnd,-1.D0, psi0, npwx2, spsi0vec, nbnd, 1.D0, z(:,nactive+1), npwx2 )
+      |                                                                  1
+Warning: Type mismatch between actual argument at (1) and actual argument at (2) (REAL(8)/COMPLEX(8)).
+/Users/xavier/Documents/dev/generaldrugs/dft/.tools/src/qe-7.6/KS_Solvers/ParO/bpcg_gamma.f90:159:88:
+
+  156 |         CALL MYDGEMM( 'T','N', nbnd,nnew,npw2, 2.D0, spsi0, npwx2, z(:,nactive+1), npwx2, 0.D0, spsi0vec, nbnd )
+      |                                                                                                2
+......
+  159 |         CALL MYDGEMM( 'N','N', npw2,nnew,nbnd,-1.D0, psi0, npwx2, spsi0vec, nbnd, 1.D0, z(:,nactive+1), npwx2 )
+      |                                                                                        1
+Warning: Type mismatch between actual argument at (1) and actual argument at (2) (COMPLEX(8)/REAL(8)).
+[ 27%] Building Fortran object upflib/CMakeFiles/qe_upflib.dir/rhoat_mod.f90.o
+[ 27%] Building Fortran object upflib/CMakeFiles/qe_upflib.dir/rhoc_mod.f90.o
+[ 27%] Building Fortran object KS_Solvers/CMakeFiles/qe_kssolver_paro.dir/ParO/bpcg_k.f90.o
+[ 27%] Building Fortran object upflib/CMakeFiles/qe_upflib.dir/dqvan2.f90.o
+[ 27%] Building Fortran object upflib/CMakeFiles/qe_upflib.dir/gen_us_dj.f90.o
+[ 30%] Building Fortran object upflib/CMakeFiles/qe_upflib.dir/gen_us_dy.f90.o
+[ 30%] Building Fortran object upflib/CMakeFiles/qe_upflib.dir/init_us_1.f90.o
+[ 30%] Building Fortran object upflib/CMakeFiles/qe_upflib.dir/init_us_2_acc.f90.o
+[ 30%] Building Fortran object KS_Solvers/CMakeFiles/qe_kssolver_paro.dir/ParO/paro_gamma.f90.o
+[ 30%] Building Fortran object upflib/CMakeFiles/qe_upflib.dir/qvan2.f90.o
+[ 30%] Building Fortran object KS_Solvers/CMakeFiles/qe_kssolver_paro.dir/ParO/pcg_gamma.f90.o
+/Users/xavier/Documents/dev/generaldrugs/dft/.tools/src/qe-7.6/KS_Solvers/ParO/pcg_gamma.f90:118:51:
+
+  115 |   CALL DGEMV( 'T', npw2, nbnd, 2.0_DP, spsi0, npwx2,       z, 1, 0.0_DP, spsi0vec, 1 )
+      |                                                           2
+......
+  118 |   CALL DGEMV( 'N', npw2, nbnd, -1.D0, psi0, npwx2, spsi0vec, 1, 1.0_DP,       z, 1 )
+      |                                                   1
+Warning: Type mismatch between actual argument at (1) and actual argument at (2) (REAL(8)/COMPLEX(8)).
+/Users/xavier/Documents/dev/generaldrugs/dft/.tools/src/qe-7.6/KS_Solvers/ParO/pcg_gamma.f90:118:78:
+
+  115 |   CALL DGEMV( 'T', npw2, nbnd, 2.0_DP, spsi0, npwx2,       z, 1, 0.0_DP, spsi0vec, 1 )
+      |                                                                         2     
+......
+  118 |   CALL DGEMV( 'N', npw2, nbnd, -1.D0, psi0, npwx2, spsi0vec, 1, 1.0_DP,       z, 1 )
+      |                                                                              1
+Warning: Type mismatch between actual argument at (1) and actual argument at (2) (COMPLEX(8)/REAL(8)).
+[ 30%] Building Fortran object KS_Solvers/CMakeFiles/qe_kssolver_paro.dir/ParO/paro_k.f90.o
+[ 33%] Building Fortran object KS_Solvers/CMakeFiles/qe_kssolver_paro.dir/ParO/pcg_k.f90.o
+[ 33%] Building Fortran object KS_Solvers/CMakeFiles/qe_kssolver_paro.dir/ParO/paro_gamma_new.f90.o
+[ 33%] Building Fortran object KS_Solvers/CMakeFiles/qe_kssolver_paro.dir/ParO/paro_k_new.f90.o
+[ 33%] Linking Fortran static library ../lib/libqe_upflib.a
+[ 33%] Built target qe_upflib
+[ 33%] Building Fortran object Modules/CMakeFiles/qe_modules.dir/mp_bands.f90.o
+[ 33%] Building Fortran object Modules/CMakeFiles/qe_modules.dir/parameters.f90.o
+[ 33%] Building Fortran object Modules/CMakeFiles/qe_modules.dir/kind.f90.o
+[ 33%] Building Fortran object Modules/CMakeFiles/qe_modules.dir/io_global.f90.o
+[ 33%] Building Fortran object Modules/CMakeFiles/qe_modules.dir/coulomb_vcut.f90.o
+[ 33%] Building Fortran object Modules/CMakeFiles/qe_modules.dir/fft_base.f90.o
+[ 33%] Building Fortran object Modules/CMakeFiles/qe_modules.dir/version.f90.o
+[ 33%] Building Fortran object Modules/CMakeFiles/qe_modules.dir/mp_pools.f90.o
+[ 33%] Building Fortran object Modules/CMakeFiles/qe_modules.dir/err_rism.f90.o
+[ 33%] Linking Fortran static library ../lib/libqe_kssolver_paro.a
+[ 33%] Building Fortran object Modules/CMakeFiles/qe_modules.dir/fsockets.f90.o
+[ 33%] Building Fortran object Modules/CMakeFiles/qe_modules.dir/mp_rism.f90.o
+[ 33%] Built target qe_kssolver_paro
+[ 33%] Building Fortran object Modules/CMakeFiles/qe_modules.dir/lmdif.f90.o
+[ 33%] Building Fortran object Modules/CMakeFiles/qe_modules.dir/run_info.f90.o
+[ 33%] Building Fortran object Modules/CMakeFiles/qe_modules.dir/zvscal.f90.o
+[ 33%] Building Fortran object Modules/CMakeFiles/qe_modules.dir/has_xml.f90.o
+[ 33%] Building Fortran object Modules/CMakeFiles/qe_modules.dir/int_to_char.f90.o
+[ 33%] Building Fortran object Modules/CMakeFiles/qe_modules.dir/trimcheck.f90.o
+[ 33%] Building Fortran object Modules/CMakeFiles/qe_modules.dir/date_and_tim.f90.o
+[ 33%] Building Fortran object Modules/CMakeFiles/qe_modules.dir/invmat.f90.o
+[ 33%] Building Fortran object Modules/CMakeFiles/qe_modules.dir/wannier_new.f90.o
+[ 33%] Building Fortran object Modules/CMakeFiles/qe_modules.dir/mp_images.f90.o
+[ 33%] Building Fortran object Modules/CMakeFiles/qe_modules.dir/mp_world.f90.o
+[ 33%] Building Fortran object Modules/CMakeFiles/qe_modules.dir/basic_algebra_routines.f90.o
+[ 36%] Building Fortran object Modules/CMakeFiles/qe_modules.dir/noncol.f90.o
+[ 36%] Building Fortran object Modules/CMakeFiles/qe_modules.dir/bspline.f90.o
+[ 36%] Building Fortran object Modules/CMakeFiles/qe_modules.dir/random_numbers.f90.o
+[ 36%] Building Fortran object Modules/CMakeFiles/qe_modules.dir/qeh5_module.f90.o
+[ 36%] Building Fortran object Modules/CMakeFiles/qe_modules.dir/mp_wave.f90.o
+[ 36%] Building Fortran object Modules/CMakeFiles/qe_modules.dir/mdiis.f90.o
+[ 36%] Building Fortran object Modules/CMakeFiles/qe_modules.dir/plugin_flags.f90.o
+[ 36%] Building Fortran object Modules/CMakeFiles/qe_modules.dir/molecule_types.f90.o
+/Users/xavier/Documents/dev/generaldrugs/dft/.tools/src/qe-7.6/Modules/mdiis.f90:454:44:
+
+  452 |         CALL daxpy(mdiist%nvec, +1.0_DP, mdiist%vbox(1, ibox2), 1, vadd, 1)
+      |                                         2   
+  453 |         CALL daxpy(mdiist%nvec, -1.0_DP, mdiist%vbox(1, ibox1), 1, vadd, 1)
+  454 |         CALL daxpy(mdiist%nvec, mdiist%eta, vadd, 1, vbox1, 1)
+      |                                            1
+Warning: Rank mismatch between actual argument at (1) and actual argument at (2) (scalar and rank-1)
+/Users/xavier/Documents/dev/generaldrugs/dft/.tools/src/qe-7.6/Modules/mdiis.f90:427:52:
+
+  427 |         CALL daxpy(mdiist%nvec, mdiist%coef(ibox1), vadd, 1, vbox1, 1)
+      |                                                    1
+......
+  452 |         CALL daxpy(mdiist%nvec, +1.0_DP, mdiist%vbox(1, ibox2), 1, vadd, 1)
+      |                                         2           
+Warning: Rank mismatch between actual argument at (1) and actual argument at (2) (scalar and rank-1)
+/Users/xavier/Documents/dev/generaldrugs/dft/.tools/src/qe-7.6/Modules/mdiis.f90:221:47:
+
+  221 |           CALL dcopy(mdiist%nvec, vbox1(1), 1, mdiist%vbox(1, mdiist%nbox + 1), 1)
+      |                                               1
+......
+  451 |         CALL dcopy(mdiist%nvec, mdiist%vres(1, ibox2), 1, vadd, 1)
+      |                                                          2
+Warning: Element of assumed-shape or pointer array as actual argument at (1) cannot correspond to actual argument at (2)
+/Users/xavier/Documents/dev/generaldrugs/dft/.tools/src/qe-7.6/Modules/mdiis.f90:222:47:
+
+  222 |           CALL dcopy(mdiist%nvec, vres1(1), 1, mdiist%vres(1, mdiist%nbox + 1), 1)
+      |                                               1
+......
+  451 |         CALL dcopy(mdiist%nvec, mdiist%vres(1, ibox2), 1, vadd, 1)
+      |                                                          2
+Warning: Element of assumed-shape or pointer array as actual argument at (1) cannot correspond to actual argument at (2)
+/Users/xavier/Documents/dev/generaldrugs/dft/.tools/src/qe-7.6/Modules/mdiis.f90:230:47:
+
+  230 |           CALL dcopy(mdiist%nvec, vbox1(1), 1, mdiist%vbox(1, ibox1), 1)
+      |                                               1
+......
+  451 |         CALL dcopy(mdiist%nvec, mdiist%vres(1, ibox2), 1, vadd, 1)
+      |                                                          2
+Warning: Element of assumed-shape or pointer array as actual argument at (1) cannot correspond to actual argument at (2)
+/Users/xavier/Documents/dev/generaldrugs/dft/.tools/src/qe-7.6/Modules/mdiis.f90:231:47:
+
+  231 |           CALL dcopy(mdiist%nvec, vres1(1), 1, mdiist%vres(1, ibox1), 1)
+      |                                               1
+......
+  451 |         CALL dcopy(mdiist%nvec, mdiist%vres(1, ibox2), 1, vadd, 1)
+      |                                                          2
+Warning: Element of assumed-shape or pointer array as actual argument at (1) cannot correspond to actual argument at (2)
+/Users/xavier/Documents/dev/generaldrugs/dft/.tools/src/qe-7.6/Modules/mdiis.f90:135:58:
+
+  135 |         CALL dcopy(mdiist%nvec, mdiist%vbox(1, ibox1), 1, mdiist%vbox(1, 1), 1)
+      |                                                          1
+......
+  451 |         CALL dcopy(mdiist%nvec, mdiist%vres(1, ibox2), 1, vadd, 1)
+      |                                                          2
+Warning: Element of assumed-shape or pointer array as actual argument at (1) cannot correspond to actual argument at (2)
+/Users/xavier/Documents/dev/generaldrugs/dft/.tools/src/qe-7.6/Modules/mdiis.f90:136:58:
+
+  136 |         CALL dcopy(mdiist%nvec, mdiist%vres(1, ibox1), 1, mdiist%vres(1, 1), 1)
+      |                                                          1
+......
+  451 |         CALL dcopy(mdiist%nvec, mdiist%vres(1, ibox2), 1, vadd, 1)
+      |                                                          2
+Warning: Element of assumed-shape or pointer array as actual argument at (1) cannot correspond to actual argument at (2)
+[ 36%] Building Fortran object Modules/CMakeFiles/qe_modules.dir/open_close_input_file.f90.o
+[ 36%] Building Fortran object Modules/CMakeFiles/qe_modules.dir/plugin_variables.f90.o
+[ 36%] Building Fortran object Modules/CMakeFiles/qe_modules.dir/qes_types_module.f90.o
+[ 36%] Building Fortran object Modules/CMakeFiles/qe_modules.dir/wypos.f90.o
+[ 36%] Building Fortran object Modules/CMakeFiles/qe_modules.dir/space_group.f90.o
+[ 36%] Building Fortran object Modules/CMakeFiles/qe_modules.dir/timestep.f90.o
+[ 36%] Building Fortran object Modules/CMakeFiles/qe_modules.dir/wave_gauge.f90.o
+[ 39%] Building Fortran object Modules/CMakeFiles/qe_modules.dir/set_vdw_corr.f90.o
+/Users/xavier/Documents/dev/generaldrugs/dft/.tools/src/qe-7.6/Modules/wave_gauge.f90:154:58:
+
+  113 |          call dgemm('T', 'N', nbnd, nbnd, 2*npw, 2.d0, t_plus, 2*npwx, t_zero, 2*npwx, 0.d0, sa, nbnd)
+      |                                                       2   
+......
+  154 |              call dgemm('T', 'N', nbnd, nbnd, nbnd, 1.d0, sa, nbnd, sa, nbnd, 0.d0, ssa, nbnd)
+      |                                                          1
+Warning: Type mismatch between actual argument at (1) and actual argument at (2) (REAL(8)/COMPLEX(8)).
+/Users/xavier/Documents/dev/generaldrugs/dft/.tools/src/qe-7.6/Modules/wave_gauge.f90:154:68:
+
+  113 |          call dgemm('T', 'N', nbnd, nbnd, 2*npw, 2.d0, t_plus, 2*npwx, t_zero, 2*npwx, 0.d0, sa, nbnd)
+      |                                                                       2
+......
+  154 |              call dgemm('T', 'N', nbnd, nbnd, nbnd, 1.d0, sa, nbnd, sa, nbnd, 0.d0, ssa, nbnd)
+      |                                                                    1
+Warning: Type mismatch between actual argument at (1) and actual argument at (2) (REAL(8)/COMPLEX(8)).
+[ 39%] Building Fortran object Modules/CMakeFiles/qe_modules.dir/setqf.f90.o
+[ 39%] Building Fortran object Modules/CMakeFiles/qe_modules.dir/cryst_to_car_2d.f90.o
+[ 39%] Building Fortran object Modules/CMakeFiles/qe_modules.dir/lj_forcefield.f90.o
+[ 39%] Building Fortran object Modules/CMakeFiles/qe_modules.dir/mp_swap_ax_rism.f90.o
+[ 39%] Building Fortran object Modules/CMakeFiles/qe_modules.dir/plot_rism.f90.o
+[ 39%] Building Fortran object Modules/CMakeFiles/qe_modules.dir/rms_residual.f90.o
+[ 39%] Building Fortran object Modules/CMakeFiles/qe_modules.dir/atom_weight.f90.o
+[ 39%] Building Fortran object Modules/CMakeFiles/qe_modules.dir/cryst_to_car.f90.o
+[ 39%] Building Fortran object Modules/CMakeFiles/qe_modules.dir/expint.f90.o
+[ 39%] Building Fortran object Modules/CMakeFiles/qe_modules.dir/generate_k_along_lines.f90.o
+[ 39%] Building Fortran object Modules/CMakeFiles/qe_modules.dir/linpack.f90.o
+[ 39%] Building Fortran object Modules/CMakeFiles/qe_modules.dir/plot_io.f90.o
+[ 39%] Building Fortran object Modules/CMakeFiles/qe_modules.dir/radial_gradients.f90.o
+[ 39%] Building Fortran object Modules/CMakeFiles/qe_modules.dir/rgen.f90.o
+[ 39%] Building Fortran object Modules/CMakeFiles/qe_modules.dir/recips.f90.o
+[ 39%] Building Fortran object Modules/CMakeFiles/qe_modules.dir/remove_tot_torque.f90.o
+[ 39%] Building Fortran object Modules/CMakeFiles/qe_modules.dir/sort.f90.o
+[ 39%] Building Fortran object Modules/CMakeFiles/qe_modules.dir/volume.f90.o
+[ 39%] Building Fortran object Modules/CMakeFiles/qe_modules.dir/deviatoric.f90.o
+[ 39%] Building Fortran object Modules/CMakeFiles/qe_modules.dir/constants.f90.o
+[ 39%] Building Fortran object Modules/CMakeFiles/qe_modules.dir/control_flags.f90.o
+[ 39%] Building Fortran object Modules/CMakeFiles/qe_modules.dir/io_files.f90.o
+[ 39%] Building Fortran object Modules/CMakeFiles/qe_modules.dir/set_signal.f90.o
+[ 39%] Building Fortran object Modules/CMakeFiles/qe_modules.dir/command_line_options.f90.o
+[ 39%] Building Fortran object Modules/CMakeFiles/qe_modules.dir/fox_init_module.f90.o
+[ 39%] Building Fortran object Modules/CMakeFiles/qe_modules.dir/random_numbers_gpu.f90.o
+[ 39%] Building Fortran object Modules/CMakeFiles/qe_modules.dir/solvmol.f90.o
+[ 39%] Building Fortran object Modules/CMakeFiles/qe_modules.dir/ws_base.f90.o
+[ 39%] Building Fortran object Modules/CMakeFiles/qe_modules.dir/plugin_arguments.f90.o
+[ 39%] Building Fortran object Modules/CMakeFiles/qe_modules.dir/inpfile.f90.o
+[ 39%] Building Fortran object Modules/CMakeFiles/qe_modules.dir/input_parameters.f90.o
+[ 39%] Building Fortran object Modules/CMakeFiles/qe_modules.dir/recvec.f90.o
+[ 39%] Building Fortran object Modules/CMakeFiles/qe_modules.dir/parser.f90.o
+[ 39%] Building Fortran object Modules/CMakeFiles/qe_modules.dir/bz_form.f90.o
+[ 39%] Building Fortran object Modules/CMakeFiles/qe_modules.dir/cell_nose.f90.o
+[ 39%] Building Fortran object Modules/CMakeFiles/qe_modules.dir/electrons_base.f90.o
+[ 39%] Building Fortran object Modules/CMakeFiles/qe_modules.dir/fft_rho.f90.o
+[ 39%] Building Fortran object Modules/CMakeFiles/qe_modules.dir/fft_wave.f90.o
+[ 39%] Building Fortran object Modules/CMakeFiles/qe_modules.dir/hdf5_qe.f90.o
+[ 39%] Building Fortran object Modules/CMakeFiles/qe_modules.dir/recvec_subs.f90.o
+[ 39%] Building Fortran object Modules/CMakeFiles/qe_modules.dir/lauefft.f90.o
+[ 39%] Building Fortran object Modules/CMakeFiles/qe_modules.dir/radfft.f90.o
+[ 39%] Building Fortran object Modules/CMakeFiles/qe_modules.dir/molecule_const.f90.o
+[ 39%] Building Fortran object Modules/CMakeFiles/qe_modules.dir/mp_exx.f90.o
+[ 39%] Building Fortran object Modules/CMakeFiles/qe_modules.dir/mp_global.f90.o
+[ 39%] Building Fortran object Modules/CMakeFiles/qe_modules.dir/printout_base.f90.o
+[ 39%] Building Fortran object Modules/CMakeFiles/qe_modules.dir/wavefunctions.f90.o
+[ 39%] Building Fortran object Modules/CMakeFiles/qe_modules.dir/copy_order_um_from_xml.f90.o
+[ 39%] Building Fortran object Modules/CMakeFiles/qe_modules.dir/suscept_g0.f90.o
+[ 39%] Building Fortran object Modules/CMakeFiles/qe_modules.dir/xsf.f90.o
+[ 39%] Building Fortran object Modules/CMakeFiles/qe_modules.dir/more_functionals.f90.o
+[ 39%] Building Fortran object Modules/CMakeFiles/qe_modules.dir/latgen.f90.o
+[ 42%] Building Fortran object Modules/CMakeFiles/qe_modules.dir/wgauss.f90.o
+[ 42%] Building Fortran object Modules/CMakeFiles/qe_modules.dir/w0gauss.f90.o
+[ 42%] Building Fortran object Modules/CMakeFiles/qe_modules.dir/w1gauss.f90.o
+[ 42%] Building Fortran object Modules/CMakeFiles/qe_modules.dir/cell_base.f90.o
+[ 42%] Building Fortran object Modules/CMakeFiles/qe_modules.dir/becmod.f90.o
+[ 45%] Building Fortran object Modules/CMakeFiles/qe_modules.dir/bfgs_module.f90.o
+[ 45%] Building Fortran object Modules/CMakeFiles/qe_modules.dir/check_stop.f90.o
+[ 45%] Building Fortran object Modules/CMakeFiles/qe_modules.dir/environment.f90.o
+[ 45%] Building Fortran object Modules/CMakeFiles/qe_modules.dir/gvecw.f90.o
+[ 45%] Building Fortran object Modules/CMakeFiles/qe_modules.dir/io_base.f90.o
+[ 45%] Building Fortran object Modules/CMakeFiles/qe_modules.dir/xml_io_rism.f90.o
+[ 45%] Building Fortran object Modules/CMakeFiles/qe_modules.dir/qes_bcast_module.f90.o
+[ 45%] Building Fortran object Modules/CMakeFiles/qe_modules.dir/qes_init_module.f90.o
+[ 45%] Building Fortran object Modules/CMakeFiles/qe_modules.dir/qes_read_module.f90.o
+[ 45%] Building Fortran object Modules/CMakeFiles/qe_modules.dir/qes_reset_module.f90.o
+[ 45%] Building Fortran object Modules/CMakeFiles/qe_modules.dir/qes_write_module.f90.o
+[ 45%] Building Fortran object Modules/CMakeFiles/qe_modules.dir/qexsd_copy.f90.o
+[ 45%] Building Fortran object Modules/CMakeFiles/qe_modules.dir/read_namelists.f90.o
+[ 45%] Building Fortran object Modules/CMakeFiles/qe_modules.dir/read_mol.f90.o
+[ 45%] Building Fortran object Modules/CMakeFiles/qe_modules.dir/wyckoff.f90.o
+[ 45%] Building Fortran object Modules/CMakeFiles/qe_modules.dir/pw_dot.f90.o
+[ 45%] Building Fortran object Modules/CMakeFiles/qe_modules.dir/set_para_diag.f90.o
+[ 45%] Building Fortran object Modules/CMakeFiles/qe_modules.dir/autopilot.f90.o
+[ 45%] Building Fortran object Modules/CMakeFiles/qe_modules.dir/ions_base.f90.o
+[ 45%] Building Fortran object Modules/CMakeFiles/qe_modules.dir/fd_gradient.f90.o
+[ 45%] Building Fortran object Modules/CMakeFiles/qe_modules.dir/xc_rVV10.f90.o
+[ 45%] Building Fortran object Modules/CMakeFiles/qe_modules.dir/xc_vdW_DF.f90.o
+[ 45%] Building Fortran object Modules/CMakeFiles/qe_modules.dir/generate_function.f90.o
+[ 45%] Building Fortran object Modules/CMakeFiles/qe_modules.dir/recvec_3drism.f90.o
+[ 45%] Building Fortran object Modules/CMakeFiles/qe_modules.dir/solvavg.f90.o
+[ 45%] Building Fortran object Modules/CMakeFiles/qe_modules.dir/wannier_gw.f90.o
+[ 45%] Building Fortran object Modules/CMakeFiles/qe_modules.dir/compute_dipole.f90.o
+[ 45%] Building Fortran object Modules/CMakeFiles/qe_modules.dir/gradutils.f90.o
+[ 45%] Building Fortran object Modules/CMakeFiles/qe_modules.dir/lauefft_subs.f90.o
+[ 45%] Building Fortran object Modules/CMakeFiles/qe_modules.dir/scale_fft_lauerism.f90.o
+[ 45%] Building Fortran object Modules/CMakeFiles/qe_modules.dir/additional_kpoints.f90.o
+[ 45%] Building Fortran object Modules/CMakeFiles/qe_modules.dir/atomic_wfc_mod.f90.o
+[ 45%] Building Fortran object Modules/CMakeFiles/qe_modules.dir/extffield.f90.o
+[ 45%] Building Fortran object Modules/CMakeFiles/qe_modules.dir/ions_nose.f90.o
+[ 45%] Building Fortran object Modules/CMakeFiles/qe_modules.dir/makov_payne.f90.o
+[ 45%] Building Fortran object Modules/CMakeFiles/qe_modules.dir/tsvdw.f90.o
+[ 45%] Building Fortran object Modules/CMakeFiles/qe_modules.dir/mm_dispersion.f90.o
+[ 45%] Building Fortran object Modules/CMakeFiles/qe_modules.dir/qmmm.f90.o
+[ 45%] Building Fortran object Modules/CMakeFiles/qe_modules.dir/read_solv.f90.o
+[ 45%] Building Fortran object Modules/CMakeFiles/qe_modules.dir/dist.f90.o
+[ 45%] Building Fortran object Modules/CMakeFiles/qe_modules.dir/allocate_fft_3drism.f90.o
+[ 45%] Building Fortran object Modules/CMakeFiles/qe_modules.dir/data_structure_3drism.f90.o
+[ 45%] Building Fortran object Modules/CMakeFiles/qe_modules.dir/scale_fft_3drism.f90.o
+[ 45%] Building Fortran object Modules/CMakeFiles/qe_modules.dir/constraints_module.f90.o
+[ 45%] Building Fortran object Modules/CMakeFiles/qe_modules.dir/environ_base_module.f90.o
+[ 48%] Building Fortran object Modules/CMakeFiles/qe_modules.dir/rism.f90.o
+[ 48%] Building Fortran object Modules/CMakeFiles/qe_modules.dir/read_cards.f90.o
+[ 51%] Building Fortran object Modules/CMakeFiles/qe_modules.dir/funct.f90.o
+[ 51%] Building Fortran object Modules/CMakeFiles/qe_modules.dir/qexsd_init.f90.o
+[ 51%] Building Fortran object Modules/CMakeFiles/qe_modules.dir/qexsd_input.f90.o
+[ 51%] Building Fortran object Modules/CMakeFiles/qe_modules.dir/read_pseudo.f90.o
+[ 51%] Building Fortran object Modules/CMakeFiles/qe_modules.dir/solute.f90.o
+[ 51%] Building Fortran object Modules/CMakeFiles/qe_modules.dir/chempot.f90.o
+/Users/xavier/Documents/dev/generaldrugs/dft/.tools/src/qe-7.6/Modules/chempot.f90:97:58:
+
+   97 |       CALL chempot_for_a_site(rismt%nr, ichempot,   beta, rismt%hr(1, isite), rismt%csr(1, isite), &
+      |                                                          1
+Warning: Element of assumed-shape or pointer array passed to array dummy argument 'hr' at (1)
+/Users/xavier/Documents/dev/generaldrugs/dft/.tools/src/qe-7.6/Modules/chempot.f90:97:78:
+
+   97 |       CALL chempot_for_a_site(rismt%nr, ichempot,   beta, rismt%hr(1, isite), rismt%csr(1, isite), &
+      |                                                                              1
+Warning: Element of assumed-shape or pointer array passed to array dummy argument 'csr' at (1)
+/Users/xavier/Documents/dev/generaldrugs/dft/.tools/src/qe-7.6/Modules/chempot.f90:98:30:
+
+   98 |                             & rismt%ulr(1, isite), weight, lweight, rismt%usol(isite))
+      |                              1
+Warning: Element of assumed-shape or pointer array passed to array dummy argument 'ulr' at (1)
+/Users/xavier/Documents/dev/generaldrugs/dft/.tools/src/qe-7.6/Modules/chempot.f90:99:58:
+
+   99 |       CALL chempot_for_a_site(rismt%nr, CHEMPOT_GF, beta, rismt%hr(1, isite), rismt%csr(1, isite), &
+      |                                                          1
+Warning: Element of assumed-shape or pointer array passed to array dummy argument 'hr' at (1)
+/Users/xavier/Documents/dev/generaldrugs/dft/.tools/src/qe-7.6/Modules/chempot.f90:99:78:
+
+   99 |       CALL chempot_for_a_site(rismt%nr, CHEMPOT_GF, beta, rismt%hr(1, isite), rismt%csr(1, isite), &
+      |                                                                              1
+Warning: Element of assumed-shape or pointer array passed to array dummy argument 'csr' at (1)
+/Users/xavier/Documents/dev/generaldrugs/dft/.tools/src/qe-7.6/Modules/chempot.f90:100:30:
+
+  100 |                             & rismt%ulr(1, isite), weight, lweight, rismt%usol_GF(isite))
+      |                              1
+Warning: Element of assumed-shape or pointer array passed to array dummy argument 'ulr' at (1)
+[ 51%] Building Fortran object Modules/CMakeFiles/qe_modules.dir/chempot_lauerism.f90.o
+[ 51%] Building Fortran object Modules/CMakeFiles/qe_modules.dir/closure.f90.o
+/Users/xavier/Documents/dev/generaldrugs/dft/.tools/src/qe-7.6/Modules/closure.f90:54:13:
+
+   54 |            & rismt%usr(1, 1), rismt%hr(1, 1), rismt%csr(1, 1), rismt%gr(1, 1))
+      |             1
+Warning: Element of assumed-shape or pointer array passed to array dummy argument 'ur' at (1)
+/Users/xavier/Documents/dev/generaldrugs/dft/.tools/src/qe-7.6/Modules/closure.f90:54:30:
+
+   54 |            & rismt%usr(1, 1), rismt%hr(1, 1), rismt%csr(1, 1), rismt%gr(1, 1))
+      |                              1
+Warning: Element of assumed-shape or pointer array passed to array dummy argument 'hr' at (1)
+/Users/xavier/Documents/dev/generaldrugs/dft/.tools/src/qe-7.6/Modules/closure.f90:54:46:
+
+   54 |            & rismt%usr(1, 1), rismt%hr(1, 1), rismt%csr(1, 1), rismt%gr(1, 1))
+      |                                              1
+Warning: Element of assumed-shape or pointer array passed to array dummy argument 'cr' at (1)
+/Users/xavier/Documents/dev/generaldrugs/dft/.tools/src/qe-7.6/Modules/closure.f90:54:63:
+
+   54 |            & rismt%usr(1, 1), rismt%hr(1, 1), rismt%csr(1, 1), rismt%gr(1, 1))
+      |                                                               1
+Warning: Element of assumed-shape or pointer array passed to array dummy argument 'gr' at (1)
+/Users/xavier/Documents/dev/generaldrugs/dft/.tools/src/qe-7.6/Modules/closure.f90:60:13:
+
+   60 |            & rismt%usr(1, 1), rismt%hr(1, 1), rismt%csdr(1, 1), rismt%gr(1, 1))
+      |             1
+Warning: Element of assumed-shape or pointer array passed to array dummy argument 'ur' at (1)
+/Users/xavier/Documents/dev/generaldrugs/dft/.tools/src/qe-7.6/Modules/closure.f90:60:30:
+
+   60 |            & rismt%usr(1, 1), rismt%hr(1, 1), rismt%csdr(1, 1), rismt%gr(1, 1))
+      |                              1
+Warning: Element of assumed-shape or pointer array passed to array dummy argument 'hr' at (1)
+/Users/xavier/Documents/dev/generaldrugs/dft/.tools/src/qe-7.6/Modules/closure.f90:60:46:
+
+   60 |            & rismt%usr(1, 1), rismt%hr(1, 1), rismt%csdr(1, 1), rismt%gr(1, 1))
+      |                                              1
+Warning: Element of assumed-shape or pointer array passed to array dummy argument 'cr' at (1)
+/Users/xavier/Documents/dev/generaldrugs/dft/.tools/src/qe-7.6/Modules/closure.f90:60:64:
+
+   60 |            & rismt%usr(1, 1), rismt%hr(1, 1), rismt%csdr(1, 1), rismt%gr(1, 1))
+      |                                                                1
+Warning: Element of assumed-shape or pointer array passed to array dummy argument 'gr' at (1)
+/Users/xavier/Documents/dev/generaldrugs/dft/.tools/src/qe-7.6/Modules/closure.f90:65:13:
+
+   65 |            & rismt%usg0(1, 1), rismt%hg0(1, 1), rismt%csdg0(1, 1), rismt%gg0(1, 1))
+      |             1
+Warning: Element of assumed-shape or pointer array passed to array dummy argument 'ur' at (1)
+/Users/xavier/Documents/dev/generaldrugs/dft/.tools/src/qe-7.6/Modules/closure.f90:65:31:
+
+   65 |            & rismt%usg0(1, 1), rismt%hg0(1, 1), rismt%csdg0(1, 1), rismt%gg0(1, 1))
+      |                               1
+Warning: Element of assumed-shape or pointer array passed to array dummy argument 'hr' at (1)
+/Users/xavier/Documents/dev/generaldrugs/dft/.tools/src/qe-7.6/Modules/closure.f90:65:48:
+
+   65 |            & rismt%usg0(1, 1), rismt%hg0(1, 1), rismt%csdg0(1, 1), rismt%gg0(1, 1))
+      |                                                1
+Warning: Element of assumed-shape or pointer array passed to array dummy argument 'cr' at (1)
+/Users/xavier/Documents/dev/generaldrugs/dft/.tools/src/qe-7.6/Modules/closure.f90:65:67:
+
+   65 |            & rismt%usg0(1, 1), rismt%hg0(1, 1), rismt%csdg0(1, 1), rismt%gg0(1, 1))
+      |                                                                   1
+Warning: Element of assumed-shape or pointer array passed to array dummy argument 'gr' at (1)
+/Users/xavier/Documents/dev/generaldrugs/dft/.tools/src/qe-7.6/Modules/closure.f90:74:13:
+
+   74 |            & rismt%usr(1, 1), rismt%hr(1, 1), rismt%csr(1, 1), rismt%gr(1, 1))
+      |             1
+Warning: Element of assumed-shape or pointer array passed to array dummy argument 'ur' at (1)
+/Users/xavier/Documents/dev/generaldrugs/dft/.tools/src/qe-7.6/Modules/closure.f90:74:30:
+
+   74 |            & rismt%usr(1, 1), rismt%hr(1, 1), rismt%csr(1, 1), rismt%gr(1, 1))
+      |                              1
+Warning: Element of assumed-shape or pointer array passed to array dummy argument 'hr' at (1)
+/Users/xavier/Documents/dev/generaldrugs/dft/.tools/src/qe-7.6/Modules/closure.f90:74:46:
+
+   74 |            & rismt%usr(1, 1), rismt%hr(1, 1), rismt%csr(1, 1), rismt%gr(1, 1))
+      |                                              1
+Warning: Element of assumed-shape or pointer array passed to array dummy argument 'cr' at (1)
+/Users/xavier/Documents/dev/generaldrugs/dft/.tools/src/qe-7.6/Modules/closure.f90:74:63:
+
+   74 |            & rismt%usr(1, 1), rismt%hr(1, 1), rismt%csr(1, 1), rismt%gr(1, 1))
+      |                                                               1
+Warning: Element of assumed-shape or pointer array passed to array dummy argument 'gr' at (1)
+/Users/xavier/Documents/dev/generaldrugs/dft/.tools/src/qe-7.6/Modules/closure.f90:80:13:
+
+   80 |            & rismt%usr(1, 1), rismt%hr(1, 1), rismt%csdr(1, 1), rismt%gr(1, 1))
+      |             1
+Warning: Element of assumed-shape or pointer array passed to array dummy argument 'ur' at (1)
+/Users/xavier/Documents/dev/generaldrugs/dft/.tools/src/qe-7.6/Modules/closure.f90:80:30:
+
+   80 |            & rismt%usr(1, 1), rismt%hr(1, 1), rismt%csdr(1, 1), rismt%gr(1, 1))
+      |                              1
+Warning: Element of assumed-shape or pointer array passed to array dummy argument 'hr' at (1)
+/Users/xavier/Documents/dev/generaldrugs/dft/.tools/src/qe-7.6/Modules/closure.f90:80:46:
+
+   80 |            & rismt%usr(1, 1), rismt%hr(1, 1), rismt%csdr(1, 1), rismt%gr(1, 1))
+      |                                              1
+Warning: Element of assumed-shape or pointer array passed to array dummy argument 'cr' at (1)
+/Users/xavier/Documents/dev/generaldrugs/dft/.tools/src/qe-7.6/Modules/closure.f90:80:64:
+
+   80 |            & rismt%usr(1, 1), rismt%hr(1, 1), rismt%csdr(1, 1), rismt%gr(1, 1))
+      |                                                                1
+Warning: Element of assumed-shape or pointer array passed to array dummy argument 'gr' at (1)
+/Users/xavier/Documents/dev/generaldrugs/dft/.tools/src/qe-7.6/Modules/closure.f90:85:13:
+
+   85 |            & rismt%usg0(1, 1), rismt%hg0(1, 1), rismt%csdg0(1, 1), rismt%gg0(1, 1))
+      |             1
+Warning: Element of assumed-shape or pointer array passed to array dummy argument 'ur' at (1)
+/Users/xavier/Documents/dev/generaldrugs/dft/.tools/src/qe-7.6/Modules/closure.f90:85:31:
+
+   85 |            & rismt%usg0(1, 1), rismt%hg0(1, 1), rismt%csdg0(1, 1), rismt%gg0(1, 1))
+      |                               1
+Warning: Element of assumed-shape or pointer array passed to array dummy argument 'hr' at (1)
+/Users/xavier/Documents/dev/generaldrugs/dft/.tools/src/qe-7.6/Modules/closure.f90:85:48:
+
+   85 |            & rismt%usg0(1, 1), rismt%hg0(1, 1), rismt%csdg0(1, 1), rismt%gg0(1, 1))
+      |                                                1
+Warning: Element of assumed-shape or pointer array passed to array dummy argument 'cr' at (1)
+/Users/xavier/Documents/dev/generaldrugs/dft/.tools/src/qe-7.6/Modules/closure.f90:85:67:
+
+   85 |            & rismt%usg0(1, 1), rismt%hg0(1, 1), rismt%csdg0(1, 1), rismt%gg0(1, 1))
+      |                                                                   1
+Warning: Element of assumed-shape or pointer array passed to array dummy argument 'gr' at (1)
+[ 51%] Building Fortran object Modules/CMakeFiles/qe_modules.dir/corrdipole_laue.f90.o
+[ 51%] Building Fortran object Modules/CMakeFiles/qe_modules.dir/correctat0_vv.f90.o
+[ 51%] Building Fortran object Modules/CMakeFiles/qe_modules.dir/corrgxy0_laue.f90.o
+[ 54%] Building Fortran object Modules/CMakeFiles/qe_modules.dir/do_1drism.f90.o
+[ 54%] Building Fortran object Modules/CMakeFiles/qe_modules.dir/do_3drism.f90.o
+[ 54%] Building Fortran object Modules/CMakeFiles/qe_modules.dir/do_lauerism.f90.o
+/Users/xavier/Documents/dev/generaldrugs/dft/.tools/src/qe-7.6/Modules/do_1drism.f90:422:44:
+
+  422 |       & rismt%mp_task%nvec, work, rismt%nr, rismt%csr, +1)
+      |                                            1
+......
+  502 |       & rismt%mp_task%nvec, work(1, 1), rismt%ng, rismt%csg(1, 1), +1)
+      |                                                  2
+Warning: Rank mismatch between actual argument at (1) and actual argument at (2) (scalar and rank-2)
+/Users/xavier/Documents/dev/generaldrugs/dft/.tools/src/qe-7.6/Modules/do_1drism.f90:432:44:
+
+  432 |       & rismt%mp_task%nvec, work, rismt%ng, rismt%csg, -1)
+      |                                            1
+......
+  502 |       & rismt%mp_task%nvec, work(1, 1), rismt%ng, rismt%csg(1, 1), +1)
+      |                                                  2
+Warning: Rank mismatch between actual argument at (1) and actual argument at (2) (scalar and rank-2)
+[ 54%] Building Fortran object Modules/CMakeFiles/qe_modules.dir/eqn_1drism.f90.o
+[ 54%] Building Fortran object Modules/CMakeFiles/qe_modules.dir/eqn_3drism.f90.o
+[ 54%] Building Fortran object Modules/CMakeFiles/qe_modules.dir/eqn_lauedipole.f90.o
+[ 54%] Building Fortran object Modules/CMakeFiles/qe_modules.dir/eqn_lauegxy0.f90.o
+[ 54%] Building Fortran object Modules/CMakeFiles/qe_modules.dir/eqn_lauelong.f90.o
+[ 54%] Building Fortran object Modules/CMakeFiles/qe_modules.dir/eqn_lauerism.f90.o
+[ 54%] Building Fortran object Modules/CMakeFiles/qe_modules.dir/eqn_laueshort.f90.o
+[ 54%] Building Fortran object Modules/CMakeFiles/qe_modules.dir/eqn_lauevoid.f90.o
+[ 54%] Building Fortran object Modules/CMakeFiles/qe_modules.dir/guess_3drism.f90.o
+[ 54%] Building Fortran object Modules/CMakeFiles/qe_modules.dir/init_1drism.f90.o
+[ 54%] Building Fortran object Modules/CMakeFiles/qe_modules.dir/molebridge_vv.f90.o
+[ 54%] Building Fortran object Modules/CMakeFiles/qe_modules.dir/molecorr_vv.f90.o
+[ 54%] Building Fortran object Modules/CMakeFiles/qe_modules.dir/normalize_lauerism.f90.o
+[ 54%] Building Fortran object Modules/CMakeFiles/qe_modules.dir/potential_3drism.f90.o
+[ 54%] Building Fortran object Modules/CMakeFiles/qe_modules.dir/potential_esm.f90.o
+[ 54%] Building Fortran object Modules/CMakeFiles/qe_modules.dir/potential_vv.f90.o
+[ 54%] Building Fortran object Modules/CMakeFiles/qe_modules.dir/print_chempot_3drism.f90.o
+[ 54%] Building Fortran object Modules/CMakeFiles/qe_modules.dir/print_chempot_lauerism.f90.o
+[ 54%] Building Fortran object Modules/CMakeFiles/qe_modules.dir/print_chempot_vv.f90.o
+[ 54%] Building Fortran object Modules/CMakeFiles/qe_modules.dir/print_corr_vv.f90.o
+[ 54%] Building Fortran object Modules/CMakeFiles/qe_modules.dir/solvation_3drism.f90.o
+[ 54%] Building Fortran object Modules/CMakeFiles/qe_modules.dir/solvation_lauerism.f90.o
+[ 54%] Building Fortran object Modules/CMakeFiles/qe_modules.dir/solvation_pbc.f90.o
+[ 54%] Building Fortran object Modules/CMakeFiles/qe_modules.dir/suscept_laue.f90.o
+[ 54%] Building Fortran object Modules/CMakeFiles/qe_modules.dir/suscept_laueint.f90.o
+[ 54%] Building Fortran object Modules/CMakeFiles/qe_modules.dir/suscept_vv.f90.o
+[ 57%] Building Fortran object Modules/CMakeFiles/qe_modules.dir/write_rism_type.f90.o
+[ 57%] Building Fortran object Modules/CMakeFiles/qe_modules.dir/io_rism_xml.f90.o
+[ 57%] Building Fortran object Modules/CMakeFiles/qe_modules.dir/qes_libs_module.f90.o
+[ 57%] Building Fortran object Modules/CMakeFiles/qe_modules.dir/mbdlib.f90.o
+[ 60%] Building Fortran object Modules/CMakeFiles/qe_modules.dir/qexsd.f90.o
+[ 60%] Building Fortran object Modules/CMakeFiles/qe_modules.dir/read_input.f90.o
+[ 63%] Building Fortran object Modules/CMakeFiles/qe_modules.dir/lj_solute.f90.o
+[ 63%] Building Fortran object Modules/CMakeFiles/qe_modules.dir/solvation_force.f90.o
+[ 63%] Building Fortran object Modules/CMakeFiles/qe_modules.dir/solvation_stress.f90.o
+[ 63%] Building Fortran object Modules/CMakeFiles/qe_modules.dir/rism3d_facade.f90.o
+[ 63%] Building Fortran object Modules/CMakeFiles/qe_modules.dir/rism1d_facade.f90.o
+[ 63%] Building Fortran object Modules/CMakeFiles/qe_modules.dir/print_solvavg.f90.o
+[ 63%] Building Fortran object Modules/CMakeFiles/qe_modules.dir/input_1drism.f90.o
+[ 63%] Building Fortran object Modules/CMakeFiles/qe_modules.dir/init_3drism.f90.o
+[ 63%] Building Fortran object Modules/CMakeFiles/qe_modules.dir/summary_1drism.f90.o
+[ 63%] Building Fortran object Modules/CMakeFiles/qe_modules.dir/input_3drism.f90.o
+[ 63%] Building Fortran object Modules/CMakeFiles/qe_modules.dir/solvation_esm.f90.o
+[ 63%] Building Fortran object Modules/CMakeFiles/qe_modules.dir/summary_3drism.f90.o
+[ 63%] Linking Fortran static library ../lib/libqe_modules.a
+[ 63%] Built target qe_modules
+[ 63%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/start_k.f90.o
+[ 63%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/symm_base.f90.o
+[ 66%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/acfdt_in_pw.f90.o
+[ 66%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/pwcom.f90.o
+[ 66%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/ldaU.f90.o
+[ 69%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/atomic_wfc_mod.f90.o
+[ 69%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/bp_mod.f90.o
+[ 69%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/buffers.f90.o
+[ 69%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/extfield.f90.o
+[ 69%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/martyna_tuckerman.f90.o
+[ 69%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/g_psi_mod.f90.o
+[ 69%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/starting_scf_mod.f90.o
+[ 69%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/pw2blip.f90.o
+[ 69%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/bp_strings.f90.o
+[ 69%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/cdiagh.f90.o
+[ 69%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/compute_rho.f90.o
+[ 69%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/compute_ux.f90.o
+[ 72%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/compute_qdipol.f90.o
+[ 72%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/divide_class.f90.o
+[ 72%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/divide_class_so.f90.o
+[ 72%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/divide_et_impera.f90.o
+[ 72%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/rotate_wfc.f90.o
+[ 72%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/efermig.f90.o
+[ 72%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/efermit.f90.o
+[ 72%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/eqvect.f90.o
+/Users/xavier/Documents/dev/generaldrugs/dft/.tools/src/qe-7.6/PW/src/efermig.f90:95:76:
+
+   95 |       WRITE( stdout, '(5x,"Warning: too many iterations in bisection" &
+      |                                                                            1
+Warning: Legacy Extension: Missing comma in FORMAT string at (1)
+[ 72%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/fcp_dyn_calcavg.f90.o
+[ 72%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/fcp_dyn_printavg.f90.o
+[ 72%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/find_group.f90.o
+[ 72%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/gweights.f90.o
+[ 72%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/hs_psi.f90.o
+[ 72%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/irreducible_BZ.f90.o
+[ 72%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/iweights.f90.o
+[ 72%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/lchk_tauxk.f90.o
+[ 72%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/make_pointlists.f90.o
+[ 72%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/manypw.f90.o
+[ 72%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/multable.f90.o
+[ 72%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/n_plane_waves.f90.o
+[ 72%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/output_tau.f90.o
+[ 72%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/para.f90.o
+[ 72%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/plugin_print_energies.f90.o
+[ 72%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/plugin_init_ions.f90.o
+[ 72%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/plugin_init_cell.f90.o
+[ 72%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/plugin_init_potential.f90.o
+[ 72%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/plugin_initbase.f90.o
+[ 72%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/plugin_clean.f90.o
+[ 72%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/plugin_check.f90.o
+[ 72%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/plugin_clock.f90.o
+[ 72%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/plugin_summary.f90.o
+[ 72%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/plugin_initialization.f90.o
+[ 72%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/plugin_ext_forces.f90.o
+[ 72%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/plugin_read_input.f90.o
+[ 72%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/pw2casino.f90.o
+[ 72%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/rdiagh.f90.o
+[ 72%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/read_conf_from_file.f90.o
+[ 72%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/rho2zeta.f90.o
+[ 72%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/ruotaijk.f90.o
+[ 72%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/set_kplusq.f90.o
+[ 72%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/set_kup_and_kdw.f90.o
+[ 72%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/set_occupations.f90.o
+[ 72%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/set_spin_vars.f90.o
+[ 72%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/set_vrs.f90.o
+[ 72%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/stop_run.f90.o
+[ 72%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/stres_nonloc_dft.f90.o
+[ 72%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/struct_fact.f90.o
+[ 72%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/sumkg.f90.o
+[ 72%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/sumkt.f90.o
+[ 72%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/trnvecc.f90.o
+[ 72%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/wsweight.f90.o
+[ 72%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/ortho_wfc.f90.o
+[ 72%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/add_dmft_occ.f90.o
+[ 72%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/symme.f90.o
+[ 72%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/exx_base.f90.o
+[ 72%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/paw_onecenter.f90.o
+[ 72%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/init_us_2.f90.o
+[ 72%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/dynamics_module.f90.o
+[ 72%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/fcp_dynamics.f90.o
+/Users/xavier/Documents/dev/generaldrugs/dft/.tools/src/qe-7.6/PW/src/paw_onecenter.f90:230:64:
+
+  230 |                          CALL simpson( kkbeta, rho_lm(1,lm,is), g(i%t)%rab(1), integral )
+      |                                                                1
+......
+ 1679 |                                                       g(i%t)%rab, integral_r )
+      |                                                      2          
+Warning: Element of assumed-shape or pointer array as actual argument at (1) cannot correspond to actual argument at (2)
+/Users/xavier/Documents/dev/generaldrugs/dft/.tools/src/qe-7.6/PW/src/paw_onecenter.f90:236:70:
+
+  236 |                             CALL simpson( kkbeta, msmall_lm(1,lm,is), g(i%t)%rab(1), integral )
+      |                                                                      1
+......
+ 1679 |                                                       g(i%t)%rab, integral_r )
+      |                                                      2                
+Warning: Element of assumed-shape or pointer array as actual argument at (1) cannot correspond to actual argument at (2)
+[ 72%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/fcp_relaxation.f90.o
+[ 72%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/tetra.f90.o
+[ 72%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/two_chem.f90.o
+[ 72%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/paw_symmetry.f90.o
+[ 72%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/add_bfield.f90.o
+[ 72%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/add_efield.f90.o
+[ 72%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/add_vuspsi.f90.o
+/Users/xavier/Documents/dev/generaldrugs/dft/.tools/src/qe-7.6/PW/src/add_vuspsi.f90:115:54:
+
+  102 |                            deeq(1,1,na,current_spin), nhm, &
+      |                           2                           
+......
+  115 |        CALL DGEMM( 'N', 'N', ( 2 * n ), m, nkb, 1.D0, vkb, &
+      |                                                      1
+Warning: Type mismatch between actual argument at (1) and actual argument at (2) (COMPLEX(8)/REAL(8)).
+/Users/xavier/Documents/dev/generaldrugs/dft/.tools/src/qe-7.6/PW/src/add_vuspsi.f90:116:47:
+
+  104 |                                ps(ofsbeta(na)+1,1), nkb )
+      |                               2                
+......
+  116 |                    ( 2 * lda ), ps, nkb, 1.D0, hpsi, ( 2 * lda ) )
+      |                                               1
+Warning: Type mismatch between actual argument at (1) and actual argument at (2) (COMPLEX(8)/REAL(8)).
+[ 72%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/add_vuspsi_acc.f90.o
+/Users/xavier/Documents/dev/generaldrugs/dft/.tools/src/qe-7.6/PW/src/add_vuspsi_acc.f90:120:56:
+
+  105 |                            deeq(1,1,na,current_spin), nhm, &
+      |                           2                             
+......
+  120 |        CALL MYDGEMM( 'N', 'N', ( 2 * n ), m, nkb, 1.D0, vkb, &
+      |                                                        1
+Warning: Type mismatch between actual argument at (1) and actual argument at (2) (COMPLEX(8)/REAL(8)).
+/Users/xavier/Documents/dev/generaldrugs/dft/.tools/src/qe-7.6/PW/src/add_vuspsi_acc.f90:121:47:
+
+  107 |                                ps(ofsbeta(na)+1,1), nkb )
+      |                               2                
+......
+  121 |                    ( 2 * lda ), ps, nkb, 1.D0, hpsi, ( 2 * lda ) )
+      |                                               1
+Warning: Type mismatch between actual argument at (1) and actual argument at (2) (COMPLEX(8)/REAL(8)).
+[ 72%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/add_gatefield.f90.o
+[ 72%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/add_paw_to_deeq.f90.o
+[ 72%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/add_paw_to_deeq_acc.f90.o
+[ 72%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/allocate_locpot.f90.o
+[ 72%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/allocate_wfc.f90.o
+[ 72%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/atomic_wfc.f90.o
+[ 72%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/atomic_rho.f90.o
+[ 72%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/average_pp.f90.o
+[ 72%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/close_files.f90.o
+[ 72%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/compute_deff.f90.o
+[ 72%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/compute_dip.f90.o
+[ 72%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/compute_qdipol_so.f90.o
+[ 72%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/d_matrix.f90.o
+[ 72%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/ewald_dipole.f90.o
+[ 72%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/fcp_hessian.f90.o
+[ 72%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/g_psi.f90.o
+[ 72%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/gen_at_dj.f90.o
+[ 72%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/gen_at_dy.f90.o
+[ 72%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/get_locals.f90.o
+[ 72%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/gk_sort.f90.o
+[ 72%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/gradcorr.f90.o
+[ 72%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/g2_kin.f90.o
+[ 75%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/h_epsi_her_apply.f90.o
+[ 75%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/hubbard.f90.o
+[ 75%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/init_q_aeps.f90.o
+[ 75%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/intersite_V.f90.o
+[ 75%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/kpoint_grid.f90.o
+[ 75%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/new_nsb.f90.o
+[ 75%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/new_nsg.f90.o
+[ 75%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/new_occ.f90.o
+[ 75%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/offset_atom_wfc.f90.o
+[ 75%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/openfil.f90.o
+[ 75%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/plugin_int_forces.f90.o
+[ 75%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/plus_u_full.f90.o
+[ 75%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/save_in_cbands.f90.o
+[ 75%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/symmetrize_at.f90.o
+[ 75%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/transform_becsum_so.f90.o
+[ 78%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/transform_becsum_nc.f90.o
+[ 78%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/vloc_psi_tg.f90.o
+[ 78%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/vloc_psi_acc.f90.o
+[ 78%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/utils.f90.o
+[ 81%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/wannier_init.f90.o
+[ 81%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/wannier_check.f90.o
+[ 81%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/wannier_clean.f90.o
+[ 81%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/wannier_occ.f90.o
+[ 81%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/utils_gpu.f90.o
+[ 81%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/Coul_cut_2D.f90.o
+[ 81%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/a2fmod.f90.o
+[ 81%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/scf_mod.f90.o
+[ 81%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/exx_bp_utils.f90.o
+/Users/xavier/Documents/dev/generaldrugs/dft/.tools/src/qe-7.6/PW/src/exx_bp_utils.f90:1177:54:
+
+ 1177 |           CALL gk_sort( xk, ngm, g, ecutwfc / tpiba2, ngk, igk_exx, work_space )
+      |                                                      1
+......
+ 1226 |        CALL gk_sort( xk(1,ik), ngm, g, ecutwfc / tpiba2, npw, igk_exx(1,ik), &
+      |                                                         2
+Warning: Rank mismatch between actual argument at (1) and actual argument at (2) (scalar and rank-1)
+[ 81%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/bp_c_phase.f90.o
+[ 81%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/c_phase_field.f90.o
+[ 81%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/commutator_Hx_psi.f90.o
+[ 84%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/forces_bp_efield.f90.o
+[ 84%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/force_us.f90.o
+[ 84%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/h_epsi_her_set.f90.o
+[ 84%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/orthoatwfc.f90.o
+[ 84%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/orthoUwfc.f90.o
+[ 84%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/print_ks_energies.f90.o
+[ 84%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/pw_init_qexsd_input.f90.o
+[ 84%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/restart_in_electrons.f90.o
+[ 84%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/save_in_electrons.f90.o
+[ 84%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/stres_knl.f90.o
+[ 84%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/stres_us.f90.o
+[ 84%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/vcsmd.f90.o
+[ 84%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/vcsubs.f90.o
+[ 84%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/d3hess_mod.f90.o
+[ 84%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/esm_common_mod.f90.o
+[ 87%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/paw_exx.f90.o
+[ 87%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/realus.f90.o
+[ 87%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/xdm_dispersion.f90.o
+[ 87%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/update_pot.f90.o
+[ 87%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/io_rho_xml.f90.o
+[ 87%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/paw_init.f90.o
+[ 87%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/printpot.f90.o
+[ 87%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/sic.f90.o
+[ 87%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/add_vhub_to_deeq.f90.o
+[ 87%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/add_vhub_to_deeq_acc.f90.o
+[ 87%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/allocate_fft.f90.o
+[ 87%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/orbm_kubo.f90.o
+[ 87%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/commutator_Vhubx_psi.f90.o
+[ 87%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/ewald.f90.o
+[ 87%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/force_cc.f90.o
+[ 87%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/force_corr.f90.o
+[ 87%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/force_ew.f90.o
+[ 87%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/force_hub.f90.o
+[ 87%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/h_psi_meta.f90.o
+/Users/xavier/Documents/dev/generaldrugs/dft/.tools/src/qe-7.6/PW/src/force_hub.f90:2527:20:
+
+ 2420 |       CALL MYDGEMM( 'T','N',ldim, nbnd, 2*npw, 2.0_DP, dwfc, 2*npwx, spsi, &
+      |                                                       2
+......
+ 2527 |                     wfatdbeta, nwfcU, betapsi(1,nb_s), nh(nt), 1.0_dp, &
+      |                    1
+Warning: Type mismatch between actual argument at (1) and actual argument at (2) (REAL(8)/COMPLEX(8)).
+/Users/xavier/Documents/dev/generaldrugs/dft/.tools/src/qe-7.6/PW/src/force_hub.f90:2527:38:
+
+ 2420 |       CALL MYDGEMM( 'T','N',ldim, nbnd, 2*npw, 2.0_DP, dwfc, 2*npwx, spsi, &
+      |                                                                     2
+......
+ 2527 |                     wfatdbeta, nwfcU, betapsi(1,nb_s), nh(nt), 1.0_dp, &
+      |                                      1
+Warning: Type mismatch between actual argument at (1) and actual argument at (2) (REAL(8)/COMPLEX(8)).
+[ 87%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/init_ns.f90.o
+[ 87%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/init_nsg.f90.o
+[ 87%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/new_ns.f90.o
+[ 87%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/ns_adj.f90.o
+[ 87%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/plugin_scf_energy.f90.o
+[ 87%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/plugin_scf_potential.f90.o
+[ 87%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/remove_atomic_rho.f90.o
+[ 87%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/report_mag.f90.o
+[ 87%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/set_rhoc.f90.o
+[ 90%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/stres_cc.f90.o
+[ 90%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/stres_ewa.f90.o
+[ 90%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/stres_gradcorr.f90.o
+[ 90%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/stres_har.f90.o
+[ 90%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/stres_hub.f90.o
+[ 90%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/stres_mgga.f90.o
+[ 90%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/usnldiag.f90.o
+[ 90%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/v_hubbard.f90.o
+[ 90%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/vhpsi.f90.o
+/Users/xavier/Documents/dev/generaldrugs/dft/.tools/src/qe-7.6/PW/src/vhpsi.f90:241:28:
+
+  238 |                             rvaux,ldimx, projauxr,ldimx, 0.0_dp, rtemp, ldimx)
+      |                            2
+......
+  241 |                             wfcUaux, 2*np, rtemp, ldimx, &
+      |                            1
+Warning: Type mismatch between actual argument at (1) and actual argument at (2) (COMPLEX(8)/REAL(8)).
+/Users/xavier/Documents/dev/generaldrugs/dft/.tools/src/qe-7.6/PW/src/vhpsi.f90:242:36:
+
+  238 |                             rvaux,ldimx, projauxr,ldimx, 0.0_dp, rtemp, ldimx)
+      |                                                                 2
+......
+  242 |                             1.0_dp, hpsi, 2*lda)
+      |                                    1
+Warning: Type mismatch between actual argument at (1) and actual argument at (2) (COMPLEX(8)/REAL(8)).
+[ 90%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/vhpsi_U.f90.o
+[ 90%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/write_ns.f90.o
+/Users/xavier/Documents/dev/generaldrugs/dft/.tools/src/qe-7.6/PW/src/vhpsi_U.f90:115:19:
+
+  109 |                    vns_r(1,1,na), ldimax, &
+      |                   2
+......
+  115 |                    wfcU(1,offsetU(na)+1), 2*ldap, rtemp, ldimaxt, &
+      |                   1
+Warning: Type mismatch between actual argument at (1) and actual argument at (2) (COMPLEX(8)/REAL(8)).
+/Users/xavier/Documents/dev/generaldrugs/dft/.tools/src/qe-7.6/PW/src/vhpsi_U.f90:116:27:
+
+  110 |                    proj_r(offsetU(na)+1,1), nwfcU, 0.0_dp, rtemp, ldimaxt )
+      |                                                           2
+......
+  116 |                    1.0_dp, hpsi, 2*ldap )
+      |                           1
+Warning: Type mismatch between actual argument at (1) and actual argument at (2) (COMPLEX(8)/REAL(8)).
+[ 90%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/beef.f90.o
+[ 90%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/newd_acc.f90.o
+[ 90%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/addusdens.f90.o
+[ 90%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/addusforce.f90.o
+[ 90%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/addusstress.f90.o
+[ 90%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/data_structure.f90.o
+/Users/xavier/Documents/dev/generaldrugs/dft/.tools/src/qe-7.6/PW/src/addusstress.f90:195:31:
+
+  160 |                                qgm, 2*ngm_l, tbecsum, nij, 0.0_dp, aux2, 2*ngm_l )
+      |                                             2
+......
+  195 |                                aux2, 2*ngm_l, 0.0_dp, fac, 3 )
+      |                               1
+Warning: Type mismatch between actual argument at (1) and actual argument at (2) (COMPLEX(8)/REAL(8)).
+/Users/xavier/Documents/dev/generaldrugs/dft/.tools/src/qe-7.6/PW/src/addusstress.f90:195:54:
+
+  160 |                                qgm, 2*ngm_l, tbecsum, nij, 0.0_dp, aux2, 2*ngm_l )
+      |                                                                   2
+......
+  195 |                                aux2, 2*ngm_l, 0.0_dp, fac, 3 )
+      |                                                      1
+Warning: Type mismatch between actual argument at (1) and actual argument at (2) (REAL(8)/COMPLEX(8)).
+[ 90%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/hs_1psi.f90.o
+[ 90%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/hinit0.f90.o
+[ 90%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/s_1psi.f90.o
+[ 90%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/s_psi.f90.o
+[ 90%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/esm_ewald_mod.f90.o
+/Users/xavier/Documents/dev/generaldrugs/dft/.tools/src/qe-7.6/PW/src/s_psi.f90:260:55:
+
+  245 |                                   qq_at(1,1,na), nhm, becpr(ofsbeta(na)+1,1),&
+      |                                  2                     
+......
+  260 |           CALL MYDGEMM( 'N', 'N', 2 * n, m, nkb, 1.D0, vkb, &
+      |                                                       1
+Warning: Type mismatch between actual argument at (1) and actual argument at (2) (COMPLEX(8)/REAL(8)).
+/Users/xavier/Documents/dev/generaldrugs/dft/.tools/src/qe-7.6/PW/src/s_psi.f90:261:39:
+
+  246 |                                   nkb, 0.0_dp, ps(ofsbeta(na)+1,1), nkb )
+      |                                               2
+......
+  261 |                2 * lda, ps, nkb, 1.D0, spsi, 2*lda )
+      |                                       1
+Warning: Type mismatch between actual argument at (1) and actual argument at (2) (COMPLEX(8)/REAL(8)).
+[ 93%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/esm_force_mod.f90.o
+[ 93%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/esm_hartree_mod.f90.o
+[ 93%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/esm_local_mod.f90.o
+[ 93%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/esm_stres_mod.f90.o
+[ 93%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/us_exx.f90.o
+[ 93%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/environ_pw_module.f90.o
+[ 93%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/scissor.f90.o
+[ 93%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/run_driver.f90.o
+[ 93%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/exx_std.f90.o
+[ 93%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/exx_bp.f90.o
+[ 93%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/compute_becsum.f90.o
+/Users/xavier/Documents/dev/generaldrugs/dft/.tools/src/qe-7.6/PW/src/compute_becsum.f90:292:30:
+
+  257 |                       1.0_dp, auxg1, nbnd_loc,    &
+      |                              2
+......
+  292 |                       1.0_dp, auxk1, 2*this_bgrp_nbnd, auxk2, 2*this_bgrp_nbnd, &
+      |                              1
+Warning: Type mismatch between actual argument at (1) and actual argument at (2) (COMPLEX(8)/REAL(8)).
+/Users/xavier/Documents/dev/generaldrugs/dft/.tools/src/qe-7.6/PW/src/compute_becsum.f90:292:55:
+
+  258 |                       auxg2, nbnd_loc, 0.0_dp, aux_gk, nhnt )
+      |                      2                                 
+......
+  292 |                       1.0_dp, auxk1, 2*this_bgrp_nbnd, auxk2, 2*this_bgrp_nbnd, &
+      |                                                       1
+Warning: Type mismatch between actual argument at (1) and actual argument at (2) (COMPLEX(8)/REAL(8)).
+[ 93%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/esm.f90.o
+[ 93%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/init_vloc.f90.o
+[ 93%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/force_lc.f90.o
+[ 93%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/fcp_capacitance.f90.o
+[ 93%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/rism_module.f90.o
+[ 93%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/stres_loc.f90.o
+[ 93%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/v_of_rho.f90.o
+[ 93%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/forces.f90.o
+[ 93%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/fcp_module.f90.o
+[ 93%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/init_run.f90.o
+[ 93%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/potinit.f90.o
+[ 96%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/print_clock_pw.f90.o
+[ 96%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/setlocal.f90.o
+[ 96%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/gcscf_module.f90.o
+[ 96%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/fcp_input.f90.o
+[ 96%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/move_ions.f90.o
+[ 96%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/add_qexsd_step.f90.o
+[ 96%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/mix_rho.f90.o
+[ 96%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/gcscf_input.f90.o
+/Users/xavier/Documents/dev/generaldrugs/dft/.tools/src/qe-7.6/PW/src/mix_rho.f90:1012:56:
+
+ 1005 |       CALL DCOPY(rlen_rho,rho%of_g,1,io_buffer(start_rho),1)
+      |                          2                              
+......
+ 1012 |       IF (lda_plus_u_co)           CALL DCOPY(rlen_ldaU,rho%ns,   1,io_buffer(start_ldaU),1)
+      |                                                        1
+Warning: Type mismatch between actual argument at (1) and actual argument at (2) (REAL(8)/COMPLEX(8)).
+/Users/xavier/Documents/dev/generaldrugs/dft/.tools/src/qe-7.6/PW/src/mix_rho.f90:1033:80:
+
+ 1005 |       CALL DCOPY(rlen_rho,rho%of_g,1,io_buffer(start_rho),1)
+      |                                     2                                           
+......
+ 1033 |       IF (lda_plus_u_co)           CALL DCOPY(rlen_ldaU,io_buffer(start_ldaU),1,rho%ns,   1)
+      |                                                                                1
+Warning: Type mismatch between actual argument at (1) and actual argument at (2) (REAL(8)/COMPLEX(8)).
+[ 96%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/sum_band.f90.o
+[ 96%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/weights.f90.o
+[ 96%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/hinit1.f90.o
+[ 96%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/exx.f90.o
+[ 96%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/clean_pw.f90.o
+[ 96%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/pw_restart_new.f90.o
+[ 96%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/h_psi.f90.o
+[ 96%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/loc_scdm.f90.o
+[ 96%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/memory_report.f90.o
+[ 96%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/non_scf.f90.o
+[ 96%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/pw2casino_write.f90.o
+[100%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/run_pwscf.f90.o
+[100%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/scale_h.f90.o
+[100%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/stress.f90.o
+[100%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/summary.f90.o
+[100%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/loc_scdm_k.f90.o
+[100%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/input.f90.o
+[100%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/electrons.f90.o
+[100%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/wfcinit.f90.o
+[100%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/punch.f90.o
+[100%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/diag_direct.f90.o
+[100%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/read_file_new.f90.o
+[100%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/setup.f90.o
+[100%] Building Fortran object PW/CMakeFiles/qe_pw.dir/src/c_bands.f90.o
+[100%] Linking Fortran static library ../lib/libqe_pw.a
+[100%] Built target qe_pw
+[100%] Building Fortran object PW/CMakeFiles/qe_pw_exe.dir/src/pwscf.f90.o
+[100%] Linking Fortran executable ../bin/pw.x
+ld: warning: duplicate -rpath '/opt/homebrew/Cellar/gcc/16.2.0/lib/gcc/current' ignored
+ld: warning: ignoring duplicate libraries: '../lib/libqe_lax.a'
+[100%] Built target qe_pw_exe
+[  2%] Built target qe_device_lapack
+[  2%] Built target mbd
+[  2%] Built target qe_xml
+[  2%] Built target qe_devxlib
+[  2%] Built target qe_fftx_c
+[  5%] Built target qe_utilx_c
+[  5%] Built target qe_lax_headers
+[  5%] Built target qe_modules_c
+[  5%] Built target qe_ks_headers
+[  5%] Built target qe_libbeef
+[  8%] Built target qe_utilx
+[ 11%] Built target qe_fftx
+[ 13%] Built target qe_xclib
+[ 13%] Built target qe_dftd3
+[ 16%] Built target qe_lax
+[ 25%] Built target qe_upflib
+[ 25%] Built target qe_kssolver_direct
+[ 27%] Built target qe_kssolver_davidson
+[ 27%] Built target qe_kssolver_dense
+[ 27%] Built target qe_kssolver_rmmdiis
+[ 27%] Built target qe_kssolver_cg
+[ 30%] Built target qe_kssolver_paro
+[ 30%] Built target gitrev
+[ 58%] Built target qe_modules
+[ 91%] Built target qe_pw
+[ 91%] Building Fortran object PP/CMakeFiles/qe_pp.dir/src/adduscore.f90.o
+[ 91%] Building Fortran object PP/CMakeFiles/qe_pp.dir/src/paw_postproc.f90.o
+[100%] Building Fortran object PP/CMakeFiles/qe_pp.dir/src/fermisurfer_common.f90.o
+[100%] Building Fortran object PP/CMakeFiles/qe_pp.dir/src/wannier_mod.f90.o
+[100%] Building Fortran object PP/CMakeFiles/qe_pp.dir/src/projections_mod.f90.o
+[100%] Building Fortran object PP/CMakeFiles/qe_pp.dir/src/fft_interpolation_mod.f90.o
+/Users/xavier/Documents/dev/generaldrugs/dft/.tools/src/qe-7.6/PP/src/projections_mod.f90:656:40:
+
+  656 |                         v(1,ir), npwx2, w(1,ic), npwx2, 0.D0, work, nx )
+      |                                        1
+......
+  799 |                           swfc(1,ir), npwx2, ovr, nx, beta, wfc(1,ic), npwx2 )
+      |                                             2
+Warning: Type mismatch between actual argument at (1) and actual argument at (2) (COMPLEX(8)/REAL(8)).
+/Users/xavier/Documents/dev/generaldrugs/dft/.tools/src/qe-7.6/PP/src/projections_mod.f90:656:62:
+
+  656 |                         v(1,ir), npwx2, w(1,ic), npwx2, 0.D0, work, nx )
+      |                                                              1
+......
+  799 |                           swfc(1,ir), npwx2, ovr, nx, beta, wfc(1,ic), npwx2 )
+      |                                                            2  
+Warning: Type mismatch between actual argument at (1) and actual argument at (2) (REAL(8)/COMPLEX(8)).
+/Users/xavier/Documents/dev/generaldrugs/dft/.tools/src/qe-7.6/PP/src/projections_mod.f90:581:38:
+
+  581 |                         v(1,ir), ldv, w(1,ic), ldw, (0.0_dp,0.0_dp), work, nx )
+      |                                      1
+......
+  726 |                           swfc(1,ir), npwx, ovr, nx, beta, wfc(1,ic), npwx )
+      |                                            2
+Warning: Element of assumed-shape or pointer array as actual argument at (1) cannot correspond to actual argument at (2)
+/Users/xavier/Documents/dev/generaldrugs/dft/.tools/src/qe-7.6/PP/src/projections_mod.f90:581:69:
+
+  581 |                         v(1,ir), ldv, w(1,ic), ldw, (0.0_dp,0.0_dp), work, nx )
+      |                                                                     1
+......
+  726 |                           swfc(1,ir), npwx, ovr, nx, beta, wfc(1,ic), npwx )
+      |                                                           2          
+Warning: Rank mismatch between actual argument at (1) and actual argument at (2) (scalar and rank-2)
+[100%] Building Fortran object PP/CMakeFiles/qe_pp.dir/src/projwfc_box.f90.o
+[100%] Building Fortran object PP/CMakeFiles/qe_pp.dir/src/read_proj.f90.o
+[100%] Building Fortran object PP/CMakeFiles/qe_pp.dir/src/vasp_read_chgcar_mod.f90.o
+[100%] Building Fortran object PP/CMakeFiles/qe_pp.dir/src/xc_vdW_scale_mod.f90.o
+[100%] Building Fortran object PP/CMakeFiles/qe_pp.dir/src/addusdens1d.f90.o
+[100%] Building Fortran object PP/CMakeFiles/qe_pp.dir/src/add_shift_cc.f90.o
+[100%] Building Fortran object PP/CMakeFiles/qe_pp.dir/src/add_shift_lc.f90.o
+[100%] Building Fortran object PP/CMakeFiles/qe_pp.dir/src/add_shift_us.f90.o
+[100%] Building Fortran object PP/CMakeFiles/qe_pp.dir/src/chdens_bspline.f90.o
+[100%] Building Fortran object PP/CMakeFiles/qe_pp.dir/src/chdens_bspline_sphere.f90.o
+[100%] Building Fortran object PP/CMakeFiles/qe_pp.dir/src/compute_ppsi.f90.o
+[100%] Building Fortran object PP/CMakeFiles/qe_pp.dir/src/compute_sigma_avg.f90.o
+[100%] Building Fortran object PP/CMakeFiles/qe_pp.dir/src/cube.f90.o
+[100%] Building Fortran object PP/CMakeFiles/qe_pp.dir/src/dosg.f90.o
+[100%] Building Fortran object PP/CMakeFiles/qe_pp.dir/src/do_initial_state.f90.o
+[100%] Building Fortran object PP/CMakeFiles/qe_pp.dir/src/do_shift_ew.f90.o
+[100%] Building Fortran object PP/CMakeFiles/qe_pp.dir/src/d_matrix_nc.f90.o
+[100%] Building Fortran object PP/CMakeFiles/qe_pp.dir/src/d_matrix_so.f90.o
+[100%] Building Fortran object PP/CMakeFiles/qe_pp.dir/src/elf.f90.o
+[100%] Building Fortran object PP/CMakeFiles/qe_pp.dir/src/ggen1d.f90.o
+[100%] Building Fortran object PP/CMakeFiles/qe_pp.dir/src/local_dos.f90.o
+[100%] Building Fortran object PP/CMakeFiles/qe_pp.dir/src/local_dos_mag.f90.o
+[100%] Building Fortran object PP/CMakeFiles/qe_pp.dir/src/local_dos1d.f90.o
+[100%] Building Fortran object PP/CMakeFiles/qe_pp.dir/src/openfil_pp.f90.o
+[100%] Building Fortran object PP/CMakeFiles/qe_pp.dir/src/punch_rism.f90.o
+[100%] Building Fortran object PP/CMakeFiles/qe_pp.dir/src/smallgk.f90.o
+[100%] Building Fortran object PP/CMakeFiles/qe_pp.dir/src/stm.f90.o
+[100%] Building Fortran object PP/CMakeFiles/qe_pp.dir/src/stop_pp.f90.o
+[100%] Building Fortran object PP/CMakeFiles/qe_pp.dir/src/sum_band_kin.f90.o
+[100%] Building Fortran object PP/CMakeFiles/qe_pp.dir/src/sym_band.f90.o
+[100%] Building Fortran object PP/CMakeFiles/qe_pp.dir/src/wannier_proj.f90.o
+[100%] Building Fortran object PP/CMakeFiles/qe_pp.dir/src/wannier_enrg.f90.o
+[100%] Building Fortran object PP/CMakeFiles/qe_pp.dir/src/work_function.f90.o
+[100%] Building Fortran object PP/CMakeFiles/qe_pp.dir/src/write_p_avg.f90.o
+[100%] Building Fortran object PP/CMakeFiles/qe_pp.dir/src/write_io_header.f90.o
+[100%] Building Fortran object PP/CMakeFiles/qe_pp.dir/src/write_hamiltonians.f90.o
+[100%] Building Fortran object PP/CMakeFiles/qe_pp.dir/src/partialdos.f90.o
+[100%] Building Fortran object PP/CMakeFiles/qe_pp.dir/src/hubbard_projectors.f90.o
+[100%] Building Fortran object PP/CMakeFiles/qe_pp.dir/src/punch_plot.f90.o
+[100%] Building Fortran object PP/CMakeFiles/qe_pp.dir/src/chdens_module.f90.o
+[100%] Building Fortran object PP/CMakeFiles/qe_pp.dir/src/vasp_xml_module.f90.o
+[100%] Building Fortran object PP/CMakeFiles/qe_pp.dir/src/solvdens.f90.o
+[100%] Linking Fortran static library ../lib/libqe_pp.a
+[100%] Built target qe_pp
+[100%] Building Fortran object PP/CMakeFiles/qe_pp_exe.dir/src/postproc.f90.o
+/Users/xavier/Documents/dev/generaldrugs/dft/.tools/src/qe-7.6/PP/src/postproc.f90:248:24:
+
+  236 |         emin, degauss_ldos, kpoint, kband, spin_component, lsign)
+      |                            2
+......
+  248 |             emin, emax, ikpt, ibnd, ispin, lsign)
+      |                        1
+Warning: Rank mismatch between actual argument at (1) and actual argument at (2) (rank-1 and scalar)
+/Users/xavier/Documents/dev/generaldrugs/dft/.tools/src/qe-7.6/PP/src/postproc.f90:248:30:
+
+  236 |         emin, degauss_ldos, kpoint, kband, spin_component, lsign)
+      |                                    2
+......
+  248 |             emin, emax, ikpt, ibnd, ispin, lsign)
+      |                              1
+Warning: Rank mismatch between actual argument at (1) and actual argument at (2) (rank-1 and scalar)
+/Users/xavier/Documents/dev/generaldrugs/dft/.tools/src/qe-7.6/PP/src/postproc.f90:248:36:
+
+  236 |         emin, degauss_ldos, kpoint, kband, spin_component, lsign)
+      |                                           2
+......
+  248 |             emin, emax, ikpt, ibnd, ispin, lsign)
+      |                                    1
+Warning: Rank mismatch between actual argument at (1) and actual argument at (2) (rank-1 and scalar)
+/Users/xavier/Documents/dev/generaldrugs/dft/.tools/src/qe-7.6/PP/src/postproc.f90:261:38:
+
+  236 |         emin, degauss_ldos, kpoint, kband, spin_component, lsign)
+      |                            2          
+......
+  261 |                           emin, emax, ikpt, ibnd, ispin, lsign )
+      |                                      1
+Warning: Rank mismatch between actual argument at (1) and actual argument at (2) (rank-1 and scalar)
+/Users/xavier/Documents/dev/generaldrugs/dft/.tools/src/qe-7.6/PP/src/postproc.f90:261:44:
+
+  236 |         emin, degauss_ldos, kpoint, kband, spin_component, lsign)
+      |                                    2        
+......
+  261 |                           emin, emax, ikpt, ibnd, ispin, lsign )
+      |                                            1
+Warning: Rank mismatch between actual argument at (1) and actual argument at (2) (rank-1 and scalar)
+/Users/xavier/Documents/dev/generaldrugs/dft/.tools/src/qe-7.6/PP/src/postproc.f90:261:50:
+
+  236 |         emin, degauss_ldos, kpoint, kband, spin_component, lsign)
+      |                                           2       
+......
+  261 |                           emin, emax, ikpt, ibnd, ispin, lsign )
+      |                                                  1
+Warning: Rank mismatch between actual argument at (1) and actual argument at (2) (rank-1 and scalar)
+/Users/xavier/Documents/dev/generaldrugs/dft/.tools/src/qe-7.6/PP/src/postproc.f90:266:38:
+
+  236 |         emin, degauss_ldos, kpoint, kband, spin_component, lsign)
+      |                            2          
+......
+  266 |                           emin, emax, ikpt, ibnd, ispin, lsign )
+      |                                      1
+Warning: Rank mismatch between actual argument at (1) and actual argument at (2) (rank-1 and scalar)
+/Users/xavier/Documents/dev/generaldrugs/dft/.tools/src/qe-7.6/PP/src/postproc.f90:266:44:
+
+  236 |         emin, degauss_ldos, kpoint, kband, spin_component, lsign)
+      |                                    2        
+......
+  266 |                           emin, emax, ikpt, ibnd, ispin, lsign )
+      |                                            1
+Warning: Rank mismatch between actual argument at (1) and actual argument at (2) (rank-1 and scalar)
+/Users/xavier/Documents/dev/generaldrugs/dft/.tools/src/qe-7.6/PP/src/postproc.f90:266:50:
+
+  236 |         emin, degauss_ldos, kpoint, kband, spin_component, lsign)
+      |                                           2       
+......
+  266 |                           emin, emax, ikpt, ibnd, ispin, lsign )
+      |                                                  1
+Warning: Rank mismatch between actual argument at (1) and actual argument at (2) (rank-1 and scalar)
+/Users/xavier/Documents/dev/generaldrugs/dft/.tools/src/qe-7.6/PP/src/postproc.f90:270:38:
+
+  236 |         emin, degauss_ldos, kpoint, kband, spin_component, lsign)
+      |                            2          
+......
+  270 |                           emin, emax, ikpt, ibnd, spin_component, lsign )
+      |                                      1
+Warning: Rank mismatch between actual argument at (1) and actual argument at (2) (rank-1 and scalar)
+/Users/xavier/Documents/dev/generaldrugs/dft/.tools/src/qe-7.6/PP/src/postproc.f90:270:44:
+
+  236 |         emin, degauss_ldos, kpoint, kband, spin_component, lsign)
+      |                                    2        
+......
+  270 |                           emin, emax, ikpt, ibnd, spin_component, lsign )
+      |                                            1
+Warning: Rank mismatch between actual argument at (1) and actual argument at (2) (rank-1 and scalar)
+[100%] Linking Fortran executable ../bin/pp.x
+ld: warning: duplicate -rpath '/opt/homebrew/Cellar/gcc/16.2.0/lib/gcc/current' ignored
+ld: warning: ignoring duplicate libraries: '../lib/libqe_fftx.a', '../lib/libqe_modules.a', '../lib/libqe_pw.a', '../lib/libqe_upflib.a', '../lib/libqe_xclib.a'
+[100%] Built target qe_pp_exe
+[  0%] Built target qe_device_lapack
+[  0%] Built target qe_xml
+[  0%] Built target qe_fftx_c
+[  0%] Built target qe_devxlib
+[  2%] Built target mbd
+[  5%] Built target qe_utilx_c
+[  8%] Built target qe_ks_headers
+[  8%] Built target qe_libbeef
+[  8%] Built target qe_lax_headers
+[  8%] Built target qe_modules_c
+[  8%] Built target qe_utilx
+[  8%] Built target qe_dftd3
+[ 13%] Built target qe_lax
+[ 13%] Built target qe_fftx
+[ 16%] Built target qe_xclib
+[ 16%] Built target qe_kssolver_rmmdiis
+[ 16%] Built target qe_kssolver_cg
+[ 16%] Built target qe_kssolver_dense
+[ 22%] Built target qe_kssolver_davidson
+[ 27%] Built target qe_upflib
+[ 30%] Built target qe_kssolver_direct
+[ 30%] Built target qe_kssolver_paro
+[ 30%] Built target gitrev
+[ 58%] Built target qe_modules
+[ 91%] Built target qe_pw
+[100%] Built target qe_pp
+[100%] Building Fortran object PP/CMakeFiles/qe_pp_bands_exe.dir/src/bands.f90.o
+[100%] Linking Fortran executable ../bin/bands.x
+ld: warning: duplicate -rpath '/opt/homebrew/Cellar/gcc/16.2.0/lib/gcc/current' ignored
+ld: warning: ignoring duplicate libraries: '../lib/libqe_modules.a', '../lib/libqe_pw.a', '../lib/libqe_upflib.a'
+[100%] Built target qe_pp_bands_exe
+[  2%] Built target qe_xml
+[  2%] Built target qe_fftx_c
+[  2%] Built target qe_devxlib
+[  2%] Built target qe_device_lapack
+[  5%] Built target mbd
+[  5%] Built target qe_utilx_c
+[  5%] Built target qe_lax_headers
+[  5%] Built target qe_ks_headers
+[  5%] Built target qe_libbeef
+[  5%] Built target qe_modules_c
+[ 13%] Built target qe_xclib
+[ 13%] Built target qe_fftx
+[ 13%] Built target qe_utilx
+[ 13%] Built target qe_dftd3
+[ 16%] Built target qe_lax
+[ 25%] Built target qe_upflib
+[ 25%] Built target qe_kssolver_direct
+[ 25%] Built target qe_kssolver_dense
+[ 27%] Built target qe_kssolver_rmmdiis
+[ 27%] Built target qe_kssolver_cg
+[ 27%] Built target qe_kssolver_davidson
+[ 30%] Built target qe_kssolver_paro
+[ 30%] Built target gitrev
+[ 58%] Built target qe_modules
+[ 91%] Built target qe_pw
+[100%] Built target qe_pp
+[100%] Building Fortran object PP/CMakeFiles/qe_pp_dos_exe.dir/src/dos.f90.o
+[100%] Linking Fortran executable ../bin/dos.x
+ld: warning: duplicate -rpath '/opt/homebrew/Cellar/gcc/16.2.0/lib/gcc/current' ignored
+ld: warning: ignoring duplicate libraries: '../lib/libqe_modules.a', '../lib/libqe_pw.a'
+[100%] Built target qe_pp_dos_exe
+[  0%] Built target qe_xml
+[  0%] Built target qe_devxlib
+[  0%] Built target qe_device_lapack
+[  5%] Built target mbd
+[  5%] Built target qe_fftx_c
+[  5%] Built target qe_utilx_c
+[  5%] Built target qe_ks_headers
+[  5%] Built target qe_lax_headers
+[  5%] Built target qe_modules_c
+[  5%] Built target qe_libbeef
+[ 13%] Built target qe_utilx
+[ 13%] Built target qe_fftx
+[ 13%] Built target qe_xclib
+[ 13%] Built target qe_dftd3
+[ 16%] Built target qe_lax
+[ 24%] Built target qe_upflib
+[ 24%] Built target qe_kssolver_rmmdiis
+[ 24%] Built target qe_kssolver_dense
+[ 27%] Built target qe_kssolver_cg
+[ 27%] Built target qe_kssolver_direct
+[ 27%] Built target qe_kssolver_davidson
+[ 29%] Built target qe_kssolver_paro
+[ 29%] Built target gitrev
+[ 56%] Built target qe_modules
+[ 89%] Built target qe_pw
+[ 97%] Built target qe_pp
+[ 97%] Building Fortran object PP/CMakeFiles/qe_pp_projwfc_exe.dir/src/projwfc.f90.o
+[ 97%] Building Fortran object PP/CMakeFiles/qe_pp_projwfc_exe.dir/src/write_proj.f90.o
+/Users/xavier/Documents/dev/generaldrugs/dft/.tools/src/qe-7.6/PP/src/projwfc.f90:1157:20:
+
+ 1099 |   CALL poolrecover (et,       nbnd, nkstot, nks)
+      |                    2
+......
+ 1157 |   CALL poolrecover (proj_aux, 2 * nbnd * natomwfc, nkstot, nks)
+      |                    1
+Warning: Type mismatch between actual argument at (1) and actual argument at (2) (COMPLEX(8)/REAL(8)).
+[100%] Linking Fortran executable ../bin/projwfc.x
+ld: warning: duplicate -rpath '/opt/homebrew/Cellar/gcc/16.2.0/lib/gcc/current' ignored
+ld: warning: ignoring duplicate libraries: '../lib/libqe_fftx.a', '../lib/libqe_lax.a', '../lib/libqe_modules.a', '../lib/libqe_pw.a', '../lib/libqe_upflib.a'
+[100%] Built target qe_pp_projwfc_exe
+[  0%] Built target qe_xml
+[  0%] Built target qe_device_lapack
+[  4%] Built target qe_fftx_c
+[  4%] Built target qe_devxlib
+[  4%] Built target qe_utilx_c
+[  4%] Built target mbd
+[  4%] Built target qe_ks_headers
+[  4%] Built target qe_lax_headers
+[  4%] Built target qe_modules_c
+[  4%] Built target qe_libbeef
+[ 11%] Built target qe_fftx
+[ 11%] Built target qe_xclib
+[ 11%] Built target qe_utilx
+[ 11%] Built target qe_dftd3
+[ 13%] Built target qe_lax
+[ 20%] Built target qe_upflib
+[ 20%] Built target qe_kssolver_direct
+[ 20%] Built target qe_kssolver_rmmdiis
+[ 22%] Built target qe_kssolver_cg
+[ 22%] Built target qe_kssolver_dense
+[ 22%] Built target qe_kssolver_davidson
+[ 24%] Built target qe_kssolver_paro
+[ 24%] Built target gitrev
+[ 46%] Built target qe_modules
+[ 73%] Built target qe_pw
+[ 73%] Building Fortran object LR_Modules/CMakeFiles/qe_lr_modules.dir/apply_dpot_mod.f90.o
+[ 73%] Building Fortran object LR_Modules/CMakeFiles/qe_lr_modules.dir/dynmat_sub.f90.o
+[ 73%] Building Fortran object LR_Modules/CMakeFiles/qe_lr_modules.dir/apply_dpot.f90.o
+[ 73%] Building Fortran object LR_Modules/CMakeFiles/qe_lr_modules.dir/non_scf_ph.f90.o
+[ 73%] Building Fortran object LR_Modules/CMakeFiles/qe_lr_modules.dir/lrcom.f90.o
+[ 73%] Building Fortran object LR_Modules/CMakeFiles/qe_lr_modules.dir/apply_trev.f90.o
+[ 73%] Building Fortran object LR_Modules/CMakeFiles/qe_lr_modules.dir/addusldos.f90.o
+[ 73%] Building Fortran object LR_Modules/CMakeFiles/qe_lr_modules.dir/cg_psi.f90.o
+[ 73%] Building Fortran object LR_Modules/CMakeFiles/qe_lr_modules.dir/check_q_points_sym.f90.o
+[ 73%] Building Fortran object LR_Modules/CMakeFiles/qe_lr_modules.dir/compute_vsgga.f90.o
+[ 73%] Building Fortran object LR_Modules/CMakeFiles/qe_lr_modules.dir/set_dbecsum_nc.f90.o
+[ 73%] Building Fortran object LR_Modules/CMakeFiles/qe_lr_modules.dir/sgam_lr.f90.o
+[ 73%] Building Fortran object LR_Modules/CMakeFiles/qe_lr_modules.dir/star_q.f90.o
+[ 73%] Building Fortran object LR_Modules/CMakeFiles/qe_lr_modules.dir/setqmod.f90.o
+[ 73%] Building Fortran object LR_Modules/CMakeFiles/qe_lr_modules.dir/mode_group.f90.o
+[ 73%] Building Fortran object LR_Modules/CMakeFiles/qe_lr_modules.dir/mix_pot.f90.o
+[ 73%] Building Fortran object LR_Modules/CMakeFiles/qe_lr_modules.dir/lanczos_pseudohermitian.f90.o
+[ 73%] Building Fortran object LR_Modules/CMakeFiles/qe_lr_modules.dir/lanczos_nonhermitian.f90.o
+[ 73%] Building Fortran object LR_Modules/CMakeFiles/qe_lr_modules.dir/lanczos_pseudohermitian_c.f90.o
+[ 73%] Building Fortran object LR_Modules/CMakeFiles/qe_lr_modules.dir/lanczos_nonhermitian_c.f90.o
+[ 73%] Building Fortran object LR_Modules/CMakeFiles/qe_lr_modules.dir/set_kplusq_nc.f90.o
+[ 73%] Building Fortran object LR_Modules/CMakeFiles/qe_lr_modules.dir/ccg_psi.f90.o
+[ 73%] Building Fortran object LR_Modules/CMakeFiles/qe_lr_modules.dir/dfpt_type.f90.o
+[ 73%] Building Fortran object LR_Modules/CMakeFiles/qe_lr_modules.dir/dv_rVV10.f90.o
+[ 73%] Building Fortran object LR_Modules/CMakeFiles/qe_lr_modules.dir/dv_vdW_DF.f90.o
+[ 75%] Building Fortran object LR_Modules/CMakeFiles/qe_lr_modules.dir/lr_sym_mod.f90.o
+[ 75%] Building Fortran object LR_Modules/CMakeFiles/qe_lr_modules.dir/c_bands_ph.f90.o
+[ 75%] Building Fortran object LR_Modules/CMakeFiles/qe_lr_modules.dir/adddvepsi_us.f90.o
+[ 75%] Building Fortran object LR_Modules/CMakeFiles/qe_lr_modules.dir/cgsolve_all.f90.o
+[ 75%] Building Fortran object LR_Modules/CMakeFiles/qe_lr_modules.dir/dgradcorr.f90.o
+[ 75%] Building Fortran object LR_Modules/CMakeFiles/qe_lr_modules.dir/orthogonalize_omega.f90.o
+[ 75%] Building Fortran object LR_Modules/CMakeFiles/qe_lr_modules.dir/setup_nscf.f90.o
+[ 75%] Building Fortran object LR_Modules/CMakeFiles/qe_lr_modules.dir/set_int3_nc.f90.o
+[ 75%] Building Fortran object LR_Modules/CMakeFiles/qe_lr_modules.dir/smallgq.f90.o
+[ 75%] Building Fortran object LR_Modules/CMakeFiles/qe_lr_modules.dir/setup_dgc.f90.o
+[ 75%] Building Fortran object LR_Modules/CMakeFiles/qe_lr_modules.dir/setup_dmuxc.f90.o
+[ 77%] Building Fortran object LR_Modules/CMakeFiles/qe_lr_modules.dir/setup_nbnd_occ.f90.o
+[ 77%] Building Fortran object LR_Modules/CMakeFiles/qe_lr_modules.dir/qdipol_cryst.f90.o
+[ 77%] Building Fortran object LR_Modules/CMakeFiles/qe_lr_modules.dir/sym_def.f90.o
+[ 77%] Building Fortran object LR_Modules/CMakeFiles/qe_lr_modules.dir/psymdvscf.f90.o
+[ 77%] Building Fortran object LR_Modules/CMakeFiles/qe_lr_modules.dir/symdvscf.f90.o
+[ 77%] Building Fortran object LR_Modules/CMakeFiles/qe_lr_modules.dir/sym_dmag.f90.o
+[ 77%] Building Fortran object LR_Modules/CMakeFiles/qe_lr_modules.dir/ccgsolve_all.f90.o
+[ 77%] Building Fortran object LR_Modules/CMakeFiles/qe_lr_modules.dir/qpoint.f90.o
+[ 77%] Building Fortran object LR_Modules/CMakeFiles/qe_lr_modules.dir/lr_nc_mag.f90.o
+[ 77%] Building Fortran object LR_Modules/CMakeFiles/qe_lr_modules.dir/lr_restart.f90.o
+[ 77%] Building Fortran object LR_Modules/CMakeFiles/qe_lr_modules.dir/dnonloccorr.f90.o
+[ 80%] Building Fortran object LR_Modules/CMakeFiles/qe_lr_modules.dir/dfpt_tetra_mod.f90.o
+[ 80%] Building Fortran object LR_Modules/CMakeFiles/qe_lr_modules.dir/Coul_cut_2D_ph.f90.o
+[ 80%] Building Fortran object LR_Modules/CMakeFiles/qe_lr_modules.dir/incdrhoscf_mod.f90.o
+[ 80%] Building Fortran object LR_Modules/CMakeFiles/qe_lr_modules.dir/adddvscf.f90.o
+[ 80%] Building Fortran object LR_Modules/CMakeFiles/qe_lr_modules.dir/adddvhubscf.f90.o
+[ 82%] Building Fortran object LR_Modules/CMakeFiles/qe_lr_modules.dir/addusdbec.f90.o
+[ 82%] Building Fortran object LR_Modules/CMakeFiles/qe_lr_modules.dir/addusdbec_nc.f90.o
+[ 82%] Building Fortran object LR_Modules/CMakeFiles/qe_lr_modules.dir/cft_wave.f90.o
+[ 82%] Building Fortran object LR_Modules/CMakeFiles/qe_lr_modules.dir/ch_psi_all.f90.o
+[ 82%] Building Fortran object LR_Modules/CMakeFiles/qe_lr_modules.dir/h_prec.f90.o
+[ 82%] Building Fortran object LR_Modules/CMakeFiles/qe_lr_modules.dir/h_prec_freq.f90.o
+[ 82%] Building Fortran object LR_Modules/CMakeFiles/qe_lr_modules.dir/newdq.f90.o
+[ 82%] Building Fortran object LR_Modules/CMakeFiles/qe_lr_modules.dir/lr_sm1_psi.f90.o
+[ 82%] Building Fortran object LR_Modules/CMakeFiles/qe_lr_modules.dir/lr_addusddens.f90.o
+[ 82%] Building Fortran object LR_Modules/CMakeFiles/qe_lr_modules.dir/set_small_group_of_q.f90.o
+[ 82%] Building Fortran object LR_Modules/CMakeFiles/qe_lr_modules.dir/lr_orthoUwfc.f90.o
+[ 82%] Building Fortran object LR_Modules/CMakeFiles/qe_lr_modules.dir/lr_dot.f90.o
+[ 82%] Building Fortran object LR_Modules/CMakeFiles/qe_lr_modules.dir/lr_dot_magnons.f90.o
+[ 82%] Building Fortran object LR_Modules/CMakeFiles/qe_lr_modules.dir/lr_sym_paw.f90.o
+[ 82%] Building Fortran object LR_Modules/CMakeFiles/qe_lr_modules.dir/sym_dns.f90.o
+[ 82%] Building Fortran object LR_Modules/CMakeFiles/qe_lr_modules.dir/ch_psi_all_complex.f90.o
+[ 82%] Building Fortran object LR_Modules/CMakeFiles/qe_lr_modules.dir/dv_of_drho.f90.o
+[ 82%] Building Fortran object LR_Modules/CMakeFiles/qe_lr_modules.dir/response_kernels.f90.o
+[ 82%] Building Fortran object LR_Modules/CMakeFiles/qe_lr_modules.dir/setup_alpha_pv.f90.o
+[ 82%] Building Fortran object LR_Modules/CMakeFiles/qe_lr_modules.dir/orthogonalize.f90.o
+[ 82%] Building Fortran object LR_Modules/CMakeFiles/qe_lr_modules.dir/localdos.f90.o
+[ 82%] Building Fortran object LR_Modules/CMakeFiles/qe_lr_modules.dir/efermi_shift.f90.o
+[ 82%] Building Fortran object LR_Modules/CMakeFiles/qe_lr_modules.dir/lr_two_chem.f90.o
+[ 82%] Building Fortran object LR_Modules/CMakeFiles/qe_lr_modules.dir/twochem_postproc_dfpt.f90.o
+[ 82%] Building Fortran object LR_Modules/CMakeFiles/qe_lr_modules.dir/dnsq_scf.f90.o
+[ 82%] Building Fortran object LR_Modules/CMakeFiles/qe_lr_modules.dir/dfpt_kernels.f90.o
+[ 82%] Linking Fortran static library ../lib/libqe_lr_modules.a
+[ 82%] Built target qe_lr_modules
+[ 82%] Building Fortran object PHonon/CMakeFiles/qe_phonon_ph.dir/PH/io_dyn_mat.f90.o
+[ 82%] Building Fortran object PHonon/CMakeFiles/qe_phonon_ph.dir/PH/acfdtest.f90.o
+[ 82%] Building Fortran object PHonon/CMakeFiles/qe_phonon_ph.dir/PH/elph.f90.o
+[ 82%] Building Fortran object PHonon/CMakeFiles/qe_phonon_ph.dir/PH/phcom.f90.o
+[ 82%] Building Fortran object PHonon/CMakeFiles/qe_phonon_ph.dir/PH/io_dyn_mat_old.f90.o
+[ 82%] Building Fortran object PHonon/CMakeFiles/qe_phonon_ph.dir/PH/dfile_autoname.f90.o
+[ 82%] Building Fortran object PHonon/CMakeFiles/qe_phonon_ph.dir/PH/ramanm.f90.o
+[ 82%] Building Fortran object PHonon/CMakeFiles/qe_phonon_ph.dir/PH/rigid.f90.o
+[ 82%] Building Fortran object PHonon/CMakeFiles/qe_phonon_ph.dir/PH/add_for_charges.f90.o
+[ 82%] Building Fortran object PHonon/CMakeFiles/qe_phonon_ph.dir/PH/cch_psi_all.f90.o
+[ 82%] Building Fortran object PHonon/CMakeFiles/qe_phonon_ph.dir/PH/check_restart_recover.f90.o
+[ 82%] Building Fortran object PHonon/CMakeFiles/qe_phonon_ph.dir/PH/clinear.f90.o
+[ 82%] Building Fortran object PHonon/CMakeFiles/qe_phonon_ph.dir/PH/compute_becalp.f90.o
+[ 82%] Building Fortran object PHonon/CMakeFiles/qe_phonon_ph.dir/PH/compute_drhous_nc.f90.o
+[ 82%] Building Fortran object PHonon/CMakeFiles/qe_phonon_ph.dir/PH/compute_weight.f90.o
+[ 82%] Building Fortran object PHonon/CMakeFiles/qe_phonon_ph.dir/PH/davcio_drho.f90.o
+[ 82%] Building Fortran object PHonon/CMakeFiles/qe_phonon_ph.dir/PH/dwfc.f90.o
+[ 82%] Building Fortran object PHonon/CMakeFiles/qe_phonon_ph.dir/PH/delta_sphi.f90.o
+[ 82%] Building Fortran object PHonon/CMakeFiles/qe_phonon_ph.dir/PH/el_ph_collect.f90.o
+[ 82%] Building Fortran object PHonon/CMakeFiles/qe_phonon_ph.dir/PH/find_equiv_sites.f90.o
+[ 82%] Building Fortran object PHonon/CMakeFiles/qe_phonon_ph.dir/PH/find_mode_sym.f90.o
+[ 82%] Building Fortran object PHonon/CMakeFiles/qe_phonon_ph.dir/PH/generate_dynamical_matrix_c.f90.o
+[ 82%] Building Fortran object PHonon/CMakeFiles/qe_phonon_ph.dir/PH/generate_effective_charges_c.f90.o
+[ 82%] Building Fortran object PHonon/CMakeFiles/qe_phonon_ph.dir/PH/gmressolve_all.f90.o
+[ 82%] Building Fortran object PHonon/CMakeFiles/qe_phonon_ph.dir/PH/initialize_ph.f90.o
+[ 82%] Building Fortran object PHonon/CMakeFiles/qe_phonon_ph.dir/PH/obsolete.f90.o
+[ 82%] Building Fortran object PHonon/CMakeFiles/qe_phonon_ph.dir/PH/prepare_sym_analysis.f90.o
+[ 82%] Building Fortran object PHonon/CMakeFiles/qe_phonon_ph.dir/PH/random_matrix.f90.o
+[ 82%] Building Fortran object PHonon/CMakeFiles/qe_phonon_ph.dir/PH/rotate_and_add_dyn.f90.o
+[ 82%] Building Fortran object PHonon/CMakeFiles/qe_phonon_ph.dir/PH/rotate_pattern_add.f90.o
+[ 82%] Building Fortran object PHonon/CMakeFiles/qe_phonon_ph.dir/PH/set_asr_c.f90.o
+[ 82%] Building Fortran object PHonon/CMakeFiles/qe_phonon_ph.dir/PH/set_drhoc.f90.o
+[ 84%] Building Fortran object PHonon/CMakeFiles/qe_phonon_ph.dir/PH/setlocq.f90.o
+[ 84%] Building Fortran object PHonon/CMakeFiles/qe_phonon_ph.dir/PH/symdyn_munu.f90.o
+[ 84%] Building Fortran object PHonon/CMakeFiles/qe_phonon_ph.dir/PH/symdynph_gq.f90.o
+[ 84%] Building Fortran object PHonon/CMakeFiles/qe_phonon_ph.dir/PH/symm.f90.o
+[ 84%] Building Fortran object PHonon/CMakeFiles/qe_phonon_ph.dir/PH/symmorphic_or_nzb.f90.o
+[ 84%] Building Fortran object PHonon/CMakeFiles/qe_phonon_ph.dir/PH/swfc.f90.o
+[ 84%] Building Fortran object PHonon/CMakeFiles/qe_phonon_ph.dir/PH/tra_write_matrix.f90.o
+[ 84%] Building Fortran object PHonon/CMakeFiles/qe_phonon_ph.dir/PH/trntnsc.f90.o
+[ 86%] Building Fortran object PHonon/CMakeFiles/qe_phonon_ph.dir/PH/write_matrix.f90.o
+[ 86%] Building Fortran object PHonon/CMakeFiles/qe_phonon_ph.dir/PH/psyme2.f90.o
+[ 86%] Building Fortran object PHonon/CMakeFiles/qe_phonon_ph.dir/PH/pcgreen.f90.o
+[ 86%] Building Fortran object PHonon/CMakeFiles/qe_phonon_ph.dir/PH/d2mxc.f90.o
+[ 86%] Building Fortran object PHonon/CMakeFiles/qe_phonon_ph.dir/PH/dvscf_interpolate.f90.o
+[ 86%] Building Fortran object PHonon/CMakeFiles/qe_phonon_ph.dir/PH/save_ph_input.f90.o
+[ 86%] Building Fortran object PHonon/CMakeFiles/qe_phonon_ph.dir/PH/write_hub.f90.o
+[ 86%] Building Fortran object PHonon/CMakeFiles/qe_phonon_ph.dir/PH/yambo.f90.o
+[ 86%] Building Fortran object PHonon/CMakeFiles/qe_phonon_ph.dir/PH/add_dkmds.f90.o
+[ 86%] Building Fortran object PHonon/CMakeFiles/qe_phonon_ph.dir/PH/add_zstar_ue.f90.o
+[ 86%] Building Fortran object PHonon/CMakeFiles/qe_phonon_ph.dir/PH/add_zstar_ue_us.f90.o
+[ 86%] Building Fortran object PHonon/CMakeFiles/qe_phonon_ph.dir/PH/addcore.f90.o
+[ 86%] Building Fortran object PHonon/CMakeFiles/qe_phonon_ph.dir/PH/dynmat_nlcc.f90.o
+[ 86%] Building Fortran object PHonon/CMakeFiles/qe_phonon_ph.dir/PH/addnlcc_zstar_eu_us.f90.o
+[ 86%] Building Fortran object PHonon/CMakeFiles/qe_phonon_ph.dir/PH/addusddens_pulay.f90.o
+[ 86%] Building Fortran object PHonon/CMakeFiles/qe_phonon_ph.dir/PH/addusdynmat.f90.o
+[ 86%] Building Fortran object PHonon/CMakeFiles/qe_phonon_ph.dir/PH/allocate_part.f90.o
+[ 86%] Building Fortran object PHonon/CMakeFiles/qe_phonon_ph.dir/PH/allocate_pert.f90.o
+[ 86%] Building Fortran object PHonon/CMakeFiles/qe_phonon_ph.dir/PH/allocate_phq.f90.o
+[ 86%] Building Fortran object PHonon/CMakeFiles/qe_phonon_ph.dir/PH/check_if_partial_dyn.f90.o
+[ 86%] Building Fortran object PHonon/CMakeFiles/qe_phonon_ph.dir/PH/compute_alphasum.f90.o
+[ 86%] Building Fortran object PHonon/CMakeFiles/qe_phonon_ph.dir/PH/compute_becsum_ph.f90.o
+[ 86%] Building Fortran object PHonon/CMakeFiles/qe_phonon_ph.dir/PH/compute_drhous.f90.o
+[ 86%] Building Fortran object PHonon/CMakeFiles/qe_phonon_ph.dir/PH/compute_dvloc.f90.o
+[ 86%] Building Fortran object PHonon/CMakeFiles/qe_phonon_ph.dir/PH/compute_nldyn.f90.o
+[ 86%] Building Fortran object PHonon/CMakeFiles/qe_phonon_ph.dir/PH/deallocate_part.f90.o
+[ 86%] Building Fortran object PHonon/CMakeFiles/qe_phonon_ph.dir/PH/d2ionq.f90.o
+[ 86%] Building Fortran object PHonon/CMakeFiles/qe_phonon_ph.dir/PH/deallocate_phq.f90.o
+[ 86%] Building Fortran object PHonon/CMakeFiles/qe_phonon_ph.dir/PH/dnsq_bare.f90.o
+[ 86%] Building Fortran object PHonon/CMakeFiles/qe_phonon_ph.dir/PH/dnsq_orth_set_irr.f90.o
+[ 88%] Building Fortran object PHonon/CMakeFiles/qe_phonon_ph.dir/PH/dnsq_store.f90.o
+[ 88%] Building Fortran object PHonon/CMakeFiles/qe_phonon_ph.dir/PH/do_q2r.f90.o
+[ 88%] Building Fortran object PHonon/CMakeFiles/qe_phonon_ph.dir/PH/drho.f90.o
+[ 88%] Building Fortran object PHonon/CMakeFiles/qe_phonon_ph.dir/PH/drhodv.f90.o
+[ 88%] Building Fortran object PHonon/CMakeFiles/qe_phonon_ph.dir/PH/drhodvloc.f90.o
+[ 88%] Building Fortran object PHonon/CMakeFiles/qe_phonon_ph.dir/PH/drhodvnl.f90.o
+[ 88%] Building Fortran object PHonon/CMakeFiles/qe_phonon_ph.dir/PH/drhodvus.f90.o
+[ 88%] Building Fortran object PHonon/CMakeFiles/qe_phonon_ph.dir/PH/dvanqq.f90.o
+[ 88%] Building Fortran object PHonon/CMakeFiles/qe_phonon_ph.dir/PH/dvkb3.f90.o
+[ 88%] Building Fortran object PHonon/CMakeFiles/qe_phonon_ph.dir/PH/dvpsi_e.f90.o
+[ 88%] Building Fortran object PHonon/CMakeFiles/qe_phonon_ph.dir/PH/dvqpsi_us.f90.o
+[ 88%] Building Fortran object PHonon/CMakeFiles/qe_phonon_ph.dir/PH/dvqpsi_us_only.f90.o
+[ 88%] Building Fortran object PHonon/CMakeFiles/qe_phonon_ph.dir/PH/dyndia.f90.o
+[ 88%] Building Fortran object PHonon/CMakeFiles/qe_phonon_ph.dir/PH/dynmat_us.f90.o
+[ 88%] Building Fortran object PHonon/CMakeFiles/qe_phonon_ph.dir/PH/dynmatcc.f90.o
+[ 88%] Building Fortran object PHonon/CMakeFiles/qe_phonon_ph.dir/PH/dynmat_hub_scf.f90.o
+[ 88%] Building Fortran object PHonon/CMakeFiles/qe_phonon_ph.dir/PH/dvqhub_barepsi_us.f90.o
+[ 88%] Building Fortran object PHonon/CMakeFiles/qe_phonon_ph.dir/PH/dvqhub_barepsi_us2.f90.o
+[ 88%] Building Fortran object PHonon/CMakeFiles/qe_phonon_ph.dir/PH/find_irrep.f90.o
+[ 91%] Building Fortran object PHonon/CMakeFiles/qe_phonon_ph.dir/PH/incdrhous.f90.o
+[ 91%] Building Fortran object PHonon/CMakeFiles/qe_phonon_ph.dir/PH/incdrhous_nc.f90.o
+[ 91%] Building Fortran object PHonon/CMakeFiles/qe_phonon_ph.dir/PH/io_pattern.f90.o
+[ 91%] Building Fortran object PHonon/CMakeFiles/qe_phonon_ph.dir/PH/ph_set_upert.f90.o
+[ 91%] Building Fortran object PHonon/CMakeFiles/qe_phonon_ph.dir/PH/phq_init.f90.o
+[ 91%] Building Fortran object PHonon/CMakeFiles/qe_phonon_ph.dir/PH/phq_summary.f90.o
+[ 91%] Building Fortran object PHonon/CMakeFiles/qe_phonon_ph.dir/PH/psidspsi.f90.o
+[ 91%] Building Fortran object PHonon/CMakeFiles/qe_phonon_ph.dir/PH/punch_plot_e.f90.o
+/Users/xavier/Documents/dev/generaldrugs/dft/.tools/src/qe-7.6/PHonon/PH/punch_plot_e.f90:122:65:
+
+   83 |              aux1 (1,1,ipol), 1)
+      |             2                                                    
+......
+  122 |      IF (lsda) CALL daxpy (dfftp%nnr, 1.d0, aux1 (1,2, ipol), 2, raux, 1)
+      |                                                                 1
+Warning: Type mismatch between actual argument at (1) and actual argument at (2) (REAL(8)/COMPLEX(8)).
+[ 91%] Building Fortran object PHonon/CMakeFiles/qe_phonon_ph.dir/PH/q2qstar_ph.f90.o
+[ 91%] Building Fortran object PHonon/CMakeFiles/qe_phonon_ph.dir/PH/set_int12_nc.f90.o
+[ 91%] Building Fortran object PHonon/CMakeFiles/qe_phonon_ph.dir/PH/set_irr.f90.o
+[ 91%] Building Fortran object PHonon/CMakeFiles/qe_phonon_ph.dir/PH/set_irr_nosym.f90.o
+[ 91%] Building Fortran object PHonon/CMakeFiles/qe_phonon_ph.dir/PH/set_irr_sym.f90.o
+[ 91%] Building Fortran object PHonon/CMakeFiles/qe_phonon_ph.dir/PH/solve_e_fpol.f90.o
+[ 91%] Building Fortran object PHonon/CMakeFiles/qe_phonon_ph.dir/PH/summarize.f90.o
+[ 91%] Building Fortran object PHonon/CMakeFiles/qe_phonon_ph.dir/PH/sym_dns_wrapper.f90.o
+[ 91%] Building Fortran object PHonon/CMakeFiles/qe_phonon_ph.dir/PH/transform_int_so.f90.o
+[ 91%] Building Fortran object PHonon/CMakeFiles/qe_phonon_ph.dir/PH/transform_int_nc.f90.o
+[ 91%] Building Fortran object PHonon/CMakeFiles/qe_phonon_ph.dir/PH/transform_alphasum_nc.f90.o
+[ 91%] Building Fortran object PHonon/CMakeFiles/qe_phonon_ph.dir/PH/transform_alphasum_so.f90.o
+[ 91%] Building Fortran object PHonon/CMakeFiles/qe_phonon_ph.dir/PH/write_epsilon_and_zeu.f90.o
+[ 91%] Building Fortran object PHonon/CMakeFiles/qe_phonon_ph.dir/PH/write_qplot_data.f90.o
+[ 91%] Building Fortran object PHonon/CMakeFiles/qe_phonon_ph.dir/PH/write_modes.f90.o
+[ 91%] Building Fortran object PHonon/CMakeFiles/qe_phonon_ph.dir/PH/zstar_eu_us.f90.o
+[ 91%] Building Fortran object PHonon/CMakeFiles/qe_phonon_ph.dir/PH/chi_test.f90.o
+[ 91%] Building Fortran object PHonon/CMakeFiles/qe_phonon_ph.dir/PH/dielec_test.f90.o
+[ 91%] Building Fortran object PHonon/CMakeFiles/qe_phonon_ph.dir/PH/dvpsi_e2.f90.o
+[ 91%] Building Fortran object PHonon/CMakeFiles/qe_phonon_ph.dir/PH/hdiag.f90.o
+[ 91%] Building Fortran object PHonon/CMakeFiles/qe_phonon_ph.dir/PH/syme2.f90.o
+[ 91%] Building Fortran object PHonon/CMakeFiles/qe_phonon_ph.dir/PH/solve_e_nscf.f90.o
+[ 91%] Building Fortran object PHonon/CMakeFiles/qe_phonon_ph.dir/PH/write_ramtns.f90.o
+[ 91%] Building Fortran object PHonon/CMakeFiles/qe_phonon_ph.dir/PH/raman_mat.f90.o
+[ 93%] Building Fortran object PHonon/CMakeFiles/qe_phonon_ph.dir/PH/dhdrhopsi.f90.o
+[ 93%] Building Fortran object PHonon/CMakeFiles/qe_phonon_ph.dir/PH/set_dvscf.f90.o
+[ 93%] Building Fortran object PHonon/CMakeFiles/qe_phonon_ph.dir/PH/ahc.f90.o
+[ 93%] Building Fortran object PHonon/CMakeFiles/qe_phonon_ph.dir/PH/d2nsq_bare.f90.o
+[ 93%] Building Fortran object PHonon/CMakeFiles/qe_phonon_ph.dir/PH/dfile_star.f90.o
+[ 93%] Building Fortran object PHonon/CMakeFiles/qe_phonon_ph.dir/PH/elph_scdft_mod.f90.o
+[ 93%] Building Fortran object PHonon/CMakeFiles/qe_phonon_ph.dir/PH/elph_tetra_mod.f90.o
+[ 93%] Building Fortran object PHonon/CMakeFiles/qe_phonon_ph.dir/PH/ph_restart.f90.o
+[ 93%] Building Fortran object PHonon/CMakeFiles/qe_phonon_ph.dir/PH/clean_pw_ph.f90.o
+[ 93%] Building Fortran object PHonon/CMakeFiles/qe_phonon_ph.dir/PH/d2ionq_disp.f90.o
+[ 93%] Building Fortran object PHonon/CMakeFiles/qe_phonon_ph.dir/PH/dump_drho.f90.o
+[ 93%] Building Fortran object PHonon/CMakeFiles/qe_phonon_ph.dir/PH/ep_matrix_element_wannier.f90.o
+[ 93%] Building Fortran object PHonon/CMakeFiles/qe_phonon_ph.dir/PH/openfilq.f90.o
+[ 93%] Building Fortran object PHonon/CMakeFiles/qe_phonon_ph.dir/PH/print_clock_ph.f90.o
+[ 93%] Building Fortran object PHonon/CMakeFiles/qe_phonon_ph.dir/PH/q_points_wannier.f90.o
+[ 93%] Building Fortran object PHonon/CMakeFiles/qe_phonon_ph.dir/PH/read_wfc_rspace_and_fwfft.f90.o
+[ 93%] Building Fortran object PHonon/CMakeFiles/qe_phonon_ph.dir/PH/rotate_dvscf_star.f90.o
+[ 93%] Building Fortran object PHonon/CMakeFiles/qe_phonon_ph.dir/PH/run_nscf.f90.o
+[ 95%] Building Fortran object PHonon/CMakeFiles/qe_phonon_ph.dir/PH/dielec.f90.o
+[ 95%] Building Fortran object PHonon/CMakeFiles/qe_phonon_ph.dir/PH/write_rec.f90.o
+[ 95%] Building Fortran object PHonon/CMakeFiles/qe_phonon_ph.dir/PH/check_initial_status.f90.o
+[ 95%] Building Fortran object PHonon/CMakeFiles/qe_phonon_ph.dir/PH/dynmat0.f90.o
+[ 97%] Building Fortran object PHonon/CMakeFiles/qe_phonon_ph.dir/PH/dynmatrix.f90.o
+[ 97%] Building Fortran object PHonon/CMakeFiles/qe_phonon_ph.dir/PH/init_representations.f90.o
+[ 97%] Building Fortran object PHonon/CMakeFiles/qe_phonon_ph.dir/PH/phescf.f90.o
+[ 97%] Building Fortran object PHonon/CMakeFiles/qe_phonon_ph.dir/PH/phq_recover.f90.o
+[ 97%] Building Fortran object PHonon/CMakeFiles/qe_phonon_ph.dir/PH/polariz.f90.o
+[100%] Building Fortran object PHonon/CMakeFiles/qe_phonon_ph.dir/PH/prepare_q.f90.o
+[100%] Building Fortran object PHonon/CMakeFiles/qe_phonon_ph.dir/PH/stop_ph.f90.o
+[100%] Building Fortran object PHonon/CMakeFiles/qe_phonon_ph.dir/PH/sym_and_write_zue.f90.o
+[100%] Building Fortran object PHonon/CMakeFiles/qe_phonon_ph.dir/PH/zstar_eu.f90.o
+[100%] Building Fortran object PHonon/CMakeFiles/qe_phonon_ph.dir/PH/el_opt.f90.o
+[100%] Building Fortran object PHonon/CMakeFiles/qe_phonon_ph.dir/PH/raman.f90.o
+[100%] Building Fortran object PHonon/CMakeFiles/qe_phonon_ph.dir/PH/close_phq.f90.o
+[100%] Building Fortran object PHonon/CMakeFiles/qe_phonon_ph.dir/PH/phqscf.f90.o
+[100%] Building Fortran object PHonon/CMakeFiles/qe_phonon_ph.dir/PH/solve_e.f90.o
+[100%] Building Fortran object PHonon/CMakeFiles/qe_phonon_ph.dir/PH/solve_linter.f90.o
+[100%] Building Fortran object PHonon/CMakeFiles/qe_phonon_ph.dir/PH/solve_e2.f90.o
+[100%] Building Fortran object PHonon/CMakeFiles/qe_phonon_ph.dir/PH/elphon.f90.o
+[100%] Building Fortran object PHonon/CMakeFiles/qe_phonon_ph.dir/PH/bcast_ph_input.f90.o
+[100%] Building Fortran object PHonon/CMakeFiles/qe_phonon_ph.dir/PH/phq_readin.f90.o
+[100%] Building Fortran object PHonon/CMakeFiles/qe_phonon_ph.dir/PH/do_phonon.f90.o
+[100%] Building Fortran object PHonon/CMakeFiles/qe_phonon_ph.dir/PH/phq_setup.f90.o
+[100%] Building Fortran object PHonon/CMakeFiles/qe_phonon_ph.dir/PH/q_points.f90.o
+/Users/xavier/Documents/dev/generaldrugs/dft/.tools/src/qe-7.6/PHonon/PH/elphon.f90:206:30:
+
+  206 |         CALL cdiagh (3 * nat, dyn, 3 * nat, w2, dyn)
+      |                              1
+......
+  325 |   CALL cdiagh (3 * nat, dynr, 3 * nat, w2, dyn)
+      |                        2      
+Warning: Type mismatch between actual argument at (1) and actual argument at (2) (COMPLEX(8)/REAL(8)).
+[100%] Building Fortran object PHonon/CMakeFiles/qe_phonon_ph.dir/PH/dnsq_orth.f90.o
+[100%] Building Fortran object PHonon/CMakeFiles/qe_phonon_ph.dir/PH/dynmat_hub_bare.f90.o
+[100%] Building Fortran object PHonon/CMakeFiles/qe_phonon_ph.dir/PH/dpsi_orth.f90.o
+[100%] Linking Fortran static library ../lib/libqe_phonon_ph.a
+[100%] Built target qe_phonon_ph
+[100%] Building Fortran object PHonon/CMakeFiles/qe_phonon_ph_exe.dir/PH/phonon.f90.o
+[100%] Linking Fortran executable ../bin/ph.x
+ld: warning: duplicate -rpath '/opt/homebrew/Cellar/gcc/16.2.0/lib/gcc/current' ignored
+ld: warning: ignoring duplicate libraries: '../lib/libqe_lax.a', '../lib/libqe_modules.a', '../lib/libqe_pw.a'
+[100%] Built target qe_phonon_ph_exe
+[  0%] Built target qe_fftx_c
+[  2%] Built target qe_device_lapack
+[  2%] Built target qe_devxlib
+[  2%] Built target qe_xml
+[  2%] Built target mbd
+[  4%] Built target qe_utilx_c
+[  4%] Built target qe_lax_headers
+[  4%] Built target qe_modules_c
+[  4%] Built target qe_ks_headers
+[  4%] Built target qe_libbeef
+[ 11%] Built target qe_fftx
+[ 11%] Built target qe_utilx
+[ 11%] Built target qe_xclib
+[ 11%] Built target qe_dftd3
+[ 13%] Built target qe_lax
+[ 20%] Built target qe_upflib
+[ 22%] Built target qe_kssolver_dense
+[ 22%] Built target qe_kssolver_direct
+[ 22%] Built target qe_kssolver_rmmdiis
+[ 22%] Built target qe_kssolver_cg
+[ 22%] Built target qe_kssolver_davidson
+[ 24%] Built target qe_kssolver_paro
+[ 24%] Built target gitrev
+[ 46%] Built target qe_modules
+[ 73%] Built target qe_pw
+[ 82%] Built target qe_lr_modules
+[100%] Built target qe_phonon_ph
+[100%] Building Fortran object PHonon/CMakeFiles/qe_phonon_q2r_exe.dir/PH/q2r.f90.o
+[100%] Linking Fortran executable ../bin/q2r.x
+ld: warning: duplicate -rpath '/opt/homebrew/Cellar/gcc/16.2.0/lib/gcc/current' ignored
+ld: warning: ignoring duplicate libraries: '../lib/libqe_modules.a'
+[100%] Built target qe_phonon_q2r_exe
+[  0%] Built target qe_xml
+[  0%] Built target qe_device_lapack
+[  0%] Built target qe_fftx_c
+[  2%] Built target qe_devxlib
+[  2%] Built target mbd
+[  4%] Built target qe_utilx_c
+[  4%] Built target qe_modules_c
+[  4%] Built target qe_libbeef
+[  4%] Built target qe_ks_headers
+[  4%] Built target qe_lax_headers
+[ 11%] Built target qe_utilx
+[ 11%] Built target qe_xclib
+[ 11%] Built target qe_fftx
+[ 11%] Built target qe_dftd3
+[ 15%] Built target qe_lax
+[ 20%] Built target qe_upflib
+[ 20%] Built target qe_kssolver_rmmdiis
+[ 22%] Built target qe_kssolver_cg
+[ 22%] Built target qe_kssolver_dense
+[ 22%] Built target qe_kssolver_direct
+[ 22%] Built target qe_kssolver_davidson
+[ 24%] Built target qe_kssolver_paro
+[ 24%] Built target gitrev
+[ 46%] Built target qe_modules
+[ 73%] Built target qe_pw
+[ 82%] Built target qe_lr_modules
+[ 82%] Building Fortran object PHonon/CMakeFiles/qe_phonon_phaux.dir/PH/write_eigenvectors.f90.o
+[100%] Built target qe_phonon_ph
+[100%] Linking Fortran static library ../lib/libqe_phonon_phaux.a
+[100%] Built target qe_phonon_phaux
+[100%] Building Fortran object PHonon/CMakeFiles/qe_phonon_matdyn_exe.dir/PH/matdyn.f90.o
+[100%] Linking Fortran executable ../bin/matdyn.x
+ld: warning: duplicate -rpath '/opt/homebrew/Cellar/gcc/16.2.0/lib/gcc/current' ignored
+ld: warning: ignoring duplicate libraries: '../lib/libqe_modules.a', '../lib/libqe_pw.a'
+[100%] Built target qe_phonon_matdyn_exe
+[  0%] Built target qe_xml
+[  2%] Built target qe_device_lapack
+[  2%] Built target mbd
+[  4%] Built target qe_fftx_c
+[  4%] Built target qe_devxlib
+[  4%] Built target qe_utilx_c
+[  4%] Built target qe_lax_headers
+[  4%] Built target qe_ks_headers
+[  4%] Built target qe_libbeef
+[  4%] Built target qe_modules_c
+[ 11%] Built target qe_utilx
+[ 11%] Built target qe_fftx
+[ 11%] Built target qe_xclib
+[ 11%] Built target qe_dftd3
+[ 13%] Built target qe_lax
+[ 20%] Built target qe_upflib
+[ 20%] Built target qe_kssolver_rmmdiis
+[ 20%] Built target qe_kssolver_cg
+[ 20%] Built target qe_kssolver_dense
+[ 22%] Built target qe_kssolver_davidson
+[ 22%] Built target qe_kssolver_direct
+[ 24%] Built target qe_kssolver_paro
+[ 24%] Built target gitrev
+[ 46%] Built target qe_modules
+[ 73%] Built target qe_pw
+[ 82%] Built target qe_lr_modules
+[ 82%] Built target qe_phonon_phaux
+[100%] Built target qe_phonon_ph
+[100%] Building Fortran object PHonon/CMakeFiles/qe_phonon_dynmat_exe.dir/PH/dynmat.f90.o
+[100%] Linking Fortran executable ../bin/dynmat.x
+ld: warning: duplicate -rpath '/opt/homebrew/Cellar/gcc/16.2.0/lib/gcc/current' ignored
+ld: warning: ignoring duplicate libraries: '../lib/libqe_lr_modules.a', '../lib/libqe_modules.a'
+[100%] Built target qe_phonon_dynmat_exe

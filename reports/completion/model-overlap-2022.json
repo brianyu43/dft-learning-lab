@@ -1,0 +1,1195 @@
+{
+  "updated_at": "2026-09-29T10:10:45.767890+00:00",
+  "repository": "molML/deep-cocrystal",
+  "commit": "2805197eff579844b6a45f71a67e2638ede7a14e",
+  "split_summary": {
+    "train": {
+      "raw_rows": 35785,
+      "unique_pairs": {
+        "exact": 5934,
+        "neutral_no_stereo": 5934,
+        "tautomer_family": 5915
+      },
+      "label_conflict_pairs": {
+        "exact": 0,
+        "neutral_no_stereo": 0,
+        "tautomer_family": 1
+      },
+      "source_sha256": "348cb1df420847e367515fe2abe990b90a56b7a0e0fb3491e9874fd856e34bb8"
+    },
+    "val": {
+      "raw_rows": 3961,
+      "unique_pairs": {
+        "exact": 659,
+        "neutral_no_stereo": 659,
+        "tautomer_family": 659
+      },
+      "label_conflict_pairs": {
+        "exact": 0,
+        "neutral_no_stereo": 0,
+        "tautomer_family": 0
+      },
+      "source_sha256": "f4fe8477ecb1cfa64baeed09ee4cc29a307e341e736e0658e05a78d4e6719ef6"
+    },
+    "test_canonical": {
+      "raw_rows": 364,
+      "unique_pairs": {
+        "exact": 363,
+        "neutral_no_stereo": 363,
+        "tautomer_family": 362
+      },
+      "label_conflict_pairs": {
+        "exact": 0,
+        "neutral_no_stereo": 0,
+        "tautomer_family": 0
+      },
+      "source_sha256": "e925cd986227d1e30aa5fdbfa39a7063e35842c3af74bc9842e30727faa1ed82"
+    },
+    "test_augmented": {
+      "raw_rows": 3640,
+      "unique_pairs": {
+        "exact": 363,
+        "neutral_no_stereo": 363,
+        "tautomer_family": 362
+      },
+      "label_conflict_pairs": {
+        "exact": 0,
+        "neutral_no_stereo": 0,
+        "tautomer_family": 0
+      },
+      "source_sha256": "43e43069236272c64918c224b696a462225ef93239189d6400f0dc6522739e2c"
+    }
+  },
+  "invalid_rows": [],
+  "molecules": {
+    "PARA": {
+      "name": "paracetamol",
+      "CID": 1983,
+      "SMILES": "CC(=O)NC1=CC=C(C=C1)O",
+      "formula": "C8H9NO2",
+      "total_atoms": 20,
+      "heavy_atoms": 11,
+      "identities": {
+        "exact": "CC(=O)Nc1ccc(O)cc1",
+        "neutral_no_stereo": "CC(=O)Nc1ccc(O)cc1",
+        "tautomer_family": "CC(=O)Nc1ccc(O)cc1"
+      }
+    },
+    "ASPI": {
+      "name": "aspirin",
+      "CID": 2244,
+      "SMILES": "CC(=O)OC1=CC=CC=C1C(=O)O",
+      "formula": "C9H8O4",
+      "total_atoms": 21,
+      "heavy_atoms": 13,
+      "identities": {
+        "exact": "CC(=O)Oc1ccccc1C(=O)O",
+        "neutral_no_stereo": "CC(=O)Oc1ccccc1C(=O)O",
+        "tautomer_family": "CC(=O)Oc1ccccc1C(=O)O"
+      }
+    },
+    "CARB": {
+      "name": "carbamazepine",
+      "CID": 2554,
+      "SMILES": "C1=CC=C2C(=C1)C=CC3=CC=CC=C3N2C(=O)N",
+      "formula": "C15H12N2O",
+      "total_atoms": 30,
+      "heavy_atoms": 18,
+      "identities": {
+        "exact": "NC(=O)N1c2ccccc2C=Cc2ccccc21",
+        "neutral_no_stereo": "NC(=O)N1c2ccccc2C=Cc2ccccc21",
+        "tautomer_family": "NC(=O)N1c2ccccc2C=Cc2ccccc21"
+      }
+    },
+    "BITZ": {
+      "name": "pyridoxine",
+      "CID": 1054,
+      "SMILES": "CC1=NC=C(C(=C1O)CO)CO",
+      "formula": "C8H11NO3",
+      "total_atoms": 23,
+      "heavy_atoms": 12,
+      "identities": {
+        "exact": "Cc1ncc(CO)c(CO)c1O",
+        "neutral_no_stereo": "Cc1ncc(CO)c(CO)c1O",
+        "tautomer_family": "Cc1ncc(CO)c(CO)c1O"
+      }
+    },
+    "CEBG": {
+      "name": "methyl paraben",
+      "CID": 7456,
+      "SMILES": "COC(=O)C1=CC=C(C=C1)O",
+      "formula": "C8H8O3",
+      "total_atoms": 19,
+      "heavy_atoms": 11,
+      "identities": {
+        "exact": "COC(=O)c1ccc(O)cc1",
+        "neutral_no_stereo": "COC(=O)c1ccc(O)cc1",
+        "tautomer_family": "COC(=O)c1ccc(O)cc1"
+      }
+    },
+    "ESAL": {
+      "name": "3-tert-butyl-4-hydroxyanisole",
+      "CID": 8456,
+      "SMILES": "CC(C)(C)C1=C(C=CC(=C1)OC)O",
+      "formula": "C11H16O2",
+      "total_atoms": 29,
+      "heavy_atoms": 13,
+      "identities": {
+        "exact": "COc1ccc(O)c(C(C)(C)C)c1",
+        "neutral_no_stereo": "COc1ccc(O)c(C(C)(C)C)c1",
+        "tautomer_family": "COc1ccc(O)c(C(C)(C)C)c1"
+      }
+    },
+    "DUPK": {
+      "name": "propyl paraben",
+      "CID": 7175,
+      "SMILES": "CCCOC(=O)C1=CC=C(C=C1)O",
+      "formula": "C10H12O3",
+      "total_atoms": 25,
+      "heavy_atoms": 13,
+      "identities": {
+        "exact": "CCCOC(=O)c1ccc(O)cc1",
+        "neutral_no_stereo": "CCCOC(=O)c1ccc(O)cc1",
+        "tautomer_family": "CCCOC(=O)c1ccc(O)cc1"
+      }
+    },
+    "NICC": {
+      "name": "nicotinic acid",
+      "CID": 938,
+      "SMILES": "C1=CC(=CN=C1)C(=O)O",
+      "formula": "C6H5NO2",
+      "total_atoms": 14,
+      "heavy_atoms": 9,
+      "identities": {
+        "exact": "O=C(O)c1cccnc1",
+        "neutral_no_stereo": "O=C(O)c1cccnc1",
+        "tautomer_family": "O=C(O)c1cccnc1"
+      }
+    },
+    "NICM": {
+      "name": "nicotinamide",
+      "CID": 936,
+      "SMILES": "C1=CC(=CN=C1)C(=O)N",
+      "formula": "C6H6N2O",
+      "total_atoms": 15,
+      "heavy_atoms": 9,
+      "identities": {
+        "exact": "NC(=O)c1cccnc1",
+        "neutral_no_stereo": "NC(=O)c1cccnc1",
+        "tautomer_family": "NC(=O)c1cccnc1"
+      }
+    },
+    "OXAL": {
+      "name": "oxalic acid",
+      "CID": 971,
+      "SMILES": "C(=O)(C(=O)O)O",
+      "formula": "C2H2O4",
+      "total_atoms": 8,
+      "heavy_atoms": 6,
+      "identities": {
+        "exact": "O=C(O)C(=O)O",
+        "neutral_no_stereo": "O=C(O)C(=O)O",
+        "tautomer_family": "O=C(O)C(=O)O"
+      }
+    },
+    "PYRD": {
+      "name": "pyridine",
+      "CID": 1049,
+      "SMILES": "C1=CC=NC=C1",
+      "formula": "C5H5N",
+      "total_atoms": 11,
+      "heavy_atoms": 6,
+      "identities": {
+        "exact": "c1ccncc1",
+        "neutral_no_stereo": "c1ccncc1",
+        "tautomer_family": "c1ccncc1"
+      }
+    },
+    "SUCA": {
+      "name": "succinic acid",
+      "CID": 1110,
+      "SMILES": "C(CC(=O)O)C(=O)O",
+      "formula": "C4H6O4",
+      "total_atoms": 14,
+      "heavy_atoms": 8,
+      "identities": {
+        "exact": "O=C(O)CCC(=O)O",
+        "neutral_no_stereo": "O=C(O)CCC(=O)O",
+        "tautomer_family": "O=C(O)CCC(=O)O"
+      }
+    },
+    "TELZ": {
+      "name": "cis-aconitic acid",
+      "CID": 643757,
+      "SMILES": "C(/C(=C/C(=O)O)/C(=O)O)C(=O)O",
+      "formula": "C6H6O6",
+      "total_atoms": 18,
+      "heavy_atoms": 12,
+      "identities": {
+        "exact": "O=C(O)/C=C(/CC(=O)O)C(=O)O",
+        "neutral_no_stereo": "O=C(O)C=C(CC(=O)O)C(=O)O",
+        "tautomer_family": "O=C(O)C=C(CC(=O)O)C(=O)O"
+      }
+    }
+  },
+  "pairs": [
+    {
+      "api": "PARA",
+      "coformer": "BITZ",
+      "matches": {
+        "train": {
+          "exact": [],
+          "neutral_no_stereo": [],
+          "tautomer_family": []
+        },
+        "val": {
+          "exact": [],
+          "neutral_no_stereo": [],
+          "tautomer_family": []
+        },
+        "test_canonical": {
+          "exact": [],
+          "neutral_no_stereo": [],
+          "tautomer_family": []
+        },
+        "test_augmented": {
+          "exact": [],
+          "neutral_no_stereo": [],
+          "tautomer_family": []
+        }
+      },
+      "train_or_validation_match": false,
+      "held_out_from_downloaded_train_val": true,
+      "seen_API_in_train": true,
+      "final_model_independence_verified": false
+    },
+    {
+      "api": "PARA",
+      "coformer": "CEBG",
+      "matches": {
+        "train": {
+          "exact": [],
+          "neutral_no_stereo": [],
+          "tautomer_family": []
+        },
+        "val": {
+          "exact": [],
+          "neutral_no_stereo": [],
+          "tautomer_family": []
+        },
+        "test_canonical": {
+          "exact": [],
+          "neutral_no_stereo": [],
+          "tautomer_family": []
+        },
+        "test_augmented": {
+          "exact": [],
+          "neutral_no_stereo": [],
+          "tautomer_family": []
+        }
+      },
+      "train_or_validation_match": false,
+      "held_out_from_downloaded_train_val": true,
+      "seen_API_in_train": true,
+      "final_model_independence_verified": false
+    },
+    {
+      "api": "PARA",
+      "coformer": "DUPK",
+      "matches": {
+        "train": {
+          "exact": [],
+          "neutral_no_stereo": [],
+          "tautomer_family": []
+        },
+        "val": {
+          "exact": [],
+          "neutral_no_stereo": [],
+          "tautomer_family": []
+        },
+        "test_canonical": {
+          "exact": [],
+          "neutral_no_stereo": [],
+          "tautomer_family": []
+        },
+        "test_augmented": {
+          "exact": [],
+          "neutral_no_stereo": [],
+          "tautomer_family": []
+        }
+      },
+      "train_or_validation_match": false,
+      "held_out_from_downloaded_train_val": true,
+      "seen_API_in_train": true,
+      "final_model_independence_verified": false
+    },
+    {
+      "api": "PARA",
+      "coformer": "ESAL",
+      "matches": {
+        "train": {
+          "exact": [],
+          "neutral_no_stereo": [],
+          "tautomer_family": []
+        },
+        "val": {
+          "exact": [],
+          "neutral_no_stereo": [],
+          "tautomer_family": []
+        },
+        "test_canonical": {
+          "exact": [],
+          "neutral_no_stereo": [],
+          "tautomer_family": []
+        },
+        "test_augmented": {
+          "exact": [],
+          "neutral_no_stereo": [],
+          "tautomer_family": []
+        }
+      },
+      "train_or_validation_match": false,
+      "held_out_from_downloaded_train_val": true,
+      "seen_API_in_train": true,
+      "final_model_independence_verified": false
+    },
+    {
+      "api": "PARA",
+      "coformer": "NICC",
+      "matches": {
+        "train": {
+          "exact": [],
+          "neutral_no_stereo": [],
+          "tautomer_family": []
+        },
+        "val": {
+          "exact": [],
+          "neutral_no_stereo": [],
+          "tautomer_family": []
+        },
+        "test_canonical": {
+          "exact": [],
+          "neutral_no_stereo": [],
+          "tautomer_family": []
+        },
+        "test_augmented": {
+          "exact": [],
+          "neutral_no_stereo": [],
+          "tautomer_family": []
+        }
+      },
+      "train_or_validation_match": false,
+      "held_out_from_downloaded_train_val": true,
+      "seen_API_in_train": true,
+      "final_model_independence_verified": false
+    },
+    {
+      "api": "PARA",
+      "coformer": "NICM",
+      "matches": {
+        "train": {
+          "exact": [],
+          "neutral_no_stereo": [],
+          "tautomer_family": []
+        },
+        "val": {
+          "exact": [],
+          "neutral_no_stereo": [],
+          "tautomer_family": []
+        },
+        "test_canonical": {
+          "exact": [],
+          "neutral_no_stereo": [],
+          "tautomer_family": []
+        },
+        "test_augmented": {
+          "exact": [],
+          "neutral_no_stereo": [],
+          "tautomer_family": []
+        }
+      },
+      "train_or_validation_match": false,
+      "held_out_from_downloaded_train_val": true,
+      "seen_API_in_train": true,
+      "final_model_independence_verified": false
+    },
+    {
+      "api": "PARA",
+      "coformer": "OXAL",
+      "matches": {
+        "train": {
+          "exact": [],
+          "neutral_no_stereo": [],
+          "tautomer_family": []
+        },
+        "val": {
+          "exact": [
+            1
+          ],
+          "neutral_no_stereo": [
+            1
+          ],
+          "tautomer_family": [
+            1
+          ]
+        },
+        "test_canonical": {
+          "exact": [],
+          "neutral_no_stereo": [],
+          "tautomer_family": []
+        },
+        "test_augmented": {
+          "exact": [],
+          "neutral_no_stereo": [],
+          "tautomer_family": []
+        }
+      },
+      "train_or_validation_match": true,
+      "held_out_from_downloaded_train_val": false,
+      "seen_API_in_train": true,
+      "final_model_independence_verified": false
+    },
+    {
+      "api": "PARA",
+      "coformer": "PYRD",
+      "matches": {
+        "train": {
+          "exact": [],
+          "neutral_no_stereo": [],
+          "tautomer_family": []
+        },
+        "val": {
+          "exact": [
+            1
+          ],
+          "neutral_no_stereo": [
+            1
+          ],
+          "tautomer_family": [
+            1
+          ]
+        },
+        "test_canonical": {
+          "exact": [],
+          "neutral_no_stereo": [],
+          "tautomer_family": []
+        },
+        "test_augmented": {
+          "exact": [],
+          "neutral_no_stereo": [],
+          "tautomer_family": []
+        }
+      },
+      "train_or_validation_match": true,
+      "held_out_from_downloaded_train_val": false,
+      "seen_API_in_train": true,
+      "final_model_independence_verified": false
+    },
+    {
+      "api": "PARA",
+      "coformer": "SUCA",
+      "matches": {
+        "train": {
+          "exact": [
+            0
+          ],
+          "neutral_no_stereo": [
+            0
+          ],
+          "tautomer_family": [
+            0
+          ]
+        },
+        "val": {
+          "exact": [],
+          "neutral_no_stereo": [],
+          "tautomer_family": []
+        },
+        "test_canonical": {
+          "exact": [],
+          "neutral_no_stereo": [],
+          "tautomer_family": []
+        },
+        "test_augmented": {
+          "exact": [],
+          "neutral_no_stereo": [],
+          "tautomer_family": []
+        }
+      },
+      "train_or_validation_match": true,
+      "held_out_from_downloaded_train_val": false,
+      "seen_API_in_train": true,
+      "final_model_independence_verified": false
+    },
+    {
+      "api": "PARA",
+      "coformer": "TELZ",
+      "matches": {
+        "train": {
+          "exact": [],
+          "neutral_no_stereo": [],
+          "tautomer_family": []
+        },
+        "val": {
+          "exact": [],
+          "neutral_no_stereo": [],
+          "tautomer_family": []
+        },
+        "test_canonical": {
+          "exact": [],
+          "neutral_no_stereo": [],
+          "tautomer_family": []
+        },
+        "test_augmented": {
+          "exact": [],
+          "neutral_no_stereo": [],
+          "tautomer_family": []
+        }
+      },
+      "train_or_validation_match": false,
+      "held_out_from_downloaded_train_val": true,
+      "seen_API_in_train": true,
+      "final_model_independence_verified": false
+    },
+    {
+      "api": "ASPI",
+      "coformer": "BITZ",
+      "matches": {
+        "train": {
+          "exact": [],
+          "neutral_no_stereo": [],
+          "tautomer_family": []
+        },
+        "val": {
+          "exact": [],
+          "neutral_no_stereo": [],
+          "tautomer_family": []
+        },
+        "test_canonical": {
+          "exact": [],
+          "neutral_no_stereo": [],
+          "tautomer_family": []
+        },
+        "test_augmented": {
+          "exact": [],
+          "neutral_no_stereo": [],
+          "tautomer_family": []
+        }
+      },
+      "train_or_validation_match": false,
+      "held_out_from_downloaded_train_val": true,
+      "seen_API_in_train": true,
+      "final_model_independence_verified": false
+    },
+    {
+      "api": "ASPI",
+      "coformer": "CEBG",
+      "matches": {
+        "train": {
+          "exact": [],
+          "neutral_no_stereo": [],
+          "tautomer_family": []
+        },
+        "val": {
+          "exact": [],
+          "neutral_no_stereo": [],
+          "tautomer_family": []
+        },
+        "test_canonical": {
+          "exact": [],
+          "neutral_no_stereo": [],
+          "tautomer_family": []
+        },
+        "test_augmented": {
+          "exact": [],
+          "neutral_no_stereo": [],
+          "tautomer_family": []
+        }
+      },
+      "train_or_validation_match": false,
+      "held_out_from_downloaded_train_val": true,
+      "seen_API_in_train": true,
+      "final_model_independence_verified": false
+    },
+    {
+      "api": "ASPI",
+      "coformer": "DUPK",
+      "matches": {
+        "train": {
+          "exact": [],
+          "neutral_no_stereo": [],
+          "tautomer_family": []
+        },
+        "val": {
+          "exact": [],
+          "neutral_no_stereo": [],
+          "tautomer_family": []
+        },
+        "test_canonical": {
+          "exact": [],
+          "neutral_no_stereo": [],
+          "tautomer_family": []
+        },
+        "test_augmented": {
+          "exact": [],
+          "neutral_no_stereo": [],
+          "tautomer_family": []
+        }
+      },
+      "train_or_validation_match": false,
+      "held_out_from_downloaded_train_val": true,
+      "seen_API_in_train": true,
+      "final_model_independence_verified": false
+    },
+    {
+      "api": "ASPI",
+      "coformer": "ESAL",
+      "matches": {
+        "train": {
+          "exact": [],
+          "neutral_no_stereo": [],
+          "tautomer_family": []
+        },
+        "val": {
+          "exact": [],
+          "neutral_no_stereo": [],
+          "tautomer_family": []
+        },
+        "test_canonical": {
+          "exact": [],
+          "neutral_no_stereo": [],
+          "tautomer_family": []
+        },
+        "test_augmented": {
+          "exact": [],
+          "neutral_no_stereo": [],
+          "tautomer_family": []
+        }
+      },
+      "train_or_validation_match": false,
+      "held_out_from_downloaded_train_val": true,
+      "seen_API_in_train": true,
+      "final_model_independence_verified": false
+    },
+    {
+      "api": "ASPI",
+      "coformer": "NICC",
+      "matches": {
+        "train": {
+          "exact": [],
+          "neutral_no_stereo": [],
+          "tautomer_family": []
+        },
+        "val": {
+          "exact": [],
+          "neutral_no_stereo": [],
+          "tautomer_family": []
+        },
+        "test_canonical": {
+          "exact": [],
+          "neutral_no_stereo": [],
+          "tautomer_family": []
+        },
+        "test_augmented": {
+          "exact": [],
+          "neutral_no_stereo": [],
+          "tautomer_family": []
+        }
+      },
+      "train_or_validation_match": false,
+      "held_out_from_downloaded_train_val": true,
+      "seen_API_in_train": true,
+      "final_model_independence_verified": false
+    },
+    {
+      "api": "ASPI",
+      "coformer": "NICM",
+      "matches": {
+        "train": {
+          "exact": [],
+          "neutral_no_stereo": [],
+          "tautomer_family": []
+        },
+        "val": {
+          "exact": [],
+          "neutral_no_stereo": [],
+          "tautomer_family": []
+        },
+        "test_canonical": {
+          "exact": [],
+          "neutral_no_stereo": [],
+          "tautomer_family": []
+        },
+        "test_augmented": {
+          "exact": [],
+          "neutral_no_stereo": [],
+          "tautomer_family": []
+        }
+      },
+      "train_or_validation_match": false,
+      "held_out_from_downloaded_train_val": true,
+      "seen_API_in_train": true,
+      "final_model_independence_verified": false
+    },
+    {
+      "api": "ASPI",
+      "coformer": "OXAL",
+      "matches": {
+        "train": {
+          "exact": [],
+          "neutral_no_stereo": [],
+          "tautomer_family": []
+        },
+        "val": {
+          "exact": [],
+          "neutral_no_stereo": [],
+          "tautomer_family": []
+        },
+        "test_canonical": {
+          "exact": [],
+          "neutral_no_stereo": [],
+          "tautomer_family": []
+        },
+        "test_augmented": {
+          "exact": [],
+          "neutral_no_stereo": [],
+          "tautomer_family": []
+        }
+      },
+      "train_or_validation_match": false,
+      "held_out_from_downloaded_train_val": true,
+      "seen_API_in_train": true,
+      "final_model_independence_verified": false
+    },
+    {
+      "api": "ASPI",
+      "coformer": "PYRD",
+      "matches": {
+        "train": {
+          "exact": [],
+          "neutral_no_stereo": [],
+          "tautomer_family": []
+        },
+        "val": {
+          "exact": [],
+          "neutral_no_stereo": [],
+          "tautomer_family": []
+        },
+        "test_canonical": {
+          "exact": [],
+          "neutral_no_stereo": [],
+          "tautomer_family": []
+        },
+        "test_augmented": {
+          "exact": [],
+          "neutral_no_stereo": [],
+          "tautomer_family": []
+        }
+      },
+      "train_or_validation_match": false,
+      "held_out_from_downloaded_train_val": true,
+      "seen_API_in_train": true,
+      "final_model_independence_verified": false
+    },
+    {
+      "api": "ASPI",
+      "coformer": "SUCA",
+      "matches": {
+        "train": {
+          "exact": [],
+          "neutral_no_stereo": [],
+          "tautomer_family": []
+        },
+        "val": {
+          "exact": [],
+          "neutral_no_stereo": [],
+          "tautomer_family": []
+        },
+        "test_canonical": {
+          "exact": [],
+          "neutral_no_stereo": [],
+          "tautomer_family": []
+        },
+        "test_augmented": {
+          "exact": [],
+          "neutral_no_stereo": [],
+          "tautomer_family": []
+        }
+      },
+      "train_or_validation_match": false,
+      "held_out_from_downloaded_train_val": true,
+      "seen_API_in_train": true,
+      "final_model_independence_verified": false
+    },
+    {
+      "api": "ASPI",
+      "coformer": "TELZ",
+      "matches": {
+        "train": {
+          "exact": [],
+          "neutral_no_stereo": [],
+          "tautomer_family": []
+        },
+        "val": {
+          "exact": [],
+          "neutral_no_stereo": [],
+          "tautomer_family": []
+        },
+        "test_canonical": {
+          "exact": [],
+          "neutral_no_stereo": [],
+          "tautomer_family": []
+        },
+        "test_augmented": {
+          "exact": [],
+          "neutral_no_stereo": [],
+          "tautomer_family": []
+        }
+      },
+      "train_or_validation_match": false,
+      "held_out_from_downloaded_train_val": true,
+      "seen_API_in_train": true,
+      "final_model_independence_verified": false
+    },
+    {
+      "api": "CARB",
+      "coformer": "BITZ",
+      "matches": {
+        "train": {
+          "exact": [],
+          "neutral_no_stereo": [],
+          "tautomer_family": []
+        },
+        "val": {
+          "exact": [],
+          "neutral_no_stereo": [],
+          "tautomer_family": []
+        },
+        "test_canonical": {
+          "exact": [
+            0
+          ],
+          "neutral_no_stereo": [
+            0
+          ],
+          "tautomer_family": [
+            0
+          ]
+        },
+        "test_augmented": {
+          "exact": [
+            0
+          ],
+          "neutral_no_stereo": [
+            0
+          ],
+          "tautomer_family": [
+            0
+          ]
+        }
+      },
+      "train_or_validation_match": false,
+      "held_out_from_downloaded_train_val": true,
+      "seen_API_in_train": true,
+      "final_model_independence_verified": false
+    },
+    {
+      "api": "CARB",
+      "coformer": "CEBG",
+      "matches": {
+        "train": {
+          "exact": [],
+          "neutral_no_stereo": [],
+          "tautomer_family": []
+        },
+        "val": {
+          "exact": [],
+          "neutral_no_stereo": [],
+          "tautomer_family": []
+        },
+        "test_canonical": {
+          "exact": [],
+          "neutral_no_stereo": [],
+          "tautomer_family": []
+        },
+        "test_augmented": {
+          "exact": [],
+          "neutral_no_stereo": [],
+          "tautomer_family": []
+        }
+      },
+      "train_or_validation_match": false,
+      "held_out_from_downloaded_train_val": true,
+      "seen_API_in_train": true,
+      "final_model_independence_verified": false
+    },
+    {
+      "api": "CARB",
+      "coformer": "DUPK",
+      "matches": {
+        "train": {
+          "exact": [],
+          "neutral_no_stereo": [],
+          "tautomer_family": []
+        },
+        "val": {
+          "exact": [],
+          "neutral_no_stereo": [],
+          "tautomer_family": []
+        },
+        "test_canonical": {
+          "exact": [],
+          "neutral_no_stereo": [],
+          "tautomer_family": []
+        },
+        "test_augmented": {
+          "exact": [],
+          "neutral_no_stereo": [],
+          "tautomer_family": []
+        }
+      },
+      "train_or_validation_match": false,
+      "held_out_from_downloaded_train_val": true,
+      "seen_API_in_train": true,
+      "final_model_independence_verified": false
+    },
+    {
+      "api": "CARB",
+      "coformer": "ESAL",
+      "matches": {
+        "train": {
+          "exact": [],
+          "neutral_no_stereo": [],
+          "tautomer_family": []
+        },
+        "val": {
+          "exact": [],
+          "neutral_no_stereo": [],
+          "tautomer_family": []
+        },
+        "test_canonical": {
+          "exact": [],
+          "neutral_no_stereo": [],
+          "tautomer_family": []
+        },
+        "test_augmented": {
+          "exact": [],
+          "neutral_no_stereo": [],
+          "tautomer_family": []
+        }
+      },
+      "train_or_validation_match": false,
+      "held_out_from_downloaded_train_val": true,
+      "seen_API_in_train": true,
+      "final_model_independence_verified": false
+    },
+    {
+      "api": "CARB",
+      "coformer": "NICC",
+      "matches": {
+        "train": {
+          "exact": [],
+          "neutral_no_stereo": [],
+          "tautomer_family": []
+        },
+        "val": {
+          "exact": [],
+          "neutral_no_stereo": [],
+          "tautomer_family": []
+        },
+        "test_canonical": {
+          "exact": [],
+          "neutral_no_stereo": [],
+          "tautomer_family": []
+        },
+        "test_augmented": {
+          "exact": [],
+          "neutral_no_stereo": [],
+          "tautomer_family": []
+        }
+      },
+      "train_or_validation_match": false,
+      "held_out_from_downloaded_train_val": true,
+      "seen_API_in_train": true,
+      "final_model_independence_verified": false
+    },
+    {
+      "api": "CARB",
+      "coformer": "NICM",
+      "matches": {
+        "train": {
+          "exact": [
+            1
+          ],
+          "neutral_no_stereo": [
+            1
+          ],
+          "tautomer_family": [
+            1
+          ]
+        },
+        "val": {
+          "exact": [],
+          "neutral_no_stereo": [],
+          "tautomer_family": []
+        },
+        "test_canonical": {
+          "exact": [],
+          "neutral_no_stereo": [],
+          "tautomer_family": []
+        },
+        "test_augmented": {
+          "exact": [],
+          "neutral_no_stereo": [],
+          "tautomer_family": []
+        }
+      },
+      "train_or_validation_match": true,
+      "held_out_from_downloaded_train_val": false,
+      "seen_API_in_train": true,
+      "final_model_independence_verified": false
+    },
+    {
+      "api": "CARB",
+      "coformer": "OXAL",
+      "matches": {
+        "train": {
+          "exact": [
+            1
+          ],
+          "neutral_no_stereo": [
+            1
+          ],
+          "tautomer_family": [
+            1
+          ]
+        },
+        "val": {
+          "exact": [],
+          "neutral_no_stereo": [],
+          "tautomer_family": []
+        },
+        "test_canonical": {
+          "exact": [],
+          "neutral_no_stereo": [],
+          "tautomer_family": []
+        },
+        "test_augmented": {
+          "exact": [],
+          "neutral_no_stereo": [],
+          "tautomer_family": []
+        }
+      },
+      "train_or_validation_match": true,
+      "held_out_from_downloaded_train_val": false,
+      "seen_API_in_train": true,
+      "final_model_independence_verified": false
+    },
+    {
+      "api": "CARB",
+      "coformer": "PYRD",
+      "matches": {
+        "train": {
+          "exact": [],
+          "neutral_no_stereo": [],
+          "tautomer_family": []
+        },
+        "val": {
+          "exact": [],
+          "neutral_no_stereo": [],
+          "tautomer_family": []
+        },
+        "test_canonical": {
+          "exact": [],
+          "neutral_no_stereo": [],
+          "tautomer_family": []
+        },
+        "test_augmented": {
+          "exact": [],
+          "neutral_no_stereo": [],
+          "tautomer_family": []
+        }
+      },
+      "train_or_validation_match": false,
+      "held_out_from_downloaded_train_val": true,
+      "seen_API_in_train": true,
+      "final_model_independence_verified": false
+    },
+    {
+      "api": "CARB",
+      "coformer": "SUCA",
+      "matches": {
+        "train": {
+          "exact": [
+            1
+          ],
+          "neutral_no_stereo": [
+            1
+          ],
+          "tautomer_family": [
+            1
+          ]
+        },
+        "val": {
+          "exact": [],
+          "neutral_no_stereo": [],
+          "tautomer_family": []
+        },
+        "test_canonical": {
+          "exact": [],
+          "neutral_no_stereo": [],
+          "tautomer_family": []
+        },
+        "test_augmented": {
+          "exact": [],
+          "neutral_no_stereo": [],
+          "tautomer_family": []
+        }
+      },
+      "train_or_validation_match": true,
+      "held_out_from_downloaded_train_val": false,
+      "seen_API_in_train": true,
+      "final_model_independence_verified": false
+    },
+    {
+      "api": "CARB",
+      "coformer": "TELZ",
+      "matches": {
+        "train": {
+          "exact": [],
+          "neutral_no_stereo": [],
+          "tautomer_family": []
+        },
+        "val": {
+          "exact": [],
+          "neutral_no_stereo": [],
+          "tautomer_family": []
+        },
+        "test_canonical": {
+          "exact": [],
+          "neutral_no_stereo": [],
+          "tautomer_family": []
+        },
+        "test_augmented": {
+          "exact": [],
+          "neutral_no_stereo": [],
+          "tautomer_family": []
+        }
+      },
+      "train_or_validation_match": false,
+      "held_out_from_downloaded_train_val": true,
+      "seen_API_in_train": true,
+      "final_model_independence_verified": false
+    }
+  ],
+  "matched_train_or_val_pair_count": 6,
+  "no_match_in_downloaded_train_val_count": 24,
+  "scope": "Public CSV exposure audit only. Final pretrained-weight training membership is not established by CSV split names.",
+  "identity_rules": {
+    "exact": "canonical isomeric SMILES, entire structure",
+    "neutral_no_stereo": "RDKit Uncharger then stereo removal; entire structure, no largest-fragment selection",
+    "tautomer_family": "RDKit canonical tautomer of neutral/stereo-free structure; conservative leakage flag, not equality of calculated states"
+  },
+  "policy": "A train/validation match excludes the pair from a held-out model benchmark. API-seen and pair-seen are distinct. No-match alone does not prove final-model or unpublished-training independence.",
+  "RDKit_version": "2026.03.6"
+}

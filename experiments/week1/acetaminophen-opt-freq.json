@@ -1,0 +1,23 @@
+{
+  "protocol_id": "dft-pilot-20260909-v1",
+  "week": 1,
+  "job_id": "week1-acetaminophen-opt-freq",
+  "task_id": "P03",
+  "engine": "orca",
+  "executable": ".tools/orca-6.1.1/orca",
+  "input": "inputs/orca/week1_acetaminophen_opt_freq.inp",
+  "method": "r2SCAN-3c",
+  "purpose": "one initial acetaminophen conformer: optimization and local-minimum verification, not conformer ranking",
+  "charge": 0,
+  "multiplicity": 1,
+  "n_atoms": 20,
+  "linear": false,
+  "solvent": "vacuum",
+  "requested": {
+    "optimization": true,
+    "frequencies": true
+  },
+  "timeout_seconds": 43200,
+  "rss_limit_gib": 40,
+  "omp_threads": 1
+}

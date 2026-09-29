@@ -1,0 +1,59 @@
+{
+  "protocol_id": "dft-pilot-20260909-v1-completion-qe-checks-r1",
+  "week": 3,
+  "task_id": "SR-force-and-method-compatibility",
+  "job_id": "w3-qe-pbe-d3bj-compatibility",
+  "engine": "qe",
+  "executable": ".tools/qe-7.6/bin/pw.x",
+  "input": "inputs/qe/completion/w3-qe-pbe-d3bj-compatibility.in",
+  "assets": {
+    "data/pseudopotentials/pseudo-dojo-nc-sr-04-pbe-standard/Mo.upf": "pseudo/Mo.upf",
+    "data/pseudopotentials/pseudo-dojo-nc-sr-04-pbe-standard/S.upf": "pseudo/S.upf",
+    "structures/completion/qe-checks/w3-qe-pbe-d3bj-compatibility.extxyz": "initial.extxyz",
+    "scripts/completion_qe_bridge.py": "qe_bridge_snapshot.py"
+  },
+  "method": "PBE-D3(BJ), three-body enabled; PseudoDojo nc-sr-04 standard PBE scalar NC",
+  "expected_bridge_method": "PBE-D3BJ",
+  "requested": {
+    "optimization": false,
+    "frequencies": false
+  },
+  "calculation": "scf",
+  "n_atoms": 3,
+  "charge": 0,
+  "SOC": false,
+  "ecutwfc_Ry": 80,
+  "ecutrho_Ry": 320,
+  "k_grid": [
+    6,
+    6,
+    1
+  ],
+  "conv_thr_Ry": 1e-12,
+  "initial_cell_angstrom": [
+    [
+      3.18,
+      0.0,
+      0.0
+    ],
+    [
+      -1.59,
+      2.75396078403451,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      23.1127699497512
+    ]
+  ],
+  "initial_vacuum_gap_angstrom": 19.9999999999512,
+  "geometry_source": "structures/completion/qe-checks/w3-qe-pbe-d3bj-compatibility.extxyz",
+  "parent_report": "reports/w2-mono-combined-c80-k6-v20.json",
+  "parent_report_sha256": "119d5849bf973db3d91ca174eb9e83e4718f9eb24fe6bb7aee28c270b332f591",
+  "purpose": "Verify real QE 7.6 PBE-D3(BJ) with the existing PBE pseudopotentials",
+  "timeout_seconds": 1800,
+  "rss_limit_gib": 40,
+  "omp_threads": 4,
+  "accuracy_scope": "Force transfer and method compatibility only; not CI/CO method sensitivity"
+}

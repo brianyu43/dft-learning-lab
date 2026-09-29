@@ -1,0 +1,86 @@
+{
+  "adenine": {
+    "started": 24,
+    "engine_passed": 24,
+    "geometry_usable": 24,
+    "cluster_count": 8
+  },
+  "caffeine": {
+    "started": 3,
+    "engine_passed": 3,
+    "geometry_usable": 3,
+    "cluster_count": 1
+  },
+  "diflunisal": {
+    "started": 12,
+    "engine_passed": 12,
+    "geometry_usable": 12,
+    "cluster_count": 9
+  },
+  "theobromine": {
+    "started": 9,
+    "engine_passed": 9,
+    "geometry_usable": 9,
+    "cluster_count": 3
+  },
+  "xanthine": {
+    "started": 45,
+    "engine_passed": 45,
+    "geometry_usable": 45,
+    "cluster_count": 15
+  },
+  "adenine--adenine": {
+    "started": 48,
+    "engine_passed": 47,
+    "geometry_usable": 47,
+    "cluster_count": 36
+  },
+  "caffeine--caffeine": {
+    "started": 48,
+    "engine_passed": 48,
+    "geometry_usable": 48,
+    "cluster_count": 6
+  },
+  "diflunisal--adenine": {
+    "started": 48,
+    "engine_passed": 45,
+    "geometry_usable": 45,
+    "cluster_count": 34
+  },
+  "diflunisal--caffeine": {
+    "started": 48,
+    "engine_passed": 45,
+    "geometry_usable": 45,
+    "cluster_count": 25
+  },
+  "diflunisal--diflunisal": {
+    "started": 28,
+    "engine_passed": 28,
+    "geometry_usable": 28,
+    "cluster_count": 10
+  },
+  "diflunisal--theobromine": {
+    "started": 48,
+    "engine_passed": 46,
+    "geometry_usable": 46,
+    "cluster_count": 29
+  },
+  "diflunisal--xanthine": {
+    "started": 48,
+    "engine_passed": 46,
+    "geometry_usable": 46,
+    "cluster_count": 31
+  },
+  "theobromine--theobromine": {
+    "started": 48,
+    "engine_passed": 46,
+    "geometry_usable": 46,
+    "cluster_count": 18
+  },
+  "xanthine--xanthine": {
+    "started": 48,
+    "engine_passed": 47,
+    "geometry_usable": 47,
+    "cluster_count": 38
+  }
+}

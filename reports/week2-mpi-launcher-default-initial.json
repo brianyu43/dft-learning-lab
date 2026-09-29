@@ -1,0 +1,15 @@
+{
+  "status": "timed_out",
+  "scope": "MPI launcher only, two /usr/bin/true processes; no chemistry engine",
+  "timeout_seconds": 30,
+  "command": [
+    ".tools/orca-mpi/bin/mpirun",
+    "--bind-to",
+    "none",
+    "-np",
+    "2",
+    "/usr/bin/true"
+  ],
+  "output_preserved": false,
+  "note": "The original subprocess.run call raised TimeoutExpired before its JSON report was written; terminal traceback was inspected. Subsequent diagnostics use bounded process-group termination and saved stdout/stderr."
+}

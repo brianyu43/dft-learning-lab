@@ -1,0 +1,120 @@
+{
+  "protocol_id": "dft-pilot-20260909-v1",
+  "extracted_on": "2026-09-10",
+  "overall_status": "pair_labels_verified_positive_protocols_from_preprint_negative_attempt_details_unresolved",
+  "sources": {
+    "journal": {
+      "doi": "10.1002/anie.202507835",
+      "url": "https://onlinelibrary.wiley.com/doi/10.1002/anie.202507835",
+      "local_fulltext_xml": "data/literature/week1/deepcocrystal.xml",
+      "location": "Prospective Experimental Application, Table 3",
+      "role": "final publication pair-level outcomes and general methods"
+    },
+    "preprint": {
+      "doi": "10.26434/chemrxiv-2024-vgvhk-v3",
+      "url": "https://chemrxiv.org/engage/api-gateway/chemrxiv/assets/orp/resource/item/67470dac7be152b1d00d8ac9/original/deep-supramolecular-language-processing-for-co-crystal-prediction.pdf",
+      "location": "PDF page 9 laboratory validation; page 25 Table S11 and NMR discussion; page 27 Figure S35",
+      "access": "web PDF text extraction succeeded; binary download returned HTTP 403; page screenshots failed",
+      "role": "author primary-source fallback, NOT verified equivalent to final journal supplement"
+    }
+  },
+  "journal_supplement_verified": false,
+  "source_access_limit": "Wiley SI HTTP 403; Europe PMC supplementaryFiles HTTP 500; NCBI candidate download URLs HTTP 404. No bypass of access controls attempted.",
+  "supplier_purities_percent_from_preprint": {
+    "diflunisal": 98,
+    "adenine": 98,
+    "caffeine": 98,
+    "theobromine": 98,
+    "xanthine": 99
+  },
+  "cases": [
+    {
+      "case_id": "D01",
+      "api": "diflunisal",
+      "coformer": "adenine",
+      "pair_outcome": "formed",
+      "pair_outcome_source": "journal Table 3",
+      "known_positive_preparation": {
+        "source": "preprint PDF page 9",
+        "method": "ethanol slurry, stirring then evaporation",
+        "api_mg": 100,
+        "coformer_mg": 54,
+        "reported_amount_mmol_each": 0.4,
+        "starting_molar_ratio": [1, 1],
+        "solvent": "ethanol",
+        "solvent_volume_ml": 1,
+        "temperature_text": "room temperature",
+        "temperature_C": null,
+        "stirring_hours": 48,
+        "evaporation_duration": null,
+        "characterization": ["FT-IR ATR", "solid-state 13C/15N NMR"]
+      },
+      "state_caveat": "Preprint NMR discussion proposes proton transfer. Proton acceptor site and salt/co-crystal assignment must not be imposed as a proven crystal structure; compare neutral and plausible ion-pair starts with total charge zero.",
+      "all_attempts_available": false,
+      "per_attempt_records": []
+    },
+    {
+      "case_id": "D02",
+      "api": "diflunisal",
+      "coformer": "caffeine",
+      "pair_outcome": "formed",
+      "pair_outcome_source": "journal Table 3",
+      "known_positive_preparation": {
+        "source": "preprint PDF page 9",
+        "method": "grinding followed by ethanol-assisted grinding",
+        "api_mg": 100,
+        "coformer_mg": 78,
+        "reported_amount_mmol_each": 0.4,
+        "starting_molar_ratio": [1, 1],
+        "dry_grinding_minutes": 20,
+        "liquid_assisted_grinding_minutes": 20,
+        "solvent": "ethanol",
+        "solvent_addition_interval_minutes": 5,
+        "solvent_volume_ml": null,
+        "temperature_C": null,
+        "temperature_text": null,
+        "characterization": ["FT-IR ATR", "solid-state 13C/15N NMR"]
+      },
+      "state_caveat": "Preprint NMR interpretation supports a neutral carboxylic-acid/aromatic-nitrogen hydrogen bond; no deposited atomic crystal structure was verified.",
+      "all_attempts_available": false,
+      "per_attempt_records": []
+    },
+    {
+      "case_id": "D03",
+      "api": "diflunisal",
+      "coformer": "theobromine",
+      "pair_outcome": "not_formed_under_reported_conditions",
+      "pair_outcome_source": "journal Table 3",
+      "model_prediction_category": "uncertain",
+      "known_positive_preparation": null,
+      "all_attempts_available": false,
+      "per_attempt_records": [],
+      "missing": ["attempt-resolved solvent", "ratio", "temperature", "duration", "sample-resolved characterization", "replicate count for this pair"]
+    },
+    {
+      "case_id": "D04",
+      "api": "diflunisal",
+      "coformer": "xanthine",
+      "pair_outcome": "not_formed_under_reported_conditions",
+      "pair_outcome_source": "journal Table 3",
+      "model_prediction_category": "uncertain",
+      "known_positive_preparation": null,
+      "all_attempts_available": false,
+      "per_attempt_records": [],
+      "missing": ["attempt-resolved solvent", "ratio", "temperature", "duration", "sample-resolved characterization", "replicate count for this pair"]
+    }
+  ],
+  "general_screening_solvents_from_preprint": {
+    "liquid_assisted_grinding": ["acetone", "ethanol", "ethyl acetate", "dichloromethane"],
+    "slurry": ["ethanol", "hexane", "acetonitrile"],
+    "slurry_volume_ml": 1,
+    "scope": "general methods only; do not expand this list into fabricated per-pair trial rows"
+  },
+  "decision": {
+    "vacuum_learning_and_preparation": "proceed",
+    "candidate_solvent_sensitivity": "ethanol, supported by both positive preparations; not a matched-condition four-case experiment",
+    "solvent_model_input_frozen": false,
+    "negative_case_causal_explanation": "withheld until attempt conditions are verified",
+    "DFT_ion_pair_review": "required before research candidate selection"
+  }
+}

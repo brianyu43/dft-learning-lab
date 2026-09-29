@@ -1,0 +1,127 @@
+{
+  "checked_at": "2026-09-09T04:12:16.409646+00:00",
+  "python": "3.11.15 (main, Jul 23 2026, 14:34:23) [Clang 22.1.3 ]",
+  "architecture": "arm64",
+  "macOS": "26.6.2",
+  "packages": {
+    "ase": {
+      "version": "3.29.0",
+      "import": "ok"
+    },
+    "rdkit": {
+      "version": "2026.3.6",
+      "import": "ok"
+    },
+    "pymatgen": {
+      "version": "2026.5.4",
+      "import": "ok"
+    },
+    "spglib": {
+      "version": "2.7.0",
+      "import": "ok"
+    },
+    "pyscf": {
+      "version": "2.14.0",
+      "import": "ok"
+    },
+    "geometric": {
+      "version": "1.1.1",
+      "import": "ok"
+    },
+    "numpy": {
+      "version": "2.4.6",
+      "import": "ok"
+    },
+    "scipy": {
+      "version": "1.17.1",
+      "import": "ok"
+    },
+    "pandas": {
+      "version": "3.0.5",
+      "import": "ok"
+    },
+    "matplotlib": {
+      "version": "3.11.1",
+      "import": "ok"
+    },
+    "jupyterlab": {
+      "version": "4.6.3",
+      "import": "ok"
+    },
+    "ipykernel": {
+      "version": "7.3.0",
+      "import": "ok"
+    },
+    "cclib": {
+      "version": "1.8.1",
+      "import": "ok"
+    },
+    "py3dmol": {
+      "version": "2.5.5",
+      "import": "ok"
+    }
+  },
+  "engines": {
+    "pw.x": {
+      "path": "/Users/xavier/Documents/dev/generaldrugs/dft/.tools/bin/pw.x",
+      "status": "available",
+      "architecture": "Mach-O 64-bit executable arm64"
+    },
+    "ph.x": {
+      "path": "/Users/xavier/Documents/dev/generaldrugs/dft/.tools/bin/ph.x",
+      "status": "available",
+      "architecture": "Mach-O 64-bit executable arm64"
+    },
+    "bands.x": {
+      "path": "/Users/xavier/Documents/dev/generaldrugs/dft/.tools/bin/bands.x",
+      "status": "available",
+      "architecture": "Mach-O 64-bit executable arm64"
+    },
+    "dos.x": {
+      "path": "/Users/xavier/Documents/dev/generaldrugs/dft/.tools/bin/dos.x",
+      "status": "available",
+      "architecture": "Mach-O 64-bit executable arm64"
+    },
+    "projwfc.x": {
+      "path": "/Users/xavier/Documents/dev/generaldrugs/dft/.tools/bin/projwfc.x",
+      "status": "available",
+      "architecture": "Mach-O 64-bit executable arm64"
+    },
+    "pp.x": {
+      "path": "/Users/xavier/Documents/dev/generaldrugs/dft/.tools/bin/pp.x",
+      "status": "available",
+      "architecture": "Mach-O 64-bit executable arm64"
+    },
+    "q2r.x": {
+      "path": "/Users/xavier/Documents/dev/generaldrugs/dft/.tools/bin/q2r.x",
+      "status": "available",
+      "architecture": "Mach-O 64-bit executable arm64"
+    },
+    "matdyn.x": {
+      "path": "/Users/xavier/Documents/dev/generaldrugs/dft/.tools/bin/matdyn.x",
+      "status": "available",
+      "architecture": "Mach-O 64-bit executable arm64"
+    },
+    "dynmat.x": {
+      "path": "/Users/xavier/Documents/dev/generaldrugs/dft/.tools/bin/dynmat.x",
+      "status": "available",
+      "architecture": "Mach-O 64-bit executable arm64"
+    },
+    "xtb": {
+      "path": "/Users/xavier/Documents/dev/generaldrugs/dft/.tools/xtb/bin/xtb",
+      "status": "available",
+      "architecture": "Mach-O 64-bit executable arm64"
+    },
+    "orca": {
+      "path": "/Users/xavier/Documents/dev/generaldrugs/dft/.tools/orca-6.1.1/orca",
+      "status": "available",
+      "architecture": "Mach-O 64-bit executable arm64"
+    }
+  },
+  "latest_smoke_tests": {
+    "pyscf": "passed",
+    "qe": "passed",
+    "xtb": "passed",
+    "orca": "passed"
+  }
+}

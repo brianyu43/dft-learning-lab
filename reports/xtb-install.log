@@ -1,0 +1,8 @@
+==> Tapping grimme-lab/qc
+Cloning into '/opt/homebrew/Library/Taps/grimme-lab/homebrew-qc'...
+Tapped 11 formulae (28 files, 466.1KB).
+==> Trusted formula grimme-lab/qc/xtb
+Error: Refusing to load formula grimme-lab/qc/test-drive from untrusted tap grimme-lab/qc.
+Run `brew trust --formula grimme-lab/qc/test-drive` or `brew trust grimme-lab/qc` to trust it.
+==> Would install 1 formula:
+xtb

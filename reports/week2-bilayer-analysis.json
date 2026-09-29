@@ -1,0 +1,200 @@
+{
+  "status": "completed_checks_passed",
+  "completed_comparisons": 6,
+  "expected_comparisons": 6,
+  "rows": [
+    {
+      "configuration": "selected-r0-d6p0",
+      "setting": "selected",
+      "registry_id": 0,
+      "registry_fraction": [
+        0,
+        0
+      ],
+      "Mo_plane_distance_angstrom": 6.0,
+      "jobs": {
+        "pair": "w2-bilayer-selected-r0-d6p0-pair",
+        "bottom": "w2-bilayer-selected-r0-d6p0-bottom",
+        "top": "w2-bilayer-selected-r0-d6p0-top"
+      },
+      "area_angstrom2": 8.757595293229743,
+      "energy_eV": {
+        "pair": -5029.424346098549,
+        "bottom": -2514.7364579577675,
+        "top": -2514.736457959305
+      },
+      "interaction_energy_eV_cell": 0.048569818523446884,
+      "gamma_meV_angstrom2": 5.54602226949159,
+      "upper_layer_force_z_eV_angstrom": 0.8709800857948162,
+      "matched_frozen_references_verified": true,
+      "xml_sha256": {
+        "pair": "86158ac3be435b673eae3f21e5bdea05505d6e9d3c63f4e8ac863262f843d900",
+        "bottom": "696e423efbd1de246da7987ac0e99113a0d969ec9718d091784b5862895df67f",
+        "top": "2b4a6e38ac55ab39f7310b1b23fdaaeb75f043098ab927ff655ab112d30a308c"
+      }
+    },
+    {
+      "configuration": "selected-r0-d6p3",
+      "setting": "selected",
+      "registry_id": 0,
+      "registry_fraction": [
+        0,
+        0
+      ],
+      "Mo_plane_distance_angstrom": 6.3,
+      "jobs": {
+        "pair": "w2-bilayer-selected-r0-d6p3-pair",
+        "bottom": "w2-bilayer-selected-r0-d6p3-bottom",
+        "top": "w2-bilayer-selected-r0-d6p3-top"
+      },
+      "area_angstrom2": 8.757595293229743,
+      "energy_eV": {
+        "pair": -5029.585760094643,
+        "bottom": -2514.736475618513,
+        "top": -2514.736475618154
+      },
+      "interaction_energy_eV_cell": -0.11280885797577866,
+      "gamma_meV_angstrom2": -12.88125954655476,
+      "upper_layer_force_z_eV_angstrom": 0.28375454296044644,
+      "matched_frozen_references_verified": true,
+      "xml_sha256": {
+        "pair": "7399b24388b31927e63c26dcd51879267c767899f344b7b4b7ecc169b2733a19",
+        "bottom": "beaa3c4d3dd13f4b2c06353578e4a9f75847240a64d335ff854538c1081b180c",
+        "top": "863b6fdb1a3b8df3286c5acc0ddb8972a3a4868ab7bd9d8e6b3a7ad5eab5f2b4"
+      }
+    },
+    {
+      "configuration": "selected-r0-d6p6",
+      "setting": "selected",
+      "registry_id": 0,
+      "registry_fraction": [
+        0,
+        0
+      ],
+      "Mo_plane_distance_angstrom": 6.6,
+      "jobs": {
+        "pair": "w2-bilayer-selected-r0-d6p6-pair",
+        "bottom": "w2-bilayer-selected-r0-d6p6-bottom",
+        "top": "w2-bilayer-selected-r0-d6p6-top"
+      },
+      "area_angstrom2": 8.757595293229743,
+      "energy_eV": {
+        "pair": -5029.628568785684,
+        "bottom": -2514.736491496381,
+        "top": -2514.736491493071
+      },
+      "interaction_energy_eV_cell": -0.15558579623257174,
+      "gamma_meV_angstrom2": -17.76581253450372,
+      "upper_layer_force_z_eV_angstrom": 0.039352627040149635,
+      "matched_frozen_references_verified": true,
+      "xml_sha256": {
+        "pair": "d4eec0c67760ac881c4d3208913aba4c7d9a8b5b3d14e7a677959e2b46b4a18c",
+        "bottom": "d38095c0ccdb1d7d07fffdfb3eed23e2c8eedad77e2d94627dcafba6a912e3f1",
+        "top": "90f6dbb0eb52693ff94214c598b945a7771ba0b68868e53e0f616d73928dfbaf"
+      }
+    },
+    {
+      "configuration": "selected-r1-d6p3",
+      "setting": "selected",
+      "registry_id": 1,
+      "registry_fraction": [
+        0.3333333333333333,
+        0.6666666666666666
+      ],
+      "Mo_plane_distance_angstrom": 6.3,
+      "jobs": {
+        "pair": "w2-bilayer-selected-r1-d6p3-pair",
+        "bottom": "w2-bilayer-selected-r0-d6p3-bottom",
+        "top": "w2-bilayer-selected-r1-d6p3-top"
+      },
+      "area_angstrom2": 8.757595293229743,
+      "energy_eV": {
+        "pair": -5029.708963803391,
+        "bottom": -2514.736475618513,
+        "top": -2514.7364756173497
+      },
+      "interaction_energy_eV_cell": -0.23601256752863264,
+      "gamma_meV_angstrom2": -26.94947181574918,
+      "upper_layer_force_z_eV_angstrom": -0.09060091288389867,
+      "matched_frozen_references_verified": true,
+      "xml_sha256": {
+        "pair": "708b043954789d3f7bf5c5ae2882410a9b714467803b77346b4f3bbcdd9b7178",
+        "bottom": "beaa3c4d3dd13f4b2c06353578e4a9f75847240a64d335ff854538c1081b180c",
+        "top": "93df7aef53192ded082873ca75679c5061f66da99fe424ce4e1578cbbedb8560"
+      }
+    },
+    {
+      "configuration": "selected-r2-d6p3",
+      "setting": "selected",
+      "registry_id": 2,
+      "registry_fraction": [
+        0.6666666666666666,
+        0.3333333333333333
+      ],
+      "Mo_plane_distance_angstrom": 6.3,
+      "jobs": {
+        "pair": "w2-bilayer-selected-r2-d6p3-pair",
+        "bottom": "w2-bilayer-selected-r0-d6p3-bottom",
+        "top": "w2-bilayer-selected-r2-d6p3-top"
+      },
+      "area_angstrom2": 8.757595293229743,
+      "energy_eV": {
+        "pair": -5029.708963802133,
+        "bottom": -2514.736475618513,
+        "top": -2514.736475618148
+      },
+      "interaction_energy_eV_cell": -0.23601256547271987,
+      "gamma_meV_angstrom2": -26.9494715809915,
+      "upper_layer_force_z_eV_angstrom": -0.09065094243826456,
+      "matched_frozen_references_verified": true,
+      "xml_sha256": {
+        "pair": "75eda5f567a42143f29b3a1238310ec22b7315c8ffa8e449aec5b9ab487d40b6",
+        "bottom": "beaa3c4d3dd13f4b2c06353578e4a9f75847240a64d335ff854538c1081b180c",
+        "top": "cdf0df5a3815d553daff81c313f55bb27c2601b9a0b8fe2decfa09c66f9ffc45"
+      }
+    },
+    {
+      "configuration": "strict-r0-d6p3",
+      "setting": "strict",
+      "registry_id": 0,
+      "registry_fraction": [
+        0,
+        0
+      ],
+      "Mo_plane_distance_angstrom": 6.3,
+      "jobs": {
+        "pair": "w2-bilayer-strict-r0-d6p3-pair",
+        "bottom": "w2-bilayer-strict-r0-d6p3-bottom",
+        "top": "w2-bilayer-strict-r0-d6p3-top"
+      },
+      "area_angstrom2": 8.757595293229743,
+      "energy_eV": {
+        "pair": -5029.589819940617,
+        "bottom": -2514.7389010962115,
+        "top": -2514.738900832033
+      },
+      "interaction_energy_eV_cell": -0.11201801237302789,
+      "gamma_meV_angstrom2": -12.790955578824924,
+      "upper_layer_force_z_eV_angstrom": 0.28483139691071546,
+      "matched_frozen_references_verified": true,
+      "xml_sha256": {
+        "pair": "c7b2378dc44239a673460e4ddabf109edd8cbe4a66e0b9ac1775d1914e98d52f",
+        "bottom": "e7487f95f673695605d53e697ffa8ac2d2efaf5a8267c0d5ceb62ffca494debd",
+        "top": "7e6b1171a59048a0dc87b99ebfa5ca66a8bc7749e95984d9ebebe68f7ac1d021"
+      }
+    }
+  ],
+  "equilibrium_in_plane_lattice_verified": false,
+  "phonon_stability_verified": false,
+  "reference_is_exact": false,
+  "heterobilayer_or_Se_accuracy_verified": false,
+  "representative_setting_difference_meV_angstrom2": 0.09030396772983629,
+  "interaction_precision_passed": true,
+  "equivalent_registry_difference_meV_angstrom2": 2.3475768173852885e-07,
+  "registry_symmetry_passed": true,
+  "lowest_sampled_r0_distance_angstrom": 6.6,
+  "r0_minimum_bracketed_by_samples": false,
+  "equilibrium_layer_distance_verified": false,
+  "precision_scope": "one r0, D=6.3 A geometry; not a global bound for all registries or compositions",
+  "distance_scope": "three rigid-layer samples, no interpolation or relaxation; boundary minimum requires extension"
+}

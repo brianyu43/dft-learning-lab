@@ -1,0 +1,122 @@
+{
+  "candidate_id": "xanthine-t06-s43",
+  "path": "structures/week2/drug_initial/xanthine-t06-s43.xyz",
+  "sha256": "4a8e8535937202128cefa63c136d1a108c079dc97a28226baa7370d1f5d4868f",
+  "charge": 0,
+  "multiplicity": 1,
+  "n_atoms": 15,
+  "graph": {
+    "atomic_numbers": [
+      8,
+      6,
+      7,
+      6,
+      8,
+      7,
+      6,
+      7,
+      6,
+      7,
+      6,
+      1,
+      1,
+      1,
+      1
+    ],
+    "bonds": [
+      [
+        0,
+        1,
+        2.0
+      ],
+      [
+        1,
+        2,
+        1.0
+      ],
+      [
+        2,
+        3,
+        2.0
+      ],
+      [
+        3,
+        4,
+        1.0
+      ],
+      [
+        3,
+        5,
+        1.0
+      ],
+      [
+        5,
+        6,
+        1.0
+      ],
+      [
+        6,
+        7,
+        1.5
+      ],
+      [
+        7,
+        8,
+        1.5
+      ],
+      [
+        8,
+        9,
+        1.5
+      ],
+      [
+        9,
+        10,
+        1.5
+      ],
+      [
+        10,
+        1,
+        1.0
+      ],
+      [
+        10,
+        6,
+        1.5
+      ],
+      [
+        4,
+        11,
+        1.0
+      ],
+      [
+        5,
+        12,
+        1.0
+      ],
+      [
+        8,
+        13,
+        1.0
+      ],
+      [
+        9,
+        14,
+        1.0
+      ]
+    ],
+    "hydrogen_owners": {
+      "11": 4,
+      "12": 5,
+      "13": 8,
+      "14": 9
+    },
+    "formula": "C5H4N4O2"
+  },
+  "kind": "monomer",
+  "species": "xanthine",
+  "state_id": "xanthine-t06",
+  "state_smiles": "O=c1nc(O)[nH]c2nc[nH]c12",
+  "seed": 43,
+  "state_role": "alternative_tautomer"
+}

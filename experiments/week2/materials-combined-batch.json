@@ -1,0 +1,7 @@
+{
+  "batch_id": "week2-mono-combined",
+  "budget_seconds": 3600,
+  "jobs": [
+    "experiments/week2/w2-mono-combined-c80-k6-v20.json"
+  ]
+}

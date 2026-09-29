@@ -1,0 +1,211 @@
+record_id,api,coformer,method,solvent,raw_code,outcome,input_molar_ratio,source_table,endpoint
+cg2c00433-PARA-BITZ-c1,PARA,BITZ,contact_preparation,,x,physical_mixture,,S1,cocrystal_screen
+cg2c00433-PARA-BITZ-c2,PARA,BITZ,slurry,n-heptane,x,physical_mixture,1:1,S1,cocrystal_screen
+cg2c00433-PARA-BITZ-c3,PARA,BITZ,slurry,pyridine,n. a.,not_attempted,1:1,S1,cocrystal_screen
+cg2c00433-PARA-BITZ-c4,PARA,BITZ,slurry,diethyl ether,x,physical_mixture,1:1,S1,cocrystal_screen
+cg2c00433-PARA-BITZ-c5,PARA,BITZ,LAG,n-heptane,x,physical_mixture,1:1,S1,cocrystal_screen
+cg2c00433-PARA-BITZ-c6,PARA,BITZ,LAG,diethyl ether,x,physical_mixture,1:1,S1,cocrystal_screen
+cg2c00433-PARA-BITZ-c7,PARA,BITZ,cosublimation,,x,physical_mixture,1:1,S1,cocrystal_screen
+cg2c00433-PARA-CEBG-c1,PARA,CEBG,contact_preparation,,x,physical_mixture,,S1,cocrystal_screen
+cg2c00433-PARA-CEBG-c2,PARA,CEBG,slurry,n-heptane,x,physical_mixture,1:1,S1,cocrystal_screen
+cg2c00433-PARA-CEBG-c3,PARA,CEBG,slurry,pyridine,n. a.,not_attempted,1:1,S1,cocrystal_screen
+cg2c00433-PARA-CEBG-c4,PARA,CEBG,slurry,diethyl ether,x,physical_mixture,1:1,S1,cocrystal_screen
+cg2c00433-PARA-CEBG-c5,PARA,CEBG,LAG,n-heptane,x,physical_mixture,1:1,S1,cocrystal_screen
+cg2c00433-PARA-CEBG-c6,PARA,CEBG,LAG,diethyl ether,x,physical_mixture,1:1,S1,cocrystal_screen
+cg2c00433-PARA-CEBG-c7,PARA,CEBG,cosublimation,,x,physical_mixture,1:1,S1,cocrystal_screen
+cg2c00433-PARA-DUPK-c1,PARA,DUPK,contact_preparation,,x,physical_mixture,,S1,cocrystal_screen
+cg2c00433-PARA-DUPK-c2,PARA,DUPK,slurry,n-heptane,x,physical_mixture,1:1,S1,cocrystal_screen
+cg2c00433-PARA-DUPK-c3,PARA,DUPK,slurry,pyridine,n. a.,not_attempted,1:1,S1,cocrystal_screen
+cg2c00433-PARA-DUPK-c4,PARA,DUPK,slurry,diethyl ether,x,physical_mixture,1:1,S1,cocrystal_screen
+cg2c00433-PARA-DUPK-c5,PARA,DUPK,LAG,n-heptane,x,physical_mixture,1:1,S1,cocrystal_screen
+cg2c00433-PARA-DUPK-c6,PARA,DUPK,LAG,diethyl ether,x,physical_mixture,1:1,S1,cocrystal_screen
+cg2c00433-PARA-DUPK-c7,PARA,DUPK,cosublimation,,x,physical_mixture,1:1,S1,cocrystal_screen
+cg2c00433-PARA-ESAL-c1,PARA,ESAL,contact_preparation,,x,physical_mixture,,S1,cocrystal_screen
+cg2c00433-PARA-ESAL-c2,PARA,ESAL,slurry,n-heptane,x,physical_mixture,1:1,S1,cocrystal_screen
+cg2c00433-PARA-ESAL-c3,PARA,ESAL,slurry,pyridine,n. a.,not_attempted,1:1,S1,cocrystal_screen
+cg2c00433-PARA-ESAL-c4,PARA,ESAL,slurry,diethyl ether,x,physical_mixture,1:1,S1,cocrystal_screen
+cg2c00433-PARA-ESAL-c5,PARA,ESAL,LAG,n-heptane,x,physical_mixture,1:1,S1,cocrystal_screen
+cg2c00433-PARA-ESAL-c6,PARA,ESAL,LAG,diethyl ether,x,physical_mixture,1:1,S1,cocrystal_screen
+cg2c00433-PARA-ESAL-c7,PARA,ESAL,cosublimation,,x,physical_mixture,1:1,S1,cocrystal_screen
+cg2c00433-PARA-NICC-c1,PARA,NICC,contact_preparation,,n. a.,not_attempted,,S1,cocrystal_screen
+cg2c00433-PARA-NICC-c2,PARA,NICC,slurry,n-heptane,x,physical_mixture,1:1,S1,cocrystal_screen
+cg2c00433-PARA-NICC-c3,PARA,NICC,slurry,pyridine,n. a.,not_attempted,1:1,S1,cocrystal_screen
+cg2c00433-PARA-NICC-c4,PARA,NICC,slurry,diethyl ether,x,physical_mixture,1:1,S1,cocrystal_screen
+cg2c00433-PARA-NICC-c5,PARA,NICC,LAG,n-heptane,x,physical_mixture,1:1,S1,cocrystal_screen
+cg2c00433-PARA-NICC-c6,PARA,NICC,LAG,diethyl ether,x,physical_mixture,1:1,S1,cocrystal_screen
+cg2c00433-PARA-NICC-c7,PARA,NICC,cosublimation,,x,physical_mixture,1:1,S1,cocrystal_screen
+cg2c00433-PARA-NICM-c1,PARA,NICM,contact_preparation,,x,physical_mixture,,S1,cocrystal_screen
+cg2c00433-PARA-NICM-c2,PARA,NICM,slurry,n-heptane,x,physical_mixture,1:1,S1,cocrystal_screen
+cg2c00433-PARA-NICM-c3,PARA,NICM,slurry,pyridine,n. a.,not_attempted,1:1,S1,cocrystal_screen
+cg2c00433-PARA-NICM-c4,PARA,NICM,slurry,diethyl ether,x,physical_mixture,1:1,S1,cocrystal_screen
+cg2c00433-PARA-NICM-c5,PARA,NICM,LAG,n-heptane,x,physical_mixture,1:1,S1,cocrystal_screen
+cg2c00433-PARA-NICM-c6,PARA,NICM,LAG,diethyl ether,x,physical_mixture,1:1,S1,cocrystal_screen
+cg2c00433-PARA-NICM-c7,PARA,NICM,cosublimation,,x,physical_mixture,1:1,S1,cocrystal_screen
+cg2c00433-PARA-OXAL-c1,PARA,OXAL,contact_preparation,,n. a.,not_attempted,,S1,cocrystal_screen
+cg2c00433-PARA-OXAL-c2,PARA,OXAL,slurry,n-heptane,yes,multicomponent_form_observed,1:1,S1,cocrystal_screen
+cg2c00433-PARA-OXAL-c3,PARA,OXAL,slurry,pyridine,n. a.,not_attempted,1:1,S1,cocrystal_screen
+cg2c00433-PARA-OXAL-c4,PARA,OXAL,slurry,diethyl ether,yes,multicomponent_form_observed,1:1,S1,cocrystal_screen
+cg2c00433-PARA-OXAL-c5,PARA,OXAL,LAG,n-heptane,yes,multicomponent_form_observed,1:1,S1,cocrystal_screen
+cg2c00433-PARA-OXAL-c6,PARA,OXAL,LAG,diethyl ether,yes,multicomponent_form_observed,1:1,S1,cocrystal_screen
+cg2c00433-PARA-OXAL-c7,PARA,OXAL,cosublimation,,yes,multicomponent_form_observed,1:1,S1,cocrystal_screen
+cg2c00433-PARA-SUCA-c1,PARA,SUCA,contact_preparation,,x,physical_mixture,,S1,cocrystal_screen
+cg2c00433-PARA-SUCA-c2,PARA,SUCA,slurry,n-heptane,x,physical_mixture,1:1,S1,cocrystal_screen
+cg2c00433-PARA-SUCA-c3,PARA,SUCA,slurry,pyridine,n. a.,not_attempted,1:1,S1,cocrystal_screen
+cg2c00433-PARA-SUCA-c4,PARA,SUCA,slurry,diethyl ether,x,physical_mixture,1:1,S1,cocrystal_screen
+cg2c00433-PARA-SUCA-c5,PARA,SUCA,LAG,n-heptane,x,physical_mixture,1:1,S1,cocrystal_screen
+cg2c00433-PARA-SUCA-c6,PARA,SUCA,LAG,diethyl ether,x,physical_mixture,1:1,S1,cocrystal_screen
+cg2c00433-PARA-SUCA-c7,PARA,SUCA,cosublimation,,x,physical_mixture,1:1,S1,cocrystal_screen
+cg2c00433-PARA-TELZ-c1,PARA,TELZ,contact_preparation,,n. a.,not_attempted,,S1,cocrystal_screen
+cg2c00433-PARA-TELZ-c2,PARA,TELZ,slurry,n-heptane,x,physical_mixture,1:1,S1,cocrystal_screen
+cg2c00433-PARA-TELZ-c3,PARA,TELZ,slurry,pyridine,n. a.,not_attempted,1:1,S1,cocrystal_screen
+cg2c00433-PARA-TELZ-c4,PARA,TELZ,slurry,diethyl ether,x,physical_mixture,1:1,S1,cocrystal_screen
+cg2c00433-PARA-TELZ-c5,PARA,TELZ,LAG,n-heptane,x,physical_mixture,1:1,S1,cocrystal_screen
+cg2c00433-PARA-TELZ-c6,PARA,TELZ,LAG,diethyl ether,x,physical_mixture,1:1,S1,cocrystal_screen
+cg2c00433-PARA-TELZ-c7,PARA,TELZ,cosublimation,,x,physical_mixture,1:1,S1,cocrystal_screen
+cg2c00433-PARA-PYRD-c1,PARA,PYRD,contact_preparation,,n. a.,not_attempted,,S1,solvate
+cg2c00433-PARA-PYRD-c2,PARA,PYRD,slurry,n-heptane,n. a.,not_attempted,1:1,S1,solvate
+cg2c00433-PARA-PYRD-c3,PARA,PYRD,slurry,pyridine,yes,multicomponent_form_observed,1:1,S1,solvate
+cg2c00433-PARA-PYRD-c4,PARA,PYRD,slurry,diethyl ether,n. a.,not_attempted,1:1,S1,solvate
+cg2c00433-PARA-PYRD-c5,PARA,PYRD,LAG,n-heptane,n. a.,not_attempted,1:1,S1,solvate
+cg2c00433-PARA-PYRD-c6,PARA,PYRD,LAG,diethyl ether,n. a.,not_attempted,1:1,S1,solvate
+cg2c00433-PARA-PYRD-c7,PARA,PYRD,cosublimation,,n. a.,not_attempted,1:1,S1,solvate
+cg2c00433-ASPI-BITZ-c1,ASPI,BITZ,contact_preparation,,x,physical_mixture,,S2,cocrystal_screen
+cg2c00433-ASPI-BITZ-c2,ASPI,BITZ,slurry,n-heptane,x,physical_mixture,1:1,S2,cocrystal_screen
+cg2c00433-ASPI-BITZ-c3,ASPI,BITZ,slurry,pyridine,n. a.,not_attempted,1:1,S2,cocrystal_screen
+cg2c00433-ASPI-BITZ-c4,ASPI,BITZ,slurry,diethyl ether,x,physical_mixture,1:1,S2,cocrystal_screen
+cg2c00433-ASPI-BITZ-c5,ASPI,BITZ,LAG,n-heptane,x,physical_mixture,1:1,S2,cocrystal_screen
+cg2c00433-ASPI-BITZ-c6,ASPI,BITZ,LAG,diethyl ether,x,physical_mixture,1:1,S2,cocrystal_screen
+cg2c00433-ASPI-BITZ-c7,ASPI,BITZ,cosublimation,,x,physical_mixture,1:1,S2,cocrystal_screen
+cg2c00433-ASPI-CEBG-c1,ASPI,CEBG,contact_preparation,,x,physical_mixture,,S2,cocrystal_screen
+cg2c00433-ASPI-CEBG-c2,ASPI,CEBG,slurry,n-heptane,x,physical_mixture,1:1,S2,cocrystal_screen
+cg2c00433-ASPI-CEBG-c3,ASPI,CEBG,slurry,pyridine,n. a.,not_attempted,1:1,S2,cocrystal_screen
+cg2c00433-ASPI-CEBG-c4,ASPI,CEBG,slurry,diethyl ether,x,physical_mixture,1:1,S2,cocrystal_screen
+cg2c00433-ASPI-CEBG-c5,ASPI,CEBG,LAG,n-heptane,x,physical_mixture,1:1,S2,cocrystal_screen
+cg2c00433-ASPI-CEBG-c6,ASPI,CEBG,LAG,diethyl ether,x,physical_mixture,1:1,S2,cocrystal_screen
+cg2c00433-ASPI-CEBG-c7,ASPI,CEBG,cosublimation,,x,physical_mixture,1:1,S2,cocrystal_screen
+cg2c00433-ASPI-DUPK-c1,ASPI,DUPK,contact_preparation,,x,physical_mixture,,S2,cocrystal_screen
+cg2c00433-ASPI-DUPK-c2,ASPI,DUPK,slurry,n-heptane,x,physical_mixture,1:1,S2,cocrystal_screen
+cg2c00433-ASPI-DUPK-c3,ASPI,DUPK,slurry,pyridine,n. a.,not_attempted,1:1,S2,cocrystal_screen
+cg2c00433-ASPI-DUPK-c4,ASPI,DUPK,slurry,diethyl ether,x,physical_mixture,1:1,S2,cocrystal_screen
+cg2c00433-ASPI-DUPK-c5,ASPI,DUPK,LAG,n-heptane,x,physical_mixture,1:1,S2,cocrystal_screen
+cg2c00433-ASPI-DUPK-c6,ASPI,DUPK,LAG,diethyl ether,x,physical_mixture,1:1,S2,cocrystal_screen
+cg2c00433-ASPI-DUPK-c7,ASPI,DUPK,cosublimation,,x,physical_mixture,1:1,S2,cocrystal_screen
+cg2c00433-ASPI-ESAL-c1,ASPI,ESAL,contact_preparation,,n. a.,not_attempted,,S2,cocrystal_screen
+cg2c00433-ASPI-ESAL-c2,ASPI,ESAL,slurry,n-heptane,x,physical_mixture,1:1,S2,cocrystal_screen
+cg2c00433-ASPI-ESAL-c3,ASPI,ESAL,slurry,pyridine,n. a.,not_attempted,1:1,S2,cocrystal_screen
+cg2c00433-ASPI-ESAL-c4,ASPI,ESAL,slurry,diethyl ether,x,physical_mixture,1:1,S2,cocrystal_screen
+cg2c00433-ASPI-ESAL-c5,ASPI,ESAL,LAG,n-heptane,x,physical_mixture,1:1,S2,cocrystal_screen
+cg2c00433-ASPI-ESAL-c6,ASPI,ESAL,LAG,diethyl ether,x,physical_mixture,1:1,S2,cocrystal_screen
+cg2c00433-ASPI-ESAL-c7,ASPI,ESAL,cosublimation,,x,physical_mixture,1:1,S2,cocrystal_screen
+cg2c00433-ASPI-NICC-c1,ASPI,NICC,contact_preparation,,n. a.,not_attempted,,S2,cocrystal_screen
+cg2c00433-ASPI-NICC-c2,ASPI,NICC,slurry,n-heptane,x,physical_mixture,1:1,S2,cocrystal_screen
+cg2c00433-ASPI-NICC-c3,ASPI,NICC,slurry,pyridine,n. a.,not_attempted,1:1,S2,cocrystal_screen
+cg2c00433-ASPI-NICC-c4,ASPI,NICC,slurry,diethyl ether,x,physical_mixture,1:1,S2,cocrystal_screen
+cg2c00433-ASPI-NICC-c5,ASPI,NICC,LAG,n-heptane,x,physical_mixture,1:1,S2,cocrystal_screen
+cg2c00433-ASPI-NICC-c6,ASPI,NICC,LAG,diethyl ether,x,physical_mixture,1:1,S2,cocrystal_screen
+cg2c00433-ASPI-NICC-c7,ASPI,NICC,cosublimation,,x,physical_mixture,1:1,S2,cocrystal_screen
+cg2c00433-ASPI-NICM-c1,ASPI,NICM,contact_preparation,,x,physical_mixture,,S2,cocrystal_screen
+cg2c00433-ASPI-NICM-c2,ASPI,NICM,slurry,n-heptane,x,physical_mixture,1:1,S2,cocrystal_screen
+cg2c00433-ASPI-NICM-c3,ASPI,NICM,slurry,pyridine,n. a.,not_attempted,1:1,S2,cocrystal_screen
+cg2c00433-ASPI-NICM-c4,ASPI,NICM,slurry,diethyl ether,x,physical_mixture,1:1,S2,cocrystal_screen
+cg2c00433-ASPI-NICM-c5,ASPI,NICM,LAG,n-heptane,x,physical_mixture,1:1,S2,cocrystal_screen
+cg2c00433-ASPI-NICM-c6,ASPI,NICM,LAG,diethyl ether,x,physical_mixture,1:1,S2,cocrystal_screen
+cg2c00433-ASPI-NICM-c7,ASPI,NICM,cosublimation,,x,physical_mixture,1:1,S2,cocrystal_screen
+cg2c00433-ASPI-OXAL-c1,ASPI,OXAL,contact_preparation,,n. a.,not_attempted,,S2,cocrystal_screen
+cg2c00433-ASPI-OXAL-c2,ASPI,OXAL,slurry,n-heptane,x,physical_mixture,1:1,S2,cocrystal_screen
+cg2c00433-ASPI-OXAL-c3,ASPI,OXAL,slurry,pyridine,n. a.,not_attempted,1:1,S2,cocrystal_screen
+cg2c00433-ASPI-OXAL-c4,ASPI,OXAL,slurry,diethyl ether,x,physical_mixture,1:1,S2,cocrystal_screen
+cg2c00433-ASPI-OXAL-c5,ASPI,OXAL,LAG,n-heptane,x,physical_mixture,1:1,S2,cocrystal_screen
+cg2c00433-ASPI-OXAL-c6,ASPI,OXAL,LAG,diethyl ether,x,physical_mixture,1:1,S2,cocrystal_screen
+cg2c00433-ASPI-OXAL-c7,ASPI,OXAL,cosublimation,,x,physical_mixture,1:1,S2,cocrystal_screen
+cg2c00433-ASPI-SUCA-c1,ASPI,SUCA,contact_preparation,,n. a.,not_attempted,,S2,cocrystal_screen
+cg2c00433-ASPI-SUCA-c2,ASPI,SUCA,slurry,n-heptane,x,physical_mixture,1:1,S2,cocrystal_screen
+cg2c00433-ASPI-SUCA-c3,ASPI,SUCA,slurry,pyridine,n. a.,not_attempted,1:1,S2,cocrystal_screen
+cg2c00433-ASPI-SUCA-c4,ASPI,SUCA,slurry,diethyl ether,x,physical_mixture,1:1,S2,cocrystal_screen
+cg2c00433-ASPI-SUCA-c5,ASPI,SUCA,LAG,n-heptane,x,physical_mixture,1:1,S2,cocrystal_screen
+cg2c00433-ASPI-SUCA-c6,ASPI,SUCA,LAG,diethyl ether,x,physical_mixture,1:1,S2,cocrystal_screen
+cg2c00433-ASPI-SUCA-c7,ASPI,SUCA,cosublimation,,x,physical_mixture,1:1,S2,cocrystal_screen
+cg2c00433-ASPI-TELZ-c1,ASPI,TELZ,contact_preparation,,x,physical_mixture,,S2,cocrystal_screen
+cg2c00433-ASPI-TELZ-c2,ASPI,TELZ,slurry,n-heptane,x,physical_mixture,1:1,S2,cocrystal_screen
+cg2c00433-ASPI-TELZ-c3,ASPI,TELZ,slurry,pyridine,n. a.,not_attempted,1:1,S2,cocrystal_screen
+cg2c00433-ASPI-TELZ-c4,ASPI,TELZ,slurry,diethyl ether,x,physical_mixture,1:1,S2,cocrystal_screen
+cg2c00433-ASPI-TELZ-c5,ASPI,TELZ,LAG,n-heptane,x,physical_mixture,1:1,S2,cocrystal_screen
+cg2c00433-ASPI-TELZ-c6,ASPI,TELZ,LAG,diethyl ether,x,physical_mixture,1:1,S2,cocrystal_screen
+cg2c00433-ASPI-TELZ-c7,ASPI,TELZ,cosublimation,,x,physical_mixture,1:1,S2,cocrystal_screen
+cg2c00433-ASPI-PYRD-c1,ASPI,PYRD,contact_preparation,,n. a.,not_attempted,,S2,solvate
+cg2c00433-ASPI-PYRD-c2,ASPI,PYRD,slurry,n-heptane,n. a.,not_attempted,1:1,S2,solvate
+cg2c00433-ASPI-PYRD-c3,ASPI,PYRD,slurry,pyridine,x,physical_mixture,1:1,S2,solvate
+cg2c00433-ASPI-PYRD-c4,ASPI,PYRD,slurry,diethyl ether,n. a.,not_attempted,1:1,S2,solvate
+cg2c00433-ASPI-PYRD-c5,ASPI,PYRD,LAG,n-heptane,n. a.,not_attempted,1:1,S2,solvate
+cg2c00433-ASPI-PYRD-c6,ASPI,PYRD,LAG,diethyl ether,n. a.,not_attempted,1:1,S2,solvate
+cg2c00433-ASPI-PYRD-c7,ASPI,PYRD,cosublimation,,n. a.,not_attempted,1:1,S2,solvate
+cg2c00433-CARB-BITZ-c1,CARB,BITZ,contact_preparation,,x,physical_mixture,,S3,cocrystal_screen
+cg2c00433-CARB-BITZ-c2,CARB,BITZ,slurry,n-heptane,x,physical_mixture,1:1,S3,cocrystal_screen
+cg2c00433-CARB-BITZ-c3,CARB,BITZ,slurry,pyridine,n. a.,not_attempted,1:1,S3,cocrystal_screen
+cg2c00433-CARB-BITZ-c4,CARB,BITZ,slurry,diethyl ether,x,physical_mixture,1:1,S3,cocrystal_screen
+cg2c00433-CARB-BITZ-c5,CARB,BITZ,LAG,n-heptane,x,physical_mixture,1:1,S3,cocrystal_screen
+cg2c00433-CARB-BITZ-c6,CARB,BITZ,LAG,diethyl ether,x,physical_mixture,1:1,S3,cocrystal_screen
+cg2c00433-CARB-BITZ-c7,CARB,BITZ,cosublimation,,x,physical_mixture,1:1,S3,cocrystal_screen
+cg2c00433-CARB-CEBG-c1,CARB,CEBG,contact_preparation,,yes,multicomponent_form_observed,,S3,cocrystal_screen
+cg2c00433-CARB-CEBG-c2,CARB,CEBG,slurry,n-heptane,yes,multicomponent_form_observed,1:1,S3,cocrystal_screen
+cg2c00433-CARB-CEBG-c3,CARB,CEBG,slurry,pyridine,n. a.,not_attempted,1:1,S3,cocrystal_screen
+cg2c00433-CARB-CEBG-c4,CARB,CEBG,slurry,diethyl ether,yes,multicomponent_form_observed,1:1,S3,cocrystal_screen
+cg2c00433-CARB-CEBG-c5,CARB,CEBG,LAG,n-heptane,yes,multicomponent_form_observed,1:1,S3,cocrystal_screen
+cg2c00433-CARB-CEBG-c6,CARB,CEBG,LAG,diethyl ether,yes,multicomponent_form_observed,1:1,S3,cocrystal_screen
+cg2c00433-CARB-CEBG-c7,CARB,CEBG,cosublimation,,x,physical_mixture,1:1,S3,cocrystal_screen
+cg2c00433-CARB-DUPK-c1,CARB,DUPK,contact_preparation,,x,physical_mixture,,S3,cocrystal_screen
+cg2c00433-CARB-DUPK-c2,CARB,DUPK,slurry,n-heptane,Inconclusive,inconclusive,1:1,S3,cocrystal_screen
+cg2c00433-CARB-DUPK-c3,CARB,DUPK,slurry,pyridine,n. a.,not_attempted,1:1,S3,cocrystal_screen
+cg2c00433-CARB-DUPK-c4,CARB,DUPK,slurry,diethyl ether,x,physical_mixture,1:1,S3,cocrystal_screen
+cg2c00433-CARB-DUPK-c5,CARB,DUPK,LAG,n-heptane,x,physical_mixture,1:1,S3,cocrystal_screen
+cg2c00433-CARB-DUPK-c6,CARB,DUPK,LAG,diethyl ether,x,physical_mixture,1:1,S3,cocrystal_screen
+cg2c00433-CARB-DUPK-c7,CARB,DUPK,cosublimation,,x,physical_mixture,1:1,S3,cocrystal_screen
+cg2c00433-CARB-ESAL-c1,CARB,ESAL,contact_preparation,,n. a.,not_attempted,,S3,cocrystal_screen
+cg2c00433-CARB-ESAL-c2,CARB,ESAL,slurry,n-heptane,yes,multicomponent_form_observed,1:1,S3,cocrystal_screen
+cg2c00433-CARB-ESAL-c3,CARB,ESAL,slurry,pyridine,n. a.,not_attempted,1:1,S3,cocrystal_screen
+cg2c00433-CARB-ESAL-c4,CARB,ESAL,slurry,diethyl ether,yes,multicomponent_form_observed,1:1,S3,cocrystal_screen
+cg2c00433-CARB-ESAL-c5,CARB,ESAL,LAG,n-heptane,yes,multicomponent_form_observed,1:1,S3,cocrystal_screen
+cg2c00433-CARB-ESAL-c6,CARB,ESAL,LAG,diethyl ether,yes,multicomponent_form_observed,1:1,S3,cocrystal_screen
+cg2c00433-CARB-ESAL-c7,CARB,ESAL,cosublimation,,x,physical_mixture,1:1,S3,cocrystal_screen
+cg2c00433-CARB-NICC-c1,CARB,NICC,contact_preparation,,n. a.,not_attempted,,S3,cocrystal_screen
+cg2c00433-CARB-NICC-c2,CARB,NICC,slurry,n-heptane,x,physical_mixture,1:1,S3,cocrystal_screen
+cg2c00433-CARB-NICC-c3,CARB,NICC,slurry,pyridine,n. a.,not_attempted,1:1,S3,cocrystal_screen
+cg2c00433-CARB-NICC-c4,CARB,NICC,slurry,diethyl ether,x,physical_mixture,1:1,S3,cocrystal_screen
+cg2c00433-CARB-NICC-c5,CARB,NICC,LAG,n-heptane,x,physical_mixture,1:1,S3,cocrystal_screen
+cg2c00433-CARB-NICC-c6,CARB,NICC,LAG,diethyl ether,x,physical_mixture,1:1,S3,cocrystal_screen
+cg2c00433-CARB-NICC-c7,CARB,NICC,cosublimation,,x,physical_mixture,1:1,S3,cocrystal_screen
+cg2c00433-CARB-NICM-c1,CARB,NICM,contact_preparation,,yes,multicomponent_form_observed,,S3,cocrystal_screen
+cg2c00433-CARB-NICM-c2,CARB,NICM,slurry,n-heptane,yes,multicomponent_form_observed,1:1,S3,cocrystal_screen
+cg2c00433-CARB-NICM-c3,CARB,NICM,slurry,pyridine,n. a.,not_attempted,1:1,S3,cocrystal_screen
+cg2c00433-CARB-NICM-c4,CARB,NICM,slurry,diethyl ether,yes,multicomponent_form_observed,1:1,S3,cocrystal_screen
+cg2c00433-CARB-NICM-c5,CARB,NICM,LAG,n-heptane,yes,multicomponent_form_observed,1:1,S3,cocrystal_screen
+cg2c00433-CARB-NICM-c6,CARB,NICM,LAG,diethyl ether,yes,multicomponent_form_observed,1:1,S3,cocrystal_screen
+cg2c00433-CARB-NICM-c7,CARB,NICM,cosublimation,,x,physical_mixture,1:1,S3,cocrystal_screen
+cg2c00433-CARB-OXAL-c1,CARB,OXAL,contact_preparation,,n. a.,not_attempted,,S3,cocrystal_screen
+cg2c00433-CARB-OXAL-c2,CARB,OXAL,slurry,n-heptane,yes,multicomponent_form_observed,1:1,S3,cocrystal_screen
+cg2c00433-CARB-OXAL-c3,CARB,OXAL,slurry,pyridine,n. a.,not_attempted,1:1,S3,cocrystal_screen
+cg2c00433-CARB-OXAL-c4,CARB,OXAL,slurry,diethyl ether,yes,multicomponent_form_observed,1:1,S3,cocrystal_screen
+cg2c00433-CARB-OXAL-c5,CARB,OXAL,LAG,n-heptane,yes,multicomponent_form_observed,1:1,S3,cocrystal_screen
+cg2c00433-CARB-OXAL-c6,CARB,OXAL,LAG,diethyl ether,yes,multicomponent_form_observed,1:1,S3,cocrystal_screen
+cg2c00433-CARB-OXAL-c7,CARB,OXAL,cosublimation,,x,physical_mixture,1:1,S3,cocrystal_screen
+cg2c00433-CARB-SUCA-c1,CARB,SUCA,contact_preparation,,n. a.,not_attempted,,S3,cocrystal_screen
+cg2c00433-CARB-SUCA-c2,CARB,SUCA,slurry,n-heptane,yes,multicomponent_form_observed,1:1,S3,cocrystal_screen
+cg2c00433-CARB-SUCA-c3,CARB,SUCA,slurry,pyridine,n. a.,not_attempted,1:1,S3,cocrystal_screen
+cg2c00433-CARB-SUCA-c4,CARB,SUCA,slurry,diethyl ether,yes,multicomponent_form_observed,1:1,S3,cocrystal_screen
+cg2c00433-CARB-SUCA-c5,CARB,SUCA,LAG,n-heptane,yes,multicomponent_form_observed,1:1,S3,cocrystal_screen
+cg2c00433-CARB-SUCA-c6,CARB,SUCA,LAG,diethyl ether,yes,multicomponent_form_observed,1:1,S3,cocrystal_screen
+cg2c00433-CARB-SUCA-c7,CARB,SUCA,cosublimation,,x,physical_mixture,1:1,S3,cocrystal_screen
+cg2c00433-CARB-TELZ-c1,CARB,TELZ,contact_preparation,,x,physical_mixture,,S3,cocrystal_screen
+cg2c00433-CARB-TELZ-c2,CARB,TELZ,slurry,n-heptane,yes,multicomponent_form_observed,1:1,S3,cocrystal_screen
+cg2c00433-CARB-TELZ-c3,CARB,TELZ,slurry,pyridine,n. a.,not_attempted,1:1,S3,cocrystal_screen
+cg2c00433-CARB-TELZ-c4,CARB,TELZ,slurry,diethyl ether,yes,multicomponent_form_observed,1:1,S3,cocrystal_screen
+cg2c00433-CARB-TELZ-c5,CARB,TELZ,LAG,n-heptane,yes,multicomponent_form_observed,1:1,S3,cocrystal_screen
+cg2c00433-CARB-TELZ-c6,CARB,TELZ,LAG,diethyl ether,yes,multicomponent_form_observed,1:1,S3,cocrystal_screen
+cg2c00433-CARB-TELZ-c7,CARB,TELZ,cosublimation,,x,physical_mixture,1:1,S3,cocrystal_screen
+cg2c00433-CARB-PYRD-c1,CARB,PYRD,contact_preparation,,n. a.,not_attempted,,S3,solvate
+cg2c00433-CARB-PYRD-c2,CARB,PYRD,slurry,n-heptane,n. a.,not_attempted,1:1,S3,solvate
+cg2c00433-CARB-PYRD-c3,CARB,PYRD,slurry,pyridine,x,physical_mixture,1:1,S3,solvate
+cg2c00433-CARB-PYRD-c4,CARB,PYRD,slurry,diethyl ether,n. a.,not_attempted,1:1,S3,solvate
+cg2c00433-CARB-PYRD-c5,CARB,PYRD,LAG,n-heptane,n. a.,not_attempted,1:1,S3,solvate
+cg2c00433-CARB-PYRD-c6,CARB,PYRD,LAG,diethyl ether,n. a.,not_attempted,1:1,S3,solvate
+cg2c00433-CARB-PYRD-c7,CARB,PYRD,cosublimation,,n. a.,not_attempted,1:1,S3,solvate

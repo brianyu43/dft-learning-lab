@@ -1,0 +1,26 @@
+ase            3.29.0         ok
+rdkit          2026.3.6       ok
+pymatgen       2026.5.4       ok
+spglib         2.7.0          ok
+pyscf          2.14.0         ok
+geometric      1.1.1          ok
+numpy          2.4.6          ok
+scipy          1.17.1         ok
+pandas         3.0.5          ok
+matplotlib     3.11.1         ok
+jupyterlab     4.6.3          ok
+ipykernel      7.3.0          ok
+cclib          1.8.1          ok
+py3dmol        2.5.5          ok
+pw.x           available
+ph.x           available
+bands.x        available
+dos.x          available
+projwfc.x      available
+pp.x           available
+q2r.x          available
+matdyn.x       available
+dynmat.x       available
+xtb            available
+orca           available
+Saved reports/doctor.json

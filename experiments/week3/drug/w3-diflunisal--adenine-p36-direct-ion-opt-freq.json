@@ -1,0 +1,75 @@
+{
+  "protocol_id": "dft-pilot-20260909-v1-week3",
+  "week": 3,
+  "task_id": "DR03",
+  "job_id": "w3-diflunisal--adenine-p36-direct-ion-opt-freq",
+  "engine": "orca",
+  "executable": "scripts/orca_parallel.sh",
+  "input": "inputs/orca/week3/w3-diflunisal--adenine-p36-direct-ion-opt-freq.inp",
+  "method": "r2SCAN-3c",
+  "charge": 0,
+  "multiplicity": 1,
+  "solvent": "vacuum",
+  "n_atoms": 41,
+  "linear": false,
+  "requested": {
+    "optimization": true,
+    "frequencies": true
+  },
+  "mpi_processes": 12,
+  "omp_threads": 1,
+  "timeout_seconds": 14400,
+  "rss_limit_gib": 40,
+  "assets": {
+    ".tools/orca-mpi/lib/libmpi.40.dylib": "libmpi.40.dylib",
+    ".tools/orca-mpi/lib/libopen-rte.40.dylib": "libopen-rte.40.dylib",
+    ".tools/orca-mpi/lib/libopen-pal.40.dylib": "libopen-pal.40.dylib",
+    ".tools/orca-mpi/lib/libopen-orted-mpir.dylib": "libopen-orted-mpir.dylib",
+    ".tools/orca-mpi/lib/libz.1.dylib": "libz.1.dylib",
+    "structures/week3/drug_initial/diflunisal--adenine-p36-direct-ion.xyz": "initial.xyz",
+    "experiments/week3/drug/candidates/diflunisal--adenine-p36.json": "candidate.json",
+    "scripts/run_week3_drug_v2.py": "week3_parser_snapshot.py",
+    "scripts/run_week2_xtb_screen.py": "provenance/geometry_audit_snapshot.py",
+    "scripts/run_week2_frequency_resume.py": "provenance/hessian_check_snapshot.py",
+    "scripts/orca_parallel.sh": "provenance/parallel_launcher_snapshot.sh",
+    "environment/orca-mpi-explicit.txt": "provenance/orca-mpi-explicit.txt"
+  },
+  "candidate_id": "diflunisal--adenine-p36",
+  "species": "diflunisal--adenine",
+  "role": "literature_N1_proton_transfer_probe",
+  "source_geometry": "structures/week2/drug_initial/diflunisal--adenine-p36.xyz",
+  "source_geometry_sha256": "773ff3f869ae45756de810487befa701cba123e7d947406e85f649ae6bb6b041",
+  "initial_structure_sha256": "773ff3f869ae45756de810487befa701cba123e7d947406e85f649ae6bb6b041",
+  "candidate_sha256": "58fb956e0bb2a097f96f83d23ddd39134e4e8d386f9711cfdbea950943ffd677",
+  "week3_parser_sha256": "229eeeab19a186969047afeda344cbbed79f7c5db12412d2a5ee201bb545e2ed",
+  "state_scope": "Starting chemical graph and actual hydrogen ownership recorded; isolated 1:1 dimer or monomer, not crystal stoichiometry",
+  "source_stage": "direct proton-transfer initial geometry",
+  "selection_uses_formation_labels": false,
+  "initial_geometry_audit": {
+    "status": "geometry_checked",
+    "heavy_connectivity_preserved": true,
+    "lost_heavy_bonds": [],
+    "new_heavy_bonds": [],
+    "hydrogen_owner_changes": [
+      {
+        "hydrogen": 18,
+        "from": 2,
+        "to": 28,
+        "bond_distance_angstrom": 1.04
+      }
+    ],
+    "unassigned_hydrogens": [],
+    "chemical_state_preserved_by_geometry": false,
+    "closest_interfragment_distance_angstrom": 1.04,
+    "separated_geometry": false,
+    "cross_fragment_proton_transfer": [
+      {
+        "hydrogen": 18,
+        "from": 2,
+        "to": 28,
+        "bond_distance_angstrom": 1.04
+      }
+    ]
+  },
+  "purpose": "Week-three vacuum contact/control comparison; no crystal formation or polymorph claim"
+}

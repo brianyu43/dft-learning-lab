@@ -1,0 +1,72 @@
+{
+  "engine_version": "6.1.1",
+  "normal_termination": true,
+  "scf_converged": true,
+  "geometry_optimization_converged": true,
+  "energy": -76.418938720851,
+  "energy_unit": "Hartree",
+  "energy_history": [
+    -76.418909796625,
+    -76.418937118447,
+    -76.418938340728,
+    -76.418938719209,
+    -76.418938720851
+  ],
+  "frequencies_cm1": [
+    1653.27,
+    3813.6,
+    3932.73
+  ],
+  "all_reported_modes_cm1": [
+    [
+      0,
+      0.0
+    ],
+    [
+      1,
+      0.0
+    ],
+    [
+      2,
+      0.0
+    ],
+    [
+      3,
+      0.0
+    ],
+    [
+      4,
+      0.0
+    ],
+    [
+      5,
+      0.0
+    ],
+    [
+      6,
+      1653.27
+    ],
+    [
+      7,
+      3813.6
+    ],
+    [
+      8,
+      3932.73
+    ]
+  ],
+  "frequency_count_expected": 3,
+  "frequency_count_observed": 3,
+  "projected_external_modes_verified": true,
+  "imaginary_frequencies_cm1": [],
+  "lowest_vibrational_frequency_cm1": 1653.27,
+  "minimum_verified": true,
+  "frequency_analysis_complete": true,
+  "optimization_cycles": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "status": "passed"
+}

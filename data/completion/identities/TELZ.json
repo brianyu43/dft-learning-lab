@@ -1,0 +1,14 @@
+{
+  "PropertyTable": {
+    "Properties": [
+      {
+        "CID": 643757,
+        "MolecularFormula": "C6H6O6",
+        "SMILES": "C(/C(=C/C(=O)O)/C(=O)O)C(=O)O",
+        "ConnectivitySMILES": "C(C(=CC(=O)O)C(=O)O)C(=O)O",
+        "InChIKey": "GTZCVFVGUGFEME-IWQZZHSRSA-N",
+        "IUPACName": "(Z)-prop-1-ene-1,2,3-tricarboxylic acid"
+      }
+    ]
+  }
+}

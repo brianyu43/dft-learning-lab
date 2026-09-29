@@ -1,0 +1,19 @@
+{
+  "status": "plan_only_not_started",
+  "is_executable_scheduler": false,
+  "execution_enabled": false,
+  "remaining_primary_monomer_optimizations": 3,
+  "remaining_primary_dimer_optimizations": 8,
+  "additional_direct_DIF_ADE_proton_transfer_optimization": 1,
+  "remaining_optimization_start_count": 12,
+  "additional_frequency_calculation_upper_bound": 12,
+  "initial_MPI_processes": 12,
+  "early_cost_review": "Measure the first new uninterrupted 12-process Opt plus Freq before expanding the panel; the EnGrad speedup is not a full-job runtime prediction.",
+  "frequency_policy": "Optimize first, then identify equivalent same-state/same-species minima before running redundant Hessians. Every distinct reported minimum still requires a successful frequency calculation.",
+  "state_gate": "Select the exact direct proton-transfer start after reviewing acceptor-site chemistry; keep the original XYZ instead of forcing xTB relaxation first.",
+  "further_pose_expansion": "Conditional, within the original maximum of 3 starts per species and the remaining 80 hour budget",
+  "measured_cost_scenario_hours": 26.997250833333332,
+  "remaining_drug_budget_hours": 75.88367425,
+  "three_starts_each_historical_scenario_within_remaining_budget": false,
+  "cost_scope": "Full Opt+Freq cost conservatively assigned even to the extra ion start; actual duplicate-Hessian savings not assumed"
+}

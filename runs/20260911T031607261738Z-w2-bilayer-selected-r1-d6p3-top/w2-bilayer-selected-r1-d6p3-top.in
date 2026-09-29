@@ -1,0 +1,47 @@
+&CONTROL
+   calculation      = 'scf'
+   tprnfor          = .true.
+   outdir           = './scratch'
+   prefix           = 'w2_bilayer_selected_r1_d6p3_top'
+   pseudo_dir       = './pseudo'
+/
+&SYSTEM
+   ecutwfc          = 80
+   ecutrho          = 320
+   occupations      = 'fixed'
+   nspin            = 1
+   input_dft        = 'vdw-df-c09'
+   ntyp             = 2
+   nat              = 3
+   ibrav            = 0
+/
+&ELECTRONS
+   electron_maxstep = 200
+   conv_thr         = 1e-10
+   mixing_beta      = 0.4
+/
+&IONS
+/
+&CELL
+/
+&FCP
+/
+&RISM
+/
+ATOMIC_SPECIES
+Mo 95.95 Mo.upf
+S 32.06 S.upf
+
+K_POINTS automatic
+6 6 1  0 0 0
+
+CELL_PARAMETERS angstrom
+3.18000000000000 0.00000000000000 0.00000000000000
+-1.59000000000000 2.75396078403451 0.00000000000000
+0.00000000000000 0.00000000000000 29.41276994975120
+
+ATOMIC_POSITIONS angstrom
+Mo 0.0000000000 1.8359738560 17.8563849749  
+S 1.5900000000 2.7539607840 19.4127699498  
+S 1.5900000000 2.7539607840 16.3000000000  
+

@@ -1,0 +1,15 @@
+{
+  "week": 1,
+  "status": "week1_core_calculations_complete_with_open_research_preconditions",
+  "tasks": {
+    "P00": "partial: final pair labels verified; positive methods from author preprint; final SI and negative attempt conditions unresolved",
+    "P01": "complete for local serial ORCA/OpenMP QE; documented RSS visibility limits",
+    "P02": "complete: SCF/Opt/Freq and Hessian cross-check passed",
+    "P03": "complete: one conformer SCF/Opt/Freq and Hessian cross-check passed",
+    "DR00": "partial: five identities, 31 unreviewed tautomer candidates, 15 MMFF initial geometries; DFT state/pose selection pending week2",
+    "SR00": "week1 files/method frozen with explicit PBE-pseudo/C09 approximation; exact reference revision unverified",
+    "SR01": "week1 fixed-cell monolayer relaxation and targeted stricter SCF passed; full convergence/bilayer reference pending week2"
+  },
+  "summary": "reports/week1-summary.json",
+  "report": "reports/WEEK1_RESULTS.ko.md"
+}

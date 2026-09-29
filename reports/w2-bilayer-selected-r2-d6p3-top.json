@@ -1,0 +1,97 @@
+{
+  "protocol_id": "dft-pilot-20260909-v1-week2",
+  "week": 2,
+  "job_id": "w2-bilayer-selected-r2-d6p3-top",
+  "task_id": "SR01",
+  "engine": "qe",
+  "executable": ".tools/qe-7.6/bin/pw.x",
+  "input": "inputs/qe/week2/w2-bilayer-selected-r2-d6p3-top.in",
+  "assets": {
+    "data/pseudopotentials/pseudo-dojo-nc-sr-04-pbe-standard/Mo.upf": "pseudo/Mo.upf",
+    "data/pseudopotentials/pseudo-dojo-nc-sr-04-pbe-standard/S.upf": "pseudo/S.upf"
+  },
+  "method": "vdW-DF-C09; PseudoDojo nc-sr-04 standard PBE scalar NC",
+  "purpose": "week2 numerical sensitivity at fixed geometry",
+  "requested": {
+    "optimization": false,
+    "frequencies": false
+  },
+  "n_atoms": 3,
+  "charge": 0,
+  "SOC": false,
+  "ecutwfc_Ry": 80,
+  "ecutrho_Ry": 320,
+  "k_grid": [
+    6,
+    6,
+    1
+  ],
+  "vacuum_gap_angstrom": 26.3,
+  "conv_thr_Ry": 1e-10,
+  "lattice_a_angstrom": 3.18,
+  "timeout_seconds": 43200,
+  "rss_limit_gib": 40,
+  "omp_threads": 4,
+  "accuracy_scope": "Numerical sensitivity only at this composition/geometry; exact literature pseudo revision unverified",
+  "configuration_id": "selected-r2-d6p3-top",
+  "reference_bilayer_vacuum_gap_angstrom": 20,
+  "calculation_role": "top",
+  "registry_fraction": [
+    0.6666666666666666,
+    0.3333333333333333
+  ],
+  "Mo_plane_distance_angstrom": 6.3,
+  "orientation": "R-type: identical in-plane orientation, no twist",
+  "comparison_setting": "selected",
+  "started_at": "2026-09-11T03:20:13.736629+00:00",
+  "status": "passed",
+  "run_dir": "/Users/xavier/Documents/dev/generaldrugs/dft/runs/20260911T032013734821Z-w2-bilayer-selected-r2-d6p3-top",
+  "config_sha256": "dd096e0202cdae5a80f3a427bb0675e56b56dd32be2ed1629cc870ed879e6321",
+  "source_sha256": {
+    "inputs/qe/week2/w2-bilayer-selected-r2-d6p3-top.in": "6d90bf6a538bf88b3c1367d906c8dfeff863ee64e699fa233388f94ee0622ad3",
+    "data/pseudopotentials/pseudo-dojo-nc-sr-04-pbe-standard/Mo.upf": "7a392dee2cc7088d02184ddefa73b709f11e266fdde348a08eeaf8ea2870e448",
+    "data/pseudopotentials/pseudo-dojo-nc-sr-04-pbe-standard/S.upf": "7dcddbca51ad05414445cc784264d39f139300f47897ae96740f49d6ba96daa7"
+  },
+  "executable_sha256": "d9c0a96099241bc96b8fc5783ae61363f9d667458fc2fee19ab13b71cd354ed5",
+  "command": [
+    "/Users/xavier/Documents/dev/generaldrugs/dft/.tools/qe-7.6/bin/pw.x",
+    "-in",
+    "w2-bilayer-selected-r2-d6p3-top.in"
+  ],
+  "runner_sha256": "e276ab1aa4ddc435d0a3aceec06b27445f6a6c1263f101009d5de14e6cc70cf6",
+  "stop_reason": null,
+  "thread_environment": {
+    "OMP_NUM_THREADS": "4",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "VECLIB_MAXIMUM_THREADS": "1"
+  },
+  "pid": 63969,
+  "engine_launched": true,
+  "ended_at": "2026-09-11T03:21:26.662892+00:00",
+  "elapsed_seconds": 72.921,
+  "exit_code": 0,
+  "peak_sampled_process_tree_rss_bytes": 593002496,
+  "memory_samples": 141,
+  "memory_access_denied": 0,
+  "max_single_child_rss_bytes": 611909632,
+  "system_swap_increase_peak_bytes": 0,
+  "memory_measurement": "0.5s sampled summed process-tree RSS; may double-count shared pages and miss peaks. OS ru_maxrss is maximum single-child RSS in macOS bytes. Swap is system-wide, not attributable solely to this job.",
+  "output_sha256": "45d00058b1a6bd788339575820bde7e4e349e2ec2e23f963ae304a79119e190d",
+  "result": {
+    "engine_version": "7.6",
+    "normal_termination": true,
+    "scf_converged": true,
+    "geometry_optimization_converged": null,
+    "energy": -184.82972186,
+    "energy_unit": "Ry",
+    "energy_history": [
+      -184.82972186
+    ],
+    "minimum_verified": null,
+    "frequency_analysis_complete": false,
+    "total_force_Ry_Bohr": 2e-06,
+    "accuracy_scope": "Numerical sensitivity only at this composition/geometry; exact literature pseudo revision unverified",
+    "status": "passed"
+  }
+}

@@ -1,0 +1,22 @@
+# This file may be used to create an environment using:
+# $ conda create --name <env> --file <this file>
+# platform: osx-arm64
+@EXPLICIT
+https://conda.anaconda.org/conda-forge/osx-arm64/llvm-openmp-23.1.0-hdb3d66b_0.conda#0affff5130a421d11d4d77ffbb00dad7
+https://conda.anaconda.org/conda-forge/osx-arm64/_openmp_mutex-4.5-8_kmp_llvm.conda#a2d706b4a7d603524133037c34f7fb76
+https://conda.anaconda.org/conda-forge/osx-arm64/libgcc-16.2.0-h3cf6597_4.conda#408af8d9d5226ff45ff04756ff1aa91e
+https://conda.anaconda.org/conda-forge/osx-arm64/libgfortran5-16.2.0-hdb7a957_4.conda#d54390644d893d50e739b19145aae45f
+https://conda.anaconda.org/conda-forge/osx-arm64/libgfortran-16.2.0-h07b0088_4.conda#aa6c627acd0f5709d9c79bf708a7b81b
+https://conda.anaconda.org/conda-forge/osx-arm64/libopenblas-0.3.34-openmp_h4f80526_1.conda#0b5dfcfae89beafb81234b90d5d07729
+https://conda.anaconda.org/conda-forge/osx-arm64/libblas-3.11.0-10_h51639a9_openblas.conda#37ec75f777eac2ee1322e19d64df82e7
+https://conda.anaconda.org/conda-forge/osx-arm64/liblapack-3.11.0-10_hd9741b5_openblas.conda#35ee607ea2e9f75c699158c5f77ef9fd
+https://conda.anaconda.org/conda-forge/osx-arm64/toml-f-0.5.2-gfortran_h04795c8_0.conda#b3ae81fad58ce6929d8d4762d6ed5d04
+https://conda.anaconda.org/conda-forge/osx-arm64/jonquil-0.3.2-gfortran_h04795c8_0.conda#003ddfb69a316636d6694a76cf624b4a
+https://conda.anaconda.org/conda-forge/osx-arm64/mctc-lib-0.5.2-gfortran_h0230218_0.conda#598c2c0357e09faba1afb7281309b3f9
+https://conda.anaconda.org/conda-forge/osx-arm64/numsa-0.2.0-gfortran_h04795c8_2.conda#d124c6445534a5dc4c2c2269e644aec5
+https://conda.anaconda.org/conda-forge/osx-arm64/cpcm-x-1.1.0-gfortran_h69f682d_1.conda#bfc5f9b103b01fe60bb82b27ae3b6928
+https://conda.anaconda.org/conda-forge/osx-arm64/multicharge-0.5.0-gfortran_hc17bbfb_2.conda#e284734213fac7756f56a32355d893e7
+https://conda.anaconda.org/conda-forge/osx-arm64/dftd4-4.2.0-gfortran_hc17bbfb_1.conda#bca14bb0b5999cefdd907c7d9f54b1fd
+https://conda.anaconda.org/conda-forge/osx-arm64/simple-dftd3-1.4.0-gfortran_h0230218_1.conda#f5977ee6261e346eec3a7954dbab23b9
+https://conda.anaconda.org/conda-forge/osx-arm64/tblite-0.6.0-gfortran_hc17bbfb_0.conda#c14948def8c80474ed33a1a5baf811c5
+https://conda.anaconda.org/conda-forge/osx-arm64/xtb-6.7.1-gfortran_hc17bbfb_5.conda#f5570e5cd6a8b2491837fd26ce8e2f4f

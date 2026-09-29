@@ -1,0 +1,28 @@
+{
+  "retrieved_at": "2026-09-10T09:33:51.848235+00:00",
+  "source": "https://www.pseudo-dojo.org/",
+  "family": "nc-sr-04_pbe_standard",
+  "records": [
+    {
+      "element": "Mo",
+      "url": "https://www.pseudo-dojo.org/pseudos/nc-sr-04_pbe_standard/Mo.upf.gz",
+      "compressed_sha256": "91ed5f7fd9cfee0abe945978eaf6a3b77f1f519f10f61ad276cde2dc5c00ed3a",
+      "sha256": "7a392dee2cc7088d02184ddefa73b709f11e266fdde348a08eeaf8ea2870e448",
+      "bytes": 302634
+    },
+    {
+      "element": "S",
+      "url": "https://www.pseudo-dojo.org/pseudos/nc-sr-04_pbe_standard/S.upf.gz",
+      "compressed_sha256": "3e4914eb1d60c99f9c482565169bb785be05fce4e2ec827576808670246e43c4",
+      "sha256": "7dcddbca51ad05414445cc784264d39f139300f47897ae96740f49d6ba96daa7",
+      "bytes": 174131
+    },
+    {
+      "element": "Se",
+      "url": "https://www.pseudo-dojo.org/pseudos/nc-sr-04_pbe_standard/Se.upf.gz",
+      "compressed_sha256": "3b3b89cb8244bf00d81832e7bb14659b6366f939d123d650b66e0bc5a9be3271",
+      "sha256": "1f5d0f8b99028dee90766aab811ce5d8bb2c2b2ad38ec60436d1c2888ef5109c",
+      "bytes": 209555
+    }
+  ]
+}

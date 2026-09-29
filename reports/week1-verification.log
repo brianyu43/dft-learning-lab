@@ -1,0 +1,71 @@
+{
+  "status": "passed",
+  "checks": [
+    {
+      "species": "water",
+      "status": "passed",
+      "atom_count": 3,
+      "formula": "H2O",
+      "hessian_sha256": "a37869abba75a225517e06578b709a39c4225fee8a36d565060710f1de4f48df",
+      "optimized_xyz_sha256": "1973f7491286efaa83d078ec648d745c56ed9e9d37be1216043d9be4da1865c4",
+      "hessian_vs_log_frequency_max_difference_cm1": 0.003092809089594084,
+      "hessian_lowest_vibration_cm1": 1653.2704017254923,
+      "xyz_comment_energy_matches_log": true,
+      "optimized_xyz": "structures/optimized/week1/water.xyz",
+      "energy_change_from_initial_Hartree": -2.8924226000981434e-05,
+      "OH_bonds_angstrom": [
+        0.961767206165102,
+        0.96176720612794
+      ],
+      "HOH_angle_degrees": 104.05002094723405
+    },
+    {
+      "species": "acetaminophen",
+      "status": "passed",
+      "atom_count": 20,
+      "formula": "C8H9NO2",
+      "hessian_sha256": "009124fe0249ca7ccd82725d564221c038d590f7d4b9447b3918e313b60a8a01",
+      "optimized_xyz_sha256": "b5f7fc7cf2385690e51dad34edaacd431158abd261fc11c408cd0f16213c2a4e",
+      "hessian_vs_log_frequency_max_difference_cm1": 0.004980060558864352,
+      "hessian_lowest_vibration_cm1": 34.00949970820556,
+      "xyz_comment_energy_matches_log": true,
+      "optimized_xyz": "structures/optimized/week1/acetaminophen.xyz",
+      "energy_change_from_initial_Hartree": -0.0023562171270441468
+    },
+    {
+      "species": "MoS2",
+      "status": "passed",
+      "ASE_ionic_images": 5,
+      "energy_eV": -2514.736411267702,
+      "ASE_energy_matches_Ry_conversion": true,
+      "unit_policy": "ASE reader checked in its own CODATA 2006 units; final eV/Angstrom from XML and QE 7.6 constants",
+      "cell_fixed_verified": true,
+      "atom_count": 3,
+      "cell_verification_source": "QE full-precision XML, not rounded console axes",
+      "QE_XML_sha256": "372be291c987d3d6c589695a61b3e8581bbef860d68f7afc162e858ea49ca389",
+      "final_max_atomic_force_eV_angstrom": 1.5138667194924622e-05,
+      "final_S_to_S_thickness_angstrom": 3.112769949751197,
+      "final_vacuum_gap_angstrom": 20.0772300502488,
+      "optimized_cif": "structures/optimized/week1/MoS2_fixed_cell_relaxed.cif",
+      "optimized_cif_sha256": "1e5c2623381c4649cad059dcd47f4cdafe0cea3ac41f1f372f23da520b521775",
+      "phonon_stability_verified": false,
+      "precision_convergence_verified": false
+    },
+    {
+      "species": "MoS2-strict-SCF",
+      "status": "passed",
+      "conv_thr_change_Ry": [
+        1e-08,
+        1e-10
+      ],
+      "geometry_and_cell_unchanged": true,
+      "energy_change_eV": -5.816218617837876e-10,
+      "max_atomic_force_eV_angstrom": 2.1523440165447606e-05,
+      "max_atomic_force_change_eV_angstrom": 6.384772970522984e-06,
+      "QE_XML_sha256": "8b602d1be1dd9421ada9dda4943b413e3c4bddf49947ce338f2ed1b17071e78e",
+      "scope": "One SCF threshold check only; no complete numerical convergence study"
+    }
+  ],
+  "scope": "Independent file/format checks on real engine outputs, not independent physical methods or experimental validation",
+  "cclib_crosscheck": "unavailable: cclib 1.8.1 raised IndexError while reading ORCA 6.1.1 SCF block; Hessian file and XYZ/log cross-check used instead"
+}

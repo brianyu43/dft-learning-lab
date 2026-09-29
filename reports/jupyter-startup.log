@@ -1,0 +1,4 @@
+[I 2026-09-09 13:04:46.819 LabApp] JupyterLab extension loaded from /Users/xavier/Documents/dev/generaldrugs/dft/.venv/lib/python3.11/site-packages/jupyterlab
+[I 2026-09-09 13:04:46.819 LabApp] JupyterLab application directory is /Users/xavier/Documents/dev/generaldrugs/dft/.venv/share/jupyter/lab
+[I 2026-09-09 13:04:46.820 LabApp] Extension Manager is 'pypi'.
+[C 2026-09-09 13:04:47.089 ServerApp] received signal 15, stopping

@@ -1,0 +1,10 @@
+{
+  "batch_id": "week3-lattice-equilibria",
+  "budget_seconds": 14400,
+  "jobs": [
+    "experiments/week3/materials/w3-mos2-lattice-vc.json",
+    "experiments/week3/materials/w3-mose2-lattice-vc.json"
+  ],
+  "execution_enabled": false,
+  "review": "Run after first drug full-cost review; verify Se sensitivity and final cell before heterobilayers"
+}

@@ -1,0 +1,13 @@
+test_analytic_24_atom_optimization_has_exact_constrained_solution (test_completion_qe_relaxation.VerifiedSCFOptimizerTests.test_analytic_24_atom_optimization_has_exact_constrained_solution) ... ok
+test_analytic_calculator_requires_an_explicit_test_label (test_completion_qe_relaxation.VerifiedSCFOptimizerTests.test_analytic_calculator_requires_an_explicit_test_label) ... ok
+test_archived_real_SCFs_update_only_at_the_requested_geometry (test_completion_qe_relaxation.VerifiedSCFOptimizerTests.test_archived_real_SCFs_update_only_at_the_requested_geometry) ... ok
+test_default_curvature_reaches_planned_force_tolerance_in_analytic_test (test_completion_qe_relaxation.VerifiedSCFOptimizerTests.test_default_curvature_reaches_planned_force_tolerance_in_analytic_test) ... ok
+test_fixed_cell_species_or_charge_change_rejected_before_backend (test_completion_qe_relaxation.VerifiedSCFOptimizerTests.test_fixed_cell_species_or_charge_change_rejected_before_backend) ... ok
+test_numerical_settings_have_a_distinct_fingerprint (test_completion_qe_relaxation.VerifiedSCFOptimizerTests.test_numerical_settings_have_a_distinct_fingerprint) ... ok
+test_short_optimization_budget_is_not_reported_as_convergence (test_completion_qe_relaxation.VerifiedSCFOptimizerTests.test_short_optimization_budget_is_not_reported_as_convergence) ... ok
+test_stale_report_rejected_and_cached_forces_cleared (test_completion_qe_relaxation.VerifiedSCFOptimizerTests.test_stale_report_rejected_and_cached_forces_cleared) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.112s
+
+OK

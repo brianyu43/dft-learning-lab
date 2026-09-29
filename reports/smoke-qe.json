@@ -1,0 +1,57 @@
+{
+  "purpose": "installation smoke test, not a scientific benchmark",
+  "engine": "qe",
+  "charge": 0,
+  "spin_polarized": false,
+  "geometry_optimization": "not_run",
+  "minimum_verification": "not_run",
+  "thread_environment": {
+    "OMP_NUM_THREADS": "4",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "VECLIB_MAXIMUM_THREADS": "1"
+  },
+  "version": "7.6",
+  "method": "PBE/ONCV",
+  "system": "Si2 diamond",
+  "ecutwfc_Ry": 30,
+  "ecutrho_Ry": 120,
+  "k_grid": [
+    2,
+    2,
+    2
+  ],
+  "k_offset": [
+    0,
+    0,
+    0
+  ],
+  "lattice_parameter_angstrom": 5.43,
+  "SOC": false,
+  "pseudo_sha256": "d66fa1bb73367f9a2fc34286ecd0876fa1c8c79b25f3b12b30b5b8dc2164148c",
+  "accuracy": "unconverged demonstration settings",
+  "input_sha256": {
+    "silicon_scf.in": "4a7b096156d357f853facb05bb2af4fd531a429a6d1e022f3340bf6be169dd15"
+  },
+  "executable": "/Users/xavier/Documents/dev/generaldrugs/dft/.tools/qe-7.6/bin/pw.x",
+  "executable_sha256": "d9c0a96099241bc96b8fc5783ae61363f9d667458fc2fee19ab13b71cd354ed5",
+  "command": [
+    "/Users/xavier/Documents/dev/generaldrugs/dft/.tools/bin/pw.x",
+    "-in",
+    "silicon_scf.in"
+  ],
+  "cwd": "/Users/xavier/Documents/dev/generaldrugs/dft/runs/20260909T040158691304Z-qe",
+  "timeout_seconds": 600,
+  "started_at": "2026-09-09T04:01:58.695905+00:00",
+  "status": "passed",
+  "ended_at": "2026-09-09T04:01:59.045096+00:00",
+  "elapsed_seconds": 0.349,
+  "exit_code": 0,
+  "timed_out": false,
+  "scf_converged": true,
+  "energy": -15.57645486,
+  "energy_unit": "Ry",
+  "max_rss_bytes": 26017792,
+  "memory_measurement": "getrusage(RUSAGE_CHILDREN).ru_maxrss; bytes on macOS; maximum child RSS, not summed process-tree or system unified-memory peak",
+  "output_sha256": "ebc0942a9d06c2eac2ec3161b2b70e9b9778a91000462cd148cd632bd0f574d4"
+}

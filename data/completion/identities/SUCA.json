@@ -1,0 +1,14 @@
+{
+  "PropertyTable": {
+    "Properties": [
+      {
+        "CID": 1110,
+        "MolecularFormula": "C4H6O4",
+        "SMILES": "C(CC(=O)O)C(=O)O",
+        "ConnectivitySMILES": "C(CC(=O)O)C(=O)O",
+        "InChIKey": "KDYFGRWQOYBRFD-UHFFFAOYSA-N",
+        "IUPACName": "butanedioic acid"
+      }
+    ]
+  }
+}
