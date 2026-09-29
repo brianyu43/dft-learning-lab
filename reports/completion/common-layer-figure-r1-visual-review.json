@@ -1,0 +1,31 @@
+{
+  "status": "passed_png_visual_review",
+  "reviewed_at": "2026-09-29T14:58:15.931852+00:00",
+  "viewed_outputs": [
+    "1872x1296 original color PNG",
+    "936x648 grayscale PNG",
+    "780x540 color PNG"
+  ],
+  "visible_point_labels_match_all_four_source_values": true,
+  "visible_delta_labels_match_coordinate_differences": true,
+  "axes_units_and_common_scale_clear": true,
+  "focused_nonzero_axis_disclosed": true,
+  "marker_shapes_and_fill_distinguishable_in_grayscale": true,
+  "labels_legend_and_notes_unclipped": true,
+  "overlaps_observed": false,
+  "fabricated_error_bars": false,
+  "svg_structure_and_numeric_label_checks_passed": true,
+  "svg_separate_render_inspected": false,
+  "quantitative_color_vision_deficiency_simulation_performed": false,
+  "no_elastic_fit_or_phonon_stability_claim": true,
+  "full_materials_baseline_complete": false,
+  "source_sha256": {
+    "reports/figures/completion/common-layers-r1/layer-thickness.svg": "38a3be26f9fcd443c701a2f7016f048e4691eb45d42ac61e4c813fb2aeaf0342",
+    "reports/figures/completion/common-layers-r1/layer-thickness.png": "6b7ed9d6cea49c5af3f7e589bf77d961942931fceb629a88ef0baa789c060566",
+    "reports/figures/completion/common-layers-r1/layer-thickness.json": "250f53b0fe3654cd0c8f1043f5da7cc5d06be29ceb7a23a09b56b6465c0be9ea",
+    "reports/figures/completion/common-layers-r1/qa/color-width780.png": "4dd9da60c0021c0dec99c8ecb5ab70f998529ef0a36535e4828d462c8779e1b7",
+    "reports/figures/completion/common-layers-r1/qa/grayscale-width936.png": "35d53c4e6803c88f06756a5e37849ed3fb57e912361794ac41ef7b8e467d4162",
+    "reports/completion/common-layer-figure-r1.json": "f30679bf8a7bd67955196321df09a5af1cdf1aec5b5c6cb96af7dacd0acef65e"
+  },
+  "scope": "Four coordinate-derived thickness values from two audited internal relaxations; visual QA is PNG-based, with SVG structure and numeric-label checks."
+}

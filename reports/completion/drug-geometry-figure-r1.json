@@ -1,0 +1,26 @@
+{
+  "checked_at": "2026-09-29T12:12:29.647218+00:00",
+  "status": "archived_geometry_figure_verified",
+  "figure_data": "reports/figures/completion/drug-poses-r1/figure-data.json",
+  "figure_data_sha256": "22e6cfacd3ed27d4c7c08d7aeef74735e09eeb9e818bf7dea55fb6f751433cf4",
+  "source_files_rechecked": 10,
+  "artifact_sha256": {
+    "reports/figures/completion/drug-poses-r1/archived-dif-caf-poses.png": "e8c0e6f90f1ee543d3839898b6331c1bfc7b0c699c94b2704f90671789ecd2d2",
+    "reports/figures/completion/drug-poses-r1/archived-dif-caf-poses.svg": "fcacaeeb7f1a7af3e4409dea20e5c13b86726aa40790a1105c12820f3063f908"
+  },
+  "structure_count": 3,
+  "atoms_per_structure": 50,
+  "projection_count": 2,
+  "max_internal_pair_distance_change_angstrom": 1.5987211554602254e-14,
+  "contacts_recomputed_and_matched": true,
+  "manual_visual_review": {
+    "labels_legible": true,
+    "no_clipped_structure": true,
+    "two_projections_present": true,
+    "scale_bars_and_color_legend_present": true,
+    "scope_caption_present": true
+  },
+  "new_engine_runs": 0,
+  "common_grid_refinement_complete": false,
+  "scope": "Actual archived isolated molecular geometries; not experimental crystal structures"
+}

@@ -1,0 +1,39 @@
+{
+  "checked_at": "2026-09-29T12:29:45.974750+00:00",
+  "status": "archived_harmonic_zpe_verified",
+  "report": "reports/completion/drug-archived-zpe-r1.json",
+  "report_sha256": "b630bd33442df10da5caecd8668b53bb61e3e3a387f3a7851b6cd5d5c3af35ae",
+  "implementation_and_document_sha256": {
+    "scripts/completion_drug_zpe.py": "08b80ff250bef9355cbad01c6ac2eceb2b02d57c438faeeeaea8080374ede1ca",
+    "scripts/prepare_completion_drug_lineage.py": "1d2614fdbf8e1b31f9e31402a2dc2cd712d93842f09a63c77471d3ba746be5c0",
+    "scripts/run_week2_frequency_resume.py": "6728f147ded27522f8029b97d340b75b3a530ba2d8c2b522685123bfded78719",
+    "scripts/completion_drug_contrasts.py": "2027d34365a15c0c5046d03c417c9d795853a85e7aeffec2747502323af09323",
+    "scripts/prepare_week3_drug.py": "3f4030a8f30c814c60721d6f9e6d94f5c5285d4052d2c536180d3d0b6a2bec26",
+    "scripts/research_run.py": "e276ab1aa4ddc435d0a3aceec06b27445f6a6c1263f101009d5de14e6cc70cf6",
+    "scripts/week2_resume_provenance.py": "2d32e91a14c90d3bcf352d819dc996923c81feb0eca28fa740bc2b5371dba8a0",
+    "scripts/run_week2_xtb_screen.py": "a2a8be8a3fc863d200a289ba95e5b8c16baadc7919619579fd3342b7f79c8eb4",
+    "tests/test_completion_drug_zpe.py": "3b91447052a13e698d0a135fe9cf86b3252bb26e68aba4b73efe48c945f5390f",
+    "uv.lock": "20371b8767f5dc70e625a5f7b84973d7bae5287468ee38db4bb8ac0340614b39",
+    "reports/completion/DRUG_ARCHIVED_ZPE.ko.md": "672727a73f7de814ba28c9437572ad1fca7324b21ab6c2eeb57ea25dff87fd56",
+    "reports/completion/drug-zpe-tests-r1.log": "d0bb28d8f68c4cbe5c33514a5dc6edbf9af58a09a74d4d73515de73f8383e8aa"
+  },
+  "source_files_rechecked": 253,
+  "archived_minima_reviewed": 9,
+  "tests_passed": 8,
+  "maximum_printed_zpe_difference_Hartree": 4.007879805811854e-09,
+  "all_frequency_scale_factors": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+  ],
+  "new_engine_runs": 0,
+  "common_grid_panel_complete": false,
+  "frequency_grid_convergence_verified": false,
+  "scope": "Actual archived ZPE extraction and tests; no common-protocol ranking or crystal free energy"
+}

@@ -1,0 +1,50 @@
+{
+  "prepared_at": "2026-09-29T11:51:39.847280+00:00",
+  "status": "inputs_frozen_and_reader_guards_tested_not_runtime_verified",
+  "plan_sha256": "e242f392028200b4bc97f398960001b3e82ae4e76e6e3fbb7fd3b6d312c96603",
+  "hashes_verified": 28,
+  "idempotent": true,
+  "water_source": "runs/20260910T092739076636Z-week1-water-opt-freq/water_opt_freq.xyz",
+  "water_source_sha256": "1973f7491286efaa83d078ec648d745c56ed9e9d37be1216043d9be4da1865c4",
+  "jobs": [
+    {
+      "job_id": "w3-compat-r1-wb97x3c-water-engrad",
+      "method": "wB97X-3c",
+      "solvent": "vacuum",
+      "requested": {
+        "optimization": false,
+        "frequencies": false,
+        "gradient": true
+      },
+      "energy_quantity": "electronic_energy",
+      "timeout_seconds": 1800
+    },
+    {
+      "job_id": "w3-compat-r1-r2scan3c-smdethanol-water-optfreq",
+      "method": "r2SCAN-3c",
+      "solvent": "SMD(ethanol)",
+      "requested": {
+        "optimization": true,
+        "frequencies": true,
+        "gradient": true
+      },
+      "energy_quantity": "orca_smd_total_energy_including_cds",
+      "timeout_seconds": 1800
+    }
+  ],
+  "test_count": 5,
+  "test_exit_code": 0,
+  "missing_run_gate": "Compatibility runs not completed: w3-compat-r1-wb97x3c-water-engrad, w3-compat-r1-r2scan3c-smdethanol-water-optfreq",
+  "source_sha256": {
+    "scripts/prepare_completion_orca_compatibility.py": "33e4b2976882f0e163ef6b654a7410ff1f25e84140f685913743084cc14f85f8",
+    "scripts/evaluate_completion_orca_compatibility.py": "1e02585bb6e3012554fd0e08cf8b8da624fb30af7d5a2bef875c3a70deefd272",
+    "tests/test_completion_orca_compatibility.py": "3930e308c8c4e501c06716c868105bfe192b7147db4a2c22d852fe3d7126405e",
+    "reports/completion/orca-compatibility-tests-r1.log": "8c52fa76dea6324ca62f938c3d25e875e103c033582ca5f265f5e76dd81c4b84",
+    "experiments/completion/orca-method-solvent-compatibility-r1.json": "e242f392028200b4bc97f398960001b3e82ae4e76e6e3fbb7fd3b6d312c96603"
+  },
+  "execution_started": false,
+  "runtime_compatibility_verified": false,
+  "full_panel_execution_enabled": false,
+  "synthetic_tests_are_not_engine_evidence": true,
+  "scope": "Two water runtime checks prepared; drug method/solvent sensitivity remains incomplete"
+}

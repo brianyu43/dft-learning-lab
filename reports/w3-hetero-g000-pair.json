@@ -1,0 +1,117 @@
+{
+  "protocol_id": "dft-pilot-20260909-v1-week3",
+  "week": 3,
+  "task_id": "SR03",
+  "job_id": "w3-hetero-g000-pair",
+  "engine": "qe",
+  "executable": ".tools/qe-7.6/bin/pw.x",
+  "input": "inputs/qe/week3/w3-hetero-g000-pair.in",
+  "assets": {
+    "data/pseudopotentials/pseudo-dojo-nc-sr-04-pbe-standard/Mo.upf": "pseudo/Mo.upf",
+    "data/pseudopotentials/pseudo-dojo-nc-sr-04-pbe-standard/S.upf": "pseudo/S.upf",
+    "data/pseudopotentials/pseudo-dojo-nc-sr-04-pbe-standard/Se.upf": "pseudo/Se.upf"
+  },
+  "method": "vdW-DF-C09; PseudoDojo nc-sr-04 standard PBE scalar NC",
+  "requested": {
+    "optimization": false,
+    "frequencies": false
+  },
+  "calculation": "scf",
+  "n_atoms": 6,
+  "charge": 0,
+  "SOC": false,
+  "ecutwfc_Ry": 100,
+  "ecutrho_Ry": 400,
+  "k_grid": [
+    9,
+    9,
+    1
+  ],
+  "initial_vacuum_gap_angstrom": 25.00000000005,
+  "initial_cell_angstrom": [
+    [
+      3.20541006289766,
+      0.0,
+      0.0
+    ],
+    [
+      -1.6027050314488303,
+      2.775966544015639,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      34.23717273576625
+    ]
+  ],
+  "geometry_source": "structures/week3/materials/w3-hetero-g000-pair.extxyz",
+  "conv_thr_Ry": 1e-10,
+  "timeout_seconds": 14400,
+  "rss_limit_gib": 40,
+  "omp_threads": 4,
+  "max_force_eV_angstrom": 0.005,
+  "accuracy_scope": "Composition-specific checks required; no phonon or experimental-cell validation",
+  "role": "pair",
+  "registry_id": 0,
+  "registry_fraction": [
+    0.0,
+    0.0
+  ],
+  "Mo_plane_distance_angstrom": 6.0,
+  "bilayer_vacuum_gap_angstrom": 25,
+  "orientation": "R-type; no twist",
+  "interaction_group": "hetero",
+  "started_at": "2026-09-29T14:51:36.960745+00:00",
+  "status": "passed",
+  "run_dir": "/Users/xavier/Documents/dev/generaldrugs/dft/runs/20260929T145136958623Z-w3-hetero-g000-pair",
+  "config_sha256": "6fdcb28b4a37df2c33f5abdc5766be1c1927effd56070761a1902125062ec68d",
+  "source_sha256": {
+    "inputs/qe/week3/w3-hetero-g000-pair.in": "b3c156e0fc2f836948235510ba2cc7f9d9e66aee31797fd2e6a76e06ee961932",
+    "data/pseudopotentials/pseudo-dojo-nc-sr-04-pbe-standard/Mo.upf": "7a392dee2cc7088d02184ddefa73b709f11e266fdde348a08eeaf8ea2870e448",
+    "data/pseudopotentials/pseudo-dojo-nc-sr-04-pbe-standard/S.upf": "7dcddbca51ad05414445cc784264d39f139300f47897ae96740f49d6ba96daa7",
+    "data/pseudopotentials/pseudo-dojo-nc-sr-04-pbe-standard/Se.upf": "1f5d0f8b99028dee90766aab811ce5d8bb2c2b2ad38ec60436d1c2888ef5109c"
+  },
+  "executable_sha256": "d9c0a96099241bc96b8fc5783ae61363f9d667458fc2fee19ab13b71cd354ed5",
+  "command": [
+    "/Users/xavier/Documents/dev/generaldrugs/dft/.tools/qe-7.6/bin/pw.x",
+    "-in",
+    "w3-hetero-g000-pair.in"
+  ],
+  "runner_sha256": "e276ab1aa4ddc435d0a3aceec06b27445f6a6c1263f101009d5de14e6cc70cf6",
+  "stop_reason": null,
+  "thread_environment": {
+    "OMP_NUM_THREADS": "4",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "VECLIB_MAXIMUM_THREADS": "1"
+  },
+  "pid": 87861,
+  "engine_launched": true,
+  "ended_at": "2026-09-29T15:08:07.057739+00:00",
+  "elapsed_seconds": 990.083,
+  "exit_code": 0,
+  "peak_sampled_process_tree_rss_bytes": 1459814400,
+  "memory_samples": 1905,
+  "memory_access_denied": 0,
+  "max_single_child_rss_bytes": 1460207616,
+  "system_swap_increase_peak_bytes": 0,
+  "memory_measurement": "0.5s sampled summed process-tree RSS; may double-count shared pages and miss peaks. OS ru_maxrss is maximum single-child RSS in macOS bytes. Swap is system-wide, not attributable solely to this job.",
+  "output_sha256": "abd372cd4d7acb7ec44bae0a97a5e75394e086651f2a25b6ee273f813b24d63b",
+  "result": {
+    "engine_version": "7.6",
+    "normal_termination": true,
+    "scf_converged": true,
+    "geometry_optimization_converged": null,
+    "energy": -809.48575003,
+    "energy_unit": "Ry",
+    "energy_history": [
+      -809.48575003
+    ],
+    "minimum_verified": null,
+    "frequency_analysis_complete": false,
+    "total_force_Ry_Bohr": 0.072298,
+    "accuracy_scope": "Composition-specific checks required; no phonon or experimental-cell validation",
+    "status": "passed"
+  }
+}

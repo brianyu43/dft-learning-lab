@@ -1,0 +1,20 @@
+{
+  "status": "downloaded_from_official_release_not_executed",
+  "downloaded_at": "2026-09-29T14:22:51.111541+00:00",
+  "model": "MACE-MP-0b3 medium",
+  "path": "data/completion/materials-models/checkpoints/mace-mp-0b3-medium.model",
+  "url": "https://github.com/ACEsuit/mace-foundations/releases/download/mace_mp_0b3/mace-mp-0b3-medium.model",
+  "bytes": 79472952,
+  "sha256": "2f2be696351ac9e94fbe01cdfb6f017679acdbd2db7645209ef55fec9826b012",
+  "release_asset_id": 213936922,
+  "upstream_digest": null,
+  "license_as_reported_by_official_model_table": "MIT",
+  "source_sha256": {
+    "data/completion/materials-models/foundation-screen-r1/mp0b3-release.json": "37b62a6320d73ac53bb283b0e2a934a014e12ce5c65298f8dbb8dbffabfc1c6b",
+    "data/completion/materials-models/foundation-screen-r1/foundations-README.md": "3981e18e5b2d83bd6223ffc0724a261c638a9a0c812eddad91645821c91a3a12",
+    "data/completion/materials-models/foundation-screen-r1/foundations-MIT-LICENSE.txt": "31ea0ccf7bc19797081bff51c7eff3a3927c8cb6c1d7a726dec3d157b436da1c"
+  },
+  "actual_inference_executed": false,
+  "scientific_model_suitability_verified": false,
+  "note": "Computed download hash fixes local bytes; upstream GitHub asset metadata has no digest"
+}

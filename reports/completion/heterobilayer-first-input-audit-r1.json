@@ -1,0 +1,81 @@
+{
+  "status": "first_heterobilayer_geometry_verified_input_only",
+  "job_id": "w3-hetero-g000-pair",
+  "common_layer_summaries_match_pipeline": true,
+  "monolayer_source_hash_counts": {
+    "mos2": 139,
+    "mose2": 139
+  },
+  "species": [
+    "Mo",
+    "S",
+    "S",
+    "Mo",
+    "Se",
+    "Se"
+  ],
+  "cell_angstrom": [
+    [
+      3.20541006289766,
+      0.0,
+      0.0
+    ],
+    [
+      -1.60270503144883,
+      2.77596654401564,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      34.23717273576625
+    ]
+  ],
+  "positions_angstrom": [
+    [
+      0.0,
+      0.0,
+      14.1185863679
+    ],
+    [
+      1.6027050314,
+      0.9253221813,
+      15.666398553
+    ],
+    [
+      1.6027050314,
+      0.9253221813,
+      12.5707741827
+    ],
+    [
+      0.0,
+      0.0,
+      20.1185863679
+    ],
+    [
+      1.6027050314,
+      0.9253221814,
+      21.8079469184
+    ],
+    [
+      1.6027050314,
+      0.9253221814,
+      18.4292258172
+    ]
+  ],
+  "max_coordinate_roundtrip_error_angstrom": 4.688516241913021e-11,
+  "Mo_plane_distance_angstrom": 6.0,
+  "vacuum_gap_angstrom": 25.00000000006625,
+  "total_common_layer_relaxation_seconds": 1639.067,
+  "source_sha256": {
+    "experiments/week3/materials/w3-hetero-g000-pair.json": "6fdcb28b4a37df2c33f5abdc5766be1c1927effd56070761a1902125062ec68d",
+    "inputs/qe/week3/w3-hetero-g000-pair.in": "b3c156e0fc2f836948235510ba2cc7f9d9e66aee31797fd2e6a76e06ee961932",
+    "structures/week3/materials/w3-hetero-g000-pair.extxyz": "9e0a693e1de9cef546cdbe082f3cb36ca471e9665abd763c80039cd28d62924e",
+    "scripts/week3_materials_pipeline.py": "c3445df613ff35be71723d40b80edd913ec080e4e0b973331c7d612e53a08c69",
+    "reports/completion/common-layer-audits-r1/mos2.json": "196cf42d5254a1f0c70a0fc89e8f2d84ac402dc059262d4ff41f473d87590d5d",
+    "reports/completion/common-layer-audits-r1/mose2.json": "c2c5aada93480d3e0e8f74fa46bf7db2d59f46ad0f5b833ba0f96b5474885a5b"
+  },
+  "heterobilayer_energy_or_forces_verified": false,
+  "distance_minimum_verified": false,
+  "scope": "Only construction of the first distance-search input from both raw-verified strained layers. No heterobilayer output or interaction-energy claim."
+}

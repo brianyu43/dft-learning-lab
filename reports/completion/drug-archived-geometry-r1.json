@@ -1,0 +1,3987 @@
+{
+  "checked_at": "2026-09-29T12:07:21.920096+00:00",
+  "status": "archived_geometry_review_not_uniform_panel",
+  "policy": {
+    "duplicate_all_atom_RMSD_angstrom": 0.05,
+    "duplicate_energy_gap_kcal_mol": 0.01,
+    "screening_heavy_RMSD_angstrom": 0.75,
+    "contact_H_acceptor_max_angstrom": 2.6,
+    "contact_DHA_min_angle_degrees": 120.0,
+    "hydrogen_owner_ambiguity_margin_angstrom": 0.1,
+    "maximum_heavy_graph_mappings": 10000,
+    "hydrogen_alignment_iterations": 20
+  },
+  "lineage_sha256": "f1588cbe89a8876d6e04b5f90a5aef1577d67c4bba4d998e3ed775be17734549",
+  "lineage_source_files_reverified": 251,
+  "original_starts": 17,
+  "archived_minimum_lineages": 9,
+  "rows": [
+    {
+      "candidate_id": "diflunisal-t02-s43",
+      "species": "diflunisal",
+      "selection_role": "primary",
+      "initial_geometry_source": "runs/20260910T110432668715Z-w2-diflunisal-opt-freq/w2-diflunisal-opt-freq.inp",
+      "initial_geometry_source_sha256": "239240c48ea6d29a2e4bfe3f2cfbd5b7290d5fdc0364c658b01a428532070903",
+      "initial": {
+        "geometry_audit": {
+          "status": "geometry_checked",
+          "heavy_connectivity_preserved": true,
+          "lost_heavy_bonds": [],
+          "new_heavy_bonds": [],
+          "hydrogen_owner_changes": [],
+          "unassigned_hydrogens": [],
+          "chemical_state_preserved_by_geometry": true
+        },
+        "hydrogen_owners": {
+          "18": 2,
+          "19": 4,
+          "20": 7,
+          "21": 8,
+          "22": 11,
+          "23": 14,
+          "24": 15,
+          "25": 17
+        },
+        "hydrogen_assignment_distances": [
+          {
+            "hydrogen": 18,
+            "nearest_heavy": 2,
+            "nearest_distance_angstrom": 0.9701959524169629,
+            "second_heavy": 1,
+            "second_distance_angstrom": 1.8964779128072353,
+            "distance_gap_angstrom": 0.9262819603902724
+          },
+          {
+            "hydrogen": 19,
+            "nearest_heavy": 4,
+            "nearest_distance_angstrom": 1.0787519320155867,
+            "second_heavy": 3,
+            "second_distance_angstrom": 2.132222298399434,
+            "distance_gap_angstrom": 1.0534703663838474
+          },
+          {
+            "hydrogen": 20,
+            "nearest_heavy": 7,
+            "nearest_distance_angstrom": 1.078832705995148,
+            "second_heavy": 8,
+            "second_distance_angstrom": 2.130950017063529,
+            "distance_gap_angstrom": 1.0521173110683812
+          },
+          {
+            "hydrogen": 21,
+            "nearest_heavy": 8,
+            "nearest_distance_angstrom": 1.07797925991693,
+            "second_heavy": 9,
+            "second_distance_angstrom": 2.135115693566718,
+            "distance_gap_angstrom": 1.0571364336497882
+          },
+          {
+            "hydrogen": 22,
+            "nearest_heavy": 11,
+            "nearest_distance_angstrom": 1.0776869245942702,
+            "second_heavy": 12,
+            "second_distance_angstrom": 2.1431736251992706,
+            "distance_gap_angstrom": 1.0654867006050004
+          },
+          {
+            "hydrogen": 23,
+            "nearest_heavy": 14,
+            "nearest_distance_angstrom": 1.0789729401945716,
+            "second_heavy": 15,
+            "second_distance_angstrom": 2.122236901204638,
+            "distance_gap_angstrom": 1.0432639610100665
+          },
+          {
+            "hydrogen": 24,
+            "nearest_heavy": 15,
+            "nearest_distance_angstrom": 1.0782101606774614,
+            "second_heavy": 16,
+            "second_distance_angstrom": 2.1288701849708622,
+            "distance_gap_angstrom": 1.0506600242934008
+          },
+          {
+            "hydrogen": 25,
+            "nearest_heavy": 17,
+            "nearest_distance_angstrom": 0.9837794976486036,
+            "second_heavy": 0,
+            "second_distance_angstrom": 1.7702514932559636,
+            "distance_gap_angstrom": 0.78647199560736
+          }
+        ],
+        "ambiguous_hydrogen_indices": [],
+        "contacts": [],
+        "scope": "Nearest-heavy-atom ownership and geometric N/O-H...N/O contacts; no electronic charge assignment"
+      },
+      "archived_minimum_verified": true,
+      "final": {
+        "geometry_audit": {
+          "status": "geometry_checked",
+          "heavy_connectivity_preserved": true,
+          "lost_heavy_bonds": [],
+          "new_heavy_bonds": [],
+          "hydrogen_owner_changes": [],
+          "unassigned_hydrogens": [],
+          "chemical_state_preserved_by_geometry": true
+        },
+        "hydrogen_owners": {
+          "18": 2,
+          "19": 4,
+          "20": 7,
+          "21": 8,
+          "22": 11,
+          "23": 14,
+          "24": 15,
+          "25": 17
+        },
+        "hydrogen_assignment_distances": [
+          {
+            "hydrogen": 18,
+            "nearest_heavy": 2,
+            "nearest_distance_angstrom": 0.9699430057292298,
+            "second_heavy": 1,
+            "second_distance_angstrom": 1.8719061529755787,
+            "distance_gap_angstrom": 0.901963147246349
+          },
+          {
+            "hydrogen": 19,
+            "nearest_heavy": 4,
+            "nearest_distance_angstrom": 1.0849393287051332,
+            "second_heavy": 3,
+            "second_distance_angstrom": 2.1451746928009894,
+            "distance_gap_angstrom": 1.0602353640958562
+          },
+          {
+            "hydrogen": 20,
+            "nearest_heavy": 7,
+            "nearest_distance_angstrom": 1.0860534944306632,
+            "second_heavy": 8,
+            "second_distance_angstrom": 2.1408118064814627,
+            "distance_gap_angstrom": 1.0547583120507995
+          },
+          {
+            "hydrogen": 21,
+            "nearest_heavy": 8,
+            "nearest_distance_angstrom": 1.0841345748598197,
+            "second_heavy": 9,
+            "second_distance_angstrom": 2.1442478554121602,
+            "distance_gap_angstrom": 1.0601132805523406
+          },
+          {
+            "hydrogen": 22,
+            "nearest_heavy": 11,
+            "nearest_distance_angstrom": 1.0838127400188533,
+            "second_heavy": 12,
+            "second_distance_angstrom": 2.1539408900536676,
+            "distance_gap_angstrom": 1.0701281500348143
+          },
+          {
+            "hydrogen": 23,
+            "nearest_heavy": 14,
+            "nearest_distance_angstrom": 1.0854062676616139,
+            "second_heavy": 15,
+            "second_distance_angstrom": 2.129371990654726,
+            "distance_gap_angstrom": 1.0439657229931123
+          },
+          {
+            "hydrogen": 24,
+            "nearest_heavy": 15,
+            "nearest_distance_angstrom": 1.0850272462107473,
+            "second_heavy": 16,
+            "second_distance_angstrom": 2.1395442001013976,
+            "distance_gap_angstrom": 1.0545169538906503
+          },
+          {
+            "hydrogen": 25,
+            "nearest_heavy": 17,
+            "nearest_distance_angstrom": 0.9869851128940881,
+            "second_heavy": 0,
+            "second_distance_angstrom": 1.730215151918432,
+            "distance_gap_angstrom": 0.7432300390243438
+          }
+        ],
+        "ambiguous_hydrogen_indices": [],
+        "contacts": [],
+        "scope": "Nearest-heavy-atom ownership and geometric N/O-H...N/O contacts; no electronic charge assignment"
+      },
+      "net_hydrogen_owner_changes": [],
+      "source_geometry": "runs/20260910T110432668715Z-w2-diflunisal-opt-freq/w2-diflunisal-opt-freq.xyz",
+      "source_geometry_sha256": "f47052b4161975c278fcdc832a36d1bec8c9698eedb7f0ccd1ba43391ad96d27",
+      "minimum_report": "reports/w2-diflunisal-opt-freq.json",
+      "minimum_frequency_cm1": 42.26760708541706
+    },
+    {
+      "candidate_id": "caffeine-t00-s17",
+      "species": "caffeine",
+      "selection_role": "primary",
+      "initial_geometry_source": "runs/20260910T112511815628Z-w2-caffeine-opt-freq/w2-caffeine-opt-freq.inp",
+      "initial_geometry_source_sha256": "c2bbbc8e8e72b4c27bd29e6d85b478d609a14f12e004f91f55c46736b621f237",
+      "initial": {
+        "geometry_audit": {
+          "status": "geometry_checked",
+          "heavy_connectivity_preserved": true,
+          "lost_heavy_bonds": [],
+          "new_heavy_bonds": [],
+          "hydrogen_owner_changes": [],
+          "unassigned_hydrogens": [],
+          "chemical_state_preserved_by_geometry": true
+        },
+        "hydrogen_owners": {
+          "14": 0,
+          "15": 0,
+          "16": 0,
+          "17": 7,
+          "18": 9,
+          "19": 9,
+          "20": 9,
+          "21": 11,
+          "22": 11,
+          "23": 11
+        },
+        "hydrogen_assignment_distances": [
+          {
+            "hydrogen": 14,
+            "nearest_heavy": 0,
+            "nearest_distance_angstrom": 1.087471497282173,
+            "second_heavy": 1,
+            "second_distance_angstrom": 2.0619858372247206,
+            "distance_gap_angstrom": 0.9745143399425475
+          },
+          {
+            "hydrogen": 15,
+            "nearest_heavy": 0,
+            "nearest_distance_angstrom": 1.0895908934064518,
+            "second_heavy": 1,
+            "second_distance_angstrom": 2.0918152736274873,
+            "distance_gap_angstrom": 1.0022243802210355
+          },
+          {
+            "hydrogen": 16,
+            "nearest_heavy": 0,
+            "nearest_distance_angstrom": 1.0895909227406753,
+            "second_heavy": 1,
+            "second_distance_angstrom": 2.091815666959076,
+            "distance_gap_angstrom": 1.0022247442184007
+          },
+          {
+            "hydrogen": 17,
+            "nearest_heavy": 7,
+            "nearest_distance_angstrom": 1.0718316629286129,
+            "second_heavy": 6,
+            "second_distance_angstrom": 2.105108014369519,
+            "distance_gap_angstrom": 1.033276351440906
+          },
+          {
+            "hydrogen": 18,
+            "nearest_heavy": 9,
+            "nearest_distance_angstrom": 1.0909600497695875,
+            "second_heavy": 8,
+            "second_distance_angstrom": 2.0775688837871447,
+            "distance_gap_angstrom": 0.9866088340175572
+          },
+          {
+            "hydrogen": 19,
+            "nearest_heavy": 9,
+            "nearest_distance_angstrom": 1.0883417871998737,
+            "second_heavy": 8,
+            "second_distance_angstrom": 2.0683929739395577,
+            "distance_gap_angstrom": 0.9800511867396839
+          },
+          {
+            "hydrogen": 20,
+            "nearest_heavy": 9,
+            "nearest_distance_angstrom": 1.0909602619646983,
+            "second_heavy": 8,
+            "second_distance_angstrom": 2.077570273535172,
+            "distance_gap_angstrom": 0.9866100115704737
+          },
+          {
+            "hydrogen": 21,
+            "nearest_heavy": 11,
+            "nearest_distance_angstrom": 1.0896829834285806,
+            "second_heavy": 10,
+            "second_distance_angstrom": 2.0835131884045204,
+            "distance_gap_angstrom": 0.9938302049759398
+          },
+          {
+            "hydrogen": 22,
+            "nearest_heavy": 11,
+            "nearest_distance_angstrom": 1.0896828167798598,
+            "second_heavy": 10,
+            "second_distance_angstrom": 2.0835118287826746,
+            "distance_gap_angstrom": 0.9938290120028148
+          },
+          {
+            "hydrogen": 23,
+            "nearest_heavy": 11,
+            "nearest_distance_angstrom": 1.087980743122995,
+            "second_heavy": 10,
+            "second_distance_angstrom": 2.0582959501817744,
+            "distance_gap_angstrom": 0.9703152070587793
+          }
+        ],
+        "ambiguous_hydrogen_indices": [],
+        "contacts": [],
+        "scope": "Nearest-heavy-atom ownership and geometric N/O-H...N/O contacts; no electronic charge assignment"
+      },
+      "archived_minimum_verified": true,
+      "final": {
+        "geometry_audit": {
+          "status": "geometry_checked",
+          "heavy_connectivity_preserved": true,
+          "lost_heavy_bonds": [],
+          "new_heavy_bonds": [],
+          "hydrogen_owner_changes": [],
+          "unassigned_hydrogens": [],
+          "chemical_state_preserved_by_geometry": true
+        },
+        "hydrogen_owners": {
+          "14": 0,
+          "15": 0,
+          "16": 0,
+          "17": 7,
+          "18": 9,
+          "19": 9,
+          "20": 9,
+          "21": 11,
+          "22": 11,
+          "23": 11
+        },
+        "hydrogen_assignment_distances": [
+          {
+            "hydrogen": 14,
+            "nearest_heavy": 0,
+            "nearest_distance_angstrom": 1.0895697489698801,
+            "second_heavy": 1,
+            "second_distance_angstrom": 2.073519998609737,
+            "distance_gap_angstrom": 0.9839502496398567
+          },
+          {
+            "hydrogen": 15,
+            "nearest_heavy": 0,
+            "nearest_distance_angstrom": 1.093297009521347,
+            "second_heavy": 1,
+            "second_distance_angstrom": 2.108048706304437,
+            "distance_gap_angstrom": 1.0147516967830899
+          },
+          {
+            "hydrogen": 16,
+            "nearest_heavy": 0,
+            "nearest_distance_angstrom": 1.0933115737424781,
+            "second_heavy": 1,
+            "second_distance_angstrom": 2.108335280196146,
+            "distance_gap_angstrom": 1.015023706453668
+          },
+          {
+            "hydrogen": 17,
+            "nearest_heavy": 7,
+            "nearest_distance_angstrom": 1.0832044311912483,
+            "second_heavy": 8,
+            "second_distance_angstrom": 2.134104504950284,
+            "distance_gap_angstrom": 1.0509000737590357
+          },
+          {
+            "hydrogen": 18,
+            "nearest_heavy": 9,
+            "nearest_distance_angstrom": 1.0930459307570708,
+            "second_heavy": 8,
+            "second_distance_angstrom": 2.101892193380738,
+            "distance_gap_angstrom": 1.0088462626236672
+          },
+          {
+            "hydrogen": 19,
+            "nearest_heavy": 9,
+            "nearest_distance_angstrom": 1.0925184802237302,
+            "second_heavy": 8,
+            "second_distance_angstrom": 2.0791072060934166,
+            "distance_gap_angstrom": 0.9865887258696864
+          },
+          {
+            "hydrogen": 20,
+            "nearest_heavy": 9,
+            "nearest_distance_angstrom": 1.093036720826517,
+            "second_heavy": 8,
+            "second_distance_angstrom": 2.101810468744124,
+            "distance_gap_angstrom": 1.0087737479176069
+          },
+          {
+            "hydrogen": 21,
+            "nearest_heavy": 11,
+            "nearest_distance_angstrom": 1.0942349011708281,
+            "second_heavy": 10,
+            "second_distance_angstrom": 2.103213540410647,
+            "distance_gap_angstrom": 1.008978639239819
+          },
+          {
+            "hydrogen": 22,
+            "nearest_heavy": 11,
+            "nearest_distance_angstrom": 1.094281973505054,
+            "second_heavy": 10,
+            "second_distance_angstrom": 2.1035528578345737,
+            "distance_gap_angstrom": 1.0092708843295197
+          },
+          {
+            "hydrogen": 23,
+            "nearest_heavy": 11,
+            "nearest_distance_angstrom": 1.0894066507803581,
+            "second_heavy": 10,
+            "second_distance_angstrom": 2.0734827079186258,
+            "distance_gap_angstrom": 0.9840760571382676
+          }
+        ],
+        "ambiguous_hydrogen_indices": [],
+        "contacts": [],
+        "scope": "Nearest-heavy-atom ownership and geometric N/O-H...N/O contacts; no electronic charge assignment"
+      },
+      "net_hydrogen_owner_changes": [],
+      "source_geometry": "runs/20260910T112511815628Z-w2-caffeine-opt-freq/w2-caffeine-opt-freq.xyz",
+      "source_geometry_sha256": "0969526aebb855f5a290b85a17418e0b44018ae726b9829d7fbd32088a225ae0",
+      "minimum_report": "reports/w2-caffeine-opt-freq.json",
+      "minimum_frequency_cm1": 56.176531555491636
+    },
+    {
+      "candidate_id": "diflunisal--caffeine-p36",
+      "species": "diflunisal--caffeine",
+      "selection_role": "primary",
+      "initial_geometry_source": "runs/20260910T114317596838Z-w2-diflunisal--caffeine-opt-freq/w2-diflunisal--caffeine-opt-freq.inp",
+      "initial_geometry_source_sha256": "45df8bbecfce9594f1e79b5596517e87f955a3c7fd80ef964874044feef97fcf",
+      "initial": {
+        "geometry_audit": {
+          "status": "geometry_checked",
+          "heavy_connectivity_preserved": true,
+          "lost_heavy_bonds": [],
+          "new_heavy_bonds": [],
+          "hydrogen_owner_changes": [],
+          "unassigned_hydrogens": [],
+          "chemical_state_preserved_by_geometry": true,
+          "closest_interfragment_distance_angstrom": 2.2737122232468865,
+          "separated_geometry": false,
+          "cross_fragment_proton_transfer": []
+        },
+        "hydrogen_owners": {
+          "18": 2,
+          "19": 4,
+          "20": 7,
+          "21": 8,
+          "22": 11,
+          "23": 14,
+          "24": 15,
+          "25": 17,
+          "40": 26,
+          "41": 26,
+          "42": 26,
+          "43": 33,
+          "44": 35,
+          "45": 35,
+          "46": 35,
+          "47": 37,
+          "48": 37,
+          "49": 37
+        },
+        "hydrogen_assignment_distances": [
+          {
+            "hydrogen": 18,
+            "nearest_heavy": 2,
+            "nearest_distance_angstrom": 0.9695961146670032,
+            "second_heavy": 1,
+            "second_distance_angstrom": 1.8947259664337786,
+            "distance_gap_angstrom": 0.9251298517667753
+          },
+          {
+            "hydrogen": 19,
+            "nearest_heavy": 4,
+            "nearest_distance_angstrom": 1.078320908374773,
+            "second_heavy": 3,
+            "second_distance_angstrom": 2.1244060055752554,
+            "distance_gap_angstrom": 1.0460850972004825
+          },
+          {
+            "hydrogen": 20,
+            "nearest_heavy": 7,
+            "nearest_distance_angstrom": 1.0789608082399496,
+            "second_heavy": 8,
+            "second_distance_angstrom": 2.1326581684661683,
+            "distance_gap_angstrom": 1.0536973602262187
+          },
+          {
+            "hydrogen": 21,
+            "nearest_heavy": 8,
+            "nearest_distance_angstrom": 1.0778327579493767,
+            "second_heavy": 9,
+            "second_distance_angstrom": 2.13589818658499,
+            "distance_gap_angstrom": 1.0580654286356135
+          },
+          {
+            "hydrogen": 22,
+            "nearest_heavy": 11,
+            "nearest_distance_angstrom": 1.0776838606676717,
+            "second_heavy": 12,
+            "second_distance_angstrom": 2.144008674668253,
+            "distance_gap_angstrom": 1.0663248140005814
+          },
+          {
+            "hydrogen": 23,
+            "nearest_heavy": 14,
+            "nearest_distance_angstrom": 1.079739821914797,
+            "second_heavy": 15,
+            "second_distance_angstrom": 2.132319046980792,
+            "distance_gap_angstrom": 1.052579225065995
+          },
+          {
+            "hydrogen": 24,
+            "nearest_heavy": 15,
+            "nearest_distance_angstrom": 1.0818028549596295,
+            "second_heavy": 16,
+            "second_distance_angstrom": 2.136256664855432,
+            "distance_gap_angstrom": 1.0544538098958025
+          },
+          {
+            "hydrogen": 25,
+            "nearest_heavy": 17,
+            "nearest_distance_angstrom": 0.9683632156003981,
+            "second_heavy": 16,
+            "second_distance_angstrom": 1.9170381297955261,
+            "distance_gap_angstrom": 0.9486749141951281
+          },
+          {
+            "hydrogen": 40,
+            "nearest_heavy": 26,
+            "nearest_distance_angstrom": 1.0893798258469056,
+            "second_heavy": 27,
+            "second_distance_angstrom": 2.080483981914888,
+            "distance_gap_angstrom": 0.9911041560679825
+          },
+          {
+            "hydrogen": 41,
+            "nearest_heavy": 26,
+            "nearest_distance_angstrom": 1.0864246490740728,
+            "second_heavy": 27,
+            "second_distance_angstrom": 2.0713989817537555,
+            "distance_gap_angstrom": 0.9849743326796827
+          },
+          {
+            "hydrogen": 42,
+            "nearest_heavy": 26,
+            "nearest_distance_angstrom": 1.0899255285374663,
+            "second_heavy": 27,
+            "second_distance_angstrom": 2.0934374209802438,
+            "distance_gap_angstrom": 1.0035118924427775
+          },
+          {
+            "hydrogen": 43,
+            "nearest_heavy": 33,
+            "nearest_distance_angstrom": 1.0716506800336005,
+            "second_heavy": 32,
+            "second_distance_angstrom": 2.1047829536367115,
+            "distance_gap_angstrom": 1.033132273603111
+          },
+          {
+            "hydrogen": 44,
+            "nearest_heavy": 35,
+            "nearest_distance_angstrom": 1.0916276940033611,
+            "second_heavy": 34,
+            "second_distance_angstrom": 2.0856946940497783,
+            "distance_gap_angstrom": 0.9940670000464171
+          },
+          {
+            "hydrogen": 45,
+            "nearest_heavy": 35,
+            "nearest_distance_angstrom": 1.0885667215325452,
+            "second_heavy": 34,
+            "second_distance_angstrom": 2.057320168082191,
+            "distance_gap_angstrom": 0.9687534465496459
+          },
+          {
+            "hydrogen": 46,
+            "nearest_heavy": 35,
+            "nearest_distance_angstrom": 1.0905846499093959,
+            "second_heavy": 34,
+            "second_distance_angstrom": 2.0833444714954057,
+            "distance_gap_angstrom": 0.9927598215860098
+          },
+          {
+            "hydrogen": 47,
+            "nearest_heavy": 37,
+            "nearest_distance_angstrom": 1.090970169783256,
+            "second_heavy": 36,
+            "second_distance_angstrom": 2.090605649090319,
+            "distance_gap_angstrom": 0.999635479307063
+          },
+          {
+            "hydrogen": 48,
+            "nearest_heavy": 37,
+            "nearest_distance_angstrom": 1.0872884135650254,
+            "second_heavy": 36,
+            "second_distance_angstrom": 2.064883598722828,
+            "distance_gap_angstrom": 0.9775951851578024
+          },
+          {
+            "hydrogen": 49,
+            "nearest_heavy": 37,
+            "nearest_distance_angstrom": 1.0878451395195077,
+            "second_heavy": 36,
+            "second_distance_angstrom": 2.070825068292986,
+            "distance_gap_angstrom": 0.9829799287734784
+          }
+        ],
+        "ambiguous_hydrogen_indices": [],
+        "contacts": [],
+        "scope": "Nearest-heavy-atom ownership and geometric N/O-H...N/O contacts; no electronic charge assignment"
+      },
+      "archived_minimum_verified": true,
+      "final": {
+        "geometry_audit": {
+          "status": "geometry_checked",
+          "heavy_connectivity_preserved": true,
+          "lost_heavy_bonds": [],
+          "new_heavy_bonds": [],
+          "hydrogen_owner_changes": [],
+          "unassigned_hydrogens": [],
+          "chemical_state_preserved_by_geometry": true,
+          "closest_interfragment_distance_angstrom": 2.380170297906127,
+          "separated_geometry": false,
+          "cross_fragment_proton_transfer": []
+        },
+        "hydrogen_owners": {
+          "18": 2,
+          "19": 4,
+          "20": 7,
+          "21": 8,
+          "22": 11,
+          "23": 14,
+          "24": 15,
+          "25": 17,
+          "40": 26,
+          "41": 26,
+          "42": 26,
+          "43": 33,
+          "44": 35,
+          "45": 35,
+          "46": 35,
+          "47": 37,
+          "48": 37,
+          "49": 37
+        },
+        "hydrogen_assignment_distances": [
+          {
+            "hydrogen": 18,
+            "nearest_heavy": 2,
+            "nearest_distance_angstrom": 0.9692937167513964,
+            "second_heavy": 1,
+            "second_distance_angstrom": 1.868948343607255,
+            "distance_gap_angstrom": 0.8996546268558585
+          },
+          {
+            "hydrogen": 19,
+            "nearest_heavy": 4,
+            "nearest_distance_angstrom": 1.0827564364794748,
+            "second_heavy": 3,
+            "second_distance_angstrom": 2.1352475451011688,
+            "distance_gap_angstrom": 1.052491108621694
+          },
+          {
+            "hydrogen": 20,
+            "nearest_heavy": 7,
+            "nearest_distance_angstrom": 1.0867008082542822,
+            "second_heavy": 8,
+            "second_distance_angstrom": 2.1428496125991767,
+            "distance_gap_angstrom": 1.0561488043448946
+          },
+          {
+            "hydrogen": 21,
+            "nearest_heavy": 8,
+            "nearest_distance_angstrom": 1.0843229151906162,
+            "second_heavy": 9,
+            "second_distance_angstrom": 2.1453057142629772,
+            "distance_gap_angstrom": 1.060982799072361
+          },
+          {
+            "hydrogen": 22,
+            "nearest_heavy": 11,
+            "nearest_distance_angstrom": 1.0838644974961757,
+            "second_heavy": 12,
+            "second_distance_angstrom": 2.1539016906254345,
+            "distance_gap_angstrom": 1.0700371931292587
+          },
+          {
+            "hydrogen": 23,
+            "nearest_heavy": 14,
+            "nearest_distance_angstrom": 1.086691378934969,
+            "second_heavy": 15,
+            "second_distance_angstrom": 2.13654850622571,
+            "distance_gap_angstrom": 1.049857127290741
+          },
+          {
+            "hydrogen": 24,
+            "nearest_heavy": 15,
+            "nearest_distance_angstrom": 1.0874236317232582,
+            "second_heavy": 16,
+            "second_distance_angstrom": 2.1442584358211367,
+            "distance_gap_angstrom": 1.0568348040978786
+          },
+          {
+            "hydrogen": 25,
+            "nearest_heavy": 17,
+            "nearest_distance_angstrom": 0.9703835946776682,
+            "second_heavy": 16,
+            "second_distance_angstrom": 1.901522176794544,
+            "distance_gap_angstrom": 0.9311385821168758
+          },
+          {
+            "hydrogen": 40,
+            "nearest_heavy": 26,
+            "nearest_distance_angstrom": 1.0898508973762395,
+            "second_heavy": 27,
+            "second_distance_angstrom": 2.076719382595583,
+            "distance_gap_angstrom": 0.9868684852193434
+          },
+          {
+            "hydrogen": 41,
+            "nearest_heavy": 26,
+            "nearest_distance_angstrom": 1.090366395766639,
+            "second_heavy": 27,
+            "second_distance_angstrom": 2.0924667841144524,
+            "distance_gap_angstrom": 1.0021003883478135
+          },
+          {
+            "hydrogen": 42,
+            "nearest_heavy": 26,
+            "nearest_distance_angstrom": 1.0961200539696154,
+            "second_heavy": 27,
+            "second_distance_angstrom": 2.1213112016451476,
+            "distance_gap_angstrom": 1.0251911476755322
+          },
+          {
+            "hydrogen": 43,
+            "nearest_heavy": 33,
+            "nearest_distance_angstrom": 1.0831072739569654,
+            "second_heavy": 34,
+            "second_distance_angstrom": 2.1327284068419,
+            "distance_gap_angstrom": 1.0496211328849345
+          },
+          {
+            "hydrogen": 44,
+            "nearest_heavy": 35,
+            "nearest_distance_angstrom": 1.09377891374166,
+            "second_heavy": 34,
+            "second_distance_angstrom": 2.1032768845274075,
+            "distance_gap_angstrom": 1.0094979707857474
+          },
+          {
+            "hydrogen": 45,
+            "nearest_heavy": 35,
+            "nearest_distance_angstrom": 1.0929055773464444,
+            "second_heavy": 34,
+            "second_distance_angstrom": 2.1010348051773033,
+            "distance_gap_angstrom": 1.008129227830859
+          },
+          {
+            "hydrogen": 46,
+            "nearest_heavy": 35,
+            "nearest_distance_angstrom": 1.0924877295086919,
+            "second_heavy": 34,
+            "second_distance_angstrom": 2.0786937566170463,
+            "distance_gap_angstrom": 0.9862060271083544
+          },
+          {
+            "hydrogen": 47,
+            "nearest_heavy": 37,
+            "nearest_distance_angstrom": 1.0936330590043768,
+            "second_heavy": 36,
+            "second_distance_angstrom": 2.1143384349265997,
+            "distance_gap_angstrom": 1.0207053759222229
+          },
+          {
+            "hydrogen": 48,
+            "nearest_heavy": 37,
+            "nearest_distance_angstrom": 1.08948914885552,
+            "second_heavy": 36,
+            "second_distance_angstrom": 2.0803864358047206,
+            "distance_gap_angstrom": 0.9908972869492005
+          },
+          {
+            "hydrogen": 49,
+            "nearest_heavy": 37,
+            "nearest_distance_angstrom": 1.0927404974218589,
+            "second_heavy": 36,
+            "second_distance_angstrom": 2.0886585195064793,
+            "distance_gap_angstrom": 0.9959180220846204
+          }
+        ],
+        "ambiguous_hydrogen_indices": [],
+        "contacts": [
+          {
+            "donor": 17,
+            "hydrogen": 25,
+            "acceptor": 39,
+            "H_acceptor_distance_angstrom": 2.380170297906127,
+            "DHA_angle_degrees": 128.16394850471232
+          }
+        ],
+        "scope": "Nearest-heavy-atom ownership and geometric N/O-H...N/O contacts; no electronic charge assignment"
+      },
+      "net_hydrogen_owner_changes": [],
+      "source_geometry": "runs/20260911T024101939784Z-w2-diflunisal--caffeine-freq-resume-n12/saved-optimization.xyz",
+      "source_geometry_sha256": "820d5ba77bdd0c689b9823a41e230fc2f15832ee020399934498dca7dd1a56ee",
+      "minimum_report": "reports/w2-diflunisal--caffeine-freq-resume-n12.json",
+      "minimum_frequency_cm1": 25.795744383684536
+    },
+    {
+      "candidate_id": "diflunisal--caffeine-p14",
+      "species": "diflunisal--caffeine",
+      "selection_role": "alternative",
+      "initial_geometry_source": "structures/week3/drug_initial/diflunisal--caffeine-p14.xyz",
+      "initial_geometry_source_sha256": "23be794a8a901cc3bad958e97bdc097e11e44fde38ed3e19cdf9ab918d1bee55",
+      "initial": {
+        "geometry_audit": {
+          "status": "geometry_checked",
+          "heavy_connectivity_preserved": true,
+          "lost_heavy_bonds": [],
+          "new_heavy_bonds": [],
+          "hydrogen_owner_changes": [],
+          "unassigned_hydrogens": [],
+          "chemical_state_preserved_by_geometry": true,
+          "closest_interfragment_distance_angstrom": 1.714319608063183,
+          "separated_geometry": false,
+          "cross_fragment_proton_transfer": []
+        },
+        "hydrogen_owners": {
+          "18": 2,
+          "19": 4,
+          "20": 7,
+          "21": 8,
+          "22": 11,
+          "23": 14,
+          "24": 15,
+          "25": 17,
+          "40": 26,
+          "41": 26,
+          "42": 26,
+          "43": 33,
+          "44": 35,
+          "45": 35,
+          "46": 35,
+          "47": 37,
+          "48": 37,
+          "49": 37
+        },
+        "hydrogen_assignment_distances": [
+          {
+            "hydrogen": 18,
+            "nearest_heavy": 2,
+            "nearest_distance_angstrom": 0.9697497702374851,
+            "second_heavy": 1,
+            "second_distance_angstrom": 1.9022883983915104,
+            "distance_gap_angstrom": 0.9325386281540253
+          },
+          {
+            "hydrogen": 19,
+            "nearest_heavy": 4,
+            "nearest_distance_angstrom": 1.07820643458376,
+            "second_heavy": 3,
+            "second_distance_angstrom": 2.1266372497589954,
+            "distance_gap_angstrom": 1.0484308151752353
+          },
+          {
+            "hydrogen": 20,
+            "nearest_heavy": 7,
+            "nearest_distance_angstrom": 1.0789707199054213,
+            "second_heavy": 8,
+            "second_distance_angstrom": 2.131044951348333,
+            "distance_gap_angstrom": 1.052074231442912
+          },
+          {
+            "hydrogen": 21,
+            "nearest_heavy": 8,
+            "nearest_distance_angstrom": 1.0780119641567598,
+            "second_heavy": 9,
+            "second_distance_angstrom": 2.135046428245748,
+            "distance_gap_angstrom": 1.0570344640889884
+          },
+          {
+            "hydrogen": 22,
+            "nearest_heavy": 11,
+            "nearest_distance_angstrom": 1.0777345303371366,
+            "second_heavy": 12,
+            "second_distance_angstrom": 2.1433648730168122,
+            "distance_gap_angstrom": 1.0656303426796756
+          },
+          {
+            "hydrogen": 23,
+            "nearest_heavy": 14,
+            "nearest_distance_angstrom": 1.0800687471035664,
+            "second_heavy": 15,
+            "second_distance_angstrom": 2.128735371465552,
+            "distance_gap_angstrom": 1.0486666243619855
+          },
+          {
+            "hydrogen": 24,
+            "nearest_heavy": 15,
+            "nearest_distance_angstrom": 1.080681147905715,
+            "second_heavy": 16,
+            "second_distance_angstrom": 2.13469441045391,
+            "distance_gap_angstrom": 1.054013262548195
+          },
+          {
+            "hydrogen": 25,
+            "nearest_heavy": 17,
+            "nearest_distance_angstrom": 0.9849706486472729,
+            "second_heavy": 29,
+            "second_distance_angstrom": 1.714319608063183,
+            "distance_gap_angstrom": 0.7293489594159102
+          },
+          {
+            "hydrogen": 40,
+            "nearest_heavy": 26,
+            "nearest_distance_angstrom": 1.0869536429210844,
+            "second_heavy": 27,
+            "second_distance_angstrom": 2.0673555037683355,
+            "distance_gap_angstrom": 0.9804018608472511
+          },
+          {
+            "hydrogen": 41,
+            "nearest_heavy": 26,
+            "nearest_distance_angstrom": 1.090135366206333,
+            "second_heavy": 27,
+            "second_distance_angstrom": 2.0950036330439894,
+            "distance_gap_angstrom": 1.0048682668376565
+          },
+          {
+            "hydrogen": 42,
+            "nearest_heavy": 26,
+            "nearest_distance_angstrom": 1.0887300915861826,
+            "second_heavy": 27,
+            "second_distance_angstrom": 2.0852758437475116,
+            "distance_gap_angstrom": 0.996545752161329
+          },
+          {
+            "hydrogen": 43,
+            "nearest_heavy": 33,
+            "nearest_distance_angstrom": 1.0717724707352216,
+            "second_heavy": 32,
+            "second_distance_angstrom": 2.105862410578049,
+            "distance_gap_angstrom": 1.0340899398428274
+          },
+          {
+            "hydrogen": 44,
+            "nearest_heavy": 35,
+            "nearest_distance_angstrom": 1.088724020528797,
+            "second_heavy": 34,
+            "second_distance_angstrom": 2.067525124949191,
+            "distance_gap_angstrom": 0.9788011044203939
+          },
+          {
+            "hydrogen": 45,
+            "nearest_heavy": 35,
+            "nearest_distance_angstrom": 1.0887950141847682,
+            "second_heavy": 34,
+            "second_distance_angstrom": 2.0694544571977644,
+            "distance_gap_angstrom": 0.9806594430129962
+          },
+          {
+            "hydrogen": 46,
+            "nearest_heavy": 35,
+            "nearest_distance_angstrom": 1.093789955972935,
+            "second_heavy": 34,
+            "second_distance_angstrom": 2.0939118404349206,
+            "distance_gap_angstrom": 1.0001218844619857
+          },
+          {
+            "hydrogen": 47,
+            "nearest_heavy": 37,
+            "nearest_distance_angstrom": 1.0893057039706395,
+            "second_heavy": 36,
+            "second_distance_angstrom": 2.0811481836664427,
+            "distance_gap_angstrom": 0.9918424796958032
+          },
+          {
+            "hydrogen": 48,
+            "nearest_heavy": 37,
+            "nearest_distance_angstrom": 1.087906626480263,
+            "second_heavy": 36,
+            "second_distance_angstrom": 2.059788300223755,
+            "distance_gap_angstrom": 0.9718816737434919
+          },
+          {
+            "hydrogen": 49,
+            "nearest_heavy": 37,
+            "nearest_distance_angstrom": 1.0896831156842015,
+            "second_heavy": 36,
+            "second_distance_angstrom": 2.0843221091611555,
+            "distance_gap_angstrom": 0.994638993476954
+          }
+        ],
+        "ambiguous_hydrogen_indices": [],
+        "contacts": [
+          {
+            "donor": 17,
+            "hydrogen": 25,
+            "acceptor": 29,
+            "H_acceptor_distance_angstrom": 1.714319608063183,
+            "DHA_angle_degrees": 165.25866080022783
+          }
+        ],
+        "scope": "Nearest-heavy-atom ownership and geometric N/O-H...N/O contacts; no electronic charge assignment"
+      },
+      "archived_minimum_verified": true,
+      "final": {
+        "geometry_audit": {
+          "status": "geometry_checked",
+          "heavy_connectivity_preserved": true,
+          "lost_heavy_bonds": [],
+          "new_heavy_bonds": [],
+          "hydrogen_owner_changes": [],
+          "unassigned_hydrogens": [],
+          "chemical_state_preserved_by_geometry": true,
+          "closest_interfragment_distance_angstrom": 1.730898044779695,
+          "separated_geometry": false,
+          "cross_fragment_proton_transfer": []
+        },
+        "hydrogen_owners": {
+          "18": 2,
+          "19": 4,
+          "20": 7,
+          "21": 8,
+          "22": 11,
+          "23": 14,
+          "24": 15,
+          "25": 17,
+          "40": 26,
+          "41": 26,
+          "42": 26,
+          "43": 33,
+          "44": 35,
+          "45": 35,
+          "46": 35,
+          "47": 37,
+          "48": 37,
+          "49": 37
+        },
+        "hydrogen_assignment_distances": [
+          {
+            "hydrogen": 18,
+            "nearest_heavy": 2,
+            "nearest_distance_angstrom": 0.9699177439279271,
+            "second_heavy": 1,
+            "second_distance_angstrom": 1.8752642954420977,
+            "distance_gap_angstrom": 0.9053465515141706
+          },
+          {
+            "hydrogen": 19,
+            "nearest_heavy": 4,
+            "nearest_distance_angstrom": 1.0836101355675951,
+            "second_heavy": 3,
+            "second_distance_angstrom": 2.1375517287192674,
+            "distance_gap_angstrom": 1.0539415931516722
+          },
+          {
+            "hydrogen": 20,
+            "nearest_heavy": 7,
+            "nearest_distance_angstrom": 1.0860610053834148,
+            "second_heavy": 8,
+            "second_distance_angstrom": 2.140379182383845,
+            "distance_gap_angstrom": 1.0543181770004304
+          },
+          {
+            "hydrogen": 21,
+            "nearest_heavy": 8,
+            "nearest_distance_angstrom": 1.0841938202268073,
+            "second_heavy": 9,
+            "second_distance_angstrom": 2.144239861190333,
+            "distance_gap_angstrom": 1.0600460409635257
+          },
+          {
+            "hydrogen": 22,
+            "nearest_heavy": 11,
+            "nearest_distance_angstrom": 1.083831332369229,
+            "second_heavy": 12,
+            "second_distance_angstrom": 2.1538036926660435,
+            "distance_gap_angstrom": 1.0699723602968145
+          },
+          {
+            "hydrogen": 23,
+            "nearest_heavy": 14,
+            "nearest_distance_angstrom": 1.0870670626079617,
+            "second_heavy": 15,
+            "second_distance_angstrom": 2.136161268756099,
+            "distance_gap_angstrom": 1.0490942061481374
+          },
+          {
+            "hydrogen": 24,
+            "nearest_heavy": 15,
+            "nearest_distance_angstrom": 1.0861465048968755,
+            "second_heavy": 16,
+            "second_distance_angstrom": 2.147769795148276,
+            "distance_gap_angstrom": 1.0616232902514005
+          },
+          {
+            "hydrogen": 25,
+            "nearest_heavy": 17,
+            "nearest_distance_angstrom": 0.9843595668882535,
+            "second_heavy": 29,
+            "second_distance_angstrom": 1.730898044779695,
+            "distance_gap_angstrom": 0.7465384778914416
+          },
+          {
+            "hydrogen": 40,
+            "nearest_heavy": 26,
+            "nearest_distance_angstrom": 1.0886239579804455,
+            "second_heavy": 27,
+            "second_distance_angstrom": 2.079878755376256,
+            "distance_gap_angstrom": 0.9912547973958106
+          },
+          {
+            "hydrogen": 41,
+            "nearest_heavy": 26,
+            "nearest_distance_angstrom": 1.0927381598700645,
+            "second_heavy": 27,
+            "second_distance_angstrom": 2.103888769066202,
+            "distance_gap_angstrom": 1.0111506091961373
+          },
+          {
+            "hydrogen": 42,
+            "nearest_heavy": 26,
+            "nearest_distance_angstrom": 1.0934620067847862,
+            "second_heavy": 27,
+            "second_distance_angstrom": 2.108342851066375,
+            "distance_gap_angstrom": 1.0148808442815889
+          },
+          {
+            "hydrogen": 43,
+            "nearest_heavy": 33,
+            "nearest_distance_angstrom": 1.0832616458933315,
+            "second_heavy": 34,
+            "second_distance_angstrom": 2.1282990444443906,
+            "distance_gap_angstrom": 1.045037398551059
+          },
+          {
+            "hydrogen": 44,
+            "nearest_heavy": 35,
+            "nearest_distance_angstrom": 1.092331204597638,
+            "second_heavy": 34,
+            "second_distance_angstrom": 2.0783024265305796,
+            "distance_gap_angstrom": 0.9859712219329415
+          },
+          {
+            "hydrogen": 45,
+            "nearest_heavy": 35,
+            "nearest_distance_angstrom": 1.0929462377851027,
+            "second_heavy": 34,
+            "second_distance_angstrom": 2.1003187910744345,
+            "distance_gap_angstrom": 1.0073725532893318
+          },
+          {
+            "hydrogen": 46,
+            "nearest_heavy": 35,
+            "nearest_distance_angstrom": 1.093695963152388,
+            "second_heavy": 34,
+            "second_distance_angstrom": 2.1194176750131812,
+            "distance_gap_angstrom": 1.0257217118607933
+          },
+          {
+            "hydrogen": 47,
+            "nearest_heavy": 37,
+            "nearest_distance_angstrom": 1.0936412839604974,
+            "second_heavy": 36,
+            "second_distance_angstrom": 2.1059636203689616,
+            "distance_gap_angstrom": 1.0123223364084641
+          },
+          {
+            "hydrogen": 48,
+            "nearest_heavy": 37,
+            "nearest_distance_angstrom": 1.093090096911676,
+            "second_heavy": 36,
+            "second_distance_angstrom": 2.1027080227146118,
+            "distance_gap_angstrom": 1.0096179258029359
+          },
+          {
+            "hydrogen": 49,
+            "nearest_heavy": 37,
+            "nearest_distance_angstrom": 1.089980921415364,
+            "second_heavy": 36,
+            "second_distance_angstrom": 2.07631140399154,
+            "distance_gap_angstrom": 0.9863304825761758
+          }
+        ],
+        "ambiguous_hydrogen_indices": [],
+        "contacts": [
+          {
+            "donor": 17,
+            "hydrogen": 25,
+            "acceptor": 29,
+            "H_acceptor_distance_angstrom": 1.730898044779695,
+            "DHA_angle_degrees": 168.63288557747185
+          }
+        ],
+        "scope": "Nearest-heavy-atom ownership and geometric N/O-H...N/O contacts; no electronic charge assignment"
+      },
+      "net_hydrogen_owner_changes": [],
+      "source_geometry": "runs/20260911T091928147429Z-w3-diflunisal--caffeine-p14-opt-freq/w3-diflunisal--caffeine-p14-opt-freq.xyz",
+      "source_geometry_sha256": "7b8f6e6acfe9a75ddfa3252eec10c2e5128ae3594fad6fc7787ec727cb87146c",
+      "minimum_report": "reports/w3-diflunisal--caffeine-p14-opt-freq.json",
+      "minimum_frequency_cm1": 8.370352273251171
+    },
+    {
+      "candidate_id": "diflunisal--caffeine-p06",
+      "species": "diflunisal--caffeine",
+      "selection_role": "alternative",
+      "initial_geometry_source": "structures/week3/drug_initial/diflunisal--caffeine-p06.xyz",
+      "initial_geometry_source_sha256": "6fcb9dfffb57bccd52ee463507ebfcd6800299c936e8362d54001f3815429f6f",
+      "initial": {
+        "geometry_audit": {
+          "status": "geometry_checked",
+          "heavy_connectivity_preserved": true,
+          "lost_heavy_bonds": [],
+          "new_heavy_bonds": [],
+          "hydrogen_owner_changes": [],
+          "unassigned_hydrogens": [],
+          "chemical_state_preserved_by_geometry": true,
+          "closest_interfragment_distance_angstrom": 1.7123811291033715,
+          "separated_geometry": false,
+          "cross_fragment_proton_transfer": []
+        },
+        "hydrogen_owners": {
+          "18": 2,
+          "19": 4,
+          "20": 7,
+          "21": 8,
+          "22": 11,
+          "23": 14,
+          "24": 15,
+          "25": 17,
+          "40": 26,
+          "41": 26,
+          "42": 26,
+          "43": 33,
+          "44": 35,
+          "45": 35,
+          "46": 35,
+          "47": 37,
+          "48": 37,
+          "49": 37
+        },
+        "hydrogen_assignment_distances": [
+          {
+            "hydrogen": 18,
+            "nearest_heavy": 2,
+            "nearest_distance_angstrom": 1.0017853985354033,
+            "second_heavy": 32,
+            "second_distance_angstrom": 1.7123811291033715,
+            "distance_gap_angstrom": 0.7105957305679682
+          },
+          {
+            "hydrogen": 19,
+            "nearest_heavy": 4,
+            "nearest_distance_angstrom": 1.0782198238314007,
+            "second_heavy": 3,
+            "second_distance_angstrom": 2.121507257327006,
+            "distance_gap_angstrom": 1.0432874334956055
+          },
+          {
+            "hydrogen": 20,
+            "nearest_heavy": 7,
+            "nearest_distance_angstrom": 1.0789608019641292,
+            "second_heavy": 8,
+            "second_distance_angstrom": 2.130128082276667,
+            "distance_gap_angstrom": 1.0511672803125376
+          },
+          {
+            "hydrogen": 21,
+            "nearest_heavy": 8,
+            "nearest_distance_angstrom": 1.0780060028564908,
+            "second_heavy": 9,
+            "second_distance_angstrom": 2.1351727719477127,
+            "distance_gap_angstrom": 1.0571667690912219
+          },
+          {
+            "hydrogen": 22,
+            "nearest_heavy": 11,
+            "nearest_distance_angstrom": 1.0777237906667751,
+            "second_heavy": 12,
+            "second_distance_angstrom": 2.143205920002641,
+            "distance_gap_angstrom": 1.065482129335866
+          },
+          {
+            "hydrogen": 23,
+            "nearest_heavy": 14,
+            "nearest_distance_angstrom": 1.079834017866021,
+            "second_heavy": 15,
+            "second_distance_angstrom": 2.1292811556687425,
+            "distance_gap_angstrom": 1.0494471378027215
+          },
+          {
+            "hydrogen": 24,
+            "nearest_heavy": 15,
+            "nearest_distance_angstrom": 1.0823941658406677,
+            "second_heavy": 14,
+            "second_distance_angstrom": 2.135295183399166,
+            "distance_gap_angstrom": 1.052901017558498
+          },
+          {
+            "hydrogen": 25,
+            "nearest_heavy": 17,
+            "nearest_distance_angstrom": 0.9658833041794808,
+            "second_heavy": 16,
+            "second_distance_angstrom": 1.9105195285350796,
+            "distance_gap_angstrom": 0.9446362243555988
+          },
+          {
+            "hydrogen": 40,
+            "nearest_heavy": 26,
+            "nearest_distance_angstrom": 1.087318158711783,
+            "second_heavy": 27,
+            "second_distance_angstrom": 2.0624269990074406,
+            "distance_gap_angstrom": 0.9751088402956576
+          },
+          {
+            "hydrogen": 41,
+            "nearest_heavy": 26,
+            "nearest_distance_angstrom": 1.0895202345158703,
+            "second_heavy": 27,
+            "second_distance_angstrom": 2.0918183841399283,
+            "distance_gap_angstrom": 1.002298149624058
+          },
+          {
+            "hydrogen": 42,
+            "nearest_heavy": 26,
+            "nearest_distance_angstrom": 1.0894505937690444,
+            "second_heavy": 27,
+            "second_distance_angstrom": 2.0916020744267154,
+            "distance_gap_angstrom": 1.002151480657671
+          },
+          {
+            "hydrogen": 43,
+            "nearest_heavy": 33,
+            "nearest_distance_angstrom": 1.0731634578702014,
+            "second_heavy": 32,
+            "second_distance_angstrom": 2.1012044260647023,
+            "distance_gap_angstrom": 1.0280409681945009
+          },
+          {
+            "hydrogen": 44,
+            "nearest_heavy": 35,
+            "nearest_distance_angstrom": 1.0907949363059246,
+            "second_heavy": 34,
+            "second_distance_angstrom": 2.083567770462581,
+            "distance_gap_angstrom": 0.9927728341566562
+          },
+          {
+            "hydrogen": 45,
+            "nearest_heavy": 35,
+            "nearest_distance_angstrom": 1.0908127664352967,
+            "second_heavy": 34,
+            "second_distance_angstrom": 2.083548990129152,
+            "distance_gap_angstrom": 0.9927362236938553
+          },
+          {
+            "hydrogen": 46,
+            "nearest_heavy": 35,
+            "nearest_distance_angstrom": 1.0889956076345852,
+            "second_heavy": 34,
+            "second_distance_angstrom": 2.057704446530715,
+            "distance_gap_angstrom": 0.9687088388961296
+          },
+          {
+            "hydrogen": 47,
+            "nearest_heavy": 37,
+            "nearest_distance_angstrom": 1.0898942095522524,
+            "second_heavy": 36,
+            "second_distance_angstrom": 2.0868971823875473,
+            "distance_gap_angstrom": 0.9970029728352949
+          },
+          {
+            "hydrogen": 48,
+            "nearest_heavy": 37,
+            "nearest_distance_angstrom": 1.0880272620162523,
+            "second_heavy": 36,
+            "second_distance_angstrom": 2.0575358356397624,
+            "distance_gap_angstrom": 0.9695085736235101
+          },
+          {
+            "hydrogen": 49,
+            "nearest_heavy": 37,
+            "nearest_distance_angstrom": 1.0897444351104746,
+            "second_heavy": 36,
+            "second_distance_angstrom": 2.0865406723249067,
+            "distance_gap_angstrom": 0.9967962372144321
+          }
+        ],
+        "ambiguous_hydrogen_indices": [],
+        "contacts": [
+          {
+            "donor": 2,
+            "hydrogen": 18,
+            "acceptor": 32,
+            "H_acceptor_distance_angstrom": 1.7123811291033715,
+            "DHA_angle_degrees": 175.40878188416798
+          }
+        ],
+        "scope": "Nearest-heavy-atom ownership and geometric N/O-H...N/O contacts; no electronic charge assignment"
+      },
+      "archived_minimum_verified": true,
+      "final": {
+        "geometry_audit": {
+          "status": "geometry_checked",
+          "heavy_connectivity_preserved": true,
+          "lost_heavy_bonds": [],
+          "new_heavy_bonds": [],
+          "hydrogen_owner_changes": [],
+          "unassigned_hydrogens": [],
+          "chemical_state_preserved_by_geometry": true,
+          "closest_interfragment_distance_angstrom": 1.7321987321152303,
+          "separated_geometry": false,
+          "cross_fragment_proton_transfer": []
+        },
+        "hydrogen_owners": {
+          "18": 2,
+          "19": 4,
+          "20": 7,
+          "21": 8,
+          "22": 11,
+          "23": 14,
+          "24": 15,
+          "25": 17,
+          "40": 26,
+          "41": 26,
+          "42": 26,
+          "43": 33,
+          "44": 35,
+          "45": 35,
+          "46": 35,
+          "47": 37,
+          "48": 37,
+          "49": 37
+        },
+        "hydrogen_assignment_distances": [
+          {
+            "hydrogen": 18,
+            "nearest_heavy": 2,
+            "nearest_distance_angstrom": 1.005371571295168,
+            "second_heavy": 32,
+            "second_distance_angstrom": 1.7321987321152303,
+            "distance_gap_angstrom": 0.7268271608200623
+          },
+          {
+            "hydrogen": 19,
+            "nearest_heavy": 4,
+            "nearest_distance_angstrom": 1.0828807537741258,
+            "second_heavy": 3,
+            "second_distance_angstrom": 2.1299814354099413,
+            "distance_gap_angstrom": 1.0471006816358155
+          },
+          {
+            "hydrogen": 20,
+            "nearest_heavy": 7,
+            "nearest_distance_angstrom": 1.0861234636349946,
+            "second_heavy": 8,
+            "second_distance_angstrom": 2.1403502295042425,
+            "distance_gap_angstrom": 1.054226765869248
+          },
+          {
+            "hydrogen": 21,
+            "nearest_heavy": 8,
+            "nearest_distance_angstrom": 1.0841767273563179,
+            "second_heavy": 9,
+            "second_distance_angstrom": 2.1442038551264444,
+            "distance_gap_angstrom": 1.0600271277701265
+          },
+          {
+            "hydrogen": 22,
+            "nearest_heavy": 11,
+            "nearest_distance_angstrom": 1.0838323199460378,
+            "second_heavy": 12,
+            "second_distance_angstrom": 2.153938339831634,
+            "distance_gap_angstrom": 1.0701060198855963
+          },
+          {
+            "hydrogen": 23,
+            "nearest_heavy": 14,
+            "nearest_distance_angstrom": 1.0867758346521517,
+            "second_heavy": 15,
+            "second_distance_angstrom": 2.1377977641104993,
+            "distance_gap_angstrom": 1.0510219294583476
+          },
+          {
+            "hydrogen": 24,
+            "nearest_heavy": 15,
+            "nearest_distance_angstrom": 1.0883148713218826,
+            "second_heavy": 14,
+            "second_distance_angstrom": 2.1439065287270176,
+            "distance_gap_angstrom": 1.055591657405135
+          },
+          {
+            "hydrogen": 25,
+            "nearest_heavy": 17,
+            "nearest_distance_angstrom": 0.965121631008521,
+            "second_heavy": 16,
+            "second_distance_angstrom": 1.8963860019482186,
+            "distance_gap_angstrom": 0.9312643709396976
+          },
+          {
+            "hydrogen": 40,
+            "nearest_heavy": 26,
+            "nearest_distance_angstrom": 1.0895333023643357,
+            "second_heavy": 27,
+            "second_distance_angstrom": 2.0739474335023402,
+            "distance_gap_angstrom": 0.9844141311380046
+          },
+          {
+            "hydrogen": 41,
+            "nearest_heavy": 26,
+            "nearest_distance_angstrom": 1.0933148572723288,
+            "second_heavy": 27,
+            "second_distance_angstrom": 2.1086357893442695,
+            "distance_gap_angstrom": 1.0153209320719407
+          },
+          {
+            "hydrogen": 42,
+            "nearest_heavy": 26,
+            "nearest_distance_angstrom": 1.0931901220040248,
+            "second_heavy": 27,
+            "second_distance_angstrom": 2.108001353581543,
+            "distance_gap_angstrom": 1.0148112315775182
+          },
+          {
+            "hydrogen": 43,
+            "nearest_heavy": 33,
+            "nearest_distance_angstrom": 1.0833588523577735,
+            "second_heavy": 32,
+            "second_distance_angstrom": 2.1346083677983634,
+            "distance_gap_angstrom": 1.0512495154405899
+          },
+          {
+            "hydrogen": 44,
+            "nearest_heavy": 35,
+            "nearest_distance_angstrom": 1.0928587013917914,
+            "second_heavy": 34,
+            "second_distance_angstrom": 2.1013753849372176,
+            "distance_gap_angstrom": 1.0085166835454262
+          },
+          {
+            "hydrogen": 45,
+            "nearest_heavy": 35,
+            "nearest_distance_angstrom": 1.092022626743591,
+            "second_heavy": 34,
+            "second_distance_angstrom": 2.0786761710455486,
+            "distance_gap_angstrom": 0.9866535443019575
+          },
+          {
+            "hydrogen": 46,
+            "nearest_heavy": 35,
+            "nearest_distance_angstrom": 1.092782184534714,
+            "second_heavy": 34,
+            "second_distance_angstrom": 2.100875879387726,
+            "distance_gap_angstrom": 1.008093694853012
+          },
+          {
+            "hydrogen": 47,
+            "nearest_heavy": 37,
+            "nearest_distance_angstrom": 1.0949609587426063,
+            "second_heavy": 36,
+            "second_distance_angstrom": 2.1062703234274402,
+            "distance_gap_angstrom": 1.011309364684834
+          },
+          {
+            "hydrogen": 48,
+            "nearest_heavy": 37,
+            "nearest_distance_angstrom": 1.0894343012522079,
+            "second_heavy": 36,
+            "second_distance_angstrom": 2.0739206674463233,
+            "distance_gap_angstrom": 0.9844863661941154
+          },
+          {
+            "hydrogen": 49,
+            "nearest_heavy": 37,
+            "nearest_distance_angstrom": 1.0948990329349975,
+            "second_heavy": 36,
+            "second_distance_angstrom": 2.1064309571245263,
+            "distance_gap_angstrom": 1.0115319241895289
+          }
+        ],
+        "ambiguous_hydrogen_indices": [],
+        "contacts": [
+          {
+            "donor": 2,
+            "hydrogen": 18,
+            "acceptor": 32,
+            "H_acceptor_distance_angstrom": 1.7321987321152303,
+            "DHA_angle_degrees": 177.84750242904786
+          }
+        ],
+        "scope": "Nearest-heavy-atom ownership and geometric N/O-H...N/O contacts; no electronic charge assignment"
+      },
+      "net_hydrogen_owner_changes": [],
+      "source_geometry": "runs/20260911T094859365003Z-w3-diflunisal--caffeine-p06-opt-freq/w3-diflunisal--caffeine-p06-opt-freq.xyz",
+      "source_geometry_sha256": "113b821a9f789a37b2500823c676eb9f431edcb34964a55f6f39e6642a90632f",
+      "minimum_report": "reports/w3-diflunisal--caffeine-p06-opt-freq.json",
+      "minimum_frequency_cm1": 9.543950291192738
+    },
+    {
+      "candidate_id": "adenine-t06-s89",
+      "species": "adenine",
+      "selection_role": "primary",
+      "initial_geometry_source": "structures/week3/drug_initial/adenine-t06-s89.xyz",
+      "initial_geometry_source_sha256": "987d0a4e805713b9286bf66ec48d0531f4af2b6f569381c687d30224103ff91a",
+      "initial": {
+        "geometry_audit": {
+          "status": "geometry_checked",
+          "heavy_connectivity_preserved": true,
+          "lost_heavy_bonds": [],
+          "new_heavy_bonds": [],
+          "hydrogen_owner_changes": [],
+          "unassigned_hydrogens": [],
+          "chemical_state_preserved_by_geometry": true
+        },
+        "hydrogen_owners": {
+          "10": 0,
+          "11": 0,
+          "12": 3,
+          "13": 6,
+          "14": 7
+        },
+        "hydrogen_assignment_distances": [
+          {
+            "hydrogen": 10,
+            "nearest_heavy": 0,
+            "nearest_distance_angstrom": 1.0033941318277562,
+            "second_heavy": 1,
+            "second_distance_angstrom": 2.0332108359941277,
+            "distance_gap_angstrom": 1.0298167041663715
+          },
+          {
+            "hydrogen": 11,
+            "nearest_heavy": 0,
+            "nearest_distance_angstrom": 1.0034900493898973,
+            "second_heavy": 1,
+            "second_distance_angstrom": 2.031561962727376,
+            "distance_gap_angstrom": 1.0280719133374787
+          },
+          {
+            "hydrogen": 12,
+            "nearest_heavy": 3,
+            "nearest_distance_angstrom": 1.0817921282256178,
+            "second_heavy": 2,
+            "second_distance_angstrom": 2.038751191571922,
+            "distance_gap_angstrom": 0.9569590633463041
+          },
+          {
+            "hydrogen": 13,
+            "nearest_heavy": 6,
+            "nearest_distance_angstrom": 1.005782560253534,
+            "second_heavy": 5,
+            "second_distance_angstrom": 2.1175901504078496,
+            "distance_gap_angstrom": 1.1118075901543156
+          },
+          {
+            "hydrogen": 14,
+            "nearest_heavy": 7,
+            "nearest_distance_angstrom": 1.072427356922129,
+            "second_heavy": 8,
+            "second_distance_angstrom": 2.093553919755106,
+            "distance_gap_angstrom": 1.0211265628329769
+          }
+        ],
+        "ambiguous_hydrogen_indices": [],
+        "contacts": [],
+        "scope": "Nearest-heavy-atom ownership and geometric N/O-H...N/O contacts; no electronic charge assignment"
+      },
+      "archived_minimum_verified": true,
+      "final": {
+        "geometry_audit": {
+          "status": "geometry_checked",
+          "heavy_connectivity_preserved": true,
+          "lost_heavy_bonds": [],
+          "new_heavy_bonds": [],
+          "hydrogen_owner_changes": [],
+          "unassigned_hydrogens": [],
+          "chemical_state_preserved_by_geometry": true
+        },
+        "hydrogen_owners": {
+          "10": 0,
+          "11": 0,
+          "12": 3,
+          "13": 6,
+          "14": 7
+        },
+        "hydrogen_assignment_distances": [
+          {
+            "hydrogen": 10,
+            "nearest_heavy": 0,
+            "nearest_distance_angstrom": 1.0062893043661039,
+            "second_heavy": 1,
+            "second_distance_angstrom": 2.035997757751994,
+            "distance_gap_angstrom": 1.0297084533858902
+          },
+          {
+            "hydrogen": 11,
+            "nearest_heavy": 0,
+            "nearest_distance_angstrom": 1.0065954798345578,
+            "second_heavy": 1,
+            "second_distance_angstrom": 2.0290894757375932,
+            "distance_gap_angstrom": 1.0224939959030355
+          },
+          {
+            "hydrogen": 12,
+            "nearest_heavy": 3,
+            "nearest_distance_angstrom": 1.089952960461474,
+            "second_heavy": 2,
+            "second_distance_angstrom": 2.0588299571890984,
+            "distance_gap_angstrom": 0.9688769967276245
+          },
+          {
+            "hydrogen": 13,
+            "nearest_heavy": 6,
+            "nearest_distance_angstrom": 1.0075632701437605,
+            "second_heavy": 5,
+            "second_distance_angstrom": 2.1306116044668446,
+            "distance_gap_angstrom": 1.1230483343230842
+          },
+          {
+            "hydrogen": 14,
+            "nearest_heavy": 7,
+            "nearest_distance_angstrom": 1.0833649922705355,
+            "second_heavy": 8,
+            "second_distance_angstrom": 2.128431595823708,
+            "distance_gap_angstrom": 1.0450666035531726
+          }
+        ],
+        "ambiguous_hydrogen_indices": [],
+        "contacts": [],
+        "scope": "Nearest-heavy-atom ownership and geometric N/O-H...N/O contacts; no electronic charge assignment"
+      },
+      "net_hydrogen_owner_changes": [],
+      "source_geometry": "runs/20260911T101418475738Z-w3-adenine-t06-s89-opt-freq/w3-adenine-t06-s89-opt-freq.xyz",
+      "source_geometry_sha256": "99ff16ac9c2389a9db1084b140a4107ebe560ce871f97e8bae33a13334c78618",
+      "minimum_report": "reports/w3-adenine-t06-s89-opt-freq.json",
+      "minimum_frequency_cm1": 160.7100977495136
+    },
+    {
+      "candidate_id": "theobromine-t00-s89",
+      "species": "theobromine",
+      "selection_role": "primary",
+      "initial_geometry_source": "structures/week3/drug_initial/theobromine-t00-s89.xyz",
+      "initial_geometry_source_sha256": "484d4039a5b381747ede1e5ee26a0ae8a9e7c9f2d8aa8eaa48920533c74a421c",
+      "initial": {
+        "geometry_audit": {
+          "status": "geometry_checked",
+          "heavy_connectivity_preserved": true,
+          "lost_heavy_bonds": [],
+          "new_heavy_bonds": [],
+          "hydrogen_owner_changes": [],
+          "unassigned_hydrogens": [],
+          "chemical_state_preserved_by_geometry": true
+        },
+        "hydrogen_owners": {
+          "13": 0,
+          "14": 0,
+          "15": 0,
+          "16": 2,
+          "17": 8,
+          "18": 12,
+          "19": 12,
+          "20": 12
+        },
+        "hydrogen_assignment_distances": [
+          {
+            "hydrogen": 13,
+            "nearest_heavy": 0,
+            "nearest_distance_angstrom": 1.0882798618613094,
+            "second_heavy": 1,
+            "second_distance_angstrom": 2.0686443974988546,
+            "distance_gap_angstrom": 0.9803645356375452
+          },
+          {
+            "hydrogen": 14,
+            "nearest_heavy": 0,
+            "nearest_distance_angstrom": 1.0909695071286298,
+            "second_heavy": 1,
+            "second_distance_angstrom": 2.0776661984373272,
+            "distance_gap_angstrom": 0.9866966913086974
+          },
+          {
+            "hydrogen": 15,
+            "nearest_heavy": 0,
+            "nearest_distance_angstrom": 1.0909692298014504,
+            "second_heavy": 1,
+            "second_distance_angstrom": 2.07766463665392,
+            "distance_gap_angstrom": 0.9866954068524698
+          },
+          {
+            "hydrogen": 16,
+            "nearest_heavy": 2,
+            "nearest_distance_angstrom": 1.0718094773028912,
+            "second_heavy": 3,
+            "second_distance_angstrom": 2.1050827494811375,
+            "distance_gap_angstrom": 1.0332732721782463
+          },
+          {
+            "hydrogen": 17,
+            "nearest_heavy": 8,
+            "nearest_distance_angstrom": 1.0142378683527278,
+            "second_heavy": 9,
+            "second_distance_angstrom": 2.0224360505652474,
+            "distance_gap_angstrom": 1.0081981822125197
+          },
+          {
+            "hydrogen": 18,
+            "nearest_heavy": 12,
+            "nearest_distance_angstrom": 1.0880231443828594,
+            "second_heavy": 11,
+            "second_distance_angstrom": 2.0579420469316565,
+            "distance_gap_angstrom": 0.9699189025487971
+          },
+          {
+            "hydrogen": 19,
+            "nearest_heavy": 12,
+            "nearest_distance_angstrom": 1.0896505092209856,
+            "second_heavy": 11,
+            "second_distance_angstrom": 2.0837147554446527,
+            "distance_gap_angstrom": 0.9940642462236671
+          },
+          {
+            "hydrogen": 20,
+            "nearest_heavy": 12,
+            "nearest_distance_angstrom": 1.089649954363363,
+            "second_heavy": 11,
+            "second_distance_angstrom": 2.0837113403400807,
+            "distance_gap_angstrom": 0.9940613859767176
+          }
+        ],
+        "ambiguous_hydrogen_indices": [],
+        "contacts": [],
+        "scope": "Nearest-heavy-atom ownership and geometric N/O-H...N/O contacts; no electronic charge assignment"
+      },
+      "archived_minimum_verified": true,
+      "final": {
+        "geometry_audit": {
+          "status": "geometry_checked",
+          "heavy_connectivity_preserved": true,
+          "lost_heavy_bonds": [],
+          "new_heavy_bonds": [],
+          "hydrogen_owner_changes": [],
+          "unassigned_hydrogens": [],
+          "chemical_state_preserved_by_geometry": true
+        },
+        "hydrogen_owners": {
+          "13": 0,
+          "14": 0,
+          "15": 0,
+          "16": 2,
+          "17": 8,
+          "18": 12,
+          "19": 12,
+          "20": 12
+        },
+        "hydrogen_assignment_distances": [
+          {
+            "hydrogen": 13,
+            "nearest_heavy": 0,
+            "nearest_distance_angstrom": 1.0923730443324882,
+            "second_heavy": 1,
+            "second_distance_angstrom": 2.0801150031617843,
+            "distance_gap_angstrom": 0.9877419588292962
+          },
+          {
+            "hydrogen": 14,
+            "nearest_heavy": 0,
+            "nearest_distance_angstrom": 1.0932134508789837,
+            "second_heavy": 1,
+            "second_distance_angstrom": 2.101916395872517,
+            "distance_gap_angstrom": 1.0087029449935334
+          },
+          {
+            "hydrogen": 15,
+            "nearest_heavy": 0,
+            "nearest_distance_angstrom": 1.0931437299019298,
+            "second_heavy": 1,
+            "second_distance_angstrom": 2.10157975512414,
+            "distance_gap_angstrom": 1.0084360252222104
+          },
+          {
+            "hydrogen": 16,
+            "nearest_heavy": 2,
+            "nearest_distance_angstrom": 1.0831945220696606,
+            "second_heavy": 1,
+            "second_distance_angstrom": 2.1339570394965977,
+            "distance_gap_angstrom": 1.050762517426937
+          },
+          {
+            "hydrogen": 17,
+            "nearest_heavy": 8,
+            "nearest_distance_angstrom": 1.0116100082382213,
+            "second_heavy": 9,
+            "second_distance_angstrom": 2.0323766690238307,
+            "distance_gap_angstrom": 1.0207666607856094
+          },
+          {
+            "hydrogen": 18,
+            "nearest_heavy": 12,
+            "nearest_distance_angstrom": 1.0897180127484063,
+            "second_heavy": 11,
+            "second_distance_angstrom": 2.072335631143175,
+            "distance_gap_angstrom": 0.9826176183947686
+          },
+          {
+            "hydrogen": 19,
+            "nearest_heavy": 12,
+            "nearest_distance_angstrom": 1.093896783748577,
+            "second_heavy": 11,
+            "second_distance_angstrom": 2.1024292588837414,
+            "distance_gap_angstrom": 1.0085324751351645
+          },
+          {
+            "hydrogen": 20,
+            "nearest_heavy": 12,
+            "nearest_distance_angstrom": 1.0943598327378736,
+            "second_heavy": 11,
+            "second_distance_angstrom": 2.105376410918923,
+            "distance_gap_angstrom": 1.0110165781810494
+          }
+        ],
+        "ambiguous_hydrogen_indices": [],
+        "contacts": [],
+        "scope": "Nearest-heavy-atom ownership and geometric N/O-H...N/O contacts; no electronic charge assignment"
+      },
+      "net_hydrogen_owner_changes": [],
+      "source_geometry": "runs/20260911T101854702420Z-w3-theobromine-t00-s89-opt-freq/w3-theobromine-t00-s89-opt-freq.xyz",
+      "source_geometry_sha256": "fe338582eddce8ea45b3a62a8834f0b6c481e0385951ff998801dc61a65c6328",
+      "minimum_report": "reports/w3-theobromine-t00-s89-opt-freq.json",
+      "minimum_frequency_cm1": 78.51118324644744
+    },
+    {
+      "candidate_id": "xanthine-t00-s17",
+      "species": "xanthine",
+      "selection_role": "primary",
+      "initial_geometry_source": "structures/week3/drug_initial/xanthine-t00-s17.xyz",
+      "initial_geometry_source_sha256": "b1990ca175ed92987d4b327dbe72fb04034f0f45aa014976f536b8a053f1f266",
+      "initial": {
+        "geometry_audit": {
+          "status": "geometry_checked",
+          "heavy_connectivity_preserved": true,
+          "lost_heavy_bonds": [],
+          "new_heavy_bonds": [],
+          "hydrogen_owner_changes": [],
+          "unassigned_hydrogens": [],
+          "chemical_state_preserved_by_geometry": true
+        },
+        "hydrogen_owners": {
+          "11": 2,
+          "12": 6,
+          "13": 7,
+          "14": 10
+        },
+        "hydrogen_assignment_distances": [
+          {
+            "hydrogen": 11,
+            "nearest_heavy": 2,
+            "nearest_distance_angstrom": 1.0143395077555333,
+            "second_heavy": 1,
+            "second_distance_angstrom": 2.0261839924090395,
+            "distance_gap_angstrom": 1.0118444846535062
+          },
+          {
+            "hydrogen": 12,
+            "nearest_heavy": 6,
+            "nearest_distance_angstrom": 1.0070995712614015,
+            "second_heavy": 5,
+            "second_distance_angstrom": 2.1193065331390226,
+            "distance_gap_angstrom": 1.1122069618776211
+          },
+          {
+            "hydrogen": 13,
+            "nearest_heavy": 7,
+            "nearest_distance_angstrom": 1.0712523831992347,
+            "second_heavy": 8,
+            "second_distance_angstrom": 2.1028030589118627,
+            "distance_gap_angstrom": 1.031550675712628
+          },
+          {
+            "hydrogen": 14,
+            "nearest_heavy": 10,
+            "nearest_distance_angstrom": 1.009957408331051,
+            "second_heavy": 1,
+            "second_distance_angstrom": 2.0601848798392646,
+            "distance_gap_angstrom": 1.0502274715082136
+          }
+        ],
+        "ambiguous_hydrogen_indices": [],
+        "contacts": [],
+        "scope": "Nearest-heavy-atom ownership and geometric N/O-H...N/O contacts; no electronic charge assignment"
+      },
+      "archived_minimum_verified": true,
+      "final": {
+        "geometry_audit": {
+          "status": "geometry_checked",
+          "heavy_connectivity_preserved": true,
+          "lost_heavy_bonds": [],
+          "new_heavy_bonds": [],
+          "hydrogen_owner_changes": [],
+          "unassigned_hydrogens": [],
+          "chemical_state_preserved_by_geometry": true
+        },
+        "hydrogen_owners": {
+          "11": 2,
+          "12": 6,
+          "13": 7,
+          "14": 10
+        },
+        "hydrogen_assignment_distances": [
+          {
+            "hydrogen": 11,
+            "nearest_heavy": 2,
+            "nearest_distance_angstrom": 1.0117948908085714,
+            "second_heavy": 1,
+            "second_distance_angstrom": 2.036675717176968,
+            "distance_gap_angstrom": 1.0248808263683964
+          },
+          {
+            "hydrogen": 12,
+            "nearest_heavy": 6,
+            "nearest_distance_angstrom": 1.0082687736919214,
+            "second_heavy": 5,
+            "second_distance_angstrom": 2.129056353774364,
+            "distance_gap_angstrom": 1.1207875800824425
+          },
+          {
+            "hydrogen": 13,
+            "nearest_heavy": 7,
+            "nearest_distance_angstrom": 1.0823652363396599,
+            "second_heavy": 8,
+            "second_distance_angstrom": 2.139712742235577,
+            "distance_gap_angstrom": 1.057347505895917
+          },
+          {
+            "hydrogen": 14,
+            "nearest_heavy": 10,
+            "nearest_distance_angstrom": 1.0091547082464367,
+            "second_heavy": 1,
+            "second_distance_angstrom": 2.0561899789520055,
+            "distance_gap_angstrom": 1.0470352707055688
+          }
+        ],
+        "ambiguous_hydrogen_indices": [],
+        "contacts": [],
+        "scope": "Nearest-heavy-atom ownership and geometric N/O-H...N/O contacts; no electronic charge assignment"
+      },
+      "net_hydrogen_owner_changes": [],
+      "source_geometry": "runs/20260911T102326653100Z-w3-xanthine-t00-s17-opt-freq/w3-xanthine-t00-s17-opt-freq.xyz",
+      "source_geometry_sha256": "fbb0d434c8959d1595d092a8023c710084b410c939143e804674aea1b490b5d3",
+      "minimum_report": "reports/w3-xanthine-t00-s17-opt-freq.json",
+      "minimum_frequency_cm1": 107.24676270977068
+    },
+    {
+      "candidate_id": "diflunisal--diflunisal-p05",
+      "species": "diflunisal--diflunisal",
+      "selection_role": "primary",
+      "initial_geometry_source": "structures/week3/drug_initial/diflunisal--diflunisal-p05.xyz",
+      "initial_geometry_source_sha256": "e403f18e65589a25ad813ab3b619cf24b1e0f4f877304ccd10c5b6ea6109c10e",
+      "initial": {
+        "geometry_audit": {
+          "status": "geometry_checked",
+          "heavy_connectivity_preserved": true,
+          "lost_heavy_bonds": [],
+          "new_heavy_bonds": [],
+          "hydrogen_owner_changes": [],
+          "unassigned_hydrogens": [],
+          "chemical_state_preserved_by_geometry": true,
+          "closest_interfragment_distance_angstrom": 1.625251154093908,
+          "separated_geometry": false,
+          "cross_fragment_proton_transfer": []
+        },
+        "hydrogen_owners": {
+          "18": 2,
+          "19": 4,
+          "20": 7,
+          "21": 8,
+          "22": 11,
+          "23": 14,
+          "24": 15,
+          "25": 17,
+          "44": 28,
+          "45": 30,
+          "46": 33,
+          "47": 34,
+          "48": 37,
+          "49": 40,
+          "50": 41,
+          "51": 43
+        },
+        "hydrogen_assignment_distances": [
+          {
+            "hydrogen": 18,
+            "nearest_heavy": 2,
+            "nearest_distance_angstrom": 1.0006929255642922,
+            "second_heavy": 26,
+            "second_distance_angstrom": 1.6781761021695778,
+            "distance_gap_angstrom": 0.6774831766052856
+          },
+          {
+            "hydrogen": 19,
+            "nearest_heavy": 4,
+            "nearest_distance_angstrom": 1.0782440294024687,
+            "second_heavy": 3,
+            "second_distance_angstrom": 2.1240631654610307,
+            "distance_gap_angstrom": 1.045819136058562
+          },
+          {
+            "hydrogen": 20,
+            "nearest_heavy": 7,
+            "nearest_distance_angstrom": 1.0790021990726142,
+            "second_heavy": 8,
+            "second_distance_angstrom": 2.1308192400857546,
+            "distance_gap_angstrom": 1.0518170410131404
+          },
+          {
+            "hydrogen": 21,
+            "nearest_heavy": 8,
+            "nearest_distance_angstrom": 1.0779613296969401,
+            "second_heavy": 9,
+            "second_distance_angstrom": 2.1352203866894865,
+            "distance_gap_angstrom": 1.0572590569925464
+          },
+          {
+            "hydrogen": 22,
+            "nearest_heavy": 11,
+            "nearest_distance_angstrom": 1.0776932703182764,
+            "second_heavy": 12,
+            "second_distance_angstrom": 2.143317089079673,
+            "distance_gap_angstrom": 1.0656238187613967
+          },
+          {
+            "hydrogen": 23,
+            "nearest_heavy": 14,
+            "nearest_distance_angstrom": 1.0797400484447832,
+            "second_heavy": 15,
+            "second_distance_angstrom": 2.1291111855769813,
+            "distance_gap_angstrom": 1.049371137132198
+          },
+          {
+            "hydrogen": 24,
+            "nearest_heavy": 15,
+            "nearest_distance_angstrom": 1.0821359794853427,
+            "second_heavy": 14,
+            "second_distance_angstrom": 2.1349763331178573,
+            "distance_gap_angstrom": 1.0528403536325146
+          },
+          {
+            "hydrogen": 25,
+            "nearest_heavy": 17,
+            "nearest_distance_angstrom": 0.9660393282945196,
+            "second_heavy": 16,
+            "second_distance_angstrom": 1.9109009609972771,
+            "distance_gap_angstrom": 0.9448616327027576
+          },
+          {
+            "hydrogen": 44,
+            "nearest_heavy": 28,
+            "nearest_distance_angstrom": 1.0110569686520556,
+            "second_heavy": 0,
+            "second_distance_angstrom": 1.625251154093908,
+            "distance_gap_angstrom": 0.6141941854418524
+          },
+          {
+            "hydrogen": 45,
+            "nearest_heavy": 30,
+            "nearest_distance_angstrom": 1.0788139705960733,
+            "second_heavy": 29,
+            "second_distance_angstrom": 2.129243918225613,
+            "distance_gap_angstrom": 1.0504299476295398
+          },
+          {
+            "hydrogen": 46,
+            "nearest_heavy": 33,
+            "nearest_distance_angstrom": 1.0787588007835667,
+            "second_heavy": 34,
+            "second_distance_angstrom": 2.1304131408607105,
+            "distance_gap_angstrom": 1.0516543400771439
+          },
+          {
+            "hydrogen": 47,
+            "nearest_heavy": 34,
+            "nearest_distance_angstrom": 1.0779720927935652,
+            "second_heavy": 35,
+            "second_distance_angstrom": 2.1352252892247345,
+            "distance_gap_angstrom": 1.0572531964311693
+          },
+          {
+            "hydrogen": 48,
+            "nearest_heavy": 37,
+            "nearest_distance_angstrom": 1.0777155678613348,
+            "second_heavy": 38,
+            "second_distance_angstrom": 2.1431338881640207,
+            "distance_gap_angstrom": 1.065418320302686
+          },
+          {
+            "hydrogen": 49,
+            "nearest_heavy": 40,
+            "nearest_distance_angstrom": 1.0788982486885346,
+            "second_heavy": 41,
+            "second_distance_angstrom": 2.1219414499862546,
+            "distance_gap_angstrom": 1.04304320129772
+          },
+          {
+            "hydrogen": 50,
+            "nearest_heavy": 41,
+            "nearest_distance_angstrom": 1.0782602075774668,
+            "second_heavy": 42,
+            "second_distance_angstrom": 2.128027379190234,
+            "distance_gap_angstrom": 1.0497671716127674
+          },
+          {
+            "hydrogen": 51,
+            "nearest_heavy": 43,
+            "nearest_distance_angstrom": 0.9819622775858673,
+            "second_heavy": 26,
+            "second_distance_angstrom": 1.7685168855831601,
+            "distance_gap_angstrom": 0.7865546079972928
+          }
+        ],
+        "ambiguous_hydrogen_indices": [],
+        "contacts": [
+          {
+            "donor": 2,
+            "hydrogen": 18,
+            "acceptor": 26,
+            "H_acceptor_distance_angstrom": 1.6781761021695778,
+            "DHA_angle_degrees": 175.10644938311063
+          },
+          {
+            "donor": 28,
+            "hydrogen": 44,
+            "acceptor": 0,
+            "H_acceptor_distance_angstrom": 1.625251154093908,
+            "DHA_angle_degrees": 175.88283494791432
+          }
+        ],
+        "scope": "Nearest-heavy-atom ownership and geometric N/O-H...N/O contacts; no electronic charge assignment"
+      },
+      "archived_minimum_verified": true,
+      "final": {
+        "geometry_audit": {
+          "status": "geometry_checked",
+          "heavy_connectivity_preserved": true,
+          "lost_heavy_bonds": [],
+          "new_heavy_bonds": [],
+          "hydrogen_owner_changes": [],
+          "unassigned_hydrogens": [],
+          "chemical_state_preserved_by_geometry": true,
+          "closest_interfragment_distance_angstrom": 1.584003979491307,
+          "separated_geometry": false,
+          "cross_fragment_proton_transfer": []
+        },
+        "hydrogen_owners": {
+          "18": 2,
+          "19": 4,
+          "20": 7,
+          "21": 8,
+          "22": 11,
+          "23": 14,
+          "24": 15,
+          "25": 17,
+          "44": 28,
+          "45": 30,
+          "46": 33,
+          "47": 34,
+          "48": 37,
+          "49": 40,
+          "50": 41,
+          "51": 43
+        },
+        "hydrogen_assignment_distances": [
+          {
+            "hydrogen": 18,
+            "nearest_heavy": 2,
+            "nearest_distance_angstrom": 1.000114923182873,
+            "second_heavy": 26,
+            "second_distance_angstrom": 1.6717021209395142,
+            "distance_gap_angstrom": 0.6715871977566412
+          },
+          {
+            "hydrogen": 19,
+            "nearest_heavy": 4,
+            "nearest_distance_angstrom": 1.0827313925215079,
+            "second_heavy": 3,
+            "second_distance_angstrom": 2.134143678837157,
+            "distance_gap_angstrom": 1.0514122863156492
+          },
+          {
+            "hydrogen": 20,
+            "nearest_heavy": 7,
+            "nearest_distance_angstrom": 1.0861687095431867,
+            "second_heavy": 8,
+            "second_distance_angstrom": 2.140004756944158,
+            "distance_gap_angstrom": 1.0538360474009711
+          },
+          {
+            "hydrogen": 21,
+            "nearest_heavy": 8,
+            "nearest_distance_angstrom": 1.0841551157343732,
+            "second_heavy": 9,
+            "second_distance_angstrom": 2.144478013808795,
+            "distance_gap_angstrom": 1.0603228980744217
+          },
+          {
+            "hydrogen": 22,
+            "nearest_heavy": 11,
+            "nearest_distance_angstrom": 1.0838544192191217,
+            "second_heavy": 12,
+            "second_distance_angstrom": 2.1536687300574475,
+            "distance_gap_angstrom": 1.0698143108383258
+          },
+          {
+            "hydrogen": 23,
+            "nearest_heavy": 14,
+            "nearest_distance_angstrom": 1.0867453049949594,
+            "second_heavy": 15,
+            "second_distance_angstrom": 2.1361777921393093,
+            "distance_gap_angstrom": 1.04943248714435
+          },
+          {
+            "hydrogen": 24,
+            "nearest_heavy": 15,
+            "nearest_distance_angstrom": 1.0881168146527416,
+            "second_heavy": 14,
+            "second_distance_angstrom": 2.143233867403939,
+            "distance_gap_angstrom": 1.0551170527511973
+          },
+          {
+            "hydrogen": 25,
+            "nearest_heavy": 17,
+            "nearest_distance_angstrom": 0.9654042187058036,
+            "second_heavy": 16,
+            "second_distance_angstrom": 1.896250807421526,
+            "distance_gap_angstrom": 0.9308465887157225
+          },
+          {
+            "hydrogen": 44,
+            "nearest_heavy": 28,
+            "nearest_distance_angstrom": 1.0158238902133088,
+            "second_heavy": 0,
+            "second_distance_angstrom": 1.584003979491307,
+            "distance_gap_angstrom": 0.5681800892779982
+          },
+          {
+            "hydrogen": 45,
+            "nearest_heavy": 30,
+            "nearest_distance_angstrom": 1.0849215238364613,
+            "second_heavy": 29,
+            "second_distance_angstrom": 2.1413124173706697,
+            "distance_gap_angstrom": 1.0563908935342083
+          },
+          {
+            "hydrogen": 46,
+            "nearest_heavy": 33,
+            "nearest_distance_angstrom": 1.0860534759738654,
+            "second_heavy": 34,
+            "second_distance_angstrom": 2.140778997936033,
+            "distance_gap_angstrom": 1.0547255219621676
+          },
+          {
+            "hydrogen": 47,
+            "nearest_heavy": 34,
+            "nearest_distance_angstrom": 1.0841891844663534,
+            "second_heavy": 35,
+            "second_distance_angstrom": 2.1444232352405814,
+            "distance_gap_angstrom": 1.060234050774228
+          },
+          {
+            "hydrogen": 48,
+            "nearest_heavy": 37,
+            "nearest_distance_angstrom": 1.0838369039234188,
+            "second_heavy": 38,
+            "second_distance_angstrom": 2.153951655548015,
+            "distance_gap_angstrom": 1.0701147516245963
+          },
+          {
+            "hydrogen": 49,
+            "nearest_heavy": 40,
+            "nearest_distance_angstrom": 1.0854101429480933,
+            "second_heavy": 41,
+            "second_distance_angstrom": 2.129621179037752,
+            "distance_gap_angstrom": 1.0442110360896586
+          },
+          {
+            "hydrogen": 50,
+            "nearest_heavy": 41,
+            "nearest_distance_angstrom": 1.0851035559379814,
+            "second_heavy": 42,
+            "second_distance_angstrom": 2.139181368078239,
+            "distance_gap_angstrom": 1.0540778121402579
+          },
+          {
+            "hydrogen": 51,
+            "nearest_heavy": 43,
+            "nearest_distance_angstrom": 0.9852879684076687,
+            "second_heavy": 26,
+            "second_distance_angstrom": 1.7246865299073737,
+            "distance_gap_angstrom": 0.739398561499705
+          }
+        ],
+        "ambiguous_hydrogen_indices": [],
+        "contacts": [
+          {
+            "donor": 2,
+            "hydrogen": 18,
+            "acceptor": 26,
+            "H_acceptor_distance_angstrom": 1.6717021209395142,
+            "DHA_angle_degrees": 178.14979829401585
+          },
+          {
+            "donor": 28,
+            "hydrogen": 44,
+            "acceptor": 0,
+            "H_acceptor_distance_angstrom": 1.584003979491307,
+            "DHA_angle_degrees": 176.26233022491058
+          }
+        ],
+        "scope": "Nearest-heavy-atom ownership and geometric N/O-H...N/O contacts; no electronic charge assignment"
+      },
+      "net_hydrogen_owner_changes": [],
+      "source_geometry": "runs/20260911T110542024076Z-w3-diflunisal--diflunisal-p05-refine-r1-opt-freq/w3-diflunisal--diflunisal-p05-refine-r1-opt-freq.xyz",
+      "source_geometry_sha256": "61b7ac6b0221df9b7ad68c5dbdd0daa3f050ae594efd89604f59c93e815b3193",
+      "minimum_report": "reports/w3-diflunisal--diflunisal-p05-refine-r1-opt-freq.json",
+      "minimum_frequency_cm1": 9.18442963170601
+    },
+    {
+      "candidate_id": "caffeine--caffeine-p19",
+      "species": "caffeine--caffeine",
+      "selection_role": "primary",
+      "initial_geometry_source": "structures/week3/drug_initial/caffeine--caffeine-p19.xyz",
+      "initial_geometry_source_sha256": "6881fa8be90a1b81c7c525543db73e064db2c90eba248955d33563e1e6342161",
+      "initial": {
+        "geometry_audit": {
+          "status": "geometry_checked",
+          "heavy_connectivity_preserved": true,
+          "lost_heavy_bonds": [],
+          "new_heavy_bonds": [],
+          "hydrogen_owner_changes": [],
+          "unassigned_hydrogens": [],
+          "chemical_state_preserved_by_geometry": true,
+          "closest_interfragment_distance_angstrom": 2.284389907021631,
+          "separated_geometry": false,
+          "cross_fragment_proton_transfer": []
+        },
+        "hydrogen_owners": {
+          "14": 0,
+          "15": 0,
+          "16": 0,
+          "17": 7,
+          "18": 9,
+          "19": 9,
+          "20": 9,
+          "21": 11,
+          "22": 11,
+          "23": 11,
+          "38": 24,
+          "39": 24,
+          "40": 24,
+          "41": 31,
+          "42": 33,
+          "43": 33,
+          "44": 33,
+          "45": 35,
+          "46": 35,
+          "47": 35
+        },
+        "hydrogen_assignment_distances": [
+          {
+            "hydrogen": 14,
+            "nearest_heavy": 0,
+            "nearest_distance_angstrom": 1.0882947732637749,
+            "second_heavy": 1,
+            "second_distance_angstrom": 2.074329185000825,
+            "distance_gap_angstrom": 0.9860344117370501
+          },
+          {
+            "hydrogen": 15,
+            "nearest_heavy": 0,
+            "nearest_distance_angstrom": 1.090757849945359,
+            "second_heavy": 1,
+            "second_distance_angstrom": 2.100829929479936,
+            "distance_gap_angstrom": 1.0100720795345772
+          },
+          {
+            "hydrogen": 16,
+            "nearest_heavy": 0,
+            "nearest_distance_angstrom": 1.0867196784295154,
+            "second_heavy": 1,
+            "second_distance_angstrom": 2.076214806068742,
+            "distance_gap_angstrom": 0.9894951276392268
+          },
+          {
+            "hydrogen": 17,
+            "nearest_heavy": 7,
+            "nearest_distance_angstrom": 1.0718533504717414,
+            "second_heavy": 6,
+            "second_distance_angstrom": 2.1073195706121832,
+            "distance_gap_angstrom": 1.0354662201404419
+          },
+          {
+            "hydrogen": 18,
+            "nearest_heavy": 9,
+            "nearest_distance_angstrom": 1.0890275542015282,
+            "second_heavy": 8,
+            "second_distance_angstrom": 2.0773409106231937,
+            "distance_gap_angstrom": 0.9883133564216655
+          },
+          {
+            "hydrogen": 19,
+            "nearest_heavy": 9,
+            "nearest_distance_angstrom": 1.0934944720239086,
+            "second_heavy": 8,
+            "second_distance_angstrom": 2.074115884512366,
+            "distance_gap_angstrom": 0.9806214124884574
+          },
+          {
+            "hydrogen": 20,
+            "nearest_heavy": 9,
+            "nearest_distance_angstrom": 1.0886657260449182,
+            "second_heavy": 8,
+            "second_distance_angstrom": 2.0605428076778383,
+            "distance_gap_angstrom": 0.9718770816329201
+          },
+          {
+            "hydrogen": 21,
+            "nearest_heavy": 11,
+            "nearest_distance_angstrom": 1.0918582992202899,
+            "second_heavy": 10,
+            "second_distance_angstrom": 2.091915225596183,
+            "distance_gap_angstrom": 1.000056926375893
+          },
+          {
+            "hydrogen": 22,
+            "nearest_heavy": 11,
+            "nearest_distance_angstrom": 1.0865700356565422,
+            "second_heavy": 10,
+            "second_distance_angstrom": 2.0617588354041088,
+            "distance_gap_angstrom": 0.9751887997475666
+          },
+          {
+            "hydrogen": 23,
+            "nearest_heavy": 11,
+            "nearest_distance_angstrom": 1.088514238325217,
+            "second_heavy": 10,
+            "second_distance_angstrom": 2.073454254784229,
+            "distance_gap_angstrom": 0.9849400164590121
+          },
+          {
+            "hydrogen": 38,
+            "nearest_heavy": 24,
+            "nearest_distance_angstrom": 1.0883326781439338,
+            "second_heavy": 25,
+            "second_distance_angstrom": 2.0751278624222818,
+            "distance_gap_angstrom": 0.986795184278348
+          },
+          {
+            "hydrogen": 39,
+            "nearest_heavy": 24,
+            "nearest_distance_angstrom": 1.0866364879611874,
+            "second_heavy": 25,
+            "second_distance_angstrom": 2.0758716908933597,
+            "distance_gap_angstrom": 0.9892352029321723
+          },
+          {
+            "hydrogen": 40,
+            "nearest_heavy": 24,
+            "nearest_distance_angstrom": 1.0908429488342748,
+            "second_heavy": 25,
+            "second_distance_angstrom": 2.0995573824447415,
+            "distance_gap_angstrom": 1.0087144336104668
+          },
+          {
+            "hydrogen": 41,
+            "nearest_heavy": 31,
+            "nearest_distance_angstrom": 1.071844567305955,
+            "second_heavy": 30,
+            "second_distance_angstrom": 2.1074094199915825,
+            "distance_gap_angstrom": 1.0355648526856276
+          },
+          {
+            "hydrogen": 42,
+            "nearest_heavy": 33,
+            "nearest_distance_angstrom": 1.0891302466276034,
+            "second_heavy": 32,
+            "second_distance_angstrom": 2.077925177494761,
+            "distance_gap_angstrom": 0.9887949308671578
+          },
+          {
+            "hydrogen": 43,
+            "nearest_heavy": 33,
+            "nearest_distance_angstrom": 1.0934451942523322,
+            "second_heavy": 32,
+            "second_distance_angstrom": 2.0744467982468677,
+            "distance_gap_angstrom": 0.9810016039945355
+          },
+          {
+            "hydrogen": 44,
+            "nearest_heavy": 33,
+            "nearest_distance_angstrom": 1.08864127076234,
+            "second_heavy": 32,
+            "second_distance_angstrom": 2.059975739037939,
+            "distance_gap_angstrom": 0.9713344682755989
+          },
+          {
+            "hydrogen": 45,
+            "nearest_heavy": 35,
+            "nearest_distance_angstrom": 1.08665693300576,
+            "second_heavy": 34,
+            "second_distance_angstrom": 2.0624282599396557,
+            "distance_gap_angstrom": 0.9757713269338957
+          },
+          {
+            "hydrogen": 46,
+            "nearest_heavy": 35,
+            "nearest_distance_angstrom": 1.0919067300853758,
+            "second_heavy": 34,
+            "second_distance_angstrom": 2.0921764361663806,
+            "distance_gap_angstrom": 1.0002697060810049
+          },
+          {
+            "hydrogen": 47,
+            "nearest_heavy": 35,
+            "nearest_distance_angstrom": 1.0884317981072889,
+            "second_heavy": 34,
+            "second_distance_angstrom": 2.072477771958766,
+            "distance_gap_angstrom": 0.9840459738514771
+          }
+        ],
+        "ambiguous_hydrogen_indices": [],
+        "contacts": [],
+        "scope": "Nearest-heavy-atom ownership and geometric N/O-H...N/O contacts; no electronic charge assignment"
+      },
+      "archived_minimum_verified": false,
+      "final": null,
+      "net_hydrogen_owner_changes": null
+    },
+    {
+      "candidate_id": "diflunisal--adenine-p39",
+      "species": "diflunisal--adenine",
+      "selection_role": "primary",
+      "initial_geometry_source": "structures/week3/drug_initial/diflunisal--adenine-p39.xyz",
+      "initial_geometry_source_sha256": "45abe2a91ae5ac1de9b7a6952bcbff01064f4c621200c2ca293529051d0664ec",
+      "initial": {
+        "geometry_audit": {
+          "status": "geometry_checked",
+          "heavy_connectivity_preserved": true,
+          "lost_heavy_bonds": [],
+          "new_heavy_bonds": [],
+          "hydrogen_owner_changes": [],
+          "unassigned_hydrogens": [],
+          "chemical_state_preserved_by_geometry": true,
+          "closest_interfragment_distance_angstrom": 1.6392207262826746,
+          "separated_geometry": false,
+          "cross_fragment_proton_transfer": []
+        },
+        "hydrogen_owners": {
+          "18": 2,
+          "19": 4,
+          "20": 7,
+          "21": 8,
+          "22": 11,
+          "23": 14,
+          "24": 15,
+          "25": 17,
+          "36": 26,
+          "37": 26,
+          "38": 29,
+          "39": 32,
+          "40": 33
+        },
+        "hydrogen_assignment_distances": [
+          {
+            "hydrogen": 18,
+            "nearest_heavy": 2,
+            "nearest_distance_angstrom": 1.019828059442627,
+            "second_heavy": 30,
+            "second_distance_angstrom": 1.6392207262826746,
+            "distance_gap_angstrom": 0.6193926668400476
+          },
+          {
+            "hydrogen": 19,
+            "nearest_heavy": 4,
+            "nearest_distance_angstrom": 1.0781835139378957,
+            "second_heavy": 3,
+            "second_distance_angstrom": 2.121894141974502,
+            "distance_gap_angstrom": 1.0437106280366064
+          },
+          {
+            "hydrogen": 20,
+            "nearest_heavy": 7,
+            "nearest_distance_angstrom": 1.0790580841212138,
+            "second_heavy": 8,
+            "second_distance_angstrom": 2.1307709275494395,
+            "distance_gap_angstrom": 1.0517128434282257
+          },
+          {
+            "hydrogen": 21,
+            "nearest_heavy": 8,
+            "nearest_distance_angstrom": 1.0780035539465043,
+            "second_heavy": 9,
+            "second_distance_angstrom": 2.135304863604861,
+            "distance_gap_angstrom": 1.0573013096583568
+          },
+          {
+            "hydrogen": 22,
+            "nearest_heavy": 11,
+            "nearest_distance_angstrom": 1.077714851984039,
+            "second_heavy": 12,
+            "second_distance_angstrom": 2.143284909525839,
+            "distance_gap_angstrom": 1.0655700575418001
+          },
+          {
+            "hydrogen": 23,
+            "nearest_heavy": 14,
+            "nearest_distance_angstrom": 1.0798824280010826,
+            "second_heavy": 15,
+            "second_distance_angstrom": 2.129548990048975,
+            "distance_gap_angstrom": 1.0496665620478924
+          },
+          {
+            "hydrogen": 24,
+            "nearest_heavy": 15,
+            "nearest_distance_angstrom": 1.0824777634947162,
+            "second_heavy": 14,
+            "second_distance_angstrom": 2.1347260573727502,
+            "distance_gap_angstrom": 1.052248293878034
+          },
+          {
+            "hydrogen": 25,
+            "nearest_heavy": 17,
+            "nearest_distance_angstrom": 0.9662178965230778,
+            "second_heavy": 16,
+            "second_distance_angstrom": 1.9095584764108353,
+            "distance_gap_angstrom": 0.9433405798877575
+          },
+          {
+            "hydrogen": 36,
+            "nearest_heavy": 26,
+            "nearest_distance_angstrom": 1.0034066415419345,
+            "second_heavy": 27,
+            "second_distance_angstrom": 2.0310405189827865,
+            "distance_gap_angstrom": 1.027633877440852
+          },
+          {
+            "hydrogen": 37,
+            "nearest_heavy": 26,
+            "nearest_distance_angstrom": 1.003892377417595,
+            "second_heavy": 27,
+            "second_distance_angstrom": 2.0310084563167177,
+            "distance_gap_angstrom": 1.0271160788991227
+          },
+          {
+            "hydrogen": 38,
+            "nearest_heavy": 29,
+            "nearest_distance_angstrom": 1.0814587308413344,
+            "second_heavy": 28,
+            "second_distance_angstrom": 2.0391983145053985,
+            "distance_gap_angstrom": 0.9577395836640641
+          },
+          {
+            "hydrogen": 39,
+            "nearest_heavy": 32,
+            "nearest_distance_angstrom": 1.0228960845089479,
+            "second_heavy": 0,
+            "second_distance_angstrom": 1.7799274808577636,
+            "distance_gap_angstrom": 0.7570313963488158
+          },
+          {
+            "hydrogen": 40,
+            "nearest_heavy": 33,
+            "nearest_distance_angstrom": 1.0721374300867377,
+            "second_heavy": 34,
+            "second_distance_angstrom": 2.0946361513744316,
+            "distance_gap_angstrom": 1.022498721287694
+          }
+        ],
+        "ambiguous_hydrogen_indices": [],
+        "contacts": [
+          {
+            "donor": 2,
+            "hydrogen": 18,
+            "acceptor": 30,
+            "H_acceptor_distance_angstrom": 1.6392207262826746,
+            "DHA_angle_degrees": 178.07319373273373
+          },
+          {
+            "donor": 32,
+            "hydrogen": 39,
+            "acceptor": 0,
+            "H_acceptor_distance_angstrom": 1.7799274808577636,
+            "DHA_angle_degrees": 154.7789242585576
+          }
+        ],
+        "scope": "Nearest-heavy-atom ownership and geometric N/O-H...N/O contacts; no electronic charge assignment"
+      },
+      "archived_minimum_verified": false,
+      "final": null,
+      "net_hydrogen_owner_changes": null
+    },
+    {
+      "candidate_id": "adenine--adenine-p06",
+      "species": "adenine--adenine",
+      "selection_role": "primary",
+      "initial_geometry_source": "structures/week3/drug_initial/adenine--adenine-p06.xyz",
+      "initial_geometry_source_sha256": "ec0363a009315e0781bd4f06dddf935b2da3c83e359b2390e147e616cf7b9f1e",
+      "initial": {
+        "geometry_audit": {
+          "status": "geometry_checked",
+          "heavy_connectivity_preserved": true,
+          "lost_heavy_bonds": [],
+          "new_heavy_bonds": [],
+          "hydrogen_owner_changes": [],
+          "unassigned_hydrogens": [],
+          "chemical_state_preserved_by_geometry": true,
+          "closest_interfragment_distance_angstrom": 1.7008434889405175,
+          "separated_geometry": false,
+          "cross_fragment_proton_transfer": []
+        },
+        "hydrogen_owners": {
+          "10": 0,
+          "11": 0,
+          "12": 3,
+          "13": 6,
+          "14": 7,
+          "25": 15,
+          "26": 15,
+          "27": 18,
+          "28": 21,
+          "29": 22
+        },
+        "hydrogen_assignment_distances": [
+          {
+            "hydrogen": 10,
+            "nearest_heavy": 0,
+            "nearest_distance_angstrom": 1.003780053421293,
+            "second_heavy": 1,
+            "second_distance_angstrom": 2.0317733133184035,
+            "distance_gap_angstrom": 1.0279932598971104
+          },
+          {
+            "hydrogen": 11,
+            "nearest_heavy": 0,
+            "nearest_distance_angstrom": 1.0034372550317499,
+            "second_heavy": 1,
+            "second_distance_angstrom": 2.0302199664669804,
+            "distance_gap_angstrom": 1.0267827114352306
+          },
+          {
+            "hydrogen": 12,
+            "nearest_heavy": 3,
+            "nearest_distance_angstrom": 1.0822030773249445,
+            "second_heavy": 2,
+            "second_distance_angstrom": 2.0374847133172844,
+            "distance_gap_angstrom": 0.95528163599234
+          },
+          {
+            "hydrogen": 13,
+            "nearest_heavy": 6,
+            "nearest_distance_angstrom": 1.0396760839768215,
+            "second_heavy": 19,
+            "second_distance_angstrom": 1.7008434889405175,
+            "distance_gap_angstrom": 0.661167404963696
+          },
+          {
+            "hydrogen": 14,
+            "nearest_heavy": 7,
+            "nearest_distance_angstrom": 1.0723297778039087,
+            "second_heavy": 8,
+            "second_distance_angstrom": 2.0942513555825677,
+            "distance_gap_angstrom": 1.021921577778659
+          },
+          {
+            "hydrogen": 25,
+            "nearest_heavy": 15,
+            "nearest_distance_angstrom": 1.0033925568653985,
+            "second_heavy": 16,
+            "second_distance_angstrom": 2.030444892692202,
+            "distance_gap_angstrom": 1.0270523358268036
+          },
+          {
+            "hydrogen": 26,
+            "nearest_heavy": 15,
+            "nearest_distance_angstrom": 1.0036424154740766,
+            "second_heavy": 16,
+            "second_distance_angstrom": 2.0315224058132624,
+            "distance_gap_angstrom": 1.0278799903391858
+          },
+          {
+            "hydrogen": 27,
+            "nearest_heavy": 18,
+            "nearest_distance_angstrom": 1.0823265020327664,
+            "second_heavy": 17,
+            "second_distance_angstrom": 2.037520071526659,
+            "distance_gap_angstrom": 0.9551935694938927
+          },
+          {
+            "hydrogen": 28,
+            "nearest_heavy": 21,
+            "nearest_distance_angstrom": 1.0397742349667016,
+            "second_heavy": 4,
+            "second_distance_angstrom": 1.7011451853229516,
+            "distance_gap_angstrom": 0.6613709503562499
+          },
+          {
+            "hydrogen": 29,
+            "nearest_heavy": 22,
+            "nearest_distance_angstrom": 1.0723159773318784,
+            "second_heavy": 23,
+            "second_distance_angstrom": 2.0943264679735987,
+            "distance_gap_angstrom": 1.0220104906417202
+          }
+        ],
+        "ambiguous_hydrogen_indices": [],
+        "contacts": [
+          {
+            "donor": 6,
+            "hydrogen": 13,
+            "acceptor": 19,
+            "H_acceptor_distance_angstrom": 1.7008434889405175,
+            "DHA_angle_degrees": 169.71525741081814
+          },
+          {
+            "donor": 21,
+            "hydrogen": 28,
+            "acceptor": 4,
+            "H_acceptor_distance_angstrom": 1.7011451853229516,
+            "DHA_angle_degrees": 169.72013436889208
+          }
+        ],
+        "scope": "Nearest-heavy-atom ownership and geometric N/O-H...N/O contacts; no electronic charge assignment"
+      },
+      "archived_minimum_verified": false,
+      "final": null,
+      "net_hydrogen_owner_changes": null
+    },
+    {
+      "candidate_id": "diflunisal--theobromine-p28",
+      "species": "diflunisal--theobromine",
+      "selection_role": "primary",
+      "initial_geometry_source": "structures/week3/drug_initial/diflunisal--theobromine-p28.xyz",
+      "initial_geometry_source_sha256": "d5dc3689c9194ccd617f4f966ba7809f9da81b0d94ed46cc76567d31b4c3d240",
+      "initial": {
+        "geometry_audit": {
+          "status": "geometry_checked",
+          "heavy_connectivity_preserved": true,
+          "lost_heavy_bonds": [],
+          "new_heavy_bonds": [],
+          "hydrogen_owner_changes": [],
+          "unassigned_hydrogens": [],
+          "chemical_state_preserved_by_geometry": true,
+          "closest_interfragment_distance_angstrom": 2.2914149007785505,
+          "separated_geometry": false,
+          "cross_fragment_proton_transfer": []
+        },
+        "hydrogen_owners": {
+          "18": 2,
+          "19": 4,
+          "20": 7,
+          "21": 8,
+          "22": 11,
+          "23": 14,
+          "24": 15,
+          "25": 17,
+          "39": 26,
+          "40": 26,
+          "41": 26,
+          "42": 28,
+          "43": 34,
+          "44": 38,
+          "45": 38,
+          "46": 38
+        },
+        "hydrogen_assignment_distances": [
+          {
+            "hydrogen": 18,
+            "nearest_heavy": 2,
+            "nearest_distance_angstrom": 0.9694907858530822,
+            "second_heavy": 1,
+            "second_distance_angstrom": 1.9010807580573237,
+            "distance_gap_angstrom": 0.9315899722042414
+          },
+          {
+            "hydrogen": 19,
+            "nearest_heavy": 4,
+            "nearest_distance_angstrom": 1.0780513173720112,
+            "second_heavy": 3,
+            "second_distance_angstrom": 2.124196332861634,
+            "distance_gap_angstrom": 1.0461450154896226
+          },
+          {
+            "hydrogen": 20,
+            "nearest_heavy": 7,
+            "nearest_distance_angstrom": 1.0794331375734634,
+            "second_heavy": 8,
+            "second_distance_angstrom": 2.130061953041463,
+            "distance_gap_angstrom": 1.0506288154679997
+          },
+          {
+            "hydrogen": 21,
+            "nearest_heavy": 8,
+            "nearest_distance_angstrom": 1.0777584338372588,
+            "second_heavy": 9,
+            "second_distance_angstrom": 2.135923388759432,
+            "distance_gap_angstrom": 1.0581649549221734
+          },
+          {
+            "hydrogen": 22,
+            "nearest_heavy": 11,
+            "nearest_distance_angstrom": 1.077683791903429,
+            "second_heavy": 12,
+            "second_distance_angstrom": 2.143387618585758,
+            "distance_gap_angstrom": 1.0657038266823289
+          },
+          {
+            "hydrogen": 23,
+            "nearest_heavy": 14,
+            "nearest_distance_angstrom": 1.0794171944666924,
+            "second_heavy": 15,
+            "second_distance_angstrom": 2.1311395741881927,
+            "distance_gap_angstrom": 1.0517223797215003
+          },
+          {
+            "hydrogen": 24,
+            "nearest_heavy": 15,
+            "nearest_distance_angstrom": 1.0816697633339976,
+            "second_heavy": 14,
+            "second_distance_angstrom": 2.1367466229521783,
+            "distance_gap_angstrom": 1.0550768596181808
+          },
+          {
+            "hydrogen": 25,
+            "nearest_heavy": 17,
+            "nearest_distance_angstrom": 0.9692548531212297,
+            "second_heavy": 16,
+            "second_distance_angstrom": 1.914063915392997,
+            "distance_gap_angstrom": 0.9448090622717673
+          },
+          {
+            "hydrogen": 39,
+            "nearest_heavy": 26,
+            "nearest_distance_angstrom": 1.0877530502132575,
+            "second_heavy": 27,
+            "second_distance_angstrom": 2.0620791250955097,
+            "distance_gap_angstrom": 0.9743260748822522
+          },
+          {
+            "hydrogen": 40,
+            "nearest_heavy": 26,
+            "nearest_distance_angstrom": 1.0920661899522646,
+            "second_heavy": 27,
+            "second_distance_angstrom": 2.0671134379213862,
+            "distance_gap_angstrom": 0.9750472479691217
+          },
+          {
+            "hydrogen": 41,
+            "nearest_heavy": 26,
+            "nearest_distance_angstrom": 1.0893478433087405,
+            "second_heavy": 27,
+            "second_distance_angstrom": 2.077769629774447,
+            "distance_gap_angstrom": 0.9884217864657063
+          },
+          {
+            "hydrogen": 42,
+            "nearest_heavy": 28,
+            "nearest_distance_angstrom": 1.0714178503198173,
+            "second_heavy": 29,
+            "second_distance_angstrom": 2.10838750265243,
+            "distance_gap_angstrom": 1.0369696523326126
+          },
+          {
+            "hydrogen": 43,
+            "nearest_heavy": 34,
+            "nearest_distance_angstrom": 1.0141616812973246,
+            "second_heavy": 35,
+            "second_distance_angstrom": 2.0218747411255844,
+            "distance_gap_angstrom": 1.0077130598282598
+          },
+          {
+            "hydrogen": 44,
+            "nearest_heavy": 38,
+            "nearest_distance_angstrom": 1.0908638436760636,
+            "second_heavy": 37,
+            "second_distance_angstrom": 2.090485263198671,
+            "distance_gap_angstrom": 0.9996214195226074
+          },
+          {
+            "hydrogen": 45,
+            "nearest_heavy": 38,
+            "nearest_distance_angstrom": 1.0879587642071396,
+            "second_heavy": 37,
+            "second_distance_angstrom": 2.0699917978613986,
+            "distance_gap_angstrom": 0.9820330336542591
+          },
+          {
+            "hydrogen": 46,
+            "nearest_heavy": 38,
+            "nearest_distance_angstrom": 1.0879296846157618,
+            "second_heavy": 37,
+            "second_distance_angstrom": 2.0632437246392894,
+            "distance_gap_angstrom": 0.9753140400235276
+          }
+        ],
+        "ambiguous_hydrogen_indices": [],
+        "contacts": [],
+        "scope": "Nearest-heavy-atom ownership and geometric N/O-H...N/O contacts; no electronic charge assignment"
+      },
+      "archived_minimum_verified": false,
+      "final": null,
+      "net_hydrogen_owner_changes": null
+    },
+    {
+      "candidate_id": "theobromine--theobromine-p43",
+      "species": "theobromine--theobromine",
+      "selection_role": "primary",
+      "initial_geometry_source": "structures/week3/drug_initial/theobromine--theobromine-p43.xyz",
+      "initial_geometry_source_sha256": "2d83eb7958af9e703590c9a42a51215a7f53ac99f9401be995b6de5cf2f315e2",
+      "initial": {
+        "geometry_audit": {
+          "status": "geometry_checked",
+          "heavy_connectivity_preserved": true,
+          "lost_heavy_bonds": [],
+          "new_heavy_bonds": [],
+          "hydrogen_owner_changes": [],
+          "unassigned_hydrogens": [],
+          "chemical_state_preserved_by_geometry": true,
+          "closest_interfragment_distance_angstrom": 2.296581685524491,
+          "separated_geometry": false,
+          "cross_fragment_proton_transfer": []
+        },
+        "hydrogen_owners": {
+          "13": 0,
+          "14": 0,
+          "15": 0,
+          "16": 2,
+          "17": 8,
+          "18": 12,
+          "19": 12,
+          "20": 12,
+          "34": 21,
+          "35": 21,
+          "36": 21,
+          "37": 23,
+          "38": 29,
+          "39": 33,
+          "40": 33,
+          "41": 33
+        },
+        "hydrogen_assignment_distances": [
+          {
+            "hydrogen": 13,
+            "nearest_heavy": 0,
+            "nearest_distance_angstrom": 1.092316271288344,
+            "second_heavy": 1,
+            "second_distance_angstrom": 2.072084896088596,
+            "distance_gap_angstrom": 0.979768624800252
+          },
+          {
+            "hydrogen": 14,
+            "nearest_heavy": 0,
+            "nearest_distance_angstrom": 1.088401873072497,
+            "second_heavy": 1,
+            "second_distance_angstrom": 2.0599789099315613,
+            "distance_gap_angstrom": 0.9715770368590644
+          },
+          {
+            "hydrogen": 15,
+            "nearest_heavy": 0,
+            "nearest_distance_angstrom": 1.0895767595790045,
+            "second_heavy": 1,
+            "second_distance_angstrom": 2.078133297511601,
+            "distance_gap_angstrom": 0.9885565379325965
+          },
+          {
+            "hydrogen": 16,
+            "nearest_heavy": 2,
+            "nearest_distance_angstrom": 1.0714498403031008,
+            "second_heavy": 3,
+            "second_distance_angstrom": 2.106369670291595,
+            "distance_gap_angstrom": 1.0349198299884943
+          },
+          {
+            "hydrogen": 17,
+            "nearest_heavy": 8,
+            "nearest_distance_angstrom": 1.0146968955371427,
+            "second_heavy": 9,
+            "second_distance_angstrom": 2.025553409929154,
+            "distance_gap_angstrom": 1.0108565143920114
+          },
+          {
+            "hydrogen": 18,
+            "nearest_heavy": 12,
+            "nearest_distance_angstrom": 1.0871540534338098,
+            "second_heavy": 11,
+            "second_distance_angstrom": 2.0644733368398893,
+            "distance_gap_angstrom": 0.9773192834060795
+          },
+          {
+            "hydrogen": 19,
+            "nearest_heavy": 12,
+            "nearest_distance_angstrom": 1.0885686938897579,
+            "second_heavy": 11,
+            "second_distance_angstrom": 2.07018795099566,
+            "distance_gap_angstrom": 0.9816192571059024
+          },
+          {
+            "hydrogen": 20,
+            "nearest_heavy": 12,
+            "nearest_distance_angstrom": 1.0919261419950668,
+            "second_heavy": 11,
+            "second_distance_angstrom": 2.0946707346546063,
+            "distance_gap_angstrom": 1.0027445926595395
+          },
+          {
+            "hydrogen": 34,
+            "nearest_heavy": 21,
+            "nearest_distance_angstrom": 1.0893478647624772,
+            "second_heavy": 22,
+            "second_distance_angstrom": 2.077847443495545,
+            "distance_gap_angstrom": 0.9884995787330677
+          },
+          {
+            "hydrogen": 35,
+            "nearest_heavy": 21,
+            "nearest_distance_angstrom": 1.088311038810315,
+            "second_heavy": 22,
+            "second_distance_angstrom": 2.060058154607905,
+            "distance_gap_angstrom": 0.9717471157975899
+          },
+          {
+            "hydrogen": 36,
+            "nearest_heavy": 21,
+            "nearest_distance_angstrom": 1.0921192654711502,
+            "second_heavy": 22,
+            "second_distance_angstrom": 2.0719503579254597,
+            "distance_gap_angstrom": 0.9798310924543094
+          },
+          {
+            "hydrogen": 37,
+            "nearest_heavy": 23,
+            "nearest_distance_angstrom": 1.0714607470855553,
+            "second_heavy": 24,
+            "second_distance_angstrom": 2.10636756906944,
+            "distance_gap_angstrom": 1.0349068219838848
+          },
+          {
+            "hydrogen": 38,
+            "nearest_heavy": 29,
+            "nearest_distance_angstrom": 1.01468534638877,
+            "second_heavy": 30,
+            "second_distance_angstrom": 2.0255346193041945,
+            "distance_gap_angstrom": 1.0108492729154246
+          },
+          {
+            "hydrogen": 39,
+            "nearest_heavy": 33,
+            "nearest_distance_angstrom": 1.0916241933912436,
+            "second_heavy": 32,
+            "second_distance_angstrom": 2.094554074566569,
+            "distance_gap_angstrom": 1.0029298811753253
+          },
+          {
+            "hydrogen": 40,
+            "nearest_heavy": 33,
+            "nearest_distance_angstrom": 1.0868647880622473,
+            "second_heavy": 32,
+            "second_distance_angstrom": 2.064395562375809,
+            "distance_gap_angstrom": 0.9775307743135615
+          },
+          {
+            "hydrogen": 41,
+            "nearest_heavy": 33,
+            "nearest_distance_angstrom": 1.0882150434136533,
+            "second_heavy": 32,
+            "second_distance_angstrom": 2.0699402494999717,
+            "distance_gap_angstrom": 0.9817252060863184
+          }
+        ],
+        "ambiguous_hydrogen_indices": [],
+        "contacts": [],
+        "scope": "Nearest-heavy-atom ownership and geometric N/O-H...N/O contacts; no electronic charge assignment"
+      },
+      "archived_minimum_verified": false,
+      "final": null,
+      "net_hydrogen_owner_changes": null
+    },
+    {
+      "candidate_id": "diflunisal--xanthine-p10",
+      "species": "diflunisal--xanthine",
+      "selection_role": "primary",
+      "initial_geometry_source": "structures/week3/drug_initial/diflunisal--xanthine-p10.xyz",
+      "initial_geometry_source_sha256": "a23f703571c087b6ad6cd625514eb8b7696603c8a30fe2eec1ed617d8dd75bb9",
+      "initial": {
+        "geometry_audit": {
+          "status": "geometry_checked",
+          "heavy_connectivity_preserved": true,
+          "lost_heavy_bonds": [],
+          "new_heavy_bonds": [],
+          "hydrogen_owner_changes": [],
+          "unassigned_hydrogens": [],
+          "chemical_state_preserved_by_geometry": true,
+          "closest_interfragment_distance_angstrom": 1.688699459033421,
+          "separated_geometry": false,
+          "cross_fragment_proton_transfer": []
+        },
+        "hydrogen_owners": {
+          "18": 2,
+          "19": 4,
+          "20": 7,
+          "21": 8,
+          "22": 11,
+          "23": 14,
+          "24": 15,
+          "25": 17,
+          "37": 28,
+          "38": 32,
+          "39": 33,
+          "40": 36
+        },
+        "hydrogen_assignment_distances": [
+          {
+            "hydrogen": 18,
+            "nearest_heavy": 2,
+            "nearest_distance_angstrom": 0.9695927546469032,
+            "second_heavy": 1,
+            "second_distance_angstrom": 1.9009001142298474,
+            "distance_gap_angstrom": 0.9313073595829442
+          },
+          {
+            "hydrogen": 19,
+            "nearest_heavy": 4,
+            "nearest_distance_angstrom": 1.077979923858172,
+            "second_heavy": 3,
+            "second_distance_angstrom": 2.1280645575087935,
+            "distance_gap_angstrom": 1.0500846336506215
+          },
+          {
+            "hydrogen": 20,
+            "nearest_heavy": 7,
+            "nearest_distance_angstrom": 1.078972207143146,
+            "second_heavy": 8,
+            "second_distance_angstrom": 2.1303122679360773,
+            "distance_gap_angstrom": 1.0513400607929313
+          },
+          {
+            "hydrogen": 21,
+            "nearest_heavy": 8,
+            "nearest_distance_angstrom": 1.0779801875202861,
+            "second_heavy": 9,
+            "second_distance_angstrom": 2.1351831918996598,
+            "distance_gap_angstrom": 1.0572030043793736
+          },
+          {
+            "hydrogen": 22,
+            "nearest_heavy": 11,
+            "nearest_distance_angstrom": 1.0777047571896214,
+            "second_heavy": 12,
+            "second_distance_angstrom": 2.143216316580251,
+            "distance_gap_angstrom": 1.0655115593906297
+          },
+          {
+            "hydrogen": 23,
+            "nearest_heavy": 14,
+            "nearest_distance_angstrom": 1.0798767476232805,
+            "second_heavy": 15,
+            "second_distance_angstrom": 2.12736687351333,
+            "distance_gap_angstrom": 1.0474901258900495
+          },
+          {
+            "hydrogen": 24,
+            "nearest_heavy": 15,
+            "nearest_distance_angstrom": 1.0807073201472828,
+            "second_heavy": 16,
+            "second_distance_angstrom": 2.1349320855413207,
+            "distance_gap_angstrom": 1.054224765394038
+          },
+          {
+            "hydrogen": 25,
+            "nearest_heavy": 17,
+            "nearest_distance_angstrom": 0.9931810343688167,
+            "second_heavy": 30,
+            "second_distance_angstrom": 1.688699459033421,
+            "distance_gap_angstrom": 0.6955184246646043
+          },
+          {
+            "hydrogen": 37,
+            "nearest_heavy": 28,
+            "nearest_distance_angstrom": 1.0144924249063705,
+            "second_heavy": 27,
+            "second_distance_angstrom": 2.029733691933715,
+            "distance_gap_angstrom": 1.0152412670273445
+          },
+          {
+            "hydrogen": 38,
+            "nearest_heavy": 32,
+            "nearest_distance_angstrom": 1.0211089976548435,
+            "second_heavy": 17,
+            "second_distance_angstrom": 1.947474314309811,
+            "distance_gap_angstrom": 0.9263653166549675
+          },
+          {
+            "hydrogen": 39,
+            "nearest_heavy": 33,
+            "nearest_distance_angstrom": 1.071039685149445,
+            "second_heavy": 34,
+            "second_distance_angstrom": 2.1088787314185717,
+            "distance_gap_angstrom": 1.0378390462691267
+          },
+          {
+            "hydrogen": 40,
+            "nearest_heavy": 36,
+            "nearest_distance_angstrom": 1.01031987436773,
+            "second_heavy": 27,
+            "second_distance_angstrom": 2.0577024903327508,
+            "distance_gap_angstrom": 1.0473826159650208
+          }
+        ],
+        "ambiguous_hydrogen_indices": [],
+        "contacts": [
+          {
+            "donor": 17,
+            "hydrogen": 25,
+            "acceptor": 30,
+            "H_acceptor_distance_angstrom": 1.688699459033421,
+            "DHA_angle_degrees": 155.74782577482085
+          },
+          {
+            "donor": 32,
+            "hydrogen": 38,
+            "acceptor": 0,
+            "H_acceptor_distance_angstrom": 2.037018464063313,
+            "DHA_angle_degrees": 144.6945826497922
+          },
+          {
+            "donor": 32,
+            "hydrogen": 38,
+            "acceptor": 17,
+            "H_acceptor_distance_angstrom": 1.947474314309811,
+            "DHA_angle_degrees": 133.88527697436456
+          }
+        ],
+        "scope": "Nearest-heavy-atom ownership and geometric N/O-H...N/O contacts; no electronic charge assignment"
+      },
+      "archived_minimum_verified": false,
+      "final": null,
+      "net_hydrogen_owner_changes": null
+    },
+    {
+      "candidate_id": "xanthine--xanthine-p27",
+      "species": "xanthine--xanthine",
+      "selection_role": "primary",
+      "initial_geometry_source": "structures/week3/drug_initial/xanthine--xanthine-p27.xyz",
+      "initial_geometry_source_sha256": "528ae735211e0f1b37704124b50f523c84c22fbefe5f1548116369c49328fbf0",
+      "initial": {
+        "geometry_audit": {
+          "status": "geometry_checked",
+          "heavy_connectivity_preserved": true,
+          "lost_heavy_bonds": [],
+          "new_heavy_bonds": [],
+          "hydrogen_owner_changes": [],
+          "unassigned_hydrogens": [],
+          "chemical_state_preserved_by_geometry": true,
+          "closest_interfragment_distance_angstrom": 1.7341237501523195,
+          "separated_geometry": false,
+          "cross_fragment_proton_transfer": []
+        },
+        "hydrogen_owners": {
+          "11": 2,
+          "12": 6,
+          "13": 7,
+          "14": 10,
+          "26": 17,
+          "27": 21,
+          "28": 22,
+          "29": 25
+        },
+        "hydrogen_assignment_distances": [
+          {
+            "hydrogen": 11,
+            "nearest_heavy": 2,
+            "nearest_distance_angstrom": 1.0142596034049292,
+            "second_heavy": 1,
+            "second_distance_angstrom": 2.026534398090378,
+            "distance_gap_angstrom": 1.0122747946854487
+          },
+          {
+            "hydrogen": 12,
+            "nearest_heavy": 6,
+            "nearest_distance_angstrom": 1.0070517587679768,
+            "second_heavy": 5,
+            "second_distance_angstrom": 2.1193740368946647,
+            "distance_gap_angstrom": 1.112322278126688
+          },
+          {
+            "hydrogen": 13,
+            "nearest_heavy": 7,
+            "nearest_distance_angstrom": 1.0714508364791766,
+            "second_heavy": 8,
+            "second_distance_angstrom": 2.101735875618425,
+            "distance_gap_angstrom": 1.0302850391392484
+          },
+          {
+            "hydrogen": 14,
+            "nearest_heavy": 10,
+            "nearest_distance_angstrom": 1.0327473634557787,
+            "second_heavy": 19,
+            "second_distance_angstrom": 1.7402628207631692,
+            "distance_gap_angstrom": 0.7075154573073905
+          },
+          {
+            "hydrogen": 26,
+            "nearest_heavy": 17,
+            "nearest_distance_angstrom": 1.0144487057803284,
+            "second_heavy": 16,
+            "second_distance_angstrom": 2.03053218664726,
+            "distance_gap_angstrom": 1.0160834808669315
+          },
+          {
+            "hydrogen": 27,
+            "nearest_heavy": 21,
+            "nearest_distance_angstrom": 1.0257716886705133,
+            "second_heavy": 0,
+            "second_distance_angstrom": 1.7341237501523195,
+            "distance_gap_angstrom": 0.7083520614818062
+          },
+          {
+            "hydrogen": 28,
+            "nearest_heavy": 22,
+            "nearest_distance_angstrom": 1.071244525933146,
+            "second_heavy": 23,
+            "second_distance_angstrom": 2.1059520193507173,
+            "distance_gap_angstrom": 1.0347074934175713
+          },
+          {
+            "hydrogen": 29,
+            "nearest_heavy": 25,
+            "nearest_distance_angstrom": 1.0101623912904867,
+            "second_heavy": 16,
+            "second_distance_angstrom": 2.057474613951727,
+            "distance_gap_angstrom": 1.0473122226612401
+          }
+        ],
+        "ambiguous_hydrogen_indices": [],
+        "contacts": [
+          {
+            "donor": 10,
+            "hydrogen": 14,
+            "acceptor": 19,
+            "H_acceptor_distance_angstrom": 1.7402628207631692,
+            "DHA_angle_degrees": 179.0328457179292
+          },
+          {
+            "donor": 21,
+            "hydrogen": 27,
+            "acceptor": 0,
+            "H_acceptor_distance_angstrom": 1.7341237501523195,
+            "DHA_angle_degrees": 176.24422773827786
+          }
+        ],
+        "scope": "Nearest-heavy-atom ownership and geometric N/O-H...N/O contacts; no electronic charge assignment"
+      },
+      "archived_minimum_verified": false,
+      "final": null,
+      "net_hydrogen_owner_changes": null
+    },
+    {
+      "candidate_id": "diflunisal--adenine-p36",
+      "species": "diflunisal--adenine",
+      "selection_role": "alternative",
+      "initial_geometry_source": "structures/week3/drug_initial/diflunisal--adenine-p36-direct-ion.xyz",
+      "initial_geometry_source_sha256": "773ff3f869ae45756de810487befa701cba123e7d947406e85f649ae6bb6b041",
+      "initial": {
+        "geometry_audit": {
+          "status": "geometry_checked",
+          "heavy_connectivity_preserved": true,
+          "lost_heavy_bonds": [],
+          "new_heavy_bonds": [],
+          "hydrogen_owner_changes": [
+            {
+              "hydrogen": 18,
+              "from": 2,
+              "to": 28,
+              "bond_distance_angstrom": 1.04
+            }
+          ],
+          "unassigned_hydrogens": [],
+          "chemical_state_preserved_by_geometry": false,
+          "closest_interfragment_distance_angstrom": 1.04,
+          "separated_geometry": false,
+          "cross_fragment_proton_transfer": [
+            {
+              "hydrogen": 18,
+              "from": 2,
+              "to": 28,
+              "bond_distance_angstrom": 1.04
+            }
+          ]
+        },
+        "hydrogen_owners": {
+          "18": 28,
+          "19": 4,
+          "20": 7,
+          "21": 8,
+          "22": 11,
+          "23": 14,
+          "24": 15,
+          "25": 17,
+          "36": 26,
+          "37": 26,
+          "38": 29,
+          "39": 32,
+          "40": 33
+        },
+        "hydrogen_assignment_distances": [
+          {
+            "hydrogen": 18,
+            "nearest_heavy": 28,
+            "nearest_distance_angstrom": 1.04,
+            "second_heavy": 2,
+            "second_distance_angstrom": 1.81,
+            "distance_gap_angstrom": 0.77
+          },
+          {
+            "hydrogen": 19,
+            "nearest_heavy": 4,
+            "nearest_distance_angstrom": 1.089362991481511,
+            "second_heavy": 3,
+            "second_distance_angstrom": 2.1587303797855593,
+            "distance_gap_angstrom": 1.0693673883040482
+          },
+          {
+            "hydrogen": 20,
+            "nearest_heavy": 7,
+            "nearest_distance_angstrom": 1.0886910787986515,
+            "second_heavy": 8,
+            "second_distance_angstrom": 2.1463072080269874,
+            "distance_gap_angstrom": 1.057616129228336
+          },
+          {
+            "hydrogen": 21,
+            "nearest_heavy": 8,
+            "nearest_distance_angstrom": 1.0859353300571035,
+            "second_heavy": 9,
+            "second_distance_angstrom": 2.1455011025607487,
+            "distance_gap_angstrom": 1.0595657725036451
+          },
+          {
+            "hydrogen": 22,
+            "nearest_heavy": 11,
+            "nearest_distance_angstrom": 1.083524642964991,
+            "second_heavy": 9,
+            "second_distance_angstrom": 2.149814921546347,
+            "distance_gap_angstrom": 1.066290278581356
+          },
+          {
+            "hydrogen": 23,
+            "nearest_heavy": 14,
+            "nearest_distance_angstrom": 1.0889652825039202,
+            "second_heavy": 15,
+            "second_distance_angstrom": 2.144633452456253,
+            "distance_gap_angstrom": 1.055668169952333
+          },
+          {
+            "hydrogen": 24,
+            "nearest_heavy": 15,
+            "nearest_distance_angstrom": 1.086311067857983,
+            "second_heavy": 14,
+            "second_distance_angstrom": 2.1457129253631724,
+            "distance_gap_angstrom": 1.0594018575051893
+          },
+          {
+            "hydrogen": 25,
+            "nearest_heavy": 17,
+            "nearest_distance_angstrom": 0.9704760857238433,
+            "second_heavy": 16,
+            "second_distance_angstrom": 1.927260419886753,
+            "distance_gap_angstrom": 0.9567843341629096
+          },
+          {
+            "hydrogen": 36,
+            "nearest_heavy": 26,
+            "nearest_distance_angstrom": 1.0137823436584985,
+            "second_heavy": 27,
+            "second_distance_angstrom": 2.0186063244989243,
+            "distance_gap_angstrom": 1.0048239808404258
+          },
+          {
+            "hydrogen": 37,
+            "nearest_heavy": 26,
+            "nearest_distance_angstrom": 1.0111182905291234,
+            "second_heavy": 27,
+            "second_distance_angstrom": 2.0023805162081643,
+            "distance_gap_angstrom": 0.9912622256790409
+          },
+          {
+            "hydrogen": 38,
+            "nearest_heavy": 29,
+            "nearest_distance_angstrom": 1.0864887656656324,
+            "second_heavy": 28,
+            "second_distance_angstrom": 2.0690032279871926,
+            "distance_gap_angstrom": 0.9825144623215603
+          },
+          {
+            "hydrogen": 39,
+            "nearest_heavy": 32,
+            "nearest_distance_angstrom": 1.0086347409142886,
+            "second_heavy": 31,
+            "second_distance_angstrom": 2.1140490055982717,
+            "distance_gap_angstrom": 1.105414264683983
+          },
+          {
+            "hydrogen": 40,
+            "nearest_heavy": 33,
+            "nearest_distance_angstrom": 1.0823413522645249,
+            "second_heavy": 34,
+            "second_distance_angstrom": 2.138323679109008,
+            "distance_gap_angstrom": 1.055982326844483
+          }
+        ],
+        "ambiguous_hydrogen_indices": [],
+        "contacts": [
+          {
+            "donor": 28,
+            "hydrogen": 18,
+            "acceptor": 2,
+            "H_acceptor_distance_angstrom": 1.81,
+            "DHA_angle_degrees": 180.0
+          },
+          {
+            "donor": 26,
+            "hydrogen": 37,
+            "acceptor": 0,
+            "H_acceptor_distance_angstrom": 2.5400988191714804,
+            "DHA_angle_degrees": 140.19307871621638
+          }
+        ],
+        "scope": "Nearest-heavy-atom ownership and geometric N/O-H...N/O contacts; no electronic charge assignment"
+      },
+      "archived_minimum_verified": false,
+      "final": null,
+      "net_hydrogen_owner_changes": null
+    }
+  ],
+  "pair_comparisons": [
+    {
+      "candidate_a": "diflunisal--caffeine-p36",
+      "candidate_b": "diflunisal--caffeine-p14",
+      "species": "diflunisal--caffeine",
+      "comparison": {
+        "status": "geometrically_separated_under_declared_tolerance",
+        "all_atom_RMSD_upper_bound_angstrom": 3.515100458410548,
+        "atom_map_a_to_b": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          45,
+          46,
+          44,
+          49,
+          47,
+          48
+        ],
+        "contact_match": false,
+        "minimum_heavy_RMSD_angstrom": 3.341932844474742,
+        "all_atom_RMSD_lower_bound_angstrom": 2.6735462755797936,
+        "heavy_graph_mapping_count": 1,
+        "mapping_search_complete": true,
+        "energy_comparable": false,
+        "energy_gap_kcal_mol": null,
+        "duplicate_minimum_verified": false,
+        "proper_rotation_only": true,
+        "fragments_aligned_together": true,
+        "scope": "Threshold-based geometric duplicate check; hydrogen assignment is a candidate alignment, not a proven global all-atom minimum"
+      }
+    },
+    {
+      "candidate_a": "diflunisal--caffeine-p36",
+      "candidate_b": "diflunisal--caffeine-p06",
+      "species": "diflunisal--caffeine",
+      "comparison": {
+        "status": "geometrically_separated_under_declared_tolerance",
+        "all_atom_RMSD_upper_bound_angstrom": 4.56964948112584,
+        "atom_map_a_to_b": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          42,
+          40,
+          41,
+          43,
+          44,
+          46,
+          45,
+          49,
+          48,
+          47
+        ],
+        "contact_match": false,
+        "minimum_heavy_RMSD_angstrom": 3.7395568770245666,
+        "all_atom_RMSD_lower_bound_angstrom": 2.9916455016196535,
+        "heavy_graph_mapping_count": 1,
+        "mapping_search_complete": true,
+        "energy_comparable": false,
+        "energy_gap_kcal_mol": null,
+        "duplicate_minimum_verified": false,
+        "proper_rotation_only": true,
+        "fragments_aligned_together": true,
+        "scope": "Threshold-based geometric duplicate check; hydrogen assignment is a candidate alignment, not a proven global all-atom minimum"
+      }
+    },
+    {
+      "candidate_a": "diflunisal--caffeine-p14",
+      "candidate_b": "diflunisal--caffeine-p06",
+      "species": "diflunisal--caffeine",
+      "comparison": {
+        "status": "geometrically_separated_under_declared_tolerance",
+        "all_atom_RMSD_upper_bound_angstrom": 3.929470747635421,
+        "atom_map_a_to_b": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          42,
+          40,
+          41,
+          43,
+          45,
+          44,
+          46,
+          48,
+          47,
+          49
+        ],
+        "contact_match": false,
+        "minimum_heavy_RMSD_angstrom": 3.069470913836922,
+        "all_atom_RMSD_lower_bound_angstrom": 2.455576731069538,
+        "heavy_graph_mapping_count": 1,
+        "mapping_search_complete": true,
+        "energy_comparable": false,
+        "energy_gap_kcal_mol": null,
+        "duplicate_minimum_verified": false,
+        "proper_rotation_only": true,
+        "fragments_aligned_together": true,
+        "scope": "Threshold-based geometric duplicate check; hydrogen assignment is a candidate alignment, not a proven global all-atom minimum"
+      }
+    }
+  ],
+  "original_sources_overwritten": false,
+  "new_engine_runs": 0,
+  "common_grid_duplicates_certified": false,
+  "cocrystal_polymorph_count": null,
+  "B_X_scores_computed": false,
+  "script_sha256": "fe7b43311c016ff290b7a708c7536a49731159432b3c8a0f503010188434ee87",
+  "networkx_version": "3.6.1",
+  "scope": "Existing gas-phase molecular geometries only; original 17 starts and all failed attempts remain preserved"
+}

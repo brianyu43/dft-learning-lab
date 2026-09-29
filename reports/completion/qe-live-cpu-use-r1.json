@@ -1,0 +1,24 @@
+{
+  "observed_at": "2026-09-29T14:15:09.612763+00:00",
+  "job_id": "w3-mose2-precision-reference",
+  "sampling_seconds": 10.010028958997282,
+  "processes": [
+    {
+      "pid": 83173,
+      "name": "pw.x",
+      "cpu_seconds": 17.05363046399998,
+      "average_active_cpu_cores": 1.703654458329186,
+      "threads": 7,
+      "rss_bytes": 791248896
+    },
+    {
+      "pid": 83172,
+      "name": "python3.11",
+      "cpu_seconds": 0.2659721599999987,
+      "average_active_cpu_cores": 0.026570568485812,
+      "threads": 1,
+      "rss_bytes": 25985024
+    }
+  ],
+  "scope": "One short live CPU-use sample, not a controlled scaling benchmark"
+}

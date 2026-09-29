@@ -1,0 +1,47 @@
+{
+  "status": "static_readiness_assessment_runtime_not_verified",
+  "mace_mp_defaults": {
+    "default_dtype": "'float32'",
+    "dispersion": "False",
+    "dispersion_damping": "'bj'",
+    "dispersion_xc": "'pbe'",
+    "dispersion_cutoff": "40.0 * units.Bohr",
+    "dispersion_coord_cutoff": "40.0 * units.Bohr"
+  },
+  "torch_dftd_defaults": {
+    "damping": "'zero'",
+    "xc": "'pbe'",
+    "abc": "False",
+    "cutoff": "95.0 * Bohr",
+    "cnthr": "40.0 * Bohr",
+    "dtype": "torch.float32"
+  },
+  "qe_dftd3_source_defaults": {
+    "cutoff_bohr": 94.86832980505137,
+    "coordination_cutoff_bohr": 40
+  },
+  "prepared_qe_threebody": true,
+  "checkpoint_downloaded": false,
+  "model_executed": false,
+  "matched_d3_runtime_verified": false,
+  "source_sha256": {
+    "data/completion/materials-models/foundation-screen-r1/mp0b3-release.json": "37b62a6320d73ac53bb283b0e2a934a014e12ce5c65298f8dbb8dbffabfc1c6b",
+    "data/completion/materials-models/foundation-screen-r1/ASL.md": "54a623a4bba6833807aad02bc24ad85bbda97826274595559bc112b7b5abbf43",
+    "data/completion/materials-models/foundation-screen-r1/mace-foundations_models.py": "9991e6c6b36ace2a64e7f33f1c788751493b80a9f8ce7111d1d911b1fa291a1d",
+    "data/completion/materials-models/foundation-screen-r1/asl-commit.json": "920e9330cbbd2fd3e2f8e46a6b3611855480b4bb68cd12611372c94321573c31",
+    "data/completion/materials-models/foundation-screen-r1/foundations-MIT-LICENSE.txt": "31ea0ccf7bc19797081bff51c7eff3a3927c8cb6c1d7a726dec3d157b436da1c",
+    "data/completion/materials-models/foundation-screen-r1/torch-dftd3-calculator.py": "61187387d362a9d846fd0c4bd81105e0d50d301dbd3890986d4f494b30db1406",
+    "data/completion/materials-models/foundation-screen-r1/manifest.json": "bf22c8804aa8e920a326c41e4a32e8730439e729017179684c5e3d051138e9e4",
+    "data/completion/materials-models/foundation-screen-r1/foundations-README.md": "3981e18e5b2d83bd6223ffc0724a261c638a9a0c812eddad91645821c91a3a12",
+    "data/completion/materials-models/foundation-screen-r1/matpes-release.json": "bb6021d26845a90ae1686bbde8769a5a4805b4d9608936292726c416b092bf31",
+    "data/completion/materials-models/foundation-screen-r1/torch-dftd3-module.py": "24970d4a267badab653b795b321b3f93c45994cb6c09b53a880cc214104fb72d",
+    "data/completion/materials-models/foundation-screen-r1/mace-commit.json": "ce046e99196e0e96143dc625cc75ace8786de724b9bca6531a2e6ebf0c330ad8",
+    "data/completion/materials-models/foundation-screen-r1/addendum-manifest.json": "6eebfffa017f7aa92a1556722222b2fd7b4ca8c4b3cef286d70e8e4c8994d023",
+    "data/completion/materials-models/foundation-screen-r1/dftd-repository.json": "54a91886af00f54dc0110d4dd8ea722de4ccd766c4f000818b2e9e35311ae397",
+    "data/completion/materials-models/foundation-screen-r1/dftd-commit.json": "f493d52531d721dcb2690ea510b9e0f0712c03e7bffda6f414d840e3f0edf355",
+    "data/completion/materials-models/foundation-screen-r1/foundations-commit.json": "801c0812980e743106560fe4fa2bb8bad9b0293bdec6639df5e7d18eaee2d871",
+    ".tools/src/qe-7.6/dft-d3/api.f90": "df726e8fe70d96272ab528af8bdb1424251c6421ad6798d69694a2f103d838b6",
+    "inputs/qe/completion/w3-qe-pbe-d3bj-compatibility.in": "ab589a8a4175fcab2dcdedf66f9454e9563b2218e22c1ea1b70e885b1580c0f1",
+    ".tools/src/qe-7.6/PW/src/input.f90": "b42a145c2e0c4d5877093ae5f4191a3d765cc4755771e1229bf470c4f803a7d5"
+  }
+}

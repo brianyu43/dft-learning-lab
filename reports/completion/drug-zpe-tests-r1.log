@@ -1,0 +1,13 @@
+test_actual_diflunisal_dimer_zpe_matches_raw_summary_without_source_writes (test_completion_drug_zpe.HarmonicZPETests.test_actual_diflunisal_dimer_zpe_matches_raw_summary_without_source_writes) ... ok
+test_all_nine_archived_minima_remain_separate_and_source_preserving (test_completion_drug_zpe.HarmonicZPETests.test_all_nine_archived_minima_remain_separate_and_source_preserving) ... ok
+test_changed_archived_lineage_cannot_write_new_report (test_completion_drug_zpe.HarmonicZPETests.test_changed_archived_lineage_cannot_write_new_report) ... ok
+test_duplicate_hessian_mode_or_changed_scale_is_rejected (test_completion_drug_zpe.HarmonicZPETests.test_duplicate_hessian_mode_or_changed_scale_is_rejected) ... ok
+test_hessian_must_describe_the_same_geometry (test_completion_drug_zpe.HarmonicZPETests.test_hessian_must_describe_the_same_geometry) ... ok
+test_known_frequency_sum_and_preapplied_scale_not_applied_twice (test_completion_drug_zpe.HarmonicZPETests.test_known_frequency_sum_and_preapplied_scale_not_applied_twice) ... ok
+test_wrong_summary_cutoff_or_multiple_thermochemistry_blocks_require_review (test_completion_drug_zpe.HarmonicZPETests.test_wrong_summary_cutoff_or_multiple_thermochemistry_blocks_require_review) ... ok
+test_zero_imaginary_nonfinite_or_empty_modes_are_not_silently_dropped (test_completion_drug_zpe.HarmonicZPETests.test_zero_imaginary_nonfinite_or_empty_modes_are_not_silently_dropped) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.315s
+
+OK

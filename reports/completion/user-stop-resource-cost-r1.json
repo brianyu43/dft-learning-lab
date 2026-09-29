@@ -1,0 +1,350 @@
+{
+  "checked_at": "2026-09-29T15:10:05.309550+00:00",
+  "status": "stopped_by_user_no_live_engine",
+  "definition": "Original pilot budget accounting: through-week-2 drug baseline includes ORCA, xTB and parallel validation; later totals add recorded week >=3 ORCA/QE elapsed wall times, including failed/stopped attempts. Not CPU-hours or total project labor. Setup/downloads excluded.",
+  "source_sha256": {
+    "reports/week2-summary.json": "796a9918edec9e5aef93b0bcca78a65ddc41e4d9b45d1843a3b6e17af08b4173",
+    "runs/20260911T091928147429Z-w3-diflunisal--caffeine-p14-opt-freq/manifest.json": "764249b3f99be0f09d10010666e516d488329fafe0fef52161686d4c7043f60c",
+    "runs/20260911T094859365003Z-w3-diflunisal--caffeine-p06-opt-freq/manifest.json": "52043cbe2b3304e071d146334d7949b35593b816eaddf804388370d653568d39",
+    "runs/20260911T101418475738Z-w3-adenine-t06-s89-opt-freq/manifest.json": "d78ae1a9f6bbf50343c85a53c79da6fd4d15ad40a1a5588c6660829d24c1a2d1",
+    "runs/20260911T101854702420Z-w3-theobromine-t00-s89-opt-freq/manifest.json": "ba76bbde3c42f7e755946cafef82fd6fdb0880e14d943019d89c416f2533cc54",
+    "runs/20260911T102326653100Z-w3-xanthine-t00-s17-opt-freq/manifest.json": "d3a411fdec1dd37bef324d427d100a5f345828fdea7abe1c2583ed7c31cba51c",
+    "runs/20260911T102546237304Z-w3-diflunisal--diflunisal-p05-opt-freq/manifest.json": "9d16a94190afb032b8abd0f5bc03f10946d125ace45dfce5f90a76d23eea9f86",
+    "runs/20260911T110542024076Z-w3-diflunisal--diflunisal-p05-refine-r1-opt-freq/manifest.json": "77272dc19eab6f0e221af4debe5bb456199ff2320e832ab15a9d2016781c6c11",
+    "runs/20260911T114221169376Z-w3-diflunisal--diflunisal-p05-refine-r1-common-grid/manifest.json": "bb250915820c2528d32dd7ffa9dead162e1f043c12a0ef9a4dfb986c05769cab",
+    "runs/20260929T095110113920Z-w3-precision-v2-dif-g2/manifest.json": "0621453c0d4cf298dfad7b7acf5a87b58e434e6dc81352207660d090077c122b",
+    "runs/20260929T095132790189Z-w3-precision-v2-dif2-g2/manifest.json": "9056112e8e98df9f15ce6a2dd64f644c7467881b870cec1b569bec18b43a6555",
+    "runs/20260929T095206778819Z-w3-precision-v2-dif-g3/manifest.json": "0e1e415744ba8af5575f3cee3c1d3e8fe76663a50e06b4a8eaab66502fb7890e",
+    "runs/20260929T095235091893Z-w3-precision-v2-dif2-g3/manifest.json": "846b5f602cbcc1afda71e6b24f0ed4146ae8969537f5271a699cb4d8146863b0",
+    "runs/20260929T095329707740Z-w3-precision-v2-dif-dense/manifest.json": "7d78be12d532448c0a23405587ed1e203f1bdcb4e5c456b73dde00f1ea20f078",
+    "runs/20260929T095417713555Z-w3-precision-v2-dif2-dense/manifest.json": "2a668a83692372ce55c395331dcde060d0d575e72108b40e1f0d6eb0cacd6e99",
+    "runs/20260929T095732304432Z-w3-mos2-lattice-vc/manifest.json": "5ec048d6f2a19343c798e6626a73e8ed8f5d0c47ee6d513c21e1a1c6d4cce7c3",
+    "runs/20260929T113024170269Z-w3-mose2-lattice-vc/manifest.json": "9dc3c12e9613c221ffbf9d2ef94c4f512f1fae0fcfc630fa27da5357a098c50c",
+    "runs/20260929T130132871874Z-w3-mos2-lattice-probe-minus/manifest.json": "223ea2832fbd325cfd50dbf6ea24f096cbd716bb47ec230aa62f9b23b5652e0a",
+    "runs/20260929T130906282644Z-w3-mos2-lattice-probe-plus/manifest.json": "f263c44dd5b4a5b4f5a8aa580ec862f825f09eebcbeb3951f9edd61f34ca9b32",
+    "runs/20260929T131932646148Z-w3-mos2-precision-selected/manifest.json": "857c2da98eed96da37eaa1f93a358e350f0fe9a07566bd9a578a5d21d5e066d3",
+    "runs/20260929T132115031938Z-w3-mos2-precision-middle/manifest.json": "e55a5bffe4644210d822feb91c5d552905f0d38abd512a3c747abc165ea85559",
+    "runs/20260929T132546183925Z-w3-mos2-precision-reference/manifest.json": "5ec078d7b36307a563b8f175bc66b8b60a1418cdc3aeca1fe2a4311191001cce",
+    "runs/20260929T133614709020Z-w3-mose2-lattice-probe-minus/manifest.json": "571c327034657ae7664d42b04f5e4e13f75d55abd11144ff421e1e0e6d9cdb5a",
+    "runs/20260929T134637199931Z-w3-mose2-lattice-probe-plus/manifest.json": "dab663c15e85022c34327bbff74f5396993268d6a25a17be42d510cb1faf35b4",
+    "runs/20260929T135741782785Z-w3-mose2-precision-selected/manifest.json": "b92fca54b9943eb495ae03617f9a0f89c293cacad0156acd6ce3729d51005a50",
+    "runs/20260929T140026468434Z-w3-mose2-precision-middle/manifest.json": "886e9a6b2838a7ccc3a739f441e274731d320ca6417684f500df97328f2c42d1",
+    "runs/20260929T140910633863Z-w3-mose2-precision-reference/manifest.json": "dc8ad30567a3f4af848f0d85fb79e7d202c6405ed0048307536f9aaa95d8d8a2",
+    "runs/20260929T142416302180Z-w3-mos2-common-lattice-relax/manifest.json": "dc341923ad0928f7ee69f07f65b3f9e3428956faccd47fabe6eabfc5dc88faf2",
+    "runs/20260929T143611229212Z-w3-mose2-common-lattice-relax/manifest.json": "9c7aee5ac4a6e181a019125d1bd55417e6b66a46d2c8d442390e51566f9e4a63",
+    "runs/20260929T145136958623Z-w3-hetero-g000-pair/manifest.json": "9564457774b6385a9fbb042d1b7a48744ccf1dd7b1ab6e83eac26b74ee781ab4"
+  },
+  "summary": {
+    "orca": {
+      "completed_or_stopped_attempts_after_week2": 14,
+      "after_week2_seconds": 7424.715,
+      "through_week2_hours": 4.1163257500000014,
+      "total_recorded_hours": 6.178746583333335,
+      "remaining_original_pilot_hours": 73.82125341666666,
+      "live_attempts": 0,
+      "budget_bucket": "drug (includes historical xTB and parallel validation in baseline)"
+    },
+    "qe": {
+      "completed_or_stopped_attempts_after_week2": 15,
+      "after_week2_seconds": 18619.23,
+      "through_week2_hours": 1.5525055555555554,
+      "total_recorded_hours": 6.724513888888889,
+      "remaining_original_pilot_hours": 33.275486111111114,
+      "live_attempts": 0,
+      "budget_bucket": "semiconductor"
+    }
+  },
+  "attempts_after_week2": [
+    {
+      "job_id": "w3-diflunisal--caffeine-p14-opt-freq",
+      "engine": "orca",
+      "status": "passed",
+      "elapsed_seconds": 1764.455,
+      "started_at": "2026-09-11T09:19:28.153402+00:00",
+      "ended_at": "2026-09-11T09:48:52.610088+00:00",
+      "stop_reason": null,
+      "manifest": "runs/20260911T091928147429Z-w3-diflunisal--caffeine-p14-opt-freq/manifest.json"
+    },
+    {
+      "job_id": "w3-diflunisal--caffeine-p06-opt-freq",
+      "engine": "orca",
+      "status": "passed",
+      "elapsed_seconds": 1518.591,
+      "started_at": "2026-09-11T09:48:59.370419+00:00",
+      "ended_at": "2026-09-11T10:14:17.973089+00:00",
+      "stop_reason": null,
+      "manifest": "runs/20260911T094859365003Z-w3-diflunisal--caffeine-p06-opt-freq/manifest.json"
+    },
+    {
+      "job_id": "w3-adenine-t06-s89-opt-freq",
+      "engine": "orca",
+      "status": "passed",
+      "elapsed_seconds": 275.873,
+      "started_at": "2026-09-11T10:14:18.482158+00:00",
+      "ended_at": "2026-09-11T10:18:54.357994+00:00",
+      "stop_reason": null,
+      "manifest": "runs/20260911T101418475738Z-w3-adenine-t06-s89-opt-freq/manifest.json"
+    },
+    {
+      "job_id": "w3-theobromine-t00-s89-opt-freq",
+      "engine": "orca",
+      "status": "passed",
+      "elapsed_seconds": 271.596,
+      "started_at": "2026-09-11T10:18:54.710355+00:00",
+      "ended_at": "2026-09-11T10:23:26.308437+00:00",
+      "stop_reason": null,
+      "manifest": "runs/20260911T101854702420Z-w3-theobromine-t00-s89-opt-freq/manifest.json"
+    },
+    {
+      "job_id": "w3-xanthine-t00-s17-opt-freq",
+      "engine": "orca",
+      "status": "passed",
+      "elapsed_seconds": 139.23,
+      "started_at": "2026-09-11T10:23:26.660958+00:00",
+      "ended_at": "2026-09-11T10:25:45.892193+00:00",
+      "stop_reason": null,
+      "manifest": "runs/20260911T102326653100Z-w3-xanthine-t00-s17-opt-freq/manifest.json"
+    },
+    {
+      "job_id": "w3-diflunisal--diflunisal-p05-opt-freq",
+      "engine": "orca",
+      "status": "needs_review",
+      "elapsed_seconds": 924.742,
+      "started_at": "2026-09-11T10:25:46.244409+00:00",
+      "ended_at": "2026-09-11T10:41:10.994553+00:00",
+      "stop_reason": null,
+      "manifest": "runs/20260911T102546237304Z-w3-diflunisal--diflunisal-p05-opt-freq/manifest.json"
+    },
+    {
+      "job_id": "w3-diflunisal--diflunisal-p05-refine-r1-opt-freq",
+      "engine": "orca",
+      "status": "passed",
+      "elapsed_seconds": 2197.915,
+      "started_at": "2026-09-11T11:05:42.034757+00:00",
+      "ended_at": "2026-09-11T11:42:17.918272+00:00",
+      "stop_reason": null,
+      "manifest": "runs/20260911T110542024076Z-w3-diflunisal--diflunisal-p05-refine-r1-opt-freq/manifest.json"
+    },
+    {
+      "job_id": "w3-diflunisal--diflunisal-p05-refine-r1-common-grid",
+      "engine": "orca",
+      "status": "passed",
+      "elapsed_seconds": 31.665,
+      "started_at": "2026-09-11T11:42:21.175662+00:00",
+      "ended_at": "2026-09-11T11:42:52.840940+00:00",
+      "stop_reason": null,
+      "manifest": "runs/20260911T114221169376Z-w3-diflunisal--diflunisal-p05-refine-r1-common-grid/manifest.json"
+    },
+    {
+      "job_id": "w3-precision-v2-dif-g2",
+      "engine": "orca",
+      "status": "passed",
+      "elapsed_seconds": 22.624,
+      "started_at": "2026-09-29T09:51:10.120896+00:00",
+      "ended_at": "2026-09-29T09:51:32.744972+00:00",
+      "stop_reason": null,
+      "manifest": "runs/20260929T095110113920Z-w3-precision-v2-dif-g2/manifest.json"
+    },
+    {
+      "job_id": "w3-precision-v2-dif2-g2",
+      "engine": "orca",
+      "status": "passed",
+      "elapsed_seconds": 33.944,
+      "started_at": "2026-09-29T09:51:32.794977+00:00",
+      "ended_at": "2026-09-29T09:52:06.739103+00:00",
+      "stop_reason": null,
+      "manifest": "runs/20260929T095132790189Z-w3-precision-v2-dif2-g2/manifest.json"
+    },
+    {
+      "job_id": "w3-precision-v2-dif-g3",
+      "engine": "orca",
+      "status": "passed",
+      "elapsed_seconds": 28.27,
+      "started_at": "2026-09-29T09:52:06.783056+00:00",
+      "ended_at": "2026-09-29T09:52:35.053397+00:00",
+      "stop_reason": null,
+      "manifest": "runs/20260929T095206778819Z-w3-precision-v2-dif-g3/manifest.json"
+    },
+    {
+      "job_id": "w3-precision-v2-dif2-g3",
+      "engine": "orca",
+      "status": "passed",
+      "elapsed_seconds": 54.572,
+      "started_at": "2026-09-29T09:52:35.095892+00:00",
+      "ended_at": "2026-09-29T09:53:29.668737+00:00",
+      "stop_reason": null,
+      "manifest": "runs/20260929T095235091893Z-w3-precision-v2-dif2-g3/manifest.json"
+    },
+    {
+      "job_id": "w3-precision-v2-dif-dense",
+      "engine": "orca",
+      "status": "passed",
+      "elapsed_seconds": 47.959,
+      "started_at": "2026-09-29T09:53:29.712396+00:00",
+      "ended_at": "2026-09-29T09:54:17.671646+00:00",
+      "stop_reason": null,
+      "manifest": "runs/20260929T095329707740Z-w3-precision-v2-dif-dense/manifest.json"
+    },
+    {
+      "job_id": "w3-precision-v2-dif2-dense",
+      "engine": "orca",
+      "status": "passed",
+      "elapsed_seconds": 113.279,
+      "started_at": "2026-09-29T09:54:17.718078+00:00",
+      "ended_at": "2026-09-29T09:56:10.997299+00:00",
+      "stop_reason": null,
+      "manifest": "runs/20260929T095417713555Z-w3-precision-v2-dif2-dense/manifest.json"
+    },
+    {
+      "job_id": "w3-mos2-lattice-vc",
+      "engine": "qe",
+      "status": "passed",
+      "elapsed_seconds": 5570.827,
+      "started_at": "2026-09-29T09:57:32.306854+00:00",
+      "ended_at": "2026-09-29T11:30:23.194586+00:00",
+      "stop_reason": null,
+      "manifest": "runs/20260929T095732304432Z-w3-mos2-lattice-vc/manifest.json"
+    },
+    {
+      "job_id": "w3-mose2-lattice-vc",
+      "engine": "qe",
+      "status": "passed",
+      "elapsed_seconds": 5467.727,
+      "started_at": "2026-09-29T11:30:24.172253+00:00",
+      "ended_at": "2026-09-29T13:01:31.956677+00:00",
+      "stop_reason": null,
+      "manifest": "runs/20260929T113024170269Z-w3-mose2-lattice-vc/manifest.json"
+    },
+    {
+      "job_id": "w3-mos2-lattice-probe-minus",
+      "engine": "qe",
+      "status": "passed",
+      "elapsed_seconds": 451.965,
+      "started_at": "2026-09-29T13:01:32.873457+00:00",
+      "ended_at": "2026-09-29T13:09:04.847354+00:00",
+      "stop_reason": null,
+      "manifest": "runs/20260929T130132871874Z-w3-mos2-lattice-probe-minus/manifest.json"
+    },
+    {
+      "job_id": "w3-mos2-lattice-probe-plus",
+      "engine": "qe",
+      "status": "passed",
+      "elapsed_seconds": 625.364,
+      "started_at": "2026-09-29T13:09:06.284451+00:00",
+      "ended_at": "2026-09-29T13:19:31.658139+00:00",
+      "stop_reason": null,
+      "manifest": "runs/20260929T130906282644Z-w3-mos2-lattice-probe-plus/manifest.json"
+    },
+    {
+      "job_id": "w3-mos2-precision-selected",
+      "engine": "qe",
+      "status": "passed",
+      "elapsed_seconds": 100.466,
+      "started_at": "2026-09-29T13:19:32.647954+00:00",
+      "ended_at": "2026-09-29T13:21:13.119204+00:00",
+      "stop_reason": null,
+      "manifest": "runs/20260929T131932646148Z-w3-mos2-precision-selected/manifest.json"
+    },
+    {
+      "job_id": "w3-mos2-precision-middle",
+      "engine": "qe",
+      "status": "passed",
+      "elapsed_seconds": 269.706,
+      "started_at": "2026-09-29T13:21:15.033543+00:00",
+      "ended_at": "2026-09-29T13:25:44.745535+00:00",
+      "stop_reason": null,
+      "manifest": "runs/20260929T132115031938Z-w3-mos2-precision-middle/manifest.json"
+    },
+    {
+      "job_id": "w3-mos2-precision-reference",
+      "engine": "qe",
+      "status": "passed",
+      "elapsed_seconds": 628.406,
+      "started_at": "2026-09-29T13:25:46.185897+00:00",
+      "ended_at": "2026-09-29T13:36:14.598303+00:00",
+      "stop_reason": null,
+      "manifest": "runs/20260929T132546183925Z-w3-mos2-precision-reference/manifest.json"
+    },
+    {
+      "job_id": "w3-mose2-lattice-probe-minus",
+      "engine": "qe",
+      "status": "passed",
+      "elapsed_seconds": 621.811,
+      "started_at": "2026-09-29T13:36:14.710877+00:00",
+      "ended_at": "2026-09-29T13:46:36.531748+00:00",
+      "stop_reason": null,
+      "manifest": "runs/20260929T133614709020Z-w3-mose2-lattice-probe-minus/manifest.json"
+    },
+    {
+      "job_id": "w3-mose2-lattice-probe-plus",
+      "engine": "qe",
+      "status": "passed",
+      "elapsed_seconds": 662.856,
+      "started_at": "2026-09-29T13:46:37.201804+00:00",
+      "ended_at": "2026-09-29T13:57:40.067476+00:00",
+      "stop_reason": null,
+      "manifest": "runs/20260929T134637199931Z-w3-mose2-lattice-probe-plus/manifest.json"
+    },
+    {
+      "job_id": "w3-mose2-precision-selected",
+      "engine": "qe",
+      "status": "passed",
+      "elapsed_seconds": 163.07,
+      "started_at": "2026-09-29T13:57:41.784639+00:00",
+      "ended_at": "2026-09-29T14:00:24.860184+00:00",
+      "stop_reason": null,
+      "manifest": "runs/20260929T135741782785Z-w3-mose2-precision-selected/manifest.json"
+    },
+    {
+      "job_id": "w3-mose2-precision-middle",
+      "engine": "qe",
+      "status": "passed",
+      "elapsed_seconds": 523.557,
+      "started_at": "2026-09-29T14:00:26.470385+00:00",
+      "ended_at": "2026-09-29T14:09:10.037942+00:00",
+      "stop_reason": null,
+      "manifest": "runs/20260929T140026468434Z-w3-mose2-precision-middle/manifest.json"
+    },
+    {
+      "job_id": "w3-mose2-precision-reference",
+      "engine": "qe",
+      "status": "passed",
+      "elapsed_seconds": 904.325,
+      "started_at": "2026-09-29T14:09:10.635762+00:00",
+      "ended_at": "2026-09-29T14:24:14.973302+00:00",
+      "stop_reason": null,
+      "manifest": "runs/20260929T140910633863Z-w3-mose2-precision-reference/manifest.json"
+    },
+    {
+      "job_id": "w3-mos2-common-lattice-relax",
+      "engine": "qe",
+      "status": "passed",
+      "elapsed_seconds": 713.436,
+      "started_at": "2026-09-29T14:24:16.304153+00:00",
+      "ended_at": "2026-09-29T14:36:09.752142+00:00",
+      "stop_reason": null,
+      "manifest": "runs/20260929T142416302180Z-w3-mos2-common-lattice-relax/manifest.json"
+    },
+    {
+      "job_id": "w3-mose2-common-lattice-relax",
+      "engine": "qe",
+      "status": "passed",
+      "elapsed_seconds": 925.631,
+      "started_at": "2026-09-29T14:36:11.230721+00:00",
+      "ended_at": "2026-09-29T14:51:36.875101+00:00",
+      "stop_reason": null,
+      "manifest": "runs/20260929T143611229212Z-w3-mose2-common-lattice-relax/manifest.json"
+    },
+    {
+      "job_id": "w3-hetero-g000-pair",
+      "engine": "qe",
+      "status": "passed",
+      "elapsed_seconds": 990.083,
+      "started_at": "2026-09-29T14:51:36.960745+00:00",
+      "ended_at": "2026-09-29T15:08:07.057739+00:00",
+      "stop_reason": null,
+      "manifest": "runs/20260929T145136958623Z-w3-hetero-g000-pair/manifest.json"
+    }
+  ],
+  "MACE_inference_runs": 0
+}

@@ -1,0 +1,13 @@
+! r2SCAN-3c VeryTightSCF DefGrid3 SMD(ethanol) VeryTightOpt Opt Freq
+%maxcore 2000
+%pal nprocs 12 end
+%method
+  AngularGrid 7
+  IntAcc 6.0
+end
+%cpcm
+  SMD18 false
+  draco false
+end
+
+* xyzfile 0 1 initial.xyz

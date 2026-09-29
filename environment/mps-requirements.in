@@ -1,0 +1,4 @@
+# Isolated Apple GPU evaluation environment; never synced into the DFT .venv.
+# Resolve to the adjacent lock with hashes before installation.
+torch>=2.5,<3
+mace-torch>=0.3.10,<0.4

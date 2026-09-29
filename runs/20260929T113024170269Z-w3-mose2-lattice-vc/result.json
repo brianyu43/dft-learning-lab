@@ -1,0 +1,26 @@
+{
+  "engine_version": "7.6",
+  "normal_termination": true,
+  "scf_converged": true,
+  "geometry_optimization_converged": true,
+  "energy": -624.68010667,
+  "energy_unit": "Ry",
+  "energy_history": [
+    -624.67865165,
+    -624.67929161,
+    -624.67974089,
+    -624.67988814,
+    -624.67992681,
+    -624.67997274,
+    -624.68003461,
+    -624.68009502,
+    -624.68010998,
+    -624.68011002,
+    -624.68010667
+  ],
+  "minimum_verified": null,
+  "frequency_analysis_complete": false,
+  "total_force_Ry_Bohr": 4.5e-05,
+  "accuracy_scope": "Composition-specific checks required; no phonon or experimental-cell validation",
+  "status": "passed"
+}

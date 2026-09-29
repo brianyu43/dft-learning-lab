@@ -1,5 +1,133 @@
 {
-  "status": "running",
+  "status": "stopped_by_user",
   "scope": "C09 frozen-layer interaction reference; no phonon or alloy validation",
-  "stages": []
+  "stages": [],
+  "equilibria": {
+    "mos2": {
+      "job_id": "w3-mos2-lattice-vc",
+      "energy_eV": -2514.7508530386112,
+      "max_force_eV_angstrom": 2.9007575560276934e-05,
+      "lattice_a_angstrom": 3.144370987108395,
+      "vacuum_gap_angstrom": 29.976324044999977,
+      "number_of_electrons": 26.0,
+      "xml_sha256": "0454864352941ec1e66aa6f2ca7d51d4ef914e47466dd09ca5ccfb1422071167"
+    },
+    "mose2": {
+      "job_id": "w3-mose2-lattice-vc",
+      "energy_eV": -8499.205831416011,
+      "max_force_eV_angstrom": 0.0008107614984788793,
+      "lattice_a_angstrom": 3.266449138686927,
+      "vacuum_gap_angstrom": 30.028380367260887,
+      "number_of_electrons": 46.0,
+      "xml_sha256": "6fd9a00d7892328479514c1a1e7cdf37decf834d9bdb9441e8c13f8ebaac49d1"
+    }
+  },
+  "lattice_brackets": {
+    "mos2": [
+      {
+        "delta_a_angstrom": -0.005,
+        "delta_energy_eV": 0.0002992058543895837,
+        "job_id": "w3-mos2-lattice-probe-minus"
+      },
+      {
+        "delta_a_angstrom": 0.005,
+        "delta_energy_eV": 0.00028890116982438485,
+        "job_id": "w3-mos2-lattice-probe-plus"
+      }
+    ],
+    "mose2": [
+      {
+        "delta_a_angstrom": -0.005,
+        "delta_energy_eV": 0.00026667390193324536,
+        "job_id": "w3-mose2-lattice-probe-minus"
+      },
+      {
+        "delta_a_angstrom": 0.005,
+        "delta_energy_eV": 0.00024023469995881896,
+        "job_id": "w3-mose2-lattice-probe-plus"
+      }
+    ]
+  },
+  "monolayer_combined_sensitivity": {
+    "mos2": {
+      "selected": {
+        "delta_energy_meV_atom": 0.8644874086106332,
+        "max_delta_force_eV_angstrom": 0.003537901429762614,
+        "passed": true,
+        "job_id": "w3-mos2-precision-selected"
+      },
+      "middle": {
+        "delta_energy_meV_atom": 0.2230215206206291,
+        "max_delta_force_eV_angstrom": 0.00027515745023311635,
+        "passed": true,
+        "job_id": "w3-mos2-precision-middle"
+      },
+      "reference": {
+        "delta_energy_meV_atom": 0.0,
+        "max_delta_force_eV_angstrom": 0.0,
+        "passed": true,
+        "job_id": "w3-mos2-precision-reference"
+      }
+    },
+    "mose2": {
+      "selected": {
+        "delta_energy_meV_atom": 2.2316640158048053,
+        "max_delta_force_eV_angstrom": 0.0017496115424981036,
+        "passed": false,
+        "job_id": "w3-mose2-precision-selected"
+      },
+      "middle": {
+        "delta_energy_meV_atom": 0.45178599187541596,
+        "max_delta_force_eV_angstrom": 0.00014083919348465736,
+        "passed": true,
+        "job_id": "w3-mose2-precision-middle"
+      },
+      "reference": {
+        "delta_energy_meV_atom": 0.0,
+        "max_delta_force_eV_angstrom": 0.0,
+        "passed": true,
+        "job_id": "w3-mose2-precision-reference"
+      }
+    }
+  },
+  "setting_selection": {
+    "label": "middle",
+    "ecutwfc_Ry": 100,
+    "k": 9,
+    "vacuum_angstrom": 25,
+    "scope": "Relative to 120/12/30 at both relaxed monolayers; heterobilayer difference checked separately"
+  },
+  "common_lattice_angstrom": 3.205410062897661,
+  "strain_fraction": {
+    "mos2": 0.01941217370326842,
+    "mose2": -0.01868667571349447
+  },
+  "common_lattice_layers": {
+    "mos2": {
+      "job_id": "w3-mos2-common-lattice-relax",
+      "energy_eV": -2514.716220641819,
+      "max_force_eV_angstrom": 1.865117122888555e-05,
+      "lattice_a_angstrom": 3.20541006289766,
+      "vacuum_gap_angstrom": 25.0408215344237,
+      "number_of_electrons": 26.0,
+      "xml_sha256": "05165a2ffdb24985eb7b96adabb965236b56fb364675b9a2188bc1963925279a"
+    },
+    "mose2": {
+      "job_id": "w3-mose2-common-lattice-relax",
+      "energy_eV": -8499.173633162081,
+      "max_force_eV_angstrom": 3.774228134988264e-05,
+      "lattice_a_angstrom": 3.20541006289766,
+      "vacuum_gap_angstrom": 24.954690077265425,
+      "number_of_electrons": 46.0,
+      "xml_sha256": "505f6d65d86a495c39c4532c3bfb65af72262536b362a981670e79df4bcc6ad2"
+    }
+  },
+  "stopped_at": "2026-09-29T15:08:32.714803+00:00",
+  "scientific_project_complete": false,
+  "checkpoint": "reports/completion/user-stop-checkpoint-r1.json",
+  "last_completed_job": "w3-hetero-g000-pair",
+  "first_heterobilayer_SCF_audit": "reports/completion/heterobilayer-first-result-audit-r1.json",
+  "interaction_energy_available": false,
+  "automatic_resume": false,
+  "pre_annotation_snapshot": "reports/completion/user-stop-pipeline-before-annotation-r1.json"
 }

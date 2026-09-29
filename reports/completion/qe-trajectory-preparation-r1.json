@@ -1,0 +1,1316 @@
+{
+  "prepared_at": "2026-09-29T12:01:50.078403+00:00",
+  "status": "geometry_guards_tested_not_QE_trajectory_verified",
+  "tests_passed": 8,
+  "fixture_count": 27,
+  "fixture_results": [
+    {
+      "structure": "structures/completion/geometry-fixtures/C0-r0-d6.45.extxyz",
+      "sha256": "44ef95d618dcb308a02ec2583c88cf2cac987bb476bbe22edb082a3873b5a4d4",
+      "audit": {
+        "status": "geometry_continuity_passed",
+        "reasons": [],
+        "Mo_centroids_angstrom": [
+          [
+            0.81,
+            1.402961155,
+            14.11864037
+          ],
+          [
+            0.81,
+            1.402961155,
+            20.56864037
+          ]
+        ],
+        "max_centroid_drift_angstrom": 0.0,
+        "changed_face_atom_indices": [],
+        "min_retained_signed_face_height_angstrom": 1.5563849699999999,
+        "layer_z_ranges_angstrom": [
+          [
+            12.5622554,
+            15.67502535
+          ],
+          [
+            18.8877446,
+            22.24953615
+          ]
+        ],
+        "interlayer_surface_gap_angstrom": 3.212719250000001,
+        "current_vacuum_gap_angstrom": 24.99999999774124,
+        "coordinates_within_unwrapped_z_cell": true,
+        "minimum_interatomic_distance_angstrom": 2.4334202603445,
+        "severe_approach_threshold_angstrom": 1.21671013017225,
+        "reference_shell": {
+          "max_neighbor_distance_angstrom": 2.514877857767955,
+          "min_non_neighbor_distance_angstrom": 4.052053077429065,
+          "fixed_distance_cutoff_angstrom": 3.2834654675985098
+        },
+        "lost_distance_graph_edges": [],
+        "added_distance_graph_edges": [],
+        "scope": "Reference geometry continuity only; no bond-order or dynamical-stability claim"
+      }
+    },
+    {
+      "structure": "structures/completion/geometry-fixtures/C0-r0-d6.70.extxyz",
+      "sha256": "a899e969872d2ee3ad674c1d9e0f8140bd3814f377fe7377759078fe781cf0d4",
+      "audit": {
+        "status": "geometry_continuity_passed",
+        "reasons": [],
+        "Mo_centroids_angstrom": [
+          [
+            0.81,
+            1.402961155,
+            14.11864037
+          ],
+          [
+            0.81,
+            1.402961155,
+            20.81864037
+          ]
+        ],
+        "max_centroid_drift_angstrom": 0.0,
+        "changed_face_atom_indices": [],
+        "min_retained_signed_face_height_angstrom": 1.5563849699999999,
+        "layer_z_ranges_angstrom": [
+          [
+            12.5622554,
+            15.67502535
+          ],
+          [
+            19.1377446,
+            22.49953615
+          ]
+        ],
+        "interlayer_surface_gap_angstrom": 3.462719250000001,
+        "current_vacuum_gap_angstrom": 24.99999999774124,
+        "coordinates_within_unwrapped_z_cell": true,
+        "minimum_interatomic_distance_angstrom": 2.4334202603445,
+        "severe_approach_threshold_angstrom": 1.21671013017225,
+        "reference_shell": {
+          "max_neighbor_distance_angstrom": 2.514877857767955,
+          "min_non_neighbor_distance_angstrom": 4.052053077429065,
+          "fixed_distance_cutoff_angstrom": 3.2834654675985098
+        },
+        "lost_distance_graph_edges": [],
+        "added_distance_graph_edges": [],
+        "scope": "Reference geometry continuity only; no bond-order or dynamical-stability claim"
+      }
+    },
+    {
+      "structure": "structures/completion/geometry-fixtures/C0-r0-d6.95.extxyz",
+      "sha256": "7ac56d50bf2f8133b33a1a79539cad2385abd316d0970711115be4631f052bfa",
+      "audit": {
+        "status": "geometry_continuity_passed",
+        "reasons": [],
+        "Mo_centroids_angstrom": [
+          [
+            0.81,
+            1.402961155,
+            14.11864037
+          ],
+          [
+            0.81,
+            1.402961155,
+            21.06864037
+          ]
+        ],
+        "max_centroid_drift_angstrom": 0.0,
+        "changed_face_atom_indices": [],
+        "min_retained_signed_face_height_angstrom": 1.5563849699999999,
+        "layer_z_ranges_angstrom": [
+          [
+            12.5622554,
+            15.67502535
+          ],
+          [
+            19.3877446,
+            22.74953615
+          ]
+        ],
+        "interlayer_surface_gap_angstrom": 3.712719250000001,
+        "current_vacuum_gap_angstrom": 24.99999999774124,
+        "coordinates_within_unwrapped_z_cell": true,
+        "minimum_interatomic_distance_angstrom": 2.4334202603445023,
+        "severe_approach_threshold_angstrom": 1.2167101301722512,
+        "reference_shell": {
+          "max_neighbor_distance_angstrom": 2.514877857767955,
+          "min_non_neighbor_distance_angstrom": 4.0520530774290675,
+          "fixed_distance_cutoff_angstrom": 3.2834654675985115
+        },
+        "lost_distance_graph_edges": [],
+        "added_distance_graph_edges": [],
+        "scope": "Reference geometry continuity only; no bond-order or dynamical-stability claim"
+      }
+    },
+    {
+      "structure": "structures/completion/geometry-fixtures/C0-r1-d6.45.extxyz",
+      "sha256": "106d50eadd50fcba9784d2b470e26e67683594721d2726ad3c3b048edf2b50ab",
+      "audit": {
+        "status": "geometry_continuity_passed",
+        "reasons": [],
+        "Mo_centroids_angstrom": [
+          [
+            0.81,
+            1.402961155,
+            14.11864037
+          ],
+          [
+            0.81,
+            3.273576025,
+            20.56864037
+          ]
+        ],
+        "max_centroid_drift_angstrom": 0.0,
+        "changed_face_atom_indices": [],
+        "min_retained_signed_face_height_angstrom": 1.5563849699999999,
+        "layer_z_ranges_angstrom": [
+          [
+            12.5622554,
+            15.67502535
+          ],
+          [
+            18.8877446,
+            22.24953615
+          ]
+        ],
+        "interlayer_surface_gap_angstrom": 3.212719250000001,
+        "current_vacuum_gap_angstrom": 24.99999999774124,
+        "coordinates_within_unwrapped_z_cell": true,
+        "minimum_interatomic_distance_angstrom": 2.4334202603445,
+        "severe_approach_threshold_angstrom": 1.21671013017225,
+        "reference_shell": {
+          "max_neighbor_distance_angstrom": 2.5148778559884697,
+          "min_non_neighbor_distance_angstrom": 4.052053077429065,
+          "fixed_distance_cutoff_angstrom": 3.2834654667087673
+        },
+        "lost_distance_graph_edges": [],
+        "added_distance_graph_edges": [],
+        "scope": "Reference geometry continuity only; no bond-order or dynamical-stability claim"
+      }
+    },
+    {
+      "structure": "structures/completion/geometry-fixtures/C0-r1-d6.70.extxyz",
+      "sha256": "10cbe75d5b634c1415b54cff081b79ed39e5b5e109bd78657e53cd04add67a61",
+      "audit": {
+        "status": "geometry_continuity_passed",
+        "reasons": [],
+        "Mo_centroids_angstrom": [
+          [
+            0.81,
+            1.402961155,
+            14.11864037
+          ],
+          [
+            0.81,
+            3.273576025,
+            20.81864037
+          ]
+        ],
+        "max_centroid_drift_angstrom": 0.0,
+        "changed_face_atom_indices": [],
+        "min_retained_signed_face_height_angstrom": 1.5563849699999999,
+        "layer_z_ranges_angstrom": [
+          [
+            12.5622554,
+            15.67502535
+          ],
+          [
+            19.1377446,
+            22.49953615
+          ]
+        ],
+        "interlayer_surface_gap_angstrom": 3.462719250000001,
+        "current_vacuum_gap_angstrom": 24.99999999774124,
+        "coordinates_within_unwrapped_z_cell": true,
+        "minimum_interatomic_distance_angstrom": 2.4334202603445,
+        "severe_approach_threshold_angstrom": 1.21671013017225,
+        "reference_shell": {
+          "max_neighbor_distance_angstrom": 2.5148778559884697,
+          "min_non_neighbor_distance_angstrom": 4.052053077429065,
+          "fixed_distance_cutoff_angstrom": 3.2834654667087673
+        },
+        "lost_distance_graph_edges": [],
+        "added_distance_graph_edges": [],
+        "scope": "Reference geometry continuity only; no bond-order or dynamical-stability claim"
+      }
+    },
+    {
+      "structure": "structures/completion/geometry-fixtures/C0-r1-d6.95.extxyz",
+      "sha256": "2d1e6da40d602252dae619c648b4a50b482046f7bb8be4482a38993e89d672bb",
+      "audit": {
+        "status": "geometry_continuity_passed",
+        "reasons": [],
+        "Mo_centroids_angstrom": [
+          [
+            0.81,
+            1.402961155,
+            14.11864037
+          ],
+          [
+            0.81,
+            3.273576025,
+            21.06864037
+          ]
+        ],
+        "max_centroid_drift_angstrom": 0.0,
+        "changed_face_atom_indices": [],
+        "min_retained_signed_face_height_angstrom": 1.5563849699999999,
+        "layer_z_ranges_angstrom": [
+          [
+            12.5622554,
+            15.67502535
+          ],
+          [
+            19.3877446,
+            22.74953615
+          ]
+        ],
+        "interlayer_surface_gap_angstrom": 3.712719250000001,
+        "current_vacuum_gap_angstrom": 24.99999999774124,
+        "coordinates_within_unwrapped_z_cell": true,
+        "minimum_interatomic_distance_angstrom": 2.4334202603445023,
+        "severe_approach_threshold_angstrom": 1.2167101301722512,
+        "reference_shell": {
+          "max_neighbor_distance_angstrom": 2.5148778559884697,
+          "min_non_neighbor_distance_angstrom": 4.0520530774290675,
+          "fixed_distance_cutoff_angstrom": 3.2834654667087686
+        },
+        "lost_distance_graph_edges": [],
+        "added_distance_graph_edges": [],
+        "scope": "Reference geometry continuity only; no bond-order or dynamical-stability claim"
+      }
+    },
+    {
+      "structure": "structures/completion/geometry-fixtures/C0-r2-d6.45.extxyz",
+      "sha256": "a7c3e6c9dd19c1809a7a109ba81506347fdfe73fec947f730da7c5f56d0d5c84",
+      "audit": {
+        "status": "geometry_continuity_passed",
+        "reasons": [],
+        "Mo_centroids_angstrom": [
+          [
+            0.81,
+            1.402961155,
+            14.11864037
+          ],
+          [
+            2.43,
+            2.33826859,
+            20.56864037
+          ]
+        ],
+        "max_centroid_drift_angstrom": 0.0,
+        "changed_face_atom_indices": [],
+        "min_retained_signed_face_height_angstrom": 1.5563849699999999,
+        "layer_z_ranges_angstrom": [
+          [
+            12.5622554,
+            15.67502535
+          ],
+          [
+            18.8877446,
+            22.24953615
+          ]
+        ],
+        "interlayer_surface_gap_angstrom": 3.212719250000001,
+        "current_vacuum_gap_angstrom": 24.99999999774124,
+        "coordinates_within_unwrapped_z_cell": true,
+        "minimum_interatomic_distance_angstrom": 2.4334202603445,
+        "severe_approach_threshold_angstrom": 1.21671013017225,
+        "reference_shell": {
+          "max_neighbor_distance_angstrom": 2.5148778577679543,
+          "min_non_neighbor_distance_angstrom": 4.052053077429065,
+          "fixed_distance_cutoff_angstrom": 3.2834654675985098
+        },
+        "lost_distance_graph_edges": [],
+        "added_distance_graph_edges": [],
+        "scope": "Reference geometry continuity only; no bond-order or dynamical-stability claim"
+      }
+    },
+    {
+      "structure": "structures/completion/geometry-fixtures/C0-r2-d6.70.extxyz",
+      "sha256": "caf2d723ae9c9360c53cf1062b8c8751e55608dff0e0a071911a9ec681b800e8",
+      "audit": {
+        "status": "geometry_continuity_passed",
+        "reasons": [],
+        "Mo_centroids_angstrom": [
+          [
+            0.81,
+            1.402961155,
+            14.11864037
+          ],
+          [
+            2.43,
+            2.33826859,
+            20.81864037
+          ]
+        ],
+        "max_centroid_drift_angstrom": 0.0,
+        "changed_face_atom_indices": [],
+        "min_retained_signed_face_height_angstrom": 1.5563849699999999,
+        "layer_z_ranges_angstrom": [
+          [
+            12.5622554,
+            15.67502535
+          ],
+          [
+            19.1377446,
+            22.49953615
+          ]
+        ],
+        "interlayer_surface_gap_angstrom": 3.462719250000001,
+        "current_vacuum_gap_angstrom": 24.99999999774124,
+        "coordinates_within_unwrapped_z_cell": true,
+        "minimum_interatomic_distance_angstrom": 2.4334202603445,
+        "severe_approach_threshold_angstrom": 1.21671013017225,
+        "reference_shell": {
+          "max_neighbor_distance_angstrom": 2.5148778577679543,
+          "min_non_neighbor_distance_angstrom": 4.052053077429065,
+          "fixed_distance_cutoff_angstrom": 3.2834654675985098
+        },
+        "lost_distance_graph_edges": [],
+        "added_distance_graph_edges": [],
+        "scope": "Reference geometry continuity only; no bond-order or dynamical-stability claim"
+      }
+    },
+    {
+      "structure": "structures/completion/geometry-fixtures/C0-r2-d6.95.extxyz",
+      "sha256": "94668a4c17f34f9d123f2a6d0ae68aec8b3e811b0ff2869e9b12b48d47f40d88",
+      "audit": {
+        "status": "geometry_continuity_passed",
+        "reasons": [],
+        "Mo_centroids_angstrom": [
+          [
+            0.81,
+            1.402961155,
+            14.11864037
+          ],
+          [
+            2.43,
+            2.33826859,
+            21.06864037
+          ]
+        ],
+        "max_centroid_drift_angstrom": 0.0,
+        "changed_face_atom_indices": [],
+        "min_retained_signed_face_height_angstrom": 1.5563849699999999,
+        "layer_z_ranges_angstrom": [
+          [
+            12.5622554,
+            15.67502535
+          ],
+          [
+            19.3877446,
+            22.74953615
+          ]
+        ],
+        "interlayer_surface_gap_angstrom": 3.712719250000001,
+        "current_vacuum_gap_angstrom": 24.99999999774124,
+        "coordinates_within_unwrapped_z_cell": true,
+        "minimum_interatomic_distance_angstrom": 2.4334202603445023,
+        "severe_approach_threshold_angstrom": 1.2167101301722512,
+        "reference_shell": {
+          "max_neighbor_distance_angstrom": 2.5148778577679543,
+          "min_non_neighbor_distance_angstrom": 4.0520530774290675,
+          "fixed_distance_cutoff_angstrom": 3.2834654675985107
+        },
+        "lost_distance_graph_edges": [],
+        "added_distance_graph_edges": [],
+        "scope": "Reference geometry continuity only; no bond-order or dynamical-stability claim"
+      }
+    },
+    {
+      "structure": "structures/completion/geometry-fixtures/CI-r0-d6.45.extxyz",
+      "sha256": "2cf265a85e17c7bfa9756fcd2c4dae772a2341c87895ee6d885a4bfffd678dc2",
+      "audit": {
+        "status": "geometry_continuity_passed",
+        "reasons": [],
+        "Mo_centroids_angstrom": [
+          [
+            0.81,
+            1.402961155,
+            14.11864037
+          ],
+          [
+            0.81,
+            1.402961155,
+            20.56864037
+          ]
+        ],
+        "max_centroid_drift_angstrom": 0.0,
+        "changed_face_atom_indices": [],
+        "min_retained_signed_face_height_angstrom": 1.5563849699999999,
+        "layer_z_ranges_angstrom": [
+          [
+            12.5622554,
+            15.67502535
+          ],
+          [
+            18.8877446,
+            22.24953615
+          ]
+        ],
+        "interlayer_surface_gap_angstrom": 3.212719250000001,
+        "current_vacuum_gap_angstrom": 24.99999999774124,
+        "coordinates_within_unwrapped_z_cell": true,
+        "minimum_interatomic_distance_angstrom": 2.4334202603445,
+        "severe_approach_threshold_angstrom": 1.21671013017225,
+        "reference_shell": {
+          "max_neighbor_distance_angstrom": 2.514877857767955,
+          "min_non_neighbor_distance_angstrom": 4.052053077429065,
+          "fixed_distance_cutoff_angstrom": 3.2834654675985098
+        },
+        "lost_distance_graph_edges": [],
+        "added_distance_graph_edges": [],
+        "scope": "Reference geometry continuity only; no bond-order or dynamical-stability claim"
+      }
+    },
+    {
+      "structure": "structures/completion/geometry-fixtures/CI-r0-d6.70.extxyz",
+      "sha256": "7637f8d9882fe60929ed2eaab23d32ce36d60553fc4758e1bd22e33b8615e09f",
+      "audit": {
+        "status": "geometry_continuity_passed",
+        "reasons": [],
+        "Mo_centroids_angstrom": [
+          [
+            0.81,
+            1.402961155,
+            14.11864037
+          ],
+          [
+            0.81,
+            1.402961155,
+            20.81864037
+          ]
+        ],
+        "max_centroid_drift_angstrom": 0.0,
+        "changed_face_atom_indices": [],
+        "min_retained_signed_face_height_angstrom": 1.5563849699999999,
+        "layer_z_ranges_angstrom": [
+          [
+            12.5622554,
+            15.67502535
+          ],
+          [
+            19.1377446,
+            22.49953615
+          ]
+        ],
+        "interlayer_surface_gap_angstrom": 3.462719250000001,
+        "current_vacuum_gap_angstrom": 24.99999999774124,
+        "coordinates_within_unwrapped_z_cell": true,
+        "minimum_interatomic_distance_angstrom": 2.4334202603445,
+        "severe_approach_threshold_angstrom": 1.21671013017225,
+        "reference_shell": {
+          "max_neighbor_distance_angstrom": 2.514877857767955,
+          "min_non_neighbor_distance_angstrom": 4.052053077429065,
+          "fixed_distance_cutoff_angstrom": 3.2834654675985098
+        },
+        "lost_distance_graph_edges": [],
+        "added_distance_graph_edges": [],
+        "scope": "Reference geometry continuity only; no bond-order or dynamical-stability claim"
+      }
+    },
+    {
+      "structure": "structures/completion/geometry-fixtures/CI-r0-d6.95.extxyz",
+      "sha256": "6a86518f877014353f67093ceaf6ee53a6f7853327ccfd14f2648fb55ba1e6b5",
+      "audit": {
+        "status": "geometry_continuity_passed",
+        "reasons": [],
+        "Mo_centroids_angstrom": [
+          [
+            0.81,
+            1.402961155,
+            14.11864037
+          ],
+          [
+            0.81,
+            1.402961155,
+            21.06864037
+          ]
+        ],
+        "max_centroid_drift_angstrom": 0.0,
+        "changed_face_atom_indices": [],
+        "min_retained_signed_face_height_angstrom": 1.5563849699999999,
+        "layer_z_ranges_angstrom": [
+          [
+            12.5622554,
+            15.67502535
+          ],
+          [
+            19.3877446,
+            22.74953615
+          ]
+        ],
+        "interlayer_surface_gap_angstrom": 3.712719250000001,
+        "current_vacuum_gap_angstrom": 24.99999999774124,
+        "coordinates_within_unwrapped_z_cell": true,
+        "minimum_interatomic_distance_angstrom": 2.4334202603445023,
+        "severe_approach_threshold_angstrom": 1.2167101301722512,
+        "reference_shell": {
+          "max_neighbor_distance_angstrom": 2.514877857767955,
+          "min_non_neighbor_distance_angstrom": 4.0520530774290675,
+          "fixed_distance_cutoff_angstrom": 3.2834654675985115
+        },
+        "lost_distance_graph_edges": [],
+        "added_distance_graph_edges": [],
+        "scope": "Reference geometry continuity only; no bond-order or dynamical-stability claim"
+      }
+    },
+    {
+      "structure": "structures/completion/geometry-fixtures/CI-r1-d6.45.extxyz",
+      "sha256": "b4bfad847fba0fc2d9acba2811bcfc4a77b438f8445fb3ab1c76262dbf926e80",
+      "audit": {
+        "status": "geometry_continuity_passed",
+        "reasons": [],
+        "Mo_centroids_angstrom": [
+          [
+            0.81,
+            1.402961155,
+            14.11864037
+          ],
+          [
+            0.81,
+            3.273576025,
+            20.56864037
+          ]
+        ],
+        "max_centroid_drift_angstrom": 0.0,
+        "changed_face_atom_indices": [],
+        "min_retained_signed_face_height_angstrom": 1.5563849699999999,
+        "layer_z_ranges_angstrom": [
+          [
+            12.5622554,
+            15.67502535
+          ],
+          [
+            18.8877446,
+            22.24953615
+          ]
+        ],
+        "interlayer_surface_gap_angstrom": 3.212719250000001,
+        "current_vacuum_gap_angstrom": 24.99999999774124,
+        "coordinates_within_unwrapped_z_cell": true,
+        "minimum_interatomic_distance_angstrom": 2.4334202603445,
+        "severe_approach_threshold_angstrom": 1.21671013017225,
+        "reference_shell": {
+          "max_neighbor_distance_angstrom": 2.5148778559884697,
+          "min_non_neighbor_distance_angstrom": 4.052053077429065,
+          "fixed_distance_cutoff_angstrom": 3.2834654667087673
+        },
+        "lost_distance_graph_edges": [],
+        "added_distance_graph_edges": [],
+        "scope": "Reference geometry continuity only; no bond-order or dynamical-stability claim"
+      }
+    },
+    {
+      "structure": "structures/completion/geometry-fixtures/CI-r1-d6.70.extxyz",
+      "sha256": "65126665c61b6d1df5a9cc7f6d8bd9e53b24eb274c01656738fc4707272b05f8",
+      "audit": {
+        "status": "geometry_continuity_passed",
+        "reasons": [],
+        "Mo_centroids_angstrom": [
+          [
+            0.81,
+            1.402961155,
+            14.11864037
+          ],
+          [
+            0.81,
+            3.273576025,
+            20.81864037
+          ]
+        ],
+        "max_centroid_drift_angstrom": 0.0,
+        "changed_face_atom_indices": [],
+        "min_retained_signed_face_height_angstrom": 1.5563849699999999,
+        "layer_z_ranges_angstrom": [
+          [
+            12.5622554,
+            15.67502535
+          ],
+          [
+            19.1377446,
+            22.49953615
+          ]
+        ],
+        "interlayer_surface_gap_angstrom": 3.462719250000001,
+        "current_vacuum_gap_angstrom": 24.99999999774124,
+        "coordinates_within_unwrapped_z_cell": true,
+        "minimum_interatomic_distance_angstrom": 2.4334202603445,
+        "severe_approach_threshold_angstrom": 1.21671013017225,
+        "reference_shell": {
+          "max_neighbor_distance_angstrom": 2.5148778559884697,
+          "min_non_neighbor_distance_angstrom": 4.052053077429065,
+          "fixed_distance_cutoff_angstrom": 3.2834654667087673
+        },
+        "lost_distance_graph_edges": [],
+        "added_distance_graph_edges": [],
+        "scope": "Reference geometry continuity only; no bond-order or dynamical-stability claim"
+      }
+    },
+    {
+      "structure": "structures/completion/geometry-fixtures/CI-r1-d6.95.extxyz",
+      "sha256": "9d4127522cc361307acf02d81478ca3b5bef7978e925cb5f3ba123fac4f770a8",
+      "audit": {
+        "status": "geometry_continuity_passed",
+        "reasons": [],
+        "Mo_centroids_angstrom": [
+          [
+            0.81,
+            1.402961155,
+            14.11864037
+          ],
+          [
+            0.81,
+            3.273576025,
+            21.06864037
+          ]
+        ],
+        "max_centroid_drift_angstrom": 0.0,
+        "changed_face_atom_indices": [],
+        "min_retained_signed_face_height_angstrom": 1.5563849699999999,
+        "layer_z_ranges_angstrom": [
+          [
+            12.5622554,
+            15.67502535
+          ],
+          [
+            19.3877446,
+            22.74953615
+          ]
+        ],
+        "interlayer_surface_gap_angstrom": 3.712719250000001,
+        "current_vacuum_gap_angstrom": 24.99999999774124,
+        "coordinates_within_unwrapped_z_cell": true,
+        "minimum_interatomic_distance_angstrom": 2.4334202603445023,
+        "severe_approach_threshold_angstrom": 1.2167101301722512,
+        "reference_shell": {
+          "max_neighbor_distance_angstrom": 2.5148778559884697,
+          "min_non_neighbor_distance_angstrom": 4.0520530774290675,
+          "fixed_distance_cutoff_angstrom": 3.2834654667087686
+        },
+        "lost_distance_graph_edges": [],
+        "added_distance_graph_edges": [],
+        "scope": "Reference geometry continuity only; no bond-order or dynamical-stability claim"
+      }
+    },
+    {
+      "structure": "structures/completion/geometry-fixtures/CI-r2-d6.45.extxyz",
+      "sha256": "fac8e8b5b5c0ee5c123b45ae00534fbb9f21220958d1ee1c2003d60a55521956",
+      "audit": {
+        "status": "geometry_continuity_passed",
+        "reasons": [],
+        "Mo_centroids_angstrom": [
+          [
+            0.81,
+            1.402961155,
+            14.11864037
+          ],
+          [
+            2.43,
+            2.33826859,
+            20.56864037
+          ]
+        ],
+        "max_centroid_drift_angstrom": 0.0,
+        "changed_face_atom_indices": [],
+        "min_retained_signed_face_height_angstrom": 1.5563849699999999,
+        "layer_z_ranges_angstrom": [
+          [
+            12.5622554,
+            15.67502535
+          ],
+          [
+            18.8877446,
+            22.24953615
+          ]
+        ],
+        "interlayer_surface_gap_angstrom": 3.212719250000001,
+        "current_vacuum_gap_angstrom": 24.99999999774124,
+        "coordinates_within_unwrapped_z_cell": true,
+        "minimum_interatomic_distance_angstrom": 2.4334202603445,
+        "severe_approach_threshold_angstrom": 1.21671013017225,
+        "reference_shell": {
+          "max_neighbor_distance_angstrom": 2.5148778577679543,
+          "min_non_neighbor_distance_angstrom": 4.052053077429065,
+          "fixed_distance_cutoff_angstrom": 3.2834654675985098
+        },
+        "lost_distance_graph_edges": [],
+        "added_distance_graph_edges": [],
+        "scope": "Reference geometry continuity only; no bond-order or dynamical-stability claim"
+      }
+    },
+    {
+      "structure": "structures/completion/geometry-fixtures/CI-r2-d6.70.extxyz",
+      "sha256": "dd5d8e9dc4d05d7f996adc105fe6f3a8b6827842f3b7a60b01d81c150e10a400",
+      "audit": {
+        "status": "geometry_continuity_passed",
+        "reasons": [],
+        "Mo_centroids_angstrom": [
+          [
+            0.81,
+            1.402961155,
+            14.11864037
+          ],
+          [
+            2.43,
+            2.33826859,
+            20.81864037
+          ]
+        ],
+        "max_centroid_drift_angstrom": 0.0,
+        "changed_face_atom_indices": [],
+        "min_retained_signed_face_height_angstrom": 1.5563849699999999,
+        "layer_z_ranges_angstrom": [
+          [
+            12.5622554,
+            15.67502535
+          ],
+          [
+            19.1377446,
+            22.49953615
+          ]
+        ],
+        "interlayer_surface_gap_angstrom": 3.462719250000001,
+        "current_vacuum_gap_angstrom": 24.99999999774124,
+        "coordinates_within_unwrapped_z_cell": true,
+        "minimum_interatomic_distance_angstrom": 2.4334202603445,
+        "severe_approach_threshold_angstrom": 1.21671013017225,
+        "reference_shell": {
+          "max_neighbor_distance_angstrom": 2.5148778577679543,
+          "min_non_neighbor_distance_angstrom": 4.052053077429065,
+          "fixed_distance_cutoff_angstrom": 3.2834654675985098
+        },
+        "lost_distance_graph_edges": [],
+        "added_distance_graph_edges": [],
+        "scope": "Reference geometry continuity only; no bond-order or dynamical-stability claim"
+      }
+    },
+    {
+      "structure": "structures/completion/geometry-fixtures/CI-r2-d6.95.extxyz",
+      "sha256": "1336634a4d4ddbc0ee0bbaf93be22897ac696633c901fb97c8eb45772c24e179",
+      "audit": {
+        "status": "geometry_continuity_passed",
+        "reasons": [],
+        "Mo_centroids_angstrom": [
+          [
+            0.81,
+            1.402961155,
+            14.11864037
+          ],
+          [
+            2.43,
+            2.33826859,
+            21.06864037
+          ]
+        ],
+        "max_centroid_drift_angstrom": 0.0,
+        "changed_face_atom_indices": [],
+        "min_retained_signed_face_height_angstrom": 1.5563849699999999,
+        "layer_z_ranges_angstrom": [
+          [
+            12.5622554,
+            15.67502535
+          ],
+          [
+            19.3877446,
+            22.74953615
+          ]
+        ],
+        "interlayer_surface_gap_angstrom": 3.712719250000001,
+        "current_vacuum_gap_angstrom": 24.99999999774124,
+        "coordinates_within_unwrapped_z_cell": true,
+        "minimum_interatomic_distance_angstrom": 2.4334202603445023,
+        "severe_approach_threshold_angstrom": 1.2167101301722512,
+        "reference_shell": {
+          "max_neighbor_distance_angstrom": 2.5148778577679543,
+          "min_non_neighbor_distance_angstrom": 4.0520530774290675,
+          "fixed_distance_cutoff_angstrom": 3.2834654675985107
+        },
+        "lost_distance_graph_edges": [],
+        "added_distance_graph_edges": [],
+        "scope": "Reference geometry continuity only; no bond-order or dynamical-stability claim"
+      }
+    },
+    {
+      "structure": "structures/completion/geometry-fixtures/CO-r0-d6.45.extxyz",
+      "sha256": "dd14304e9c5bac7e5ef901205c61f67a7ef67d893491d76c5c2b00305c3b38ac",
+      "audit": {
+        "status": "geometry_continuity_passed",
+        "reasons": [],
+        "Mo_centroids_angstrom": [
+          [
+            0.81,
+            1.402961155,
+            14.11864037
+          ],
+          [
+            0.81,
+            1.402961155,
+            20.56864037
+          ]
+        ],
+        "max_centroid_drift_angstrom": 0.0,
+        "changed_face_atom_indices": [],
+        "min_retained_signed_face_height_angstrom": 1.5563849699999999,
+        "layer_z_ranges_angstrom": [
+          [
+            12.5622554,
+            15.67502535
+          ],
+          [
+            18.8877446,
+            22.24953615
+          ]
+        ],
+        "interlayer_surface_gap_angstrom": 3.212719250000001,
+        "current_vacuum_gap_angstrom": 24.99999999774124,
+        "coordinates_within_unwrapped_z_cell": true,
+        "minimum_interatomic_distance_angstrom": 2.4334202603445,
+        "severe_approach_threshold_angstrom": 1.21671013017225,
+        "reference_shell": {
+          "max_neighbor_distance_angstrom": 2.514877857767955,
+          "min_non_neighbor_distance_angstrom": 4.052053077429065,
+          "fixed_distance_cutoff_angstrom": 3.2834654675985098
+        },
+        "lost_distance_graph_edges": [],
+        "added_distance_graph_edges": [],
+        "scope": "Reference geometry continuity only; no bond-order or dynamical-stability claim"
+      }
+    },
+    {
+      "structure": "structures/completion/geometry-fixtures/CO-r0-d6.70.extxyz",
+      "sha256": "00b68f58a33d0c5b748f6ce13b3094433d36f09aa34d0ad9eadb6e49143e2e1a",
+      "audit": {
+        "status": "geometry_continuity_passed",
+        "reasons": [],
+        "Mo_centroids_angstrom": [
+          [
+            0.81,
+            1.402961155,
+            14.11864037
+          ],
+          [
+            0.81,
+            1.402961155,
+            20.81864037
+          ]
+        ],
+        "max_centroid_drift_angstrom": 0.0,
+        "changed_face_atom_indices": [],
+        "min_retained_signed_face_height_angstrom": 1.5563849699999999,
+        "layer_z_ranges_angstrom": [
+          [
+            12.5622554,
+            15.67502535
+          ],
+          [
+            19.1377446,
+            22.49953615
+          ]
+        ],
+        "interlayer_surface_gap_angstrom": 3.462719250000001,
+        "current_vacuum_gap_angstrom": 24.99999999774124,
+        "coordinates_within_unwrapped_z_cell": true,
+        "minimum_interatomic_distance_angstrom": 2.4334202603445,
+        "severe_approach_threshold_angstrom": 1.21671013017225,
+        "reference_shell": {
+          "max_neighbor_distance_angstrom": 2.514877857767955,
+          "min_non_neighbor_distance_angstrom": 4.052053077429065,
+          "fixed_distance_cutoff_angstrom": 3.2834654675985098
+        },
+        "lost_distance_graph_edges": [],
+        "added_distance_graph_edges": [],
+        "scope": "Reference geometry continuity only; no bond-order or dynamical-stability claim"
+      }
+    },
+    {
+      "structure": "structures/completion/geometry-fixtures/CO-r0-d6.95.extxyz",
+      "sha256": "adf7e401606a4acf2a71854525105bbb29b0ee71bc46302b6d149c22a2021d6c",
+      "audit": {
+        "status": "geometry_continuity_passed",
+        "reasons": [],
+        "Mo_centroids_angstrom": [
+          [
+            0.81,
+            1.402961155,
+            14.11864037
+          ],
+          [
+            0.81,
+            1.402961155,
+            21.06864037
+          ]
+        ],
+        "max_centroid_drift_angstrom": 0.0,
+        "changed_face_atom_indices": [],
+        "min_retained_signed_face_height_angstrom": 1.5563849699999999,
+        "layer_z_ranges_angstrom": [
+          [
+            12.5622554,
+            15.67502535
+          ],
+          [
+            19.3877446,
+            22.74953615
+          ]
+        ],
+        "interlayer_surface_gap_angstrom": 3.712719250000001,
+        "current_vacuum_gap_angstrom": 24.99999999774124,
+        "coordinates_within_unwrapped_z_cell": true,
+        "minimum_interatomic_distance_angstrom": 2.4334202603445023,
+        "severe_approach_threshold_angstrom": 1.2167101301722512,
+        "reference_shell": {
+          "max_neighbor_distance_angstrom": 2.514877857767955,
+          "min_non_neighbor_distance_angstrom": 4.0520530774290675,
+          "fixed_distance_cutoff_angstrom": 3.2834654675985115
+        },
+        "lost_distance_graph_edges": [],
+        "added_distance_graph_edges": [],
+        "scope": "Reference geometry continuity only; no bond-order or dynamical-stability claim"
+      }
+    },
+    {
+      "structure": "structures/completion/geometry-fixtures/CO-r1-d6.45.extxyz",
+      "sha256": "02a5d8962049a3d73dc9999809bf243df69ba25a38d663fd1abf3d6ce5095416",
+      "audit": {
+        "status": "geometry_continuity_passed",
+        "reasons": [],
+        "Mo_centroids_angstrom": [
+          [
+            0.81,
+            1.402961155,
+            14.11864037
+          ],
+          [
+            0.81,
+            3.273576025,
+            20.56864037
+          ]
+        ],
+        "max_centroid_drift_angstrom": 0.0,
+        "changed_face_atom_indices": [],
+        "min_retained_signed_face_height_angstrom": 1.5563849699999999,
+        "layer_z_ranges_angstrom": [
+          [
+            12.5622554,
+            15.67502535
+          ],
+          [
+            18.8877446,
+            22.24953615
+          ]
+        ],
+        "interlayer_surface_gap_angstrom": 3.212719250000001,
+        "current_vacuum_gap_angstrom": 24.99999999774124,
+        "coordinates_within_unwrapped_z_cell": true,
+        "minimum_interatomic_distance_angstrom": 2.4334202603445,
+        "severe_approach_threshold_angstrom": 1.21671013017225,
+        "reference_shell": {
+          "max_neighbor_distance_angstrom": 2.5148778559884697,
+          "min_non_neighbor_distance_angstrom": 4.052053077429065,
+          "fixed_distance_cutoff_angstrom": 3.2834654667087673
+        },
+        "lost_distance_graph_edges": [],
+        "added_distance_graph_edges": [],
+        "scope": "Reference geometry continuity only; no bond-order or dynamical-stability claim"
+      }
+    },
+    {
+      "structure": "structures/completion/geometry-fixtures/CO-r1-d6.70.extxyz",
+      "sha256": "f32ff904a2a7aa2255fe486e58b996be88f1c296f6ed2b42ef4f11a3ca96d229",
+      "audit": {
+        "status": "geometry_continuity_passed",
+        "reasons": [],
+        "Mo_centroids_angstrom": [
+          [
+            0.81,
+            1.402961155,
+            14.11864037
+          ],
+          [
+            0.81,
+            3.273576025,
+            20.81864037
+          ]
+        ],
+        "max_centroid_drift_angstrom": 0.0,
+        "changed_face_atom_indices": [],
+        "min_retained_signed_face_height_angstrom": 1.5563849699999999,
+        "layer_z_ranges_angstrom": [
+          [
+            12.5622554,
+            15.67502535
+          ],
+          [
+            19.1377446,
+            22.49953615
+          ]
+        ],
+        "interlayer_surface_gap_angstrom": 3.462719250000001,
+        "current_vacuum_gap_angstrom": 24.99999999774124,
+        "coordinates_within_unwrapped_z_cell": true,
+        "minimum_interatomic_distance_angstrom": 2.4334202603445,
+        "severe_approach_threshold_angstrom": 1.21671013017225,
+        "reference_shell": {
+          "max_neighbor_distance_angstrom": 2.5148778559884697,
+          "min_non_neighbor_distance_angstrom": 4.052053077429065,
+          "fixed_distance_cutoff_angstrom": 3.2834654667087673
+        },
+        "lost_distance_graph_edges": [],
+        "added_distance_graph_edges": [],
+        "scope": "Reference geometry continuity only; no bond-order or dynamical-stability claim"
+      }
+    },
+    {
+      "structure": "structures/completion/geometry-fixtures/CO-r1-d6.95.extxyz",
+      "sha256": "f6a5615b1e638479fcbda9d046fe6af58be207472fa1ae875fa45f6d6bb7383f",
+      "audit": {
+        "status": "geometry_continuity_passed",
+        "reasons": [],
+        "Mo_centroids_angstrom": [
+          [
+            0.81,
+            1.402961155,
+            14.11864037
+          ],
+          [
+            0.81,
+            3.273576025,
+            21.06864037
+          ]
+        ],
+        "max_centroid_drift_angstrom": 0.0,
+        "changed_face_atom_indices": [],
+        "min_retained_signed_face_height_angstrom": 1.5563849699999999,
+        "layer_z_ranges_angstrom": [
+          [
+            12.5622554,
+            15.67502535
+          ],
+          [
+            19.3877446,
+            22.74953615
+          ]
+        ],
+        "interlayer_surface_gap_angstrom": 3.712719250000001,
+        "current_vacuum_gap_angstrom": 24.99999999774124,
+        "coordinates_within_unwrapped_z_cell": true,
+        "minimum_interatomic_distance_angstrom": 2.4334202603445023,
+        "severe_approach_threshold_angstrom": 1.2167101301722512,
+        "reference_shell": {
+          "max_neighbor_distance_angstrom": 2.5148778559884697,
+          "min_non_neighbor_distance_angstrom": 4.0520530774290675,
+          "fixed_distance_cutoff_angstrom": 3.2834654667087686
+        },
+        "lost_distance_graph_edges": [],
+        "added_distance_graph_edges": [],
+        "scope": "Reference geometry continuity only; no bond-order or dynamical-stability claim"
+      }
+    },
+    {
+      "structure": "structures/completion/geometry-fixtures/CO-r2-d6.45.extxyz",
+      "sha256": "8478005bc2c8079bcbb7faf9c5e55850ae7689fc2a163a7a173e91d94c7ab15f",
+      "audit": {
+        "status": "geometry_continuity_passed",
+        "reasons": [],
+        "Mo_centroids_angstrom": [
+          [
+            0.81,
+            1.402961155,
+            14.11864037
+          ],
+          [
+            2.43,
+            2.33826859,
+            20.56864037
+          ]
+        ],
+        "max_centroid_drift_angstrom": 0.0,
+        "changed_face_atom_indices": [],
+        "min_retained_signed_face_height_angstrom": 1.5563849699999999,
+        "layer_z_ranges_angstrom": [
+          [
+            12.5622554,
+            15.67502535
+          ],
+          [
+            18.8877446,
+            22.24953615
+          ]
+        ],
+        "interlayer_surface_gap_angstrom": 3.212719250000001,
+        "current_vacuum_gap_angstrom": 24.99999999774124,
+        "coordinates_within_unwrapped_z_cell": true,
+        "minimum_interatomic_distance_angstrom": 2.4334202603445,
+        "severe_approach_threshold_angstrom": 1.21671013017225,
+        "reference_shell": {
+          "max_neighbor_distance_angstrom": 2.5148778577679543,
+          "min_non_neighbor_distance_angstrom": 4.052053077429065,
+          "fixed_distance_cutoff_angstrom": 3.2834654675985098
+        },
+        "lost_distance_graph_edges": [],
+        "added_distance_graph_edges": [],
+        "scope": "Reference geometry continuity only; no bond-order or dynamical-stability claim"
+      }
+    },
+    {
+      "structure": "structures/completion/geometry-fixtures/CO-r2-d6.70.extxyz",
+      "sha256": "453d963b13362c10d8f38ecf049bf5867253378860157cc73af0a5752163e43a",
+      "audit": {
+        "status": "geometry_continuity_passed",
+        "reasons": [],
+        "Mo_centroids_angstrom": [
+          [
+            0.81,
+            1.402961155,
+            14.11864037
+          ],
+          [
+            2.43,
+            2.33826859,
+            20.81864037
+          ]
+        ],
+        "max_centroid_drift_angstrom": 0.0,
+        "changed_face_atom_indices": [],
+        "min_retained_signed_face_height_angstrom": 1.5563849699999999,
+        "layer_z_ranges_angstrom": [
+          [
+            12.5622554,
+            15.67502535
+          ],
+          [
+            19.1377446,
+            22.49953615
+          ]
+        ],
+        "interlayer_surface_gap_angstrom": 3.462719250000001,
+        "current_vacuum_gap_angstrom": 24.99999999774124,
+        "coordinates_within_unwrapped_z_cell": true,
+        "minimum_interatomic_distance_angstrom": 2.4334202603445,
+        "severe_approach_threshold_angstrom": 1.21671013017225,
+        "reference_shell": {
+          "max_neighbor_distance_angstrom": 2.5148778577679543,
+          "min_non_neighbor_distance_angstrom": 4.052053077429065,
+          "fixed_distance_cutoff_angstrom": 3.2834654675985098
+        },
+        "lost_distance_graph_edges": [],
+        "added_distance_graph_edges": [],
+        "scope": "Reference geometry continuity only; no bond-order or dynamical-stability claim"
+      }
+    },
+    {
+      "structure": "structures/completion/geometry-fixtures/CO-r2-d6.95.extxyz",
+      "sha256": "6049a1ed0d7409cc07bc4d4116974dcb5db1c377331b7b83b2a381899b9c6f3b",
+      "audit": {
+        "status": "geometry_continuity_passed",
+        "reasons": [],
+        "Mo_centroids_angstrom": [
+          [
+            0.81,
+            1.402961155,
+            14.11864037
+          ],
+          [
+            2.43,
+            2.33826859,
+            21.06864037
+          ]
+        ],
+        "max_centroid_drift_angstrom": 0.0,
+        "changed_face_atom_indices": [],
+        "min_retained_signed_face_height_angstrom": 1.5563849699999999,
+        "layer_z_ranges_angstrom": [
+          [
+            12.5622554,
+            15.67502535
+          ],
+          [
+            19.3877446,
+            22.74953615
+          ]
+        ],
+        "interlayer_surface_gap_angstrom": 3.712719250000001,
+        "current_vacuum_gap_angstrom": 24.99999999774124,
+        "coordinates_within_unwrapped_z_cell": true,
+        "minimum_interatomic_distance_angstrom": 2.4334202603445023,
+        "severe_approach_threshold_angstrom": 1.2167101301722512,
+        "reference_shell": {
+          "max_neighbor_distance_angstrom": 2.5148778577679543,
+          "min_non_neighbor_distance_angstrom": 4.0520530774290675,
+          "fixed_distance_cutoff_angstrom": 3.2834654675985107
+        },
+        "lost_distance_graph_edges": [],
+        "added_distance_graph_edges": [],
+        "scope": "Reference geometry continuity only; no bond-order or dynamical-stability claim"
+      }
+    }
+  ],
+  "illustrative_thickness_change": {
+    "change_per_face_angstrom": 0.025,
+    "audit": {
+      "status": "geometry_continuity_passed",
+      "reasons": [],
+      "Mo_centroids_angstrom": [
+        [
+          0.81,
+          1.402961155,
+          14.11864037
+        ],
+        [
+          0.81,
+          1.402961155,
+          20.81864037
+        ]
+      ],
+      "max_centroid_drift_angstrom": 0.0,
+      "changed_face_atom_indices": [],
+      "min_retained_signed_face_height_angstrom": 1.5813849700000002,
+      "layer_z_ranges_angstrom": [
+        [
+          12.5372554,
+          15.70002535
+        ],
+        [
+          19.112744600000003,
+          22.52453615
+        ]
+      ],
+      "interlayer_surface_gap_angstrom": 3.412719250000002,
+      "current_vacuum_gap_angstrom": 24.94999999774124,
+      "coordinates_within_unwrapped_z_cell": true,
+      "minimum_interatomic_distance_angstrom": 2.4494853361380033,
+      "severe_approach_threshold_angstrom": 1.21671013017225,
+      "reference_shell": {
+        "max_neighbor_distance_angstrom": 2.514877857767955,
+        "min_non_neighbor_distance_angstrom": 4.052053077429065,
+        "fixed_distance_cutoff_angstrom": 3.2834654675985098
+      },
+      "lost_distance_graph_edges": [],
+      "added_distance_graph_edges": [],
+      "scope": "Reference geometry continuity only; no bond-order or dynamical-stability claim"
+    }
+  },
+  "source_sha256": {
+    "scripts/completion_qe_trajectory.py": "24d8d7b7972d357a400020973fa05179b357282971deabe00c2edb963fe926db",
+    "scripts/completion_alloy_geometry.py": "ef612b38d75baee52b9909a84de4beb0a914e3da10c3c715c2314de05ecbc017",
+    "scripts/completion_qe_bridge.py": "fb300aa4a799cdcc57761f95601c14662e5150965fecc9e5f47409e7c0366582",
+    "scripts/completion_qe_relaxation.py": "5c7dedae0776edf7384f668c31496f2cd94dee03ff7e4f67399dfd6d51861522",
+    "tests/test_completion_qe_trajectory.py": "f6a7372f750d9d392e44ab2263d95ba9a026bb14661474a20ca8acd808a37fdd",
+    "reports/completion/qe-trajectory-tests-r1.log": "257d94c4be99e6e6544f1f89a36d2904c20c2bc59b6da5e8d7739b25eb342fab"
+  },
+  "engine_launch_count": 0,
+  "actual_24_atom_QE_trajectories_audited": 0,
+  "raw_SCF_trajectory_audit_implemented": true,
+  "raw_SCF_trajectory_audit_exercised_on_actual_trajectory": false,
+  "policy": {
+    "max_Mo_centroid_drift_angstrom": 1e-08,
+    "fixed_cell_tolerance_angstrom": 1e-10,
+    "face_crossing_review_tolerance_angstrom": 1e-08,
+    "distance_graph_cutoff": "midpoint of maximum reference nearest-shell and minimum non-neighbor distance; frozen per structure",
+    "severe_approach_review_threshold": "half of the reference minimum periodic interatomic distance; geometric alert, not a bond criterion",
+    "fixed_cell_does_not_require_fixed_vacuum_gap": true
+  },
+  "scope": "Marked geometry fixtures and explicit perturbations only; no relaxed DFT result or physical stability claim"
+}

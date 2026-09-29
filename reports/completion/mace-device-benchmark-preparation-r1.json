@@ -1,0 +1,16 @@
+{
+  "status": "prepared_and_guard_verified_no_model_inference",
+  "unit_tests_passed": 7,
+  "test_command": ".venv/bin/python -m unittest discover -s tests -p 'test_completion_mace_benchmark.py' -v",
+  "plan_sha256": "8b5a5dd1da88a9cc64ca035ad605fc08f405df6a09efb6501a1718ef7db68465",
+  "frozen_source_count": 13,
+  "live_controller_exclusion_verified": true,
+  "no_benchmark_run_directory_created": true,
+  "actual_model_inference_executed": false,
+  "backend_speedup_measured": false,
+  "source_sha256": {
+    "scripts/completion_mace_benchmark.py": "4467343cc9c47cef8fa1526157216e2a61b916976d4d8a0ae8463f270f3c6c67",
+    "tests/test_completion_mace_benchmark.py": "be5f3c47902559087917b820875f112343c819645b72f69e9e1c7660b987f346",
+    "experiments/completion/mace-device-benchmark-r1.json": "8b5a5dd1da88a9cc64ca035ad605fc08f405df6a09efb6501a1718ef7db68465"
+  }
+}

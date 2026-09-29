@@ -1,0 +1,56 @@
+{
+  "protocol_id": "dft-pilot-20260909-v1-week3",
+  "week": 3,
+  "task_id": "SR03",
+  "job_id": "w3-mos2-lattice-probe-minus",
+  "engine": "qe",
+  "executable": ".tools/qe-7.6/bin/pw.x",
+  "input": "inputs/qe/week3/w3-mos2-lattice-probe-minus.in",
+  "assets": {
+    "data/pseudopotentials/pseudo-dojo-nc-sr-04-pbe-standard/Mo.upf": "pseudo/Mo.upf",
+    "data/pseudopotentials/pseudo-dojo-nc-sr-04-pbe-standard/S.upf": "pseudo/S.upf"
+  },
+  "method": "vdW-DF-C09; PseudoDojo nc-sr-04 standard PBE scalar NC",
+  "requested": {
+    "optimization": false,
+    "frequencies": false
+  },
+  "calculation": "scf",
+  "n_atoms": 3,
+  "charge": 0,
+  "SOC": false,
+  "ecutwfc_Ry": 120,
+  "ecutrho_Ry": 480,
+  "k_grid": [
+    12,
+    12,
+    1
+  ],
+  "initial_vacuum_gap_angstrom": 29.976324044999977,
+  "initial_cell_angstrom": [
+    [
+      3.139370987108395,
+      4.621092888511709e-18,
+      0.0
+    ],
+    [
+      -1.5696854935541973,
+      2.7187750267396895,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      33.1127699497512
+    ]
+  ],
+  "geometry_source": "structures/week3/materials/w3-mos2-lattice-probe-minus.extxyz",
+  "conv_thr_Ry": 1e-10,
+  "timeout_seconds": 14400,
+  "rss_limit_gib": 40,
+  "omp_threads": 4,
+  "max_force_eV_angstrom": 0.005,
+  "accuracy_scope": "Composition-specific checks required; no phonon or experimental-cell validation",
+  "role": "fixed_internal_coordinates_lattice_bracket",
+  "delta_a_angstrom": -0.005
+}

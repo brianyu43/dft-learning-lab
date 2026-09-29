@@ -1,0 +1,181 @@
+{
+  "status": "stopped_by_user",
+  "checked_at": "2026-09-29T15:10:05.309550+00:00",
+  "scientific_project_complete": false,
+  "automatic_resume": false,
+  "user_instruction": "실험은 이제 끝내야겠다. 적절한 중간 지점을 찾아 중단하고 커밋 푸시 해",
+  "safe_checkpoint": "Current w3-hetero-g000-pair SCF finished normally at 2026-09-29T15:08:07Z; controller terminated afterward without launching the bottom/top references.",
+  "controller_exit_code": 130,
+  "controller_exit_reason": "Intentional SIGTERM after current engine completion, not a failed QE calculation.",
+  "completed_materials_jobs_in_this_batch": [
+    {
+      "job_id": "w3-mos2-lattice-vc",
+      "config": "experiments/week3/materials/w3-mos2-lattice-vc.json",
+      "report": "reports/w3-mos2-lattice-vc.json",
+      "run_dir": "runs/20260929T095732304432Z-w3-mos2-lattice-vc",
+      "status": "passed",
+      "elapsed_seconds": 5570.827,
+      "ended_at": "2026-09-29T11:30:23.194586+00:00"
+    },
+    {
+      "job_id": "w3-mose2-lattice-vc",
+      "config": "experiments/week3/materials/w3-mose2-lattice-vc.json",
+      "report": "reports/w3-mose2-lattice-vc.json",
+      "run_dir": "runs/20260929T113024170269Z-w3-mose2-lattice-vc",
+      "status": "passed",
+      "elapsed_seconds": 5467.727,
+      "ended_at": "2026-09-29T13:01:31.956677+00:00"
+    },
+    {
+      "job_id": "w3-mos2-lattice-probe-minus",
+      "config": "experiments/week3/materials/w3-mos2-lattice-probe-minus.json",
+      "report": "reports/w3-mos2-lattice-probe-minus.json",
+      "run_dir": "runs/20260929T130132871874Z-w3-mos2-lattice-probe-minus",
+      "status": "passed",
+      "elapsed_seconds": 451.965,
+      "ended_at": "2026-09-29T13:09:04.847354+00:00"
+    },
+    {
+      "job_id": "w3-mos2-lattice-probe-plus",
+      "config": "experiments/week3/materials/w3-mos2-lattice-probe-plus.json",
+      "report": "reports/w3-mos2-lattice-probe-plus.json",
+      "run_dir": "runs/20260929T130906282644Z-w3-mos2-lattice-probe-plus",
+      "status": "passed",
+      "elapsed_seconds": 625.364,
+      "ended_at": "2026-09-29T13:19:31.658139+00:00"
+    },
+    {
+      "job_id": "w3-mos2-precision-selected",
+      "config": "experiments/week3/materials/w3-mos2-precision-selected.json",
+      "report": "reports/w3-mos2-precision-selected.json",
+      "run_dir": "runs/20260929T131932646148Z-w3-mos2-precision-selected",
+      "status": "passed",
+      "elapsed_seconds": 100.466,
+      "ended_at": "2026-09-29T13:21:13.119204+00:00"
+    },
+    {
+      "job_id": "w3-mos2-precision-middle",
+      "config": "experiments/week3/materials/w3-mos2-precision-middle.json",
+      "report": "reports/w3-mos2-precision-middle.json",
+      "run_dir": "runs/20260929T132115031938Z-w3-mos2-precision-middle",
+      "status": "passed",
+      "elapsed_seconds": 269.706,
+      "ended_at": "2026-09-29T13:25:44.745535+00:00"
+    },
+    {
+      "job_id": "w3-mos2-precision-reference",
+      "config": "experiments/week3/materials/w3-mos2-precision-reference.json",
+      "report": "reports/w3-mos2-precision-reference.json",
+      "run_dir": "runs/20260929T132546183925Z-w3-mos2-precision-reference",
+      "status": "passed",
+      "elapsed_seconds": 628.406,
+      "ended_at": "2026-09-29T13:36:14.598303+00:00"
+    },
+    {
+      "job_id": "w3-mose2-lattice-probe-minus",
+      "config": "experiments/week3/materials/w3-mose2-lattice-probe-minus.json",
+      "report": "reports/w3-mose2-lattice-probe-minus.json",
+      "run_dir": "runs/20260929T133614709020Z-w3-mose2-lattice-probe-minus",
+      "status": "passed",
+      "elapsed_seconds": 621.811,
+      "ended_at": "2026-09-29T13:46:36.531748+00:00"
+    },
+    {
+      "job_id": "w3-mose2-lattice-probe-plus",
+      "config": "experiments/week3/materials/w3-mose2-lattice-probe-plus.json",
+      "report": "reports/w3-mose2-lattice-probe-plus.json",
+      "run_dir": "runs/20260929T134637199931Z-w3-mose2-lattice-probe-plus",
+      "status": "passed",
+      "elapsed_seconds": 662.856,
+      "ended_at": "2026-09-29T13:57:40.067476+00:00"
+    },
+    {
+      "job_id": "w3-mose2-precision-selected",
+      "config": "experiments/week3/materials/w3-mose2-precision-selected.json",
+      "report": "reports/w3-mose2-precision-selected.json",
+      "run_dir": "runs/20260929T135741782785Z-w3-mose2-precision-selected",
+      "status": "passed",
+      "elapsed_seconds": 163.07,
+      "ended_at": "2026-09-29T14:00:24.860184+00:00"
+    },
+    {
+      "job_id": "w3-mose2-precision-middle",
+      "config": "experiments/week3/materials/w3-mose2-precision-middle.json",
+      "report": "reports/w3-mose2-precision-middle.json",
+      "run_dir": "runs/20260929T140026468434Z-w3-mose2-precision-middle",
+      "status": "passed",
+      "elapsed_seconds": 523.557,
+      "ended_at": "2026-09-29T14:09:10.037942+00:00"
+    },
+    {
+      "job_id": "w3-mose2-precision-reference",
+      "config": "experiments/week3/materials/w3-mose2-precision-reference.json",
+      "report": "reports/w3-mose2-precision-reference.json",
+      "run_dir": "runs/20260929T140910633863Z-w3-mose2-precision-reference",
+      "status": "passed",
+      "elapsed_seconds": 904.325,
+      "ended_at": "2026-09-29T14:24:14.973302+00:00"
+    },
+    {
+      "job_id": "w3-mos2-common-lattice-relax",
+      "config": "experiments/week3/materials/w3-mos2-common-lattice-relax.json",
+      "report": "reports/w3-mos2-common-lattice-relax.json",
+      "run_dir": "runs/20260929T142416302180Z-w3-mos2-common-lattice-relax",
+      "status": "passed",
+      "elapsed_seconds": 713.436,
+      "ended_at": "2026-09-29T14:36:09.752142+00:00"
+    },
+    {
+      "job_id": "w3-mose2-common-lattice-relax",
+      "config": "experiments/week3/materials/w3-mose2-common-lattice-relax.json",
+      "report": "reports/w3-mose2-common-lattice-relax.json",
+      "run_dir": "runs/20260929T143611229212Z-w3-mose2-common-lattice-relax",
+      "status": "passed",
+      "elapsed_seconds": 925.631,
+      "ended_at": "2026-09-29T14:51:36.875101+00:00"
+    },
+    {
+      "job_id": "w3-hetero-g000-pair",
+      "config": "experiments/week3/materials/w3-hetero-g000-pair.json",
+      "report": "reports/w3-hetero-g000-pair.json",
+      "run_dir": "runs/20260929T145136958623Z-w3-hetero-g000-pair",
+      "status": "passed",
+      "elapsed_seconds": 990.083,
+      "ended_at": "2026-09-29T15:08:07.057739+00:00"
+    }
+  ],
+  "verified_completed_count": 15,
+  "first_pair_is_only_fixed_geometry_SCF": true,
+  "interaction_energy_available": false,
+  "unfinished": [
+    "matching isolated-layer SCFs and heterobilayer distance/registry search",
+    "24-atom comparisons and validation",
+    "uniform drug precision, method and solvent panels",
+    "independent scientific validation",
+    "MACE inference and CPU/GPU performance benchmarks"
+  ],
+  "next_materials_job_if_explicitly_resumed": "w3-hetero-g000-bottom",
+  "source_sha256": {
+    "runs/completion-materials-2026-09-29T095731903472_0000/state.json": "e727fb1d382cc2b5ac3ee4db0b20a5640932ec55dc22d87109a991df05661c62",
+    "reports/w3-mos2-lattice-vc.json": "5ec048d6f2a19343c798e6626a73e8ed8f5d0c47ee6d513c21e1a1c6d4cce7c3",
+    "reports/w3-mose2-lattice-vc.json": "9dc3c12e9613c221ffbf9d2ef94c4f512f1fae0fcfc630fa27da5357a098c50c",
+    "reports/w3-mos2-lattice-probe-minus.json": "223ea2832fbd325cfd50dbf6ea24f096cbd716bb47ec230aa62f9b23b5652e0a",
+    "reports/w3-mos2-lattice-probe-plus.json": "f263c44dd5b4a5b4f5a8aa580ec862f825f09eebcbeb3951f9edd61f34ca9b32",
+    "reports/w3-mos2-precision-selected.json": "857c2da98eed96da37eaa1f93a358e350f0fe9a07566bd9a578a5d21d5e066d3",
+    "reports/w3-mos2-precision-middle.json": "e55a5bffe4644210d822feb91c5d552905f0d38abd512a3c747abc165ea85559",
+    "reports/w3-mos2-precision-reference.json": "5ec078d7b36307a563b8f175bc66b8b60a1418cdc3aeca1fe2a4311191001cce",
+    "reports/w3-mose2-lattice-probe-minus.json": "571c327034657ae7664d42b04f5e4e13f75d55abd11144ff421e1e0e6d9cdb5a",
+    "reports/w3-mose2-lattice-probe-plus.json": "dab663c15e85022c34327bbff74f5396993268d6a25a17be42d510cb1faf35b4",
+    "reports/w3-mose2-precision-selected.json": "b92fca54b9943eb495ae03617f9a0f89c293cacad0156acd6ce3729d51005a50",
+    "reports/w3-mose2-precision-middle.json": "886e9a6b2838a7ccc3a739f441e274731d320ca6417684f500df97328f2c42d1",
+    "reports/w3-mose2-precision-reference.json": "dc8ad30567a3f4af848f0d85fb79e7d202c6405ed0048307536f9aaa95d8d8a2",
+    "reports/w3-mos2-common-lattice-relax.json": "dc341923ad0928f7ee69f07f65b3f9e3428956faccd47fabe6eabfc5dc88faf2",
+    "reports/w3-mose2-common-lattice-relax.json": "9c7aee5ac4a6e181a019125d1bd55417e6b66a46d2c8d442390e51566f9e4a63",
+    "reports/w3-hetero-g000-pair.json": "9564457774b6385a9fbb042d1b7a48744ccf1dd7b1ab6e83eac26b74ee781ab4",
+    "reports/completion/user-stop-process-check-r1.json": "44f4a83c93a858d886eb07f1e2435251d508ced695ca29eca32f3ad18a80e1ab",
+    "reports/completion/user-stop-controller-termination-r1.json": "1d86fba4b811ba2d9a1ea1be58ebb159d0772332499538d4d26e4f96a735cd6e",
+    "reports/completion/heterobilayer-first-result-audit-r1.json": "4f303a5a58aea8393c23a6ce82a16c85aaab57c76c352fb70bff8ada40ed45fc",
+    "reports/completion/user-stop-resource-cost-r1.json": "7994ee70a8d71c665dfed6a9479c60864872a7ac0c1e5b8107e217fe22c52234",
+    "reports/completion/user-stop-pipeline-before-annotation-r1.json": "c39bccb2236f8a86e8ed4d28aab773849446bd6d27f65d8cdd0da073f130a913"
+  }
+}

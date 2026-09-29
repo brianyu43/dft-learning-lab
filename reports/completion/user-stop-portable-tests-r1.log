@@ -1,0 +1,101 @@
+test_research_parser.py
+test_complete_minimum (test_research_parser.ParserGates.test_complete_minimum) ... ok
+test_duplicate_mode_indices_rejected (test_research_parser.ParserGates.test_duplicate_mode_indices_rejected) ... ok
+test_incomplete_engine_exit_rejected (test_research_parser.ParserGates.test_incomplete_engine_exit_rejected) ... ok
+test_normal_exit_does_not_imply_opt_convergence (test_research_parser.ParserGates.test_normal_exit_does_not_imply_opt_convergence) ... ok
+test_qe_scf_is_not_relaxation (test_research_parser.ParserGates.test_qe_scf_is_not_relaxation) ... ok
+test_scf_failure_rejected (test_research_parser.ParserGates.test_scf_failure_rejected) ... ok
+test_small_imaginary_mode_is_not_waived (test_research_parser.ParserGates.test_small_imaginary_mode_is_not_waived) ... ok
+test_timeout_or_exit_code_rejected (test_research_parser.ParserGates.test_timeout_or_exit_code_rejected) ... ok
+test_truncated_modes_rejected (test_research_parser.ParserGates.test_truncated_modes_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.005s
+
+OK
+
+
+test_completion_drug_contrasts.py
+test_analytic_binding_and_self_competition (test_completion_drug_contrasts.DrugContrasts.test_analytic_binding_and_self_competition) ... ok
+test_context_mixing_is_rejected (test_completion_drug_contrasts.DrugContrasts.test_context_mixing_is_rejected) ... ok
+test_independent_species_reference_shifts_cancel (test_completion_drug_contrasts.DrugContrasts.test_independent_species_reference_shifts_cancel) ... ok
+test_missing_self_control_is_unknown_not_zero_or_negative_prediction (test_completion_drug_contrasts.DrugContrasts.test_missing_self_control_is_unknown_not_zero_or_negative_prediction) ... ok
+test_nonfinite_and_boolean_energies_rejected (test_completion_drug_contrasts.DrugContrasts.test_nonfinite_and_boolean_energies_rejected) ... ok
+test_primary_scope_does_not_absorb_added_pose (test_completion_drug_contrasts.DrugContrasts.test_primary_scope_does_not_absorb_added_pose) ... ok
+test_real_archived_fixed_geometry_diagnostic_binding (test_completion_drug_contrasts.DrugContrasts.test_real_archived_fixed_geometry_diagnostic_binding) ... ok
+test_shared_dif_self_reference_shifts_all_X_equally (test_completion_drug_contrasts.DrugContrasts.test_shared_dif_self_reference_shifts_all_X_equally) ... ok
+test_tie_boundaries_and_missing_differences (test_completion_drug_contrasts.DrugContrasts.test_tie_boundaries_and_missing_differences) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.001s
+
+OK
+
+
+test_completion_alloy_geometry.py
+test_ci_co_inequivalence_all_nine_geometries_and_three_tolerances (test_completion_alloy_geometry.AlloyGeometryTests.test_ci_co_inequivalence_all_nine_geometries_and_three_tolerances) ... /Users/xavier/Documents/dev/generaldrugs/dft/.venv/lib/python3.11/site-packages/spglib/spg.py:354: DeprecationWarning: Set OLD_ERROR_HANDLING to false and catch the errors directly.
+  _set_no_error()
+ok
+test_different_parent_rejected (test_completion_alloy_geometry.AlloyGeometryTests.test_different_parent_rejected) ... ok
+test_equivalence_positive_control_permutation_wrapping_and_origin_shift (test_completion_alloy_geometry.AlloyGeometryTests.test_equivalence_positive_control_permutation_wrapping_and_origin_shift) ... ok
+test_full_matrix_composition_registry_and_inner_outer_faces (test_completion_alloy_geometry.AlloyGeometryTests.test_full_matrix_composition_registry_and_inner_outer_faces) ... ok
+test_nontrivial_rotation_positive_control (test_completion_alloy_geometry.AlloyGeometryTests.test_nontrivial_rotation_positive_control) ... ok
+test_primitive_registry_and_parent_sources_preserved (test_completion_alloy_geometry.AlloyGeometryTests.test_primitive_registry_and_parent_sources_preserved) ... ok
+test_structure_round_trip_remains_verifiable_and_json_serializable (test_completion_alloy_geometry.AlloyGeometryTests.test_structure_round_trip_remains_verifiable_and_json_serializable) ... ok
+test_wrong_lattice_overlapping_layers_and_corrupt_annotations_rejected (test_completion_alloy_geometry.AlloyGeometryTests.test_wrong_lattice_overlapping_layers_and_corrupt_annotations_rejected) ... ok
+test_actual_optimizer_matches_constrained_analytic_minimum (test_completion_alloy_geometry.LayerConstraintTests.test_actual_optimizer_matches_constrained_analytic_minimum) ... ok
+test_multiple_steps_do_not_move_other_groups_or_freeze_internal_motion (test_completion_alloy_geometry.LayerConstraintTests.test_multiple_steps_do_not_move_other_groups_or_freeze_internal_motion) ... ok
+test_projected_force_matches_tangent_energy_derivative (test_completion_alloy_geometry.LayerConstraintTests.test_projected_force_matches_tangent_energy_derivative) ... ok
+test_serialization_permutation_and_slice_safety (test_completion_alloy_geometry.LayerConstraintTests.test_serialization_permutation_and_slice_safety) ... ok
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.103s
+
+OK
+
+
+test_completion_alloy_probe.py
+/Users/xavier/Documents/dev/generaldrugs/dft/.venv/lib/python3.11/site-packages/spglib/spg.py:354: DeprecationWarning: Set OLD_ERROR_HANDLING to false and catch the errors directly.
+  _set_no_error()
+test_all_components_preserve_actual_pair_indices_and_cell (test_completion_alloy_probe.AlloyProbeTests.test_all_components_preserve_actual_pair_indices_and_cell) ... ok
+test_passed_flag_alone_is_not_accepted_as_evidence (test_completion_alloy_probe.AlloyProbeTests.test_passed_flag_alone_is_not_accepted_as_evidence) ... ok
+test_reuse_exactly_matches_identity_without_centering_or_tolerance (test_completion_alloy_probe.AlloyProbeTests.test_reuse_exactly_matches_identity_without_centering_or_tolerance) ... ok
+test_serialized_qe_pair_and_layers_keep_identical_conditions (test_completion_alloy_probe.AlloyProbeTests.test_serialized_qe_pair_and_layers_keep_identical_conditions) ... ok
+test_unfinished_reference_cannot_write_production_inputs (test_completion_alloy_probe.AlloyProbeTests.test_unfinished_reference_cannot_write_production_inputs) ... ok
+test_unweakened_supercell_k_spacing_and_unreviewed_setting_rejection (test_completion_alloy_probe.AlloyProbeTests.test_unweakened_supercell_k_spacing_and_unreviewed_setting_rejection) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.048s
+
+OK
+
+
+test_completion_drug_fixed_geometry_sensitivity.py
+test_all_tie_widths_and_rank_reversal_are_retained (test_completion_drug_fixed_geometry_sensitivity.FixedGeometrySensitivityTests.test_all_tie_widths_and_rank_reversal_are_retained) ... ok
+test_binding_and_self_competition_changes_have_analytic_values (test_completion_drug_fixed_geometry_sensitivity.FixedGeometrySensitivityTests.test_binding_and_self_competition_changes_have_analytic_values) ... ok
+test_changed_geometry_role_species_duplicate_or_nonfinite_energy_is_rejected (test_completion_drug_fixed_geometry_sensitivity.FixedGeometrySensitivityTests.test_changed_geometry_role_species_duplicate_or_nonfinite_energy_is_rejected) ... ok
+test_method_reference_energy_offsets_cancel_in_complete_contrasts (test_completion_drug_fixed_geometry_sensitivity.FixedGeometrySensitivityTests.test_method_reference_energy_offsets_cancel_in_complete_contrasts) ... ok
+test_missing_control_remains_unavailable_and_unmatched_panels_are_rejected (test_completion_drug_fixed_geometry_sensitivity.FixedGeometrySensitivityTests.test_missing_control_remains_unavailable_and_unmatched_panels_are_rejected) ... ok
+test_mixed_method_solvent_and_wrong_energy_quantity_are_rejected (test_completion_drug_fixed_geometry_sensitivity.FixedGeometrySensitivityTests.test_mixed_method_solvent_and_wrong_energy_quantity_are_rejected) ... ok
+test_pose_reselection_is_separate_from_fixed_geometry_effect_and_primary_scope (test_completion_drug_fixed_geometry_sensitivity.FixedGeometrySensitivityTests.test_pose_reselection_is_separate_from_fixed_geometry_effect_and_primary_scope) ... ok
+test_solvent_cds_quantity_is_used_once_without_adding_a_second_correction (test_completion_drug_fixed_geometry_sensitivity.FixedGeometrySensitivityTests.test_solvent_cds_quantity_is_used_once_without_adding_a_second_correction) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.005s
+
+OK
+
+
+test_completion_mace_benchmark.py
+test_controller_lock_refuses_execution_before_creating_run (test_completion_mace_benchmark.MaceBenchmarkTests.test_controller_lock_refuses_execution_before_creating_run) ... ok
+test_direct_worker_cannot_bypass_supervisor (test_completion_mace_benchmark.MaceBenchmarkTests.test_direct_worker_cannot_bypass_supervisor) ... ok
+test_exact_pair_minus_layers_units (test_completion_mace_benchmark.MaceBenchmarkTests.test_exact_pair_minus_layers_units) ... ok
+test_extensive_offset_cancels_in_interaction (test_completion_mace_benchmark.MaceBenchmarkTests.test_extensive_offset_cancels_in_interaction) ... ok
+test_force_vector_norm_not_largest_component (test_completion_mace_benchmark.MaceBenchmarkTests.test_force_vector_norm_not_largest_component) ... ok
+test_nonfinite_missing_and_misshaped_values_are_rejected (test_completion_mace_benchmark.MaceBenchmarkTests.test_nonfinite_missing_and_misshaped_values_are_rejected) ... ok
+test_total_energy_can_pass_while_interaction_precision_fails (test_completion_mace_benchmark.MaceBenchmarkTests.test_total_energy_can_pass_while_interaction_precision_fails) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.005s
+
+OK

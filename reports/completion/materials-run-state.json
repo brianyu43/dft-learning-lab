@@ -1,10 +1,10 @@
 {
-  "status": "running",
+  "status": "stopped_by_user",
   "started_at": "2026-09-29T09:57:31.905206+00:00",
   "pid": 8197,
   "controller_dir": "runs/completion-materials-2026-09-29T095731903472_0000",
   "kind": "materials",
-  "stage": "semiconductor_lattice_equilibria",
+  "stage": "semiconductor_heterobilayer_distance_search",
   "code_sha256": {
     "scripts/completion_batch.py": "a2b054d1ae961fdd41e5ced928999980a6f0a62f4d40b001906aaedab2aafe68",
     "scripts/research_run.py": "e276ab1aa4ddc435d0a3aceec06b27445f6a6c1263f101009d5de14e6cc70cf6",
@@ -20,6 +20,91 @@
       "config": "experiments/week3/materials/w3-mos2-lattice-vc.json",
       "exit_code": 0,
       "ended_at": "2026-09-29T11:30:24.119858+00:00"
+    },
+    {
+      "job_id": "w3-mose2-lattice-vc",
+      "config": "experiments/week3/materials/w3-mose2-lattice-vc.json",
+      "exit_code": 0,
+      "ended_at": "2026-09-29T13:01:32.831931+00:00"
+    },
+    {
+      "job_id": "w3-mos2-lattice-probe-minus",
+      "config": "experiments/week3/materials/w3-mos2-lattice-probe-minus.json",
+      "exit_code": 0,
+      "ended_at": "2026-09-29T13:09:06.246171+00:00"
+    },
+    {
+      "job_id": "w3-mos2-lattice-probe-plus",
+      "config": "experiments/week3/materials/w3-mos2-lattice-probe-plus.json",
+      "exit_code": 0,
+      "ended_at": "2026-09-29T13:19:32.609032+00:00"
+    },
+    {
+      "job_id": "w3-mos2-precision-selected",
+      "config": "experiments/week3/materials/w3-mos2-precision-selected.json",
+      "exit_code": 0,
+      "ended_at": "2026-09-29T13:21:14.998320+00:00"
+    },
+    {
+      "job_id": "w3-mos2-precision-middle",
+      "config": "experiments/week3/materials/w3-mos2-precision-middle.json",
+      "exit_code": 0,
+      "ended_at": "2026-09-29T13:25:46.139118+00:00"
+    },
+    {
+      "job_id": "w3-mos2-precision-reference",
+      "config": "experiments/week3/materials/w3-mos2-precision-reference.json",
+      "exit_code": 0,
+      "ended_at": "2026-09-29T13:36:14.670375+00:00"
+    },
+    {
+      "job_id": "w3-mose2-lattice-probe-minus",
+      "config": "experiments/week3/materials/w3-mose2-lattice-probe-minus.json",
+      "exit_code": 0,
+      "ended_at": "2026-09-29T13:46:37.164774+00:00"
+    },
+    {
+      "job_id": "w3-mose2-lattice-probe-plus",
+      "config": "experiments/week3/materials/w3-mose2-lattice-probe-plus.json",
+      "exit_code": 0,
+      "ended_at": "2026-09-29T13:57:41.743122+00:00"
+    },
+    {
+      "job_id": "w3-mose2-precision-selected",
+      "config": "experiments/week3/materials/w3-mose2-precision-selected.json",
+      "exit_code": 0,
+      "ended_at": "2026-09-29T14:00:26.427003+00:00"
+    },
+    {
+      "job_id": "w3-mose2-precision-middle",
+      "config": "experiments/week3/materials/w3-mose2-precision-middle.json",
+      "exit_code": 0,
+      "ended_at": "2026-09-29T14:09:10.588870+00:00"
+    },
+    {
+      "job_id": "w3-mose2-precision-reference",
+      "config": "experiments/week3/materials/w3-mose2-precision-reference.json",
+      "exit_code": 0,
+      "ended_at": "2026-09-29T14:24:16.256052+00:00"
+    },
+    {
+      "job_id": "w3-mos2-common-lattice-relax",
+      "config": "experiments/week3/materials/w3-mos2-common-lattice-relax.json",
+      "exit_code": 0,
+      "ended_at": "2026-09-29T14:36:11.192975+00:00"
+    },
+    {
+      "job_id": "w3-mose2-common-lattice-relax",
+      "config": "experiments/week3/materials/w3-mose2-common-lattice-relax.json",
+      "exit_code": 0,
+      "ended_at": "2026-09-29T14:51:36.918187+00:00"
+    },
+    {
+      "job_id": "w3-hetero-g000-pair",
+      "config": "experiments/week3/materials/w3-hetero-g000-pair.json",
+      "exit_code": 0,
+      "ended_at": "2026-09-29T15:08:07.057739+00:00",
+      "recovered_from_terminal_report_after_controller_pause": true
     }
   ],
   "automatic_retries": 0,
@@ -27,13 +112,23 @@
     "orca": 273181.22729999997,
     "qe": 138410.98
   },
-  "updated_at": "2026-09-29T11:38:25.171431+00:00",
+  "updated_at": "2026-09-29T15:08:32.714831+00:00",
   "spent_after_week2_seconds": {
     "orca": 7424.714999999999,
-    "qe": 5570.827
+    "qe": 18619.23
   },
-  "current_job": "w3-mose2-lattice-vc",
-  "current_config": "experiments/week3/materials/w3-mose2-lattice-vc.json",
-  "current_config_sha256": "3105009054c927261c2996a6a0dc9a1d676eaec681117e9860ecc990d66ed364",
-  "child_pid": 47442
+  "current_job": null,
+  "current_config": "experiments/week3/materials/w3-hetero-g000-pair.json",
+  "current_config_sha256": "6fdcb28b4a37df2c33f5abdc5766be1c1927effd56070761a1902125062ec68d",
+  "child_pid": null,
+  "ended_at": "2026-09-29T15:08:32.714803+00:00",
+  "reason": "User requested a safe checkpoint and stop. Current SCF completed normally before controller termination.",
+  "last_completed_job": "w3-hetero-g000-pair",
+  "scientific_project_complete": false,
+  "automatic_resume": false,
+  "checkpoint": "reports/completion/user-stop-checkpoint-r1.json",
+  "controller_terminal_snapshot": "runs/completion-materials-2026-09-29T095731903472_0000/state.json",
+  "controller_terminal_snapshot_sha256": "e727fb1d382cc2b5ac3ee4db0b20a5640932ec55dc22d87109a991df05661c62",
+  "controller_exit_code": 130,
+  "annotated_at": "2026-09-29T15:10:05.309550+00:00"
 }

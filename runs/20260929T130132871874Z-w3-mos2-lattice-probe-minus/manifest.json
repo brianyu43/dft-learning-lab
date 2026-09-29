@@ -1,0 +1,107 @@
+{
+  "protocol_id": "dft-pilot-20260909-v1-week3",
+  "week": 3,
+  "task_id": "SR03",
+  "job_id": "w3-mos2-lattice-probe-minus",
+  "engine": "qe",
+  "executable": ".tools/qe-7.6/bin/pw.x",
+  "input": "inputs/qe/week3/w3-mos2-lattice-probe-minus.in",
+  "assets": {
+    "data/pseudopotentials/pseudo-dojo-nc-sr-04-pbe-standard/Mo.upf": "pseudo/Mo.upf",
+    "data/pseudopotentials/pseudo-dojo-nc-sr-04-pbe-standard/S.upf": "pseudo/S.upf"
+  },
+  "method": "vdW-DF-C09; PseudoDojo nc-sr-04 standard PBE scalar NC",
+  "requested": {
+    "optimization": false,
+    "frequencies": false
+  },
+  "calculation": "scf",
+  "n_atoms": 3,
+  "charge": 0,
+  "SOC": false,
+  "ecutwfc_Ry": 120,
+  "ecutrho_Ry": 480,
+  "k_grid": [
+    12,
+    12,
+    1
+  ],
+  "initial_vacuum_gap_angstrom": 29.976324044999977,
+  "initial_cell_angstrom": [
+    [
+      3.139370987108395,
+      4.621092888511709e-18,
+      0.0
+    ],
+    [
+      -1.5696854935541973,
+      2.7187750267396895,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      33.1127699497512
+    ]
+  ],
+  "geometry_source": "structures/week3/materials/w3-mos2-lattice-probe-minus.extxyz",
+  "conv_thr_Ry": 1e-10,
+  "timeout_seconds": 14400,
+  "rss_limit_gib": 40,
+  "omp_threads": 4,
+  "max_force_eV_angstrom": 0.005,
+  "accuracy_scope": "Composition-specific checks required; no phonon or experimental-cell validation",
+  "role": "fixed_internal_coordinates_lattice_bracket",
+  "delta_a_angstrom": -0.005,
+  "started_at": "2026-09-29T13:01:32.873457+00:00",
+  "status": "passed",
+  "run_dir": "/Users/xavier/Documents/dev/generaldrugs/dft/runs/20260929T130132871874Z-w3-mos2-lattice-probe-minus",
+  "config_sha256": "3711d3b6ab938bd68a98726e0068365afe6b5588ab578522a0acae130618055b",
+  "source_sha256": {
+    "inputs/qe/week3/w3-mos2-lattice-probe-minus.in": "284da09a9de024c0e92d0eead2ef05773913ffc5ae98dde95be3ce777aaee2a6",
+    "data/pseudopotentials/pseudo-dojo-nc-sr-04-pbe-standard/Mo.upf": "7a392dee2cc7088d02184ddefa73b709f11e266fdde348a08eeaf8ea2870e448",
+    "data/pseudopotentials/pseudo-dojo-nc-sr-04-pbe-standard/S.upf": "7dcddbca51ad05414445cc784264d39f139300f47897ae96740f49d6ba96daa7"
+  },
+  "executable_sha256": "d9c0a96099241bc96b8fc5783ae61363f9d667458fc2fee19ab13b71cd354ed5",
+  "command": [
+    "/Users/xavier/Documents/dev/generaldrugs/dft/.tools/qe-7.6/bin/pw.x",
+    "-in",
+    "w3-mos2-lattice-probe-minus.in"
+  ],
+  "runner_sha256": "e276ab1aa4ddc435d0a3aceec06b27445f6a6c1263f101009d5de14e6cc70cf6",
+  "stop_reason": null,
+  "thread_environment": {
+    "OMP_NUM_THREADS": "4",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "VECLIB_MAXIMUM_THREADS": "1"
+  },
+  "pid": 73812,
+  "engine_launched": true,
+  "ended_at": "2026-09-29T13:09:04.847354+00:00",
+  "elapsed_seconds": 451.965,
+  "exit_code": 0,
+  "peak_sampled_process_tree_rss_bytes": 1593524224,
+  "memory_samples": 876,
+  "memory_access_denied": 0,
+  "max_single_child_rss_bytes": 1594064896,
+  "system_swap_increase_peak_bytes": 0,
+  "memory_measurement": "0.5s sampled summed process-tree RSS; may double-count shared pages and miss peaks. OS ru_maxrss is maximum single-child RSS in macOS bytes. Swap is system-wide, not attributable solely to this job.",
+  "output_sha256": "1a15186fd4cb0776fbfd9b58d33a72b251deb34d2a044f57e6fe674d386c016e",
+  "result": {
+    "engine_version": "7.6",
+    "normal_termination": true,
+    "scf_converged": true,
+    "geometry_optimization_converged": null,
+    "energy": -184.83075659,
+    "energy_unit": "Ry",
+    "energy_history": [
+      -184.83075659
+    ],
+    "minimum_verified": null,
+    "frequency_analysis_complete": false,
+    "total_force_Ry_Bohr": 0.001833,
+    "accuracy_scope": "Composition-specific checks required; no phonon or experimental-cell validation",
+    "status": "passed"
+  }
+}

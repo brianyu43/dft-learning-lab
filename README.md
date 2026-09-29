@@ -2,12 +2,13 @@
 
 Apple Silicon Mac에서 반도체와 약물 분자 계산을 함께 배우는 10주 프로젝트다. 목표는 기준 계산 재현과 후속 검증 후보 선정이다.
 
-**진행 중인 연구 기록이며, 완성된 예측 모델이나 검증된 공결정·반도체 발견을 주장하지 않는다.** 2026-09-29 공개 시점에는 약물의 공통 정밀도 검증과 반도체 이종 이중층 기준 계산을 진행 중이다. 과거 실패·중단 기록도 보존한다.
+**2026-09-30 00:08 KST, 사용자 요청으로 실험을 중간 종료했다. 전체 연구 계획은 미완료다.** 진행 중이던 마지막 SCF가 정상 종료된 뒤 제어기를 종료했고, 계산 프로세스와 실행 잠금이 남지 않았음을 확인했다. 자동 재개하지 않는다. 완성된 예측 모델이나 검증된 공결정·반도체 발견을 주장하지 않으며, 과거 실패·중단 기록도 보존한다.
 
+- [중단 지점·확보한 결과·미완료 항목](reports/completion/USER_STOP_CHECKPOINT.ko.md)
 - [전체 완료 계획과 현재 단계](docs/COMPLETION_PLAN.ko.md)
 - [공개 범위와 검증 방법](docs/PUBLIC_RELEASE.ko.md)
 - [약물 정밀도 진단](reports/completion/PRECISION_DIAGNOSTIC.ko.md) · [전체 약물 패널 검증 절차](docs/DRUG_FULL_PANEL_VALIDATION.ko.md)
-- [MoS₂ 격자 최적화 검증](reports/completion/mos2-equilibrium-verification-r1.json): C09 조건에서 a=3.144370987 Å. 조성별 수치 민감도와 이종 이중층 검증은 별도다.
+- [두 단층 격자·수치 검증](reports/completion/MONOLAYER_EQUILIBRIA.ko.md) · [공통 격자 내부 이완](reports/completion/COMMON_LATTICE_LAYERS.ko.md): 첫 이종 이중층 단일점까지 종료했으나 분리층 기준과 결합에너지는 미완료다.
 
 - [2주차 중단 당시 기록](reports/WEEK2_PAUSED.ko.md) · [재개 방법과 검증](docs/WEEK2_RESUME.ko.md): 87회 최적화 좌표 보존, 별도 12프로세스 진동 계산
 - [2주차 실제 실험 결과](reports/WEEK2_RESULTS.ko.md): xTB 후보 선별, 첫 약물 DFT/진동, MoS₂ 수렴·순수 이중층 대조
@@ -50,7 +51,7 @@ JupyterLab을 열려면 같은 환경에서:
 jupyter lab --ServerApp.ip=127.0.0.1
 ```
 
-`structures/molecules`, `structures/materials`, `structures/week1`은 초기 구조·후보 목록이다. 실제 최적화 결과는 `structures/optimized/week1`에 구분해 보관했다. 물/Si 설치 검증의 단일점 결과와 1주차 연구 실행을 혼동하지 않는다. Mo/S/Se 의사퍼텐셜은 확보했다. MoS₂의 고정 구조 수렴과 순수 이중층 대조는 2주차 결과에 있고, MoSe₂/이종 이중층으로의 정밀도 일반화는 아직 검증하지 않았다.
+`structures/molecules`, `structures/materials`, `structures/week1`은 초기 구조·후보 목록이다. 실제 최적화 결과는 `structures/optimized/week1`에 구분해 보관했다. 물/Si 설치 검증의 단일점 결과와 1주차 연구 실행을 혼동하지 않는다. Mo/S/Se 의사퍼텐셜은 로컬에 확보했다. MoS₂의 고정 구조 수렴과 순수 이중층 대조는 2주차 결과에 있다. 이후 두 조성의 평형 단층에서 공통 수치 설정을 검증했으며, 이종 이중층 결합에너지의 정밀도 일반화는 미완료다.
 
 1주차 완료 출력의 판독·해시·구조 확인만 다시 하려면, 원래 로컬 실행 환경과 의사퍼텐셜 등 필요한 자산이 있어야 한다. 과거 보고서에는 원본 절대 경로와 해시를 그대로 남겼으므로 새 복제본에서 전체 원시 검증 명령이 바로 실행된다고 가정하지 않는다. 공개 복제본의 파일 무결성 및 엔진 없는 검사는 [공개 범위](docs/PUBLIC_RELEASE.ko.md)를 따른다.
 
@@ -60,7 +61,7 @@ jupyter lab --ServerApp.ip=127.0.0.1
 python scripts/verify_week1.py
 ```
 
-연구용 새 계산은 `python scripts/research_run.py --config experiments/week1/설정파일.json`으로 명시적으로 실행한다. 이 명령은 실제 계산을 다시 수행하므로 결과 검증 명령과 구분한다. 1주차 기록은 [1주차 요약](reports/week1-summary.json), 현재 실행 상태는 [2주차 상태](experiments/week2/status.json)에 있다. `summarize_week1.py`는 1주차 마감 당시의 메타데이터를 다시 쓰므로, 2주차 이후의 검증에는 실행하지 않는다. 자동 예약 작업은 없다.
+연구용 새 계산은 `python scripts/research_run.py --config experiments/week1/설정파일.json`으로 명시적으로 실행한다. 이 명령은 실제 계산을 다시 수행하므로 결과 검증 명령과 구분한다. 1주차 기록은 [1주차 요약](reports/week1-summary.json), 현재 중단 상태는 [최종 체크포인트](reports/completion/user-stop-checkpoint-r1.json)에 있다. 과거 상태 파일의 `running`은 당시 스냅샷일 수 있다. `summarize_week1.py`와 `verify_week1.py`는 과거 보고서를 다시 쓸 수 있으므로 이번 중단 검증에서 실행하지 않았다. 자동 예약 작업은 없다.
 
 ## 환경 구성과 재현
 

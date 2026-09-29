@@ -1,0 +1,12 @@
+test_both_trajectory_and_original_pilot_budget_must_cover_next_scf (test_completion_qe_provider.ProviderTests.test_both_trajectory_and_original_pilot_budget_must_cover_next_scf) ... ok
+test_changed_cell_charge_dependency_and_unresolved_attempt_stop_before_launch (test_completion_qe_provider.ProviderTests.test_changed_cell_charge_dependency_and_unresolved_attempt_stop_before_launch) ... ok
+test_exclusive_controller_lock_prevents_a_second_provider (test_completion_qe_provider.ProviderTests.test_exclusive_controller_lock_prevents_a_second_provider) ... ok
+test_failed_eligibility_or_missing_context_cannot_launch (test_completion_qe_provider.ProviderTests.test_failed_eligibility_or_missing_context_cannot_launch) ... ok
+test_reference_conditions_survive_new_coordinate_serialization (test_completion_qe_provider.ProviderTests.test_reference_conditions_survive_new_coordinate_serialization) ... ok
+test_same_geometry_reuses_only_revalidated_raw_reference (test_completion_qe_provider.ProviderTests.test_same_geometry_reuses_only_revalidated_raw_reference) ... ok
+test_subprocess_deadline_and_cleanup_are_wired_without_running_qe (test_completion_qe_provider.ProviderTests.test_subprocess_deadline_and_cleanup_are_wired_without_running_qe) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.112s
+
+OK

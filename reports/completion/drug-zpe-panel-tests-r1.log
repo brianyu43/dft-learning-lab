@@ -1,0 +1,13 @@
+test_analytic_B_and_X_corrections_are_separate_from_electronic_scores (test_completion_drug_zpe_panel.ZPESupplementTests.test_analytic_B_and_X_corrections_are_separate_from_electronic_scores) ... ok
+test_context_nonfinite_energy_duplicate_identity_or_role_change_is_rejected (test_completion_drug_zpe_panel.ZPESupplementTests.test_context_nonfinite_energy_duplicate_identity_or_role_change_is_rejected) ... ok
+test_isotope_or_mass_changes_are_not_combined_silently (test_completion_drug_zpe_panel.ZPESupplementTests.test_isotope_or_mass_changes_are_not_combined_silently) ... ok
+test_missing_full_panel_cannot_write_zpe_results (test_completion_drug_zpe_panel.ZPESupplementTests.test_missing_full_panel_cannot_write_zpe_results) ... ok
+test_missing_self_control_does_not_become_zero_or_a_prediction (test_completion_drug_zpe_panel.ZPESupplementTests.test_missing_self_control_does_not_become_zero_or_a_prediction) ... ok
+test_parent_pass_flag_is_not_a_substitute_for_raw_revalidation (test_completion_drug_zpe_panel.ZPESupplementTests.test_parent_pass_flag_is_not_a_substitute_for_raw_revalidation) ... ok
+test_pose_switch_separates_electronic_penalty_and_zpe_change (test_completion_drug_zpe_panel.ZPESupplementTests.test_pose_switch_separates_electronic_penalty_and_zpe_change) ... ok
+test_rank_reversal_and_all_tie_widths_remain_visible (test_completion_drug_zpe_panel.ZPESupplementTests.test_rank_reversal_and_all_tie_widths_remain_visible) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.004s
+
+OK

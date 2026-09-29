@@ -1,0 +1,16 @@
+{
+  "status": "prepared_and_checked_not_executed",
+  "jobs": 6,
+  "input_hashes": 26,
+  "all_input_bytes_identical_to_parent": true,
+  "repeat_preparation_preserves_plan_bytes": true,
+  "incomplete_evaluation_refused_without_writing_result": true,
+  "engine_jobs_started": 0,
+  "performance_improvement_verified": false,
+  "numerical_equivalence_verified": false,
+  "source_sha256": {
+    "experiments/completion/qe-thread-benchmark-r1.json": "9bba2d7f443a4ebc8baa8ecdb7cf6b1de1301f07680a6257686e0939c835e598",
+    "scripts/completion_qe_thread_benchmark.py": "5add61a041467b23b5a8e9e636f10b858327dbf72afe926c3c417c34fb9bd1ab",
+    "docs/QE_THREAD_BENCHMARK.ko.md": "f95033f68885a7e03bd264ac781cb0d165c00ed01c9c985974f1f31e5d15bdba"
+  }
+}

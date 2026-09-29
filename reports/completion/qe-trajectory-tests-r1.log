@@ -1,0 +1,13 @@
+test_all_27_marked_reference_fixtures_pass (test_completion_qe_trajectory.GeometryContinuityTests.test_all_27_marked_reference_fixtures_pass) ... ok
+test_face_crossing_is_detected_even_with_unchanged_layer_labels (test_completion_qe_trajectory.GeometryContinuityTests.test_face_crossing_is_detected_even_with_unchanged_layer_labels) ... ok
+test_fixtures_and_missing_raw_reports_cannot_become_production_evidence (test_completion_qe_trajectory.GeometryContinuityTests.test_fixtures_and_missing_raw_reports_cannot_become_production_evidence) ... ok
+test_in_plane_site_exchange_changes_distance_graph (test_completion_qe_trajectory.GeometryContinuityTests.test_in_plane_site_exchange_changes_distance_graph) ... ok
+test_internal_thickness_change_is_allowed_but_actual_vacuum_is_recorded (test_completion_qe_trajectory.GeometryContinuityTests.test_internal_thickness_change_is_allowed_but_actual_vacuum_is_recorded) ... ok
+test_layer_migration_and_Mo_centroid_motion_are_detected (test_completion_qe_trajectory.GeometryContinuityTests.test_layer_migration_and_Mo_centroid_motion_are_detected) ... ok
+test_provenance_cell_and_nonfinite_coordinates_are_rejected (test_completion_qe_trajectory.GeometryContinuityTests.test_provenance_cell_and_nonfinite_coordinates_are_rejected) ... ok
+test_severe_chalcogen_approach_is_not_hidden_by_same_faces (test_completion_qe_trajectory.GeometryContinuityTests.test_severe_chalcogen_approach_is_not_hidden_by_same_faces) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.082s
+
+OK

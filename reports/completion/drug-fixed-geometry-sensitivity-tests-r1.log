@@ -1,0 +1,13 @@
+test_all_tie_widths_and_rank_reversal_are_retained (test_completion_drug_fixed_geometry_sensitivity.FixedGeometrySensitivityTests.test_all_tie_widths_and_rank_reversal_are_retained) ... ok
+test_binding_and_self_competition_changes_have_analytic_values (test_completion_drug_fixed_geometry_sensitivity.FixedGeometrySensitivityTests.test_binding_and_self_competition_changes_have_analytic_values) ... ok
+test_changed_geometry_role_species_duplicate_or_nonfinite_energy_is_rejected (test_completion_drug_fixed_geometry_sensitivity.FixedGeometrySensitivityTests.test_changed_geometry_role_species_duplicate_or_nonfinite_energy_is_rejected) ... ok
+test_method_reference_energy_offsets_cancel_in_complete_contrasts (test_completion_drug_fixed_geometry_sensitivity.FixedGeometrySensitivityTests.test_method_reference_energy_offsets_cancel_in_complete_contrasts) ... ok
+test_missing_control_remains_unavailable_and_unmatched_panels_are_rejected (test_completion_drug_fixed_geometry_sensitivity.FixedGeometrySensitivityTests.test_missing_control_remains_unavailable_and_unmatched_panels_are_rejected) ... ok
+test_mixed_method_solvent_and_wrong_energy_quantity_are_rejected (test_completion_drug_fixed_geometry_sensitivity.FixedGeometrySensitivityTests.test_mixed_method_solvent_and_wrong_energy_quantity_are_rejected) ... ok
+test_pose_reselection_is_separate_from_fixed_geometry_effect_and_primary_scope (test_completion_drug_fixed_geometry_sensitivity.FixedGeometrySensitivityTests.test_pose_reselection_is_separate_from_fixed_geometry_effect_and_primary_scope) ... ok
+test_solvent_cds_quantity_is_used_once_without_adding_a_second_correction (test_completion_drug_fixed_geometry_sensitivity.FixedGeometrySensitivityTests.test_solvent_cds_quantity_is_used_once_without_adding_a_second_correction) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.007s
+
+OK

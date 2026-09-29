@@ -1,0 +1,40 @@
+{
+  "prepared_at": "2026-09-29T11:57:13.275460+00:00",
+  "status": "provider_prepared_not_production_executed",
+  "tests_passed": 7,
+  "engine_launch_count": 0,
+  "archived_reference_report": "reports/w2-bilayer-selected-r0-d6p3-pair.json",
+  "archived_reference_sha256": "b4dbdf769d3539ea9f7c4d8583865961726cd394c5e2736ef13b59522d75b423",
+  "archived_originals_unchanged": true,
+  "archived_original_sha256": {
+    "reports/w2-bilayer-selected-r0-d6p3-pair.json": "b4dbdf769d3539ea9f7c4d8583865961726cd394c5e2736ef13b59522d75b423",
+    "runs/20260911T030343672294Z-w2-bilayer-selected-r0-d6p3-pair/manifest.json": "b4dbdf769d3539ea9f7c4d8583865961726cd394c5e2736ef13b59522d75b423",
+    "runs/20260911T030343672294Z-w2-bilayer-selected-r0-d6p3-pair/result.json": "5c24a69393e79eb61439c40da304f950956b9006529fcb934dbfc9acf8990c93",
+    "runs/20260911T030343672294Z-w2-bilayer-selected-r0-d6p3-pair/output.log": "fd6a801f5afb35a74a32c0574fbb9765daf3ba04049085554dea906ea9a46690",
+    "runs/20260911T030343672294Z-w2-bilayer-selected-r0-d6p3-pair/w2-bilayer-selected-r0-d6p3-pair.in": "ab34f18eae8728a2f920dc990d6e0e0aadf180c66dec8ce586bdd1469566cb97"
+  },
+  "serialization": {
+    "atom_count": 6,
+    "displaced_atom": 1,
+    "displaced_axis": 2,
+    "displacement_angstrom": 0.002,
+    "max_coordinate_roundtrip_error_angstrom": 3.552713678800501e-15,
+    "system_settings_unchanged": true,
+    "electrons_settings_unchanged": true,
+    "geometry_identity_changed": true
+  },
+  "frozen_dependency_count": 13,
+  "eligibility_rejection": "Production reference, force calibration and 24-atom cost are not complete",
+  "run_directory_created": false,
+  "active_completion_controller_lock_busy": true,
+  "source_sha256": {
+    "scripts/completion_qe_provider.py": "ea07e528206d0de80dfa22de6b1298d8e6cebf678a0ad667e994a85bf709fcdb",
+    "scripts/completion_qe_relaxation.py": "5c7dedae0776edf7384f668c31496f2cd94dee03ff7e4f67399dfd6d51861522",
+    "scripts/completion_qe_bridge.py": "fb300aa4a799cdcc57761f95601c14662e5150965fecc9e5f47409e7c0366582",
+    "tests/test_completion_qe_provider.py": "a0b94006520e125518905de8841d1cb11921d4ef67305d8198fb4bc39cedfe25",
+    "reports/completion/qe-provider-tests-r1.log": "d46d9687e2893f3a495c134b005de8e8b59ef606a640e6487ba4c553aa75dd1b"
+  },
+  "actual_QE_provider_end_to_end_verified": false,
+  "actual_24_atom_relaxations": 0,
+  "scope": "Real archived SCF/template audit and mocked lifecycle tests only; runtime supplier is implemented, scientific eligibility and full trajectory remain pending"
+}

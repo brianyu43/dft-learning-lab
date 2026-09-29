@@ -1,0 +1,46 @@
+{
+  "job_id": "w3-hetero-g000-pair",
+  "method": "C09",
+  "fixed_geometry_verified": true,
+  "energy_eV": -11013.614702302388,
+  "max_force_eV_angstrom": 1.3275591377768226,
+  "energy_conversion_eV_per_Hartree": 27.211386245988034,
+  "length_conversion_angstrom_per_Bohr": 0.529177210903,
+  "xml_text_force_max_difference_eV_angstrom": 1.2201138432921255e-07,
+  "ecutwfc_Ry": 100,
+  "ecutrho_Ry": 400,
+  "k_grid": [
+    9,
+    9,
+    1
+  ],
+  "k_offset": [
+    0,
+    0,
+    0
+  ],
+  "conv_thr_Ry": 1e-10,
+  "valence_electrons": {
+    "Mo": 14.0,
+    "S": 6.0,
+    "Se": 16.0
+  },
+  "openmp_threads_in_log": 4,
+  "xml_nthreads": 1,
+  "xml_thread_field_is_not_used_as_runtime_proof": true,
+  "report_sha256": "9564457774b6385a9fbb042d1b7a48744ccf1dd7b1ab6e83eac26b74ee781ab4",
+  "xml_sha256": "f30bbae5a6844122a7bd21e62e85f7676433bfdd116d1dbcfc82e39ec8be2944",
+  "output_sha256": "abd372cd4d7acb7ec44bae0a97a5e75394e086651f2a25b6ee273f813b24d63b",
+  "input_sha256": "b3c156e0fc2f836948235510ba2cc7f9d9e66aee31797fd2e6a76e06ee961932",
+  "bridge_sha256": "fb300aa4a799cdcc57761f95601c14662e5150965fecc9e5f47409e7c0366582",
+  "scope": "Single R-type registry 0, Mo-plane distance 6.0 angstrom. No matching separated-layer references, distance minimum or phonon verification.",
+  "status": "verified_single_fixed_geometry_SCF",
+  "interaction_energy_available": false,
+  "minimum_verified": false,
+  "source_sha256": {
+    "reports/w3-hetero-g000-pair.json": "9564457774b6385a9fbb042d1b7a48744ccf1dd7b1ab6e83eac26b74ee781ab4",
+    "experiments/week3/materials/w3-hetero-g000-pair.json": "6fdcb28b4a37df2c33f5abdc5766be1c1927effd56070761a1902125062ec68d",
+    "structures/week3/materials/w3-hetero-g000-pair.extxyz": "9e0a693e1de9cef546cdbe082f3cb36ca471e9665abd763c80039cd28d62924e",
+    "reports/completion/heterobilayer-first-input-audit-r1.json": "cbc5220d91b8f5ecfd8e38812591d9ea6692328c5c38a4a73858b7cd8760cf03"
+  }
+}

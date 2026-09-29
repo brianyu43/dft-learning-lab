@@ -1,0 +1,22 @@
+{
+  "status": "arithmetic_prepared_raw_panels_not_available",
+  "tests": {
+    "count": 8,
+    "passed": true,
+    "scope": "Analytic artificial energies and explicit correspondence failures; no raw method or solvent calculation"
+  },
+  "source_sha256": {
+    "scripts/completion_drug_fixed_geometry_sensitivity.py": "ed3eaf07e3d3588e006dfa0f61d32db1738eabce4a9c2ca36926db727cde5ff5",
+    "scripts/completion_drug_contrasts.py": "2027d34365a15c0c5046d03c417c9d795853a85e7aeffec2747502323af09323",
+    "tests/test_completion_drug_fixed_geometry_sensitivity.py": "8471a9ed2cfb7305763cad2d5a1660aaae9702b5255f28072e9d5347a1b86cf2",
+    "docs/DRUG_FIXED_GEOMETRY_SENSITIVITY.ko.md": "de89eafc1a85a682b9d024e5278841f5128fe2db6be6e6910c2067861157bf84",
+    "reports/completion/drug-fixed-geometry-sensitivity-tests-r1.log": "1dce34f2a4eb5b852eaa1908574bcbd555f7f32a4f0230aabb03a65313d35ccc"
+  },
+  "engine_jobs_started": 0,
+  "actual_method_panel_available": false,
+  "actual_solvent_panel_available": false,
+  "production_raw_validator_connected": false,
+  "method_sensitivity_complete": false,
+  "solvent_sensitivity_complete": false,
+  "scientific_project_complete": false
+}

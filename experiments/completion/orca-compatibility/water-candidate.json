@@ -1,0 +1,31 @@
+{
+  "candidate_id": "water-compatibility-r1",
+  "species": "water",
+  "kind": "monomer",
+  "charge": 0,
+  "multiplicity": 1,
+  "graph": {
+    "atomic_numbers": [
+      8,
+      1,
+      1
+    ],
+    "bonds": [
+      [
+        0,
+        1,
+        1
+      ],
+      [
+        0,
+        2,
+        1
+      ]
+    ],
+    "hydrogen_owners": {
+      "1": 0,
+      "2": 0
+    }
+  },
+  "purpose": "Runtime compatibility only; excluded from the four-case drug panel"
+}

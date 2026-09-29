@@ -1,0 +1,13 @@
+test_all_starts_both_grids_same_coordinates_and_resource_caps (test_completion_drug_method_preparation.MethodPreparationTests.test_all_starts_both_grids_same_coordinates_and_resource_caps) ... ok
+test_changed_source_geometry_is_rejected_before_writes (test_completion_drug_method_preparation.MethodPreparationTests.test_changed_source_geometry_is_rejected_before_writes) ... ok
+test_missing_scientific_prerequisites_write_nothing (test_completion_drug_method_preparation.MethodPreparationTests.test_missing_scientific_prerequisites_write_nothing) ... ok
+test_missing_start_or_changed_role_cannot_write_production_plan (test_completion_drug_method_preparation.MethodPreparationTests.test_missing_start_or_changed_role_cannot_write_production_plan) ... ok
+test_pass_flags_do_not_bypass_actual_compatibility_revalidation (test_completion_drug_method_preparation.MethodPreparationTests.test_pass_flags_do_not_bypass_actual_compatibility_revalidation) ... ok
+test_r2scan_or_solvent_compatibility_cannot_enable_wb97x_vacuum (test_completion_drug_method_preparation.MethodPreparationTests.test_r2scan_or_solvent_compatibility_cannot_enable_wb97x_vacuum) ... ok
+test_runtime_review_requires_actual_hashes_topics_and_runtime_quotes (test_completion_drug_method_preparation.MethodPreparationTests.test_runtime_review_requires_actual_hashes_topics_and_runtime_quotes) ... ok
+test_saved_plan_is_idempotent_and_tampered_dependency_is_rejected (test_completion_drug_method_preparation.MethodPreparationTests.test_saved_plan_is_idempotent_and_tampered_dependency_is_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.389s
+
+OK

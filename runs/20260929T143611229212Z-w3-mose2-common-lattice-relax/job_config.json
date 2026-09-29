@@ -1,0 +1,56 @@
+{
+  "protocol_id": "dft-pilot-20260909-v1-week3",
+  "week": 3,
+  "task_id": "SR03",
+  "job_id": "w3-mose2-common-lattice-relax",
+  "engine": "qe",
+  "executable": ".tools/qe-7.6/bin/pw.x",
+  "input": "inputs/qe/week3/w3-mose2-common-lattice-relax.in",
+  "assets": {
+    "data/pseudopotentials/pseudo-dojo-nc-sr-04-pbe-standard/Mo.upf": "pseudo/Mo.upf",
+    "data/pseudopotentials/pseudo-dojo-nc-sr-04-pbe-standard/Se.upf": "pseudo/Se.upf"
+  },
+  "method": "vdW-DF-C09; PseudoDojo nc-sr-04 standard PBE scalar NC",
+  "requested": {
+    "optimization": true,
+    "frequencies": false
+  },
+  "calculation": "relax",
+  "n_atoms": 3,
+  "charge": 0,
+  "SOC": false,
+  "ecutwfc_Ry": 100,
+  "ecutrho_Ry": 400,
+  "k_grid": [
+    9,
+    9,
+    1
+  ],
+  "initial_vacuum_gap_angstrom": 25.0,
+  "initial_cell_angstrom": [
+    [
+      3.205410062897661,
+      4.661971636508688e-19,
+      0.0
+    ],
+    [
+      -1.6027050314488305,
+      2.775966544015645,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      28.333411178470406
+    ]
+  ],
+  "geometry_source": "structures/week3/materials/w3-mose2-common-lattice-relax.extxyz",
+  "conv_thr_Ry": 1e-10,
+  "timeout_seconds": 14400,
+  "rss_limit_gib": 40,
+  "omp_threads": 4,
+  "max_force_eV_angstrom": 0.005,
+  "accuracy_scope": "Composition-specific checks required; no phonon or experimental-cell validation",
+  "role": "strained_monolayer_internal_relaxation",
+  "common_lattice_angstrom": 3.205410062897661
+}

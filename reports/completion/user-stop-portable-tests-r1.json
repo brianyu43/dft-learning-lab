@@ -1,0 +1,26 @@
+{
+  "checked_at": "2026-09-29T15:11:53.584004+00:00",
+  "status": "passed",
+  "scope": "Index-only clean file export, existing Python 3.11 environment; parser/arithmetic/geometry/input/lock tests, no scientific engines or model inference. Not a new-machine installation or full scientific validation.",
+  "python_version": "3.11.15",
+  "export_directory": "/private/tmp/dft-stop-public-check-80sq5e54",
+  "test_suites": {
+    "test_research_parser.py": 9,
+    "test_completion_drug_contrasts.py": 9,
+    "test_completion_alloy_geometry.py": 12,
+    "test_completion_alloy_probe.py": 6,
+    "test_completion_drug_fixed_geometry_sensitivity.py": 8,
+    "test_completion_mace_benchmark.py": 7
+  },
+  "total_tests": 51,
+  "passed": true,
+  "source_sha256": {
+    "tests/test_research_parser.py": "74b0e38c0fe8d10f4972e2f54a89c37279dd212b1ac21324d6b8b110067804f2",
+    "tests/test_completion_drug_contrasts.py": "90f3465c7623dfd21ce56df1bcbb85601d6691f8fb86230fe01aa754344f27b8",
+    "tests/test_completion_alloy_geometry.py": "54930244dce38d85705f111804cc224e64fb02151eb05753c0c66b79ac0bcaaf",
+    "tests/test_completion_alloy_probe.py": "785783c4d20446b00ba7e0aab62d3d03cfe58e8314ae73a5ce4d325fe368044c",
+    "tests/test_completion_drug_fixed_geometry_sensitivity.py": "8471a9ed2cfb7305763cad2d5a1660aaae9702b5255f28072e9d5347a1b86cf2",
+    "tests/test_completion_mace_benchmark.py": "be5f3c47902559087917b820875f112343c819645b72f69e9e1c7660b987f346"
+  },
+  "log_sha256": "44352d60a6f5f798f999a22b2a8919643ca481057893a8b1bb596e8fe615692a"
+}

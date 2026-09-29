@@ -1,0 +1,178 @@
+{
+  "status": "passed",
+  "material": "mose2",
+  "phase": "fixed_internal_coordinates_lattice_brackets",
+  "equilibrium": {
+    "job_id": "w3-mose2-lattice-vc",
+    "energy_eV": -8499.205831416011,
+    "max_force_eV_angstrom": 0.0008107614984788793,
+    "lattice_a_angstrom": 3.266449138686927,
+    "vacuum_gap_angstrom": 30.028380367260887,
+    "number_of_electrons": 46.0,
+    "xml_sha256": "6fd9a00d7892328479514c1a1e7cdf37decf834d9bdb9441e8c13f8ebaac49d1"
+  },
+  "points": [
+    {
+      "job_id": "w3-mose2-lattice-probe-minus",
+      "method": "C09",
+      "fixed_geometry_verified": true,
+      "energy_eV": -8499.20556474211,
+      "max_force_eV_angstrom": 0.03130920521776967,
+      "energy_conversion_eV_per_Hartree": 27.211386245988034,
+      "length_conversion_angstrom_per_Bohr": 0.529177210903,
+      "xml_text_force_max_difference_eV_angstrom": 1.0810379647008261e-07,
+      "ecutwfc_Ry": 120,
+      "ecutrho_Ry": 480,
+      "k_grid": [
+        12,
+        12,
+        1
+      ],
+      "k_offset": [
+        0,
+        0,
+        0
+      ],
+      "conv_thr_Ry": 1e-10,
+      "valence_electrons": {
+        "Mo": 14.0,
+        "Se": 16.0
+      },
+      "openmp_threads_in_log": 4,
+      "xml_nthreads": 1,
+      "xml_thread_field_is_not_used_as_runtime_proof": true,
+      "report_sha256": "571c327034657ae7664d42b04f5e4e13f75d55abd11144ff421e1e0e6d9cdb5a",
+      "xml_sha256": "9bcde62710610bcae44d5cb774b40ee73fd060d5a379fbaa79094115268fd232",
+      "output_sha256": "698d8d99ea3e9e59e8f4eb9b255ce7d5dd38ce4419490fd2a5d01ed58b83bed8",
+      "input_sha256": "659dfd23c31c1e7b8bc432097d7c03832186d1a9f75a4d27e98240aae84372c5",
+      "bridge_sha256": "fb300aa4a799cdcc57761f95601c14662e5150965fecc9e5f47409e7c0366582",
+      "scope": "Verified existing SCF and ASE transfer; no optimization, finite-displacement or D3 engine validation implied",
+      "elapsed_seconds": 621.811,
+      "run_ended_at": "2026-09-29T13:46:36.531748+00:00",
+      "lattice_a_angstrom": 3.26144913868693,
+      "vacuum_gap_angstrom": 30.028380367231293,
+      "forces_eV_angstrom": [
+        [
+          3.544611439484202e-24,
+          2.04648236875883e-24,
+          0.0
+        ],
+        [
+          -1.772305719742101e-24,
+          -1.023241184379415e-24,
+          0.03130920521776967
+        ],
+        [
+          1.772305719742101e-24,
+          1.023241184379415e-24,
+          -0.03130920521776966
+        ]
+      ],
+      "delta_a_angstrom": -0.005,
+      "delta_energy_eV": 0.00026667390193324536,
+      "passed": true
+    },
+    {
+      "job_id": "w3-mose2-lattice-probe-plus",
+      "method": "C09",
+      "fixed_geometry_verified": true,
+      "energy_eV": -8499.205591181311,
+      "max_force_eV_angstrom": 0.029381644007582006,
+      "energy_conversion_eV_per_Hartree": 27.211386245988034,
+      "length_conversion_angstrom_per_Bohr": 0.529177210903,
+      "xml_text_force_max_difference_eV_angstrom": 1.030929588814733e-07,
+      "ecutwfc_Ry": 120,
+      "ecutrho_Ry": 480,
+      "k_grid": [
+        12,
+        12,
+        1
+      ],
+      "k_offset": [
+        0,
+        0,
+        0
+      ],
+      "conv_thr_Ry": 1e-10,
+      "valence_electrons": {
+        "Mo": 14.0,
+        "Se": 16.0
+      },
+      "openmp_threads_in_log": 4,
+      "xml_nthreads": 1,
+      "xml_thread_field_is_not_used_as_runtime_proof": true,
+      "report_sha256": "dab663c15e85022c34327bbff74f5396993268d6a25a17be42d510cb1faf35b4",
+      "xml_sha256": "3ade3ca9a57bb63473929b0cab1a5fd38b73b50c85ae0028b5a93d253c04108d",
+      "output_sha256": "5d98162ff25375c6e4ed19c83b6aabadd66b7e6fef5d857bfcf45654cc91184a",
+      "input_sha256": "54e3e77631ee7a6c773e291720383fb4cd6b0b0f38381f3675e033c6ef0ec3e0",
+      "bridge_sha256": "fb300aa4a799cdcc57761f95601c14662e5150965fecc9e5f47409e7c0366582",
+      "scope": "Verified existing SCF and ASE transfer; no optimization, finite-displacement or D3 engine validation implied",
+      "elapsed_seconds": 662.856,
+      "run_ended_at": "2026-09-29T13:57:40.067476+00:00",
+      "lattice_a_angstrom": 3.27144913868693,
+      "vacuum_gap_angstrom": 30.028380367231293,
+      "forces_eV_angstrom": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          -0.029381644007582006
+        ],
+        [
+          0.0,
+          0.0,
+          0.029381644007582006
+        ]
+      ],
+      "delta_a_angstrom": 0.005,
+      "delta_energy_eV": 0.00024023469995881896,
+      "passed": true
+    }
+  ],
+  "source_sha256": {
+    "reports/w3-mose2-lattice-vc.json": "9dc3c12e9613c221ffbf9d2ef94c4f512f1fae0fcfc630fa27da5357a098c50c",
+    "runs/20260929T113024170269Z-w3-mose2-lattice-vc/output.log": "7888e89bbad6279745d55eb669d0568252ccbcbfd422b6ef20f786083747eaef",
+    "runs/20260929T113024170269Z-w3-mose2-lattice-vc/w3-mose2-lattice-vc.in": "7c158728930c4a52166a6d973894a3a7cf1e33285636a7e01d68fece18313855",
+    "runs/20260929T113024170269Z-w3-mose2-lattice-vc/runner_snapshot.py": "e276ab1aa4ddc435d0a3aceec06b27445f6a6c1263f101009d5de14e6cc70cf6",
+    "runs/20260929T113024170269Z-w3-mose2-lattice-vc/scratch/w3_mose2_lattice_vc.save/data-file-schema.xml": "6fd9a00d7892328479514c1a1e7cdf37decf834d9bdb9441e8c13f8ebaac49d1",
+    "runs/20260929T113024170269Z-w3-mose2-lattice-vc/pseudo/Mo.upf": "7a392dee2cc7088d02184ddefa73b709f11e266fdde348a08eeaf8ea2870e448",
+    "runs/20260929T113024170269Z-w3-mose2-lattice-vc/pseudo/Se.upf": "1f5d0f8b99028dee90766aab811ce5d8bb2c2b2ad38ec60436d1c2888ef5109c",
+    "experiments/week3/materials/w3-mose2-lattice-vc.json": "3105009054c927261c2996a6a0dc9a1d676eaec681117e9860ecc990d66ed364",
+    "runs/20260929T113024170269Z-w3-mose2-lattice-vc/job_config.json": "3105009054c927261c2996a6a0dc9a1d676eaec681117e9860ecc990d66ed364",
+    "structures/week3/materials/w3-mose2-lattice-vc.extxyz": "8d9e46ba39854a4e8daaa88eb2fd20f892e852f04bae9f23d8b8539276dacd64",
+    ".tools/qe-7.6/bin/pw.x": "d9c0a96099241bc96b8fc5783ae61363f9d667458fc2fee19ab13b71cd354ed5",
+    "scripts/verify_completion_equilibrium.py": "353ef48b047107009551871e90c36bdb9c30b2bc33a1229717810d60f76f7964",
+    "scripts/prepare_completion_alloy_probe.py": "3708c310735fddd5f882964c008ec9a2a282e08733e0fcd618d55443c01c166f",
+    "scripts/completion_qe_bridge.py": "fb300aa4a799cdcc57761f95601c14662e5150965fecc9e5f47409e7c0366582",
+    "scripts/week3_qe.py": "558e60bab6800940d2088e5ec2f4dd810a5a4057af5e849ec6ba23e2ac3b060c",
+    "scripts/week3_materials_pipeline.py": "c3445df613ff35be71723d40b80edd913ec080e4e0b973331c7d612e53a08c69",
+    "scripts/verify_completion_lattice_checks.py": "8b43f360972142ff4c5f2d3ad299e100e7c85c19c88eb2e9be5559ad2f987270",
+    "reports/w3-mose2-lattice-probe-minus.json": "571c327034657ae7664d42b04f5e4e13f75d55abd11144ff421e1e0e6d9cdb5a",
+    "runs/20260929T133614709020Z-w3-mose2-lattice-probe-minus/output.log": "698d8d99ea3e9e59e8f4eb9b255ce7d5dd38ce4419490fd2a5d01ed58b83bed8",
+    "runs/20260929T133614709020Z-w3-mose2-lattice-probe-minus/w3-mose2-lattice-probe-minus.in": "659dfd23c31c1e7b8bc432097d7c03832186d1a9f75a4d27e98240aae84372c5",
+    "runs/20260929T133614709020Z-w3-mose2-lattice-probe-minus/runner_snapshot.py": "e276ab1aa4ddc435d0a3aceec06b27445f6a6c1263f101009d5de14e6cc70cf6",
+    "runs/20260929T133614709020Z-w3-mose2-lattice-probe-minus/scratch/w3_mose2_lattice_probe_minus.save/data-file-schema.xml": "9bcde62710610bcae44d5cb774b40ee73fd060d5a379fbaa79094115268fd232",
+    "runs/20260929T133614709020Z-w3-mose2-lattice-probe-minus/pseudo/Mo.upf": "7a392dee2cc7088d02184ddefa73b709f11e266fdde348a08eeaf8ea2870e448",
+    "runs/20260929T133614709020Z-w3-mose2-lattice-probe-minus/pseudo/Se.upf": "1f5d0f8b99028dee90766aab811ce5d8bb2c2b2ad38ec60436d1c2888ef5109c",
+    "experiments/week3/materials/w3-mose2-lattice-probe-minus.json": "74b69fa2c902c03763db8467864e98ed5ab524f07375f7cab9081fca4dc6aebc",
+    "runs/20260929T133614709020Z-w3-mose2-lattice-probe-minus/job_config.json": "74b69fa2c902c03763db8467864e98ed5ab524f07375f7cab9081fca4dc6aebc",
+    "structures/week3/materials/w3-mose2-lattice-probe-minus.extxyz": "15f3983864af38fcbf11fd5e9e70798fea2fc3fc944fff56d94f88f20584ff2f",
+    "reports/w3-mose2-lattice-probe-plus.json": "dab663c15e85022c34327bbff74f5396993268d6a25a17be42d510cb1faf35b4",
+    "runs/20260929T134637199931Z-w3-mose2-lattice-probe-plus/output.log": "5d98162ff25375c6e4ed19c83b6aabadd66b7e6fef5d857bfcf45654cc91184a",
+    "runs/20260929T134637199931Z-w3-mose2-lattice-probe-plus/w3-mose2-lattice-probe-plus.in": "54e3e77631ee7a6c773e291720383fb4cd6b0b0f38381f3675e033c6ef0ec3e0",
+    "runs/20260929T134637199931Z-w3-mose2-lattice-probe-plus/runner_snapshot.py": "e276ab1aa4ddc435d0a3aceec06b27445f6a6c1263f101009d5de14e6cc70cf6",
+    "runs/20260929T134637199931Z-w3-mose2-lattice-probe-plus/scratch/w3_mose2_lattice_probe_plus.save/data-file-schema.xml": "3ade3ca9a57bb63473929b0cab1a5fd38b73b50c85ae0028b5a93d253c04108d",
+    "runs/20260929T134637199931Z-w3-mose2-lattice-probe-plus/pseudo/Mo.upf": "7a392dee2cc7088d02184ddefa73b709f11e266fdde348a08eeaf8ea2870e448",
+    "runs/20260929T134637199931Z-w3-mose2-lattice-probe-plus/pseudo/Se.upf": "1f5d0f8b99028dee90766aab811ce5d8bb2c2b2ad38ec60436d1c2888ef5109c",
+    "experiments/week3/materials/w3-mose2-lattice-probe-plus.json": "1d85e60948dda7c0a58558a824505626b1d54b7771044d0ffa97d12bbde34705",
+    "runs/20260929T134637199931Z-w3-mose2-lattice-probe-plus/job_config.json": "1d85e60948dda7c0a58558a824505626b1d54b7771044d0ffa97d12bbde34705",
+    "structures/week3/materials/w3-mose2-lattice-probe-plus.extxyz": "606a0867a28e6daa5fc73a5e57a6c5261c2e7927bc9d816a5d13ca1ba3271df8"
+  },
+  "both_energy_differences_positive": true,
+  "full_materials_baseline_complete": false,
+  "scope": "Two local lattice displacements only; no full phonon or composition precision claim"
+}

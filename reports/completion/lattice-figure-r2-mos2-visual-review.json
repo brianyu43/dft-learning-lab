@@ -1,0 +1,15 @@
+{
+  "status": "visual_and_data_checks_passed",
+  "material": "mos2",
+  "image": "reports/figures/completion/lattice-brackets-r2/mos2.png",
+  "image_sha256": "0f9da64ed574db4494490a3b1e678afbf5015f7ebe73d3602c97ad6565932f18",
+  "qa_report_sha256": "953ce44af334657e1abf29f5e0c23652c6bbe11038b72fc9d417ef6d7c060537",
+  "checks": [
+    "All three values match the raw bracket audit",
+    "Axis units and three-atom denominator visible",
+    "No clipped or overlapping title, labels or footer",
+    "Dashed segments explicitly described as guides without curve fitting"
+  ],
+  "earlier_revision": "r1 preserved; r2 adds space between x label and footer",
+  "full_materials_baseline_complete": false
+}

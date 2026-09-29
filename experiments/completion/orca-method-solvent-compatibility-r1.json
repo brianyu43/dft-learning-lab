@@ -1,0 +1,56 @@
+{
+  "kind": "orca-method-solvent-compatibility-r1",
+  "jobs": [
+    "experiments/completion/orca-compatibility/w3-compat-r1-wb97x3c-water-engrad.json",
+    "experiments/completion/orca-compatibility/w3-compat-r1-r2scan3c-smdethanol-water-optfreq.json"
+  ],
+  "input_hashes": {
+    ".tools/orca-6.1.1/orca": "ae760c7b81d474cdf4d9f249b50f7c9cde40b402b1d85ef4213a817bdee1400a",
+    ".tools/orca-mpi/lib/libmpi.40.dylib": "3f433facb4325248a8527298f556d2eb16f2300d6329e916216c1a5625cb0c8d",
+    ".tools/orca-mpi/lib/libopen-orted-mpir.dylib": "fb02d3d8287ffc0c63d6cdcf0e94e32333aee0ea401c0c785e74a9ecc276b3f5",
+    ".tools/orca-mpi/lib/libopen-pal.40.dylib": "b9bb52d11408495dddbacd0fec0ef98c07bce80d7f56115428b03033dff77fec",
+    ".tools/orca-mpi/lib/libopen-rte.40.dylib": "dba76cb5bee8fe70e117c9199780eeb4cff76aedaa68e44c174e6c0d4c421975",
+    ".tools/orca-mpi/lib/libz.1.dylib": "be8b83df360c94cfe6c13f320c7f85960eee26a52d793a10fa90ea97595f1a09",
+    "environment/orca-mpi-explicit.txt": "fb1bbeb3dbc7fe7d832832dee42715f8d02c6a4e539c1d7733c3060e67749c19",
+    "experiments/completion/orca-compatibility/w3-compat-r1-r2scan3c-smdethanol-water-optfreq.json": "138683e3cb5bcb851cece0274efb7780d65a459c2500deddeb654051d448b352",
+    "experiments/completion/orca-compatibility/w3-compat-r1-wb97x3c-water-engrad.json": "5a5cd2818dca102201dd6068e5817314a45a130085db0edca7fe5ceb8a78e80f",
+    "experiments/completion/orca-compatibility/water-candidate.json": "d388ea0ac4d7a440546e7610764660345907d078d45df4faaf59f61ecabd579e",
+    "inputs/orca/completion/w3-compat-r1-r2scan3c-smdethanol-water-optfreq.inp": "d1487d918be882aa12f3a31d103b1b091914f73ec6939491e216484ac0f3f9b7",
+    "inputs/orca/completion/w3-compat-r1-wb97x3c-water-engrad.inp": "db04a958ddfee59ea7b7922e2121a13e3d5cc1a1d27e026796f87460c8f74173",
+    "reports/week1-verification.json": "c5f41cc5bf41b88c4616a3002208145996a190b515de0b1cac8a5d7d91865df6",
+    "reports/week1-water-opt-freq.json": "8b3c1908d92e0c40c4ac2c8515f1ec850f56a2033f954580906342006f7f9b2f",
+    "runs/20260910T092739076636Z-week1-water-opt-freq/output.log": "0c970ad7c5d001f2c615feb884d8d7c91f91f94b96539e96ee03c572fe993229",
+    "runs/20260910T092739076636Z-week1-water-opt-freq/water_opt_freq.hess": "a37869abba75a225517e06578b709a39c4225fee8a36d565060710f1de4f48df",
+    "runs/20260910T092739076636Z-week1-water-opt-freq/water_opt_freq.inp": "54b3654cc90c90abaa98f248cdf561f6c13e48765d3cc60505b7ad89dd578935",
+    "runs/20260910T092739076636Z-week1-water-opt-freq/water_opt_freq.xyz": "1973f7491286efaa83d078ec648d745c56ed9e9d37be1216043d9be4da1865c4",
+    "scripts/completion_batch.py": "a2b054d1ae961fdd41e5ced928999980a6f0a62f4d40b001906aaedab2aafe68",
+    "scripts/completion_orca.py": "14758c3b9b546b2203b7467dc9be235f8233cf25c66046095067832de3746ad5",
+    "scripts/orca_parallel.sh": "3dccb38bdd68fe054b55e1456b2168b8df6811a92f612afb707c5fa70458dda8",
+    "scripts/prepare_completion_drug.py": "42bf940d6e819de68e51d62dd8468fff03957d79c2898d4cfe3d0301e9e6878c",
+    "scripts/prepare_completion_orca_compatibility.py": "33e4b2976882f0e163ef6b654a7410ff1f25e84140f685913743084cc14f85f8",
+    "scripts/run_week2_frequency_resume.py": "6728f147ded27522f8029b97d340b75b3a530ba2d8c2b522685123bfded78719",
+    "scripts/run_week2_xtb_screen.py": "a2a8be8a3fc863d200a289ba95e5b8c16baadc7919619579fd3342b7f79c8eb4",
+    "scripts/week3_recovery.py": "34f19d7278e413c70687a069499d9c1de86a2faf5a6a43cc5513f8ba706282fa",
+    "structures/completion/orca-compatibility/w3-compat-r1-r2scan3c-smdethanol-water-optfreq.xyz": "1973f7491286efaa83d078ec648d745c56ed9e9d37be1216043d9be4da1865c4",
+    "structures/completion/orca-compatibility/w3-compat-r1-wb97x3c-water-engrad.xyz": "1973f7491286efaa83d078ec648d745c56ed9e9d37be1216043d9be4da1865c4"
+  },
+  "automatic_execution": false,
+  "automatic_retries": 0,
+  "maximum_total_seconds": 3600,
+  "execution_precondition": "Only after the active controller releases its engine lock, within the existing drug budget",
+  "sources": {
+    "composite_methods": "https://www.faccts.de/docs/orca/6.1/manual/contents/modelchemistries/3cmethods.html",
+    "solvation": "https://www.faccts.de/docs/orca/6.1/manual/contents/essentialelements/solvationmodels.html"
+  },
+  "documentation_checked_on": "2026-09-29",
+  "required_post_run_review": [
+    "Raw normal termination, charge/spin, MPI count, same input coordinate mapping and engrad energy/gradient",
+    "wB97X-3c composite setup including vDZP/ECP and adapted D4; no manually added basis/gCP/dispersion",
+    "Ethanol solvent header, SMD-CDS descriptors and energy components; CDS must not be added twice",
+    "SMD optimized geometry, analytic Hessian, all three internal frequencies and coordinate agreement",
+    "Observed runtime/peak RSS are for water and cannot estimate the full drug-panel cost"
+  ],
+  "runtime_compatibility_verified": false,
+  "full_panel_execution_enabled": false,
+  "scope": "Two small runtime checks only; no full-panel method/solvent sensitivity, numerical accuracy, or formation conclusion"
+}

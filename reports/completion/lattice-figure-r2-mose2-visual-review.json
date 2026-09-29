@@ -1,0 +1,14 @@
+{
+  "status": "visual_and_data_checks_passed",
+  "material": "mose2",
+  "image": "reports/figures/completion/lattice-brackets-r2/mose2.png",
+  "image_sha256": "0165d4ab7456049ee51dc137e41152f676c9ab212009ac21f519d693ffd76c35",
+  "qa_report_sha256": "cdfab60528c3c194476127982035d6e41536ac91abf08391fd900fd852f9248d",
+  "checks": [
+    "All three values match the raw bracket audit",
+    "Axis units and three-atom denominator visible",
+    "No clipped or overlapping title, labels or footer",
+    "Dashed segments explicitly described as guides without curve fitting"
+  ],
+  "full_materials_baseline_complete": false
+}

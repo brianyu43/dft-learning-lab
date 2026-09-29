@@ -1,0 +1,28 @@
+{
+  "status": "apple_gpu_tensor_runtime_verified_model_and_dft_acceleration_unverified",
+  "hardware": {
+    "chip": "Apple M5 Pro",
+    "cpu_cores": 18,
+    "gpu_cores": 20,
+    "physical_memory_GB": 64,
+    "metal_supported": true,
+    "source": "system_profiler SPHardwareDataType SPDisplaysDataType on 2026-09-29; identifying device fields omitted"
+  },
+  "current_qe_gpu_backend": null,
+  "current_qe_openmp_threads": 4,
+  "current_qe_mpi_enabled": false,
+  "mps_runtime_verified": true,
+  "actual_model_inference_executed": false,
+  "weights_downloaded": false,
+  "scientific_speedup_measured": false,
+  "source_sha256": {
+    ".tools/build/qe-7.6/CMakeCache.txt": "2261c72c1bdadf5ab166a296f84885013e9861d01a455a025d29431158ce3bae",
+    ".tools/src/qe-7.6/cmake/DetermineGPUFeatures.cmake": "abc3720530af03cf15dacc74583f78a049e38d95e17956f5e616983b6cdef731",
+    "environment/mps-installed-r1.json": "57af9648243c6977948d39ff736fe3ad9cbf5c825236de8879295d2b5d8b3ac8",
+    "environment/mps-requirements.lock": "8c35e23e579c24b44621875b4d2cc005e618f2dc5fdd920a0a0087577180fcb4",
+    "reports/completion/apple-gpu-preflight-sandbox-r1.json": "aab44c218362f66701b97f3052b8f87bb9f0e6b54d352d0bed8c53d6459b0c11",
+    "reports/completion/apple-gpu-preflight-host-r1.json": "1f71513b615421b3ce726dc37149ada576887ba2cc23ce656013c906f30f8a39",
+    "reports/completion/qe-live-cpu-use-r1.json": "6330415fbeab7ef570c82d540f976221c301b10fa05b6861a6113a83d570c4b9",
+    "docs/APPLE_GPU_ACCELERATION.ko.md": "fd7066b607223604968437f218eacf402de96add8a97dd3a0e60d8995ff8f02b"
+  }
+}

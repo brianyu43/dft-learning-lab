@@ -1,0 +1,15 @@
+{
+  "checked_at": "2026-09-29T15:08:32.714503+00:00",
+  "controller_pid": 8197,
+  "runner_status": "zombie",
+  "children_before_stop": [
+    {
+      "pid": 87860,
+      "status": "zombie",
+      "name": "python3.11"
+    }
+  ],
+  "terminal_report_status": "passed",
+  "terminal_report_ended_at": "2026-09-29T15:08:07.057739+00:00",
+  "action": "SIGTERM to stopped controller, then SIGCONT to deliver pending termination; current scientific job already completed"
+}

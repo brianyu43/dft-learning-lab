@@ -1,0 +1,12 @@
+test_alignment_does_not_use_reflection (test_completion_drug_geometry.DrugGeometryTests.test_alignment_does_not_use_reflection) ... ok
+test_energy_context_and_tolerance_are_required_for_duplicate_certificate (test_completion_drug_geometry.DrugGeometryTests.test_energy_context_and_tolerance_are_required_for_duplicate_certificate) ... ok
+test_existing_caffeine_poses_have_different_geometries_and_contacts (test_completion_drug_geometry.DrugGeometryTests.test_existing_caffeine_poses_have_different_geometries_and_contacts) ... ok
+test_identical_homodimer_fragments_can_exchange_as_whole_system (test_completion_drug_geometry.DrugGeometryTests.test_identical_homodimer_fragments_can_exchange_as_whole_system) ... ok
+test_original_inline_input_is_read_and_H_overlap_rejected (test_completion_drug_geometry.DrugGeometryTests.test_original_inline_input_is_read_and_H_overlap_rejected) ... ok
+test_proton_shift_changes_state_even_with_identical_heavy_coordinates (test_completion_drug_geometry.DrugGeometryTests.test_proton_shift_changes_state_even_with_identical_heavy_coordinates) ... ok
+test_rotation_translation_and_identical_H_permutation (test_completion_drug_geometry.DrugGeometryTests.test_rotation_translation_and_identical_H_permutation) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.031s
+
+OK

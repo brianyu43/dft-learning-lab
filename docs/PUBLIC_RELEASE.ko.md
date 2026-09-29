@@ -1,6 +1,6 @@
 # GitHub 공개 범위와 검증
 
-2026-09-29. 공개 저장소: `brianyu43/dft-learning-lab`.
+2026-09-30 중단 체크포인트. 공개 대상 저장소: `brianyu43/dft-learning-lab`.
 
 ## 공개하는 내용
 
@@ -13,9 +13,9 @@
 
 ## 현재 과학적 상태
 
-MoS₂의 C09 면내 격자 최적화는 종료돼 원시 검증을 통과했다. 공통 격자와 이종 이중층 기준 계산은 진행 중이다. 약물은 기존 최소점과 수치 정밀도 진단을 확보했지만, 공통 조건의 전체 패널·방법·용매 민감도·독립 검증은 미완료다.
+사용자 요청으로 마지막 계산의 정상 종료 직후 전체 실행을 중단했다. 이번 반도체 배치 15건(두 단층 격자·양쪽점·수치 설정·공통 격자 내부 이완·첫 이중층 단일점)을 보존했다. 대응 분리층과 이중층 결합에너지는 미완료다. 약물은 기존 최소점과 수치 정밀도 진단을 확보했지만, 공통 조건의 전체 패널·방법·용매 민감도·독립 검증은 미완료다. MPS 설치·기본 동작 확인은 마쳤으나 실제 MACE 추론과 속도 비교는 실행하지 않았다.
 
-실행 중인 작업의 원시 출력은 첫 공개본에서 제외한다. 상태 JSON은 커밋 시점의 스냅샷이며 GitHub가 로컬 계산의 실시간 모니터라는 뜻이 아니다. 자세한 완료 기준은 [전체 계획](COMPLETION_PLAN.ko.md)을 따른다.
+현재 실행 중인 계산은 없다. 상태 JSON은 커밋 시점 또는 명시된 과거 시점의 스냅샷이며 GitHub가 실시간 모니터라는 뜻이 아니다. 제어기의 종료 코드 130은 사용자 요청에 따른 중단이고 마지막 QE 작업은 정상 종료 코드 0이다. [중단 기록](../reports/completion/USER_STOP_CHECKPOINT.ko.md)과 [전체 미완료 계획](COMPLETION_PLAN.ko.md)을 함께 보존한다.
 
 ## 공개 복제본에서 가능한 검사
 
@@ -33,10 +33,12 @@ uv run python -m unittest discover -s tests -p 'test_research_parser.py' -v
 uv run python -m unittest discover -s tests -p 'test_completion_drug_contrasts.py' -v
 uv run python -m unittest discover -s tests -p 'test_completion_alloy_geometry.py' -v
 uv run python -m unittest discover -s tests -p 'test_completion_alloy_probe.py' -v
+uv run python -m unittest discover -s tests -p 'test_completion_drug_fixed_geometry_sensitivity.py' -v
+uv run python -m unittest discover -s tests -p 'test_completion_mace_benchmark.py' -v
 ```
 
 이 검사는 파서의 실패 처리, 점수 산술, 구조·제약 및 입력 생성을 확인한다. 실제 DFT 재실행이나 전체 연구 완료를 검증하는 검사는 아니다. 다른 검사에는 원래 실행 환경과 제외된 자산이 필요할 수 있다.
 
-첫 공개 준비에서는 Git에 올릴 파일만 추출한 깨끗한 복제본에서 위 **36개 검사(9+9+12+6)**와 공개 파일의 SHA-256 검증을 통과했다. 검사는 기존 Python 3.11 환경으로 실행했으며 새 머신에서 엔진 설치와 DFT 재실행까지 확인했다는 뜻은 아니다. `.gitattributes`는 자동 줄바꿈 변환을 끄므로 원시 파일의 바이트와 해시를 보존한다.
+중단 체크포인트에서는 Git 인덱스에 올린 파일만 추출한 깨끗한 복제본에서 위 **51개 검사(9+9+12+6+8+7)**를 통과했다. [검사 기록](../reports/completion/user-stop-portable-tests-r1.json)에 범위와 코드 해시를 남겼다. 검사는 기존 Python 3.11 환경으로 실행했으며 새 머신에서 엔진 설치와 DFT 재실행까지 확인했다는 뜻은 아니다. 공개 파일의 SHA-256은 최종 manifest와 별도로 대조한다. `.gitattributes`는 자동 줄바꿈 변환을 끄므로 원시 파일의 바이트와 해시를 보존한다.
 
 계산 재실행에는 ORCA/QE/xTB의 적절한 설치와 출처별 자료 확보, 경로 및 원시 해시의 명시적인 이관이 필요하다. 원본 메타데이터를 조용히 덮어쓰거나 예전 결과를 새 계산으로 표시하지 않는다.

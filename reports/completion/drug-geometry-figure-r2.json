@@ -1,0 +1,66 @@
+{
+  "checked_at": "2026-09-29T12:17:18.033584+00:00",
+  "status": "archived_geometry_figure_verified",
+  "figure_data": "reports/figures/completion/drug-poses-r2/figure-data.json",
+  "figure_data_sha256": "098a6fafef3e1ed0e52502c57132f134236e1b1905e5834931f58930e5733ac2",
+  "source_files_rechecked": 9,
+  "artifact_sha256": {
+    "reports/figures/completion/drug-poses-r2/archived-dif-caf-poses.png": "0015ada3b9097dd17dc436a9cb68ae4f6d9e7ce3bb9daa631e5cea8343eff071",
+    "reports/figures/completion/drug-poses-r2/archived-dif-caf-poses.svg": "0769c666ea2518da5a413b94f6030b1348ca03230263510722ea22cb9fc97905"
+  },
+  "structure_count": 3,
+  "atoms_per_structure": 50,
+  "projection_count": 2,
+  "reference_candidate_id": "diflunisal--caffeine-p14",
+  "reference_atom_indices": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25
+  ],
+  "DIF_heavy_atom_alignment_RMSD_angstrom": {
+    "p36": 0.19987899816465768,
+    "p14": 1.2158100307039798e-15,
+    "p06": 0.10323794797561268
+  },
+  "max_internal_pair_distance_change_angstrom": 1.0658141036401503e-14,
+  "contacts_recomputed_and_matched": true,
+  "proper_rotation_verified": true,
+  "manual_visual_review": {
+    "labels_legible": true,
+    "no_clipped_structure": true,
+    "two_projections_present": true,
+    "scale_bars_and_color_legend_present": true,
+    "scope_caption_present": true
+  },
+  "previous_revision_preserved": {
+    "index": "reports/completion/drug-geometry-figure-r1.json",
+    "sha256": "972bf044998d2754304f2768cd276994bac2fe3bff562f85d8b97386bfbc3d89",
+    "reason": "R1 used isolated DIF as display reference; R2 uses DIF from p14, a more similar conformation. This changes the shared viewing direction only."
+  },
+  "new_engine_runs": 0,
+  "common_grid_refinement_complete": false,
+  "scope": "Actual archived isolated molecular geometries; not experimental crystal structures"
+}

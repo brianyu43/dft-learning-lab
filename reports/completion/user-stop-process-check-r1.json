@@ -1,0 +1,19 @@
+{
+  "checked_at": "2026-09-29T15:08:52.407645+00:00",
+  "project_engine_and_controller_processes": [],
+  "candidate_process_access_denied": 0,
+  "locks": [
+    {
+      "path": "experiments/.completion-controller.lock",
+      "available": true
+    },
+    {
+      "path": "experiments/.research-run.lock",
+      "available": true
+    },
+    {
+      "path": "experiments/.week3-controller.lock",
+      "available": true
+    }
+  ]
+}

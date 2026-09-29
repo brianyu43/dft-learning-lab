@@ -1,0 +1,65 @@
+{
+  "material": "mos2",
+  "equilibrium_a_angstrom": 3.144370987108395,
+  "points": [
+    {
+      "delta_a_angstrom": -0.005,
+      "delta_energy_meV": 0.2992058543895837
+    },
+    {
+      "delta_a_angstrom": 0.0,
+      "delta_energy_meV": 0.0
+    },
+    {
+      "delta_a_angstrom": 0.005,
+      "delta_energy_meV": 0.28890116982438485
+    }
+  ],
+  "energy_reference": "Same-composition final equilibrium total energy",
+  "energy_denominator": "One three-atom cell",
+  "bracket_status": "passed",
+  "curve_fit_performed": false,
+  "interpolation_is_only_a_visual_guide": true,
+  "source_sha256": {
+    "reports/w3-mos2-lattice-vc.json": "5ec048d6f2a19343c798e6626a73e8ed8f5d0c47ee6d513c21e1a1c6d4cce7c3",
+    "runs/20260929T095732304432Z-w3-mos2-lattice-vc/output.log": "2c944ad6f836686f43795a940f23b8131b2118bc388b997aeae0ba5b00f67d09",
+    "runs/20260929T095732304432Z-w3-mos2-lattice-vc/w3-mos2-lattice-vc.in": "84c34307f14d2a8293923bd08511667b2cd5a124526312a637656fe784c97cc4",
+    "runs/20260929T095732304432Z-w3-mos2-lattice-vc/runner_snapshot.py": "e276ab1aa4ddc435d0a3aceec06b27445f6a6c1263f101009d5de14e6cc70cf6",
+    "runs/20260929T095732304432Z-w3-mos2-lattice-vc/scratch/w3_mos2_lattice_vc.save/data-file-schema.xml": "0454864352941ec1e66aa6f2ca7d51d4ef914e47466dd09ca5ccfb1422071167",
+    "runs/20260929T095732304432Z-w3-mos2-lattice-vc/pseudo/Mo.upf": "7a392dee2cc7088d02184ddefa73b709f11e266fdde348a08eeaf8ea2870e448",
+    "runs/20260929T095732304432Z-w3-mos2-lattice-vc/pseudo/S.upf": "7dcddbca51ad05414445cc784264d39f139300f47897ae96740f49d6ba96daa7",
+    "experiments/week3/materials/w3-mos2-lattice-vc.json": "38260f6a1c72d9e656ed48edfc53d8a1984706f401e79f0eaea8064fa9efd3f8",
+    "runs/20260929T095732304432Z-w3-mos2-lattice-vc/job_config.json": "38260f6a1c72d9e656ed48edfc53d8a1984706f401e79f0eaea8064fa9efd3f8",
+    "structures/week3/materials/w3-mos2-lattice-vc.extxyz": "d9eafedd2f4322113686248f1ea805544fc6a004dea6fd5f3cf3e52457511ecb",
+    ".tools/qe-7.6/bin/pw.x": "d9c0a96099241bc96b8fc5783ae61363f9d667458fc2fee19ab13b71cd354ed5",
+    "scripts/verify_completion_equilibrium.py": "353ef48b047107009551871e90c36bdb9c30b2bc33a1229717810d60f76f7964",
+    "scripts/prepare_completion_alloy_probe.py": "3708c310735fddd5f882964c008ec9a2a282e08733e0fcd618d55443c01c166f",
+    "scripts/completion_qe_bridge.py": "fb300aa4a799cdcc57761f95601c14662e5150965fecc9e5f47409e7c0366582",
+    "scripts/week3_qe.py": "558e60bab6800940d2088e5ec2f4dd810a5a4057af5e849ec6ba23e2ac3b060c",
+    "scripts/week3_materials_pipeline.py": "c3445df613ff35be71723d40b80edd913ec080e4e0b973331c7d612e53a08c69",
+    "scripts/verify_completion_lattice_checks.py": "8b43f360972142ff4c5f2d3ad299e100e7c85c19c88eb2e9be5559ad2f987270",
+    "reports/w3-mos2-lattice-probe-minus.json": "223ea2832fbd325cfd50dbf6ea24f096cbd716bb47ec230aa62f9b23b5652e0a",
+    "runs/20260929T130132871874Z-w3-mos2-lattice-probe-minus/output.log": "1a15186fd4cb0776fbfd9b58d33a72b251deb34d2a044f57e6fe674d386c016e",
+    "runs/20260929T130132871874Z-w3-mos2-lattice-probe-minus/w3-mos2-lattice-probe-minus.in": "284da09a9de024c0e92d0eead2ef05773913ffc5ae98dde95be3ce777aaee2a6",
+    "runs/20260929T130132871874Z-w3-mos2-lattice-probe-minus/runner_snapshot.py": "e276ab1aa4ddc435d0a3aceec06b27445f6a6c1263f101009d5de14e6cc70cf6",
+    "runs/20260929T130132871874Z-w3-mos2-lattice-probe-minus/scratch/w3_mos2_lattice_probe_minus.save/data-file-schema.xml": "a4bd559469a7686ee76ea7ac9317eb9bf2a3284f31d3ab12eea294eb55b7dbe4",
+    "runs/20260929T130132871874Z-w3-mos2-lattice-probe-minus/pseudo/Mo.upf": "7a392dee2cc7088d02184ddefa73b709f11e266fdde348a08eeaf8ea2870e448",
+    "runs/20260929T130132871874Z-w3-mos2-lattice-probe-minus/pseudo/S.upf": "7dcddbca51ad05414445cc784264d39f139300f47897ae96740f49d6ba96daa7",
+    "experiments/week3/materials/w3-mos2-lattice-probe-minus.json": "3711d3b6ab938bd68a98726e0068365afe6b5588ab578522a0acae130618055b",
+    "runs/20260929T130132871874Z-w3-mos2-lattice-probe-minus/job_config.json": "3711d3b6ab938bd68a98726e0068365afe6b5588ab578522a0acae130618055b",
+    "structures/week3/materials/w3-mos2-lattice-probe-minus.extxyz": "c3d2e2b0b282d8533192dcae1afe707b75d0c5e1c03dae08d418395373cb8690",
+    "reports/w3-mos2-lattice-probe-plus.json": "f263c44dd5b4a5b4f5a8aa580ec862f825f09eebcbeb3951f9edd61f34ca9b32",
+    "runs/20260929T130906282644Z-w3-mos2-lattice-probe-plus/output.log": "fd9798055159d863b60c8db39ad534e2ceefd94f094f92cabd3d77ce10b5e875",
+    "runs/20260929T130906282644Z-w3-mos2-lattice-probe-plus/w3-mos2-lattice-probe-plus.in": "53c991f6cf77c47244ada8ee3bed6b02e49c9269d1fcecd0a74847ae5eb0feda",
+    "runs/20260929T130906282644Z-w3-mos2-lattice-probe-plus/runner_snapshot.py": "e276ab1aa4ddc435d0a3aceec06b27445f6a6c1263f101009d5de14e6cc70cf6",
+    "runs/20260929T130906282644Z-w3-mos2-lattice-probe-plus/scratch/w3_mos2_lattice_probe_plus.save/data-file-schema.xml": "d44274182336f979eabb3580c5eb80f5242c4026db2c4cccb6ade095fd6cd9ad",
+    "runs/20260929T130906282644Z-w3-mos2-lattice-probe-plus/pseudo/Mo.upf": "7a392dee2cc7088d02184ddefa73b709f11e266fdde348a08eeaf8ea2870e448",
+    "runs/20260929T130906282644Z-w3-mos2-lattice-probe-plus/pseudo/S.upf": "7dcddbca51ad05414445cc784264d39f139300f47897ae96740f49d6ba96daa7",
+    "experiments/week3/materials/w3-mos2-lattice-probe-plus.json": "0bb49870a96a993f8c0d90804c31357412c23bb26899533cdb9f066237d951ff",
+    "runs/20260929T130906282644Z-w3-mos2-lattice-probe-plus/job_config.json": "0bb49870a96a993f8c0d90804c31357412c23bb26899533cdb9f066237d951ff",
+    "structures/week3/materials/w3-mos2-lattice-probe-plus.extxyz": "d4ef2996f7ec1c7ad6af4f345c0e8436ec3aa3ae51ad9b62186b7aa6a844fa63",
+    "reports/completion/lattice-check-audits-r1/mos2-brackets.json": "95da4e9d732acf63f8eeb7e9135656bc2c663b93a57f33b491f2b3cfb82b022e",
+    "scripts/plot_completion_lattice_brackets_r2.py": "6fb9ea241f089e24c2e98513cf924db45705e98dc76cfd6aabda3b04b3b70d3e"
+  },
+  "matplotlib_version": "3.11.1"
+}

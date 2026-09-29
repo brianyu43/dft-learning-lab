@@ -1,0 +1,37 @@
+{
+  "checked_at": "2026-09-29T12:23:42.710820+00:00",
+  "status": "method_input_preparer_tested_production_prerequisites_pending",
+  "source_sha256": {
+    "scripts/prepare_completion_drug_method.py": "ab4ef9415619b0e4750d87cb934b48bd3907db25676347734315c03721c2f83f",
+    "tests/test_completion_drug_method_preparation.py": "f89d8d24e4c06e4048fbce7141a89dbab09e70cfb527e36f2c624b18ed2369e8",
+    "docs/DRUG_METHOD_PANEL_PREPARATION.ko.md": "4628e001efc754b848b6e3f364d18d4aa8869451ebe0601dd409a0d23c6166ed",
+    "reports/completion/drug-method-preparation-tests-r1.log": "f87200a3383c668be50868d300a9d8123d91bf6835ba1109eb8150d15917c741",
+    "scripts/completion_drug_panel.py": "c0a7057b1b5f7456cbd8884404437de1af8c0403bc44fea03fd47abdd80f0a95",
+    "scripts/evaluate_completion_orca_compatibility.py": "1e02585bb6e3012554fd0e08cf8b8da624fb30af7d5a2bef875c3a70deefd272",
+    "experiments/completion/drug-start-lineage-r1.json": "f1588cbe89a8876d6e04b5f90a5aef1577d67c4bba4d998e3ed775be17734549",
+    "experiments/completion/orca-method-solvent-compatibility-r1.json": "e242f392028200b4bc97f398960001b3e82ae4e76e6e3fbb7fd3b6d312c96603"
+  },
+  "tests_passed": 8,
+  "test_command": ".venv/bin/python -m unittest discover -s tests -p 'test_completion_drug_method_preparation.py' -v",
+  "tests_scope": "Temporary fixtures with historical coordinates and mocked prerequisite loading; not a raw scientific pass",
+  "prospective_original_starts": 17,
+  "prospective_chemical_species": 14,
+  "prospective_dense_jobs": 17,
+  "prospective_strict_jobs": 17,
+  "planned_maximum_per_job_seconds": 1800,
+  "sum_of_requested_job_timeouts_seconds": 61200,
+  "actual_production_gate_reason": "Uniform numerical panel and detailed wB97X-3c review are required; no inputs written",
+  "absent_production_artifacts": [
+    "experiments/completion/wb97x3c-at-uniform-r1.json",
+    "inputs/orca/completion/wb97x3c-r1",
+    "structures/completion/wb97x3c-r1",
+    "experiments/completion/wb97x3c-r1"
+  ],
+  "production_plan_created": false,
+  "new_engine_runs": 0,
+  "raw_wb97x3c_drug_validation_implemented": false,
+  "method_sensitivity_complete": false,
+  "numerical_precision_verified": false,
+  "running_materials_code_hashes_rechecked": 6,
+  "scope": "Prepared method sensitivity inputs only; all actual runtime, full panel, numerical and method comparison results remain pending"
+}

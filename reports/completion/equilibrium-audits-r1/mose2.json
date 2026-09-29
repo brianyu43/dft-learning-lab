@@ -1,0 +1,91 @@
+{
+  "status": "equilibrium_verified_brackets_and_precision_pending",
+  "material": "mose2",
+  "job_id": "w3-mose2-lattice-vc",
+  "run_ended_at": "2026-09-29T13:01:31.956677+00:00",
+  "summary": {
+    "job_id": "w3-mose2-lattice-vc",
+    "energy_eV": -8499.205831416011,
+    "max_force_eV_angstrom": 0.0008107614984788793,
+    "lattice_a_angstrom": 3.266449138686927,
+    "vacuum_gap_angstrom": 30.028380367260887,
+    "number_of_electrons": 46.0,
+    "xml_sha256": "6fd9a00d7892328479514c1a1e7cdf37decf834d9bdb9441e8c13f8ebaac49d1"
+  },
+  "cell_angstrom": [
+    [
+      3.266449138686927,
+      4.750747310904313e-19,
+      0.0
+    ],
+    [
+      -1.6332245693434635,
+      2.828827934272673,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      33.36179154573129
+    ]
+  ],
+  "cell_angles_degrees": [
+    90.0,
+    90.0,
+    120.00000000000004
+  ],
+  "atomic_positions_angstrom": [
+    [
+      -2.5275665527769594e-43,
+      -6.387311584262667e-26,
+      16.680895772900005
+    ],
+    [
+      1.633224569343468,
+      0.9429426447942986,
+      18.347601362085204
+    ],
+    [
+      1.633224569343468,
+      0.9429426447942986,
+      15.014190183614796
+    ]
+  ],
+  "max_in_plane_stress_kbar": 0.008709850492467693,
+  "final_scf_error_Ry": 7.405802655636378e-13,
+  "ionic_converged": "true",
+  "completed_scf_cycles": 11,
+  "runtime_omp_threads": 4,
+  "elapsed_seconds": 5467.727,
+  "memory": {
+    "rss_limit_gib": 40,
+    "peak_sampled_process_tree_rss_bytes": 1823932416,
+    "memory_samples": 10614,
+    "memory_access_denied": 0,
+    "system_swap_increase_peak_bytes": 0,
+    "memory_measurement": "0.5s sampled summed process-tree RSS; may double-count shared pages and miss peaks. OS ru_maxrss is maximum single-child RSS in macOS bytes. Swap is system-wide, not attributable solely to this job."
+  },
+  "source_sha256": {
+    "reports/w3-mose2-lattice-vc.json": "9dc3c12e9613c221ffbf9d2ef94c4f512f1fae0fcfc630fa27da5357a098c50c",
+    "runs/20260929T113024170269Z-w3-mose2-lattice-vc/output.log": "7888e89bbad6279745d55eb669d0568252ccbcbfd422b6ef20f786083747eaef",
+    "runs/20260929T113024170269Z-w3-mose2-lattice-vc/w3-mose2-lattice-vc.in": "7c158728930c4a52166a6d973894a3a7cf1e33285636a7e01d68fece18313855",
+    "runs/20260929T113024170269Z-w3-mose2-lattice-vc/runner_snapshot.py": "e276ab1aa4ddc435d0a3aceec06b27445f6a6c1263f101009d5de14e6cc70cf6",
+    "runs/20260929T113024170269Z-w3-mose2-lattice-vc/scratch/w3_mose2_lattice_vc.save/data-file-schema.xml": "6fd9a00d7892328479514c1a1e7cdf37decf834d9bdb9441e8c13f8ebaac49d1",
+    "runs/20260929T113024170269Z-w3-mose2-lattice-vc/pseudo/Mo.upf": "7a392dee2cc7088d02184ddefa73b709f11e266fdde348a08eeaf8ea2870e448",
+    "runs/20260929T113024170269Z-w3-mose2-lattice-vc/pseudo/Se.upf": "1f5d0f8b99028dee90766aab811ce5d8bb2c2b2ad38ec60436d1c2888ef5109c",
+    "experiments/week3/materials/w3-mose2-lattice-vc.json": "3105009054c927261c2996a6a0dc9a1d676eaec681117e9860ecc990d66ed364",
+    "runs/20260929T113024170269Z-w3-mose2-lattice-vc/job_config.json": "3105009054c927261c2996a6a0dc9a1d676eaec681117e9860ecc990d66ed364",
+    "structures/week3/materials/w3-mose2-lattice-vc.extxyz": "8d9e46ba39854a4e8daaa88eb2fd20f892e852f04bae9f23d8b8539276dacd64",
+    ".tools/qe-7.6/bin/pw.x": "d9c0a96099241bc96b8fc5783ae61363f9d667458fc2fee19ab13b71cd354ed5",
+    "scripts/verify_completion_equilibrium.py": "353ef48b047107009551871e90c36bdb9c30b2bc33a1229717810d60f76f7964",
+    "scripts/prepare_completion_alloy_probe.py": "3708c310735fddd5f882964c008ec9a2a282e08733e0fcd618d55443c01c166f",
+    "scripts/completion_qe_bridge.py": "fb300aa4a799cdcc57761f95601c14662e5150965fecc9e5f47409e7c0366582",
+    "scripts/week3_qe.py": "558e60bab6800940d2088e5ec2f4dd810a5a4057af5e849ec6ba23e2ac3b060c",
+    "scripts/week3_materials_pipeline.py": "c3445df613ff35be71723d40b80edd913ec080e4e0b973331c7d612e53a08c69"
+  },
+  "lattice_energy_brackets_verified": false,
+  "composition_numerical_precision_verified": false,
+  "phonon_stability_verified": false,
+  "full_materials_baseline_complete": false,
+  "scope": "Converged equilibrium at the frozen C09 settings; local lattice brackets and higher-level validations remain"
+}

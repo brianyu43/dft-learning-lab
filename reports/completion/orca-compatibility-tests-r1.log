@@ -1,0 +1,10 @@
+test_actual_solvent_header_and_last_step_are_used (test_completion_orca_compatibility.CompatibilityEvidenceTests.test_actual_solvent_header_and_last_step_are_used) ... ok
+test_archived_r2scan_method_is_read_without_accepting_it_as_wb97 (test_completion_orca_compatibility.CompatibilityEvidenceTests.test_archived_r2scan_method_is_read_without_accepting_it_as_wb97) ... ok
+test_double_cds_addition_and_missing_component_are_rejected (test_completion_orca_compatibility.CompatibilityEvidenceTests.test_double_cds_addition_and_missing_component_are_rejected) ... ok
+test_method_credits_and_echoed_input_are_not_runtime_evidence (test_completion_orca_compatibility.CompatibilityEvidenceTests.test_method_credits_and_echoed_input_are_not_runtime_evidence) ... ok
+test_smd_total_already_contains_cds_and_composite_terms_follow (test_completion_orca_compatibility.CompatibilityEvidenceTests.test_smd_total_already_contains_cds_and_composite_terms_follow) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.003s
+
+OK

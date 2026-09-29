@@ -1,16 +1,31 @@
 # 전체 실험 완료 계획과 검증 목록
 
+**2026-09-30 사용자 요청으로 중간 종료.** 아래는 원래 목표와 미완료 계획을 보존한 기록이며, 자동 실행 지시가 아니다. 마지막 이중층 단일점이 정상 종료된 뒤 계산 제어기를 종료했다. 이번 반도체 배치 15건을 보존했고 다음 분리층 작업은 시작하지 않았다. 전체 연구 목표는 미완료·일시중지 상태다. 최신 판정은 [중단 기록](../reports/completion/USER_STOP_CHECKPOINT.ko.md)을 우선한다.
+
 2026-09-29. 사용자의 전체 목표: 남은 모든 계획을 완료하고, 구체적인 다음 연구 단계까지 계획하여 실험을 마무리한다. 기준은 기존 EXPERIMENT_PROTOCOL_V1.ko.md, WEEK3_PROTOCOL.ko.md 및 실제 실행 기록이다. 과거 결과와 실패는 보존한다. 완료 기준을 현재 확보한 결과만으로 축소하지 않는다.
 
-## 현재 위치 — 2026-09-29 20:31 KST 확인
+## 중단 시점 위치 — 2026-09-30, 단층 검증과 첫 이중층 단일점 보존
 
-1·2주차 핵심 기준 계산 이후, 3주차 파일럿을 진행하고 있다. 약물 고정 좌표 정밀도 진단 6건은 완료했다. DIF 자기 결합 에너지의 DefGrid3–dense 차이는 0.004744 kcal/mol로 0.1 kcal/mol 목표 이내였지만, 이합체 최대 기울기 성분 차이는 1.19744e-4 Eh/bohr로 이전 기하 민감도 기준 1e-4보다 크다. 따라서 전체 정밀도 문제가 해결됐다고 판정하지 않는다. [진단 결과](../reports/completion/PRECISION_DIAGNOSTIC.ko.md)와 [후속 판정 기록](NUMERICAL_REVIEW_V2.ko.md)을 함께 따른다.
+1·2주차 핵심 기준 계산 이후, 3주차 파일럿을 진행하다 사용자 요청으로 중단했다. 약물 고정 좌표 정밀도 진단 6건은 완료했다. DIF 자기 결합 에너지의 DefGrid3–dense 차이는 0.004744 kcal/mol로 0.1 kcal/mol 목표 이내였지만, 이합체 최대 기울기 성분 차이는 1.19744e-4 Eh/bohr로 이전 기하 민감도 기준 1e-4보다 크다. 따라서 전체 정밀도 문제가 해결됐다고 판정하지 않는다. [진단 결과](../reports/completion/PRECISION_DIAGNOSTIC.ko.md)와 [후속 판정 기록](NUMERICAL_REVIEW_V2.ko.md)을 함께 따른다.
 
-첫 MoS₂ 면내 격자 최적화가 5,570.827초(92.85분)에 정상 종료됐다. 원시 XML을 다시 읽어 a=3.144370987 Å, 최대 힘 2.90076e−5 eV/Å, 최대 면내 응력 0.0016199 kbar 및 최종 전자 수렴을 확인했다. 이 값은 해당 C09/의사퍼텐셜 조건의 수렴 결과이며, 국소 격자 양쪽점과 수치 민감도 검증은 남아 있다. [MoS₂ 원시 검증](../reports/completion/mos2-equilibrium-verification-r1.json)에 근거를 기록했다. 제어기가 MoSe₂ 면내 격자 최적화를 시작했고 실행 핸들이 살아 있다. 최신 상태는 [반도체 실행 기록](../reports/completion/materials-run-state.json)에 있다. 이전 `week3-summary.json`과 `week3-run-state.json`은 과거 중단 기록으로 보존하며, 새 배치의 실시간 상태를 나타내지 않는다. 현재 실행은 기준 계산까지이며 24원자 본 비교나 독립 검증의 완료를 뜻하지 않는다.
+MoS₂와 MoSe₂ 면내 격자 최적화가 각각 5,570.827초(92.85분), 5,467.727초(91.13분)에 정상 종료됐다. 최종 기저에서 재계산된 원시 XML을 검증하여 MoS₂ a=3.144370987 Å, 최대 힘 2.90076e−5 eV/Å, 최대 면내 응력 0.0016199 kbar와 MoSe₂ a=3.266449139 Å, 최대 힘 0.000810762 eV/Å, 최대 면내 응력 0.00870985 kbar를 확인했다. [두 단층 결과와 공통 격자 해석](../reports/completion/MONOLAYER_EQUILIBRIA.ko.md)에 근거와 한계를 기록했다. 해당 C09/의사퍼텐셜 조건의 수렴 결과다. 두 조성의 격자 양쪽점·각 세 수치 설정 비교 및 공통 설정 선택까지 원시 검증을 통과했다. 공통 설정은 100/400 Ry·9×9×1·진공 25 Å다. 공통 격자 a=3.205410063 Å의 MoS₂·MoSe₂ 내부 이완도 각각 713.436초·925.631초에 정상 종료하고 원시 검증을 통과했다. 이종 이중층의 Mo 평면 간 거리 6.0 Å에서 첫 단일점이 정상 종료됐고 원시 검증을 통과했다. 이후 사용자 요청으로 제어기를 종료했다. 분리층 기준과 결합에너지는 미완료다. 최신 상태는 [반도체 실행 기록](../reports/completion/materials-run-state.json)에 있다. 이전 `week3-summary.json`과 `week3-run-state.json`은 과거 중단 기록으로 보존하며, 새 배치의 실시간 상태를 나타내지 않는다. 중단 지점은 기준 계산의 일부까지이며 24원자 본 비교나 독립 검증의 완료를 뜻하지 않는다.
+
+두 단층의 종료 검증은 `scripts/verify_completion_equilibrium.py`로 재현할 수 있다. 실제 종료 보고서·닫힌 XML·전자/기하 수렴·C09·최종 cutoff/k 격자·전자 수·힘/응력·실행 스레드·파일 해시를 확인한다. [MoS₂ 검증 기록](../reports/completion/equilibrium-audits-r1/mos2.json)과 [MoSe₂ 검증 기록](../reports/completion/equilibrium-audits-r1/mose2.json)을 남겼다. 미종료 작업에는 종료 판정을 쓰지 않는다. 이 명령 자체는 QE를 실행하지 않는다.
+
+```sh
+.venv/bin/python scripts/verify_completion_equilibrium.py mos2 --write
+.venv/bin/python scripts/verify_completion_equilibrium.py mose2 --write
+```
+
+격자 양쪽점·수치 설정 비교가 실제 종료되면 `scripts/verify_completion_lattice_checks.py`로 에너지·힘 차와 공통 설정 선택을 원시 결과에서 재검증한다. MoS₂ a−0.005 Å와 a+0.005 Å 점이 모두 정상 종료했고 평형보다 각각 0.299206, 0.288901 meV/3원자 셀 높음을 원시 자료에서 확인했다. 두 점의 감사와 실제 세 점의 그림을 보존했다. MoS₂의 수치 설정 세 개도 모두 종료됐다. 80 Ry·6×6×1·진공 20 Å 후보의 참조 대비 차이는 0.864487 meV/원자, 0.00353790 eV/Å로 기준을 통과했다. [MoS₂ 수치 비교 감사](../reports/completion/lattice-check-audits-r1/mos2-precision.json)를 보존했으며, MoSe₂ 결과까지 확인한 공통 설정은 아래와 같이 `middle`이다. MoSe₂ a−0.005 Å와 a+0.005 Å 점도 평형 대비 각각 +0.266674, +0.240235 meV/3원자 셀로 양쪽점 검증을 통과했다. [MoSe₂ 양쪽점 감사](../reports/completion/lattice-check-audits-r1/mose2-brackets.json)와 실제 세 점의 그림·출처·시각 검토를 보존했다. MoSe₂의 세 설정도 모두 정상 종료했다. 80/6/20은 참조 대비 에너지 차 2.231664 meV/원자로 기준을 초과했고, 100/9/25는 0.451786 meV/원자·힘 차 0.000140839 eV/Å로 통과했다. [두 조성의 공통 선택 감사](../reports/completion/lattice-check-audits-r1/both-selection.json)에서 127개 출처 해시와 제어기의 `middle` 선택을 확인했다. 요구 좌표·cutoff가 다른 경우와 미완료 공동 판정은 거절되는 것을 확인했으며, 전체 비교 통과를 미리 선언하지 않는다. 단계별 명령은 [단층 결과 기록](../reports/completion/MONOLAYER_EQUILIBRIA.ko.md)에 있다.
 
 후속 24원자 구조 생성과 Mo 중심 제약은 예시 구조·해석 가능한 퍼텐셜에서 12개 검증을 통과했다. [구조/제약 검증 기록](ALLOY_GEOMETRY_VALIDATION.ko.md)의 예시 격자·거리를 실제 평형값으로 사용하지 않는다. 약물의 조밀 격자 재최적화 2건은 준비되어 있으며 22개 입력·의존 파일 해시가 그대로임을 확인했다. 다른 연구 엔진을 동시에 실행하지 않는다.
 
 24원자 비용 측정의 입력 준비 도구도 작성했으며 분리층 추출·동일 입력 재사용·미완료 기준 차단 등 6개 검사를 통과했다. [비용 측정 준비](ALLOY_COST_PROBE_PREPARATION.ko.md)는 기준 배치 통과 후 CI/r0/D0와 분리층 3건만 실행 가능하게 만든다. 현재 실제 입력은 생성하지 않았고, 27개 본 행렬의 실행 여부는 실측 비용 검토 이후에 결정한다.
+
+약물 방법·용매 단계에 앞선 [물 분자 호환성 검사](ORCA_METHOD_SOLVENT_COMPATIBILITY.ko.md) 2건의 입력을 고정했다. 28개 해시와 원본 물 구조를 확인했으며, 기존 출력·가상 에너지 분해에 대한 검증기 5개 점검을 통과했다. 실제 호환성 계산은 미실행이고 wB97X-3c·에탄올 약물 패널의 결과도 아직 없다.
+
+약물 방법·용매 단일점의 후속 [점수 변화 분해](DRUG_FIXED_GEOMETRY_SENSITIVITY.ko.md)도 준비했다. 같은 좌표에서 조건을 바꾼 효과와 새 조건에서 자세를 다시 선택한 효과를 분리하고, 기본/전체 자세와 네 동률 폭의 판정을 유지한다. 인공 예제 8개가 산술·누락·대응 오류 검사를 통과했으며, 실제 원시 패널과 생산 검증기의 연결은 아직 미완료다.
 
 ## 진행 순서
 
@@ -32,28 +47,40 @@
 | C01 | 원래 완료/실패 자료 보존 | 과거 54건 핵심 파일 808개 해시 검증 | `experiments/completion/preserved-original-evidence.json`; 최종 시점에 재검증 |
 | C02 | 정밀도 문제 원인과 공통 수치 설정 | 6건 진단 완료, 기하·전체 패널 판정 대기 | 고정 좌표 에너지/기울기, B/X 수렴 표, 수정 프로토콜 |
 | D01 | 기본 5 단량체·9 이합체와 선택된 대안 자세 | 원래 17시작점 이력 검증; 과거 설정 최소점 9개·최초 DFT 미실행 8개; 공통 패널 미완료 | `docs/DRUG_UNIFORM_PANEL_PREPARATION.ko.md`; 대표 2건 재사용 + 후속 15건 준비 도구 작성, 실제 공통 Opt/Freq·화학 상태·중복 검증 필요 |
-| D02 | 네 사례의 B/X와 수치 오차 | 산술 9개·원시 연결 8개 점검 통과; 실제 공통 패널 미완료 | `docs/DRUG_FULL_PANEL_VALIDATION.ko.md`; 전체 dense/strict 결과와 B/X·방법/환경별 실제 점수 필요 |
-| D03 | 방법 민감도 | 미실행 | 모든 비교 성분의 wB97X-3c 단일점 |
-| D04 | 확인된 용매에서 SP와 최적화·진동 | 미실행 | 에탄올 입력/결과와 진공 비교 |
-| D05 | 양성자 이동·배좌·동률 범위 점검 | 일부 준비 | 상태별 결과와 순위 변화 전체 표 |
+| D02 | 네 사례의 B/X와 수치 오차 | 전자 산술·원시 연결 준비 및 기존 최소점 9개 ZPE 추출 완료; 공통 ZPE 보조 집계의 별도 8개 점검 통과; 실제 공통 패널 미완료 | `docs/DRUG_FULL_PANEL_VALIDATION.ko.md`, `docs/DRUG_ZPE_PANEL_PREPARATION.ko.md`, `reports/completion/DRUG_ARCHIVED_ZPE.ko.md`; 실제 전체 dense/strict 전자 B/X와 동일 구조 ZPE 보조값·방법/환경별 점수 필요 |
+| D03 | 방법 민감도 | 물 호환성 검사 및 공통 좌표 17×2 방법 입력 생성 도구 준비·8개 점검 통과; 실제 방법 패널 입력·계산 미완료 | `docs/DRUG_METHOD_PANEL_PREPARATION.ko.md`; 실제 호환성 상세 검토·공통 진공 정밀도 통과 후 모든 성분의 wB97X-3c 단일점과 수치/방법 점수 검증 필요 |
+| D04 | 확인된 용매에서 SP와 최적화·진동 | 물 SMD Opt/Freq 및 공통 좌표 17×2 용매 단일점 생성 도구 준비·8개 점검 통과; 실제 용매 패널 입력·계산 미완료 | `docs/DRUG_SOLVENT_PANEL_PREPARATION.ko.md`; 실제 SMD 에너지 분해·수치 검증 후 종류별 최초 최대 14개 Opt/Freq와 대안 보강·진공 비교 필요 |
+| D05 | 양성자 이동·배좌·동률 범위 점검 | 과거 최소점 9개의 수소 소유 변화 없음 확인·CAF 3자세 기하 구별·대칭 대응 7개 점검 통과; 공통 패널 및 ADE 직접 이온 출발점 미완료 | `reports/completion/DRUG_ARCHIVED_GEOMETRY.ko.md`; 전체 공통/용매 상태·중복·순위와 동률 범위별 판정 필요 |
 | D06 | 문헌 조건/계산 조건·모델 예측·단순 특징 비교 | 문헌·모델·2D 특징 기준표 완료; 실제 DFT 대조 미완료 | `reports/completion/DRUG_PILOT_BASELINES.ko.md`; 정식 SI/본문 교차 검증, 네 사례와 31개 토토머 표현의 특징, DFT B/X는 미산출 |
-| S01 | MoS2/MoSe2 격자·조성별 수렴 | MoS₂ 정상 종료 및 힘·응력·XML 검증; MoSe₂ 실행 중, 조성별 정밀도 대기 | `reports/completion/mos2-equilibrium-verification-r1.json`; 두 격자 양쪽점 및 조성별 수치 검증 필요 |
-| S02 | 이종 이중층 9점과 분리층 기준 | 미실행 | 동일 좌표·셀 비교 및 D0 양쪽 점검 |
+| S01 | MoS2/MoSe2 격자·조성별 수렴 | 두 단층 평형·양쪽점·조성별 수치 비교·공통 설정 선택 원시 검증 통과 | `reports/completion/lattice-check-audits-r1/both-selection.json`: 127개 출처 해시, 공통 100/400 Ry·9×9×1·진공 25 Å; 범위는 두 평형 단층 |
+| S02 | 이종 이중층 9점과 분리층 기준 | 두 공통 격자 단층 이완 및 6.0 Å 이중층 단일점 1건 원시 검증 통과 후 사용자 중단; 분리층·결합에너지·9점 미완료 | `reports/completion/COMMON_LATTICE_LAYERS.ko.md`, `reports/completion/heterobilayer-first-result-audit-r1.json`; 최대 힘 1.327559 eV/Å, 최소점 아님. 대응 분리층과 D0 양쪽 점검 미실행 |
 | S03 | 순수 MoS2 거리 탐색 보완 | 미완료 | 최소점 양쪽의 에너지 및 힘 |
 | S04 | 24원자 C0/CI/CO 27점 | 예시 구조·분리층 조립 및 비용 측정 준비 도구 검증; 실제 24원자 계산 0건 | `docs/ALLOY_COST_PROBE_PREPARATION.ko.md`; 기준 통과 후 CI/r0/D0와 분리층 3건 비용 측정, 본 행렬 예산 검토와 모든 성분 에너지 필요 |
 | S05 | 수치·분산 방법 민감도와 I | 본 비교 미실행; QE 7.6 대체 분산 옵션 확인·실행 검증 준비 | `docs/QE_TRANSFER_AND_METHOD_CHECKS.ko.md`; I 및 u_num, 실제 방법 변경 결과 필요 |
-| S06 | 제약된 내부 좌표 이완 9개 | SCF 공급자 연결·투영 힘 BFGS 작성 및 8개 검사 통과; 실제 24원자 QE 이완 0건 | `docs/QE_CONSTRAINED_RELAXATION_PREPARATION.ko.md`; 실제 유한변위 검증·SCF 실행 공급자·전체 궤적과 배치/제약 보존·비용 검토 필요 |
+| S06 | 제약된 내부 좌표 이완 9개 | 투영 힘 BFGS 8개·SCF 공급자 7개·좌표/궤적 검증기 8개 점검 통과; 실제 24원자 QE 이완 0건 | `docs/QE_CONSTRAINED_RELAXATION_PREPARATION.ko.md`; 실제 유한변위 검증·비용/자격 판정 연결·실제 QE 궤적 감사·최종 분리층 비교 필요 |
 | R01 | 두 분야 파일럿 판정·주력 선택 | 미완료 | 지지/반박/미해결, 자원 사용과 선택 근거 |
 | R02 | 독립 대상·평가 규칙 사전 고정 | 추가 30쌍 자료 풀 확보; 최종 선정 미완료 | 출처/조건/중복 점검, 고정 시점 및 해시 |
 | R03 | 선택 분야의 독립 검증 실제 실행 | 미실행 | 추가 사례/조건의 원시 결과와 전체 판정 |
-| R04 | 적합한 공개 모델 비교 가능성 평가 | 약물 6/30쌍 중복 확인; 단층 MACE 배포본의 층간 비교 제외 근거 확인; 다른 반도체 후보 검토 중 | `reports/completion/DATA_READINESS.ko.md`; 가능 시 실제 비교 |
+| R04 | 적합한 공개 모델 비교 가능성 평가 | 약물 6/30쌍 중복·기존 반도체 후보 3개의 제한 확인; 추가 MACE 후보 2개의 배포/분산 기본값 조사, 실제 적합성·추론 미완료 | `reports/completion/DATA_READINESS.ko.md`, `reports/completion/MATERIALS_FOUNDATION_SCREEN.ko.md`; 조건·사용 범위·분산 일치 검증 후 적합할 때 실제 비교 |
 | F01 | 모든 성공·실패·미해결과 주장 범위 | 미완료 | 최종 결과 표와 주장별 증거 |
-| F02 | 그림·재현 명령·환경·해시 패키지 | 미완료 | 시각 검토 및 독립 재계산 점검 |
+| F02 | 그림·재현 명령·환경·해시 패키지 | 기존 CAF 3자세·두 조성 격자 세 점·공통 셀 두께 변화 그림과 출처·시각 검토 완료; 전체 결과 패키지 미완료 | `reports/completion/drug-geometry-figure-r2.json`, `reports/completion/lattice-figure-r2-{mos2,mose2}-visual-review.json`, `reports/completion/common-layer-figure-r1-visual-review.json`; 전체 방법/환경·반도체·독립 검증의 그림과 재계산 점검 필요 |
 | F03 | 구체적 다음 연구 단계 | 미완료 | 가설/대조/예산/데이터/판정 기준을 갖춘 계획 |
 
 ## 운영
 
 원래 첫 파일럿 계산 예산(약물 80시간, 반도체 40시간)을 추적한다. 2주차 이후 잔여 예산에서 3주차와 이후 모든 시도·실패·진단 비용을 차감한다. 독립 검증 예산은 파일럿 실측과 고정된 범위로 별도 산정한다. ORCA 12 MPI, QE 4 OpenMP, BLAS 1, 연구 엔진 동시 한 개, 프로세스 트리 RSS 40 GiB를 유지한다. 계산의 종료·중단과 과학적 검증 통과를 따로 기록한다. 동일 실패의 추가 시도에는 검토와 새 버전이 필요하다.
+
+[계산 비용 첫 스냅샷](../reports/completion/resource-cost-snapshot-r1.json)은 2주차까지의 비용, 이후 종료·중단된 모든 시도와 실행 중 MoSe₂의 경과 시간을 구분한다. 측정 시점 누적 점유 시간은 약물 6.179시간/80시간, 반도체 6.299시간/40시간이었다. 실행 중 시간은 계속 증가하는 하한 스냅샷이며 잔여 전체 실험의 소요 시간 예측은 아니다. 첫 20% 재검토 지점은 각각 16시간·8시간으로, 이 시점에는 아직 도달하지 않았다. 반도체가 8시간에 도달할 때 실제 단층·이중층 시간을 이용해 잔여 비용을 검토하고, 24원자 본 비교는 실제 비용 측정 전까지 전체 소요 시간을 단층 결과로 외삽하지 않는다. 모델 추론 비용은 실제 실행 뒤 별도로 합산한다.
+
+## 사용자 요청에 따른 가속 경로
+
+Mac GPU를 가능한 단계에 적극적으로 사용한다. [Apple GPU 검토와 적용 기준](APPLE_GPU_ACCELERATION.ko.md)에 현재 QE/ORCA 지원 범위, 별도 PyTorch/MACE 환경, 실제 MPS 행렬·미분 성공과 float64 제한을 기록했다. 연구 모델 추론과 가속률은 아직 검증하지 않았다. 현재 QE 배치를 보존하고, 후속 모델의 CPU/MPS 정밀도·실측 시간 및 QE CPU 4·8·12스레드 비교를 수행한 뒤 빠르고 허용 오차를 만족하는 경로를 채택한다.
+
+[QE 스레드 비교 6건](QE_THREAD_BENCHMARK.ko.md)의 실행 입력과 26개 의존 해시를 고정했다. 같은 원본 입력 바이트, 순서 반전 2회, 에너지·힘 일치 및 양쪽 반복에서의 10% 이상 시간 단축 조건을 사용한다. 실제 실행은 현재 기준 배치 종료 후이며 생산 설정 변경은 아직 없다.
+
+[첫 MACE 가중치](../reports/completion/MACE_GPU_PREPARATION.ko.md)를 공식 배포에서 확보하고 CPU에서 읽어 Mo·S·Se, 6 Å cutoff, 원본 float64를 확인했다. 실제 모델 에너지·힘 추론과 GPU 가속률은 아직 없다. 원소 목록 확인을 계면 정확도 검증으로 세지 않는다.
+
+[MACE 장치 비교 실행](MACE_DEVICE_BENCHMARK.ko.md)도 준비했다. 동일 가중치의 CPU float64/float32 각 4·8스레드와 MPS float32를 6원자·24원자 성능용 구조 및 정확히 추출한 분리층에서 비교한다. 7개 산술·동시 실행 차단 검사가 통과했고, 실제 QE가 실행 중이면 모델 추론을 시작하지 않음을 확인했다. 현재는 입력·코드 준비 완료이며 실제 모델 추론·가속률 측정은 0건이다.
 
 ## 수치 설정 참고
 

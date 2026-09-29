@@ -1,0 +1,92 @@
+{
+  "kind": "qe_openmp_thread_benchmark_r1",
+  "jobs": [
+    "experiments/completion/qe-threads/w3-qe-omp-r1-n4-r1.json",
+    "experiments/completion/qe-threads/w3-qe-omp-r1-n8-r1.json",
+    "experiments/completion/qe-threads/w3-qe-omp-r1-n12-r1.json",
+    "experiments/completion/qe-threads/w3-qe-omp-r1-n12-r2.json",
+    "experiments/completion/qe-threads/w3-qe-omp-r1-n8-r2.json",
+    "experiments/completion/qe-threads/w3-qe-omp-r1-n4-r2.json"
+  ],
+  "mapping": [
+    {
+      "repeat": 1,
+      "threads": 4,
+      "config": "experiments/completion/qe-threads/w3-qe-omp-r1-n4-r1.json",
+      "job_id": "w3-qe-omp-r1-n4-r1"
+    },
+    {
+      "repeat": 1,
+      "threads": 8,
+      "config": "experiments/completion/qe-threads/w3-qe-omp-r1-n8-r1.json",
+      "job_id": "w3-qe-omp-r1-n8-r1"
+    },
+    {
+      "repeat": 1,
+      "threads": 12,
+      "config": "experiments/completion/qe-threads/w3-qe-omp-r1-n12-r1.json",
+      "job_id": "w3-qe-omp-r1-n12-r1"
+    },
+    {
+      "repeat": 2,
+      "threads": 12,
+      "config": "experiments/completion/qe-threads/w3-qe-omp-r1-n12-r2.json",
+      "job_id": "w3-qe-omp-r1-n12-r2"
+    },
+    {
+      "repeat": 2,
+      "threads": 8,
+      "config": "experiments/completion/qe-threads/w3-qe-omp-r1-n8-r2.json",
+      "job_id": "w3-qe-omp-r1-n8-r2"
+    },
+    {
+      "repeat": 2,
+      "threads": 4,
+      "config": "experiments/completion/qe-threads/w3-qe-omp-r1-n4-r2.json",
+      "job_id": "w3-qe-omp-r1-n4-r2"
+    }
+  ],
+  "policy": {
+    "max_energy_difference_eV": 1e-05,
+    "max_force_vector_difference_eV_angstrom": 1e-05,
+    "minimum_speedup_in_both_repeats": 1.1
+  },
+  "parent_report": "reports/w2-bilayer-selected-r0-d6p3-pair.json",
+  "input_hashes": {
+    ".tools/qe-7.6/bin/pw.x": "d9c0a96099241bc96b8fc5783ae61363f9d667458fc2fee19ab13b71cd354ed5",
+    "data/pseudopotentials/pseudo-dojo-nc-sr-04-pbe-standard/Mo.upf": "7a392dee2cc7088d02184ddefa73b709f11e266fdde348a08eeaf8ea2870e448",
+    "data/pseudopotentials/pseudo-dojo-nc-sr-04-pbe-standard/S.upf": "7dcddbca51ad05414445cc784264d39f139300f47897ae96740f49d6ba96daa7",
+    "experiments/completion/qe-threads/w3-qe-omp-r1-n12-r1.json": "4bc9e6edca8b5d804ece6b6c528b43175eff7bdb00be9edac82879e8327373ac",
+    "experiments/completion/qe-threads/w3-qe-omp-r1-n12-r2.json": "0f9839b6daaa03316dfbd84f5a5f6745c5e1d8e741dca677b02cb2d2a43f1ad0",
+    "experiments/completion/qe-threads/w3-qe-omp-r1-n4-r1.json": "d791ceccd4ded666e9153eb4070c5f43327c1d0f539f07e89bcfedce48b3813b",
+    "experiments/completion/qe-threads/w3-qe-omp-r1-n4-r2.json": "2bfc5339f9b0de4eead730ac1ab71865ad5bbb7f91c1e762eb765fb5a54d7ec3",
+    "experiments/completion/qe-threads/w3-qe-omp-r1-n8-r1.json": "83608b94365a85b062888f4c7a34f589fbed2dc21345579109d82cee42bca421",
+    "experiments/completion/qe-threads/w3-qe-omp-r1-n8-r2.json": "9db90d3c5c7d8f82c2911ccba318c5eb841304a5a69c57c7c3822fad7d2f9c52",
+    "experiments/week2/w2-bilayer-selected-r0-d6p3-pair.json": "169e802b488751b34525f226645c30aea479e003b9d952792ac510b8a8ebb2df",
+    "inputs/qe/completion/w3-qe-omp-r1-n12-r1.in": "ab34f18eae8728a2f920dc990d6e0e0aadf180c66dec8ce586bdd1469566cb97",
+    "inputs/qe/completion/w3-qe-omp-r1-n12-r2.in": "ab34f18eae8728a2f920dc990d6e0e0aadf180c66dec8ce586bdd1469566cb97",
+    "inputs/qe/completion/w3-qe-omp-r1-n4-r1.in": "ab34f18eae8728a2f920dc990d6e0e0aadf180c66dec8ce586bdd1469566cb97",
+    "inputs/qe/completion/w3-qe-omp-r1-n4-r2.in": "ab34f18eae8728a2f920dc990d6e0e0aadf180c66dec8ce586bdd1469566cb97",
+    "inputs/qe/completion/w3-qe-omp-r1-n8-r1.in": "ab34f18eae8728a2f920dc990d6e0e0aadf180c66dec8ce586bdd1469566cb97",
+    "inputs/qe/completion/w3-qe-omp-r1-n8-r2.in": "ab34f18eae8728a2f920dc990d6e0e0aadf180c66dec8ce586bdd1469566cb97",
+    "inputs/qe/week2/w2-bilayer-selected-r0-d6p3-pair.in": "ab34f18eae8728a2f920dc990d6e0e0aadf180c66dec8ce586bdd1469566cb97",
+    "reports/w2-bilayer-selected-r0-d6p3-pair.json": "b4dbdf769d3539ea9f7c4d8583865961726cd394c5e2736ef13b59522d75b423",
+    "reports/week2-summary.json": "796a9918edec9e5aef93b0bcca78a65ddc41e4d9b45d1843a3b6e17af08b4173",
+    "runs/20260911T030343672294Z-w2-bilayer-selected-r0-d6p3-pair/output.log": "fd6a801f5afb35a74a32c0574fbb9765daf3ba04049085554dea906ea9a46690",
+    "runs/20260911T030343672294Z-w2-bilayer-selected-r0-d6p3-pair/scratch/w2_bilayer_selected_r0_d6p3_pair.save/data-file-schema.xml": "7399b24388b31927e63c26dcd51879267c767899f344b7b4b7ecc169b2733a19",
+    "scripts/completion_batch.py": "a2b054d1ae961fdd41e5ced928999980a6f0a62f4d40b001906aaedab2aafe68",
+    "scripts/completion_qe_bridge.py": "fb300aa4a799cdcc57761f95601c14662e5150965fecc9e5f47409e7c0366582",
+    "scripts/completion_qe_thread_benchmark.py": "5add61a041467b23b5a8e9e636f10b858327dbf72afe926c3c417c34fb9bd1ab",
+    "scripts/prepare_week3_drug.py": "3f4030a8f30c814c60721d6f9e6d94f5c5285d4052d2c536180d3d0b6a2bec26",
+    "scripts/research_run.py": "e276ab1aa4ddc435d0a3aceec06b27445f6a6c1263f101009d5de14e6cc70cf6"
+  },
+  "scientific_atom_count": 6,
+  "maximum_total_seconds": 5400,
+  "automatic_execution": false,
+  "automatic_retries": 0,
+  "numerical_precision_verified": false,
+  "execution_precondition": "After the current materials controller exits, with the single-engine lock and remaining pilot budget",
+  "input_prefix_policy": "Byte-identical QE input, including prefix; scratch is isolated inside each unique run directory",
+  "selection_policy": "Only consider 8 or 12 threads if both repeat speedups over corresponding 4-thread runs are at least 1.1; choose fastest eligible median",
+  "scope": "Six fresh SCFs, not six independent structures; two timing repeats do not establish universal scaling"
+}

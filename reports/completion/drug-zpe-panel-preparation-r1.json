@@ -1,0 +1,31 @@
+{
+  "checked_at": "2026-09-29T12:34:14.516031+00:00",
+  "status": "uniform_zpe_supplement_prepared_not_executed_on_full_panel",
+  "code_and_evidence_sha256": {
+    "scripts/completion_drug_zpe_panel.py": "0e6fb682041a4f2d629f2e2d85be8d49d7a67f91b8a0ce78eb04477b53a05e6d",
+    "scripts/completion_drug_zpe.py": "08b80ff250bef9355cbad01c6ac2eceb2b02d57c438faeeeaea8080374ede1ca",
+    "scripts/completion_drug_panel.py": "c0a7057b1b5f7456cbd8884404437de1af8c0403bc44fea03fd47abdd80f0a95",
+    "scripts/completion_drug_contrasts.py": "2027d34365a15c0c5046d03c417c9d795853a85e7aeffec2747502323af09323",
+    "scripts/run_week2_frequency_resume.py": "6728f147ded27522f8029b97d340b75b3a530ba2d8c2b522685123bfded78719",
+    "scripts/run_week2_xtb_screen.py": "a2a8be8a3fc863d200a289ba95e5b8c16baadc7919619579fd3342b7f79c8eb4",
+    "scripts/week3_recovery.py": "34f19d7278e413c70687a069499d9c1de86a2faf5a6a43cc5513f8ba706282fa",
+    "scripts/prepare_completion_drug.py": "42bf940d6e819de68e51d62dd8468fff03957d79c2898d4cfe3d0301e9e6878c",
+    "scripts/prepare_week3_drug.py": "3f4030a8f30c814c60721d6f9e6d94f5c5285d4052d2c536180d3d0b6a2bec26",
+    "scripts/research_run.py": "e276ab1aa4ddc435d0a3aceec06b27445f6a6c1263f101009d5de14e6cc70cf6",
+    "uv.lock": "20371b8767f5dc70e625a5f7b84973d7bae5287468ee38db4bb8ac0340614b39",
+    "tests/test_completion_drug_zpe_panel.py": "c4f4dac4c4000ebef1a5f88b971b5f29e03b8118de17fcb8032ddc88e754b7f8",
+    "docs/DRUG_ZPE_PANEL_PREPARATION.ko.md": "8935908f6949435e5f4dd278521742005ac597f9753459ed3d6a15cae5898010",
+    "reports/completion/drug-zpe-panel-tests-r1.log": "916e1ea1914363dbb018ebfb7ba2623b32699a213e47e10bfac0df930597332a",
+    "reports/completion/drug-zpe-verification-r1.json": "3f064571a2517c1df7a5343cc631fd54b4f63aed25bda482201d5a79c9a1751b"
+  },
+  "tests_passed": 8,
+  "test_scope": "Synthetic B/X decomposition and selection/tie/mass/provenance rejection checks; no real full-panel score result",
+  "production_gate_reason": "Uniform electronic panel is incomplete; no ZPE score report written",
+  "production_score_report": "reports/completion/uniform-vacuum-r4-zpe.json",
+  "production_score_report_exists": false,
+  "actual_full_panel_integration_verified": false,
+  "new_engine_runs": 0,
+  "electronic_primary_selection_replaced": false,
+  "frequency_grid_convergence_verified": false,
+  "scientific_project_complete": false
+}

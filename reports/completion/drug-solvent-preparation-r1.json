@@ -1,0 +1,36 @@
+{
+  "checked_at": "2026-09-29T12:40:41.327110+00:00",
+  "status": "solvent_input_preparer_tested_production_prerequisites_pending",
+  "source_sha256": {
+    "scripts/prepare_completion_drug_solvent.py": "714045f44225b31c42f3abcf214ae5a953f3d4cbb86b86dbe513cf04980d3869",
+    "tests/test_completion_drug_solvent_preparation.py": "7f70f73e0a9160bdd6c93ca9303676cc64a8ee6e56735abe2bb9e9ba216a44c5",
+    "docs/DRUG_SOLVENT_PANEL_PREPARATION.ko.md": "1b5216053bcd99d4cbfeb1d7319643c9985360abc62c247430cf9f07cba88469",
+    "reports/completion/drug-solvent-preparation-tests-r1.log": "606a6dab9450811dc363421f582a1ab4e66d826c2cc9d5c6037207a4eb07741e",
+    "scripts/completion_drug_panel.py": "c0a7057b1b5f7456cbd8884404437de1af8c0403bc44fea03fd47abdd80f0a95",
+    "scripts/evaluate_completion_orca_compatibility.py": "1e02585bb6e3012554fd0e08cf8b8da624fb30af7d5a2bef875c3a70deefd272",
+    "experiments/completion/drug-start-lineage-r1.json": "f1588cbe89a8876d6e04b5f90a5aef1577d67c4bba4d998e3ed775be17734549",
+    "experiments/completion/orca-method-solvent-compatibility-r1.json": "e242f392028200b4bc97f398960001b3e82ae4e76e6e3fbb7fd3b6d312c96603"
+  },
+  "tests_passed": 8,
+  "tests_scope": "Temporary inputs with historical coordinates and mocked prerequisite loading; no actual SMD panel result",
+  "prospective_original_starts": 17,
+  "prospective_chemical_species": 14,
+  "prospective_dense_jobs": 17,
+  "prospective_strict_jobs": 17,
+  "planned_maximum_per_job_seconds": 1800,
+  "sum_of_requested_job_timeouts_seconds": 61200,
+  "production_gate_reason": "Uniform numerical panel and detailed ethanol SMD review are required; no inputs written",
+  "absent_production_artifacts": [
+    "experiments/completion/smdethanol-at-uniform-r1.json",
+    "inputs/orca/completion/smdethanol-r1",
+    "structures/completion/smdethanol-r1",
+    "experiments/completion/smdethanol-r1"
+  ],
+  "production_plan_created": false,
+  "new_engine_runs": 0,
+  "raw_smd_drug_panel_validation_implemented": false,
+  "solvent_geometry_optimization_enabled": false,
+  "solvent_sensitivity_complete": false,
+  "running_materials_code_hashes_rechecked": 6,
+  "scope": "Fixed-vacuum-coordinate SMD SP input preparation; actual SP validation, solvent Opt/Freq and balanced alternatives remain"
+}

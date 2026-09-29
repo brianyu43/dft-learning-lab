@@ -1,0 +1,150 @@
+{
+  "action": "pause_controller_only_until_current_SCF_finishes",
+  "requested_by_user": true,
+  "checked_at": "2026-09-29T15:05:19.245958+00:00",
+  "controller_pid": 8197,
+  "controller_command": [
+    ".venv/bin/python",
+    "scripts/completion_batch.py",
+    "--materials",
+    "--execute"
+  ],
+  "controller_create_time": 1790675851.858135,
+  "runner_pid": 87860,
+  "runner_command": [
+    "/Users/xavier/Documents/dev/generaldrugs/dft/.venv/bin/python",
+    "scripts/research_run.py",
+    "--config",
+    "experiments/week3/materials/w3-hetero-g000-pair.json"
+  ],
+  "runner_create_time": 1790693496.933403,
+  "research_children": [
+    {
+      "pid": 87861,
+      "name": "pw.x",
+      "status": "sleeping"
+    }
+  ],
+  "current_job": "w3-hetero-g000-pair",
+  "completed_steps": 14,
+  "previous_state": {
+    "status": "running",
+    "started_at": "2026-09-29T09:57:31.905206+00:00",
+    "pid": 8197,
+    "controller_dir": "runs/completion-materials-2026-09-29T095731903472_0000",
+    "kind": "materials",
+    "stage": "semiconductor_heterobilayer_distance_search",
+    "code_sha256": {
+      "scripts/completion_batch.py": "a2b054d1ae961fdd41e5ced928999980a6f0a62f4d40b001906aaedab2aafe68",
+      "scripts/research_run.py": "e276ab1aa4ddc435d0a3aceec06b27445f6a6c1263f101009d5de14e6cc70cf6",
+      "scripts/week3_materials_pipeline.py": "c3445df613ff35be71723d40b80edd913ec080e4e0b973331c7d612e53a08c69",
+      "scripts/week3_qe.py": "558e60bab6800940d2088e5ec2f4dd810a5a4057af5e849ec6ba23e2ac3b060c",
+      "scripts/week2_qe_results.py": "b04911859d0afd61dba623610d0ceb5a57d8b2496f68fdcf209d35c4c6e6d924",
+      "scripts/prepare_week3_drug.py": "3f4030a8f30c814c60721d6f9e6d94f5c5285d4052d2c536180d3d0b6a2bec26"
+    },
+    "plan_sha256": null,
+    "steps": [
+      {
+        "job_id": "w3-mos2-lattice-vc",
+        "config": "experiments/week3/materials/w3-mos2-lattice-vc.json",
+        "exit_code": 0,
+        "ended_at": "2026-09-29T11:30:24.119858+00:00"
+      },
+      {
+        "job_id": "w3-mose2-lattice-vc",
+        "config": "experiments/week3/materials/w3-mose2-lattice-vc.json",
+        "exit_code": 0,
+        "ended_at": "2026-09-29T13:01:32.831931+00:00"
+      },
+      {
+        "job_id": "w3-mos2-lattice-probe-minus",
+        "config": "experiments/week3/materials/w3-mos2-lattice-probe-minus.json",
+        "exit_code": 0,
+        "ended_at": "2026-09-29T13:09:06.246171+00:00"
+      },
+      {
+        "job_id": "w3-mos2-lattice-probe-plus",
+        "config": "experiments/week3/materials/w3-mos2-lattice-probe-plus.json",
+        "exit_code": 0,
+        "ended_at": "2026-09-29T13:19:32.609032+00:00"
+      },
+      {
+        "job_id": "w3-mos2-precision-selected",
+        "config": "experiments/week3/materials/w3-mos2-precision-selected.json",
+        "exit_code": 0,
+        "ended_at": "2026-09-29T13:21:14.998320+00:00"
+      },
+      {
+        "job_id": "w3-mos2-precision-middle",
+        "config": "experiments/week3/materials/w3-mos2-precision-middle.json",
+        "exit_code": 0,
+        "ended_at": "2026-09-29T13:25:46.139118+00:00"
+      },
+      {
+        "job_id": "w3-mos2-precision-reference",
+        "config": "experiments/week3/materials/w3-mos2-precision-reference.json",
+        "exit_code": 0,
+        "ended_at": "2026-09-29T13:36:14.670375+00:00"
+      },
+      {
+        "job_id": "w3-mose2-lattice-probe-minus",
+        "config": "experiments/week3/materials/w3-mose2-lattice-probe-minus.json",
+        "exit_code": 0,
+        "ended_at": "2026-09-29T13:46:37.164774+00:00"
+      },
+      {
+        "job_id": "w3-mose2-lattice-probe-plus",
+        "config": "experiments/week3/materials/w3-mose2-lattice-probe-plus.json",
+        "exit_code": 0,
+        "ended_at": "2026-09-29T13:57:41.743122+00:00"
+      },
+      {
+        "job_id": "w3-mose2-precision-selected",
+        "config": "experiments/week3/materials/w3-mose2-precision-selected.json",
+        "exit_code": 0,
+        "ended_at": "2026-09-29T14:00:26.427003+00:00"
+      },
+      {
+        "job_id": "w3-mose2-precision-middle",
+        "config": "experiments/week3/materials/w3-mose2-precision-middle.json",
+        "exit_code": 0,
+        "ended_at": "2026-09-29T14:09:10.588870+00:00"
+      },
+      {
+        "job_id": "w3-mose2-precision-reference",
+        "config": "experiments/week3/materials/w3-mose2-precision-reference.json",
+        "exit_code": 0,
+        "ended_at": "2026-09-29T14:24:16.256052+00:00"
+      },
+      {
+        "job_id": "w3-mos2-common-lattice-relax",
+        "config": "experiments/week3/materials/w3-mos2-common-lattice-relax.json",
+        "exit_code": 0,
+        "ended_at": "2026-09-29T14:36:11.192975+00:00"
+      },
+      {
+        "job_id": "w3-mose2-common-lattice-relax",
+        "config": "experiments/week3/materials/w3-mose2-common-lattice-relax.json",
+        "exit_code": 0,
+        "ended_at": "2026-09-29T14:51:36.918187+00:00"
+      }
+    ],
+    "automatic_retries": 0,
+    "remaining_after_week2_seconds": {
+      "orca": 273181.22729999997,
+      "qe": 138410.98
+    },
+    "updated_at": "2026-09-29T15:05:19.026328+00:00",
+    "spent_after_week2_seconds": {
+      "orca": 7424.714999999999,
+      "qe": 17629.147
+    },
+    "current_job": "w3-hetero-g000-pair",
+    "current_config": "experiments/week3/materials/w3-hetero-g000-pair.json",
+    "current_config_sha256": "6fdcb28b4a37df2c33f5abdc5766be1c1927effd56070761a1902125062ec68d",
+    "child_pid": 87860
+  },
+  "scope": "SIGSTOP only to this task controller. The current research runner and QE continue with their existing timeout/RSS guards. No further job can launch until controller resumes.",
+  "controller_status_after_signal": "stopped",
+  "runner_status_after_signal": "sleeping"
+}

@@ -1,0 +1,51 @@
+&CONTROL
+   calculation      = 'scf'
+   nstep            = 100
+   tstress          = .true.
+   tprnfor          = .true.
+   outdir           = './scratch'
+   prefix           = 'w3_mose2_lattice_probe_minus'
+   etot_conv_thr    = 1e-06
+   forc_conv_thr    = 0.0001
+   pseudo_dir       = './pseudo'
+/
+&SYSTEM
+   ecutwfc          = 120
+   ecutrho          = 480
+   occupations      = 'fixed'
+   nspin            = 1
+   input_dft        = 'vdw-df-c09'
+   ntyp             = 2
+   nat              = 3
+   ibrav            = 0
+/
+&ELECTRONS
+   electron_maxstep = 200
+   conv_thr         = 1e-10
+   mixing_beta      = 0.4
+/
+&IONS
+/
+&CELL
+/
+&FCP
+/
+&RISM
+/
+ATOMIC_SPECIES
+Mo 95.95 Mo.upf
+Se 78.971 Se.upf
+
+K_POINTS automatic
+12 12 1  0 0 0
+
+CELL_PARAMETERS angstrom
+3.26144913868693 0.00000000000000 0.00000000000000
+-1.63072456934346 2.82449780725375 0.00000000000000
+0.00000000000000 0.00000000000000 33.36179154573129
+
+ATOMIC_POSITIONS angstrom
+Mo -0.0000000000 -0.0000000000 16.6808957729  
+Se 1.6307245693 0.9414992691 18.3476013621  
+Se 1.6307245693 0.9414992691 15.0141901836  
+
